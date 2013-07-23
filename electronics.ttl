@@ -1,0 +1,113 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+
+
+<http://www.bbc.co.uk/things/f12b5c70-00b8-4d75-a4b6-c39916c26787#id> a curric:TopicOfStudy ;
+    rdfs:label "Design considerations"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/fa9ec4f2-d2b1-4bce-aa0b-bf536e5ab4dc#id> ;
+    curric:about <http://www.bbc.co.uk/things/e42c67e4-65d8-4599-bd0b-d918806ee480#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs3d7ty#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/173b5dd8-7471-4545-a056-432a67b6720b#id> a curric:TopicOfStudy ;
+    rdfs:label "Materials and components"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/fa9ec4f2-d2b1-4bce-aa0b-bf536e5ab4dc#id> ;
+    curric:about <http://www.bbc.co.uk/things/df8829db-1610-4aab-a5a9-68e8d39b9e4d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zfbw2hv#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/2da907cb-28fc-4525-be14-d5b9fa5d7868#id> a curric:TopicOfStudy ;
+    rdfs:label "Production"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/fa9ec4f2-d2b1-4bce-aa0b-bf536e5ab4dc#id> ;
+    curric:about <http://www.bbc.co.uk/things/0daf530f-d73a-4677-83ad-2ec0fd3eac2f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zygjmp3#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/6dd12b2e-3767-49ce-93e1-6c6ee15b8c35#id> a curric:TopicOfStudy ;
+    rdfs:label "Design considerations"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c463bdd1-fd89-453b-8d96-e9df37ae6495#id> ;
+    curric:about <http://www.bbc.co.uk/things/e42c67e4-65d8-4599-bd0b-d918806ee480#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsbw2hv#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/603110ce-e3fd-41b7-b1de-38ff9864d1ee#id> a curric:TopicOfStudy ;
+    rdfs:label "Materials and components"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c463bdd1-fd89-453b-8d96-e9df37ae6495#id> ;
+    curric:about <http://www.bbc.co.uk/things/df8829db-1610-4aab-a5a9-68e8d39b9e4d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zfgjmp3#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/f404e456-ffd0-4a92-bb2b-dfc8d9382784#id> a curric:TopicOfStudy ;
+    rdfs:label "Production"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c463bdd1-fd89-453b-8d96-e9df37ae6495#id> ;
+    curric:about <http://www.bbc.co.uk/things/0daf530f-d73a-4677-83ad-2ec0fd3eac2f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyrqxnb#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/e42c67e4-65d8-4599-bd0b-d918806ee480#id> a curric:Topic ;
+    rdfs:label "Design considerations"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxprkqt#topic> .
+
+
+<http://www.bbc.co.uk/things/df8829db-1610-4aab-a5a9-68e8d39b9e4d#id> a curric:Topic ;
+    rdfs:label "Materials and components"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zts4d2p#topic> .
+
+
+<http://www.bbc.co.uk/things/0daf530f-d73a-4677-83ad-2ec0fd3eac2f#id> a curric:Topic ;
+    rdfs:label "Production"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx7xpv4#topic> .
+
+
+<http://www.bbc.co.uk/things/e42c67e4-65d8-4599-bd0b-d918806ee480#id> a curric:Topic ;
+    rdfs:label "Design considerations"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxprkqt#topic> .
+
+
+<http://www.bbc.co.uk/things/df8829db-1610-4aab-a5a9-68e8d39b9e4d#id> a curric:Topic ;
+    rdfs:label "Materials and components"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zts4d2p#topic> .
+
+
+<http://www.bbc.co.uk/things/0daf530f-d73a-4677-83ad-2ec0fd3eac2f#id> a curric:Topic ;
+    rdfs:label "Production"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx7xpv4#topic> .
+
+
+<http://www.bbc.co.uk/things/fa9ec4f2-d2b1-4bce-aa0b-bf536e5ab4dc#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/cf1b2d3c-1cf4-452f-9752-6e7c5a9857b9#id> .
+
+<http://www.bbc.co.uk/things/cf1b2d3c-1cf4-452f-9752-6e7c5a9857b9#id> a curric:TopicOfStudyList ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zg48q6f#topics-of-study-list> ;
+    olo:slot
+    [ a olo:Slot ;
+      olo:index 1 ;
+      olo:item <http://www.bbc.co.uk/things/f12b5c70-00b8-4d75-a4b6-c39916c26787#id> ] ,
+    [ a olo:Slot ;
+      olo:index 2 ;
+      olo:item <http://www.bbc.co.uk/things/173b5dd8-7471-4545-a056-432a67b6720b#id> ] ,
+    [ a olo:Slot ;
+      olo:index 3 ;
+      olo:item <http://www.bbc.co.uk/things/2da907cb-28fc-4525-be14-d5b9fa5d7868#id> ] .
+    
+<http://www.bbc.co.uk/things/c463bdd1-fd89-453b-8d96-e9df37ae6495#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/fdd2e0d5-9b91-4c40-8d64-0cf02709873f#id> .
+
+<http://www.bbc.co.uk/things/fdd2e0d5-9b91-4c40-8d64-0cf02709873f#id> a curric:TopicOfStudyList ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zv9d7ty#topics-of-study-list> ;
+    olo:slot
+    [ a olo:Slot ;
+      olo:index 1 ;
+      olo:item <http://www.bbc.co.uk/things/6dd12b2e-3767-49ce-93e1-6c6ee15b8c35#id> ] ,
+    [ a olo:Slot ;
+      olo:index 2 ;
+      olo:item <http://www.bbc.co.uk/things/603110ce-e3fd-41b7-b1de-38ff9864d1ee#id> ] ,
+    [ a olo:Slot ;
+      olo:index 3 ;
+      olo:item <http://www.bbc.co.uk/things/f404e456-ffd0-4a92-bb2b-dfc8d9382784#id> ] .
+    

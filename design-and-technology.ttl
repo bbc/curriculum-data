@@ -1,0 +1,53 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+
+
+<http://www.bbc.co.uk/things/bafdb675-d6b1-4afb-97e9-7b68c11b11c9#id> a curric:TopicOfStudy ;
+    rdfs:label "CAD, CAM and new technologies"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> ;
+    curric:about <http://www.bbc.co.uk/things/c74d2cbc-3c67-493e-912a-6af54eb8fe6c#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zhykjxs#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/5c387db4-b953-456d-9a29-c0b901e31165#id> a curric:TopicOfStudy ;
+    rdfs:label "CAD, CAM and new technologies"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> ;
+    curric:about <http://www.bbc.co.uk/things/c74d2cbc-3c67-493e-912a-6af54eb8fe6c#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zhv8q6f#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/c74d2cbc-3c67-493e-912a-6af54eb8fe6c#id> a curric:Topic ;
+    rdfs:label "CAD, CAM and new technologies"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zhf9wmn#topic> .
+
+
+<http://www.bbc.co.uk/things/c74d2cbc-3c67-493e-912a-6af54eb8fe6c#id> a curric:Topic ;
+    rdfs:label "CAD, CAM and new technologies"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zhf9wmn#topic> .
+
+
+<http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/9a6f3569-52ad-4d3d-8657-cb2665fb69c9#id> .
+
+<http://www.bbc.co.uk/things/9a6f3569-52ad-4d3d-8657-cb2665fb69c9#id> a curric:TopicOfStudyList ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zvg4d2p#topics-of-study-list> ;
+    olo:slot
+    [ a olo:Slot ;
+      olo:index 1 ;
+      olo:item <http://www.bbc.co.uk/things/bafdb675-d6b1-4afb-97e9-7b68c11b11c9#id> ] .
+    
+<http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/212d53d8-a89d-4a60-963c-286bdb196516#id> .
+
+<http://www.bbc.co.uk/things/212d53d8-a89d-4a60-963c-286bdb196516#id> a curric:TopicOfStudyList ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zfr9wmn#topics-of-study-list> ;
+    olo:slot
+    [ a olo:Slot ;
+      olo:index 1 ;
+      olo:item <http://www.bbc.co.uk/things/5c387db4-b953-456d-9a29-c0b901e31165#id> ] .
+    

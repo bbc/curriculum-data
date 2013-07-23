@@ -1,0 +1,103 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+
+
+<http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> a curric:Phase ;
+    owl:sameAs <http://www.bbc.co.uk/education/levels/zc9d7ty#level> ;
+    rdfs:label "Secondary"@en-gb ;
+    curric:lowerAgeBoundary "11"^^xsd:integer ;
+    curric:upperAgeBoundary "18"^^xsd:integer  .
+
+
+<http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> a curric:KeyStage ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/levels/z4kw2hv#level> ;
+    rdfs:label "KS3"@en-gb ;
+    dc:description "Key Stage 3 is the first three years of secondary school education in England, Wales and Northern Ireland, for pupils aged 11 to 14."@en-gb ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/1208b2e7-c808-430a-8802-7b39c0212cfb#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/49cc4006-5554-43a8-bc44-cebf0656d2c5#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/281444ed-b895-4217-8152-c4456ccbfdcc#id> ;
+    curric:lowerAgeBoundary "11"^^xsd:integer ;
+    curric:upperAgeBoundary "14"^^xsd:integer  .
+
+
+<http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> a curric:KeyStage ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/levels/z98jmp3#level> ;
+    rdfs:label "GCSE"@en-gb ;
+    dc:description "GCSE is the qualification taken by 15 and 16 year olds to mark their graduation from the Key Stage 4 phase of secondary education in England, Northern Ireland and Wales."@en-gb ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/1208b2e7-c808-430a-8802-7b39c0212cfb#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/49cc4006-5554-43a8-bc44-cebf0656d2c5#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/281444ed-b895-4217-8152-c4456ccbfdcc#id> ;
+    curric:lowerAgeBoundary "14"^^xsd:integer ;
+    curric:upperAgeBoundary "16"^^xsd:integer  .
+
+
+<http://www.bbc.co.uk/things/78e58f87-5b86-477f-8a8a-61da370f9a13#id> a curric:KeyStage ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/levels/zkdqxnb#level> ;
+    rdfs:label "Higher"@en-gb ;
+    dc:description "Highers are national school-leaving certificate exams and university entrance qualifications taken by  16 to 18 year olds in Scotland."@en-gb ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/c4fcdcc4-d88f-4d4b-a6a3-1669f7c2329b#id> ;
+    curric:lowerAgeBoundary "15"^^xsd:integer ;
+    curric:upperAgeBoundary "18"^^xsd:integer  .
+
+
+<http://www.bbc.co.uk/things/458f336d-6c5c-4a97-bd28-89fbd30575df#id> a curric:KeyStage ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/levels/z8w76sg#level> ;
+    rdfs:label "TGAU"@en-gb ;
+    rdfs:label "TGAU"@cy-gb ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/49cc4006-5554-43a8-bc44-cebf0656d2c5#id> ;
+    curric:lowerAgeBoundary "14"^^xsd:integer ;
+    curric:upperAgeBoundary "16"^^xsd:integer  .
+
+
+<http://www.bbc.co.uk/things/64b46dff-9c22-412a-a7aa-1d29446c4845#id> a curric:KeyStage ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/levels/z6gw2hv#level> ;
+    rdfs:label "National 5"@en-gb ;
+    dc:description "National 5 is the third or advanced tier of the secondary qualification taken by 14 to 16 year olds in Scotland."@en-gb ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/c4fcdcc4-d88f-4d4b-a6a3-1669f7c2329b#id> ;
+    curric:lowerAgeBoundary "14"^^xsd:integer ;
+    curric:upperAgeBoundary "17"^^xsd:integer  .
+
+
+<http://www.bbc.co.uk/things/549b274e-1529-487f-8485-0eb50b916d47#id> a curric:KeyStage ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/levels/zh6vr82#level> ;
+    rdfs:label "CA3"@en-gb ;
+    rdfs:label "CA3"@cy-gb ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/49cc4006-5554-43a8-bc44-cebf0656d2c5#id> ;
+    curric:lowerAgeBoundary "11"^^xsd:integer ;
+    curric:upperAgeBoundary "14"^^xsd:integer  .
+
+
+<http://www.bbc.co.uk/things/07a766a1-f579-438c-a63d-5d96ab2f6e32#id> a curric:KeyStage ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/levels/zp3d7ty#level> ;
+    rdfs:label "National 4"@en-gb ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/c4fcdcc4-d88f-4d4b-a6a3-1669f7c2329b#id> ;
+    curric:lowerAgeBoundary "14"^^xsd:integer ;
+    curric:upperAgeBoundary "17"^^xsd:integer  .
+
+
+<http://www.bbc.co.uk/things/1208b2e7-c808-430a-8802-7b39c0212cfb#id> a curric:Nation ;
+    rdfs:label "England"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/nations/z2yb4wx#nations> .
+
+<http://www.bbc.co.uk/things/49cc4006-5554-43a8-bc44-cebf0656d2c5#id> a curric:Nation ;
+    rdfs:label "Wales"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/nations/zmvg9j6#nations> .
+
+<http://www.bbc.co.uk/things/c4fcdcc4-d88f-4d4b-a6a3-1669f7c2329b#id> a curric:Nation ;
+    rdfs:label "Scotland"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/nations/zx3rkqt#nations> .
+
+<http://www.bbc.co.uk/things/281444ed-b895-4217-8152-c4456ccbfdcc#id> a curric:Nation ;
+    rdfs:label "Northern Ireland"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/nations/z6bc87h#nations> .

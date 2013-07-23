@@ -1,0 +1,464 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+
+
+<http://www.bbc.co.uk/things/b4837f74-1241-4931-a36e-8b779ca17ced#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Art and Design"@en-gb ;
+    rdfs:label "GCSE Celf a Dylunio"@cy-gb ;
+    rdfs:label "GCSE Ealain agus Dealbhadh"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/8b0a3567-94a2-48ee-8d71-571600aa322b#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z6hs34j#programme-of-study> .
+
+<http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Business"@en-gb ;
+    rdfs:label "GCSE Astudiaethau busnes"@cy-gb ;
+    rdfs:label "GCSE Eòlas Gnothachais"@gd-gb ;
+    dc:description "GCSE Business Studies is designed for students finishing secondary school to learn skills for running a business, such as managing money, advertising and employing staff."@en-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/5ec974ed-97fb-4f67-9c77-71435fbab025#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zpsvr82#programme-of-study> .
+
+<http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Design and Technology"@en-gb ;
+    rdfs:label "GCSE Dylunio a Thechnoleg"@cy-gb ;
+    rdfs:label "GCSE Eòlas Teicneòlasach"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zvg4d2p#programme-of-study> .
+
+<http://www.bbc.co.uk/things/fa9ec4f2-d2b1-4bce-aa0b-bf536e5ab4dc#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> ;
+    rdfs:label "GCSE Electronics"@en-gb ;
+    rdfs:label "GCSE Electroneg"@cy-gb ;
+    rdfs:label "GCSE Eileagtronaigs"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/4c3bd8f5-e577-4eb6-abe7-e86d0f77f1c1#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zg48q6f#programme-of-study> .
+
+<http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE English"@en-gb ;
+    rdfs:label "GCSE Saesneg"@cy-gb ;
+    rdfs:label "GCSE Beurla"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/bb440724-49e2-414e-954c-109532bc8ff6#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zr9d7ty#programme-of-study> .
+
+<http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE English Literature"@en-gb ;
+    rdfs:label "GCSE Saesneg Llenyddiaeth"@cy-gb ;
+    rdfs:label "GCSE Litreachas Beurla"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/facda79e-4b63-4a6f-b40a-0d4a6aabf154#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zckw2hv#programme-of-study> .
+
+<http://www.bbc.co.uk/things/1953ff88-bff5-453e-9bf4-ed0a7e588643#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> ;
+    rdfs:label "GCSE Food Technology"@en-gb ;
+    rdfs:label "GCSE Technoleg Bwyd"@cy-gb ;
+    rdfs:label "GCSE Teicneòlas Bìdh"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/07ad6cb5-6433-43ed-b17c-ac56ec1391bb#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z48jmp3#programme-of-study> .
+
+<http://www.bbc.co.uk/things/239bd142-84ff-4672-ab91-6090722495ed#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/a6f4da08-e1ec-430d-b363-90f2d6345ba1#id> ;
+    rdfs:label "GCSE French"@en-gb ;
+    rdfs:label "GCSE Ffrangeg"@cy-gb ;
+    rdfs:label "GCSE Fraingis"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/1690867e-da26-463b-9c53-a651092efe38#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z9dqxnb#programme-of-study> .
+
+<http://www.bbc.co.uk/things/aa3042ae-4215-42bb-9785-d13f7c7db3b6#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Geography"@en-gb ;
+    rdfs:label "GCSE Daearyddiaeth"@cy-gb ;
+    rdfs:label "GCSE Cruinn-Eòlas"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/d61fd39e-a4d6-4494-9b01-606c7fcd6b71#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zkw76sg#programme-of-study> .
+
+<http://www.bbc.co.uk/things/9eeeecdf-8bf9-4b25-a3c3-bb3f1fd661ba#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/a6f4da08-e1ec-430d-b363-90f2d6345ba1#id> ;
+    rdfs:label "GCSE German"@en-gb ;
+    rdfs:label "GCSE Almaeneg"@cy-gb ;
+    rdfs:label "GCSE Gearmailtis"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/e060d466-292b-4cd6-8952-4cc632f7ca21#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z8j2tfr#programme-of-study> .
+
+<http://www.bbc.co.uk/things/a214370a-665a-40c0-bd73-2d5290b517b6#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> ;
+    rdfs:label "GCSE Graphics"@en-gb ;
+    rdfs:label "GCSE Graffeg"@cy-gb ;
+    rdfs:label "GCSE Grafaigean"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/81d9e475-f5a3-4336-93c2-0cd45e1bdfa5#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zdqmhyc#programme-of-study> .
+
+<http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE ICT"@en-gb ;
+    rdfs:label "GCSE TG"@cy-gb ;
+    rdfs:label "GCSE ICT"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/812dc56a-fdbf-408e-b07b-789ffead892f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zqmtsbk#programme-of-study> .
+
+<http://www.bbc.co.uk/things/abcac9d8-f20e-4eb7-937d-ae08051fb092#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Maths"@en-gb ;
+    rdfs:label "GCSE Mathemateg"@cy-gb ;
+    rdfs:label "GCSE Matamataig"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/0fbda866-63f8-4c11-9fa9-46c6c39ea4d0#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z6pfb9q#programme-of-study> .
+
+<http://www.bbc.co.uk/things/a6f4da08-e1ec-430d-b363-90f2d6345ba1#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Modern Foreign Languages"@en-gb ;
+    rdfs:label "GCSE Ieithoedd"@cy-gb ;
+    rdfs:label "GCSE Cànain"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/0064471a-b505-4a7c-accc-b358848da1c2#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zhsvr82#programme-of-study> .
+
+<http://www.bbc.co.uk/things/9817a3c8-f941-48b4-bab9-a30cda2c21ef#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Physical Education"@en-gb ;
+    rdfs:label "GCSE Addysg Gorfforol"@cy-gb ;
+    rdfs:label "GCSE Eòlas Corporra"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/f020d55b-c5a4-49e0-8b22-ebb59d423c9d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/znyb4wx#programme-of-study> .
+
+<http://www.bbc.co.uk/things/cd7525be-09f4-4943-8f62-3612c37c370a#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> ;
+    rdfs:label "GCSE Product Design"@en-gb ;
+    rdfs:label "GCSE Dylunio cynnyrch"@cy-gb ;
+    rdfs:label "GCSE Dealbh Toradh "@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/c3d83052-8e61-4d2a-a2c9-bab53df03862#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zybc87h#programme-of-study> .
+
+<http://www.bbc.co.uk/things/590e7e1a-5547-4e9e-bd23-b726f017c15d#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Religious Studies"@en-gb ;
+    rdfs:label "GCSE Astudiaethau Crefyddol"@cy-gb ;
+    rdfs:label "GCSE Eòlas Creideimh agus Moraltachd"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/3cbb82bf-4808-44d2-9ef3-949172585378#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zb48q6f#programme-of-study> .
+
+<http://www.bbc.co.uk/things/f64181f6-4112-497f-bff4-5a8d8ffff5cf#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> ;
+    rdfs:label "GCSE Resistant Materials"@en-gb ;
+    rdfs:label "GCSE Defnyddiau gwrthiannol"@cy-gb ;
+    rdfs:label "GCSE Stuthan Bacaidh"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/95d4a5df-ce7a-444f-addd-b58d3c3c919e#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zg9d7ty#programme-of-study> .
+
+<http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/a6f4da08-e1ec-430d-b363-90f2d6345ba1#id> ;
+    rdfs:label "GCSE Spanish"@en-gb ;
+    rdfs:label "GCSE Sbaeneg"@cy-gb ;
+    rdfs:label "GCSE Spàinntis"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/62fb91b7-2811-4cde-a3a9-5400f28b7fb6#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z4dqxnb#programme-of-study> .
+
+<http://www.bbc.co.uk/things/c7c4e645-0065-4d95-a1b7-62135d52ffcc#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> ;
+    rdfs:label "GCSE Systems and Control"@en-gb ;
+    rdfs:label "GCSE Siostaman agus Riaghladh"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/e44ddf42-fff6-42e3-ba3d-c22c64b4691e#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z9w76sg#programme-of-study> .
+
+<http://www.bbc.co.uk/things/e58ca186-f03e-4a19-a8aa-ab6f39ec2e47#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> ;
+    rdfs:label "GCSE Textiles"@en-gb ;
+    rdfs:label "GCSE Tecstilau"@cy-gb ;
+    rdfs:label "GCSE Aodach Fighte"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/52bd6267-e7a5-4d36-b87d-ab2bad7652d7#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zkj2tfr#programme-of-study> .
+
+<http://www.bbc.co.uk/things/9c3097bf-93bd-40a4-a579-c344aa7df213#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "Higher Geography"@en-gb ;
+    rdfs:label "Higher Daearyddiaeth"@cy-gb ;
+    rdfs:label "Higher Cruinn-Eòlas"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/78e58f87-5b86-477f-8a8a-61da370f9a13#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/d61fd39e-a4d6-4494-9b01-606c7fcd6b71#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zmhs34j#programme-of-study> .
+
+<http://www.bbc.co.uk/things/2abec2b3-e683-451f-81fc-5f2a87864bea#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "Higher Maths"@en-gb ;
+    rdfs:label "Higher Mathemateg"@cy-gb ;
+    rdfs:label "Higher Matamataig"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/78e58f87-5b86-477f-8a8a-61da370f9a13#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/0fbda866-63f8-4c11-9fa9-46c6c39ea4d0#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z6nygk7#programme-of-study> .
+
+<http://www.bbc.co.uk/things/b26633ef-f14e-4376-8514-bc0053af537b#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "KS3 Art and Design"@en-gb ;
+    rdfs:label "KS3 Celf a Dylunio"@cy-gb ;
+    rdfs:label "KS3 Ealain agus Dealbhadh"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/8b0a3567-94a2-48ee-8d71-571600aa322b#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z6f3cdm#programme-of-study> .
+
+<http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "KS3 Design and Technology"@en-gb ;
+    rdfs:label "KS3 Dylunio a Thechnoleg"@cy-gb ;
+    rdfs:label "KS3 Eòlas Teicneòlasach"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zfr9wmn#programme-of-study> .
+
+<http://www.bbc.co.uk/things/c463bdd1-fd89-453b-8d96-e9df37ae6495#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> ;
+    rdfs:label "KS3 Electronics"@en-gb ;
+    rdfs:label "KS3 Electroneg"@cy-gb ;
+    rdfs:label "KS3 Eileagtronaigs"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/4c3bd8f5-e577-4eb6-abe7-e86d0f77f1c1#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zv9d7ty#programme-of-study> .
+
+<http://www.bbc.co.uk/things/e7a57424-1f63-4e5d-9b36-f985160a2a28#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "KS3 English"@en-gb ;
+    rdfs:label "KS3 Saesneg"@cy-gb ;
+    rdfs:label "KS3 Beurla"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/bb440724-49e2-414e-954c-109532bc8ff6#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z3kw2hv#programme-of-study> .
+
+<http://www.bbc.co.uk/things/8372bf07-994d-4432-a35e-40e496265000#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> ;
+    rdfs:label "KS3 Food Technology"@en-gb ;
+    rdfs:label "KS3 Technoleg Bwyd"@cy-gb ;
+    rdfs:label "KS3 Teicneòlas Bìdh"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/07ad6cb5-6433-43ed-b17c-ac56ec1391bb#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zb8jmp3#programme-of-study> .
+
+<http://www.bbc.co.uk/things/254e96e7-a470-4900-a022-9a6f21ad619f#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/a42d5ed3-e4cc-470f-9a58-4e6aed787450#id> ;
+    rdfs:label "KS3 French"@en-gb ;
+    rdfs:label "KS3 Ffrangeg"@cy-gb ;
+    rdfs:label "KS3 Fraingis"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/1690867e-da26-463b-9c53-a651092efe38#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zgdqxnb#programme-of-study> .
+
+<http://www.bbc.co.uk/things/d9eb9425-746c-46bf-b93e-fd35dad3effc#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "KS3 Geography"@en-gb ;
+    rdfs:label "KS3 Daearyddiaeth"@cy-gb ;
+    rdfs:label "KS3 Cruinn-Eòlas"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/d61fd39e-a4d6-4494-9b01-606c7fcd6b71#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zrw76sg#programme-of-study> .
+
+<http://www.bbc.co.uk/things/a9259302-2121-4ccd-b9a6-bc4c06e99179#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/a42d5ed3-e4cc-470f-9a58-4e6aed787450#id> ;
+    rdfs:label "KS3 German"@en-gb ;
+    rdfs:label "KS3 Almaeneg"@cy-gb ;
+    rdfs:label "KS3 Gearmailtis"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/e060d466-292b-4cd6-8952-4cc632f7ca21#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zcj2tfr#programme-of-study> .
+
+<http://www.bbc.co.uk/things/116f4663-828a-4572-a1d9-5113eb399330#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> ;
+    rdfs:label "KS3 Graphics"@en-gb ;
+    rdfs:label "KS3 Graffeg"@cy-gb ;
+    rdfs:label "KS3 Grafaigean"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/81d9e475-f5a3-4336-93c2-0cd45e1bdfa5#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z4qmhyc#programme-of-study> .
+
+<http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "KS3 ICT"@en-gb ;
+    rdfs:label "KS3 TG"@cy-gb ;
+    rdfs:label "KS3 ICT"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/812dc56a-fdbf-408e-b07b-789ffead892f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z8mtsbk#programme-of-study> .
+
+<http://www.bbc.co.uk/things/6a9ded24-9018-4867-9691-5cbb33eba2ef#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "KS3 Maths"@en-gb ;
+    rdfs:label "KS3 Mathemateg"@cy-gb ;
+    rdfs:label "KS3 Matamataig"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/0fbda866-63f8-4c11-9fa9-46c6c39ea4d0#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zqhs34j#programme-of-study> .
+
+<http://www.bbc.co.uk/things/a42d5ed3-e4cc-470f-9a58-4e6aed787450#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "KS3 Modern Foreign Languages"@en-gb ;
+    rdfs:label "KS3 Ieithoedd"@cy-gb ;
+    rdfs:label "KS3 Cànain"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/0064471a-b505-4a7c-accc-b358848da1c2#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z2nygk7#programme-of-study> .
+
+<http://www.bbc.co.uk/things/0b74cef5-d187-41bf-b335-4ebbb25f1099#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "KS3 Physical Education"@en-gb ;
+    rdfs:label "KS3 Addysg Gorfforol"@cy-gb ;
+    rdfs:label "KS3 Eòlas Corporra"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/f020d55b-c5a4-49e0-8b22-ebb59d423c9d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zxf3cdm#programme-of-study> .
+
+<http://www.bbc.co.uk/things/50492f6e-b35a-4604-a028-52719dea70cd#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> ;
+    rdfs:label "KS3 Product Design"@en-gb ;
+    rdfs:label "KS3 Dylunio cynnyrch"@cy-gb ;
+    rdfs:label "KS3 Dealbh Toradh "@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/c3d83052-8e61-4d2a-a2c9-bab53df03862#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z6yb4wx#programme-of-study> .
+
+<http://www.bbc.co.uk/things/c2e4c035-cf0c-4065-b065-9d89871abfbd#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "KS3 Religious Studies"@en-gb ;
+    rdfs:label "KS3 Astudiaethau Crefyddol"@cy-gb ;
+    rdfs:label "KS3 Eòlas Creideimh agus Moraltachd"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/3cbb82bf-4808-44d2-9ef3-949172585378#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zh3rkqt#programme-of-study> .
+
+<http://www.bbc.co.uk/things/36d95de2-c8ef-411c-ba46-8390ae923b0b#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> ;
+    rdfs:label "KS3 Resistant Materials"@en-gb ;
+    rdfs:label "KS3 Defnyddiau gwrthiannol"@cy-gb ;
+    rdfs:label "KS3 Stuthan Bacaidh"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/95d4a5df-ce7a-444f-addd-b58d3c3c919e#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zpbc87h#programme-of-study> .
+
+<http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/a42d5ed3-e4cc-470f-9a58-4e6aed787450#id> ;
+    rdfs:label "KS3 Spanish"@en-gb ;
+    rdfs:label "KS3 Sbaeneg"@cy-gb ;
+    rdfs:label "KS3 Spàinntis"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/62fb91b7-2811-4cde-a3a9-5400f28b7fb6#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zfckjxs#programme-of-study> .
+
+<http://www.bbc.co.uk/things/4179ff6e-9ba3-4d31-a149-d98d3fc3117b#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> ;
+    rdfs:label "KS3 Systems and Control"@en-gb ;
+    rdfs:label "KS3 Siostaman agus Riaghladh"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/e44ddf42-fff6-42e3-ba3d-c22c64b4691e#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zy48q6f#programme-of-study> .
+
+<http://www.bbc.co.uk/things/ad6b5902-5ef3-40a7-b2f9-4462b5bea601#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> ;
+    rdfs:label "KS3 Textiles"@en-gb ;
+    rdfs:label "KS3 Tecstilau"@cy-gb ;
+    rdfs:label "KS3 Aodach Fighte"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/52bd6267-e7a5-4d36-b87d-ab2bad7652d7#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zvkw2hv#programme-of-study> .
+
+<http://www.bbc.co.uk/things/5009189f-8e62-4c1d-8ac0-fe7a14db2c19#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "TGAU Welsh (for 1st language)"@en-gb ;
+    rdfs:label "TGAU Cymraeg"@cy-gb ;
+    rdfs:label "TGAU Cuimris"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/458f336d-6c5c-4a97-bd28-89fbd30575df#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/dd44f60c-0612-4dac-b883-9858170ed4e2#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z8xhfg8#programme-of-study> .
+
+<http://www.bbc.co.uk/things/12af67a0-7fbc-40fc-93ce-73b720e26f3b#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "National 5 Maths"@en-gb ;
+    rdfs:label "National 5 Mathemateg"@cy-gb ;
+    rdfs:label "National 5 Matamataig"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/64b46dff-9c22-412a-a7aa-1d29446c4845#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/0fbda866-63f8-4c11-9fa9-46c6c39ea4d0#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/ztrjmp3#programme-of-study> .
+
+<http://www.bbc.co.uk/things/265df775-f85b-4d1e-ae24-88b546a67085#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "CA3 Welsh (for 1st language)"@en-gb ;
+    rdfs:label "CA3 Cymraeg"@cy-gb ;
+    rdfs:label "CA3 Cuimris"@gd-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/549b274e-1529-487f-8485-0eb50b916d47#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/dd44f60c-0612-4dac-b883-9858170ed4e2#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zpt3cdm#programme-of-study> .
+
+<http://www.bbc.co.uk/things/9bd0691f-a922-41dd-baa2-5fb02e27dd34#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> ;
+    rdfs:label "KS3 Architecture"@en-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/7ca3983d-b114-49b3-a1e8-1252a5e1316d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zjmygk7#programme-of-study> .
+
+<http://www.bbc.co.uk/things/3c0dca85-75da-4ff8-b9f3-fca5d4c03416#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> ;
+    rdfs:label "GCSE Architecture"@en-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/7ca3983d-b114-49b3-a1e8-1252a5e1316d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zqxvr82#programme-of-study> .
+
+<http://www.bbc.co.uk/things/0d2a86b0-4f12-48cf-a267-bd4a6a115024#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/f90b3216-3514-4561-a091-9425638ac9ef#id> ;
+    rdfs:label "KS3 Engineering"@en-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/32cdc6ef-9854-443a-ab84-d749fa667da5#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z2tb4wx#programme-of-study> .
+
+<http://www.bbc.co.uk/things/daa53daf-c9ac-483e-8822-eddcdf593485#id> a curric:ProgrammeOfStudy ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/2db5eb06-c06d-433f-af72-ef50f6dd6352#id> ;
+    rdfs:label "GCSE Engineering"@en-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/32cdc6ef-9854-443a-ab84-d749fa667da5#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zmhg9j6#programme-of-study> .
+
+<http://www.bbc.co.uk/things/ab242c30-63b7-4400-aa06-d3dbf0d1f45a#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "National 5 Geography"@en-gb ;
+    dc:description "National 5 Geography is designed for students to study the shape and features of the Earth's surface, including countries, vegetation, climates and how humans use the world's resources."@en-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/64b46dff-9c22-412a-a7aa-1d29446c4845#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/d61fd39e-a4d6-4494-9b01-606c7fcd6b71#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/znbw2hv#programme-of-study> .
+
+<http://www.bbc.co.uk/things/c6144197-066d-4b37-bdef-9ac284490941#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "National 4 Geography"@en-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/07a766a1-f579-438c-a63d-5d96ab2f6e32#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/d61fd39e-a4d6-4494-9b01-606c7fcd6b71#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zfrqxnb#programme-of-study> .
+
+<http://www.bbc.co.uk/things/fd57d21d-cc00-4304-9bc6-e444c08ed848#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "National 4 Maths"@en-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/07a766a1-f579-438c-a63d-5d96ab2f6e32#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/0fbda866-63f8-4c11-9fa9-46c6c39ea4d0#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zyc76sg#programme-of-study> .
+
+<http://www.bbc.co.uk/things/1af87827-c0a3-421f-8e67-d98ac0dac347#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "TGAU Geography"@en-gb ;
+    rdfs:label "TGAU Daearyddiaeth"@cy-gb ;
+    dc:description ""@cy-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/458f336d-6c5c-4a97-bd28-89fbd30575df#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/d61fd39e-a4d6-4494-9b01-606c7fcd6b71#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z9s4d2p#programme-of-study> .
+
+<http://www.bbc.co.uk/things/da790ffb-dabe-4098-b922-6716a6f89ae5#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "CA3 Geography"@en-gb ;
+    rdfs:label "CA3 Daearyddiaeth"@cy-gb ;
+    dc:description ""@cy-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/549b274e-1529-487f-8485-0eb50b916d47#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/d61fd39e-a4d6-4494-9b01-606c7fcd6b71#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zkf9wmn#programme-of-study> .
+
+<http://www.bbc.co.uk/things/36c131f0-2806-444d-a5fe-09cb0cd661c5#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "TGAU Media Studies"@en-gb ;
+    rdfs:label "TGAU Astudio’r Cyfryngau"@cy-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/458f336d-6c5c-4a97-bd28-89fbd30575df#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/030b092b-355c-461c-bef5-faf351aadede#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zjrqxnb#programme-of-study> .
+
+<http://www.bbc.co.uk/things/b4295d70-c5b2-43d0-a8a4-f3170c8cdc17#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "TGAU Religious Studies"@en-gb ;
+    rdfs:label "TGAU Astudiaethau Crefyddol"@cy-gb ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/458f336d-6c5c-4a97-bd28-89fbd30575df#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/3cbb82bf-4808-44d2-9ef3-949172585378#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zm86n39#programme-of-study> .
+

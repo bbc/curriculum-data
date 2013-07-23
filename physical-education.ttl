@@ -1,0 +1,313 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+
+
+<http://www.bbc.co.uk/things/49030fec-bb96-4d36-acba-b120a38765ab#id> a curric:TopicOfStudy ;
+    rdfs:label "Performing sport"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9817a3c8-f941-48b4-bab9-a30cda2c21ef#id> ;
+    curric:about <http://www.bbc.co.uk/things/3e9abfd2-17f1-495d-aa21-c26fdab96693#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2vg9j6#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/c2727a69-2ca1-421f-9b67-3fe38f3c34fd#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysis and development of performance"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9817a3c8-f941-48b4-bab9-a30cda2c21ef#id> ;
+    curric:about <http://www.bbc.co.uk/things/ad4072e1-5c74-4947-9e76-046ac9563cae#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxbc87h#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/0c046602-081f-438e-932e-dab96012451d#id> a curric:TopicOfStudy ;
+    rdfs:label "Factors affecting participation"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9817a3c8-f941-48b4-bab9-a30cda2c21ef#id> ;
+    curric:about <http://www.bbc.co.uk/things/fa30a9be-20bd-43c8-b210-5ba463ff93aa#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z6g4d2p#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/537b25cc-af14-4106-8391-07dfdd3c7e89#id> a curric:TopicOfStudy ;
+    rdfs:label "Popular sports"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9817a3c8-f941-48b4-bab9-a30cda2c21ef#id> ;
+    curric:about <http://www.bbc.co.uk/things/82fe0d1b-bc02-4e58-aa00-651b2e31557f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztr9wmn#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/8abdc0a8-d48a-4bc4-8f9d-76e42d7f3009#id> a curric:TopicOfStudy ;
+    rdfs:label "Dance"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9817a3c8-f941-48b4-bab9-a30cda2c21ef#id> ;
+    curric:about <http://www.bbc.co.uk/things/81bf4473-8ad3-45ab-b419-94a500629910#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z46pyrd#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/f77a90f1-631b-4bf5-b600-1a19f9436f0d#id> a curric:TopicOfStudy ;
+    rdfs:label "Popular sports"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/0b74cef5-d187-41bf-b335-4ebbb25f1099#id> ;
+    curric:about <http://www.bbc.co.uk/things/82fe0d1b-bc02-4e58-aa00-651b2e31557f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgmtsbk#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/c7f86cde-75d0-48d6-bcb0-4f575b75bba9#id> a curric:TopicOfStudy ;
+    rdfs:label "Dance"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/0b74cef5-d187-41bf-b335-4ebbb25f1099#id> ;
+    curric:about <http://www.bbc.co.uk/things/81bf4473-8ad3-45ab-b419-94a500629910#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zmg4d2p#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/0d14067b-8e81-4d76-9c35-47ccbdd1beee#id> a curric:TopicOfStudy ;
+    rdfs:label "Cycling"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/0b74cef5-d187-41bf-b335-4ebbb25f1099#id> ;
+    curric:about <http://www.bbc.co.uk/things/1599cb81-403d-46a9-aff5-948285fdd705#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zh9d7ty#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/3e9abfd2-17f1-495d-aa21-c26fdab96693#id> a curric:Topic ;
+    rdfs:label "Performing sport"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zntnvcw#topic> .
+
+
+<http://www.bbc.co.uk/things/ad4072e1-5c74-4947-9e76-046ac9563cae#id> a curric:Topic ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/3e9abfd2-17f1-495d-aa21-c26fdab96693#id> ;
+    rdfs:label "Analysis and development of performance"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zfpfb9q#topic> .
+
+
+<http://www.bbc.co.uk/things/fa30a9be-20bd-43c8-b210-5ba463ff93aa#id> a curric:Topic ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/3e9abfd2-17f1-495d-aa21-c26fdab96693#id> ;
+    rdfs:label "Factors affecting participation"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zynygk7#topic> .
+
+
+<http://www.bbc.co.uk/things/82fe0d1b-bc02-4e58-aa00-651b2e31557f#id> a curric:Topic ;
+    rdfs:label "Popular sports"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zvf3cdm#topic> .
+
+
+<http://www.bbc.co.uk/things/81bf4473-8ad3-45ab-b419-94a500629910#id> a curric:Topic ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/82fe0d1b-bc02-4e58-aa00-651b2e31557f#id> ;
+    rdfs:label "Dance"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqw76sg#topic> .
+
+
+<http://www.bbc.co.uk/things/82fe0d1b-bc02-4e58-aa00-651b2e31557f#id> a curric:Topic ;
+    rdfs:label "Popular sports"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zvf3cdm#topic> .
+
+
+<http://www.bbc.co.uk/things/81bf4473-8ad3-45ab-b419-94a500629910#id> a curric:Topic ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/82fe0d1b-bc02-4e58-aa00-651b2e31557f#id> ;
+    rdfs:label "Dance"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqw76sg#topic> .
+
+
+<http://www.bbc.co.uk/things/1599cb81-403d-46a9-aff5-948285fdd705#id> a curric:Topic ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/82fe0d1b-bc02-4e58-aa00-651b2e31557f#id> ;
+    rdfs:label "Cycling"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx26n39#topic> .
+
+
+<http://www.bbc.co.uk/things/9817a3c8-f941-48b4-bab9-a30cda2c21ef#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/d3e475e4-531c-4754-8d39-6dffbcff15b8#id> .
+
+<http://www.bbc.co.uk/things/d3e475e4-531c-4754-8d39-6dffbcff15b8#id> a curric:TopicOfStudyList ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/znyb4wx#topics-of-study-list> ;
+    olo:slot
+    [ a olo:Slot ;
+      olo:index 1 ;
+      olo:item <http://www.bbc.co.uk/things/49030fec-bb96-4d36-acba-b120a38765ab#id> ] ,
+    [ a olo:Slot ;
+      olo:index 2 ;
+      olo:item <http://www.bbc.co.uk/things/537b25cc-af14-4106-8391-07dfdd3c7e89#id> ] .
+    
+<http://www.bbc.co.uk/things/0b74cef5-d187-41bf-b335-4ebbb25f1099#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/77b6b9e7-b7c2-4cee-91e8-176d997db0f3#id> .
+
+<http://www.bbc.co.uk/things/77b6b9e7-b7c2-4cee-91e8-176d997db0f3#id> a curric:TopicOfStudyList ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zxf3cdm#topics-of-study-list> ;
+    olo:slot
+    [ a olo:Slot ;
+      olo:index 2 ;
+      olo:item <http://www.bbc.co.uk/things/f77a90f1-631b-4bf5-b600-1a19f9436f0d#id> ] .
+    
+<http://www.bbc.co.uk/things/49030fec-bb96-4d36-acba-b120a38765ab#id> a curric:TopicOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/40ef072b-89c3-45ce-9473-2d481b7eb0a2#id> .
+
+<http://www.bbc.co.uk/things/40ef072b-89c3-45ce-9473-2d481b7eb0a2#id> a curric:TopicOfStudyList ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z2vg9j6#topics-of-study-list> ;
+    olo:slot
+    [ a olo:Slot ;
+      olo:index 1 ;
+      olo:item <http://www.bbc.co.uk/things/21dfb70d-1f1a-41f3-8af1-ca15d1557826#id> ] ,
+    [ a olo:Slot ;
+      olo:index 2 ;
+      olo:item <http://www.bbc.co.uk/things/c2727a69-2ca1-421f-9b67-3fe38f3c34fd#id> ] ,
+    [ a olo:Slot ;
+      olo:index 3 ;
+      olo:item <http://www.bbc.co.uk/things/0c046602-081f-438e-932e-dab96012451d#id> ] .
+    
+<http://www.bbc.co.uk/things/537b25cc-af14-4106-8391-07dfdd3c7e89#id> a curric:TopicOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/c55a756b-2fab-4c7d-83f8-a47fb950147a#id> .
+
+<http://www.bbc.co.uk/things/c55a756b-2fab-4c7d-83f8-a47fb950147a#id> a curric:TopicOfStudyList ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/ztr9wmn#topics-of-study-list> ;
+    olo:slot
+    [ a olo:Slot ;
+      olo:index 1 ;
+      olo:item <http://www.bbc.co.uk/things/b7c38367-c110-4ba8-953b-2122bce71009#id> ] ,
+    [ a olo:Slot ;
+      olo:index 2 ;
+      olo:item <http://www.bbc.co.uk/things/b0ad6290-6d92-4389-80ad-799100b70e69#id> ] ,
+    [ a olo:Slot ;
+      olo:index 3 ;
+      olo:item <http://www.bbc.co.uk/things/a81772b9-1b43-434b-a344-dd89640d24fd#id> ] ,
+    [ a olo:Slot ;
+      olo:index 4 ;
+      olo:item <http://www.bbc.co.uk/things/48f401c5-2114-4278-a2d9-737f65883820#id> ] ,
+    [ a olo:Slot ;
+      olo:index 5 ;
+      olo:item <http://www.bbc.co.uk/things/2c1e534b-77a5-456b-b4f1-40fa89a90c8f#id> ] ,
+    [ a olo:Slot ;
+      olo:index 6 ;
+      olo:item <http://www.bbc.co.uk/things/7ca75565-3be1-4de2-9c0b-1625650da226#id> ] ,
+    [ a olo:Slot ;
+      olo:index 7 ;
+      olo:item <http://www.bbc.co.uk/things/9a45d088-d212-4e73-88cb-88ffad4038f4#id> ] ,
+    [ a olo:Slot ;
+      olo:index 8 ;
+      olo:item <http://www.bbc.co.uk/things/8af5683e-61d8-4949-808a-abfa50fd7cd9#id> ] ,
+    [ a olo:Slot ;
+      olo:index 9 ;
+      olo:item <http://www.bbc.co.uk/things/6a0c59f2-da2f-456c-b52c-93399c3b3fd8#id> ] ,
+    [ a olo:Slot ;
+      olo:index 10 ;
+      olo:item <http://www.bbc.co.uk/things/4e66f04c-591e-44bf-80be-8aed253d444d#id> ] ,
+    [ a olo:Slot ;
+      olo:index 11 ;
+      olo:item <http://www.bbc.co.uk/things/89715a40-92ee-4bb0-8c0d-a5d3e6d49eb8#id> ] ,
+    [ a olo:Slot ;
+      olo:index 12 ;
+      olo:item <http://www.bbc.co.uk/things/5ebc7dd1-79ec-41b4-9979-42b5e435ba4f#id> ] ,
+    [ a olo:Slot ;
+      olo:index 13 ;
+      olo:item <http://www.bbc.co.uk/things/8abdc0a8-d48a-4bc4-8f9d-76e42d7f3009#id> ] ,
+    [ a olo:Slot ;
+      olo:index 14 ;
+      olo:item <http://www.bbc.co.uk/things/0edd380e-e6d7-4f33-af28-c122d3cc85fc#id> ] ,
+    [ a olo:Slot ;
+      olo:index 15 ;
+      olo:item <http://www.bbc.co.uk/things/78d82acd-1caa-4993-a939-0dc7b6ffd8af#id> ] ,
+    [ a olo:Slot ;
+      olo:index 16 ;
+      olo:item <http://www.bbc.co.uk/things/1082754c-cbc4-435b-aae6-4d51b2e85abb#id> ] ,
+    [ a olo:Slot ;
+      olo:index 17 ;
+      olo:item <http://www.bbc.co.uk/things/81fba290-f6d7-49e2-bcaa-bf8f44c55d45#id> ] ,
+    [ a olo:Slot ;
+      olo:index 18 ;
+      olo:item <http://www.bbc.co.uk/things/80e9c3e5-2790-4bfb-9d5b-f9d3582b8d68#id> ] ,
+    [ a olo:Slot ;
+      olo:index 19 ;
+      olo:item <http://www.bbc.co.uk/things/66801127-99b1-4a29-902b-3c0569d321ac#id> ] ,
+    [ a olo:Slot ;
+      olo:index 20 ;
+      olo:item <http://www.bbc.co.uk/things/31493100-846b-4e3f-a587-8e1dcfe6a14b#id> ] ,
+    [ a olo:Slot ;
+      olo:index 21 ;
+      olo:item <http://www.bbc.co.uk/things/8c29d621-65e8-4e7b-b782-b5afb0ae4aa8#id> ] ,
+    [ a olo:Slot ;
+      olo:index 22 ;
+      olo:item <http://www.bbc.co.uk/things/e9ea50a3-05c7-4724-b070-b3ba7084b7f8#id> ] ,
+    [ a olo:Slot ;
+      olo:index 23 ;
+      olo:item <http://www.bbc.co.uk/things/5ee6a8c3-61bb-47c3-a00e-39ca5b178e8f#id> ] ,
+    [ a olo:Slot ;
+      olo:index 24 ;
+      olo:item <http://www.bbc.co.uk/things/e5daff49-e849-4e52-89d9-e15562cd0167#id> ] ,
+    [ a olo:Slot ;
+      olo:index 25 ;
+      olo:item <http://www.bbc.co.uk/things/e8297388-e18d-4721-bc0c-15ac3a24bcd7#id> ] .
+    
+<http://www.bbc.co.uk/things/f77a90f1-631b-4bf5-b600-1a19f9436f0d#id> a curric:TopicOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/3ab00e3e-b8f4-46e2-a8d8-6a3797d81062#id> .
+
+<http://www.bbc.co.uk/things/3ab00e3e-b8f4-46e2-a8d8-6a3797d81062#id> a curric:TopicOfStudyList ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zgmtsbk#topics-of-study-list> ;
+    olo:slot
+    [ a olo:Slot ;
+      olo:index 1 ;
+      olo:item <http://www.bbc.co.uk/things/80cd94e6-662b-4d2b-9128-fb19e8077f03#id> ] ,
+    [ a olo:Slot ;
+      olo:index 2 ;
+      olo:item <http://www.bbc.co.uk/things/cd2a77d3-7c59-4a67-8515-0c01890cc7a7#id> ] ,
+    [ a olo:Slot ;
+      olo:index 3 ;
+      olo:item <http://www.bbc.co.uk/things/3bfc9060-5f0a-4a9e-aebb-f519f1421f54#id> ] ,
+    [ a olo:Slot ;
+      olo:index 4 ;
+      olo:item <http://www.bbc.co.uk/things/c15463ec-65ef-4248-8346-eb743a03957f#id> ] ,
+    [ a olo:Slot ;
+      olo:index 5 ;
+      olo:item <http://www.bbc.co.uk/things/977e5f47-d09b-4df2-a0d3-d7cd969c9da9#id> ] ,
+    [ a olo:Slot ;
+      olo:index 6 ;
+      olo:item <http://www.bbc.co.uk/things/d8d2fcec-91f8-4d78-936c-c2f88b0942dc#id> ] ,
+    [ a olo:Slot ;
+      olo:index 7 ;
+      olo:item <http://www.bbc.co.uk/things/f7cf3ff7-0b46-4875-8915-90d27456c182#id> ] ,
+    [ a olo:Slot ;
+      olo:index 8 ;
+      olo:item <http://www.bbc.co.uk/things/ba003c31-f20e-4ae8-ad63-5d3203e1d486#id> ] ,
+    [ a olo:Slot ;
+      olo:index 9 ;
+      olo:item <http://www.bbc.co.uk/things/bdab579a-6319-40f2-a782-5886233a30a0#id> ] ,
+    [ a olo:Slot ;
+      olo:index 10 ;
+      olo:item <http://www.bbc.co.uk/things/705827d6-8831-4f8d-8516-b1a8437f7e79#id> ] ,
+    [ a olo:Slot ;
+      olo:index 11 ;
+      olo:item <http://www.bbc.co.uk/things/b0de740c-76ba-4585-b84f-c6126082b706#id> ] ,
+    [ a olo:Slot ;
+      olo:index 12 ;
+      olo:item <http://www.bbc.co.uk/things/ba7cebaf-d9a6-4f7b-a99e-f06358e0ae33#id> ] ,
+    [ a olo:Slot ;
+      olo:index 13 ;
+      olo:item <http://www.bbc.co.uk/things/c7f86cde-75d0-48d6-bcb0-4f575b75bba9#id> ] ,
+    [ a olo:Slot ;
+      olo:index 14 ;
+      olo:item <http://www.bbc.co.uk/things/54bcc2fe-2bc5-40c7-8c13-892f3afee865#id> ] ,
+    [ a olo:Slot ;
+      olo:index 15 ;
+      olo:item <http://www.bbc.co.uk/things/1f19aab8-f1bd-4640-9250-01346b73f605#id> ] ,
+    [ a olo:Slot ;
+      olo:index 16 ;
+      olo:item <http://www.bbc.co.uk/things/5dc3050b-368c-413e-a842-f316b11afe56#id> ] ,
+    [ a olo:Slot ;
+      olo:index 17 ;
+      olo:item <http://www.bbc.co.uk/things/0d14067b-8e81-4d76-9c35-47ccbdd1beee#id> ] ,
+    [ a olo:Slot ;
+      olo:index 18 ;
+      olo:item <http://www.bbc.co.uk/things/e2f51e6c-d7d1-4440-93c9-dde10a8c6987#id> ] ,
+    [ a olo:Slot ;
+      olo:index 19 ;
+      olo:item <http://www.bbc.co.uk/things/1a4e6e6d-aef2-4fd9-9493-214952fefdd0#id> ] ,
+    [ a olo:Slot ;
+      olo:index 20 ;
+      olo:item <http://www.bbc.co.uk/things/7a49bc35-e52d-4414-8476-c8badd13c13d#id> ] ,
+    [ a olo:Slot ;
+      olo:index 21 ;
+      olo:item <http://www.bbc.co.uk/things/4942145d-74ce-49b7-a0f6-40391244e7c5#id> ] ,
+    [ a olo:Slot ;
+      olo:index 22 ;
+      olo:item <http://www.bbc.co.uk/things/04d45d8f-61f5-4f32-9f66-4311e459f6f6#id> ] ,
+    [ a olo:Slot ;
+      olo:index 23 ;
+      olo:item <http://www.bbc.co.uk/things/ae396662-1c3f-4a18-ad31-68d4e357618f#id> ] ,
+    [ a olo:Slot ;
+      olo:index 24 ;
+      olo:item <http://www.bbc.co.uk/things/8f6ae821-67d4-465d-bb10-617df0f1fd08#id> ] ,
+    [ a olo:Slot ;
+      olo:index 25 ;
+      olo:item <http://www.bbc.co.uk/things/00a07597-743f-430e-ae74-d002cfab40ae#id> ] .
+    

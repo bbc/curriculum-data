@@ -1,0 +1,241 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+
+
+<http://www.bbc.co.uk/things/0fbda866-63f8-4c11-9fa9-46c6c39ea4d0#id> a curric:FieldOfStudy ;
+    rdfs:label "Maths"@en-gb ;
+    rdfs:label "Mathemateg"@cy-gb ;
+    rdfs:label "Matamataig"@gd-gb ;
+    rdfs:label "Matamaitic"@ga-gb ;
+    dc:description "Mathematics is the study of numbers, calculations, shapes and equations, written using special notations and symbols."@en-gb ;
+    dc:description "Mae Mathemateg yn astudiaeth o rifau, cyfrifon,siapiau a hafaliadau sy'n cael eu hysgrifennu trwy ddefnyddio nodiannau arbennig a symbolau."@cy-gb ;
+    dc:description "'S e eòlas air àireamhan, obrachaidhean, cumaidhean agus co-aontarain, air an sgrìobhadh le comharraidhean sònraichte, a th' ann am Matamataig."@gd-gb ;
+    dc:description "Is é atá sa Mhatamaitic ná staidéar ar uimhreacha, ar áirimh agus ar chothromóidí ag baint úsáide as nodaireachtaí speisialta agus siombailí."@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z6vg9j6#field-of-study> .
+
+<http://www.bbc.co.uk/things/bb440724-49e2-414e-954c-109532bc8ff6#id> a curric:FieldOfStudy ;
+    rdfs:label "English"@en-gb ;
+    rdfs:label "Saesneg"@cy-gb ;
+    rdfs:label "Beurla"@gd-gb ;
+    rdfs:label "Béarla"@ga-gb ;
+    dc:description "English skills include speaking, listening, reading and writing."@en-gb ;
+    dc:description "Mae sgiliau Saesneg yn cynnwys siarad, gwrando, darllen ac ysgrifennu."@cy-gb ;
+    dc:description "Sgilean labhairt, èisteachd, leughaidh agus sgrìobhaidh ann am Beurla."@gd-gb ;
+    dc:description "San áireamh le scileanna Béarla tá labhairt, éisteacht, léitheoireacht agus scríobh."@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zt3rkqt#field-of-study> .
+
+<http://www.bbc.co.uk/things/facda79e-4b63-4a6f-b40a-0d4a6aabf154#id> a curric:FieldOfStudy ;
+    rdfs:label "English Literature"@en-gb ;
+    rdfs:label "Saesneg Llenyddiaeth"@cy-gb ;
+    rdfs:label "Litreachas Beurla"@gd-gb ;
+    rdfs:label "Litríocht an Bhéarla"@ga-gb ;
+    dc:description "English literature is the study of prose, poetry and plays written in the English language."@en-gb ;
+    dc:description "Llenyddiaeth Saesneg yw astudiaeth o rhyddiaith, barddoniaeth a dramâu yn yr iaith Saesneg."@cy-gb ;
+    dc:description "Eòlas air rosg, bàrdachd agus dealbhan-chluiche air an sgrìobhadh ann am Beurla."@gd-gb ;
+    dc:description "Is é atá i Litríocht an Bhéarla ná staidéar ar phrós, filíocht agus drámaí scríofa i mBéarla."@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zhbc87h#field-of-study> .
+
+<http://www.bbc.co.uk/things/dd44f60c-0612-4dac-b883-9858170ed4e2#id> a curric:FieldOfStudy ;
+    rdfs:label "Welsh (for 1st language)"@en-gb ;
+    rdfs:label "Cymraeg (Iaith Gyntaf)"@cy-gb ;
+    rdfs:label "Cuimris"@gd-gb ;
+    rdfs:label "Breatnais (teanga dhúchais)"@ga-gb ;
+    dc:description "Welsh skills include speaking, listening, reading and writing."@en-gb ;
+    dc:description "Mae sgiliau Cymraeg yn cynnwys siarad, gwrando, darllen ac ysgrifennu"@cy-gb ;
+    dc:description "Sgilean cànain Cuimris do luchd-bruidhinn a’ chànain."@gd-gb ;
+    dc:description "Scileanna teanga Breatnaise do chainteoirí Breatnaise."@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zf48q6f#field-of-study> .
+
+<http://www.bbc.co.uk/things/0064471a-b505-4a7c-accc-b358848da1c2#id> a curric:FieldOfStudy ;
+    rdfs:label "Modern Foreign Languages"@en-gb ;
+    rdfs:label "Ieithoedd Modern"@cy-gb ;
+    rdfs:label "Nuadh-chànanan"@gd-gb ;
+    rdfs:label "Nua-theangacha Iasachta"@ga-gb ;
+    dc:description "Modern languages refer to those used in the world today."@en-gb ;
+    dc:description "Cyfeirir Ieithoedd Modern at y rhai a ddefnyddir yn y byd heddiw."@cy-gb ;
+    dc:description "Cànain a th’ air am bruidhinn an-diugh."@gd-gb ;
+    dc:description "Is iad na Nua-Theangacha na teangacha atá in úsáid sa domhan inniu."@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zrqmhyc#field-of-study> .
+
+<http://www.bbc.co.uk/things/1690867e-da26-463b-9c53-a651092efe38#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/0064471a-b505-4a7c-accc-b358848da1c2#id> ;
+    rdfs:label "French"@en-gb ;
+    rdfs:label "Ffrangeg"@cy-gb ;
+    rdfs:label "Fraingis"@gd-gb ;
+    rdfs:label "Fraincis"@ga-gb ;
+    dc:description "French language skills include speaking, listening, reading and writing."@en-gb ;
+    dc:description "Mae sgiliau iaith Ffrangeg yn cynnwys siarad, gwrando, darllen ac ysgrifennu."@cy-gb ;
+    dc:description "Sgilean labhairt, èisteachd, leughaidh agus sgrìobhaidh ann an Frangais."@gd-gb ;
+    dc:description "San áireamh le scileanna Fraincise tá labhairt, éisteacht, léitheoireacht agus scríobh."@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zc7xpv4#field-of-study> .
+
+<http://www.bbc.co.uk/things/e060d466-292b-4cd6-8952-4cc632f7ca21#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/0064471a-b505-4a7c-accc-b358848da1c2#id> ;
+    rdfs:label "German"@en-gb ;
+    rdfs:label "Almaeneg"@cy-gb ;
+    rdfs:label "Gearmailtis"@gd-gb ;
+    rdfs:label "Gearmáinis"@ga-gb ;
+    dc:description "German language skills include speaking, listening, reading and writing."@en-gb ;
+    dc:description "Mae sgiliau iaith Almaeneg yn cynnwys siarad, gwrando, darllen ac ysgrifennu."@cy-gb ;
+    dc:description "Sgilean labhairt, èisteachd, leughaidh agus sgrìobhaidh ann an Gearmailtis."@gd-gb ;
+    dc:description "San áireamh le scileanna Gearmánaise, tá labhairt, éisteacht, léitheoireacht agus scríobh."@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z426n39#field-of-study> .
+
+<http://www.bbc.co.uk/things/62fb91b7-2811-4cde-a3a9-5400f28b7fb6#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/0064471a-b505-4a7c-accc-b358848da1c2#id> ;
+    rdfs:label "Spanish"@en-gb ;
+    rdfs:label "Sbaeneg"@cy-gb ;
+    rdfs:label "Spàinntis"@gd-gb ;
+    rdfs:label "Spáinnis"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z9mtsbk#field-of-study> .
+
+<http://www.bbc.co.uk/things/bcf9f62f-d887-4e21-93e3-c27791da91ce#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/0064471a-b505-4a7c-accc-b358848da1c2#id> ;
+    rdfs:label "Chinese"@en-gb ;
+    rdfs:label "Tseinieg"@cy-gb ;
+    rdfs:label "Sìonais"@gd-gb ;
+    rdfs:label "Sínís"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zkxhfg8#field-of-study> .
+
+<http://www.bbc.co.uk/things/d61fd39e-a4d6-4494-9b01-606c7fcd6b71#id> a curric:FieldOfStudy ;
+    rdfs:label "Geography"@en-gb ;
+    rdfs:label "Daearyddiaeth"@cy-gb ;
+    rdfs:label "Cruinn-eòlas"@gd-gb ;
+    rdfs:label "Tíreolaíocht"@ga-gb ;
+    dc:description "Geography is the study of the shape and features of the Earth's surface, including countries, vegetation, climates and how humans use the world's resources."@en-gb ;
+    dc:description "Mae Daearyddiaeth yn astudiaeth o siâp a nodweddion wyneb y Ddaear yn cynnwys gwledydd, planhigion, hinsoddau a sut mae bodau dynol yn defnyddio adnoddau'r byd."@cy-gb ;
+    dc:description "'S e eòlas air cumaidhean agus feartan na Cruinne-cè, a' gabhail a-steach dùthchannan, fàs-bheatha, gnàthan-sìde agus buaidh daonna air a' chruinne a th' ann an Cruinn-eòlas."@gd-gb ;
+    dc:description "Is é atá sa Tíreolaíocht ná staidéar ar chruth agus ar ghnéithe de dhromchla an domhain, m.sh. tíortha, fásra, aeráid, chomh maith leis an dóigh a n-úsáideann daoine acmhainní an domhain."@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z2f3cdm#field-of-study> .
+
+<http://www.bbc.co.uk/things/3cbb82bf-4808-44d2-9ef3-949172585378#id> a curric:FieldOfStudy ;
+    rdfs:label "Religious Studies"@en-gb ;
+    rdfs:label "Astudiaethau Crefyddol"@cy-gb ;
+    rdfs:label "Eòlas Creideimh agus Moraltachd"@gd-gb ;
+    rdfs:label "Oideachas Reiligiúnach"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zmyb4wx#field-of-study> .
+
+<http://www.bbc.co.uk/things/812dc56a-fdbf-408e-b07b-789ffead892f#id> a curric:FieldOfStudy ;
+    rdfs:label "ICT"@en-gb ;
+    rdfs:label "TG"@cy-gb ;
+    rdfs:label "ICT"@gd-gb ;
+    rdfs:label "TFC"@ga-gb ;
+    dc:description "Information and Communications Technology includes how computers and the internet work and how to use them."@en-gb ;
+    dc:description "Mae Technoleg Gwybodaeth a Chyfathrebu yn cynnwys sut mae cyfrifiaduron a'r rhyngrwyd yn gweithio a sut i'w defnyddio."@cy-gb ;
+    dc:description "Tha ICT a' gabhail a-steach mar a tha coimpiutairean agus an eadar-lìon ag obair agus mar a chleachdar iad."@gd-gb ;
+    dc:description "Is é atá sa Teicneolaíocht Faisnéise agus Cumarsáide ná an dóigh a n-oibríonn ríomhairí agus an tIdirlíon agus an dóigh lena n-úsáid."@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zf9d7ty#field-of-study> .
+
+<http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> a curric:FieldOfStudy ;
+    rdfs:label "Design and Technology"@en-gb ;
+    rdfs:label "Dylunio a Thechnoleg"@cy-gb ;
+    rdfs:label "Eòlas Teicneòlasach"@gd-gb ;
+    rdfs:label "Teicneolaíocht agus Dearadh"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zykw2hv#field-of-study> .
+
+<http://www.bbc.co.uk/things/4c3bd8f5-e577-4eb6-abe7-e86d0f77f1c1#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> ;
+    rdfs:label "Electronics"@en-gb ;
+    rdfs:label "Electroneg"@cy-gb ;
+    rdfs:label "Eileagtronaigs"@gd-gb ;
+    rdfs:label "Leictreonaic"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zvdqxnb#field-of-study> .
+
+<http://www.bbc.co.uk/things/07ad6cb5-6433-43ed-b17c-ac56ec1391bb#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> ;
+    rdfs:label "Food Technology"@en-gb ;
+    rdfs:label "Dylunio a Thechnoleg"@cy-gb ;
+    rdfs:label "Teicneòlas Bìdh"@gd-gb ;
+    rdfs:label "Teicneolaíocht an Bhia"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z3w76sg#field-of-study> .
+
+<http://www.bbc.co.uk/things/81d9e475-f5a3-4336-93c2-0cd45e1bdfa5#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> ;
+    rdfs:label "Graphics"@en-gb ;
+    rdfs:label "Graffeg"@cy-gb ;
+    rdfs:label "Grafaigean"@gd-gb ;
+    rdfs:label "Grafaicí"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zbj2tfr#field-of-study> .
+
+<http://www.bbc.co.uk/things/95d4a5df-ce7a-444f-addd-b58d3c3c919e#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> ;
+    rdfs:label "Resistant Materials"@en-gb ;
+    rdfs:label "Defnyddiau gwrthiannol"@cy-gb ;
+    rdfs:label "Stuthan Bacaidh"@gd-gb ;
+    rdfs:label "Ábhair Fhrithsheasmhacha"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zgqmhyc#field-of-study> .
+
+<http://www.bbc.co.uk/things/e44ddf42-fff6-42e3-ba3d-c22c64b4691e#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> ;
+    rdfs:label "Systems and Control"@en-gb ;
+    rdfs:label "Need to check"@cy-gb ;
+    rdfs:label "Siostaman agus Riaghladh"@gd-gb ;
+    rdfs:label "Córais agus Rialú"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zr7xpv4#field-of-study> .
+
+<http://www.bbc.co.uk/things/52bd6267-e7a5-4d36-b87d-ab2bad7652d7#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> ;
+    rdfs:label "Textiles"@en-gb ;
+    rdfs:label "Tecstilau"@cy-gb ;
+    rdfs:label "Aodach Fighte"@gd-gb ;
+    rdfs:label "Teicstílí"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zc26n39#field-of-study> .
+
+<http://www.bbc.co.uk/things/c3d83052-8e61-4d2a-a2c9-bab53df03862#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> ;
+    rdfs:label "Product Design"@en-gb ;
+    rdfs:label "Dylunio cynnyrch"@cy-gb ;
+    rdfs:label "Dealbh Toradh"@gd-gb ;
+    rdfs:label "Dearadh Táirgí"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z4mtsbk#field-of-study> .
+
+<http://www.bbc.co.uk/things/8b0a3567-94a2-48ee-8d71-571600aa322b#id> a curric:FieldOfStudy ;
+    rdfs:label "Art and Design"@en-gb ;
+    rdfs:label "Celf a Dylunio"@cy-gb ;
+    rdfs:label "Ealain agus Dealbhadh"@gd-gb ;
+    rdfs:label "Ealaín agus Dearadh"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z8tnvcw#field-of-study> .
+
+<http://www.bbc.co.uk/things/f020d55b-c5a4-49e0-8b22-ebb59d423c9d#id> a curric:FieldOfStudy ;
+    rdfs:label "Physical Education"@en-gb ;
+    rdfs:label "Addysg Gorfforol"@cy-gb ;
+    rdfs:label "Eòlas Corporra"@gd-gb ;
+    rdfs:label "Corpoideachas"@ga-gb ;
+    dc:description "Physical education includes taking care of your body and staying healthy, particularly through sports."@en-gb ;
+    dc:description "Mae Addysg Gorfforol yn cynnwys gofalu am eich corff a bod yn iach, yn arbennig trwy chwaraeon."@cy-gb ;
+    dc:description "Tha Eòlas Corparra a' gabhail a-steach a bhith a' coimhead às dèidh do bhodhaig agus a' cumail fallain, gu h-àraid tro spòrs."@gd-gb ;
+    dc:description "Is é atá i gceist le Corpoideachas ná aire a thabhairt do do chorp agus a bheith folláin trí pháirt a ghlacadh sa spórt."@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zdhs34j#field-of-study> .
+
+<http://www.bbc.co.uk/things/030b092b-355c-461c-bef5-faf351aadede#id> a curric:FieldOfStudy ;
+    rdfs:label "Media Studies"@en-gb ;
+    rdfs:label "Astudio'r cyfryngau"@cy-gb ;
+    rdfs:label "Eòlas air na Meadhanan"@gd-gb ;
+    rdfs:label "Staidéar ar na Meáin Chumarsáide"@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zwpfb9q#field-of-study> .
+
+<http://www.bbc.co.uk/things/5ec974ed-97fb-4f67-9c77-71435fbab025#id> a curric:FieldOfStudy ;
+    rdfs:label "Business"@en-gb ;
+    rdfs:label "Astudiaethau busnes"@cy-gb ;
+    rdfs:label "Eòlas Gnothachais"@gd-gb ;
+    rdfs:label "Staidéar Gnó"@ga-gb ;
+    dc:description "Business studies covers the different skills for running a business, such as managing money, advertising and employing staff."@en-gb ;
+    dc:description "Mae Astudiaethau Busnes yn ffocysu ar y sgiliau gwahanol sydd angen i redeg busnes fel rheoli arian, hysbysebu a chyflogi staff."@cy-gb ;
+    dc:description "Tha Eòlas Gnothachais a' gabhail a-steach diofar sgilean a dh'fheumar airson gnothachais a ruith, leithid a' manaidseadh airgead, sanasachd agus a' fastadh luchd-obrach."@gd-gb ;
+    dc:description "Cludaíonn Staidéar Gnó na scileanna a bhíonn de dhíth ort le gnó a reachtáil, leithéidí bainistíocht airgid, fógraíocht agus foireann a fhostú."@ga-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zjnygk7#field-of-study> .
+
+<http://www.bbc.co.uk/things/7ca3983d-b114-49b3-a1e8-1252a5e1316d#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> ;
+    rdfs:label "Architecture"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zw2fb9q#field-of-study> .
+
+<http://www.bbc.co.uk/things/32cdc6ef-9854-443a-ab84-d749fa667da5#id> a curric:FieldOfStudy ;
+    curric:subFieldOf <http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id> ;
+    rdfs:label "Engineering"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z763cdm#field-of-study> .
+

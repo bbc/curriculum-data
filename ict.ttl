@@ -1,0 +1,308 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+
+
+<http://www.bbc.co.uk/things/f5d9fa3b-df22-4732-a45b-a35bf0efc0ab#id> a curric:TopicOfStudy ;
+    rdfs:label "ICT systems"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:about <http://www.bbc.co.uk/things/865d8d73-deb7-45c0-b921-770d8436bd8f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zknygk7#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/4c1a7354-292d-4d72-a78c-256c6307be90#id> a curric:TopicOfStudy ;
+    rdfs:label "Hardware"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:about <http://www.bbc.co.uk/things/9bf0f48a-ff2f-4920-854b-2bc54ad04a00#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8svr82#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/2a2ec0a5-09b7-4034-90f3-4c10670d5dbb#id> a curric:TopicOfStudy ;
+    rdfs:label "Software"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:about <http://www.bbc.co.uk/things/d79bc56f-4ecf-49b0-aee9-00e6ceec1a2d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zdf3cdm#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/cf16be59-6303-4229-a41c-1e921d41bf52#id> a curric:TopicOfStudy ;
+    rdfs:label "Data and databases"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:about <http://www.bbc.co.uk/things/986b9309-5bc4-42c2-aa2b-a603301c2798#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwyb4wx#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/9dc398f2-cc9e-4517-8747-7e6511da8a4f#id> a curric:TopicOfStudy ;
+    rdfs:label "Measurement and control"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:about <http://www.bbc.co.uk/things/f1964b15-a627-4174-8dba-91c338b2e81b#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq3rkqt#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/76036f74-7bf1-4b04-98ed-0b5e88b5ab6b#id> a curric:TopicOfStudy ;
+    rdfs:label "Industrial and commercial applications"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:about <http://www.bbc.co.uk/things/292e084f-15bb-4fd8-a94b-200861af1d49#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z7bc87h#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/57fda559-f32f-4292-b200-822a6364684c#id> a curric:TopicOfStudy ;
+    rdfs:label "Modelling and simulation"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:about <http://www.bbc.co.uk/things/ed4e2aa9-8a62-4870-85d6-9d372393a6d6#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2g4d2p#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/1f6cd9f4-ddb1-46ce-b0cd-914902ed80c0#id> a curric:TopicOfStudy ;
+    rdfs:label "Risks and implications of ICT"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:about <http://www.bbc.co.uk/things/debeca3b-8213-4254-b255-1ee2d7a2a382#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxckjxs#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/b171ca41-73fa-4468-a8d4-6616b72e728f#id> a curric:TopicOfStudy ;
+    rdfs:label "ICT systems"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> ;
+    curric:about <http://www.bbc.co.uk/things/865d8d73-deb7-45c0-b921-770d8436bd8f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z648q6f#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/a424f0bf-d7a2-4924-94fd-d94bc620c8fa#id> a curric:TopicOfStudy ;
+    rdfs:label "Hardware"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> ;
+    curric:about <http://www.bbc.co.uk/things/9bf0f48a-ff2f-4920-854b-2bc54ad04a00#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zt9d7ty#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/b56f01c9-6c22-4efd-921c-a83c0a52e55f#id> a curric:TopicOfStudy ;
+    rdfs:label "Software"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> ;
+    curric:about <http://www.bbc.co.uk/things/d79bc56f-4ecf-49b0-aee9-00e6ceec1a2d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zhkw2hv#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/7fa5c72a-7806-417c-8945-ac90a52eb5e6#id> a curric:TopicOfStudy ;
+    rdfs:label "Data and databases"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> ;
+    curric:about <http://www.bbc.co.uk/things/986b9309-5bc4-42c2-aa2b-a603301c2798#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp8jmp3#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/e7991a92-7870-4754-af0f-f60e0ab8f2c3#id> a curric:TopicOfStudy ;
+    rdfs:label "Networks and communications"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> ;
+    curric:about <http://www.bbc.co.uk/things/e4a5f042-b0af-42d6-a67d-12b11cbc848c#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zndqxnb#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/1030375d-b3af-45af-879d-4f38fd909df4#id> a curric:TopicOfStudy ;
+    rdfs:label "Measurement and control"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> ;
+    curric:about <http://www.bbc.co.uk/things/f1964b15-a627-4174-8dba-91c338b2e81b#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsw76sg#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/5a6f2d9d-9f39-4999-a407-8d05f348bb4d#id> a curric:TopicOfStudy ;
+    rdfs:label "Industrial and commercial applications"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> ;
+    curric:about <http://www.bbc.co.uk/things/292e084f-15bb-4fd8-a94b-200861af1d49#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zfj2tfr#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/ab33a6b2-27d3-4ec5-a5ca-67e4da73b995#id> a curric:TopicOfStudy ;
+    rdfs:label "Modelling and simulation"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> ;
+    curric:about <http://www.bbc.co.uk/things/ed4e2aa9-8a62-4870-85d6-9d372393a6d6#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyqmhyc#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/0cee111a-0f90-4724-a38e-4e250ca43ad8#id> a curric:TopicOfStudy ;
+    rdfs:label "Multimedia"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> ;
+    curric:about <http://www.bbc.co.uk/things/b45b59ab-a66c-4261-87c4-69cde6a7a94e#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3mtsbk#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/8b5111ab-af67-47e4-99ca-268802fd7666#id> a curric:TopicOfStudy ;
+    rdfs:label "Risks and implications of ICT"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> ;
+    curric:about <http://www.bbc.co.uk/things/debeca3b-8213-4254-b255-1ee2d7a2a382#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zh3c87h#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/e88b88d7-2a6a-43a0-877f-d4ce38efe8ab#id> a curric:TopicOfStudy ;
+    rdfs:label "The history of ICT"@en-gb ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> ;
+    curric:about <http://www.bbc.co.uk/things/99aee662-4fdf-41b9-816a-d3f8550039dd#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zbxhfg8#topic-of-study> .
+
+
+<http://www.bbc.co.uk/things/865d8d73-deb7-45c0-b921-770d8436bd8f#id> a curric:Topic ;
+    rdfs:label "ICT systems"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp3c87h#topic> .
+
+
+<http://www.bbc.co.uk/things/9bf0f48a-ff2f-4920-854b-2bc54ad04a00#id> a curric:Topic ;
+    rdfs:label "Hardware"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/znb4d2p#topic> .
+
+
+<http://www.bbc.co.uk/things/d79bc56f-4ecf-49b0-aee9-00e6ceec1a2d#id> a curric:Topic ;
+    rdfs:label "Software"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsg9wmn#topic> .
+
+
+<http://www.bbc.co.uk/things/986b9309-5bc4-42c2-aa2b-a603301c2798#id> a curric:Topic ;
+    rdfs:label "Data and databases"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zfrkjxs#topic> .
+
+
+<http://www.bbc.co.uk/things/f1964b15-a627-4174-8dba-91c338b2e81b#id> a curric:Topic ;
+    rdfs:label "Measurement and control"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zv9w2hv#topic> .
+
+
+<http://www.bbc.co.uk/things/292e084f-15bb-4fd8-a94b-200861af1d49#id> a curric:Topic ;
+    rdfs:label "Industrial and commercial applications"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3kjmp3#topic> .
+
+
+<http://www.bbc.co.uk/things/ed4e2aa9-8a62-4870-85d6-9d372393a6d6#id> a curric:Topic ;
+    rdfs:label "Modelling and simulation"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zb8qxnb#topic> .
+
+
+<http://www.bbc.co.uk/things/debeca3b-8213-4254-b255-1ee2d7a2a382#id> a curric:Topic ;
+    rdfs:label "Risks and implications of ICT"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zrw2tfr#topic> .
+
+
+<http://www.bbc.co.uk/things/865d8d73-deb7-45c0-b921-770d8436bd8f#id> a curric:Topic ;
+    rdfs:label "ICT systems"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp3c87h#topic> .
+
+
+<http://www.bbc.co.uk/things/9bf0f48a-ff2f-4920-854b-2bc54ad04a00#id> a curric:Topic ;
+    rdfs:label "Hardware"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/znb4d2p#topic> .
+
+
+<http://www.bbc.co.uk/things/d79bc56f-4ecf-49b0-aee9-00e6ceec1a2d#id> a curric:Topic ;
+    rdfs:label "Software"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsg9wmn#topic> .
+
+
+<http://www.bbc.co.uk/things/986b9309-5bc4-42c2-aa2b-a603301c2798#id> a curric:Topic ;
+    rdfs:label "Data and databases"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zfrkjxs#topic> .
+
+
+<http://www.bbc.co.uk/things/e4a5f042-b0af-42d6-a67d-12b11cbc848c#id> a curric:Topic ;
+    rdfs:label "Networks and communications"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyc8q6f#topic> .
+
+
+<http://www.bbc.co.uk/things/f1964b15-a627-4174-8dba-91c338b2e81b#id> a curric:Topic ;
+    rdfs:label "Measurement and control"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zv9w2hv#topic> .
+
+
+<http://www.bbc.co.uk/things/292e084f-15bb-4fd8-a94b-200861af1d49#id> a curric:Topic ;
+    rdfs:label "Industrial and commercial applications"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3kjmp3#topic> .
+
+
+<http://www.bbc.co.uk/things/ed4e2aa9-8a62-4870-85d6-9d372393a6d6#id> a curric:Topic ;
+    rdfs:label "Modelling and simulation"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zb8qxnb#topic> .
+
+
+<http://www.bbc.co.uk/things/b45b59ab-a66c-4261-87c4-69cde6a7a94e#id> a curric:Topic ;
+    rdfs:label "Multimedia"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2nvr82#topic> .
+
+
+<http://www.bbc.co.uk/things/debeca3b-8213-4254-b255-1ee2d7a2a382#id> a curric:Topic ;
+    rdfs:label "Risks and implications of ICT"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zrw2tfr#topic> .
+
+
+<http://www.bbc.co.uk/things/99aee662-4fdf-41b9-816a-d3f8550039dd#id> a curric:Topic ;
+    rdfs:label "The history of ICT"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcjmhyc#topic> .
+
+
+<http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/6118d7bd-71eb-4343-8432-c8ecf80aba8c#id> .
+
+<http://www.bbc.co.uk/things/6118d7bd-71eb-4343-8432-c8ecf80aba8c#id> a curric:TopicOfStudyList ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zqmtsbk#topics-of-study-list> ;
+    olo:slot
+    [ a olo:Slot ;
+      olo:index 1 ;
+      olo:item <http://www.bbc.co.uk/things/f5d9fa3b-df22-4732-a45b-a35bf0efc0ab#id> ] ,
+    [ a olo:Slot ;
+      olo:index 2 ;
+      olo:item <http://www.bbc.co.uk/things/4c1a7354-292d-4d72-a78c-256c6307be90#id> ] ,
+    [ a olo:Slot ;
+      olo:index 3 ;
+      olo:item <http://www.bbc.co.uk/things/2a2ec0a5-09b7-4034-90f3-4c10670d5dbb#id> ] ,
+    [ a olo:Slot ;
+      olo:index 4 ;
+      olo:item <http://www.bbc.co.uk/things/cf16be59-6303-4229-a41c-1e921d41bf52#id> ] ,
+    [ a olo:Slot ;
+      olo:index 6 ;
+      olo:item <http://www.bbc.co.uk/things/9dc398f2-cc9e-4517-8747-7e6511da8a4f#id> ] ,
+    [ a olo:Slot ;
+      olo:index 7 ;
+      olo:item <http://www.bbc.co.uk/things/76036f74-7bf1-4b04-98ed-0b5e88b5ab6b#id> ] ,
+    [ a olo:Slot ;
+      olo:index 8 ;
+      olo:item <http://www.bbc.co.uk/things/57fda559-f32f-4292-b200-822a6364684c#id> ] ,
+    [ a olo:Slot ;
+      olo:index 10 ;
+      olo:item <http://www.bbc.co.uk/things/1f6cd9f4-ddb1-46ce-b0cd-914902ed80c0#id> ] .
+    
+<http://www.bbc.co.uk/things/b7e4770a-6dab-4700-98f0-c306f0562648#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/42fac7a5-0702-4617-9c3c-abdc67fd5187#id> .
+
+<http://www.bbc.co.uk/things/42fac7a5-0702-4617-9c3c-abdc67fd5187#id> a curric:TopicOfStudyList ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z8mtsbk#topics-of-study-list> ;
+    olo:slot
+    [ a olo:Slot ;
+      olo:index 1 ;
+      olo:item <http://www.bbc.co.uk/things/b171ca41-73fa-4468-a8d4-6616b72e728f#id> ] ,
+    [ a olo:Slot ;
+      olo:index 2 ;
+      olo:item <http://www.bbc.co.uk/things/a424f0bf-d7a2-4924-94fd-d94bc620c8fa#id> ] ,
+    [ a olo:Slot ;
+      olo:index 3 ;
+      olo:item <http://www.bbc.co.uk/things/b56f01c9-6c22-4efd-921c-a83c0a52e55f#id> ] ,
+    [ a olo:Slot ;
+      olo:index 4 ;
+      olo:item <http://www.bbc.co.uk/things/7fa5c72a-7806-417c-8945-ac90a52eb5e6#id> ] ,
+    [ a olo:Slot ;
+      olo:index 5 ;
+      olo:item <http://www.bbc.co.uk/things/e7991a92-7870-4754-af0f-f60e0ab8f2c3#id> ] ,
+    [ a olo:Slot ;
+      olo:index 6 ;
+      olo:item <http://www.bbc.co.uk/things/1030375d-b3af-45af-879d-4f38fd909df4#id> ] ,
+    [ a olo:Slot ;
+      olo:index 7 ;
+      olo:item <http://www.bbc.co.uk/things/5a6f2d9d-9f39-4999-a407-8d05f348bb4d#id> ] ,
+    [ a olo:Slot ;
+      olo:index 8 ;
+      olo:item <http://www.bbc.co.uk/things/ab33a6b2-27d3-4ec5-a5ca-67e4da73b995#id> ] ,
+    [ a olo:Slot ;
+      olo:index 10 ;
+      olo:item <http://www.bbc.co.uk/things/0cee111a-0f90-4724-a38e-4e250ca43ad8#id> ] ,
+    [ a olo:Slot ;
+      olo:index 11 ;
+      olo:item <http://www.bbc.co.uk/things/8b5111ab-af67-47e4-99ca-268802fd7666#id> ] ,
+    [ a olo:Slot ;
+      olo:index 12 ;
+      olo:item <http://www.bbc.co.uk/things/e88b88d7-2a6a-43a0-877f-d4ce38efe8ab#id> ] .
+    
