@@ -1,0 +1,120 @@
+@prefix dc:    <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+
+<http://www.bbc.co.uk/things/e0d4f46b-da44-499a-84d4-cd1158cb7d27#id>
+        a           curric:Topic ;
+        rdfs:label  "Styles, genres and practitioners"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zrbg87h#topic> .
+
+<http://www.bbc.co.uk/things/375ed187-f2c3-4087-9e93-46f219a9fccf#id>
+        a          olo:Slot ;
+        olo:index  5 ;
+        olo:item   <http://www.bbc.co.uk/things/068f7ac6-4abc-4314-bd96-7285b15ad69a#id> .
+
+<http://www.bbc.co.uk/things/07101473-e477-453f-a067-86792f1dfaf5#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Scripts as a stimulus"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/990337b4-75f1-4587-9473-769c02c24ad7#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/212b0d9c-a91c-4d9a-b13a-a01a5ac268b6#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7jqtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5a3aa2d9-2cfb-4d65-b068-23afadd89043#id>
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/9bd6486c-9f59-44e7-9007-c00d85c61bfe#id> .
+
+<http://www.bbc.co.uk/things/3a3af684-192a-4594-ad35-ae308147141b#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Styles, genres and practitioners"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/e0d4f46b-da44-499a-84d4-cd1158cb7d27#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/212b0d9c-a91c-4d9a-b13a-a01a5ac268b6#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zm72pv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/83b40e3d-3900-4149-b005-6cc70cce4982#id>
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/07101473-e477-453f-a067-86792f1dfaf5#id> .
+
+<http://www.bbc.co.uk/things/78576a18-0bf9-432e-8d7f-538b750de906#id>
+        a           curric:Topic ;
+        rdfs:label  "Theatre design"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zcgrd2p#topic> .
+
+<http://www.bbc.co.uk/things/9bd6486c-9f59-44e7-9007-c00d85c61bfe#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Performance skills"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/37ebee05-eb5c-4f03-b8df-35994956d009#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/212b0d9c-a91c-4d9a-b13a-a01a5ac268b6#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zqwj6sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cebb9b6b-e119-41db-81a6-11a8ba509d69#id>
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/9a63e3e2-f610-4569-8611-3eac44f9db3f#id> , <http://www.bbc.co.uk/things/375ed187-f2c3-4087-9e93-46f219a9fccf#id> , <http://www.bbc.co.uk/things/e4486ba0-4a80-4cf8-b313-dac35d17cac7#id> , <http://www.bbc.co.uk/things/0c84688e-cad0-4454-bda9-bdf51a0d2e2f#id> , <http://www.bbc.co.uk/things/83b40e3d-3900-4149-b005-6cc70cce4982#id> , <http://www.bbc.co.uk/things/5a3aa2d9-2cfb-4d65-b068-23afadd89043#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zbckjxs#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/212b0d9c-a91c-4d9a-b13a-a01a5ac268b6#id>
+        a              curric:ProgrammeOfStudy ;
+        curric:topics  <http://www.bbc.co.uk/things/cebb9b6b-e119-41db-81a6-11a8ba509d69#id> .
+
+<http://www.bbc.co.uk/things/7217908f-189f-445d-a5ef-61b6f0248f31#id>
+        a           curric:Topic ;
+        rdfs:label  "Writing about drama and theatre"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z4rcwmn#topic> .
+
+<http://www.bbc.co.uk/things/e4486ba0-4a80-4cf8-b313-dac35d17cac7#id>
+        a          olo:Slot ;
+        olo:index  4 ;
+        olo:item   <http://www.bbc.co.uk/things/3a3af684-192a-4594-ad35-ae308147141b#id> .
+
+<http://www.bbc.co.uk/things/990337b4-75f1-4587-9473-769c02c24ad7#id>
+        a           curric:Topic ;
+        rdfs:label  "Scripts as a stimulus"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zg3bkqt#topic> .
+
+<http://www.bbc.co.uk/things/9a63e3e2-f610-4569-8611-3eac44f9db3f#id>
+        a          olo:Slot ;
+        olo:index  6 ;
+        olo:item   <http://www.bbc.co.uk/things/c2502d22-6f3b-4f2f-b4bc-334e7715e77a#id> .
+
+<http://www.bbc.co.uk/things/c2502d22-6f3b-4f2f-b4bc-334e7715e77a#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Writing about drama and theatre"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/7217908f-189f-445d-a5ef-61b6f0248f31#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/212b0d9c-a91c-4d9a-b13a-a01a5ac268b6#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6mxsbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0c84688e-cad0-4454-bda9-bdf51a0d2e2f#id>
+        a          olo:Slot ;
+        olo:index  3 ;
+        olo:item   <http://www.bbc.co.uk/things/e364d283-fd9f-4f82-abb7-0264a1bfffcc#id> .
+
+<http://www.bbc.co.uk/things/fe5e351c-41d4-4522-aa37-cd61fb0281e3#id>
+        a                  curric:Topic ;
+        rdfs:label         "Shakespeare"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/a3aa5e2f-7f55-4f8c-9c55-99f74a915ea5#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/znbbkqt#topic> .
+
+<http://www.bbc.co.uk/things/37ebee05-eb5c-4f03-b8df-35994956d009#id>
+        a           curric:Topic ;
+        rdfs:label  "Performance skills"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zbv39j6#topic> .
+
+<http://www.bbc.co.uk/things/e364d283-fd9f-4f82-abb7-0264a1bfffcc#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Shakespeare"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/fe5e351c-41d4-4522-aa37-cd61fb0281e3#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/212b0d9c-a91c-4d9a-b13a-a01a5ac268b6#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z2q7hyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/068f7ac6-4abc-4314-bd96-7285b15ad69a#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Theatre design"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/78576a18-0bf9-432e-8d7f-538b750de906#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/212b0d9c-a91c-4d9a-b13a-a01a5ac268b6#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zx2mn39#topic-of-study> .
