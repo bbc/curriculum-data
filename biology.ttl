@@ -1,0 +1,539 @@
+@prefix dc:    <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+
+<http://www.bbc.co.uk/things/0f9ca571-bd7d-4919-add7-77730f698103#id>
+        a                  curric:Topic ;
+        rdfs:label         "Growth and development"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zh63cdm#topic> .
+
+<http://www.bbc.co.uk/things/4fada830-a45b-496f-80ac-0b5d318898ad#id>
+        a          olo:Slot ;
+        olo:index  4 ;
+        olo:item   <http://www.bbc.co.uk/things/4cc6cebd-6292-4dc6-adbf-bd70ada3c3a2#id> .
+
+<http://www.bbc.co.uk/things/25fadf1a-d90c-48f0-9328-5ace70bb6117#id>
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/58ff9341-3281-45e8-8e56-6f8f90fd2b73#id> , <http://www.bbc.co.uk/things/37eec099-bdce-4ce5-aed5-b09097436c65#id> , <http://www.bbc.co.uk/things/9e3410a7-cf42-4290-9ecf-0979579a548c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zgbw2hv#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/139b491e-eb2a-47c4-a71e-d50512c596fa#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Adaptation"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/ecdddc7d-e834-4c4e-91f5-9b594015400e#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zrgjmp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2ec5e2d2-06b9-4750-8260-25927673803c#id>
+        a                  curric:Topic ;
+        rdfs:label         "Microorganisms"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/d9d1a93b-82ee-47b6-8312-ee8f055cfbe1#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/z6mygk7#topic> .
+
+<http://www.bbc.co.uk/things/c837b67b-a245-499c-b135-05ad70f8186c#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Microorganisms"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/2ec5e2d2-06b9-4750-8260-25927673803c#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z27s34j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/91ef94fe-9966-4cf0-9b62-4ae6a7543bad#id>
+        a                  curric:Topic ;
+        rdfs:label         "Ecosystems"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/cdd315b4-e172-48b0-abb2-0e5789a5c6db#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zxy9wmn#topic> .
+
+<http://www.bbc.co.uk/things/989b8048-e7c4-481b-999a-eab7e011f8ae#id>
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/a91be525-44b9-4820-9fdb-db217df1e9b2#id> .
+
+<http://www.bbc.co.uk/things/5e0e0cf1-f53b-4bf6-91f2-a166b87e5b3d#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Homeostasis"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/9423f8a2-3204-426d-9c62-31d0a3928399#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfs4d2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/443bcfe2-d4ca-4de0-9205-6655bebe5eee#id>
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/63ef7a5d-de42-4b50-95c5-15f7676b1ce4#id> .
+
+<http://www.bbc.co.uk/things/f11bf9e9-affb-452e-9923-b5f32f8f87e2#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Genetics"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/9954bf09-7bc0-46aa-b244-2b171398f021#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/znprkqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cb4df004-432f-4983-a712-8bc1e759083f#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Plants and their uses"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/e9ad231e-4b87-4912-ab41-26999b48b232#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zyf9wmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f372fc41-470a-4050-8477-860abb1be902#id>
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/5bce2ac7-302c-401d-80d5-c89cff59e894#id> , <http://www.bbc.co.uk/things/1bc0f33f-ece5-4a6f-8142-0b7070dc4ec1#id> , <http://www.bbc.co.uk/things/989b8048-e7c4-481b-999a-eab7e011f8ae#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zync87h#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/0e2fb69e-1578-4d1b-a83e-c529b4d37e20#id>
+        a                  curric:Topic ;
+        rdfs:label         "DNA, protein and enzymes"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/d9d1a93b-82ee-47b6-8312-ee8f055cfbe1#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zcgjmp3#topic> .
+
+<http://www.bbc.co.uk/things/43f02fe6-cb6f-4361-98a4-d3cd44a26b85#id>
+        a                  curric:Topic ;
+        rdfs:label         "Specialised and non-specialised cells"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zjdtsbk#topic> .
+
+<http://www.bbc.co.uk/things/2a3bd990-e252-49cd-8ea2-8eecdbccef46#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Ecosystems"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/91ef94fe-9966-4cf0-9b62-4ae6a7543bad#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zcrqxnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/877c2f8d-8432-4d18-be29-f52b18d14edd#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Nervous and hormonal systems"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/704beba9-3eb5-4a22-974d-160ab59cbed8#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z8kxpv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fc99e947-3df8-44c0-91ec-999b250a6842#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Growth and development"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/0f9ca571-bd7d-4919-add7-77730f698103#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zsnc87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0fa510e7-0b1e-4bd2-8d1d-8d689c1e7c69#id>
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/4fada830-a45b-496f-80ac-0b5d318898ad#id> , <http://www.bbc.co.uk/things/d061ba63-c0de-4d8f-851a-ceda69f48df1#id> , <http://www.bbc.co.uk/things/db178034-e9f0-407c-81b7-2b507f6e2c42#id> , <http://www.bbc.co.uk/things/46e598d1-e6cf-446a-af3d-acc0b69627c2#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z942tfr#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/f51fd521-e51d-45c0-9af3-1fe2bb31657b#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Reproduction"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/a2f076f1-2d14-443c-b22d-9471184de3f9#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zvv8q6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c06fe6b5-9cd0-44ef-9715-e74a0bbcf9f1#id>
+        a          olo:Slot ;
+        olo:index  4 ;
+        olo:item   <http://www.bbc.co.uk/things/27a1084e-4fe1-482f-8f79-b3db17e1a782#id> .
+
+<http://www.bbc.co.uk/things/9219886f-b743-4d9a-b297-4718df839986#id>
+        a                  curric:Topic ;
+        rdfs:label         "Enzymes"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/d9d1a93b-82ee-47b6-8312-ee8f055cfbe1#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zx2fb9q#topic> .
+
+<http://www.bbc.co.uk/things/58ff9341-3281-45e8-8e56-6f8f90fd2b73#id>
+        a          olo:Slot ;
+        olo:index  3 ;
+        olo:item   <http://www.bbc.co.uk/things/3e4eed24-0ed0-43be-b2b8-0329f264a6ff#id> .
+
+<http://www.bbc.co.uk/things/6d4fe8cf-b24d-453b-8946-695bb94d7bba#id>
+        a                  curric:Topic ;
+        rdfs:label         "Cells"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/d9d1a93b-82ee-47b6-8312-ee8f055cfbe1#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zrbw2hv#topic> .
+
+<http://www.bbc.co.uk/things/704beba9-3eb5-4a22-974d-160ab59cbed8#id>
+        a                  curric:Topic ;
+        rdfs:label         "Nervous and hormonal systems"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zqwhfg8#topic> .
+
+<http://www.bbc.co.uk/things/ce559e52-c66d-47a1-ac57-f31dc3a85d04#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Reproduction and inheritance"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/068f89ce-06f5-40d9-a539-2ecebaa27e3e#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zd86n39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/42525d20-6ad8-4c2d-a07f-8d7462fbc71f#id>
+        a                  curric:Topic ;
+        rdfs:label         "Photosynthesis and respiration"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/d9d1a93b-82ee-47b6-8312-ee8f055cfbe1#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/z9c76sg#topic> .
+
+<http://www.bbc.co.uk/things/2a5d6c16-dcf4-4fb9-954b-9f38758ac2d1#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Multicellular organisms"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        curric:topics          <http://www.bbc.co.uk/things/ceaaa889-366b-4143-92c4-d7947e52aa2d#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zphg9j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id>
+        a           curric:Topic ;
+        rdfs:label  "Multicellular organisms"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zw86n39#topic> .
+
+<http://www.bbc.co.uk/things/4b5a7f36-c73f-409c-bebb-99f8b5bbbaa3#id>
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/b38ea623-f2fa-40cf-8077-730d09be1d74#id> .
+
+<http://www.bbc.co.uk/things/63ef7a5d-de42-4b50-95c5-15f7676b1ce4#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Cells"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/6d4fe8cf-b24d-453b-8946-695bb94d7bba#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zys4d2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/068f89ce-06f5-40d9-a539-2ecebaa27e3e#id>
+        a                  curric:Topic ;
+        rdfs:label         "Reproduction and inheritance"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/z7jpyrd#topic> .
+
+<http://www.bbc.co.uk/things/8430c620-d421-46cd-8f48-5ab1f4e08327#id>
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/7b87ed13-63ff-40a8-92c5-eae3911e78dd#id> .
+
+<http://www.bbc.co.uk/things/5179f3e2-ed42-4b1f-8bf2-6e791397bfd9#id>
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/1c7eec2f-ffeb-46dc-bf3d-e22ab13b380f#id> , <http://www.bbc.co.uk/things/7cf20c70-b8f9-4fb0-bc70-f991b990cb12#id> , <http://www.bbc.co.uk/things/fc81225a-b9f7-4f09-947a-03aec388db9c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z3ykjxs#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/939d1022-5b9f-42bb-b45f-919ce4aba76d#id>
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/ab6cdc0c-d02c-4051-ae3e-9734e9b5ab3d#id> .
+
+<http://www.bbc.co.uk/things/7772a39b-10ba-4f9e-99b3-34e710fee97b#id>
+        a                  curric:Topic ;
+        rdfs:label         "Humans and the environment"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/cdd315b4-e172-48b0-abb2-0e5789a5c6db#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zdkxpv4#topic> .
+
+<http://www.bbc.co.uk/things/37eec099-bdce-4ce5-aed5-b09097436c65#id>
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/2a3bd990-e252-49cd-8ea2-8eecdbccef46#id> .
+
+<http://www.bbc.co.uk/things/7b87ed13-63ff-40a8-92c5-eae3911e78dd#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Ecosystems"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/91ef94fe-9966-4cf0-9b62-4ae6a7543bad#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zt63cdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cdd315b4-e172-48b0-abb2-0e5789a5c6db#id>
+        a           curric:Topic ;
+        rdfs:label  "Life on Earth"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zk42tfr#topic> .
+
+<http://www.bbc.co.uk/things/db74ffd2-a73f-4c5e-b604-1392cfebb348#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Photosynthesis and respiration"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/42525d20-6ad8-4c2d-a07f-8d7462fbc71f#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zm2fb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/db178034-e9f0-407c-81b7-2b507f6e2c42#id>
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/877c2f8d-8432-4d18-be29-f52b18d14edd#id> .
+
+<http://www.bbc.co.uk/things/d1516a8f-542f-41a1-8d19-ee9f73ce1339#id>
+        a          olo:Slot ;
+        olo:index  3 ;
+        olo:item   <http://www.bbc.co.uk/things/5e0e0cf1-f53b-4bf6-91f2-a166b87e5b3d#id> .
+
+<http://www.bbc.co.uk/things/74b2242d-fc91-4a02-bf96-94ba7d06986a#id>
+        a          olo:Slot ;
+        olo:index  4 ;
+        olo:item   <http://www.bbc.co.uk/things/cb4df004-432f-4983-a712-8bc1e759083f#id> .
+
+<http://www.bbc.co.uk/things/5333a009-cd36-46c9-813d-e9b45fa62d51#id>
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/9e0c219f-8f65-4b38-abef-14ab994be9d5#id> , <http://www.bbc.co.uk/things/8430c620-d421-46cd-8f48-5ab1f4e08327#id> , <http://www.bbc.co.uk/things/0425df0e-3b78-4af7-b614-20e2f267f7b0#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zxmygk7#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/0425df0e-3b78-4af7-b614-20e2f267f7b0#id>
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/583de63e-f55c-4984-a6b5-97f1d2561ef7#id> .
+
+<http://www.bbc.co.uk/things/d9d1a93b-82ee-47b6-8312-ee8f055cfbe1#id>
+        a           curric:Topic ;
+        rdfs:label  "Cell biology"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zg3d7ty#topic> .
+
+<http://www.bbc.co.uk/things/78b658b0-3f2c-4ba5-be33-56254ca2f67e#id>
+        a                  curric:Topic ;
+        rdfs:label         "Transport and exchange"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/z2qnvcw#topic> .
+
+<http://www.bbc.co.uk/things/9e0c219f-8f65-4b38-abef-14ab994be9d5#id>
+        a          olo:Slot ;
+        olo:index  3 ;
+        olo:item   <http://www.bbc.co.uk/things/53274efe-be85-4da0-a6e6-c765ba2f38d8#id> .
+
+<http://www.bbc.co.uk/things/5a3239ba-63b2-47f5-bb39-401aadca466f#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Cells and their uses"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/ea8a5477-84b0-4a60-9285-077858e01410#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zqjpyrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5bce2ac7-302c-401d-80d5-c89cff59e894#id>
+        a          olo:Slot ;
+        olo:index  3 ;
+        olo:item   <http://www.bbc.co.uk/things/9664aa3d-b6e4-4482-88ce-ce8966be7a03#id> .
+
+<http://www.bbc.co.uk/things/ea8a5477-84b0-4a60-9285-077858e01410#id>
+        a                  curric:Topic ;
+        rdfs:label         "Cells and their uses"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/d9d1a93b-82ee-47b6-8312-ee8f055cfbe1#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zm7s34j#topic> .
+
+<http://www.bbc.co.uk/things/b38ea623-f2fa-40cf-8077-730d09be1d74#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "DNA, protein and enzymes"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/0e2fb69e-1578-4d1b-a83e-c529b4d37e20#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zvykjxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ceaaa889-366b-4143-92c4-d7947e52aa2d#id>
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/e110f084-23fd-4703-974f-44d7445e9baf#id> , <http://www.bbc.co.uk/things/74b2242d-fc91-4a02-bf96-94ba7d06986a#id> , <http://www.bbc.co.uk/things/d1516a8f-542f-41a1-8d19-ee9f73ce1339#id> , <http://www.bbc.co.uk/things/196ee9be-90f5-4ae7-af50-280bcdcbef38#id> , <http://www.bbc.co.uk/things/5e7ad381-426c-42e0-a7cd-f892a7a84cc4#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zphg9j6#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/a5bf37d8-39c9-4af1-9c98-47921b775e61#id>
+        a          olo:Slot ;
+        olo:index  3 ;
+        olo:item   <http://www.bbc.co.uk/things/6de0a48b-b3a6-47a4-896d-65dc7022937d#id> .
+
+<http://www.bbc.co.uk/things/1c7eec2f-ffeb-46dc-bf3d-e22ab13b380f#id>
+        a          olo:Slot ;
+        olo:index  3 ;
+        olo:item   <http://www.bbc.co.uk/things/2a5d6c16-dcf4-4fb9-954b-9f38758ac2d1#id> .
+
+<http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id>
+        a              curric:ProgrammeOfStudy ;
+        curric:topics  <http://www.bbc.co.uk/things/5179f3e2-ed42-4b1f-8bf2-6e791397bfd9#id> .
+
+<http://www.bbc.co.uk/things/e110f084-23fd-4703-974f-44d7445e9baf#id>
+        a          olo:Slot ;
+        olo:index  5 ;
+        olo:item   <http://www.bbc.co.uk/things/f51fd521-e51d-45c0-9af3-1fe2bb31657b#id> .
+
+<http://www.bbc.co.uk/things/ab6cdc0c-d02c-4051-ae3e-9734e9b5ab3d#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Enzymes"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/9219886f-b743-4d9a-b297-4718df839986#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7qnvcw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e9ad231e-4b87-4912-ab41-26999b48b232#id>
+        a                  curric:Topic ;
+        rdfs:label         "Plants and their uses"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/znhg9j6#topic> .
+
+<http://www.bbc.co.uk/things/3ff37ab0-d28c-410e-8932-3e4282bd5b6e#id>
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/5a3239ba-63b2-47f5-bb39-401aadca466f#id> .
+
+<http://www.bbc.co.uk/things/4cc6cebd-6292-4dc6-adbf-bd70ada3c3a2#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Transport and exchange"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/78b658b0-3f2c-4ba5-be33-56254ca2f67e#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zwdtsbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6de0a48b-b3a6-47a4-896d-65dc7022937d#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Genetics"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/9954bf09-7bc0-46aa-b244-2b171398f021#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z3v8q6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/583de63e-f55c-4984-a6b5-97f1d2561ef7#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Adaptation"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/ecdddc7d-e834-4c4e-91f5-9b594015400e#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6xvr82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0b5dd2c0-217c-488f-aba9-4008f632e6d6#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Cell biology"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/d9d1a93b-82ee-47b6-8312-ee8f055cfbe1#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        curric:topics          <http://www.bbc.co.uk/things/2e6258a8-ec8a-4632-9bb0-c54c4773fd80#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zjwhfg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9954bf09-7bc0-46aa-b244-2b171398f021#id>
+        a                  curric:Topic ;
+        rdfs:label         "Genetics"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/z4rqxnb#topic> .
+
+<http://www.bbc.co.uk/things/a62d85aa-d0c9-42c0-a24b-958db9e2142d#id>
+        a          olo:Slot ;
+        olo:index  4 ;
+        olo:item   <http://www.bbc.co.uk/things/db74ffd2-a73f-4c5e-b604-1392cfebb348#id> .
+
+<http://www.bbc.co.uk/things/a91be525-44b9-4820-9fdb-db217df1e9b2#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Cell biology"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/d9d1a93b-82ee-47b6-8312-ee8f055cfbe1#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        curric:topics          <http://www.bbc.co.uk/things/d966c15f-1e40-4dc3-b1ca-cba82646688f#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfnc87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id>
+        a              curric:ProgrammeOfStudy ;
+        curric:topics  <http://www.bbc.co.uk/things/f372fc41-470a-4050-8477-860abb1be902#id> .
+
+<http://www.bbc.co.uk/things/33065c10-b402-4832-8c7a-0c0443548c1c#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Specialised and non-specialised cells"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/43f02fe6-cb6f-4361-98a4-d3cd44a26b85#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zk9mhyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5e7ad381-426c-42e0-a7cd-f892a7a84cc4#id>
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/f11bf9e9-affb-452e-9923-b5f32f8f87e2#id> .
+
+<http://www.bbc.co.uk/things/9e3410a7-cf42-4290-9ecf-0979579a548c#id>
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/139b491e-eb2a-47c4-a71e-d50512c596fa#id> .
+
+<http://www.bbc.co.uk/things/46e598d1-e6cf-446a-af3d-acc0b69627c2#id>
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/33065c10-b402-4832-8c7a-0c0443548c1c#id> .
+
+<http://www.bbc.co.uk/things/7cf20c70-b8f9-4fb0-bc70-f991b990cb12#id>
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/75ff708f-d220-43ba-97d1-dee3561d2d1d#id> .
+
+<http://www.bbc.co.uk/things/d061ba63-c0de-4d8f-851a-ceda69f48df1#id>
+        a          olo:Slot ;
+        olo:index  3 ;
+        olo:item   <http://www.bbc.co.uk/things/ce559e52-c66d-47a1-ac57-f31dc3a85d04#id> .
+
+<http://www.bbc.co.uk/things/3e4eed24-0ed0-43be-b2b8-0329f264a6ff#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Humans and the environment"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/7772a39b-10ba-4f9e-99b3-34e710fee97b#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z4c76sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/75ff708f-d220-43ba-97d1-dee3561d2d1d#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Life on Earth"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/cdd315b4-e172-48b0-abb2-0e5789a5c6db#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        curric:topics          <http://www.bbc.co.uk/things/5333a009-cd36-46c9-813d-e9b45fa62d51#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zxmygk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9664aa3d-b6e4-4482-88ce-ce8966be7a03#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Multicellular organisms"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        curric:topics          <http://www.bbc.co.uk/things/0fa510e7-0b1e-4bd2-8d1d-8d689c1e7c69#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z942tfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1978f9f5-1888-450d-a0d8-0df10319b819#id>
+        a                  curric:Topic ;
+        rdfs:label         "Nitrogen and fertilisers"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/cdd315b4-e172-48b0-abb2-0e5789a5c6db#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/ztxvr82#topic> .
+
+<http://www.bbc.co.uk/things/53274efe-be85-4da0-a6e6-c765ba2f38d8#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Nitrogen and fertilisers"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/1978f9f5-1888-450d-a0d8-0df10319b819#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/a981bea6-415e-40ea-a193-0d28a7dcdf2a#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zhtb4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/df06ac87-eed9-4731-b462-8e6cd4e0d93c#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Life on Earth"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/cdd315b4-e172-48b0-abb2-0e5789a5c6db#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        curric:topics          <http://www.bbc.co.uk/things/25fadf1a-d90c-48f0-9328-5ace70bb6117#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zgbw2hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/27a1084e-4fe1-482f-8f79-b3db17e1a782#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Photosynthesis and respiration"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/42525d20-6ad8-4c2d-a07f-8d7462fbc71f#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/628f6c56-929d-4d01-acb8-84f3f5b8b3c4#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zb3d7ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a2f076f1-2d14-443c-b22d-9471184de3f9#id>
+        a                  curric:Topic ;
+        rdfs:label         "Reproduction"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zsprkqt#topic> .
+
+<http://www.bbc.co.uk/things/196ee9be-90f5-4ae7-af50-280bcdcbef38#id>
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/fc99e947-3df8-44c0-91ec-999b250a6842#id> .
+
+<http://www.bbc.co.uk/things/1bc0f33f-ece5-4a6f-8142-0b7070dc4ec1#id>
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/df06ac87-eed9-4731-b462-8e6cd4e0d93c#id> .
+
+<http://www.bbc.co.uk/things/03d6c135-5028-4fcf-81eb-bdd8a0682f13#id>
+        a          olo:Slot ;
+        olo:index  3 ;
+        olo:item   <http://www.bbc.co.uk/things/c837b67b-a245-499c-b135-05ad70f8186c#id> .
+
+<http://www.bbc.co.uk/things/fc81225a-b9f7-4f09-947a-03aec388db9c#id>
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/0b5dd2c0-217c-488f-aba9-4008f632e6d6#id> .
+
+<http://www.bbc.co.uk/things/2e6258a8-ec8a-4632-9bb0-c54c4773fd80#id>
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/a62d85aa-d0c9-42c0-a24b-958db9e2142d#id> , <http://www.bbc.co.uk/things/03d6c135-5028-4fcf-81eb-bdd8a0682f13#id> , <http://www.bbc.co.uk/things/939d1022-5b9f-42bb-b45f-919ce4aba76d#id> , <http://www.bbc.co.uk/things/3ff37ab0-d28c-410e-8932-3e4282bd5b6e#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zjwhfg8#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/ecdddc7d-e834-4c4e-91f5-9b594015400e#id>
+        a                  curric:Topic ;
+        rdfs:label         "Adaptation"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/cdd315b4-e172-48b0-abb2-0e5789a5c6db#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/z89mhyc#topic> .
+
+<http://www.bbc.co.uk/things/d966c15f-1e40-4dc3-b1ca-cba82646688f#id>
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/c06fe6b5-9cd0-44ef-9715-e74a0bbcf9f1#id> , <http://www.bbc.co.uk/things/a5bf37d8-39c9-4af1-9c98-47921b775e61#id> , <http://www.bbc.co.uk/things/4b5a7f36-c73f-409c-bebb-99f8b5bbbaa3#id> , <http://www.bbc.co.uk/things/443bcfe2-d4ca-4de0-9205-6655bebe5eee#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zfnc87h#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/9423f8a2-3204-426d-9c62-31d0a3928399#id>
+        a                  curric:Topic ;
+        rdfs:label         "Homeostasis"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/4035a1da-1185-443f-b07c-e69600b9006b#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zptb4wx#topic> .
