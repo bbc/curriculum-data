@@ -16,6 +16,8 @@ The instance data covers :
 Changelog
 ---------
 
+2013-09-05 - Second dataset release, including addition of programmes of study and topics of study.
+ 
 2013-07-24 - Initial release of dataset
 
 License
