@@ -1,0 +1,426 @@
+@prefix onto:  <http://www.ontotext.com/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+
+<http://www.bbc.co.uk/things/8e96a41d-faa2-4049-9dbf-489f29d9c179#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Social wellbeing"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/2f034160-16c3-4255-8313-e13753572537#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/82886da0-28c6-419d-a65a-b639444fdd9f#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zn7tvcw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id>
+        a       <http://www.bbc.co.uk/ontologies/curriculum/ProgrammeOfStudy> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/topics>
+                <http://www.bbc.co.uk/things/7dfe04a0-7ff9-47a7-b977-1bc0fcc8f164#id> .
+
+<http://www.bbc.co.uk/things/a85cd3db-097b-4d0a-a044-abe6cea634ad#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Safe and hygienic practises"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/8079af55-f403-4f77-b854-da201291bc3f#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z3hy4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/dc7560d6-6fe3-4164-8526-7641e675387d#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                2 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/d8e9efd4-84be-46d0-8dea-7eb19ebb1a91#id> .
+
+<http://www.bbc.co.uk/things/99bba197-abab-495d-97cf-c7d4b79aa69c#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                1 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/3900cec2-cb7d-453b-b882-25cc45422491#id> .
+
+<http://www.bbc.co.uk/things/efc7a7e5-ceca-45b9-8242-71c989f658dd#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Nutrition"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/983fe4dc-8b8a-42a9-b977-ce51fba803f0#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/82886da0-28c6-419d-a65a-b639444fdd9f#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z74w6sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/82886da0-28c6-419d-a65a-b639444fdd9f#id>
+        a       <http://www.bbc.co.uk/ontologies/curriculum/ProgrammeOfStudy> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/topics>
+                <http://www.bbc.co.uk/things/e432d706-39e2-4508-a317-7d18365492d3#id> .
+
+<http://www.bbc.co.uk/things/c18ef245-3c19-4f02-ba04-556d3ca588a8#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Social wellbeing"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/2f034160-16c3-4255-8313-e13753572537#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zk34q6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/adf1f5f6-2c11-4c6b-9ba3-dd1a75f19bab#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                1 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/3265042f-b7a5-4c2b-858d-cad51644eafb#id> .
+
+<http://www.bbc.co.uk/things/2f034160-16c3-4255-8313-e13753572537#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Social wellbeing"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zdb97ty#topic> .
+
+<http://www.bbc.co.uk/things/e432d706-39e2-4508-a317-7d18365492d3#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
+        <http://purl.org/ontology/olo/core#slot>
+                <http://www.bbc.co.uk/things/721993ab-1d08-49d0-bca8-24d7060b0a90#id> , <http://www.bbc.co.uk/things/91e9a38d-9d2b-4b83-87ae-2623a92108e5#id> , <http://www.bbc.co.uk/things/c83ce544-fb57-4ea5-8e8e-12359e9f9907#id> , <http://www.bbc.co.uk/things/c599eeb2-2598-49a1-a49d-b8287829478a#id> , <http://www.bbc.co.uk/things/08fb4df8-355c-4233-b6ab-ad1622820be4#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z3tfcdm#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/d47bf7ce-d51e-413b-a0f2-73f5cc6cac9d#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Substance misuse"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/6326d053-7886-46eb-b973-2e47500d266c#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z8b97ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/30b0bd7c-8e23-4865-a7c0-891745724314#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                9 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/d47bf7ce-d51e-413b-a0f2-73f5cc6cac9d#id> .
+
+<http://www.bbc.co.uk/things/de206702-50ee-4694-81e9-492df2a6a931#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Relationships"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
+                <http://www.bbc.co.uk/things/5fa26b9f-3878-4615-a797-853a1c4fc2ed#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zmf9wmn#topic> .
+
+<http://www.bbc.co.uk/things/5944222a-4af3-4f00-9521-574692e04717#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Food and health"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zgpv9j6#topic> .
+
+<http://www.bbc.co.uk/things/3900cec2-cb7d-453b-b882-25cc45422491#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Food and the consumer"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/441b68e5-323d-49e8-968c-acaef85d2759#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zyxngk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/91e9a38d-9d2b-4b83-87ae-2623a92108e5#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                2 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/3455b498-8912-4538-a569-b1ebd3fe226d#id> .
+
+<http://www.bbc.co.uk/things/6c7f7e33-b9c2-4752-be42-ec02e6e1969f#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Safe and hygienic practises"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/8079af55-f403-4f77-b854-da201291bc3f#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/82886da0-28c6-419d-a65a-b639444fdd9f#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z29jtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/08fb4df8-355c-4233-b6ab-ad1622820be4#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                4 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/56240463-01b0-4d09-b671-03e25f34a697#id> .
+
+<http://www.bbc.co.uk/things/3455b498-8912-4538-a569-b1ebd3fe226d#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Mental and emotional wellbeing"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/4d3ed76b-b5e4-4d3c-aaf1-a25d0d989e7f#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/82886da0-28c6-419d-a65a-b639444fdd9f#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zmkqhyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/21dca843-acbd-432c-9126-ddfc1e2bd976#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                3 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/6c7f7e33-b9c2-4752-be42-ec02e6e1969f#id> .
+
+<http://www.bbc.co.uk/things/441b68e5-323d-49e8-968c-acaef85d2759#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Food and the consumer"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
+                <http://www.bbc.co.uk/things/5944222a-4af3-4f00-9521-574692e04717#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zrn3kqt#topic> .
+
+<http://www.bbc.co.uk/things/43019ac9-71f0-4b3a-a23d-735bbb673fa9#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Mental and emotional wellbeing"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/4d3ed76b-b5e4-4d3c-aaf1-a25d0d989e7f#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zbpv9j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6326d053-7886-46eb-b973-2e47500d266c#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Substance misuse"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zwgk2hv#topic> .
+
+<http://www.bbc.co.uk/things/e3061c8b-6565-4db2-9e30-d2c20ddb60a0#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                1 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/c801f63e-9326-4674-9897-7d9297518752#id> .
+
+<http://www.bbc.co.uk/things/f35832f8-56f9-4e87-a860-f16c776c0382#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                8 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/c18ef245-3c19-4f02-ba04-556d3ca588a8#id> .
+
+<http://www.bbc.co.uk/things/863f045f-c10b-4541-abfc-5e2d10c6d294#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Planning for choices and changes"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/d7698a9d-9b25-4096-9a9e-78d3d9304e75#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zcfgd2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c83ce544-fb57-4ea5-8e8e-12359e9f9907#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                8 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/8e96a41d-faa2-4049-9dbf-489f29d9c179#id> .
+
+<http://www.bbc.co.uk/things/c594f75d-9d76-4fa8-bc2e-3e10d525827b#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Parenthood"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/68805d54-9aec-4621-817c-6469b30695f6#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zgn3kqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f68aa236-7165-4247-af79-12a8f07a09e3#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Sexual health"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
+                <http://www.bbc.co.uk/things/86bf733e-7c60-4ef6-a660-90ebebeec7d4#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z2q2pv4#topic> .
+
+<http://www.bbc.co.uk/things/61135bda-695d-4551-a58d-a652595e2c11#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Sexual health"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/f68aa236-7165-4247-af79-12a8f07a09e3#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z9vcjxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2ddbee1b-6d3e-4891-bc86-c6ff483f2434#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Relationships"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/de206702-50ee-4694-81e9-492df2a6a931#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z4yrwmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/34ebe6fd-f5db-4890-b1a2-8aed5be8443e#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                6 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/2ddbee1b-6d3e-4891-bc86-c6ff483f2434#id> .
+
+<http://www.bbc.co.uk/things/4f7fa559-14cc-40bc-8bb9-eca8b1512808#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                5 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/863f045f-c10b-4541-abfc-5e2d10c6d294#id> .
+
+<http://www.bbc.co.uk/things/2701e87a-7ddc-4520-ae13-6bebe2e21b01#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                3 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/a85cd3db-097b-4d0a-a044-abe6cea634ad#id> .
+
+<http://www.bbc.co.uk/things/dd8ff2c8-aae4-4746-80df-8a7d1ae0e833#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
+        <http://purl.org/ontology/olo/core#slot>
+                <http://www.bbc.co.uk/things/99bba197-abab-495d-97cf-c7d4b79aa69c#id> , <http://www.bbc.co.uk/things/dc7560d6-6fe3-4164-8526-7641e675387d#id> , <http://www.bbc.co.uk/things/2701e87a-7ddc-4520-ae13-6bebe2e21b01#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zfmpb9q#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/983fe4dc-8b8a-42a9-b977-ce51fba803f0#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Nutrition"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
+                <http://www.bbc.co.uk/things/5944222a-4af3-4f00-9521-574692e04717#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z2mygk7#topic> .
+
+<http://www.bbc.co.uk/things/61279514-8b17-4b83-9c03-afce71965218#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                7 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/61135bda-695d-4551-a58d-a652595e2c11#id> .
+
+<http://www.bbc.co.uk/things/56240463-01b0-4d09-b671-03e25f34a697#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Physical wellbeing"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/207003f1-e45b-422f-8f7f-1b00314842ca#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/82886da0-28c6-419d-a65a-b639444fdd9f#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z6d2n39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3265042f-b7a5-4c2b-858d-cad51644eafb#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Food and health"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/5944222a-4af3-4f00-9521-574692e04717#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/topics>
+                <http://www.bbc.co.uk/things/dd8ff2c8-aae4-4746-80df-8a7d1ae0e833#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zfmpb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/207003f1-e45b-422f-8f7f-1b00314842ca#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Physical wellbeing"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zkvcjxs#topic> .
+
+<http://www.bbc.co.uk/things/c599eeb2-2598-49a1-a49d-b8287829478a#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                1 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/2ed7c2e7-9146-4bf9-922b-e0576ce70237#id> .
+
+<http://www.bbc.co.uk/things/b09f1b6b-dfee-4e55-bf98-b93a593be588#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                2 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/43019ac9-71f0-4b3a-a23d-735bbb673fa9#id> .
+
+<http://www.bbc.co.uk/things/7dfe04a0-7ff9-47a7-b977-1bc0fcc8f164#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
+        <http://purl.org/ontology/olo/core#slot>
+                <http://www.bbc.co.uk/things/4f7fa559-14cc-40bc-8bb9-eca8b1512808#id> , <http://www.bbc.co.uk/things/adf1f5f6-2c11-4c6b-9ba3-dd1a75f19bab#id> , <http://www.bbc.co.uk/things/b09f1b6b-dfee-4e55-bf98-b93a593be588#id> , <http://www.bbc.co.uk/things/61279514-8b17-4b83-9c03-afce71965218#id> , <http://www.bbc.co.uk/things/02f60847-b422-417a-bce0-cb3d28099608#id> , <http://www.bbc.co.uk/things/f35832f8-56f9-4e87-a860-f16c776c0382#id> , <http://www.bbc.co.uk/things/34ebe6fd-f5db-4890-b1a2-8aed5be8443e#id> , <http://www.bbc.co.uk/things/455c601e-e85d-4512-9eac-17ba34c6ba42#id> , <http://www.bbc.co.uk/things/30b0bd7c-8e23-4865-a7c0-891745724314#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zbhy4wx#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/865b5e6d-3656-4d16-8407-23b4dd02e34d#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Relationships"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/de206702-50ee-4694-81e9-492df2a6a931#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/82886da0-28c6-419d-a65a-b639444fdd9f#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zhjxfg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4d3ed76b-b5e4-4d3c-aaf1-a25d0d989e7f#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Mental and emotional wellbeing"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z4fgd2p#topic> .
+
+<http://www.bbc.co.uk/things/8731effe-3795-408a-a6d4-d40fb7c276aa#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                2 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/efc7a7e5-ceca-45b9-8242-71c989f658dd#id> .
+
+<http://www.bbc.co.uk/things/d8e9efd4-84be-46d0-8dea-7eb19ebb1a91#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Nutrition"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/983fe4dc-8b8a-42a9-b977-ce51fba803f0#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zvtfcdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/02f60847-b422-417a-bce0-cb3d28099608#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                3 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/c594f75d-9d76-4fa8-bc2e-3e10d525827b#id> .
+
+<http://www.bbc.co.uk/things/6b6fa6e8-dbd6-4cf1-bd8a-f9c544772479#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
+        <http://purl.org/ontology/olo/core#slot>
+                <http://www.bbc.co.uk/things/21dca843-acbd-432c-9126-ddfc1e2bd976#id> , <http://www.bbc.co.uk/things/8731effe-3795-408a-a6d4-d40fb7c276aa#id> , <http://www.bbc.co.uk/things/e3061c8b-6565-4db2-9e30-d2c20ddb60a0#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zjr8mp3#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/df23f450-45df-4918-a641-82ba58566f4e#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Physical wellbeing"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/207003f1-e45b-422f-8f7f-1b00314842ca#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/98106848-9794-43aa-9a8d-71a60c7cc519#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zrsb87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/68805d54-9aec-4621-817c-6469b30695f6#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Parenthood"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z9yrwmn#topic> .
+
+<http://www.bbc.co.uk/things/721993ab-1d08-49d0-bca8-24d7060b0a90#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                6 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/865b5e6d-3656-4d16-8407-23b4dd02e34d#id> .
+
+<http://www.bbc.co.uk/things/8079af55-f403-4f77-b854-da201291bc3f#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Safe and hygienic practises"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
+                <http://www.bbc.co.uk/things/5944222a-4af3-4f00-9521-574692e04717#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zcsb87h#topic> .
+
+<http://www.bbc.co.uk/things/2ed7c2e7-9146-4bf9-922b-e0576ce70237#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Food and health"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/5944222a-4af3-4f00-9521-574692e04717#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/82886da0-28c6-419d-a65a-b639444fdd9f#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/topics>
+                <http://www.bbc.co.uk/things/6b6fa6e8-dbd6-4cf1-bd8a-f9c544772479#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zjr8mp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d7698a9d-9b25-4096-9a9e-78d3d9304e75#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Planning for choices and changes"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z834q6f#topic> .
+
+<http://www.bbc.co.uk/things/455c601e-e85d-4512-9eac-17ba34c6ba42#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                4 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/df23f450-45df-4918-a641-82ba58566f4e#id> .

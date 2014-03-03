@@ -1,0 +1,530 @@
+@prefix onto:  <http://www.ontotext.com/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+
+<http://www.bbc.co.uk/things/a18cf39c-7eac-4e1f-93ef-110d799ee3d8#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
+        <http://purl.org/ontology/olo/core#slot>
+                <http://www.bbc.co.uk/things/57725647-f8b3-488d-acdd-c7db88512d16#id> , <http://www.bbc.co.uk/things/d1867e69-d312-4719-ab93-65270abb7e78#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zc87pv4#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/f055e7f5-ab2b-48d6-879f-417c510a207e#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Urban dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/658b8877-2c24-4f60-a107-b91dd0057516#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/a577cbea-9ad6-41a8-bf8c-e21d9c0e4de2#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z7sb87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3f58b324-040d-4559-8ba8-9373f217b4ce#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Response to dance"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zrq6yrd#topic> .
+
+<http://www.bbc.co.uk/things/516453f7-d3a9-47fc-bbe1-95bdbfd1a535#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Expressive and creative activity"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/6c26e254-8514-4bd8-a3fa-358b7756a71c#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/1ef2fbce-da45-41a4-9a2e-3338411bc54c#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/topics>
+                <http://www.bbc.co.uk/things/b82971b2-0026-4d1e-ae73-e3741e94ef94#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zmyrwmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f0311b58-d029-4021-81b5-9bfcc835423d#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Latin and ballroom dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/156e2fae-8400-45e7-b8b8-fa4997b9de9a#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/a577cbea-9ad6-41a8-bf8c-e21d9c0e4de2#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zjpv9j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a1463d9d-9676-48f6-af72-bb1da5a7aa08#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Classical dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/da080641-cc46-48e5-b4ae-e23d19a2472c#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/a577cbea-9ad6-41a8-bf8c-e21d9c0e4de2#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zdtfcdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/97fd35c1-9a59-43b9-8607-dc9b7939a361#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Classical dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/da080641-cc46-48e5-b4ae-e23d19a2472c#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/1ef2fbce-da45-41a4-9a2e-3338411bc54c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zpr8mp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b00dd7a3-2da4-4aad-9161-5d96cc90f93b#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Technical skills"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/0b30db09-b200-44dd-896f-4a9518adc713#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/3054b5d2-cb7b-4ca0-9e5d-bc817831fd40#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zjmpb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/18bdd87a-a25b-4532-908b-7f9077aeec89#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                2 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/97fd35c1-9a59-43b9-8607-dc9b7939a361#id> .
+
+<http://www.bbc.co.uk/things/4f856166-a3d9-48a4-a21d-544cc2aef86d#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                1 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/c901eb67-77ef-4063-a71e-daf5c7232056#id> .
+
+<http://www.bbc.co.uk/things/a0707e4c-1b40-4c77-a736-78585d4ba7d7#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                4 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/8825008a-01c4-4d65-8ad3-bffc0c847571#id> .
+
+<http://www.bbc.co.uk/things/7b20f41f-583c-419b-83f4-227b78885f04#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                6 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/f055e7f5-ab2b-48d6-879f-417c510a207e#id> .
+
+<http://www.bbc.co.uk/things/37ebee05-eb5c-4f03-b8df-35994956d009#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Performance skills"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
+                <http://www.bbc.co.uk/things/6c26e254-8514-4bd8-a3fa-358b7756a71c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zbv39j6#topic> .
+
+<http://www.bbc.co.uk/things/7d7964c6-31bb-4095-a219-249575d261e2#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                3 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/bbeed640-9104-4982-8a8b-67da307b6d3d#id> .
+
+<http://www.bbc.co.uk/things/f8ca3802-e280-4543-b073-9b0fe6e42c24#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Choreography"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/c8d0cff5-e854-40fb-a561-26600019a892#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/1ef2fbce-da45-41a4-9a2e-3338411bc54c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zxvcjxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d138b86f-da17-496b-b479-9d03887e8bfa#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                4 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/ef3e9fff-627a-488e-8f9c-d82b5b634890#id> .
+
+<http://www.bbc.co.uk/things/bbeed640-9104-4982-8a8b-67da307b6d3d#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Performance skills"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/37ebee05-eb5c-4f03-b8df-35994956d009#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/1ef2fbce-da45-41a4-9a2e-3338411bc54c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/ztb97ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/18eb8025-ee59-487a-81a8-99b1c4203150#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                2 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/6ac3d67f-eedf-43c9-8cff-bee896de0cd7#id> .
+
+<http://www.bbc.co.uk/things/b9e16805-49f0-45e4-a2b0-dbb90f420212#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                1 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/66af8b14-b452-4f8f-b88d-abd5395eeb29#id> .
+
+<http://www.bbc.co.uk/things/658b8877-2c24-4f60-a107-b91dd0057516#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Urban dance"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zgjxfg8#topic> .
+
+<http://www.bbc.co.uk/things/c901eb67-77ef-4063-a71e-daf5c7232056#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Choreography"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/c8d0cff5-e854-40fb-a561-26600019a892#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/3054b5d2-cb7b-4ca0-9e5d-bc817831fd40#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zw2h34j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c9577a51-644c-40cc-9b3d-2bae948ddc97#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                1 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/3b6a1c64-ea84-4d17-8eca-f2971e8c78b3#id> .
+
+<http://www.bbc.co.uk/things/3a3badec-2aa4-40c7-bc0b-d1f2357d1cfa#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                5 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/24699526-58ac-4073-8faf-55c38ff2ccfc#id> .
+
+<http://www.bbc.co.uk/things/0b30db09-b200-44dd-896f-4a9518adc713#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Technical skills"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zkjxfg8#topic> .
+
+<http://www.bbc.co.uk/things/a48b3804-f180-4e1e-baf8-c3d78c8d50ee#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Response to dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/3f58b324-040d-4559-8ba8-9373f217b4ce#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/1ef2fbce-da45-41a4-9a2e-3338411bc54c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zvd2n39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ab144733-4e24-420a-b25f-056037528b83#id>
+        a       <http://www.bbc.co.uk/ontologies/curriculum/ProgrammeOfStudy> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/topics>
+                <http://www.bbc.co.uk/things/a18cf39c-7eac-4e1f-93ef-110d799ee3d8#id> .
+
+<http://www.bbc.co.uk/things/6473b8b5-87d0-42bf-9382-12a2e113284f#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
+        <http://purl.org/ontology/olo/core#slot>
+                <http://www.bbc.co.uk/things/8bf7a1bf-bba7-46da-b50a-73373a420655#id> , <http://www.bbc.co.uk/things/7b20f41f-583c-419b-83f4-227b78885f04#id> , <http://www.bbc.co.uk/things/ff21e855-a2e9-464d-8a70-3d3a31311043#id> , <http://www.bbc.co.uk/things/9e087c04-0b52-4d66-99dd-927a00f26be2#id> , <http://www.bbc.co.uk/things/3a3badec-2aa4-40c7-bc0b-d1f2357d1cfa#id> , <http://www.bbc.co.uk/things/d7586b18-a318-4777-af1a-172f386cc7a2#id> , <http://www.bbc.co.uk/things/b9e16805-49f0-45e4-a2b0-dbb90f420212#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zscdxnb#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/003a3d33-ff68-46c2-8044-e2b6349280c6#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
+        <http://purl.org/ontology/olo/core#slot>
+                <http://www.bbc.co.uk/things/18bdd87a-a25b-4532-908b-7f9077aeec89#id> , <http://www.bbc.co.uk/things/44e5ff9b-8033-4733-ac36-29dd81268d1a#id> , <http://www.bbc.co.uk/things/11d582c9-bab8-4273-8982-b1dfaf29bf09#id> , <http://www.bbc.co.uk/things/246ac1db-094c-476c-b4d7-2a1a8387a56d#id> , <http://www.bbc.co.uk/things/a0707e4c-1b40-4c77-a736-78585d4ba7d7#id> , <http://www.bbc.co.uk/things/8423d645-8cb3-43cd-8b39-23bcbcae5045#id> , <http://www.bbc.co.uk/things/496e62ab-efcd-44d4-9f81-764a9bb3a1ba#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zf4w6sg#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/3f779b50-e16b-42d6-a5e4-774474b4ce3d#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Traditional and cultural dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/9a979873-43fd-4ce6-8620-7025eaf4c8d6#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/1ef2fbce-da45-41a4-9a2e-3338411bc54c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zf9jtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d7586b18-a318-4777-af1a-172f386cc7a2#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                7 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/f6a58111-ea83-4637-bc89-a632e2ca2692#id> .
+
+<http://www.bbc.co.uk/things/b82971b2-0026-4d1e-ae73-e3741e94ef94#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
+        <http://purl.org/ontology/olo/core#slot>
+                <http://www.bbc.co.uk/things/81b119fa-b077-45b1-9c67-e89884dbbb0c#id> , <http://www.bbc.co.uk/things/7d7964c6-31bb-4095-a219-249575d261e2#id> , <http://www.bbc.co.uk/things/185db13e-bb84-434a-b31e-f48e47ea672d#id> , <http://www.bbc.co.uk/things/d138b86f-da17-496b-b479-9d03887e8bfa#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zmyrwmn#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/3054b5d2-cb7b-4ca0-9e5d-bc817831fd40#id>
+        a       <http://www.bbc.co.uk/ontologies/curriculum/ProgrammeOfStudy> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/topics>
+                <http://www.bbc.co.uk/things/68b5da2c-eecb-4757-8a6d-5af5d95a18a5#id> .
+
+<http://www.bbc.co.uk/things/246ac1db-094c-476c-b4d7-2a1a8387a56d#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                5 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/3f779b50-e16b-42d6-a5e4-774474b4ce3d#id> .
+
+<http://www.bbc.co.uk/things/9e087c04-0b52-4d66-99dd-927a00f26be2#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                4 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/f0311b58-d029-4021-81b5-9bfcc835423d#id> .
+
+<http://www.bbc.co.uk/things/c8d0cff5-e854-40fb-a561-26600019a892#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Choreography"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
+                <http://www.bbc.co.uk/things/6c26e254-8514-4bd8-a3fa-358b7756a71c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z9wmsbk#topic> .
+
+<http://www.bbc.co.uk/things/44e5ff9b-8033-4733-ac36-29dd81268d1a#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                7 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/a48b3804-f180-4e1e-baf8-c3d78c8d50ee#id> .
+
+<http://www.bbc.co.uk/things/e078bf2d-d95e-497a-a79d-ebaeaa23b693#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Interpretive dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
+                <http://www.bbc.co.uk/things/81bf4473-8ad3-45ab-b419-94a500629910#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zwjpyrd#topic> .
+
+<http://www.bbc.co.uk/things/2a95ff14-7086-4bd0-9761-7e421fecf778#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Performance skills"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/37ebee05-eb5c-4f03-b8df-35994956d009#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/a577cbea-9ad6-41a8-bf8c-e21d9c0e4de2#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zkxngk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3b6a1c64-ea84-4d17-8eca-f2971e8c78b3#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Choreography"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/c8d0cff5-e854-40fb-a561-26600019a892#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/a577cbea-9ad6-41a8-bf8c-e21d9c0e4de2#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z42h34j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/66af8b14-b452-4f8f-b88d-abd5395eeb29#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Expressive and creative activity"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/6c26e254-8514-4bd8-a3fa-358b7756a71c#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/a577cbea-9ad6-41a8-bf8c-e21d9c0e4de2#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/topics>
+                <http://www.bbc.co.uk/things/20be1da5-b7d7-479b-945a-a258a7b7a09a#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zc7tvcw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/20be1da5-b7d7-479b-945a-a258a7b7a09a#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
+        <http://purl.org/ontology/olo/core#slot>
+                <http://www.bbc.co.uk/things/18eb8025-ee59-487a-81a8-99b1c4203150#id> , <http://www.bbc.co.uk/things/1126ad5c-07f0-424c-a493-11974ccd9c93#id> , <http://www.bbc.co.uk/things/c9577a51-644c-40cc-9b3d-2bae948ddc97#id> , <http://www.bbc.co.uk/things/444f3c22-42e9-49e5-a5df-dcb406274ae0#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zc7tvcw#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/9949067f-4f97-4257-b8fa-fde07570bf9f#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Movement skills"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/0168cf35-c8e9-4b18-b16a-791b38632618#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/1ef2fbce-da45-41a4-9a2e-3338411bc54c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z634q6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8bf7a1bf-bba7-46da-b50a-73373a420655#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                3 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/15a2ff47-260d-4f01-a683-8af3591cfca3#id> .
+
+<http://www.bbc.co.uk/things/81b119fa-b077-45b1-9c67-e89884dbbb0c#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                2 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/9949067f-4f97-4257-b8fa-fde07570bf9f#id> .
+
+<http://www.bbc.co.uk/things/c8a44563-12fa-48c0-8f38-94a16cdbdd27#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Urban dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/658b8877-2c24-4f60-a107-b91dd0057516#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/1ef2fbce-da45-41a4-9a2e-3338411bc54c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zykqhyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/444f3c22-42e9-49e5-a5df-dcb406274ae0#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                4 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/da957e86-1498-4aa9-bc3b-33827abd0e0a#id> .
+
+<http://www.bbc.co.uk/things/6c26e254-8514-4bd8-a3fa-358b7756a71c#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Expressive and creative activity"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zrpnb9q#topic> .
+
+<http://www.bbc.co.uk/things/f6a58111-ea83-4637-bc89-a632e2ca2692#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Response to dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/3f58b324-040d-4559-8ba8-9373f217b4ce#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/a577cbea-9ad6-41a8-bf8c-e21d9c0e4de2#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z2fgd2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/496e62ab-efcd-44d4-9f81-764a9bb3a1ba#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                1 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/516453f7-d3a9-47fc-bbe1-95bdbfd1a535#id> .
+
+<http://www.bbc.co.uk/things/9a979873-43fd-4ce6-8620-7025eaf4c8d6#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Traditional and cultural dance"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zbwmsbk#topic> .
+
+<http://www.bbc.co.uk/things/68b5da2c-eecb-4757-8a6d-5af5d95a18a5#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
+        <http://purl.org/ontology/olo/core#slot>
+                <http://www.bbc.co.uk/things/4f856166-a3d9-48a4-a21d-544cc2aef86d#id> , <http://www.bbc.co.uk/things/d452f3ac-0dd8-4a93-9189-62bcfe594e72#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zrkqhyc#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/1126ad5c-07f0-424c-a493-11974ccd9c93#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                3 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/2a95ff14-7086-4bd0-9761-7e421fecf778#id> .
+
+<http://www.bbc.co.uk/things/d452f3ac-0dd8-4a93-9189-62bcfe594e72#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                2 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/b00dd7a3-2da4-4aad-9161-5d96cc90f93b#id> .
+
+<http://www.bbc.co.uk/things/0168cf35-c8e9-4b18-b16a-791b38632618#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Movement skills"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
+                <http://www.bbc.co.uk/things/6c26e254-8514-4bd8-a3fa-358b7756a71c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zx63cdm#topic> .
+
+<http://www.bbc.co.uk/things/15a2ff47-260d-4f01-a683-8af3591cfca3#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Interpretive dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/e078bf2d-d95e-497a-a79d-ebaeaa23b693#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/a577cbea-9ad6-41a8-bf8c-e21d9c0e4de2#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zwhy4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/24699526-58ac-4073-8faf-55c38ff2ccfc#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Traditional and cultural dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/9a979873-43fd-4ce6-8620-7025eaf4c8d6#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/a577cbea-9ad6-41a8-bf8c-e21d9c0e4de2#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zqn3kqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/57725647-f8b3-488d-acdd-c7db88512d16#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                2 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/1f42c01a-b878-4f29-a3d0-8595d2027b12#id> .
+
+<http://www.bbc.co.uk/things/d1867e69-d312-4719-ab93-65270abb7e78#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                1 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/d732d874-4cba-4016-b276-6f08d0c82fb7#id> .
+
+<http://www.bbc.co.uk/things/da080641-cc46-48e5-b4ae-e23d19a2472c#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Classical dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
+                <http://www.bbc.co.uk/things/81bf4473-8ad3-45ab-b419-94a500629910#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zc42tfr#topic> .
+
+<http://www.bbc.co.uk/things/8825008a-01c4-4d65-8ad3-bffc0c847571#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Latin and ballroom dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/156e2fae-8400-45e7-b8b8-fa4997b9de9a#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/1ef2fbce-da45-41a4-9a2e-3338411bc54c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zs4w6sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/185db13e-bb84-434a-b31e-f48e47ea672d#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                1 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/f8ca3802-e280-4543-b073-9b0fe6e42c24#id> .
+
+<http://www.bbc.co.uk/things/1ef2fbce-da45-41a4-9a2e-3338411bc54c#id>
+        a       <http://www.bbc.co.uk/ontologies/curriculum/ProgrammeOfStudy> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/topics>
+                <http://www.bbc.co.uk/things/003a3d33-ff68-46c2-8044-e2b6349280c6#id> .
+
+<http://www.bbc.co.uk/things/156e2fae-8400-45e7-b8b8-fa4997b9de9a#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        rdfs:label  "Latin and ballroom dance"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z3d2n39#topic> .
+
+<http://www.bbc.co.uk/things/8423d645-8cb3-43cd-8b39-23bcbcae5045#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                6 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/c8a44563-12fa-48c0-8f38-94a16cdbdd27#id> .
+
+<http://www.bbc.co.uk/things/ff21e855-a2e9-464d-8a70-3d3a31311043#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                2 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/a1463d9d-9676-48f6-af72-bb1da5a7aa08#id> .
+
+<http://www.bbc.co.uk/things/1c2b7533-9b3b-4041-8329-a31e959392c4#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Interpretive dance"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/e078bf2d-d95e-497a-a79d-ebaeaa23b693#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/1ef2fbce-da45-41a4-9a2e-3338411bc54c#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zncdxnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a577cbea-9ad6-41a8-bf8c-e21d9c0e4de2#id>
+        a       <http://www.bbc.co.uk/ontologies/curriculum/ProgrammeOfStudy> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/topics>
+                <http://www.bbc.co.uk/things/6473b8b5-87d0-42bf-9382-12a2e113284f#id> .
+
+<http://www.bbc.co.uk/things/11d582c9-bab8-4273-8982-b1dfaf29bf09#id>
+        a       <http://purl.org/ontology/olo/core#Slot> ;
+        <http://purl.org/ontology/olo/core#index>
+                3 ;
+        <http://purl.org/ontology/olo/core#item>
+                <http://www.bbc.co.uk/things/1c2b7533-9b3b-4041-8329-a31e959392c4#id> .
+
+<http://www.bbc.co.uk/things/1f42c01a-b878-4f29-a3d0-8595d2027b12#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Technical skills"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/0b30db09-b200-44dd-896f-4a9518adc713#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/ab144733-4e24-420a-b25f-056037528b83#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zd7tvcw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6ac3d67f-eedf-43c9-8cff-bee896de0cd7#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Movement skills"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/0168cf35-c8e9-4b18-b16a-791b38632618#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/a577cbea-9ad6-41a8-bf8c-e21d9c0e4de2#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z9mpb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d732d874-4cba-4016-b276-6f08d0c82fb7#id>
+        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
+        rdfs:label  "Choreography"@en-gb ;
+        <http://www.bbc.co.uk/ontologies/curriculum/about>
+                <http://www.bbc.co.uk/things/c8d0cff5-e854-40fb-a561-26600019a892#id> ;
+        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
+                <http://www.bbc.co.uk/things/ab144733-4e24-420a-b25f-056037528b83#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/z8q6yrd#topic-of-study> .
