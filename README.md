@@ -26,6 +26,6 @@ License
 
 Copyright (c) 2013 BBC
 
-{by} for Attribution
+![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png "Creative Commons License") 
 
 This work is licensed under a [Creative Commons Attribution 4.0 License](http://creativecommons.org/licenses/by/4.0/)
