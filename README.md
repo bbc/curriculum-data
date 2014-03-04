@@ -15,6 +15,7 @@ The instance data covers :
 
 Changelog
 ---------
+2014-03-03 - Third dataset release. Added new fields of study including science, technologies, music etc. Changed License from Digital Public Space (DPS) to Creative Commons (CC) 4.0 
 
 2013-09-05 - Second dataset release, including addition of programmes of study and topics of study.
  
@@ -25,9 +26,6 @@ License
 
 Copyright (c) 2013 BBC
 
-Licensed under the terms of the Digital Public Space Licence, version 1.0 (the "Licence"). You may not use this work except in compliance with the terms of the Licence. You may obtain a copy of the Licence at:
+{by} for Attribution
 
-http://bbcarchdev.github.io/licences/dps/1.0
-
-Unless required by law or otherwise agreed in writing, the work distributed under this Licence is distributed on an 'as-is' basis and all representations, warranties, obligations and liabilities of any kind are excluded. See the text of the Licence for details of the specific permissions and limitations which apply to this work.
-
+This work is licensed under a [Creative Commons Attribution 4.0 License](http://creativecommons.org/licenses/by/4.0/)
