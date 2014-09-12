@@ -1,0 +1,58 @@
+@prefix bbc:   <http://www.bbc.co.uk/ontologies/bbc/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix onto:  <http://www.ontotext.com/> .
+@prefix core:  <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix klal:  <http://www.bbc.co.uk/ontologies/applicationlogic-kl/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<http://www.bbc.co.uk/things/dbb90a9d-b940-4c84-8d20-c797cd9b4c50#id>
+        a              curric:ProgrammeOfStudy ;
+        curric:topics  <http://www.bbc.co.uk/things/63f8b38b-b3eb-42ed-a036-d294ec9a848a#id> .
+
+<http://www.bbc.co.uk/things/63f8b38b-b3eb-42ed-a036-d294ec9a848a#id>
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/4d93137b-f576-4fc9-8a0b-7efd32b1c3f9#id> , <http://www.bbc.co.uk/things/a3eefb55-af78-4435-82ef-6b6a145cebe8#id> ;
+        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zwtnvcw#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/7156e817-aa7e-48cf-9d72-92576ebd75a7#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Nofel"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/5aa2650f-a9a7-4591-aa43-3017307d9542#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/dbb90a9d-b940-4c84-8d20-c797cd9b4c50#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zjqmsbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a3eefb55-af78-4435-82ef-6b6a145cebe8#id>
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/7156e817-aa7e-48cf-9d72-92576ebd75a7#id> .
+
+<http://www.bbc.co.uk/things/269949cd-74bb-47d0-b381-0e1e74aa4bbb#id>
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Poetry"@en-gb , "Barddoniaeth"@cy-gb ;
+        curric:about           <http://www.bbc.co.uk/things/d4f16a8c-fe2c-45b9-92bb-59271db3e7c3#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/dbb90a9d-b940-4c84-8d20-c797cd9b4c50#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zc44jxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5aa2650f-a9a7-4591-aa43-3017307d9542#id>
+        a           curric:Topic ;
+        rdfs:label  "Nofel"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/topics/zwj2n39#topic> .
+
+<http://www.bbc.co.uk/things/d4f16a8c-fe2c-45b9-92bb-59271db3e7c3#id>
+        a                  curric:Topic ;
+        rdfs:label         "Poetry"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/b3efa48f-ba1a-4d24-80f4-0175510ad7e4#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zcprkqt#topic> .
+
+<http://www.bbc.co.uk/things/4d93137b-f576-4fc9-8a0b-7efd32b1c3f9#id>
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/269949cd-74bb-47d0-b381-0e1e74aa4bbb#id> .
