@@ -15,6 +15,7 @@ The instance data covers :
 
 Changelog
 ---------
+2014-09-12 - New dataset release. Added new fields and topics of study including KS1, KS2 computing, welsh literature.  
 2014-03-03 - Third dataset release. Added new fields of study including science, technologies, music etc. Changed License from Digital Public Space (DPS) to Creative Commons (CC) 4.0 
 
 2013-09-05 - Second dataset release, including addition of programmes of study and topics of study.

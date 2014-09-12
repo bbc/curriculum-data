@@ -1,330 +1,260 @@
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix onto:  <http://www.ontotext.com/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
 
 <http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
-        rdfs:label  "Reading"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
-                <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zswtsbk#topic> .
+        a                  curric:Topic ;
+        rdfs:label         "Reading"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zswtsbk#topic> .
 
 <http://www.bbc.co.uk/things/2dc50a0e-d43b-4cca-9d66-561731fee842#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Reading"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z2vv4wx#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Reading"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z2vv4wx#topic-of-study> .
 
 <http://www.bbc.co.uk/things/1ff52e2d-0fdd-4d05-96db-9e16766cd33a#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Using language"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/topics>
-                <http://www.bbc.co.uk/things/787a63c4-74cf-43d0-886b-0f330729f107#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zskk7ty#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Using language"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
+        curric:topics          <http://www.bbc.co.uk/things/787a63c4-74cf-43d0-886b-0f330729f107#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zskk7ty#topic-of-study> .
 
 <http://www.bbc.co.uk/things/65dd25b5-ecbb-404e-8b49-b8891cc5a428#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                1 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/bac55154-a7b1-4519-8f82-cde786dc3424#id> .
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/bac55154-a7b1-4519-8f82-cde786dc3424#id> .
 
 <http://www.bbc.co.uk/things/d2f71580-8f47-4525-98f9-7ba0b557cdf7#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Writing"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zvjj6sg#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Writing"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zvjj6sg#topic-of-study> .
 
 <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        a           curric:Topic ;
         rdfs:label  "Using language"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/topics/z4htyrd#topic> .
 
 <http://www.bbc.co.uk/things/36de1f05-9e5c-47ea-b262-5dd57df79b15#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                1 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/f6318ae6-9a48-4309-9780-feb3b1901e33#id> .
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/f6318ae6-9a48-4309-9780-feb3b1901e33#id> .
 
 <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
-        rdfs:label  "Writing"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
-                <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zyqpyrd#topic> .
+        a                  curric:Topic ;
+        rdfs:label         "Writing"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zyqpyrd#topic> .
 
 <http://www.bbc.co.uk/things/f0b61375-8aa8-4811-8c73-07cd6022b13e#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Reading"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zn99q6f#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Reading"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zn99q6f#topic-of-study> .
 
 <http://www.bbc.co.uk/things/cd7f6ea1-119e-4778-b22f-9a9fd859c94a#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Talking"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z6gg87h#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Talking"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6gg87h#topic-of-study> .
 
 <http://www.bbc.co.uk/things/db61be66-5a3d-4cdc-80fb-b8acbe15edc1#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
-        <http://purl.org/ontology/olo/core#slot>
-                <http://www.bbc.co.uk/things/e26f11c3-75f2-4146-a369-336ae1c2d075#id> , <http://www.bbc.co.uk/things/36de1f05-9e5c-47ea-b262-5dd57df79b15#id> ;
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/e26f11c3-75f2-4146-a369-336ae1c2d075#id> , <http://www.bbc.co.uk/things/36de1f05-9e5c-47ea-b262-5dd57df79b15#id> ;
         owl:sameAs  <http://www.bbc.co.uk/education/subjects/zhccwmn#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/861dbcb2-cc1b-4032-81bd-529fafa9a6f4#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                2 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/1ff52e2d-0fdd-4d05-96db-9e16766cd33a#id> .
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/1ff52e2d-0fdd-4d05-96db-9e16766cd33a#id> .
 
 <http://www.bbc.co.uk/things/0e655ab7-372a-40c1-a1a3-92ac541a6761#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                3 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/d2f71580-8f47-4525-98f9-7ba0b557cdf7#id> .
+        a          olo:Slot ;
+        olo:index  3 ;
+        olo:item   <http://www.bbc.co.uk/things/d2f71580-8f47-4525-98f9-7ba0b557cdf7#id> .
 
 <http://www.bbc.co.uk/things/ee5a72db-a2d0-4d2e-87ba-e5c77d6ac9b7#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                2 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/cd7f6ea1-119e-4778-b22f-9a9fd859c94a#id> .
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/cd7f6ea1-119e-4778-b22f-9a9fd859c94a#id> .
 
 <http://www.bbc.co.uk/things/f6318ae6-9a48-4309-9780-feb3b1901e33#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Listening"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zp44jxs#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Listening"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zp44jxs#topic-of-study> .
 
 <http://www.bbc.co.uk/things/33c6128a-2374-4113-bc8f-25642c5065f9#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                2 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/ae3b658e-92e4-49d5-887f-20c1c1acabd0#id> .
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/ae3b658e-92e4-49d5-887f-20c1c1acabd0#id> .
 
 <http://www.bbc.co.uk/things/8654378e-0474-4ab8-9e9e-1b668ed18cb4#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Grammar"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/37c43019-6e1b-40e9-b74e-997f98a1e724#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zxbbkqt#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Grammar"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/37c43019-6e1b-40e9-b74e-997f98a1e724#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zxbbkqt#topic-of-study> .
 
 <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id>
-        a       <http://www.bbc.co.uk/ontologies/curriculum/ProgrammeOfStudy> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/topics>
-                <http://www.bbc.co.uk/things/0290296e-f140-4281-9b87-2ca917e953be#id> .
+        a              curric:ProgrammeOfStudy ;
+        curric:topics  <http://www.bbc.co.uk/things/0290296e-f140-4281-9b87-2ca917e953be#id> .
 
 <http://www.bbc.co.uk/things/ae3b658e-92e4-49d5-887f-20c1c1acabd0#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Talking"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zyddmp3#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Talking"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zyddmp3#topic-of-study> .
 
 <http://www.bbc.co.uk/things/1e8a641d-c4fd-4432-b0ba-c6adf341ddd4#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                1 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/8654378e-0474-4ab8-9e9e-1b668ed18cb4#id> .
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/8654378e-0474-4ab8-9e9e-1b668ed18cb4#id> .
 
 <http://www.bbc.co.uk/things/37c43019-6e1b-40e9-b74e-997f98a1e724#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
-        rdfs:label  "Grammar"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
-                <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z9phvcw#topic> .
+        a                  curric:Topic ;
+        rdfs:label         "Grammar"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/z9phvcw#topic> .
 
 <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        a           curric:Topic ;
         rdfs:label  "Understanding language"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/topics/zct6fg8#topic> .
 
 <http://www.bbc.co.uk/things/0290296e-f140-4281-9b87-2ca917e953be#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
-        <http://purl.org/ontology/olo/core#slot>
-                <http://www.bbc.co.uk/things/3a1a68ef-73f1-4287-b470-f5691729576a#id> , <http://www.bbc.co.uk/things/7ad7b75c-2bea-473f-a451-8a37d513a4aa#id> ;
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/3a1a68ef-73f1-4287-b470-f5691729576a#id> , <http://www.bbc.co.uk/things/7ad7b75c-2bea-473f-a451-8a37d513a4aa#id> ;
         owl:sameAs  <http://www.bbc.co.uk/education/subjects/zwnnb9q#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/bac55154-a7b1-4519-8f82-cde786dc3424#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Grammar"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/37c43019-6e1b-40e9-b74e-997f98a1e724#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zf882hv#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Grammar"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/37c43019-6e1b-40e9-b74e-997f98a1e724#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zf882hv#topic-of-study> .
 
 <http://www.bbc.co.uk/things/0d3d55d2-f3c0-4ec6-b303-e4de3c343ee4#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Using language"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/topics>
-                <http://www.bbc.co.uk/things/d0c7b7e1-0a1c-43a9-8bc0-1fc2482d9e0c#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zm339j6#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Using language"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
+        curric:topics          <http://www.bbc.co.uk/things/d0c7b7e1-0a1c-43a9-8bc0-1fc2482d9e0c#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zm339j6#topic-of-study> .
 
 <http://www.bbc.co.uk/things/523adc52-f8a4-430e-8f61-91abef4ed2ba#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
-        <http://purl.org/ontology/olo/core#slot>
-                <http://www.bbc.co.uk/things/6bd5ecea-3a84-4ced-9ac8-924bff67667f#id> , <http://www.bbc.co.uk/things/861dbcb2-cc1b-4032-81bd-529fafa9a6f4#id> ;
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/6bd5ecea-3a84-4ced-9ac8-924bff67667f#id> , <http://www.bbc.co.uk/things/861dbcb2-cc1b-4032-81bd-529fafa9a6f4#id> ;
         owl:sameAs  <http://www.bbc.co.uk/education/subjects/zjssgk7#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/6bd5ecea-3a84-4ced-9ac8-924bff67667f#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                1 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/76549296-a3cf-42b4-bd7f-d3d233a7a1c3#id> .
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/76549296-a3cf-42b4-bd7f-d3d233a7a1c3#id> .
 
 <http://www.bbc.co.uk/things/41c307f4-ea22-49a7-91bd-0dceed6f90bf#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                2 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/2dc50a0e-d43b-4cca-9d66-561731fee842#id> .
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/2dc50a0e-d43b-4cca-9d66-561731fee842#id> .
 
 <http://www.bbc.co.uk/things/043c2399-2d44-41b6-9146-63f0b05bf413#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Writing"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/ztrrd2p#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Writing"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/ztrrd2p#topic-of-study> .
 
 <http://www.bbc.co.uk/things/787a63c4-74cf-43d0-886b-0f330729f107#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
-        <http://purl.org/ontology/olo/core#slot>
-                <http://www.bbc.co.uk/things/33c6128a-2374-4113-bc8f-25642c5065f9#id> , <http://www.bbc.co.uk/things/65dd25b5-ecbb-404e-8b49-b8891cc5a428#id> , <http://www.bbc.co.uk/things/0e655ab7-372a-40c1-a1a3-92ac541a6761#id> ;
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/33c6128a-2374-4113-bc8f-25642c5065f9#id> , <http://www.bbc.co.uk/things/65dd25b5-ecbb-404e-8b49-b8891cc5a428#id> , <http://www.bbc.co.uk/things/0e655ab7-372a-40c1-a1a3-92ac541a6761#id> ;
         owl:sameAs  <http://www.bbc.co.uk/education/subjects/zskk7ty#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/7ad7b75c-2bea-473f-a451-8a37d513a4aa#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                1 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/f16bfe22-96fc-43e9-95b7-7b25a5e630a7#id> .
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/f16bfe22-96fc-43e9-95b7-7b25a5e630a7#id> .
 
 <http://www.bbc.co.uk/things/f16bfe22-96fc-43e9-95b7-7b25a5e630a7#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Understanding language"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/topics>
-                <http://www.bbc.co.uk/things/83b3d02f-fcdb-4f06-8124-c14928ea54c0#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zqffr82#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Understanding language"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
+        curric:topics          <http://www.bbc.co.uk/things/83b3d02f-fcdb-4f06-8124-c14928ea54c0#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zqffr82#topic-of-study> .
 
 <http://www.bbc.co.uk/things/b3044dee-71c0-4de4-9491-aa977e45a4aa#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                1 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/c030084f-9b3d-463b-b255-291eb8270b15#id> .
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/c030084f-9b3d-463b-b255-291eb8270b15#id> .
 
 <http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
-        rdfs:label  "Talking"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
-                <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zknp34j#topic> .
+        a                  curric:Topic ;
+        rdfs:label         "Talking"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/zknp34j#topic> .
 
 <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id>
-        a       <http://www.bbc.co.uk/ontologies/curriculum/ProgrammeOfStudy> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/topics>
-                <http://www.bbc.co.uk/things/523adc52-f8a4-430e-8f61-91abef4ed2ba#id> .
+        a              curric:ProgrammeOfStudy ;
+        curric:topics  <http://www.bbc.co.uk/things/523adc52-f8a4-430e-8f61-91abef4ed2ba#id> .
 
 <http://www.bbc.co.uk/things/3a1a68ef-73f1-4287-b470-f5691729576a#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                2 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/0d3d55d2-f3c0-4ec6-b303-e4de3c343ee4#id> .
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/0d3d55d2-f3c0-4ec6-b303-e4de3c343ee4#id> .
 
 <http://www.bbc.co.uk/things/e26f11c3-75f2-4146-a369-336ae1c2d075#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                2 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/f0b61375-8aa8-4811-8c73-07cd6022b13e#id> .
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/f0b61375-8aa8-4811-8c73-07cd6022b13e#id> .
 
 <http://www.bbc.co.uk/things/76549296-a3cf-42b4-bd7f-d3d233a7a1c3#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Understanding language"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/topics>
-                <http://www.bbc.co.uk/things/db61be66-5a3d-4cdc-80fb-b8acbe15edc1#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zhccwmn#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Understanding language"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/7beecc0b-2deb-4371-ba32-ebfa8c692a4f#id> ;
+        curric:topics          <http://www.bbc.co.uk/things/db61be66-5a3d-4cdc-80fb-b8acbe15edc1#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zhccwmn#topic-of-study> .
 
 <http://www.bbc.co.uk/things/47a4e64d-df3b-401e-92d4-81c87368d9c1#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                3 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/043c2399-2d44-41b6-9146-63f0b05bf413#id> .
+        a          olo:Slot ;
+        olo:index  3 ;
+        olo:item   <http://www.bbc.co.uk/things/043c2399-2d44-41b6-9146-63f0b05bf413#id> .
 
 <http://www.bbc.co.uk/things/d0c7b7e1-0a1c-43a9-8bc0-1fc2482d9e0c#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
-        <http://purl.org/ontology/olo/core#slot>
-                <http://www.bbc.co.uk/things/47a4e64d-df3b-401e-92d4-81c87368d9c1#id> , <http://www.bbc.co.uk/things/1e8a641d-c4fd-4432-b0ba-c6adf341ddd4#id> , <http://www.bbc.co.uk/things/ee5a72db-a2d0-4d2e-87ba-e5c77d6ac9b7#id> ;
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/47a4e64d-df3b-401e-92d4-81c87368d9c1#id> , <http://www.bbc.co.uk/things/1e8a641d-c4fd-4432-b0ba-c6adf341ddd4#id> , <http://www.bbc.co.uk/things/ee5a72db-a2d0-4d2e-87ba-e5c77d6ac9b7#id> ;
         owl:sameAs  <http://www.bbc.co.uk/education/subjects/zm339j6#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/c030084f-9b3d-463b-b255-291eb8270b15#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Listening"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z7yycdm#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Listening"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/8cde3f03-6f13-4a39-a1cb-376d2cea5d34#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7yycdm#topic-of-study> .
 
 <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
-        rdfs:label  "Listening"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/subTopicOf>
-                <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z7wtsbk#topic> .
+        a                  curric:Topic ;
+        rdfs:label         "Listening"@en-gb ;
+        curric:subTopicOf  <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
+        owl:sameAs         <http://www.bbc.co.uk/education/topics/z7wtsbk#topic> .
 
 <http://www.bbc.co.uk/things/83b3d02f-fcdb-4f06-8124-c14928ea54c0#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
-        <http://purl.org/ontology/olo/core#slot>
-                <http://www.bbc.co.uk/things/41c307f4-ea22-49a7-91bd-0dceed6f90bf#id> , <http://www.bbc.co.uk/things/b3044dee-71c0-4de4-9491-aa977e45a4aa#id> ;
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/41c307f4-ea22-49a7-91bd-0dceed6f90bf#id> , <http://www.bbc.co.uk/things/b3044dee-71c0-4de4-9491-aa977e45a4aa#id> ;
         owl:sameAs  <http://www.bbc.co.uk/education/subjects/zqffr82#topics-of-study-list> .

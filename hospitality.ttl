@@ -1,145 +1,120 @@
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix onto:  <http://www.ontotext.com/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
 
 <http://www.bbc.co.uk/things/fa0f837f-5698-44ea-a825-f882ff8c1655#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                4 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/fea6ba86-6258-4121-8505-c9c84903f442#id> .
+        a          olo:Slot ;
+        olo:index  4 ;
+        olo:item   <http://www.bbc.co.uk/things/fea6ba86-6258-4121-8505-c9c84903f442#id> .
 
 <http://www.bbc.co.uk/things/abd07aa8-54a9-472b-8753-117068a11a9b#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Understanding and using ingredients"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/b398546f-afa6-47bd-9a83-ed0965cc8e71#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zyb97ty#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Understanding and using ingredients"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/b398546f-afa6-47bd-9a83-ed0965cc8e71#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zyb97ty#topic-of-study> .
 
 <http://www.bbc.co.uk/things/9f4a127c-283e-4af7-80b0-fac93892bf34#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                2 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/d95b5a66-a359-4b2a-b17a-b97e24b91f16#id> .
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/d95b5a66-a359-4b2a-b17a-b97e24b91f16#id> .
 
 <http://www.bbc.co.uk/things/76b64973-2c92-49c1-9ee7-1a2c598b30b3#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
-        <http://purl.org/ontology/olo/core#slot>
-                <http://www.bbc.co.uk/things/9f199669-a492-448b-956e-72ee92f11b4f#id> , <http://www.bbc.co.uk/things/9f4a127c-283e-4af7-80b0-fac93892bf34#id> ;
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/9f199669-a492-448b-956e-72ee92f11b4f#id> , <http://www.bbc.co.uk/things/9f4a127c-283e-4af7-80b0-fac93892bf34#id> ;
         owl:sameAs  <http://www.bbc.co.uk/education/subjects/z33cjxs#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/6e3a0a2e-713e-444c-bc7a-630e6c305f65#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                2 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/abd07aa8-54a9-472b-8753-117068a11a9b#id> .
+        a          olo:Slot ;
+        olo:index  2 ;
+        olo:item   <http://www.bbc.co.uk/things/abd07aa8-54a9-472b-8753-117068a11a9b#id> .
 
 <http://www.bbc.co.uk/things/b398546f-afa6-47bd-9a83-ed0965cc8e71#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        a           curric:Topic ;
         rdfs:label  "Understanding and using ingredients"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/topics/zbg97ty#topic> .
 
 <http://www.bbc.co.uk/things/9f199669-a492-448b-956e-72ee92f11b4f#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                1 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/0ea7130e-c244-453c-8d6d-110a1d86347a#id> .
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/0ea7130e-c244-453c-8d6d-110a1d86347a#id> .
 
 <http://www.bbc.co.uk/things/74f9a65f-64e8-4bad-b233-d97855b3ef50#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        a           curric:Topic ;
         rdfs:label  "Cake finishing"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/topics/zc4dxnb#topic> .
 
 <http://www.bbc.co.uk/things/bfec338c-a1b6-4d27-91ce-15e7d037f072#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudyList> ;
-        <http://purl.org/ontology/olo/core#slot>
-                <http://www.bbc.co.uk/things/0f1a469e-03ba-4520-a790-25db7fbb2038#id> , <http://www.bbc.co.uk/things/73c8c10f-f7cb-4f23-88da-9108bf658264#id> , <http://www.bbc.co.uk/things/6e3a0a2e-713e-444c-bc7a-630e6c305f65#id> , <http://www.bbc.co.uk/things/fa0f837f-5698-44ea-a825-f882ff8c1655#id> ;
+        a           curric:TopicOfStudyList ;
+        olo:slot    <http://www.bbc.co.uk/things/0f1a469e-03ba-4520-a790-25db7fbb2038#id> , <http://www.bbc.co.uk/things/73c8c10f-f7cb-4f23-88da-9108bf658264#id> , <http://www.bbc.co.uk/things/6e3a0a2e-713e-444c-bc7a-630e6c305f65#id> , <http://www.bbc.co.uk/things/fa0f837f-5698-44ea-a825-f882ff8c1655#id> ;
         owl:sameAs  <http://www.bbc.co.uk/education/subjects/zhtsr82#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/c4066e92-bdcb-4206-9f3c-fee3353a2055#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        a           curric:Topic ;
         rdfs:label  "Cookery skills, techniques and processes"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/topics/z3b4q6f#topic> .
 
 <http://www.bbc.co.uk/things/14089b99-9a66-42d9-be72-0d62c5edd847#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Topic> ;
+        a           curric:Topic ;
         rdfs:label  "Cake baking"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/topics/zrc8mp3#topic> .
 
 <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id>
-        a       <http://www.bbc.co.uk/ontologies/curriculum/ProgrammeOfStudy> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/topics>
-                <http://www.bbc.co.uk/things/bfec338c-a1b6-4d27-91ce-15e7d037f072#id> .
+        a              curric:ProgrammeOfStudy ;
+        curric:topics  <http://www.bbc.co.uk/things/bfec338c-a1b6-4d27-91ce-15e7d037f072#id> .
 
 <http://www.bbc.co.uk/things/d95b5a66-a359-4b2a-b17a-b97e24b91f16#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Understanding and using ingredients"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/b398546f-afa6-47bd-9a83-ed0965cc8e71#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/4f5fe7a9-8158-4e66-9c80-523708be6b4d#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/znyrwmn#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Understanding and using ingredients"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/b398546f-afa6-47bd-9a83-ed0965cc8e71#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/4f5fe7a9-8158-4e66-9c80-523708be6b4d#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/znyrwmn#topic-of-study> .
 
 <http://www.bbc.co.uk/things/50b0b1f0-92f7-4ddc-b853-28a3212f1270#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Cookery skills, techniques and processes"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/c4066e92-bdcb-4206-9f3c-fee3353a2055#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zf34q6f#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Cookery skills, techniques and processes"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/c4066e92-bdcb-4206-9f3c-fee3353a2055#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zf34q6f#topic-of-study> .
 
 <http://www.bbc.co.uk/things/fea6ba86-6258-4121-8505-c9c84903f442#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Cake baking"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/14089b99-9a66-42d9-be72-0d62c5edd847#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z3cdxnb#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Cake baking"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/14089b99-9a66-42d9-be72-0d62c5edd847#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/z3cdxnb#topic-of-study> .
 
 <http://www.bbc.co.uk/things/a6e2b77a-60ff-4304-b1b1-65bbfd3380d6#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Cake finishing"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/74f9a65f-64e8-4bad-b233-d97855b3ef50#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zb4w6sg#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Cake finishing"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/74f9a65f-64e8-4bad-b233-d97855b3ef50#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zb4w6sg#topic-of-study> .
 
 <http://www.bbc.co.uk/things/0ea7130e-c244-453c-8d6d-110a1d86347a#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/TopicOfStudy> ;
-        rdfs:label  "Cookery skills, techniques and processes"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/curriculum/about>
-                <http://www.bbc.co.uk/things/c4066e92-bdcb-4206-9f3c-fee3353a2055#id> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/appropriateFor>
-                <http://www.bbc.co.uk/things/4f5fe7a9-8158-4e66-9c80-523708be6b4d#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zpfgd2p#topic-of-study> .
+        a                      curric:TopicOfStudy ;
+        rdfs:label             "Cookery skills, techniques and processes"@en-gb ;
+        curric:about           <http://www.bbc.co.uk/things/c4066e92-bdcb-4206-9f3c-fee3353a2055#id> ;
+        curric:appropriateFor  <http://www.bbc.co.uk/things/4f5fe7a9-8158-4e66-9c80-523708be6b4d#id> ;
+        owl:sameAs             <http://www.bbc.co.uk/education/topics/zpfgd2p#topic-of-study> .
 
 <http://www.bbc.co.uk/things/4f5fe7a9-8158-4e66-9c80-523708be6b4d#id>
-        a       <http://www.bbc.co.uk/ontologies/curriculum/ProgrammeOfStudy> ;
-        <http://www.bbc.co.uk/ontologies/curriculum/topics>
-                <http://www.bbc.co.uk/things/76b64973-2c92-49c1-9ee7-1a2c598b30b3#id> .
+        a              curric:ProgrammeOfStudy ;
+        curric:topics  <http://www.bbc.co.uk/things/76b64973-2c92-49c1-9ee7-1a2c598b30b3#id> .
 
 <http://www.bbc.co.uk/things/73c8c10f-f7cb-4f23-88da-9108bf658264#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                1 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/50b0b1f0-92f7-4ddc-b853-28a3212f1270#id> .
+        a          olo:Slot ;
+        olo:index  1 ;
+        olo:item   <http://www.bbc.co.uk/things/50b0b1f0-92f7-4ddc-b853-28a3212f1270#id> .
 
 <http://www.bbc.co.uk/things/0f1a469e-03ba-4520-a790-25db7fbb2038#id>
-        a       <http://purl.org/ontology/olo/core#Slot> ;
-        <http://purl.org/ontology/olo/core#index>
-                5 ;
-        <http://purl.org/ontology/olo/core#item>
-                <http://www.bbc.co.uk/things/a6e2b77a-60ff-4304-b1b1-65bbfd3380d6#id> .
+        a          olo:Slot ;
+        olo:index  5 ;
+        olo:item   <http://www.bbc.co.uk/things/a6e2b77a-60ff-4304-b1b1-65bbfd3380d6#id> .

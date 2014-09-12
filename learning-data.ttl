@@ -1,87 +1,90 @@
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix onto:  <http://www.ontotext.com/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
 
 <http://www.bbc.co.uk/things/f3a7d062-691b-4823-bca2-9dd32215131a#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Language> ;
+        a           curric:Language ;
         rdfs:label  "Welsh"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/languages/zhr9wmn#language> .
 
 <http://www.bbc.co.uk/things/b7c1e919-158a-4338-ae66-fded380d9445#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/PaperTier> ;
+        a           curric:PaperTier ;
         rdfs:label  "Foundation"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/paper-tier/zg7xpv4#paper-tier> .
 
-<http://www.bbc.co.uk/things/e5b06cb2-c201-49a0-877a-f584afacf3ee#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/ExamBoard> ;
-        rdfs:label  "SQA"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/exam-boards/zbqmhyc#exam-board> .
-
-<http://www.bbc.co.uk/things/49cc4006-5554-43a8-bc44-cebf0656d2c5#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Nation> ;
+<http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>
+        a           curric:Nation ;
         rdfs:label  "Wales"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/nations/zmvg9j6#nations> .
 
-<http://www.bbc.co.uk/things/281444ed-b895-4217-8152-c4456ccbfdcc#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Nation> ;
+<http://www.bbc.co.uk/things/e5b06cb2-c201-49a0-877a-f584afacf3ee#id>
+        a           curric:ExamBoard ;
+        rdfs:label  "SQA"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/exam-boards/zbqmhyc#exam-board> .
+
+<http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>
+        a           curric:Nation ;
         rdfs:label  "Northern Ireland"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/nations/z6bc87h#nations> .
 
 <http://www.bbc.co.uk/things/ac46086e-0c56-4ee6-aeef-ed2b4f640d66#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/ExamBoard> ;
+        a           curric:ExamBoard ;
         rdfs:label  "CCEA"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/exam-boards/z3j2tfr#exam-board> .
 
+<http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id>
+        a           curric:Nation ;
+        rdfs:label  "Scotland"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/nations/zx3rkqt#nations> .
+
 <http://www.bbc.co.uk/things/26d38e74-6795-4fe4-8960-cf358cbb4cf0#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Language> ;
+        a           curric:Language ;
         rdfs:label  "Gaeilge"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/languages/zn48q6f#language> .
 
 <http://www.bbc.co.uk/things/d47d3657-7922-4341-8f6b-d5b9a136263f#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Language> ;
+        a           curric:Language ;
         rdfs:label  "Gaelic"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/languages/zpckjxs#language> .
 
 <http://www.bbc.co.uk/things/015a3444-f890-4a31-a3ec-a6866bdac9a2#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Language> ;
+        a           curric:Language ;
         rdfs:label  "English"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/languages/ztg4d2p#language> .
 
-<http://www.bbc.co.uk/things/1208b2e7-c808-430a-8802-7b39c0212cfb#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Nation> ;
+<http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id>
+        a           curric:Nation ;
         rdfs:label  "England"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/nations/z2yb4wx#nations> .
 
-<http://www.bbc.co.uk/things/36f9f570-30ee-4f76-8f1f-53c3f8feabbe#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/PaperTier> ;
-        rdfs:label  "Higher"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/paper-tier/zr26n39#paper-tier> .
-
 <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/ExamBoard> ;
+        a           curric:ExamBoard ;
         rdfs:label  "AQA"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/exam-boards/zs9d7ty#exam-board> .
 
 <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/ExamBoard> ;
+        a           curric:ExamBoard ;
         rdfs:label  "Edexcel"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/exam-boards/zfkw2hv#exam-board> .
 
 <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/ExamBoard> ;
+        a           curric:ExamBoard ;
         rdfs:label  "OCR"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/exam-boards/zy8jmp3#exam-board> .
 
-<http://www.bbc.co.uk/things/c4fcdcc4-d88f-4d4b-a6a3-1669f7c2329b#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/Nation> ;
-        rdfs:label  "Scotland"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/nations/zx3rkqt#nations> .
+<http://www.bbc.co.uk/things/36f9f570-30ee-4f76-8f1f-53c3f8feabbe#id>
+        a           curric:PaperTier ;
+        rdfs:label  "Higher"@en-gb ;
+        owl:sameAs  <http://www.bbc.co.uk/education/paper-tier/zr26n39#paper-tier> .
 
 <http://www.bbc.co.uk/things/25d85da2-d7b5-49bc-8b06-55e695f7966b#id>
-        a           <http://www.bbc.co.uk/ontologies/curriculum/ExamBoard> ;
+        a           curric:ExamBoard ;
         rdfs:label  "WJEC"@en-gb ;
         owl:sameAs  <http://www.bbc.co.uk/education/exam-boards/zvw76sg#exam-board> .
