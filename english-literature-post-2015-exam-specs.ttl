@@ -1,0 +1,1449 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/f813d236-2f39-4512-a938-7b7e8f343042#id> a provenance:Dataset ;
+    rdfs:label "GCSE English Literature (post-2015) Topics Of Study Exam Specifications" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "6"^^xsd:int .
+
+<http://www.bbc.co.uk/things/0094a696-8af2-406d-af0b-c137fbb7eed6#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/73a6d830-df64-4f61-92f3-f4addf91db67#id> .
+
+<http://www.bbc.co.uk/things/00a52b02-ec90-4218-abf5-6ce3520b23cf#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/d9cecead-e1e3-412b-b8dc-9764b58be3e8#id> .
+
+<http://www.bbc.co.uk/things/017eb5e8-71b1-4a22-91b8-61d6a2656aa4#id> a curric:TopicOfStudy ;
+    rdfs:label "Blood Brothers"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Blood Brothers"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/59f55a30-ee3b-4780-a42b-7d4cce8da167#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zc8s4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/019e6453-e0c5-486e-80cf-451d6a87be1e#id> a curric:TopicOfStudy ;
+    rdfs:label "Much Ado About Nothing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Much Ado About Nothing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6f9714d1-2bc2-4022-b183-30e6dde611c5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxp86fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/03e43b98-cd88-4b34-a432-111ac0289408#id> a curric:TopicOfStudy ;
+    rdfs:label "Shakespeare"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Shakespeare"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2b49a83f-7bf5-4f7e-ab21-66917059d711#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/08960d9d-5672-42f1-a455-5a350f288f13#id> ;
+    = <http://www.bbc.co.uk/education/topics/zpyqnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/043cdbc6-2ef9-4585-833f-b5aa221e219c#id> a curric:TopicOfStudy ;
+    rdfs:label "Jane Eyre"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Jane Eyre"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/44a18a57-9a64-44d0-93be-aa2a861d9eac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgjv82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/06698409-6c20-44a7-88ec-e3e8d3193437#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/c37e8c62-4a77-4fb3-8515-dc4b4ec167bb#id> .
+
+<http://www.bbc.co.uk/things/08960d9d-5672-42f1-a455-5a350f288f13#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/e66ad66e-8d80-42fd-80be-a8a404e055e4#id> ;
+    = <http://www.bbc.co.uk/education/topics/zpyqnbk#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/09166f2b-cb65-478a-9841-36de85800f9c#id> a curric:TopicOfStudy ;
+    rdfs:label "Much Ado About Nothing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Much Ado About Nothing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6f9714d1-2bc2-4022-b183-30e6dde611c5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2ndtyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0965b8d4-fd12-4873-bfa4-2fb62d96d201#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/69151e14-ca4c-4183-927a-17ca0e43796a#id> .
+
+<http://www.bbc.co.uk/things/0e263dca-487d-47d4-8336-32f9504fb8fa#id> a curric:TopicOfStudy ;
+    rdfs:label "Lord of the Flies"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Lord of the Flies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d1377e50-466d-464d-b82e-a3b3bf84d8a7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwxc7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0eab4039-8a05-43a6-a044-e1e5efe76637#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/00a52b02-ec90-4218-abf5-6ce3520b23cf#id>,
+        <http://www.bbc.co.uk/things/0fbd1f5b-2e4a-4e02-ab75-a36ce6074c5d#id>,
+        <http://www.bbc.co.uk/things/7e21e8e3-e159-4ddc-94e5-758f42095798#id>,
+        <http://www.bbc.co.uk/things/9ffdf3be-7f3f-4194-9d97-3ec7fb156cf8#id>,
+        <http://www.bbc.co.uk/things/a01f6e9b-50bb-4f24-8616-408e1fbb8ce0#id> ;
+    = <http://www.bbc.co.uk/education/topics/zxyqnbk#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/0eb2e9c5-bae7-4830-8db8-0e01652f713c#id> a curric:TopicOfStudy ;
+    rdfs:label "Blood Brothers"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Blood Brothers"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/59f55a30-ee3b-4780-a42b-7d4cce8da167#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zygxv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0fbd1f5b-2e4a-4e02-ab75-a36ce6074c5d#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/d771df87-81de-4d22-8149-9952d996b171#id> .
+
+<http://www.bbc.co.uk/things/141d07ac-409e-4b61-878c-13d510fbe770#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/bd42c1b4-4113-4422-a803-0b708ea42dc7#id> .
+
+<http://www.bbc.co.uk/things/14ebe2e9-c759-414e-b2aa-844dd81d2094#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/4152286d-8053-49de-be95-268925482be7#id> .
+
+<http://www.bbc.co.uk/things/1605338d-1a59-44f2-ab7e-b91d9eb20c59#id> a curric:TopicOfStudy ;
+    rdfs:label "The Woman in Black"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "The Woman in Black"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0c1cb0d7-4b6e-48c5-a592-50c4c57ae146#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9q3dmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/168322b6-5fdc-4b88-ab9c-c285f20163c0#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/51465048-fd62-49ff-b0b7-124d0a4048e3#id> .
+
+<http://www.bbc.co.uk/things/1806bf8b-5fae-462c-8186-5e46ff7e72aa#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/d8ecd372-5d73-484d-b28a-6b18f20c64fc#id> .
+
+<http://www.bbc.co.uk/things/190c370d-0d30-40b8-8edf-7d0d3ca21cae#id> a curric:TopicOfStudy ;
+    rdfs:label "Shakespeare"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Shakespeare"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2b49a83f-7bf5-4f7e-ab21-66917059d711#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/8dfc4425-0f09-4bab-9b90-fecc6f37a5f6#id> ;
+    = <http://www.bbc.co.uk/education/topics/zy9prdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1b6d2107-cc6d-4102-b8c9-b9db02b017ae#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/09166f2b-cb65-478a-9841-36de85800f9c#id> .
+
+<http://www.bbc.co.uk/things/1c8a701a-57db-4933-80cf-2f1bf738930b#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/25562742-06eb-4bcb-996d-21ac6772a569#id>,
+        <http://www.bbc.co.uk/things/83ff1fe1-64d7-41fd-b09f-7939a4529276#id>,
+        <http://www.bbc.co.uk/things/ea9fe12d-cca3-44bd-b493-360926a10314#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zw9mycw#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/1cf8a568-96df-4670-9d9c-f1aa11bfc7ce#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/2c72db42-19ef-4169-b33a-90436acd4e14#id>,
+        <http://www.bbc.co.uk/things/4fade1c9-4e4e-406a-a046-adb59d672f4c#id>,
+        <http://www.bbc.co.uk/things/851df2b7-5e7b-416e-8e67-d87c87a5a434#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zq8639q#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/1eb01501-92e3-41a8-a1df-1173f3908f5a#id> a curric:TopicOfStudy ;
+    rdfs:label "An Inspector Calls"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "An Inspector Calls"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/719055f1-530e-4a4c-9f1e-1138b5ab6098#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqt9mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2049c760-b881-4702-ad7e-6ab697bff4dd#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/cd1ee340-b0b1-4ce6-8441-b48534a6f475#id> .
+
+<http://www.bbc.co.uk/things/214c67df-a215-4d78-a03d-b0c96d5104f4#id> a curric:TopicOfStudy ;
+    rdfs:label "19th-century prose"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "19th-century prose"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/16ccb9bf-fa54-48b2-8cb1-eb4d0596726d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/dbbac261-e59c-48a8-bb06-cbe6586c6f11#id> ;
+    = <http://www.bbc.co.uk/education/topics/zcq3dmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/21bbd9a7-27ae-413b-9f83-be7ba0cffeed#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/aa4a3c35-0ba1-4a79-855e-842216a495ed#id> .
+
+<http://www.bbc.co.uk/things/23d24b33-2608-4e8e-a066-3d430326b40d#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/4b921161-e4ce-4644-982c-bdb426d15d15#id> .
+
+<http://www.bbc.co.uk/things/25562742-06eb-4bcb-996d-21ac6772a569#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/376b40cd-5223-4a0b-a8da-33b6914de4ec#id> .
+
+<http://www.bbc.co.uk/things/2575ae3e-808d-475a-80e1-6fd7fda553c3#id> a curric:TopicOfStudy ;
+    rdfs:label "An Inspector Calls"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "An Inspector Calls"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/719055f1-530e-4a4c-9f1e-1138b5ab6098#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqxc7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/26b9f746-349a-4f1c-935c-75638fc32cea#id> a curric:TopicOfStudy ;
+    rdfs:label "Romeo and Juliet"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Romeo and Juliet"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ebce251c-34a0-4d9d-9ed5-7d53423cb649#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zykncwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/276f1a2d-6d16-4a54-9503-35978b7f82e8#id> a curric:TopicOfStudy ;
+    rdfs:label "A Christmas Carol"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "A Christmas Carol"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3b61c124-0f3e-4bf7-abb8-7aced2b3a777#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zyr639q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2928232c-e078-4414-8acc-210a3596fa8a#id> a curric:TopicOfStudy ;
+    rdfs:label "Blood Brothers"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Blood Brothers"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/59f55a30-ee3b-4780-a42b-7d4cce8da167#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z92gj6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2b0c19cb-abd6-4b25-ad53-a8c7aa141f02#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/ad84476d-f59a-4280-b7bc-21f2cde571ca#id>,
+        <http://www.bbc.co.uk/things/f8455fe9-b664-4033-8f08-e2edf5cd3524#id> ;
+    = <http://www.bbc.co.uk/education/topics/zw642p3#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/2b964d6a-e542-4ac3-bb0a-7ef1f45e6942#id> a curric:TopicOfStudy ;
+    rdfs:label "A Christmas Carol"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "A Christmas Carol"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3b61c124-0f3e-4bf7-abb8-7aced2b3a777#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zybmycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2c72db42-19ef-4169-b33a-90436acd4e14#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/f83577b7-700c-4d5b-8dee-315bdbd6985b#id> .
+
+<http://www.bbc.co.uk/things/2ccbc886-2d73-475a-9e1a-f25a9bd68ac5#id> a curric:TopicOfStudy ;
+    rdfs:label "Romeo and Juliet"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Romeo and Juliet"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ebce251c-34a0-4d9d-9ed5-7d53423cb649#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqhkxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/36db2cbd-8b20-4f97-bad4-8b2b7a9fd57a#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/1605338d-1a59-44f2-ab7e-b91d9eb20c59#id> .
+
+<http://www.bbc.co.uk/things/376b40cd-5223-4a0b-a8da-33b6914de4ec#id> a curric:TopicOfStudy ;
+    rdfs:label "19th-century prose"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "19th-century prose"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/16ccb9bf-fa54-48b2-8cb1-eb4d0596726d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/5f468eb8-7be3-49b8-951d-d8031636ff91#id> ;
+    = <http://www.bbc.co.uk/education/topics/z39prdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3c367529-b974-4370-8c13-87a1da89f19e#id> a curric:TopicOfStudy ;
+    rdfs:label "Much Ado About Nothing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Much Ado About Nothing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6f9714d1-2bc2-4022-b183-30e6dde611c5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpgxv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3e09529c-5240-45c9-8237-d15b61b78236#id> a curric:TopicOfStudy ;
+    rdfs:label "Dr Jekyll and Mr Hyde"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Dr Jekyll and Mr Hyde"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/44a14f75-3891-4847-adf4-c62826ee8290#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgdf9qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3ea18ef8-cdce-4daf-bdfc-e1840ddb2fb2#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/732d299c-8b1f-48b1-a9f8-e4af6fa20278#id> .
+
+<http://www.bbc.co.uk/things/409f7c00-e9c2-45c8-9dd5-cb6831b878f9#id> a curric:TopicOfStudy ;
+    rdfs:label "Dr Jekyll and Mr Hyde"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Dr Jekyll and Mr Hyde"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/44a14f75-3891-4847-adf4-c62826ee8290#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zsbmycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4152286d-8053-49de-be95-268925482be7#id> a curric:TopicOfStudy ;
+    rdfs:label "Animal Farm"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Animal Farm"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/638973d3-6323-4b90-a18d-966597d48d5a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9jv82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/41784dbf-a65f-419d-bd1b-8ab5f40ff571#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/6df56c71-47bf-4153-8d9c-09e0dadf0c37#id> .
+
+<http://www.bbc.co.uk/things/41c435f4-8404-4624-ae19-1e3b125d635d#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/9c988445-8018-4e5c-9a89-1cc85b8755a2#id> .
+
+<http://www.bbc.co.uk/things/4305ca5e-6c5a-484e-b906-4b4c31eb4ac4#id> a curric:TopicOfStudy ;
+    rdfs:label "Frankenstein"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Frankenstein"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/00654a51-a49d-41c1-bab7-5f2394f3fff2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zy4hg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/43d528a3-89c1-4ccd-9bbe-20ee9094d350#id> a curric:TopicOfStudy ;
+    rdfs:label "Animal Farm"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Animal Farm"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/638973d3-6323-4b90-a18d-966597d48d5a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z97bwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/43d95c6a-b702-428b-bc82-2b93daaebb5f#id> a curric:TopicOfStudy ;
+    rdfs:label "A Christmas Carol"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "A Christmas Carol"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3b61c124-0f3e-4bf7-abb8-7aced2b3a777#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwhkxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/46dada0c-d247-43f3-9e62-746d7a959c22#id> a curric:TopicOfStudy ;
+    rdfs:label "Great Expectations"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Great Expectations"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7c6160b1-5d8e-43cc-87aa-b2cc993d84bf#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zc7bwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4915fba7-7c87-4221-ba63-0362388a8dc0#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0965b8d4-fd12-4873-bfa4-2fb62d96d201#id>,
+        <http://www.bbc.co.uk/things/a8aea217-374d-4056-9974-9529f87c478e#id>,
+        <http://www.bbc.co.uk/things/c0915275-e876-4822-b53a-4284e6bba467#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zxqncwx#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/491cdc7a-1c48-4cd0-88f8-7a1628888b58#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/26b9f746-349a-4f1c-935c-75638fc32cea#id> .
+
+<http://www.bbc.co.uk/things/4aa0e85e-3e73-4019-b758-ef2af77001c6#id> a curric:TopicOfStudy ;
+    rdfs:label "Macbeth"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Macbeth"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/307ac9f4-5fed-48bc-b269-ba439940f26b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2hkxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4b59f419-cd3d-48a4-b5ce-d1e743faa089#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/491cdc7a-1c48-4cd0-88f8-7a1628888b58#id>,
+        <http://www.bbc.co.uk/things/e9863aa7-ca37-4fc0-9097-f7983c78d277#id>,
+        <http://www.bbc.co.uk/things/f3ec8699-1f0a-4751-a6fa-0e2afe69889b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zc2gj6f#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/4b921161-e4ce-4644-982c-bdb426d15d15#id> a curric:TopicOfStudy ;
+    rdfs:label "Great Expectations"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Great Expectations"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7c6160b1-5d8e-43cc-87aa-b2cc993d84bf#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3kncwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4cbd4447-0a73-4c5d-aeb5-758d4e951dc4#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/9054f68a-9940-4a40-aaba-8c2dc6c06014#id>,
+        <http://www.bbc.co.uk/things/c87f4ae5-8112-4959-a3e5-e8cbfc3ff27d#id>,
+        <http://www.bbc.co.uk/things/ca573d0f-c7fe-44ea-8dbc-600e6762c5b7#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z9gjp39#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/4e95abdb-8356-4591-b264-7eb260cfcbec#id> a curric:TopicOfStudy ;
+    rdfs:label "Of Mice and Men"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Of Mice and Men"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fb7141c1-9afa-4da8-8f8b-f79eaba1e745#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8q3dmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4ed65e5f-88f8-45ef-ad69-25c3be07402a#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/d161f57d-7686-4696-9e57-46004239beb1#id> .
+
+<http://www.bbc.co.uk/things/4fade1c9-4e4e-406a-a046-adb59d672f4c#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/d5f60e2e-f66d-4585-bc4f-426fa45425fe#id> .
+
+<http://www.bbc.co.uk/things/502407bf-dc14-4f95-b9fe-0d4ce48e168b#id> a curric:TopicOfStudy ;
+    rdfs:label "The Sign of the Four"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "The Sign of the Four"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1e0b01f4-29a8-4997-a83e-df871de32820#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3df9qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5095e08b-d576-41bf-a219-7dae39e2d7ce#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/2049c760-b881-4702-ad7e-6ab697bff4dd#id>,
+        <http://www.bbc.co.uk/things/41784dbf-a65f-419d-bd1b-8ab5f40ff571#id>,
+        <http://www.bbc.co.uk/things/56e71718-8f29-44dc-b7c3-18454bd0949b#id>,
+        <http://www.bbc.co.uk/things/9fb34e4a-b098-4f07-9f62-5e585d23546e#id>,
+        <http://www.bbc.co.uk/things/bb508f54-73e0-4bb3-b58c-725905b43f3b#id>,
+        <http://www.bbc.co.uk/things/f0afeb6b-04d4-4e7a-a249-f3c74dd8ca30#id> ;
+    = <http://www.bbc.co.uk/education/topics/z2t9mnb#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/51465048-fd62-49ff-b0b7-124d0a4048e3#id> a curric:TopicOfStudy ;
+    rdfs:label "History Boys"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "History Boys"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ce3a8a82-9984-4f30-acd8-8a49da5eea81#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2fjp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/56cc2d30-567b-46b7-a629-087076023c40#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/168322b6-5fdc-4b88-ab9c-c285f20163c0#id>,
+        <http://www.bbc.co.uk/things/21bbd9a7-27ae-413b-9f83-be7ba0cffeed#id>,
+        <http://www.bbc.co.uk/things/ec75f88d-4280-4006-9f5b-473145978a10#id>,
+        <http://www.bbc.co.uk/things/f666e60c-d977-422e-a487-fdbda0d72405#id> ;
+    = <http://www.bbc.co.uk/education/topics/zs4hg82#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/56e71718-8f29-44dc-b7c3-18454bd0949b#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/6e9ab06e-fa77-41a3-b251-25a380e1bd4b#id> .
+
+<http://www.bbc.co.uk/things/5c8e9079-b596-47da-9f5b-3046d4311981#id> a curric:TopicOfStudy ;
+    rdfs:label "Of Mice and Men"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Of Mice and Men"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fb7141c1-9afa-4da8-8f8b-f79eaba1e745#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgkncwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5c965a58-cdaf-47fc-a63b-9d43719094af#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/141d07ac-409e-4b61-878c-13d510fbe770#id>,
+        <http://www.bbc.co.uk/things/6c4c7273-85f3-4fb7-8025-8f29bb0e4fe1#id>,
+        <http://www.bbc.co.uk/things/e75c5b8a-d07f-4635-aacb-2552384cd471#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z8c7sg8#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/5ed83ebd-6926-43f0-9fa6-d5d4cce58641#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0094a696-8af2-406d-af0b-c137fbb7eed6#id>,
+        <http://www.bbc.co.uk/things/717559d2-b918-4cee-93b5-285fa1f0aec3#id>,
+        <http://www.bbc.co.uk/things/d8afc7d9-533d-48de-a560-4f3108e46ad8#id> ;
+    = <http://www.bbc.co.uk/education/topics/zsgxv4j#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/5f468eb8-7be3-49b8-951d-d8031636ff91#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/60891761-96cc-4d9f-8613-9a8c023ffe5c#id>,
+        <http://www.bbc.co.uk/things/bacedba4-5e72-49ab-a42f-8e5fb077a697#id>,
+        <http://www.bbc.co.uk/things/ca36aaca-b414-4241-a1dc-aa947ff48f02#id> ;
+    = <http://www.bbc.co.uk/education/topics/z39prdm#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/5f719506-81f6-4151-979e-50f1afdfb144#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/3e09529c-5240-45c9-8237-d15b61b78236#id> .
+
+<http://www.bbc.co.uk/things/5ff00e62-ae5b-411e-99c3-9cb9874c3488#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/43d95c6a-b702-428b-bc82-2b93daaebb5f#id> .
+
+<http://www.bbc.co.uk/things/60891761-96cc-4d9f-8613-9a8c023ffe5c#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/e66ad261-095e-417d-9435-860f92b35620#id> .
+
+<http://www.bbc.co.uk/things/60b72420-0304-49f3-8e1d-992215c52549#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1b6d2107-cc6d-4102-b8c9-b9db02b017ae#id>,
+        <http://www.bbc.co.uk/things/deb43c74-3e40-4b44-8af2-13dd92c94205#id>,
+        <http://www.bbc.co.uk/things/ef089172-30d1-40da-8a4e-85de51be32e6#id> ;
+    = <http://www.bbc.co.uk/education/topics/ztv7sg8#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/60c9c4d4-6f56-4be9-9fd1-c7737483960d#id> a curric:TopicOfStudy ;
+    rdfs:label "Post 1914 Prose/Drama"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Post 1914 Prose/Drama"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/41974c01-d404-473b-a400-fe5a7a33f57a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/56cc2d30-567b-46b7-a629-087076023c40#id> ;
+    = <http://www.bbc.co.uk/education/topics/zs4hg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/620088e7-0d53-4945-9689-77df2077a05f#id> a curric:TopicOfStudy ;
+    rdfs:label "The Curious Incident of the Dog in the Night-Time (play)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "The Curious Incident of the Dog in the Night-Time (play)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d0c5d5b0-b6f3-4677-871e-5da33500d3e0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztbmycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/63e4911a-73ad-4d77-859a-8f5bc6a86578#id> a curric:TopicOfStudy ;
+    rdfs:label "Post 1914 Prose/Drama"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Post 1914 Prose/Drama"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/41974c01-d404-473b-a400-fe5a7a33f57a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/0eab4039-8a05-43a6-a044-e1e5efe76637#id> ;
+    = <http://www.bbc.co.uk/education/topics/zxyqnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/69151e14-ca4c-4183-927a-17ca0e43796a#id> a curric:TopicOfStudy ;
+    rdfs:label "Shakespeare"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Shakespeare"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2b49a83f-7bf5-4f7e-ab21-66917059d711#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/4b59f419-cd3d-48a4-b5ce-d1e743faa089#id> ;
+    = <http://www.bbc.co.uk/education/topics/zc2gj6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/69f85da5-67d7-45b2-bf20-78591a93cdd6#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/80c5e88d-98f2-44f0-988e-991ea455afe3#id> .
+
+<http://www.bbc.co.uk/things/6c25216f-e51c-45b1-bd79-d6e5499a9498#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/043cdbc6-2ef9-4585-833f-b5aa221e219c#id> .
+
+<http://www.bbc.co.uk/things/6c4c7273-85f3-4fb7-8025-8f29bb0e4fe1#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/773db34b-74b2-4b23-a680-8d942d9dc1ee#id> .
+
+<http://www.bbc.co.uk/things/6da303e0-9340-4210-8820-3fb208589092#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/0eb2e9c5-bae7-4830-8db8-0e01652f713c#id> .
+
+<http://www.bbc.co.uk/things/6df56c71-47bf-4153-8d9c-09e0dadf0c37#id> a curric:TopicOfStudy ;
+    rdfs:label "To Kill a Mockingbird"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "To Kill a Mockingbird"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b5215341-4a99-494c-b688-8fce5b4c677c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9wyk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6e9ab06e-fa77-41a3-b251-25a380e1bd4b#id> a curric:TopicOfStudy ;
+    rdfs:label "History Boys"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "History Boys"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ce3a8a82-9984-4f30-acd8-8a49da5eea81#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zg9prdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/70505ea5-d161-421c-9ad7-1778a020d565#id> a curric:TopicOfStudy ;
+    rdfs:label "Jane Eyre"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Jane Eyre"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/44a18a57-9a64-44d0-93be-aa2a861d9eac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zyctbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/714b09a9-3512-4b7e-b6a4-5bd1b32c5d94#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/ad144a41-e143-4d2a-a127-7d6fa4652323#id> .
+
+<http://www.bbc.co.uk/things/716be241-22e7-46ee-8ef4-03b9e55aa797#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/70505ea5-d161-421c-9ad7-1778a020d565#id> .
+
+<http://www.bbc.co.uk/things/717559d2-b918-4cee-93b5-285fa1f0aec3#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/b4c78f04-75f5-4a0a-a074-b822dbc2797b#id> .
+
+<http://www.bbc.co.uk/things/732d299c-8b1f-48b1-a9f8-e4af6fa20278#id> a curric:TopicOfStudy ;
+    rdfs:label "Blood Brothers"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Blood Brothers"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/59f55a30-ee3b-4780-a42b-7d4cce8da167#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zcwyk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/73480f09-a1d4-408f-8b1c-5147b254bf37#id> a curric:TopicOfStudy ;
+    rdfs:label "19th-century prose"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "19th-century prose"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/16ccb9bf-fa54-48b2-8cb1-eb4d0596726d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zs32frd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/73a6d830-df64-4f61-92f3-f4addf91db67#id> a curric:TopicOfStudy ;
+    rdfs:label "Macbeth"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Macbeth"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/307ac9f4-5fed-48bc-b269-ba439940f26b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zp32frd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/773db34b-74b2-4b23-a680-8d942d9dc1ee#id> a curric:TopicOfStudy ;
+    rdfs:label "Post 1914 Prose/Drama"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Post 1914 Prose/Drama"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/41974c01-d404-473b-a400-fe5a7a33f57a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/9258a6ac-70ae-4526-b776-99368187cd99#id> ;
+    = <http://www.bbc.co.uk/education/topics/zwmrqty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7a688040-f5e8-4e8d-b722-c5cac4165610#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/4305ca5e-6c5a-484e-b906-4b4c31eb4ac4#id> .
+
+<http://www.bbc.co.uk/things/7ba879a9-7a4f-4e01-959d-0f4748b11f9b#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/5ff00e62-ae5b-411e-99c3-9cb9874c3488#id>,
+        <http://www.bbc.co.uk/things/6c25216f-e51c-45b1-bd79-d6e5499a9498#id>,
+        <http://www.bbc.co.uk/things/8012a2c2-94bb-4b54-a43b-091b5d59c490#id>,
+        <http://www.bbc.co.uk/things/857fbc5a-f46e-4b79-b798-e5d3d119a026#id>,
+        <http://www.bbc.co.uk/things/94d08d5b-349f-4a13-9754-c52d31d64d25#id>,
+        <http://www.bbc.co.uk/things/bb1bb6f1-5fe1-418a-b3fb-16f5c45d2154#id> ;
+    = <http://www.bbc.co.uk/education/topics/zqndtyc#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/7e21e8e3-e159-4ddc-94e5-758f42095798#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/908c894c-1ff4-44be-85cc-219833507db2#id> .
+
+<http://www.bbc.co.uk/things/8012a2c2-94bb-4b54-a43b-091b5d59c490#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/ce166f99-d602-4890-a41d-2e392af94ff0#id> .
+
+<http://www.bbc.co.uk/things/80c5e88d-98f2-44f0-988e-991ea455afe3#id> a curric:TopicOfStudy ;
+    rdfs:label "To Kill a Mockingbird"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "To Kill a Mockingbird"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b5215341-4a99-494c-b688-8fce5b4c677c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z34hg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/83ff1fe1-64d7-41fd-b09f-7939a4529276#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/896ec217-37e1-4d31-a7fe-9f91ff767357#id> .
+
+<http://www.bbc.co.uk/things/851df2b7-5e7b-416e-8e67-d87c87a5a434#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/bc49eb22-51b7-47d7-ba68-356e993f9899#id> .
+
+<http://www.bbc.co.uk/things/857fbc5a-f46e-4b79-b798-e5d3d119a026#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/46dada0c-d247-43f3-9e62-746d7a959c22#id> .
+
+<http://www.bbc.co.uk/things/896ec217-37e1-4d31-a7fe-9f91ff767357#id> a curric:TopicOfStudy ;
+    rdfs:label "Shakespeare"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Shakespeare"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2b49a83f-7bf5-4f7e-ab21-66917059d711#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/5ed83ebd-6926-43f0-9fa6-d5d4cce58641#id> ;
+    = <http://www.bbc.co.uk/education/topics/zsgxv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8a0617aa-d28b-49b5-96b9-82a049e5376e#id> a curric:TopicOfStudy ;
+    rdfs:label "Post 1914 Prose/Drama"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Post 1914 Prose/Drama"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/41974c01-d404-473b-a400-fe5a7a33f57a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/5095e08b-d576-41bf-a219-7dae39e2d7ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/z2t9mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8d251e16-38c1-4082-ac3b-d31fdb28af06#id> a curric:TopicOfStudy ;
+    rdfs:label "Macbeth"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Macbeth"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/307ac9f4-5fed-48bc-b269-ba439940f26b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxfjp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8dfc4425-0f09-4bab-9b90-fecc6f37a5f6#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1806bf8b-5fae-462c-8186-5e46ff7e72aa#id>,
+        <http://www.bbc.co.uk/things/e49f5e54-464a-4ecc-8917-355ccbcc1ec2#id>,
+        <http://www.bbc.co.uk/things/f0b48498-542b-42d6-b9c1-40d48381858e#id> ;
+    = <http://www.bbc.co.uk/education/topics/zy9prdm#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/9054f68a-9940-4a40-aaba-8c2dc6c06014#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/af83695d-9215-4862-9ed3-7931ac02c256#id> .
+
+<http://www.bbc.co.uk/things/908c894c-1ff4-44be-85cc-219833507db2#id> a curric:TopicOfStudy ;
+    rdfs:label "The Woman in Black"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "The Woman in Black"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0c1cb0d7-4b6e-48c5-a592-50c4c57ae146#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8xc7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/91e3cd07-cf26-49ec-b552-61ea0f6b1863#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/1eb01501-92e3-41a8-a1df-1173f3908f5a#id> .
+
+<http://www.bbc.co.uk/things/9258a6ac-70ae-4526-b776-99368187cd99#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/06698409-6c20-44a7-88ec-e3e8d3193437#id>,
+        <http://www.bbc.co.uk/things/14ebe2e9-c759-414e-b2aa-844dd81d2094#id>,
+        <http://www.bbc.co.uk/things/69f85da5-67d7-45b2-bf20-78591a93cdd6#id>,
+        <http://www.bbc.co.uk/things/6da303e0-9340-4210-8820-3fb208589092#id>,
+        <http://www.bbc.co.uk/things/b7a677b9-3486-4a55-a179-be1397e7e78f#id>,
+        <http://www.bbc.co.uk/things/f06cecf3-8a37-470e-9300-8254b106c3db#id> ;
+    = <http://www.bbc.co.uk/education/topics/zwmrqty#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/94d08d5b-349f-4a13-9754-c52d31d64d25#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/e4bd36f6-7994-4e07-829c-e00bde754447#id> .
+
+<http://www.bbc.co.uk/things/9c988445-8018-4e5c-9a89-1cc85b8755a2#id> a curric:TopicOfStudy ;
+    rdfs:label "History Boys"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "History Boys"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ce3a8a82-9984-4f30-acd8-8a49da5eea81#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zg8s4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9fb34e4a-b098-4f07-9f62-5e585d23546e#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/017eb5e8-71b1-4a22-91b8-61d6a2656aa4#id> .
+
+<http://www.bbc.co.uk/things/9ffdf3be-7f3f-4194-9d97-3ec7fb156cf8#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/f04fab25-c31b-4323-a3df-ffcbb9acf19d#id> .
+
+<http://www.bbc.co.uk/things/a01f6e9b-50bb-4f24-8616-408e1fbb8ce0#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/2928232c-e078-4414-8acc-210a3596fa8a#id> .
+
+<http://www.bbc.co.uk/things/a50e54f3-cc2f-4eba-bb24-645a064bc2e4#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/b5c0836a-663b-41f8-bb16-94aa1dba14fa#id> .
+
+<http://www.bbc.co.uk/things/a706d895-5e4a-41b6-b21e-6c6c78ff9048#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/2b964d6a-e542-4ac3-bb0a-7ef1f45e6942#id> .
+
+<http://www.bbc.co.uk/things/a8aea217-374d-4056-9974-9529f87c478e#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/60c9c4d4-6f56-4be9-9fd1-c7737483960d#id> .
+
+<http://www.bbc.co.uk/things/aa4a3c35-0ba1-4a79-855e-842216a495ed#id> a curric:TopicOfStudy ;
+    rdfs:label "An Inspector Calls"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "An Inspector Calls"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/719055f1-530e-4a4c-9f1e-1138b5ab6098#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpr639q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/aae5fd74-cd51-40c0-9f60-e6623aa73912#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/23d24b33-2608-4e8e-a066-3d430326b40d#id>,
+        <http://www.bbc.co.uk/things/5f719506-81f6-4151-979e-50f1afdfb144#id>,
+        <http://www.bbc.co.uk/things/716be241-22e7-46ee-8ef4-03b9e55aa797#id> ;
+    = <http://www.bbc.co.uk/education/topics/zcjv82p#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/abcc8e86-d9ba-4e71-b7c1-ae6b1d61199e#id> a curric:TopicOfStudy ;
+    rdfs:label "Dr Jekyll and Mr Hyde"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Dr Jekyll and Mr Hyde"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/44a14f75-3891-4847-adf4-c62826ee8290#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z38s4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ad144a41-e143-4d2a-a127-7d6fa4652323#id> a curric:TopicOfStudy ;
+    rdfs:label "Romeo and Juliet"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Romeo and Juliet"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ebce251c-34a0-4d9d-9ed5-7d53423cb649#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zq642p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ad84476d-f59a-4280-b7bc-21f2cde571ca#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/43d528a3-89c1-4ccd-9bbe-20ee9094d350#id> .
+
+<http://www.bbc.co.uk/things/af83695d-9215-4862-9ed3-7931ac02c256#id> a curric:TopicOfStudy ;
+    rdfs:label "19th-century prose"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "19th-century prose"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/16ccb9bf-fa54-48b2-8cb1-eb4d0596726d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/c10f8783-db66-4be7-bc63-de1307b67efe#id> ;
+    = <http://www.bbc.co.uk/education/topics/z3ctbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b4c78f04-75f5-4a0a-a074-b822dbc2797b#id> a curric:TopicOfStudy ;
+    rdfs:label "Much Ado About Nothing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Much Ado About Nothing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6f9714d1-2bc2-4022-b183-30e6dde611c5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztyqnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b5c0836a-663b-41f8-bb16-94aa1dba14fa#id> a curric:TopicOfStudy ;
+    rdfs:label "Great Expectations"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Great Expectations"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7c6160b1-5d8e-43cc-87aa-b2cc993d84bf#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zsr639q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b640921e-e518-49eb-bbb3-5a3059390ccf#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/214c67df-a215-4d78-a03d-b0c96d5104f4#id> .
+
+<http://www.bbc.co.uk/things/b7796e43-4390-4faf-92a3-6657417508b0#id> a curric:TopicOfStudy ;
+    rdfs:label "Macbeth"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Macbeth"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/307ac9f4-5fed-48bc-b269-ba439940f26b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgq3dmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b7a677b9-3486-4a55-a179-be1397e7e78f#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/bfd6bc46-385c-4f30-8cc9-492c5f4e7969#id> .
+
+<http://www.bbc.co.uk/things/bacedba4-5e72-49ab-a42f-8e5fb077a697#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/409f7c00-e9c2-45c8-9dd5-cb6831b878f9#id> .
+
+<http://www.bbc.co.uk/things/bb1bb6f1-5fe1-418a-b3fb-16f5c45d2154#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/502407bf-dc14-4f95-b9fe-0d4ce48e168b#id> .
+
+<http://www.bbc.co.uk/things/bb508f54-73e0-4bb3-b58c-725905b43f3b#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/4e95abdb-8356-4591-b264-7eb260cfcbec#id> .
+
+<http://www.bbc.co.uk/things/bc49eb22-51b7-47d7-ba68-356e993f9899#id> a curric:TopicOfStudy ;
+    rdfs:label "Post 1914 Prose/Drama"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Post 1914 Prose/Drama"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/41974c01-d404-473b-a400-fe5a7a33f57a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/2b0c19cb-abd6-4b25-ad53-a8c7aa141f02#id> ;
+    = <http://www.bbc.co.uk/education/topics/zw642p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bd42c1b4-4113-4422-a803-0b708ea42dc7#id> a curric:TopicOfStudy ;
+    rdfs:label "Shakespeare"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Shakespeare"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2b49a83f-7bf5-4f7e-ab21-66917059d711#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/fe0e508e-07ac-4e02-89b5-071110b0266c#id> ;
+    = <http://www.bbc.co.uk/education/topics/ztfjp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bfd6bc46-385c-4f30-8cc9-492c5f4e7969#id> a curric:TopicOfStudy ;
+    rdfs:label "Lord of the Flies"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Lord of the Flies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d1377e50-466d-464d-b82e-a3b3bf84d8a7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zcdf9qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c0915275-e876-4822-b53a-4284e6bba467#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/ddd86961-5c4e-46cf-aaa1-d014f822dad6#id> .
+
+<http://www.bbc.co.uk/things/c10f8783-db66-4be7-bc63-de1307b67efe#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/a706d895-5e4a-41b6-b21e-6c6c78ff9048#id> ;
+    = <http://www.bbc.co.uk/education/topics/z3ctbk7#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/c37e8c62-4a77-4fb3-8515-dc4b4ec167bb#id> a curric:TopicOfStudy ;
+    rdfs:label "An Inspector Calls"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "An Inspector Calls"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/719055f1-530e-4a4c-9f1e-1138b5ab6098#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z87bwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c87f4ae5-8112-4959-a3e5-e8cbfc3ff27d#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/03e43b98-cd88-4b34-a432-111ac0289408#id> .
+
+<http://www.bbc.co.uk/things/ca36aaca-b414-4241-a1dc-aa947ff48f02#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/276f1a2d-6d16-4a54-9503-35978b7f82e8#id> .
+
+<http://www.bbc.co.uk/things/ca573d0f-c7fe-44ea-8dbc-600e6762c5b7#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/8a0617aa-d28b-49b5-96b9-82a049e5376e#id> .
+
+<http://www.bbc.co.uk/things/cd1ee340-b0b1-4ce6-8441-b48534a6f475#id> a curric:TopicOfStudy ;
+    rdfs:label "Lord of the Flies"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Lord of the Flies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d1377e50-466d-464d-b82e-a3b3bf84d8a7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zw2gj6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cd7d3340-e634-4552-863a-12d096332275#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/36db2cbd-8b20-4f97-bad4-8b2b7a9fd57a#id>,
+        <http://www.bbc.co.uk/things/3ea18ef8-cdce-4daf-bdfc-e1840ddb2fb2#id>,
+        <http://www.bbc.co.uk/things/41c435f4-8404-4624-ae19-1e3b125d635d#id>,
+        <http://www.bbc.co.uk/things/91e3cd07-cf26-49ec-b552-61ea0f6b1863#id>,
+        <http://www.bbc.co.uk/things/e7ca36f2-7bba-4a81-a785-64280e0cd37e#id>,
+        <http://www.bbc.co.uk/things/ef174938-1eef-4c7e-add5-3998194f6d25#id> ;
+    = <http://www.bbc.co.uk/education/topics/z2p86fr#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/ce166f99-d602-4890-a41d-2e392af94ff0#id> a curric:TopicOfStudy ;
+    rdfs:label "Dr Jekyll and Mr Hyde"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Dr Jekyll and Mr Hyde"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/44a14f75-3891-4847-adf4-c62826ee8290#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8642p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d161f57d-7686-4696-9e57-46004239beb1#id> a curric:TopicOfStudy ;
+    rdfs:label "Jane Eyre"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Jane Eyre"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/44a18a57-9a64-44d0-93be-aa2a861d9eac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpbmycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d17a493c-51e9-4dd7-ad61-34d31f02b1cd#id> a curric:TopicOfStudy ;
+    rdfs:label "Blood Brothers"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Blood Brothers"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/59f55a30-ee3b-4780-a42b-7d4cce8da167#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxv7sg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d2814da6-81b8-4542-bfa0-5701d5be9346#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/b640921e-e518-49eb-bbb3-5a3059390ccf#id>,
+        <http://www.bbc.co.uk/things/e0fafaf0-45bb-48a9-b255-df89d4aa52d8#id>,
+        <http://www.bbc.co.uk/things/e7ee5c09-5f9f-4a4c-b27b-d844c163ba65#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z2whg82#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/d301df29-a404-4b05-8ae9-b8c828a69a19#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/abcc8e86-d9ba-4e71-b7c1-ae6b1d61199e#id> .
+
+<http://www.bbc.co.uk/things/d5f60e2e-f66d-4585-bc4f-426fa45425fe#id> a curric:TopicOfStudy ;
+    rdfs:label "19th-century prose"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "19th-century prose"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/16ccb9bf-fa54-48b2-8cb1-eb4d0596726d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/aae5fd74-cd51-40c0-9f60-e6623aa73912#id> ;
+    = <http://www.bbc.co.uk/education/topics/zcjv82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d7078d17-1d7d-48b3-9b9a-20d0c1e38313#id> a curric:TopicOfStudy ;
+    rdfs:label "Post 1914 Prose/Drama"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Post 1914 Prose/Drama"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/41974c01-d404-473b-a400-fe5a7a33f57a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/cd7d3340-e634-4552-863a-12d096332275#id> ;
+    = <http://www.bbc.co.uk/education/topics/z2p86fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d771df87-81de-4d22-8149-9952d996b171#id> a curric:TopicOfStudy ;
+    rdfs:label "An Inspector Calls"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "An Inspector Calls"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/719055f1-530e-4a4c-9f1e-1138b5ab6098#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2swhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d8afc7d9-533d-48de-a560-4f3108e46ad8#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/e09b8433-22ee-41aa-87f0-61a7c0a9205c#id> .
+
+<http://www.bbc.co.uk/things/d8ecd372-5d73-484d-b28a-6b18f20c64fc#id> a curric:TopicOfStudy ;
+    rdfs:label "Romeo and Juliet"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Romeo and Juliet"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ebce251c-34a0-4d9d-9ed5-7d53423cb649#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zt32frd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d9cecead-e1e3-412b-b8dc-9764b58be3e8#id> a curric:TopicOfStudy ;
+    rdfs:label "Animal Farm"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Animal Farm"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/638973d3-6323-4b90-a18d-966597d48d5a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqp86fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/dbbac261-e59c-48a8-bb06-cbe6586c6f11#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/4ed65e5f-88f8-45ef-ad69-25c3be07402a#id>,
+        <http://www.bbc.co.uk/things/7a688040-f5e8-4e8d-b722-c5cac4165610#id>,
+        <http://www.bbc.co.uk/things/a50e54f3-cc2f-4eba-bb24-645a064bc2e4#id>,
+        <http://www.bbc.co.uk/things/d301df29-a404-4b05-8ae9-b8c828a69a19#id>,
+        <http://www.bbc.co.uk/things/dd548733-cb6d-4500-8ce0-5cd2347e7e16#id> ;
+    = <http://www.bbc.co.uk/education/topics/zcq3dmn#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/dd548733-cb6d-4500-8ce0-5cd2347e7e16#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/e54f6547-9753-440d-9b76-331eac381b2e#id> .
+
+<http://www.bbc.co.uk/things/ddd86961-5c4e-46cf-aaa1-d014f822dad6#id> a curric:TopicOfStudy ;
+    rdfs:label "19th-century prose"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "19th-century prose"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/16ccb9bf-fa54-48b2-8cb1-eb4d0596726d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/7ba879a9-7a4f-4e01-959d-0f4748b11f9b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zqndtyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/deb43c74-3e40-4b44-8af2-13dd92c94205#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/2ccbc886-2d73-475a-9e1a-f25a9bd68ac5#id> .
+
+<http://www.bbc.co.uk/things/def57e98-6a42-4d20-ab54-8b0f2034ceeb#id> a curric:TopicOfStudy ;
+    rdfs:label "Much Ado About Nothing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Much Ado About Nothing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6f9714d1-2bc2-4022-b183-30e6dde611c5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3wyk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e09b8433-22ee-41aa-87f0-61a7c0a9205c#id> a curric:TopicOfStudy ;
+    rdfs:label "Romeo and Juliet"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Romeo and Juliet"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ebce251c-34a0-4d9d-9ed5-7d53423cb649#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxswhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e0fafaf0-45bb-48a9-b255-df89d4aa52d8#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/190c370d-0d30-40b8-8edf-7d0d3ca21cae#id> .
+
+<http://www.bbc.co.uk/things/e381286f-35c5-4106-a60a-0bcf3ab2e20d#id> a curric:TopicOfStudy ;
+    rdfs:label "Macbeth"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Macbeth"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/307ac9f4-5fed-48bc-b269-ba439940f26b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zsctbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e49f5e54-464a-4ecc-8917-355ccbcc1ec2#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/e381286f-35c5-4106-a60a-0bcf3ab2e20d#id> .
+
+<http://www.bbc.co.uk/things/e4bd36f6-7994-4e07-829c-e00bde754447#id> a curric:TopicOfStudy ;
+    rdfs:label "Frankenstein"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Frankenstein"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/00654a51-a49d-41c1-bab7-5f2394f3fff2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9mrqty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e54f6547-9753-440d-9b76-331eac381b2e#id> a curric:TopicOfStudy ;
+    rdfs:label "A Christmas Carol"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "A Christmas Carol"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3b61c124-0f3e-4bf7-abb8-7aced2b3a777#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgwyk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e66ad261-095e-417d-9435-860f92b35620#id> a curric:TopicOfStudy ;
+    rdfs:label "Jane Eyre"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Jane Eyre"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/44a18a57-9a64-44d0-93be-aa2a861d9eac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpv7sg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e66ad66e-8d80-42fd-80be-a8a404e055e4#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/019e6453-e0c5-486e-80cf-451d6a87be1e#id> .
+
+<http://www.bbc.co.uk/things/e75c5b8a-d07f-4635-aacb-2552384cd471#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/73480f09-a1d4-408f-8b1c-5147b254bf37#id> .
+
+<http://www.bbc.co.uk/things/e785d3dd-d4d0-4b8b-bf30-368988ef3e42#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/4aa0e85e-3e73-4019-b758-ef2af77001c6#id> .
+
+<http://www.bbc.co.uk/things/e7ca36f2-7bba-4a81-a785-64280e0cd37e#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/0e263dca-487d-47d4-8336-32f9504fb8fa#id> .
+
+<http://www.bbc.co.uk/things/e7ee5c09-5f9f-4a4c-b27b-d844c163ba65#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/63e4911a-73ad-4d77-859a-8f5bc6a86578#id> .
+
+<http://www.bbc.co.uk/things/e9863aa7-ca37-4fc0-9097-f7983c78d277#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/def57e98-6a42-4d20-ab54-8b0f2034ceeb#id> .
+
+<http://www.bbc.co.uk/things/e9bd1a75-dda7-43bc-afdd-76963f28e96c#id> a curric:TopicOfStudy ;
+    rdfs:label "An Inspector Calls"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "An Inspector Calls"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/719055f1-530e-4a4c-9f1e-1138b5ab6098#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8mrqty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ea9fe12d-cca3-44bd-b493-360926a10314#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/d7078d17-1d7d-48b3-9b9a-20d0c1e38313#id> .
+
+<http://www.bbc.co.uk/things/ec75f88d-4280-4006-9f5b-473145978a10#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/620088e7-0d53-4945-9689-77df2077a05f#id> .
+
+<http://www.bbc.co.uk/things/ef089172-30d1-40da-8a4e-85de51be32e6#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/8d251e16-38c1-4082-ac3b-d31fdb28af06#id> .
+
+<http://www.bbc.co.uk/things/ef174938-1eef-4c7e-add5-3998194f6d25#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/faee4322-0404-40ab-ac66-ee8f05651f1c#id> .
+
+<http://www.bbc.co.uk/things/f04fab25-c31b-4323-a3df-ffcbb9acf19d#id> a curric:TopicOfStudy ;
+    rdfs:label "Lord of the Flies"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Lord of the Flies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d1377e50-466d-464d-b82e-a3b3bf84d8a7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwt9mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f06cecf3-8a37-470e-9300-8254b106c3db#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/5c8e9079-b596-47da-9f5b-3046d4311981#id> .
+
+<http://www.bbc.co.uk/things/f0afeb6b-04d4-4e7a-a249-f3c74dd8ca30#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/2575ae3e-808d-475a-80e1-6fd7fda553c3#id> .
+
+<http://www.bbc.co.uk/things/f0b48498-542b-42d6-b9c1-40d48381858e#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/3c367529-b974-4370-8c13-87a1da89f19e#id> .
+
+<http://www.bbc.co.uk/things/f3ec8699-1f0a-4751-a6fa-0e2afe69889b#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/b7796e43-4390-4faf-92a3-6657417508b0#id> .
+
+<http://www.bbc.co.uk/things/f666e60c-d977-422e-a487-fdbda0d72405#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/d17a493c-51e9-4dd7-ad61-34d31f02b1cd#id> .
+
+<http://www.bbc.co.uk/things/f83577b7-700c-4d5b-8dee-315bdbd6985b#id> a curric:TopicOfStudy ;
+    rdfs:label "Shakespeare"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Shakespeare"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2b49a83f-7bf5-4f7e-ab21-66917059d711#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/60b72420-0304-49f3-8e1d-992215c52549#id> ;
+    = <http://www.bbc.co.uk/education/topics/ztv7sg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f8455fe9-b664-4033-8f08-e2edf5cd3524#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/e9bd1a75-dda7-43bc-afdd-76963f28e96c#id> .
+
+<http://www.bbc.co.uk/things/faee4322-0404-40ab-ac66-ee8f05651f1c#id> a curric:TopicOfStudy ;
+    rdfs:label "The Curious Incident of the Dog in the Night-Time (play)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "The Curious Incident of the Dog in the Night-Time (play)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d0c5d5b0-b6f3-4677-871e-5da33500d3e0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z82gj6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fe0e508e-07ac-4e02-89b5-071110b0266c#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/714b09a9-3512-4b7e-b6a4-5bd1b32c5d94#id>,
+        <http://www.bbc.co.uk/things/e785d3dd-d4d0-4b8b-bf30-368988ef3e42#id> ;
+    = <http://www.bbc.co.uk/education/topics/ztfjp39#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/19cf4acc-6c22-4183-be5e-722dfe3b121d#id> a curric:ExamSpecification ;
+    rdfs:label "WJEC"@en-gb ;
+    core:curriculumYear 2015 ;
+    core:disambiguationHint "WJEC GCSE English Literature  (post-2015)"@en-gb ;
+    core:preferredLabel "WJEC"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/25d85da2-d7b5-49bc-8b06-55e695f7966b#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:topics <http://www.bbc.co.uk/things/4cbd4447-0a73-4c5d-aeb5-758d4e951dc4#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z9gjp39#exam-specification> .
+
+<http://www.bbc.co.uk/things/2b79eaff-564e-4170-b41d-5b9dc19753d4#id> a curric:ExamSpecification ;
+    rdfs:label "OCR"@en-gb ;
+    core:curriculumYear 2015 ;
+    core:disambiguationHint "OCR GCSE English Literature (post-2015)"@en-gb ;
+    core:preferredLabel "OCR"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:topics <http://www.bbc.co.uk/things/1cf8a568-96df-4670-9d9c-f1aa11bfc7ce#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zq8639q#exam-specification> .
+
+<http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> a curric:ExamSpecification ;
+    rdfs:label "CCEA"@en-gb ;
+    core:curriculumYear 2015 ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015)"@en-gb ;
+    core:preferredLabel "CCEA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/ac46086e-0c56-4ee6-aeef-ed2b4f640d66#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:topics <http://www.bbc.co.uk/things/5c965a58-cdaf-47fc-a63b-9d43719094af#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z8c7sg8#exam-specification> .
+
+<http://www.bbc.co.uk/things/a96b2172-aa79-4f87-9589-d54d88bed1b3#id> a curric:ExamSpecification ;
+    rdfs:label "EDUQAS"@en-gb ;
+    core:curriculumYear 2015 ;
+    core:disambiguationHint "EDUQAS GCSE English Literature (post-2015)"@en-gb ;
+    core:preferredLabel "EDUQAS"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/61ed10fe-4712-4921-8ee2-1e81a0fe076e#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:topics <http://www.bbc.co.uk/things/1c8a701a-57db-4933-80cf-2f1bf738930b#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zw9mycw#exam-specification> .
+
+<http://www.bbc.co.uk/things/87d2f091-b67b-4826-b856-13fc551874dc#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:curriculumYear 2015 ;
+    core:disambiguationHint "AQA GCSE English Literature (post-2015)"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:topics <http://www.bbc.co.uk/things/4915fba7-7c87-4221-ba63-0362388a8dc0#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zxqncwx#exam-specification> .
+
+<http://www.bbc.co.uk/things/a16ead75-0b1f-4aef-a761-5ec7037ff12a#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:curriculumYear 2015 ;
+    core:disambiguationHint "Edexcel GCSE English Literature (post-2015)"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:topics <http://www.bbc.co.uk/things/d2814da6-81b8-4542-bfa0-5701d5be9346#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z2whg82#exam-specification> .
+

@@ -1,0 +1,724 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/e5171ae0-48de-40f1-96dc-5c521a404acf#id> a provenance:Dataset ;
+    rdfs:label "GCSE Science Exam Specifications" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "4"^^xsd:int .
+
+<http://www.bbc.co.uk/things/02d7402b-b961-4da2-b247-395369f3728d#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Core Biology"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/77e7776c-92b9-43f2-bd1f-81a31aeadd09#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/105b035d-c30c-4bdd-9f2b-546d7b157a6f#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z3s2p39#exam-specification> .
+
+<http://www.bbc.co.uk/things/0387f317-22e9-4701-af36-bbcb191703be#id> a curric:ExamSpecification ;
+    rdfs:label "OCR Gateway"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Core Chemistry"@en-gb ;
+    core:preferredLabel "OCR Gateway"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/7f339b0f-9957-4e4b-aaf3-333a4cc46346#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/1dbf4155-2863-4044-9f83-81b7aa9c1765#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zwkv4j6#exam-specification> .
+
+<http://www.bbc.co.uk/things/1a214e1b-d3e9-444a-9d01-ca568ea74657#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Additional Chemistry"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/cab10e96-e216-41b7-a37f-7b9afb307b0b#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/eb8f0651-eabc-4944-8064-048071eb9b57#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zy6j6fr#exam-specification> .
+
+<http://www.bbc.co.uk/things/21861793-83ec-4d29-8ada-92d319be63f4#id> a curric:ExamSpecification ;
+    rdfs:label "OCR"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Triple Physics"@en-gb ;
+    core:preferredLabel "OCR"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ee62dbb0-700f-46ce-a009-4e341487a174#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/df6179ad-07ab-4dec-a82d-6a1388c7acbc#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z2939qt#exam-specification> .
+
+<http://www.bbc.co.uk/things/336157f5-10c9-4b5f-8a73-1639d1dcf5f4#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Core Physics"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/62c3be06-7e38-416f-8d20-b10542ddc79d#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/105b035d-c30c-4bdd-9f2b-546d7b157a6f#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z83p39q#exam-specification> .
+
+<http://www.bbc.co.uk/things/3574b1c3-31a8-4ad8-8977-6c0d3037ab94#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Additional Biology"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/38ec3c20-b8c0-45b9-99a6-348465a1b3a6#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/0c436b76-9a2f-490d-8ba2-15ae1408fbb2#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z3p2p39#exam-specification> .
+
+<http://www.bbc.co.uk/things/3f05d8cb-0af2-4101-bdd8-a004af01afc0#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Core Chemistry"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/7f339b0f-9957-4e4b-aaf3-333a4cc46346#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/6a5a7b8a-2889-4b31-8652-424ea3cbfb97#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zqdbk7h#exam-specification> .
+
+<http://www.bbc.co.uk/things/4bf35dfe-72ac-4696-9c40-92246be46c04#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Core Physics"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/62c3be06-7e38-416f-8d20-b10542ddc79d#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/6a5a7b8a-2889-4b31-8652-424ea3cbfb97#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zcsxsg8#exam-specification> .
+
+<http://www.bbc.co.uk/things/551f546c-0e83-4b4b-910f-173cf2de3651#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Additional Biology"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/38ec3c20-b8c0-45b9-99a6-348465a1b3a6#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/eb8f0651-eabc-4944-8064-048071eb9b57#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zcytycw#exam-specification> .
+
+<http://www.bbc.co.uk/things/57f09107-0f17-49e0-95c3-a6b747931f67#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Additional Biology"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/38ec3c20-b8c0-45b9-99a6-348465a1b3a6#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/f829f197-9945-4345-ba55-dd2166f03391#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z93p39q#exam-specification> .
+
+<http://www.bbc.co.uk/things/5ebd3621-6cb4-4703-adc7-480c14e51739#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Core Biology"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/77e7776c-92b9-43f2-bd1f-81a31aeadd09#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/6a5a7b8a-2889-4b31-8652-424ea3cbfb97#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z9gp39q#exam-specification> .
+
+<http://www.bbc.co.uk/things/5f618df9-b136-4e9e-8b21-6b6a0172fac8#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Triple Biology"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ac5f6441-0d9b-4eec-9e4d-b464650198b0#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/d05404d4-f4c4-4c41-99d9-974b521056f2#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z8bnbk7#exam-specification> .
+
+<http://www.bbc.co.uk/things/73ffb2a5-2a76-4d2c-81df-8dfd460b4e9b#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Triple Physics"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ee62dbb0-700f-46ce-a009-4e341487a174#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/7acffc54-46b5-4d9a-8647-46219c254922#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zqcycwx#exam-specification> .
+
+<http://www.bbc.co.uk/things/7bc9d08a-3609-4ad2-bb6c-ae91f945ea3f#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Triple Physics"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ee62dbb0-700f-46ce-a009-4e341487a174#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/d05404d4-f4c4-4c41-99d9-974b521056f2#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/ztwcwxs#exam-specification> .
+
+<http://www.bbc.co.uk/things/7eb7f22e-6fe6-4d55-aa48-420216f98614#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Additional Chemistry"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/cab10e96-e216-41b7-a37f-7b9afb307b0b#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/f829f197-9945-4345-ba55-dd2166f03391#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zsmdmnb#exam-specification> .
+
+<http://www.bbc.co.uk/things/87d895bd-907d-4f9d-988e-4b08e9f793b7#id> a curric:ExamSpecification ;
+    rdfs:label "OCR Gateway"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Triple Biology"@en-gb ;
+    core:preferredLabel "OCR Gateway"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ac5f6441-0d9b-4eec-9e4d-b464650198b0#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/df6179ad-07ab-4dec-a82d-6a1388c7acbc#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zcf6frd#exam-specification> .
+
+<http://www.bbc.co.uk/things/89cfd84f-4ff7-4f0e-891a-6df9b35458dd#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Core Physics"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/62c3be06-7e38-416f-8d20-b10542ddc79d#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/6e679dfb-948c-46b4-b4f2-f14a5c3bcb7e#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zwgsg82#exam-specification> .
+
+<http://www.bbc.co.uk/things/8ebf667d-05f9-4b2c-a91e-e7fb748d5c34#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Triple Physics"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ee62dbb0-700f-46ce-a009-4e341487a174#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/66544f5c-f905-4619-89b1-83f922a4dfb2#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zx8g82p#exam-specification> .
+
+<http://www.bbc.co.uk/things/901ce295-9877-41ca-97a2-b405a2874acf#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Triple Chemistry"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/c411e9cf-8efb-4a80-878d-5a8ee2b87c15#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/66544f5c-f905-4619-89b1-83f922a4dfb2#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zyxwxsg#exam-specification> .
+
+<http://www.bbc.co.uk/things/9dd80a58-e053-41ff-b783-c647902435ee#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Additional Physics"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/74b0271d-d79a-4c06-949c-e48eaebab741#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/f829f197-9945-4345-ba55-dd2166f03391#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z2kbk7h#exam-specification> .
+
+<http://www.bbc.co.uk/things/b0606531-c206-40a4-a29f-c124f4d93bf9#id> a curric:ExamSpecification ;
+    rdfs:label "OCR Gateway"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Additional Chemistry"@en-gb ;
+    core:preferredLabel "OCR Gateway"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/cab10e96-e216-41b7-a37f-7b9afb307b0b#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/ebaa9060-cb69-4c2e-ba39-68824e280da4#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zp7k7hv#exam-specification> .
+
+<http://www.bbc.co.uk/things/b852a8fa-f68b-4903-aded-45a37fd2a58f#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Additional Physics"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/74b0271d-d79a-4c06-949c-e48eaebab741#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/eb8f0651-eabc-4944-8064-048071eb9b57#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zxdrdmn#exam-specification> .
+
+<http://www.bbc.co.uk/things/b85f2877-6fbc-415c-b717-e8fe5ba31db1#id> a curric:ExamSpecification ;
+    rdfs:label "OCR Gateway"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Additional Biology"@en-gb ;
+    core:preferredLabel "OCR Gateway"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/38ec3c20-b8c0-45b9-99a6-348465a1b3a6#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/ebaa9060-cb69-4c2e-ba39-68824e280da4#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zgsxsg8#exam-specification> .
+
+<http://www.bbc.co.uk/things/ba1c0953-ef2e-487d-868f-b9929e980f1e#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Triple Biology"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ac5f6441-0d9b-4eec-9e4d-b464650198b0#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/7acffc54-46b5-4d9a-8647-46219c254922#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zgnmnbk#exam-specification> .
+
+<http://www.bbc.co.uk/things/c234ddd2-c56d-418b-826b-d53202648c41#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Core Biology"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/77e7776c-92b9-43f2-bd1f-81a31aeadd09#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/6e679dfb-948c-46b4-b4f2-f14a5c3bcb7e#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zcv6frd#exam-specification> .
+
+<http://www.bbc.co.uk/things/c29cb31c-1915-4e05-839c-b92b2ac2839d#id> a curric:ExamSpecification ;
+    rdfs:label "OCR Gateway"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Additional Physics"@en-gb ;
+    core:preferredLabel "OCR Gateway"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/74b0271d-d79a-4c06-949c-e48eaebab741#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/ebaa9060-cb69-4c2e-ba39-68824e280da4#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zq4v4j6#exam-specification> .
+
+<http://www.bbc.co.uk/things/c620f329-b3b3-4cf1-94d3-2bc66299ffa6#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Triple Chemistry"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/c411e9cf-8efb-4a80-878d-5a8ee2b87c15#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/d05404d4-f4c4-4c41-99d9-974b521056f2#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z3h7hv4#exam-specification> .
+
+<http://www.bbc.co.uk/things/c69548e7-c37d-4e2c-9359-8267c269c15c#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Triple Biology"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ac5f6441-0d9b-4eec-9e4d-b464650198b0#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/66544f5c-f905-4619-89b1-83f922a4dfb2#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z9vhv4j#exam-specification> .
+
+<http://www.bbc.co.uk/things/c8a2a866-cdb7-4259-872e-802f8e02cad2#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Additional Physics"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/74b0271d-d79a-4c06-949c-e48eaebab741#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/0c436b76-9a2f-490d-8ba2-15ae1408fbb2#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zwrfrdm#exam-specification> .
+
+<http://www.bbc.co.uk/things/d8f4c082-541a-403f-a0ae-2e02f2e97226#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Triple Chemistry"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/c411e9cf-8efb-4a80-878d-5a8ee2b87c15#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/7acffc54-46b5-4d9a-8647-46219c254922#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zpq9qty#exam-specification> .
+
+<http://www.bbc.co.uk/things/da0346de-63a3-406c-a68e-d001e729343d#id> a curric:ExamSpecification ;
+    rdfs:label "OCR Gateway"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Core Biology"@en-gb ;
+    core:preferredLabel "OCR Gateway"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/77e7776c-92b9-43f2-bd1f-81a31aeadd09#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/1dbf4155-2863-4044-9f83-81b7aa9c1765#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zgyxsg8#exam-specification> .
+
+<http://www.bbc.co.uk/things/db45f3da-cc92-4778-bbc9-2534196cfd4c#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Additional Chemistry"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/cab10e96-e216-41b7-a37f-7b9afb307b0b#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/0c436b76-9a2f-490d-8ba2-15ae1408fbb2#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/ztj4j6f#exam-specification> .
+
+<http://www.bbc.co.uk/things/e2f55c81-1058-446e-9bd7-adb7d9f8aa23#id> a curric:ExamSpecification ;
+    rdfs:label "OCR Gateway"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Triple Chemistry"@en-gb ;
+    core:preferredLabel "OCR Gateway"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/c411e9cf-8efb-4a80-878d-5a8ee2b87c15#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/df6179ad-07ab-4dec-a82d-6a1388c7acbc#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zs282p3#exam-specification> .
+
+<http://www.bbc.co.uk/things/f0f2a5af-93f4-46ba-93e4-cb20a593c18d#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Core Chemistry"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/7f339b0f-9957-4e4b-aaf3-333a4cc46346#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/6e679dfb-948c-46b4-b4f2-f14a5c3bcb7e#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zstwxsg#exam-specification> .
+
+<http://www.bbc.co.uk/things/f2f975f0-8567-4958-8722-64371a3a80e6#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Core Chemistry"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/7f339b0f-9957-4e4b-aaf3-333a4cc46346#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/105b035d-c30c-4bdd-9f2b-546d7b157a6f#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z3fmnbk#exam-specification> .
+
+<http://www.bbc.co.uk/things/fa717ff8-e7c3-4c80-8d4a-13a1d7b0023b#id> a curric:ExamSpecification ;
+    rdfs:label "OCR Gateway"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Core Physics"@en-gb ;
+    core:preferredLabel "OCR Gateway"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/62c3be06-7e38-416f-8d20-b10542ddc79d#id> ;
+    curric:subSpecificationOf <http://www.bbc.co.uk/things/1dbf4155-2863-4044-9f83-81b7aa9c1765#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z9ytycw#exam-specification> .
+
+<http://www.bbc.co.uk/things/0c436b76-9a2f-490d-8ba2-15ae1408fbb2#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Additional Science"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/c679c641-b825-4c7e-bad5-a36d213685a9#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zxwcwxs#exam-specification> .
+
+<http://www.bbc.co.uk/things/105b035d-c30c-4bdd-9f2b-546d7b157a6f#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Core Science"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/061aec70-6c3a-47df-9435-f9075bf0b2b3#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zgf6frd#exam-specification> .
+
+<http://www.bbc.co.uk/things/1dbf4155-2863-4044-9f83-81b7aa9c1765#id> a curric:ExamSpecification ;
+    rdfs:label "OCR Gateway"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Core Science"@en-gb ;
+    core:preferredLabel "OCR Gateway"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/061aec70-6c3a-47df-9435-f9075bf0b2b3#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z3nmnbk#exam-specification> .
+
+<http://www.bbc.co.uk/things/66544f5c-f905-4619-89b1-83f922a4dfb2#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Triple Science"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/05c368f3-1a8d-4edb-9f2f-e4e0d837f79d#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zq939qt#exam-specification> .
+
+<http://www.bbc.co.uk/things/6a5a7b8a-2889-4b31-8652-424ea3cbfb97#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Core Science"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/061aec70-6c3a-47df-9435-f9075bf0b2b3#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zytqtyc#exam-specification> .
+
+<http://www.bbc.co.uk/things/6e679dfb-948c-46b4-b4f2-f14a5c3bcb7e#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Core Science"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/061aec70-6c3a-47df-9435-f9075bf0b2b3#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zcvhv4j#exam-specification> .
+
+<http://www.bbc.co.uk/things/7acffc54-46b5-4d9a-8647-46219c254922#id> a curric:ExamSpecification ;
+    rdfs:label "OCR 21st Century"@en-gb ;
+    core:disambiguationHint "OCR 21st Century GCSE Triple Science"@en-gb ;
+    core:preferredLabel "OCR 21st Century"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/05c368f3-1a8d-4edb-9f2f-e4e0d837f79d#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z8gsg82#exam-specification> .
+
+<http://www.bbc.co.uk/things/d05404d4-f4c4-4c41-99d9-974b521056f2#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Triple Science"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/05c368f3-1a8d-4edb-9f2f-e4e0d837f79d#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z28g82p#exam-specification> .
+
+<http://www.bbc.co.uk/things/df6179ad-07ab-4dec-a82d-6a1388c7acbc#id> a curric:ExamSpecification ;
+    rdfs:label "OCR Gateway"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Triple Science"@en-gb ;
+    core:preferredLabel "OCR Gateway"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/05c368f3-1a8d-4edb-9f2f-e4e0d837f79d#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zwcycwx#exam-specification> .
+
+<http://www.bbc.co.uk/things/eb8f0651-eabc-4944-8064-048071eb9b57#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Additional Science"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/c679c641-b825-4c7e-bad5-a36d213685a9#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zsxwxsg#exam-specification> .
+
+<http://www.bbc.co.uk/things/ebaa9060-cb69-4c2e-ba39-68824e280da4#id> a curric:ExamSpecification ;
+    rdfs:label "OCR Gateway"@en-gb ;
+    core:disambiguationHint "OCR Gateway GCSE Additional Science"@en-gb ;
+    core:preferredLabel "OCR Gateway"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/c679c641-b825-4c7e-bad5-a36d213685a9#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/ztq9qty#exam-specification> .
+
+<http://www.bbc.co.uk/things/f829f197-9945-4345-ba55-dd2166f03391#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Additional Science"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/c679c641-b825-4c7e-bad5-a36d213685a9#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zp282p3#exam-specification> .
+

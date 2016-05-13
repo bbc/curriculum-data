@@ -1,0 +1,482 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/cb2e52b4-0b67-4038-9fff-772773682186#id> a provenance:Dataset ;
+    rdfs:label "GCSE Computer Science (post-2015)" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "1"^^xsd:int .
+
+<http://www.bbc.co.uk/things/043cffbd-c591-4d01-9bee-edf728d61124#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/0ede2a19-0b9d-4e48-9b99-e4fd2c9a8c39#id> .
+
+<http://www.bbc.co.uk/things/0ede2a19-0b9d-4e48-9b99-e4fd2c9a8c39#id> a curric:TopicOfStudy ;
+    rdfs:label "Networks"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Networks"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9eb7b00c-22a7-4792-8ead-c44af67b99f4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a7c7b2fc-d0aa-42dc-aeab-31e5f835baf3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwd2rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0f8a034e-db29-4750-a303-aab505cbacff#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/f586b3b5-ec4a-40b7-8174-9a76452a2100#id> .
+
+<http://www.bbc.co.uk/things/1d1d719b-8b8a-4a2c-aeae-f480d38c7cc2#id> a curric:TopicOfStudy ;
+    rdfs:label "Software"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Software"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d79bc56f-4ecf-49b0-aee9-00e6ceec1a2d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1234e849-b334-4d8f-aeaa-8228f7c22357#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqwmcwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1d9c7966-47b9-4ec2-824f-03ac8ca7df57#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/fb30df6b-f263-49c3-b1a4-e9170297d428#id> .
+
+<http://www.bbc.co.uk/things/21a9a143-e4c9-4f1f-b2a4-a21ed97579aa#id> a curric:TopicOfStudy ;
+    rdfs:label "Hardware"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Hardware"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9bf0f48a-ff2f-4920-854b-2bc54ad04a00#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/88275d08-d905-4f2e-af1d-691ad36bebf1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3vchv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/232d6056-1d0c-4c34-b0dc-032b77fc3ec0#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/043cffbd-c591-4d01-9bee-edf728d61124#id>,
+        <http://www.bbc.co.uk/things/0f8a034e-db29-4750-a303-aab505cbacff#id>,
+        <http://www.bbc.co.uk/things/49515334-55dd-4b7f-8e9e-6bad39872876#id>,
+        <http://www.bbc.co.uk/things/8f6ab803-805d-4bf0-8bea-a92fabe0c708#id>,
+        <http://www.bbc.co.uk/things/e0adf95d-85ec-4c12-b7fa-2d7fbfdd779b#id>,
+        <http://www.bbc.co.uk/things/e2304d72-db7e-450f-acb4-8149dd0bda89#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z3jx4j6#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/23ffa6d5-e561-42c5-9bc6-019065749f47#id> a curric:TopicOfStudy ;
+    rdfs:label "Networks"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Networks"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9eb7b00c-22a7-4792-8ead-c44af67b99f4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/88275d08-d905-4f2e-af1d-691ad36bebf1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zspv2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/29c8aa3e-6946-435e-b97e-6e4b8f0c4e9c#id> a curric:TopicOfStudy ;
+    rdfs:label "Databases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Databases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/318a210c-f248-4c1e-82bf-6d9975dd2f7d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1234e849-b334-4d8f-aeaa-8228f7c22357#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z89j39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2cef9f2f-5c41-4eb6-bf0e-03a71b428271#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1d9c7966-47b9-4ec2-824f-03ac8ca7df57#id>,
+        <http://www.bbc.co.uk/things/50505914-ce9d-487e-ac3f-c3a5145267c3#id>,
+        <http://www.bbc.co.uk/things/872e0b03-1a26-44e6-9dd5-4824721f85b3#id>,
+        <http://www.bbc.co.uk/things/986ab4ce-80ed-4a0f-bd60-fda34e5fecc4#id>,
+        <http://www.bbc.co.uk/things/f182c70b-7545-4b7e-bdce-40bc7c6d4131#id>,
+        <http://www.bbc.co.uk/things/f49208ab-2535-4597-b314-757ae5a9b655#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zy87g82#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/31d49958-a30d-45c2-92ee-6b35e17fb9fd#id> a curric:TopicOfStudy ;
+    rdfs:label "Hardware"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Hardware"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9bf0f48a-ff2f-4920-854b-2bc54ad04a00#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/da682efa-8eb3-4bd8-a296-bd6386f479c4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zg34p39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3af522dd-0fda-4d11-9032-f7c9540d6fac#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/3bc37a7b-4acf-44ab-a99e-7f639a1f936b#id>,
+        <http://www.bbc.co.uk/things/53563df6-339c-493c-8967-e98208fd1219#id>,
+        <http://www.bbc.co.uk/things/5c72ad49-fafb-4b70-aa7b-15cd28d1141a#id>,
+        <http://www.bbc.co.uk/things/634e86e6-7abf-4fb2-aee2-810ae4f2ccbd#id>,
+        <http://www.bbc.co.uk/things/7b28be3b-bd3e-4dbe-ac15-52e408a840dd#id>,
+        <http://www.bbc.co.uk/things/af4a4023-ead6-4a79-8124-2c2da0eb662b#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zs9j39q#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/3bc37a7b-4acf-44ab-a99e-7f639a1f936b#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/1d1d719b-8b8a-4a2c-aeae-f480d38c7cc2#id> .
+
+<http://www.bbc.co.uk/things/3bf137d3-7a73-4bff-bc1f-9bfa4a3a5a25#id> a curric:TopicOfStudy ;
+    rdfs:label "Binary and data representation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Binary and data representation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/01764ab8-7c51-425d-bbd1-b22fde4f5e0c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/88275d08-d905-4f2e-af1d-691ad36bebf1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgb9nbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/43bd94a0-bd85-4cc7-bf53-3db60e0e0d33#id> a curric:TopicOfStudy ;
+    rdfs:label "Databases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Databases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/318a210c-f248-4c1e-82bf-6d9975dd2f7d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/88275d08-d905-4f2e-af1d-691ad36bebf1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zptfqty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/43be1d40-bd15-4c36-98ea-0bba1a42a575#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/456ba4c7-d59a-47bb-a348-18bfb508a153#id>,
+        <http://www.bbc.co.uk/things/733932ee-be6b-4f94-a8b2-6e50b27b65d9#id>,
+        <http://www.bbc.co.uk/things/75f46407-91fe-4af3-a7fd-5438eaff9585#id>,
+        <http://www.bbc.co.uk/things/86138a63-0ce1-4247-a9a4-6ba6ccf5889a#id>,
+        <http://www.bbc.co.uk/things/c593118e-a1d6-4d34-8bca-1bb95c573601#id>,
+        <http://www.bbc.co.uk/things/fd1bf79c-2370-419b-b670-99f0b99d64db#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zpcdycw#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/456ba4c7-d59a-47bb-a348-18bfb508a153#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/94402ec6-b274-42a1-9f10-450cce5daa63#id> .
+
+<http://www.bbc.co.uk/things/482c8aa7-3f2e-45c1-b423-098220b90b77#id> a curric:TopicOfStudy ;
+    rdfs:label "Databases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Databases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/318a210c-f248-4c1e-82bf-6d9975dd2f7d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a7c7b2fc-d0aa-42dc-aeab-31e5f835baf3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8kqbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/49515334-55dd-4b7f-8e9e-6bad39872876#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/bf9dd122-9d1e-4a82-ae31-d090e225b0b4#id> .
+
+<http://www.bbc.co.uk/things/50505914-ce9d-487e-ac3f-c3a5145267c3#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/a2482c2f-0dea-4740-996b-33423daf1d26#id> .
+
+<http://www.bbc.co.uk/things/52d51e6f-796e-4850-a1da-c3fb522c686a#id> a curric:TopicOfStudy ;
+    rdfs:label "Networks"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Networks"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9eb7b00c-22a7-4792-8ead-c44af67b99f4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/da682efa-8eb3-4bd8-a296-bd6386f479c4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zyn3mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/53563df6-339c-493c-8967-e98208fd1219#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/29c8aa3e-6946-435e-b97e-6e4b8f0c4e9c#id> .
+
+<http://www.bbc.co.uk/things/5c72ad49-fafb-4b70-aa7b-15cd28d1141a#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/75172136-5b03-47f3-9fe8-362956329bec#id> .
+
+<http://www.bbc.co.uk/things/5e77e196-b3b1-428b-9fb2-66450f636d0e#id> a curric:TopicOfStudy ;
+    rdfs:label "Software"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Software"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d79bc56f-4ecf-49b0-aee9-00e6ceec1a2d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a7c7b2fc-d0aa-42dc-aeab-31e5f835baf3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqjx4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/634e86e6-7abf-4fb2-aee2-810ae4f2ccbd#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/d536d40f-d3a3-4697-ac36-4bbdd3a26eb1#id> .
+
+<http://www.bbc.co.uk/things/6907b1e7-9b62-4b96-9a7e-e304eda1aaf3#id> a curric:TopicOfStudy ;
+    rdfs:label "Hardware"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Hardware"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9bf0f48a-ff2f-4920-854b-2bc54ad04a00#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a7c7b2fc-d0aa-42dc-aeab-31e5f835baf3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z27tk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/733932ee-be6b-4f94-a8b2-6e50b27b65d9#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/ca75a95d-b643-4ab1-9898-e4cba6716359#id> .
+
+<http://www.bbc.co.uk/things/75172136-5b03-47f3-9fe8-362956329bec#id> a curric:TopicOfStudy ;
+    rdfs:label "Networks"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Networks"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9eb7b00c-22a7-4792-8ead-c44af67b99f4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1234e849-b334-4d8f-aeaa-8228f7c22357#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zw87g82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/75f46407-91fe-4af3-a7fd-5438eaff9585#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/d0471832-03de-4f8c-bb5c-5113a77e0783#id> .
+
+<http://www.bbc.co.uk/things/7b28be3b-bd3e-4dbe-ac15-52e408a840dd#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/c7b992e2-46a2-4c2e-92ed-98ac1ac2bd22#id> .
+
+<http://www.bbc.co.uk/things/7ed7359e-df9c-475e-96bf-85a45836ef62#id> a curric:TopicOfStudy ;
+    rdfs:label "Binary and data representation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Binary and data representation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/01764ab8-7c51-425d-bbd1-b22fde4f5e0c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1234e849-b334-4d8f-aeaa-8228f7c22357#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zx2h82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/86138a63-0ce1-4247-a9a4-6ba6ccf5889a#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/daa2b8b0-b7ce-430b-b134-1dfb30c0ba17#id> .
+
+<http://www.bbc.co.uk/things/872e0b03-1a26-44e6-9dd5-4824721f85b3#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/3bf137d3-7a73-4bff-bc1f-9bfa4a3a5a25#id> .
+
+<http://www.bbc.co.uk/things/8f6ab803-805d-4bf0-8bea-a92fabe0c708#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/482c8aa7-3f2e-45c1-b423-098220b90b77#id> .
+
+<http://www.bbc.co.uk/things/94402ec6-b274-42a1-9f10-450cce5daa63#id> a curric:TopicOfStudy ;
+    rdfs:label "Software"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Software"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d79bc56f-4ecf-49b0-aee9-00e6ceec1a2d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/da682efa-8eb3-4bd8-a296-bd6386f479c4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3yrtyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/986ab4ce-80ed-4a0f-bd60-fda34e5fecc4#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/43bd94a0-bd85-4cc7-bf53-3db60e0e0d33#id> .
+
+<http://www.bbc.co.uk/things/a2482c2f-0dea-4740-996b-33423daf1d26#id> a curric:TopicOfStudy ;
+    rdfs:label "Software"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Software"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d79bc56f-4ecf-49b0-aee9-00e6ceec1a2d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/88275d08-d905-4f2e-af1d-691ad36bebf1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zysbxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/af4a4023-ead6-4a79-8124-2c2da0eb662b#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/7ed7359e-df9c-475e-96bf-85a45836ef62#id> .
+
+<http://www.bbc.co.uk/things/bf9dd122-9d1e-4a82-ae31-d090e225b0b4#id> a curric:TopicOfStudy ;
+    rdfs:label "Binary and data representation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Binary and data representation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/01764ab8-7c51-425d-bbd1-b22fde4f5e0c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a7c7b2fc-d0aa-42dc-aeab-31e5f835baf3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxmpdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c593118e-a1d6-4d34-8bca-1bb95c573601#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/52d51e6f-796e-4850-a1da-c3fb522c686a#id> .
+
+<http://www.bbc.co.uk/things/c7b992e2-46a2-4c2e-92ed-98ac1ac2bd22#id> a curric:TopicOfStudy ;
+    rdfs:label "Computers in society"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Computers in society"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d41fd6a7-fcf6-47dc-97df-a914dbbe07ef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1234e849-b334-4d8f-aeaa-8228f7c22357#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztxnwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ca75a95d-b643-4ab1-9898-e4cba6716359#id> a curric:TopicOfStudy ;
+    rdfs:label "Binary and data representation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Binary and data representation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/01764ab8-7c51-425d-bbd1-b22fde4f5e0c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/da682efa-8eb3-4bd8-a296-bd6386f479c4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zcgksg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d0471832-03de-4f8c-bb5c-5113a77e0783#id> a curric:TopicOfStudy ;
+    rdfs:label "Computers in society"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Computers in society"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d41fd6a7-fcf6-47dc-97df-a914dbbe07ef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/da682efa-8eb3-4bd8-a296-bd6386f479c4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9cdycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d536d40f-d3a3-4697-ac36-4bbdd3a26eb1#id> a curric:TopicOfStudy ;
+    rdfs:label "Hardware"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Hardware"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9bf0f48a-ff2f-4920-854b-2bc54ad04a00#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1234e849-b334-4d8f-aeaa-8228f7c22357#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2q69qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/daa2b8b0-b7ce-430b-b134-1dfb30c0ba17#id> a curric:TopicOfStudy ;
+    rdfs:label "Databases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Databases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/318a210c-f248-4c1e-82bf-6d9975dd2f7d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/da682efa-8eb3-4bd8-a296-bd6386f479c4#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zshy7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e0adf95d-85ec-4c12-b7fa-2d7fbfdd779b#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/5e77e196-b3b1-428b-9fb2-66450f636d0e#id> .
+
+<http://www.bbc.co.uk/things/e2304d72-db7e-450f-acb4-8149dd0bda89#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/6907b1e7-9b62-4b96-9a7e-e304eda1aaf3#id> .
+
+<http://www.bbc.co.uk/things/f182c70b-7545-4b7e-bdce-40bc7c6d4131#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/21a9a143-e4c9-4f1f-b2a4-a21ed97579aa#id> .
+
+<http://www.bbc.co.uk/things/f49208ab-2535-4597-b314-757ae5a9b655#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/23ffa6d5-e561-42c5-9bc6-019065749f47#id> .
+
+<http://www.bbc.co.uk/things/f586b3b5-ec4a-40b7-8174-9a76452a2100#id> a curric:TopicOfStudy ;
+    rdfs:label "Computers in society"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Computers in society"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d41fd6a7-fcf6-47dc-97df-a914dbbe07ef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a7c7b2fc-d0aa-42dc-aeab-31e5f835baf3#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zt6sj6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fb30df6b-f263-49c3-b1a4-e9170297d428#id> a curric:TopicOfStudy ;
+    rdfs:label "Computers in society"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Computers in society"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d41fd6a7-fcf6-47dc-97df-a914dbbe07ef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/88275d08-d905-4f2e-af1d-691ad36bebf1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zcr8frd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fd1bf79c-2370-419b-b670-99f0b99d64db#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/31d49958-a30d-45c2-92ee-6b35e17fb9fd#id> .
+
+<http://www.bbc.co.uk/things/01764ab8-7c51-425d-bbd1-b22fde4f5e0c#id> a curric:Topic ;
+    rdfs:label "Binary and data representation"@en-gb ;
+    core:preferredLabel "Binary and data representation"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z334p39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d41fd6a7-fcf6-47dc-97df-a914dbbe07ef#id> a curric:Topic ;
+    rdfs:label "Computers in society"@en-gb ;
+    core:preferredLabel "Computers in society"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zccdycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1234e849-b334-4d8f-aeaa-8228f7c22357#id> a curric:ExamSpecification ;
+    rdfs:label "OCR"@en-gb ;
+    core:disambiguationHint "OCR GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "OCR"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:topics <http://www.bbc.co.uk/things/3af522dd-0fda-4d11-9032-f7c9540d6fac#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zs9j39q#exam-specification> .
+
+<http://www.bbc.co.uk/things/88275d08-d905-4f2e-af1d-691ad36bebf1#id> a curric:ExamSpecification ;
+    rdfs:label "EDEXCEL"@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "EDEXCEL"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:topics <http://www.bbc.co.uk/things/2cef9f2f-5c41-4eb6-bf0e-03a71b428271#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zy87g82#exam-specification> .
+
+<http://www.bbc.co.uk/things/a7c7b2fc-d0aa-42dc-aeab-31e5f835baf3#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:topics <http://www.bbc.co.uk/things/232d6056-1d0c-4c34-b0dc-032b77fc3ec0#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z3jx4j6#exam-specification> .
+
+<http://www.bbc.co.uk/things/da682efa-8eb3-4bd8-a296-bd6386f479c4#id> a curric:ExamSpecification ;
+    rdfs:label "WJEC"@en-gb ;
+    core:disambiguationHint "WJEC GCSE Computer Science (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "WJEC"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/25d85da2-d7b5-49bc-8b06-55e695f7966b#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/e1614f9d-59ee-4319-8092-88ba154935ce#id> ;
+    curric:topics <http://www.bbc.co.uk/things/43be1d40-bd15-4c36-98ea-0bba1a42a575#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zpcdycw#exam-specification> .
+

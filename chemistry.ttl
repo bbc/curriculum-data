@@ -1,988 +1,713 @@
-@prefix olo:   <http://purl.org/ontology/olo/core#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
 @prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix dc:    <http://purl.org/dc/terms/> .
-
-<http://www.bbc.co.uk/things/0d42ce0d-8d24-40d7-8d6c-f5bd1dd89056#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Metals"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f69857d1-b609-4070-b9d1-9a5ee5eb471a#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zy4cwmn#topic-of-study> .
-
-<http://www.bbc.co.uk/things/4db1db7e-cd35-4c95-871e-72f78fcbd438#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Chemical industry"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/2eec00dc-8e7f-431a-b667-d613c27182da#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zd982hv#topic-of-study> .
-
-<http://www.bbc.co.uk/things/45b1706a-51ea-49fc-9308-a2380d674990#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Acids, alkalis and salts"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8fd6c423-88fb-400e-af5a-7b80ae7dedf3#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zn6hvcw#topic-of-study> .
-
-<http://www.bbc.co.uk/things/2d5a1132-6635-402e-a6aa-ac75c0a706ba#id>
-        a                  curric:Topic ;
-        rdfs:label         "Consumer products"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/90a3db27-29e7-450a-b9e8-627443621590#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zcjwxnb#topic> .
-
-<http://www.bbc.co.uk/things/92f15297-75e5-414a-a37c-748f5dc219f8#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/81721b2b-b7d7-4971-9950-bea724436498#id> , <http://www.bbc.co.uk/things/bf7c2ce2-11ae-4231-b906-85e75a449d23#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z6pnb9q#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/9456f810-4639-42ce-bb08-e1f30925e849#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Consumer products"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/2d5a1132-6635-402e-a6aa-ac75c0a706ba#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z38k7ty#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c3d54aea-692e-47c3-95a5-529c24f9dc77#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/d3cc3c90-3f47-472e-9b2e-8cff90b42811#id> .
-
-<http://www.bbc.co.uk/things/41688c15-f4d4-45b8-af0e-7c529678afeb#id>
-        a                  curric:Topic ;
-        rdfs:label         "Atoms, elements and compounds"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zycrd2p#topic> .
-
-<http://www.bbc.co.uk/things/9ee189bb-a0a6-4a7e-9640-0f09a8b6108b#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/61338cbf-2fda-407f-9f32-90c3c94b0257#id> .
-
-<http://www.bbc.co.uk/things/4be060a9-4a82-4334-9b51-753a4b3a957d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Acids, alkalis and salts"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8fd6c423-88fb-400e-af5a-7b80ae7dedf3#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zkc9q6f#topic-of-study> .
-
-<http://www.bbc.co.uk/things/d3cc3c90-3f47-472e-9b2e-8cff90b42811#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Materials"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/a8c689d4-7588-40c6-8d62-d6ebedb0fba7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfcrd2p#topic-of-study> .
-
-<http://www.bbc.co.uk/things/30a1ddb4-3a52-45a8-9837-3d3cca0cb9fe#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Nature's chemistry"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/90a3db27-29e7-450a-b9e8-627443621590#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/db4e95ac-143e-4dbb-a757-3ab0210f6335#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zqphvcw#topic-of-study> .
-
-<http://www.bbc.co.uk/things/acf073b7-e79c-4eb8-9d45-a5560e9115a8#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/67d719b1-788d-4f15-8dc1-8450e374225b#id> .
-
-<http://www.bbc.co.uk/things/7d57dd70-45d5-41fd-85a8-9b185e04ac46#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/6b0beea1-b87d-46ec-9a68-b411824c0a49#id> , <http://www.bbc.co.uk/things/f1f9b4be-739b-4cbb-8dbc-0d18457089f2#id> , <http://www.bbc.co.uk/things/9ee189bb-a0a6-4a7e-9640-0f09a8b6108b#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zpfycdm#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/54120647-6946-4068-8f7f-3b537a5af92b#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Chemistry in society"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/3b5c82bf-80b4-46ef-8ae0-a4de2505ec4d#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zkm2pv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/a4e00f53-3c92-4c28-80d2-9c57a71f0ead#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/01399be0-6414-4342-84b0-04e30ed2447a#id> .
-
-<http://www.bbc.co.uk/things/309c0722-fd01-42fa-88cf-d25aa71f3a48#id>
-        a                  curric:Topic ;
-        rdfs:label         "Fertilisers"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zb8k7ty#topic> .
-
-<http://www.bbc.co.uk/things/19468b77-4344-4178-9ab4-fbd93ba6945d#id>
-        a          olo:Slot ;
-        olo:index  11 ;
-        olo:item   <http://www.bbc.co.uk/things/2b28dbab-2e07-4d1c-a418-6d82c71e4831#id> .
-
-<http://www.bbc.co.uk/things/b5a04e40-efca-4805-b987-e974e3f559bb#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Chemical changes and structures"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9718b670-6448-43ca-9759-8ee12d5a4f97#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/92f15297-75e5-414a-a37c-748f5dc219f8#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6pnb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/5b5b5f78-dd6c-4b3b-8aa2-dc714fa61d4d#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/2e0e5476-d02d-4802-8cfa-b9319a801651#id> .
-
-<http://www.bbc.co.uk/things/eb703331-6318-4c96-8eb6-68b15a9f62df#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/5cb35f08-eb4e-4d72-896f-49b50554de82#id> .
-
-<http://www.bbc.co.uk/things/b360f2ed-a082-4fb0-b245-1a1f23194360#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Materials"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/a8c689d4-7588-40c6-8d62-d6ebedb0fba7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zd6xsbk#topic-of-study> .
-
-<http://www.bbc.co.uk/things/1e642ff0-9912-46b9-8afb-d95873dfa36a#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/81a82280-59e9-4ca5-90c2-23d4827b5345#id> .
-
-<http://www.bbc.co.uk/things/1a04944d-5483-48de-b9c8-b95a99233179#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/9a729eb9-cf0a-494c-ad68-02c685889dc8#id> .
-
-<http://www.bbc.co.uk/things/cf5370bf-1484-4b80-a5b3-3db60145f217#id>
-        a           curric:Topic ;
-        rdfs:label  "Atomic structure"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z93v4wx#topic> .
-
-<http://www.bbc.co.uk/things/2e0e5476-d02d-4802-8cfa-b9319a801651#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Chemistry in society"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/dddad117-fd34-4436-877b-98c9cab24a57#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zngbkqt#topic-of-study> .
-
-<http://www.bbc.co.uk/things/1848320e-ff5f-429e-bbbe-bca71948742a#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/1f3c7dbf-b0cd-4acf-99ee-2094d8bfd2bf#id> .
-
-<http://www.bbc.co.uk/things/3b928080-fed1-4eb6-a407-ec372d484ebf#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/acf073b7-e79c-4eb8-9d45-a5560e9115a8#id> , <http://www.bbc.co.uk/things/eb703331-6318-4c96-8eb6-68b15a9f62df#id> , <http://www.bbc.co.uk/things/5acfa3bd-f5dc-4be1-85bb-51e9d311165b#id> , <http://www.bbc.co.uk/things/fd9a9ba6-a890-4a43-8cf8-9218cb39c4fb#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z4vycdm#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/bf539a61-7b39-49b6-b7f0-b06e568f1108#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/9456f810-4639-42ce-bb08-e1f30925e849#id> .
-
-<http://www.bbc.co.uk/things/90a3db27-29e7-450a-b9e8-627443621590#id>
-        a           curric:Topic ;
-        rdfs:label  "Nature's chemistry"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zrwdmp3#topic> .
-
-<http://www.bbc.co.uk/things/60d02e17-6e37-474c-a950-1b4ca73bf1a6#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Crude oil and fuels"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/33e3ab59-74f6-4367-a6be-ddd0c7c8ca77#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zj8wxnb#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c46d124f-6906-45bb-9f68-f1ff84c89b9e#id>
-        a           curric:Topic ;
-        rdfs:label  "States of matter"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z7k9q6f#topic> .
-
-<http://www.bbc.co.uk/things/3a1a0753-6f9b-4a32-a8c5-dd264fc122dd#id>
-        a           curric:Topic ;
-        rdfs:label  "Chemical reactions"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z8gbkqt#topic> .
-
-<http://www.bbc.co.uk/things/81721b2b-b7d7-4971-9950-bea724436498#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/0996fdb8-a2ad-47e8-bc8f-9f90d13fee27#id> .
-
-<http://www.bbc.co.uk/things/395c54e5-b932-4e22-8a47-185494d99c1b#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Acids, bases and pH"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/6d78776e-120f-4940-831f-df4f1b16f247#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/ztvycdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/f74b1da8-cf41-4061-8f4b-eedc2789cc48#id>
-        a          olo:Slot ;
-        olo:index  10 ;
-        olo:item   <http://www.bbc.co.uk/things/473066c5-5bd6-4e8b-b8b9-a78a585cf96f#id> .
-
-<http://www.bbc.co.uk/things/7570a267-5db1-40e8-9103-9179e5f23678#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/38e6b090-0b92-43c9-8315-6ed0e9c4f803#id> .
-
-<http://www.bbc.co.uk/things/8fd6c423-88fb-400e-af5a-7b80ae7dedf3#id>
-        a           curric:Topic ;
-        rdfs:label  "Acids, alkalis and salts"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zvnfr82#topic> .
-
-<http://www.bbc.co.uk/things/5eb1e3e0-a2af-451f-9e5e-c4e8821f36d0#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/65cdad7e-2693-4ef3-8cf4-5daab14c48b7#id> , <http://www.bbc.co.uk/things/91b58b2c-c4b2-474a-a83f-bd1c520c4033#id> , <http://www.bbc.co.uk/things/5b5b5f78-dd6c-4b3b-8aa2-dc714fa61d4d#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zhvycdm#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/5fd9b9b8-f5ee-4433-9b9e-1f53b92f09e7#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/e5f9a5f6-6cae-4025-a41b-4846bb2e540d#id> .
-
-<http://www.bbc.co.uk/things/096b281f-00bb-4c49-be15-660c4c6644c1#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "States of matter"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/c46d124f-6906-45bb-9f68-f1ff84c89b9e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z9r4jxs#topic-of-study> .
-
-<http://www.bbc.co.uk/things/0853cc04-ca46-4e5a-9cd2-542b3fd7f59d#id>
-        a          olo:Slot ;
-        olo:index  10 ;
-        olo:item   <http://www.bbc.co.uk/things/4db1db7e-cd35-4c95-871e-72f78fcbd438#id> .
-
-<http://www.bbc.co.uk/things/a9fa1bc7-cc08-469f-a69d-f44b180884f4#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/2a76b889-5d31-426c-aec6-cc469c988b05#id> .
-
-<http://www.bbc.co.uk/things/13c8cdda-176e-4d53-b9ad-a57f0922cf47#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/2c020b95-b5d6-4a21-8aef-d47b44f1a7c2#id> .
-
-<http://www.bbc.co.uk/things/2ab8a201-d748-4f0e-b7f4-8b2a1f98423d#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/1ef80909-0fe6-4008-846f-c94a3224b634#id> , <http://www.bbc.co.uk/things/bc37ae04-6aa8-4ae8-9aef-bd94f28c6389#id> , <http://www.bbc.co.uk/things/1b326355-e505-4e34-9a9d-74fe63c78352#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zmnp34j#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/6be24f59-3315-4711-88db-0007c76c5a58#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/3e0244a6-2b11-496e-8b97-5df229791811#id> , <http://www.bbc.co.uk/things/a8b5c44a-40c8-4433-abe1-a5b70bfc669d#id> , <http://www.bbc.co.uk/things/4b8e466b-c7d6-4823-9c8a-4ec890e9035b#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z6yfr82#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/af5c03fd-287c-4128-b0a0-afae78057203#id>
-        a          olo:Slot ;
-        olo:index  12 ;
-        olo:item   <http://www.bbc.co.uk/things/902d6378-442a-49ac-afe6-f6acce6e890a#id> .
-
-<http://www.bbc.co.uk/things/7af090ed-0eb0-4e51-8d77-a25e2ffd51da#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/1e3cd120-4783-42c0-b0a9-1243379a5543#id> .
-
-<http://www.bbc.co.uk/things/3301ac0b-25e7-4876-96f9-1c20fff481ac#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Earth and the environment"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9023002c-4ef0-48e2-8c6a-bace6ca9577f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z3fv4wx#topic-of-study> .
-
-<http://www.bbc.co.uk/things/664eb60f-5a97-464b-8d98-e6049d7f8ea0#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/71781ac6-756d-4c96-97be-4527cee58e6f#id> .
-
-<http://www.bbc.co.uk/things/ee97c939-3566-4309-9e03-0f92e3f2cd18#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/c6f514d8-d0fc-4d43-98d0-023cd18b30c2#id> , <http://www.bbc.co.uk/things/a243fe83-3d31-41a1-9323-74ea9f0f6042#id> , <http://www.bbc.co.uk/things/1ee9bab9-9ff8-4548-9e03-50993259c71b#id> , <http://www.bbc.co.uk/things/8afe471f-63c1-4f58-bc6f-bf8f0f0028e7#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zgwdmp3#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/7f4cc671-c2da-4b42-a5c8-328d9cdcb958#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/156d6c0e-0d95-4541-b7d5-5e512c52e043#id> .
-
-<http://www.bbc.co.uk/things/f69857d1-b609-4070-b9d1-9a5ee5eb471a#id>
-        a                  curric:Topic ;
-        rdfs:label         "Metals"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zgd82hv#topic> .
-
-<http://www.bbc.co.uk/things/a1bc2703-3e50-403c-84a2-bceac2cf7999#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Chemical industry"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/2eec00dc-8e7f-431a-b667-d613c27182da#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfhnb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/91b58b2c-c4b2-474a-a83f-bd1c520c4033#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/db58a05c-48cf-49c9-a217-a07bacf4c64d#id> .
-
-<http://www.bbc.co.uk/things/63d202eb-f2c0-461f-80a4-5f1ab0446b38#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/096b281f-00bb-4c49-be15-660c4c6644c1#id> .
-
-<http://www.bbc.co.uk/things/2a76b889-5d31-426c-aec6-cc469c988b05#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Atoms, elements and the periodic table"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/cf5370bf-1484-4b80-a5b3-3db60145f217#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zstp34j#topic-of-study> .
-
-<http://www.bbc.co.uk/things/fe81e638-f6b4-4df6-93ec-9f6b2a56446b#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/f74b1da8-cf41-4061-8f4b-eedc2789cc48#id> , <http://www.bbc.co.uk/things/19468b77-4344-4178-9ab4-fbd93ba6945d#id> , <http://www.bbc.co.uk/things/63d202eb-f2c0-461f-80a4-5f1ab0446b38#id> , <http://www.bbc.co.uk/things/ade696e6-bb6c-4272-ac5b-0a624ed89cee#id> , <http://www.bbc.co.uk/things/b4b311b4-91c8-4bfe-b0a5-bb744bfb653b#id> , <http://www.bbc.co.uk/things/1848320e-ff5f-429e-bbbe-bca71948742a#id> , <http://www.bbc.co.uk/things/1c1d7d02-db52-4dd4-902c-4424161efcce#id> , <http://www.bbc.co.uk/things/a9fa1bc7-cc08-469f-a69d-f44b180884f4#id> , <http://www.bbc.co.uk/things/a4e00f53-3c92-4c28-80d2-9c57a71f0ead#id> , <http://www.bbc.co.uk/things/22952a9a-0801-4426-ab2a-076b4b660655#id> , <http://www.bbc.co.uk/things/efaa4ec7-18ce-4c71-82c8-7426b15e8572#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/znxtyrd#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/e4facd31-f058-4ceb-8b2a-9ed2910cb0f4#id>
-        a          olo:Slot ;
-        olo:index  11 ;
-        olo:item   <http://www.bbc.co.uk/things/509f4b4d-ab1e-4f89-a529-0a47297bb1cf#id> .
-
-<http://www.bbc.co.uk/things/7dc7c98e-8fb6-4be3-9896-721f5b105731#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/26bc86a3-94a1-4dcd-8d0d-14575e59e61f#id> .
-
-<http://www.bbc.co.uk/things/854aecb0-95a5-42b1-ad83-9bc23b949cf7#id>
-        a                  curric:Topic ;
-        rdfs:label         "Mass, volume and concentration"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z97qtfr#topic> .
-
-<http://www.bbc.co.uk/things/690511b3-3c22-424a-b582-c8cb69fc5d5e#id>
-        a                  curric:Topic ;
-        rdfs:label         "Energy"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/e49daa30-e47e-46e9-8485-6a4853d79b7e#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z9t3cdm#topic> .
-
-<http://www.bbc.co.uk/things/607f34fb-5686-4b7f-a0fa-8b083a783738#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Mass, volume and concentration"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/854aecb0-95a5-42b1-ad83-9bc23b949cf7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z47qtfr#topic-of-study> .
-
-<http://www.bbc.co.uk/things/89374620-46ab-4269-9700-486ee38426cf#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Acids, bases and pH"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/6d78776e-120f-4940-831f-df4f1b16f247#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zrjwxnb#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b4b311b4-91c8-4bfe-b0a5-bb744bfb653b#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/bd2feab4-f9b1-4284-8bd3-7238aa25d1d5#id> .
-
-<http://www.bbc.co.uk/things/dddad117-fd34-4436-877b-98c9cab24a57#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/c3d54aea-692e-47c3-95a5-529c24f9dc77#id> , <http://www.bbc.co.uk/things/68af1a9d-d3d1-4bc7-be9e-647bad3c7883#id> , <http://www.bbc.co.uk/things/7b3520a9-b1ae-4990-ae1b-4a906356c7a9#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zngbkqt#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/a242beea-72ea-4456-be7c-6a949b81b340#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Cyflyrau mater"@cy-gb , "States of matter"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/c46d124f-6906-45bb-9f68-f1ff84c89b9e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/88954f20-2965-4a80-b091-c15d0b1cf9b0#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zhnnb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/a31a3bad-acac-4b1b-acb8-7833337f2e9b#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/985157ce-1bb5-4041-888d-f3b044e4caf3#id> , <http://www.bbc.co.uk/things/bf539a61-7b39-49b6-b7f0-b06e568f1108#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zvk9q6f#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/efaa4ec7-18ce-4c71-82c8-7426b15e8572#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/3301ac0b-25e7-4876-96f9-1c20fff481ac#id> .
-
-<http://www.bbc.co.uk/things/9b10819e-91ba-41f2-91fc-f97bd9eb0d91#id>
-        a                  curric:Topic ;
-        rdfs:label         "Reactions"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zv94jxs#topic> .
-
-<http://www.bbc.co.uk/things/902d6378-442a-49ac-afe6-f6acce6e890a#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Materials"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/a8c689d4-7588-40c6-8d62-d6ebedb0fba7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z2j7hyc#topic-of-study> .
-
-<http://www.bbc.co.uk/things/aa4cb701-195b-422b-b7ed-bcc0368405ff#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Fuels and hydrocarbons"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0a2f6649-4725-4f9c-8299-8031da16081e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z2snb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/6b0beea1-b87d-46ec-9a68-b411824c0a49#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/756634a1-ad05-4acd-af92-a3fbfc3998fb#id> .
-
-<http://www.bbc.co.uk/things/fe38eed2-dd62-4407-a6ab-b41e8cdd9f22#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Metals"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f69857d1-b609-4070-b9d1-9a5ee5eb471a#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zwt6fg8#topic-of-study> .
-
-<http://www.bbc.co.uk/things/95a84c35-a9b7-4de9-8be0-15da11b83308#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/fe38eed2-dd62-4407-a6ab-b41e8cdd9f22#id> .
-
-<http://www.bbc.co.uk/things/01399be0-6414-4342-84b0-04e30ed2447a#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Materials"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/a8c689d4-7588-40c6-8d62-d6ebedb0fba7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zgvbkqt#topic-of-study> .
-
-<http://www.bbc.co.uk/things/4b8e466b-c7d6-4823-9c8a-4ec890e9035b#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/cefd6177-35d6-43f1-ace4-0bc25c7a49f2#id> .
-
-<http://www.bbc.co.uk/things/628bf10b-716d-47d7-a367-859e558c9d85#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/870b765f-7c59-4a03-b1e6-c4c9d5a108fd#id> .
-
-<http://www.bbc.co.uk/things/9a729eb9-cf0a-494c-ad68-02c685889dc8#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/664eb60f-5a97-464b-8d98-e6049d7f8ea0#id> , <http://www.bbc.co.uk/things/5fd9b9b8-f5ee-4433-9b9e-1f53b92f09e7#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zbdqxnb#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/68af1a9d-d3d1-4bc7-be9e-647bad3c7883#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/b455ad15-f485-4fab-a4e1-56a93f00bdc4#id> .
-
-<http://www.bbc.co.uk/things/3b5c82bf-80b4-46ef-8ae0-a4de2505ec4d#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/7d4511fa-6991-47a7-b264-6a56df3fedee#id> , <http://www.bbc.co.uk/things/7f4cc671-c2da-4b42-a5c8-328d9cdcb958#id> , <http://www.bbc.co.uk/things/eb6bc48d-5e11-4775-8629-3f6db04dbf24#id> , <http://www.bbc.co.uk/things/95a84c35-a9b7-4de9-8be0-15da11b83308#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zkm2pv4#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/fd9a9ba6-a890-4a43-8cf8-9218cb39c4fb#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/703bdbb4-742c-4cac-9d9b-b34c1dc84cb3#id> .
-
-<http://www.bbc.co.uk/things/703bdbb4-742c-4cac-9d9b-b34c1dc84cb3#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Materials"@en-gb , "Deunyddiau"@cy-gb ;
-        curric:about           <http://www.bbc.co.uk/things/a8c689d4-7588-40c6-8d62-d6ebedb0fba7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/88954f20-2965-4a80-b091-c15d0b1cf9b0#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zm66fg8#topic-of-study> .
-
-<http://www.bbc.co.uk/things/a8c689d4-7588-40c6-8d62-d6ebedb0fba7#id>
-        a                  curric:Topic ;
-        rdfs:label         "Materials"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/ac81a521-8d48-4e35-bb67-727fcf914220#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zy8tsbk#topic> .
-
-<http://www.bbc.co.uk/things/67d719b1-788d-4f15-8dc1-8450e374225b#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Metals"@en-gb , "Metelau"@cy-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f69857d1-b609-4070-b9d1-9a5ee5eb471a#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/88954f20-2965-4a80-b091-c15d0b1cf9b0#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zxttyrd#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c8360e45-0f52-4fc0-9151-e40aae001ce2#id>
-        a                  curric:Topic ;
-        rdfs:label         "Reactions and energy"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z26tyrd#topic> .
-
-<http://www.bbc.co.uk/things/f1f9b4be-739b-4cbb-8dbc-0d18457089f2#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/51103309-3010-4ce3-8a16-bf51dc7d3a55#id> .
-
-<http://www.bbc.co.uk/things/1ef80909-0fe6-4008-846f-c94a3224b634#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/30a1ddb4-3a52-45a8-9837-3d3cca0cb9fe#id> .
-
-<http://www.bbc.co.uk/things/bd2feab4-f9b1-4284-8bd3-7238aa25d1d5#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Chemical reactions and tests"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/ab1f2922-1437-44a6-8a72-f4f52debe445#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zypsgk7#topic-of-study> .
-
-<http://www.bbc.co.uk/things/58de9b73-b36c-4ae3-8dfd-8a946c1e6838#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/95930729-dfac-4d89-b7ef-65d107d9f966#id> .
-
-<http://www.bbc.co.uk/things/d0b7b6f6-7024-4709-82d8-a7efbb673f25#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/b5a04e40-efca-4805-b987-e974e3f559bb#id> .
-
-<http://www.bbc.co.uk/things/c6f514d8-d0fc-4d43-98d0-023cd18b30c2#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/607f34fb-5686-4b7f-a0fa-8b083a783738#id> .
-
-<http://www.bbc.co.uk/things/8b9a5c82-c412-46a7-a563-cd58557c0978#id>
-        a                  curric:Topic ;
-        rdfs:label         "Oxidation and reduction"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z7x6fg8#topic> .
-
-<http://www.bbc.co.uk/things/1ee9bab9-9ff8-4548-9e03-50993259c71b#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/ff991d11-97ac-4cf2-9884-de379e2854f9#id> .
-
-<http://www.bbc.co.uk/things/db7ab061-be81-4c95-a3e6-38598320c4b9#id>
-        a           curric:Topic ;
-        rdfs:label  "Quantitative chemistry"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zq94jxs#topic> .
-
-<http://www.bbc.co.uk/things/42808da6-01f7-4668-b697-fd1923269247#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Nuclear chemistry"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/d959436e-aee4-42ae-aadb-a48e2ab74cfd#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zjhtyrd#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c7deff89-6e6f-49ff-9e06-75a0e6a23710#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/60d02e17-6e37-474c-a950-1b4ca73bf1a6#id> .
-
-<http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id>
-        a           curric:Topic ;
-        rdfs:label  "Chemistry in society"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z3k9q6f#topic> .
-
-<http://www.bbc.co.uk/things/2b28dbab-2e07-4d1c-a418-6d82c71e4831#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Organic chemistry"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/75ff3de2-7efd-4f87-948f-211a4a5f719d#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zcbrd2p#topic-of-study> .
-
-<http://www.bbc.co.uk/things/7b3520a9-b1ae-4990-ae1b-4a906356c7a9#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/0d42ce0d-8d24-40d7-8d6c-f5bd1dd89056#id> .
-
-<http://www.bbc.co.uk/things/27ad9477-4fe9-422e-b69a-27f5fad07d80#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Chemical changes and structures"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/6be24f59-3315-4711-88db-0007c76c5a58#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6yfr82#topic-of-study> .
-
-<http://www.bbc.co.uk/things/02a80d9a-0802-4805-afda-cd79800bf1b9#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/58de9b73-b36c-4ae3-8dfd-8a946c1e6838#id> , <http://www.bbc.co.uk/things/d0b7b6f6-7024-4709-82d8-a7efbb673f25#id> , <http://www.bbc.co.uk/things/d4718721-2e20-42b3-84bb-dc49789fdde8#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zjmtsbk#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/d4718721-2e20-42b3-84bb-dc49789fdde8#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/080e76e5-103b-498e-9f6f-04ea3aacef94#id> .
-
-<http://www.bbc.co.uk/things/509f4b4d-ab1e-4f89-a529-0a47297bb1cf#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Earth and the environment"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9023002c-4ef0-48e2-8c6a-bace6ca9577f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zqdj6sg#topic-of-study> .
-
-<http://www.bbc.co.uk/things/81a82280-59e9-4ca5-90c2-23d4827b5345#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Organic chemistry"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/75ff3de2-7efd-4f87-948f-211a4a5f719d#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zx7mn39#topic-of-study> .
-
-<http://www.bbc.co.uk/things/0a2f6649-4725-4f9c-8299-8031da16081e#id>
-        a                  curric:Topic ;
-        rdfs:label         "Fuels and hydrocarbons"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/90a3db27-29e7-450a-b9e8-627443621590#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z4qj6sg#topic> .
-
-<http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/5eb1e3e0-a2af-451f-9e5e-c4e8821f36d0#id> .
-
-<http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/3f2e25fe-5e38-43e6-9692-d9e955dc301a#id> .
-
-<http://www.bbc.co.uk/things/71781ac6-756d-4c96-97be-4527cee58e6f#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Metals"@en-gb , "Metelau"@cy-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f69857d1-b609-4070-b9d1-9a5ee5eb471a#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a04944d-5483-48de-b9c8-b95a99233179#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zbccwmn#topic-of-study> .
-
-<http://www.bbc.co.uk/things/38e6b090-0b92-43c9-8315-6ed0e9c4f803#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Solids, liquids and gases"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/c46d124f-6906-45bb-9f68-f1ff84c89b9e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/ztm6fg8#topic-of-study> .
-
-<http://www.bbc.co.uk/things/30cb36b6-9563-4830-858a-c31411c61ab4#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Energy"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/690511b3-3c22-424a-b582-c8cb69fc5d5e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7wqtfr#topic-of-study> .
-
-<http://www.bbc.co.uk/things/8afe471f-63c1-4f58-bc6f-bf8f0f0028e7#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/89374620-46ab-4269-9700-486ee38426cf#id> .
-
-<http://www.bbc.co.uk/things/5cb35f08-eb4e-4d72-896f-49b50554de82#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Adweithiau cemegol"@cy-gb , "Chemical reactions"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/3a1a0753-6f9b-4a32-a8c5-dd264fc122dd#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/88954f20-2965-4a80-b091-c15d0b1cf9b0#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zj77hyc#topic-of-study> .
-
-<http://www.bbc.co.uk/things/ab1f2922-1437-44a6-8a72-f4f52debe445#id>
-        a           curric:Topic ;
-        rdfs:label  "Chemical reactions and tests"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z3sycdm#topic> .
-
-<http://www.bbc.co.uk/things/5acfa3bd-f5dc-4be1-85bb-51e9d311165b#id>
-        a          olo:Slot ;
-        olo:index  11 ;
-        olo:item   <http://www.bbc.co.uk/things/a242beea-72ea-4456-be7c-6a949b81b340#id> .
-
-<http://www.bbc.co.uk/things/9f3ffb7a-fcf0-488e-b510-5b975ebb6b37#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Chemical changes and structures"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/ee97c939-3566-4309-9e03-0f92e3f2cd18#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zgwdmp3#topic-of-study> .
-
-<http://www.bbc.co.uk/things/65c1e949-518d-4925-a146-a4d9e22375bb#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/99e7fe2e-e463-4535-a818-aa5e047b2a17#id> .
-
-<http://www.bbc.co.uk/things/232c75d2-6f0a-4ea2-85e1-f4805b77b406#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Crude oil and fuels"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/33e3ab59-74f6-4367-a6be-ddd0c7c8ca77#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zvsycdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/9023002c-4ef0-48e2-8c6a-bace6ca9577f#id>
-        a           curric:Topic ;
-        rdfs:label  "Earth and the environment"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zwcrd2p#topic> .
-
-<http://www.bbc.co.uk/things/65cdad7e-2693-4ef3-8cf4-5daab14c48b7#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/27ad9477-4fe9-422e-b69a-27f5fad07d80#id> .
-
-<http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/2ab8a201-d748-4f0e-b7f4-8b2a1f98423d#id> .
-
-<http://www.bbc.co.uk/things/1e3cd120-4783-42c0-b0a9-1243379a5543#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Consumer products"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/2d5a1132-6635-402e-a6aa-ac75c0a706ba#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7np34j#topic-of-study> .
-
-<http://www.bbc.co.uk/things/4dc063ab-68cb-41d6-95d6-27ed9755a717#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/3d8199cb-679c-49c9-9434-f5d491799816#id> .
-
-<http://www.bbc.co.uk/things/080e76e5-103b-498e-9f6f-04ea3aacef94#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Chemistry in society"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9718b670-6448-43ca-9759-8ee12d5a4f97#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/7d57dd70-45d5-41fd-85a8-9b185e04ac46#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zpfycdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/bc37ae04-6aa8-4ae8-9aef-bd94f28c6389#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/54120647-6946-4068-8f7f-3b537a5af92b#id> .
-
-<http://www.bbc.co.uk/things/22952a9a-0801-4426-ab2a-076b4b660655#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/232c75d2-6f0a-4ea2-85e1-f4805b77b406#id> .
-
-<http://www.bbc.co.uk/things/7d4511fa-6991-47a7-b264-6a56df3fedee#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/42808da6-01f7-4668-b697-fd1923269247#id> .
-
-<http://www.bbc.co.uk/things/bf7c2ce2-11ae-4231-b906-85e75a449d23#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/9ba93437-06bc-4b96-b1ed-a1906fd645c6#id> .
-
-<http://www.bbc.co.uk/things/2eec00dc-8e7f-431a-b667-d613c27182da#id>
-        a           curric:Topic ;
-        rdfs:label  "Chemical industry"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zkb39j6#topic> .
-
-<http://www.bbc.co.uk/things/473066c5-5bd6-4e8b-b8b9-a78a585cf96f#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Metals"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f69857d1-b609-4070-b9d1-9a5ee5eb471a#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zr3g87h#topic-of-study> .
-
-<http://www.bbc.co.uk/things/e45dd731-5a04-4ac1-b651-c249aed7d62c#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/30cb36b6-9563-4830-858a-c31411c61ab4#id> .
-
-<http://www.bbc.co.uk/things/3e0244a6-2b11-496e-8b97-5df229791811#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/cbf35e36-8421-4749-8f94-c320298e4fb0#id> .
-
-<http://www.bbc.co.uk/things/eb6bc48d-5e11-4775-8629-3f6db04dbf24#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/b360f2ed-a082-4fb0-b245-1a1f23194360#id> .
-
-<http://www.bbc.co.uk/things/ff991d11-97ac-4cf2-9884-de379e2854f9#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Reactions"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9b10819e-91ba-41f2-91fc-f97bd9eb0d91#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z927hyc#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b8b42ba2-ca18-40c9-afd4-00e548730cf1#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/21a6800f-a4d0-451c-b1ff-b96c643e2f4d#id> .
-
-<http://www.bbc.co.uk/things/d2cfd009-9f48-4484-87a4-311ed0767b63#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/aa4cb701-195b-422b-b7ed-bcc0368405ff#id> .
-
-<http://www.bbc.co.uk/things/e5f9a5f6-6cae-4025-a41b-4846bb2e540d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Adweithiau cemegol"@cy-gb , "Chemical reactions"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/3a1a0753-6f9b-4a32-a8c5-dd264fc122dd#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a04944d-5483-48de-b9c8-b95a99233179#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zsyycdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id>
-        a           curric:Topic ;
-        rdfs:label  "Chemical changes and structures"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zsgbkqt#topic> .
-
-<http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/fe81e638-f6b4-4df6-93ec-9f6b2a56446b#id> .
-
-<http://www.bbc.co.uk/things/a243fe83-3d31-41a1-9323-74ea9f0f6042#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/e6c44e20-03bd-472b-bd10-85412855cc01#id> .
-
-<http://www.bbc.co.uk/things/76fc6b43-e699-4acf-9ea1-0a0ff06e535c#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/4fcc698d-0ef2-4d45-869f-9d3a7c49c416#id> .
-
-<http://www.bbc.co.uk/things/db58a05c-48cf-49c9-a217-a07bacf4c64d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Nature's chemistry"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/90a3db27-29e7-450a-b9e8-627443621590#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/a31a3bad-acac-4b1b-acb8-7833337f2e9b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zvk9q6f#topic-of-study> .
-
-<http://www.bbc.co.uk/things/4020f15c-3081-44c0-a14d-970f2f66298c#id>
-        a                  curric:Topic ;
-        rdfs:label         "Analysis"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zqmxsbk#topic> .
-
-<http://www.bbc.co.uk/things/3f2e25fe-5e38-43e6-9692-d9e955dc301a#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/7570a267-5db1-40e8-9103-9179e5f23678#id> , <http://www.bbc.co.uk/things/7d504d67-4813-4263-8dd8-0e6f9771f392#id> , <http://www.bbc.co.uk/things/13c8cdda-176e-4d53-b9ad-a57f0922cf47#id> , <http://www.bbc.co.uk/things/e4facd31-f058-4ceb-8b2a-9ed2910cb0f4#id> , <http://www.bbc.co.uk/things/0853cc04-ca46-4e5a-9cd2-542b3fd7f59d#id> , <http://www.bbc.co.uk/things/628bf10b-716d-47d7-a367-859e558c9d85#id> , <http://www.bbc.co.uk/things/b8b42ba2-ca18-40c9-afd4-00e548730cf1#id> , <http://www.bbc.co.uk/things/c7deff89-6e6f-49ff-9e06-75a0e6a23710#id> , <http://www.bbc.co.uk/things/e45dd731-5a04-4ac1-b651-c249aed7d62c#id> , <http://www.bbc.co.uk/things/af5c03fd-287c-4128-b0a0-afae78057203#id> , <http://www.bbc.co.uk/things/1e642ff0-9912-46b9-8afb-d95873dfa36a#id> , <http://www.bbc.co.uk/things/4dc063ab-68cb-41d6-95d6-27ed9755a717#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zs6hvcw#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/985157ce-1bb5-4041-888d-f3b044e4caf3#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/bf321f67-d978-4919-aa52-870b09e97988#id> .
-
-<http://www.bbc.co.uk/things/cbf35e36-8421-4749-8f94-c320298e4fb0#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Atoms, elements and compounds"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/41688c15-f4d4-45b8-af0e-7c529678afeb#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zh3v4wx#topic-of-study> .
-
-<http://www.bbc.co.uk/things/1f3c7dbf-b0cd-4acf-99ee-2094d8bfd2bf#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Energy"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/690511b3-3c22-424a-b582-c8cb69fc5d5e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zby39j6#topic-of-study> .
-
-<http://www.bbc.co.uk/things/9718b670-6448-43ca-9759-8ee12d5a4f97#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/02a80d9a-0802-4805-afda-cd79800bf1b9#id> .
-
-<http://www.bbc.co.uk/things/88954f20-2965-4a80-b091-c15d0b1cf9b0#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/3b928080-fed1-4eb6-a407-ec372d484ebf#id> .
-
-<http://www.bbc.co.uk/things/156d6c0e-0d95-4541-b7d5-5e512c52e043#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Fertilisers"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/309c0722-fd01-42fa-88cf-d25aa71f3a48#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z8xmn39#topic-of-study> .
-
-<http://www.bbc.co.uk/things/db4e95ac-143e-4dbb-a757-3ab0210f6335#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/7af090ed-0eb0-4e51-8d77-a25e2ffd51da#id> , <http://www.bbc.co.uk/things/d2cfd009-9f48-4484-87a4-311ed0767b63#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zqphvcw#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/3d8199cb-679c-49c9-9434-f5d491799816#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Metals"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f69857d1-b609-4070-b9d1-9a5ee5eb471a#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zmq2pv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/870b765f-7c59-4a03-b1e6-c4c9d5a108fd#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Atomic structure"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/cf5370bf-1484-4b80-a5b3-3db60145f217#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z84k7ty#topic-of-study> .
-
-<http://www.bbc.co.uk/things/bf321f67-d978-4919-aa52-870b09e97988#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Fuels and hydrocarbons"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0a2f6649-4725-4f9c-8299-8031da16081e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zbd82hv#topic-of-study> .
-
-<http://www.bbc.co.uk/things/33e3ab59-74f6-4367-a6be-ddd0c7c8ca77#id>
-        a           curric:Topic ;
-        rdfs:label  "Crude oil and fuels"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zdrg87h#topic> .
-
-<http://www.bbc.co.uk/things/95930729-dfac-4d89-b7ef-65d107d9f966#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Nature's chemistry"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/90a3db27-29e7-450a-b9e8-627443621590#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9718b670-6448-43ca-9759-8ee12d5a4f97#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/93194603-97e7-475d-ab30-532dfa48966f#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zybg87h#topic-of-study> .
-
-<http://www.bbc.co.uk/things/e6c44e20-03bd-472b-bd10-85412855cc01#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Atoms, elements and compounds"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/41688c15-f4d4-45b8-af0e-7c529678afeb#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zcqj6sg#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b455ad15-f485-4fab-a4e1-56a93f00bdc4#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Fertilisers"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/309c0722-fd01-42fa-88cf-d25aa71f3a48#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zsrg87h#topic-of-study> .
-
-<http://www.bbc.co.uk/things/7d504d67-4813-4263-8dd8-0e6f9771f392#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/4be060a9-4a82-4334-9b51-753a4b3a957d#id> .
-
-<http://www.bbc.co.uk/things/6d78776e-120f-4940-831f-df4f1b16f247#id>
-        a                  curric:Topic ;
-        rdfs:label         "Acids, bases and pH"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zfrg87h#topic> .
-
-<http://www.bbc.co.uk/things/21a6800f-a4d0-451c-b1ff-b96c643e2f4d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Chemical reactions and tests"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/ab1f2922-1437-44a6-8a72-f4f52debe445#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zwkdmp3#topic-of-study> .
-
-<http://www.bbc.co.uk/things/cefd6177-35d6-43f1-ace4-0bc25c7a49f2#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Reactions"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9b10819e-91ba-41f2-91fc-f97bd9eb0d91#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zpb39j6#topic-of-study> .
-
-<http://www.bbc.co.uk/things/93194603-97e7-475d-ab30-532dfa48966f#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/65c1e949-518d-4925-a146-a4d9e22375bb#id> , <http://www.bbc.co.uk/things/7dc7c98e-8fb6-4be3-9896-721f5b105731#id> , <http://www.bbc.co.uk/things/76fc6b43-e699-4acf-9ea1-0a0ff06e535c#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zybg87h#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/1c1d7d02-db52-4dd4-902c-4424161efcce#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/45b1706a-51ea-49fc-9308-a2380d674990#id> .
-
-<http://www.bbc.co.uk/things/ade696e6-bb6c-4272-ac5b-0a624ed89cee#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/a1bc2703-3e50-403c-84a2-bceac2cf7999#id> .
-
-<http://www.bbc.co.uk/things/d959436e-aee4-42ae-aadb-a48e2ab74cfd#id>
-        a                  curric:Topic ;
-        rdfs:label         "Nuclear chemistry"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zk27hyc#topic> .
-
-<http://www.bbc.co.uk/things/75ff3de2-7efd-4f87-948f-211a4a5f719d#id>
-        a           curric:Topic ;
-        rdfs:label  "Organic chemistry"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zj4cwmn#topic> .
-
-<http://www.bbc.co.uk/things/2c020b95-b5d6-4a21-8aef-d47b44f1a7c2#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Quantitative chemistry"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/db7ab061-be81-4c95-a3e6-38598320c4b9#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z62xsbk#topic-of-study> .
-
-<http://www.bbc.co.uk/things/a8b5c44a-40c8-4433-abe1-a5b70bfc669d#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/395c54e5-b932-4e22-8a47-185494d99c1b#id> .
-
-<http://www.bbc.co.uk/things/1b326355-e505-4e34-9a9d-74fe63c78352#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/9f3ffb7a-fcf0-488e-b510-5b975ebb6b37#id> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/09e02049-1214-4d15-bd9d-926e9a67942d#id> a provenance:Dataset ;
+    rdfs:label "Topics, Topics of Study and Topic of Study Lists of chemistry" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version 23 .
+
+<http://www.bbc.co.uk/things/0a2f6649-4725-4f9c-8299-8031da16081e#id> a curric:Topic ;
+    rdfs:label "Fuels and hydrocarbons"@en-gb ;
+    core:preferredLabel "Fuels and hydrocarbons"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/90a3db27-29e7-450a-b9e8-627443621590#id> ;
+    = <http://www.bbc.co.uk/education/topics/z4qj6sg#topic> .
+
+<http://www.bbc.co.uk/things/1a04944d-5483-48de-b9c8-b95a99233179#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/9a729eb9-cf0a-494c-ad68-02c685889dc8#id> .
+
+<http://www.bbc.co.uk/things/1a373594-80e6-4e42-88e7-3438d42b2663#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/2ab8a201-d748-4f0e-b7f4-8b2a1f98423d#id> .
+
+<http://www.bbc.co.uk/things/2d5a1132-6635-402e-a6aa-ac75c0a706ba#id> a curric:Topic ;
+    rdfs:label "Consumer products"@en-gb ;
+    core:preferredLabel "Consumer products"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/90a3db27-29e7-450a-b9e8-627443621590#id> ;
+    = <http://www.bbc.co.uk/education/topics/zcjwxnb#topic> .
+
+<http://www.bbc.co.uk/things/309c0722-fd01-42fa-88cf-d25aa71f3a48#id> a curric:Topic ;
+    rdfs:label "Fertilisers"@en-gb ;
+    core:preferredLabel "Fertilisers"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
+    = <http://www.bbc.co.uk/education/topics/zb8k7ty#topic> .
+
+<http://www.bbc.co.uk/things/4020f15c-3081-44c0-a14d-970f2f66298c#id> a curric:Topic ;
+    rdfs:label "Analysis"@en-gb ;
+    core:preferredLabel "Analysis"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
+    = <http://www.bbc.co.uk/education/topics/zqmxsbk#topic> .
+
+<http://www.bbc.co.uk/things/41688c15-f4d4-45b8-af0e-7c529678afeb#id> a curric:Topic ;
+    rdfs:label "Atoms, elements and compounds"@en-gb ;
+    core:preferredLabel "Atoms, elements and compounds"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
+    = <http://www.bbc.co.uk/education/topics/zycrd2p#topic> .
+
+<http://www.bbc.co.uk/things/6d78776e-120f-4940-831f-df4f1b16f247#id> a curric:Topic ;
+    rdfs:label "Acids, bases and pH"@en-gb ;
+    core:preferredLabel "Acids, bases and pH"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
+    = <http://www.bbc.co.uk/education/topics/zfrg87h#topic> .
+
+<http://www.bbc.co.uk/things/854aecb0-95a5-42b1-ad83-9bc23b949cf7#id> a curric:Topic ;
+    rdfs:label "Mass, volume and concentration"@en-gb ;
+    core:preferredLabel "Mass, volume and concentration"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
+    = <http://www.bbc.co.uk/education/topics/z97qtfr#topic> .
+
+<http://www.bbc.co.uk/things/8b9a5c82-c412-46a7-a563-cd58557c0978#id> a curric:Topic ;
+    rdfs:label "Oxidation and reduction"@en-gb ;
+    core:preferredLabel "Oxidation and reduction"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
+    = <http://www.bbc.co.uk/education/topics/z7x6fg8#topic> .
+
+<http://www.bbc.co.uk/things/9b10819e-91ba-41f2-91fc-f97bd9eb0d91#id> a curric:Topic ;
+    rdfs:label "Reactions"@en-gb ;
+    core:preferredLabel "Reactions"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
+    = <http://www.bbc.co.uk/education/topics/zv94jxs#topic> .
+
+<http://www.bbc.co.uk/things/c035f49a-f4f9-41c8-959e-7e8c41410553#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/5eb1e3e0-a2af-451f-9e5e-c4e8821f36d0#id> .
+
+<http://www.bbc.co.uk/things/c8360e45-0f52-4fc0-9151-e40aae001ce2#id> a curric:Topic ;
+    rdfs:label "Reactions and energy"@en-gb ;
+    core:preferredLabel "Reactions and energy"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
+    = <http://www.bbc.co.uk/education/topics/z26tyrd#topic> .
+
+<http://www.bbc.co.uk/things/d959436e-aee4-42ae-aadb-a48e2ab74cfd#id> a curric:Topic ;
+    rdfs:label "Nuclear chemistry"@en-gb ;
+    core:preferredLabel "Nuclear chemistry"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
+    = <http://www.bbc.co.uk/education/topics/zk27hyc#topic> .
+
+<http://www.bbc.co.uk/things/01399be0-6414-4342-84b0-04e30ed2447a#id> a curric:TopicOfStudy ;
+    rdfs:label "Materials"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Materials"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/a8c689d4-7588-40c6-8d62-d6ebedb0fba7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgvbkqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/02a80d9a-0802-4805-afda-cd79800bf1b9#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/58de9b73-b36c-4ae3-8dfd-8a946c1e6838#id>,
+        <http://www.bbc.co.uk/things/d0b7b6f6-7024-4709-82d8-a7efbb673f25#id>,
+        <http://www.bbc.co.uk/things/d4718721-2e20-42b3-84bb-dc49789fdde8#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zjmtsbk#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/080e76e5-103b-498e-9f6f-04ea3aacef94#id> a curric:TopicOfStudy ;
+    rdfs:label "Chemistry in society"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Chemistry in society"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9718b670-6448-43ca-9759-8ee12d5a4f97#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/7d57dd70-45d5-41fd-85a8-9b185e04ac46#id> ;
+    = <http://www.bbc.co.uk/education/topics/zpfycdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0853cc04-ca46-4e5a-9cd2-542b3fd7f59d#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/4db1db7e-cd35-4c95-871e-72f78fcbd438#id> .
+
+<http://www.bbc.co.uk/things/096b281f-00bb-4c49-be15-660c4c6644c1#id> a curric:TopicOfStudy ;
+    rdfs:label "States of matter"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Chemistry curriculum"@en-gb ;
+    core:preferredLabel "States of matter"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c46d124f-6906-45bb-9f68-f1ff84c89b9e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9r4jxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/13c8cdda-176e-4d53-b9ad-a57f0922cf47#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/2c020b95-b5d6-4a21-8aef-d47b44f1a7c2#id> .
+
+<http://www.bbc.co.uk/things/1848320e-ff5f-429e-bbbe-bca71948742a#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/1f3c7dbf-b0cd-4acf-99ee-2094d8bfd2bf#id> .
+
+<http://www.bbc.co.uk/things/19468b77-4344-4178-9ab4-fbd93ba6945d#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/2b28dbab-2e07-4d1c-a418-6d82c71e4831#id> .
+
+<http://www.bbc.co.uk/things/1c1d7d02-db52-4dd4-902c-4424161efcce#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/45b1706a-51ea-49fc-9308-a2380d674990#id> .
+
+<http://www.bbc.co.uk/things/1e642ff0-9912-46b9-8afb-d95873dfa36a#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/81a82280-59e9-4ca5-90c2-23d4827b5345#id> .
+
+<http://www.bbc.co.uk/things/1f3c7dbf-b0cd-4acf-99ee-2094d8bfd2bf#id> a curric:TopicOfStudy ;
+    rdfs:label "Energy"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Energy"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/690511b3-3c22-424a-b582-c8cb69fc5d5e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zby39j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/21a6800f-a4d0-451c-b1ff-b96c643e2f4d#id> a curric:TopicOfStudy ;
+    rdfs:label "Chemical reactions and tests"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Chemical reactions and tests"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ab1f2922-1437-44a6-8a72-f4f52debe445#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwkdmp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/22952a9a-0801-4426-ab2a-076b4b660655#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/232c75d2-6f0a-4ea2-85e1-f4805b77b406#id> .
+
+<http://www.bbc.co.uk/things/232c75d2-6f0a-4ea2-85e1-f4805b77b406#id> a curric:TopicOfStudy ;
+    rdfs:label "Crude oil and fuels"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Crude oil and fuels"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/33e3ab59-74f6-4367-a6be-ddd0c7c8ca77#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zvsycdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2a76b889-5d31-426c-aec6-cc469c988b05#id> a curric:TopicOfStudy ;
+    rdfs:label "Atoms, elements and the periodic table"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Atoms, elements and the periodic table"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cf5370bf-1484-4b80-a5b3-3db60145f217#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zstp34j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2ab8a201-d748-4f0e-b7f4-8b2a1f98423d#id> a curric:TopicOfStudyList ;
+    = <http://www.bbc.co.uk/education/subjects/zmnp34j#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/2b28dbab-2e07-4d1c-a418-6d82c71e4831#id> a curric:TopicOfStudy ;
+    rdfs:label "Organic chemistry"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Organic chemistry"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/75ff3de2-7efd-4f87-948f-211a4a5f719d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zcbrd2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2c020b95-b5d6-4a21-8aef-d47b44f1a7c2#id> a curric:TopicOfStudy ;
+    rdfs:label "Quantitative chemistry"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Quantitative chemistry"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/db7ab061-be81-4c95-a3e6-38598320c4b9#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z62xsbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/30cb36b6-9563-4830-858a-c31411c61ab4#id> a curric:TopicOfStudy ;
+    rdfs:label "Energy"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Energy"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/690511b3-3c22-424a-b582-c8cb69fc5d5e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z7wqtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3301ac0b-25e7-4876-96f9-1c20fff481ac#id> a curric:TopicOfStudy ;
+    rdfs:label "Earth and the environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Earth and the environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9023002c-4ef0-48e2-8c6a-bace6ca9577f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3fv4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/38e6b090-0b92-43c9-8315-6ed0e9c4f803#id> a curric:TopicOfStudy ;
+    rdfs:label "Solids, liquids and gases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Solids, liquids and gases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c46d124f-6906-45bb-9f68-f1ff84c89b9e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztm6fg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3a1a0753-6f9b-4a32-a8c5-dd264fc122dd#id> a curric:Topic ;
+    rdfs:label "Chemical reactions"@en-gb ;
+    core:preferredLabel "Chemical reactions"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8gbkqt#topic> .
+
+<http://www.bbc.co.uk/things/3b928080-fed1-4eb6-a407-ec372d484ebf#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/5acfa3bd-f5dc-4be1-85bb-51e9d311165b#id>,
+        <http://www.bbc.co.uk/things/acf073b7-e79c-4eb8-9d45-a5560e9115a8#id>,
+        <http://www.bbc.co.uk/things/eb703331-6318-4c96-8eb6-68b15a9f62df#id>,
+        <http://www.bbc.co.uk/things/fd9a9ba6-a890-4a43-8cf8-9218cb39c4fb#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z4vycdm#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/3d8199cb-679c-49c9-9434-f5d491799816#id> a curric:TopicOfStudy ;
+    rdfs:label "Metals"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Metals"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f69857d1-b609-4070-b9d1-9a5ee5eb471a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zmq2pv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3f2e25fe-5e38-43e6-9692-d9e955dc301a#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0853cc04-ca46-4e5a-9cd2-542b3fd7f59d#id>,
+        <http://www.bbc.co.uk/things/13c8cdda-176e-4d53-b9ad-a57f0922cf47#id>,
+        <http://www.bbc.co.uk/things/1e642ff0-9912-46b9-8afb-d95873dfa36a#id>,
+        <http://www.bbc.co.uk/things/4dc063ab-68cb-41d6-95d6-27ed9755a717#id>,
+        <http://www.bbc.co.uk/things/628bf10b-716d-47d7-a367-859e558c9d85#id>,
+        <http://www.bbc.co.uk/things/7570a267-5db1-40e8-9103-9179e5f23678#id>,
+        <http://www.bbc.co.uk/things/7d504d67-4813-4263-8dd8-0e6f9771f392#id>,
+        <http://www.bbc.co.uk/things/af5c03fd-287c-4128-b0a0-afae78057203#id>,
+        <http://www.bbc.co.uk/things/b8b42ba2-ca18-40c9-afd4-00e548730cf1#id>,
+        <http://www.bbc.co.uk/things/c7deff89-6e6f-49ff-9e06-75a0e6a23710#id>,
+        <http://www.bbc.co.uk/things/e45dd731-5a04-4ac1-b651-c249aed7d62c#id>,
+        <http://www.bbc.co.uk/things/e4facd31-f058-4ceb-8b2a-9ed2910cb0f4#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zs6hvcw#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/45b1706a-51ea-49fc-9308-a2380d674990#id> a curric:TopicOfStudy ;
+    rdfs:label "Acids, alkalis and salts"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Acids, alkalis and salts"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8fd6c423-88fb-400e-af5a-7b80ae7dedf3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zn6hvcw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/473066c5-5bd6-4e8b-b8b9-a78a585cf96f#id> a curric:TopicOfStudy ;
+    rdfs:label "Metals"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Metals"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f69857d1-b609-4070-b9d1-9a5ee5eb471a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zr3g87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4be060a9-4a82-4334-9b51-753a4b3a957d#id> a curric:TopicOfStudy ;
+    rdfs:label "Acids, alkalis and salts"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Acids, alkalis and salts"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8fd6c423-88fb-400e-af5a-7b80ae7dedf3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zkc9q6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4db1db7e-cd35-4c95-871e-72f78fcbd438#id> a curric:TopicOfStudy ;
+    rdfs:label "Chemical industry"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Chemical industry"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2eec00dc-8e7f-431a-b667-d613c27182da#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zd982hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4dc063ab-68cb-41d6-95d6-27ed9755a717#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/3d8199cb-679c-49c9-9434-f5d491799816#id> .
+
+<http://www.bbc.co.uk/things/509f4b4d-ab1e-4f89-a529-0a47297bb1cf#id> a curric:TopicOfStudy ;
+    rdfs:label "Earth and the environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Earth and the environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9023002c-4ef0-48e2-8c6a-bace6ca9577f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqdj6sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/58de9b73-b36c-4ae3-8dfd-8a946c1e6838#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/95930729-dfac-4d89-b7ef-65d107d9f966#id> .
+
+<http://www.bbc.co.uk/things/5acfa3bd-f5dc-4be1-85bb-51e9d311165b#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/a242beea-72ea-4456-be7c-6a949b81b340#id> .
+
+<http://www.bbc.co.uk/things/5cb35f08-eb4e-4d72-896f-49b50554de82#id> a curric:TopicOfStudy ;
+    rdfs:label "Adweithiau cemegol"@cy-gb,
+        "Chemical reactions"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CA3 Cemeg curriculum"@cy-gb ;
+    core:preferredLabel "Adweithiau cemegol"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/3a1a0753-6f9b-4a32-a8c5-dd264fc122dd#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/88954f20-2965-4a80-b091-c15d0b1cf9b0#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zj77hyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5eb1e3e0-a2af-451f-9e5e-c4e8821f36d0#id> a curric:TopicOfStudyList ;
+    = <http://www.bbc.co.uk/education/subjects/zhvycdm#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/60d02e17-6e37-474c-a950-1b4ca73bf1a6#id> a curric:TopicOfStudy ;
+    rdfs:label "Crude oil and fuels"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Crude oil and fuels"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/33e3ab59-74f6-4367-a6be-ddd0c7c8ca77#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zj8wxnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/628bf10b-716d-47d7-a367-859e558c9d85#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/870b765f-7c59-4a03-b1e6-c4c9d5a108fd#id> .
+
+<http://www.bbc.co.uk/things/63d202eb-f2c0-461f-80a4-5f1ab0446b38#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/096b281f-00bb-4c49-be15-660c4c6644c1#id> .
+
+<http://www.bbc.co.uk/things/65c1e949-518d-4925-a146-a4d9e22375bb#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/99e7fe2e-e463-4535-a818-aa5e047b2a17#id> .
+
+<http://www.bbc.co.uk/things/67d719b1-788d-4f15-8dc1-8450e374225b#id> a curric:TopicOfStudy ;
+    rdfs:label "Metelau"@cy-gb,
+        "Metals"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CA3 Cemeg curriculum"@cy-gb ;
+    core:preferredLabel "Metelau"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/f69857d1-b609-4070-b9d1-9a5ee5eb471a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/88954f20-2965-4a80-b091-c15d0b1cf9b0#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxttyrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6b0beea1-b87d-46ec-9a68-b411824c0a49#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/756634a1-ad05-4acd-af92-a3fbfc3998fb#id> .
+
+<http://www.bbc.co.uk/things/703bdbb4-742c-4cac-9d9b-b34c1dc84cb3#id> a curric:TopicOfStudy ;
+    rdfs:label "Deunyddiau"@cy-gb,
+        "Materials"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CA3 Cemeg curriculum"@cy-gb ;
+    core:preferredLabel "Deunyddiau"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/a8c689d4-7588-40c6-8d62-d6ebedb0fba7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/88954f20-2965-4a80-b091-c15d0b1cf9b0#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zm66fg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7570a267-5db1-40e8-9103-9179e5f23678#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/38e6b090-0b92-43c9-8315-6ed0e9c4f803#id> .
+
+<http://www.bbc.co.uk/things/76fc6b43-e699-4acf-9ea1-0a0ff06e535c#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/4fcc698d-0ef2-4d45-869f-9d3a7c49c416#id> .
+
+<http://www.bbc.co.uk/things/7d504d67-4813-4263-8dd8-0e6f9771f392#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/4be060a9-4a82-4334-9b51-753a4b3a957d#id> .
+
+<http://www.bbc.co.uk/things/7d57dd70-45d5-41fd-85a8-9b185e04ac46#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/6b0beea1-b87d-46ec-9a68-b411824c0a49#id>,
+        <http://www.bbc.co.uk/things/9ee189bb-a0a6-4a7e-9640-0f09a8b6108b#id>,
+        <http://www.bbc.co.uk/things/f1f9b4be-739b-4cbb-8dbc-0d18457089f2#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zpfycdm#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/7dc7c98e-8fb6-4be3-9896-721f5b105731#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/26bc86a3-94a1-4dcd-8d0d-14575e59e61f#id> .
+
+<http://www.bbc.co.uk/things/81721b2b-b7d7-4971-9950-bea724436498#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/0996fdb8-a2ad-47e8-bc8f-9f90d13fee27#id> .
+
+<http://www.bbc.co.uk/things/81a82280-59e9-4ca5-90c2-23d4827b5345#id> a curric:TopicOfStudy ;
+    rdfs:label "Organic chemistry"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Organic chemistry"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/75ff3de2-7efd-4f87-948f-211a4a5f719d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zx7mn39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/870b765f-7c59-4a03-b1e6-c4c9d5a108fd#id> a curric:TopicOfStudy ;
+    rdfs:label "Atomic structure"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Atomic structure"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cf5370bf-1484-4b80-a5b3-3db60145f217#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z84k7ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/902d6378-442a-49ac-afe6-f6acce6e890a#id> a curric:TopicOfStudy ;
+    rdfs:label "Materials"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Materials"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/a8c689d4-7588-40c6-8d62-d6ebedb0fba7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2j7hyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/92f15297-75e5-414a-a37c-748f5dc219f8#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/81721b2b-b7d7-4971-9950-bea724436498#id>,
+        <http://www.bbc.co.uk/things/bf7c2ce2-11ae-4231-b906-85e75a449d23#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z6pnb9q#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/93194603-97e7-475d-ab30-532dfa48966f#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/65c1e949-518d-4925-a146-a4d9e22375bb#id>,
+        <http://www.bbc.co.uk/things/76fc6b43-e699-4acf-9ea1-0a0ff06e535c#id>,
+        <http://www.bbc.co.uk/things/7dc7c98e-8fb6-4be3-9896-721f5b105731#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zybg87h#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/95930729-dfac-4d89-b7ef-65d107d9f966#id> a curric:TopicOfStudy ;
+    rdfs:label "Nature's chemistry"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Nature's chemistry"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/90a3db27-29e7-450a-b9e8-627443621590#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9718b670-6448-43ca-9759-8ee12d5a4f97#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/93194603-97e7-475d-ab30-532dfa48966f#id> ;
+    = <http://www.bbc.co.uk/education/topics/zybg87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9a729eb9-cf0a-494c-ad68-02c685889dc8#id> a curric:TopicOfStudyList ;
+    = <http://www.bbc.co.uk/education/subjects/zbdqxnb#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/9ee189bb-a0a6-4a7e-9640-0f09a8b6108b#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/61338cbf-2fda-407f-9f32-90c3c94b0257#id> .
+
+<http://www.bbc.co.uk/things/a1bc2703-3e50-403c-84a2-bceac2cf7999#id> a curric:TopicOfStudy ;
+    rdfs:label "Chemical industry"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Chemical industry"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2eec00dc-8e7f-431a-b667-d613c27182da#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zfhnb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a242beea-72ea-4456-be7c-6a949b81b340#id> a curric:TopicOfStudy ;
+    rdfs:label "Cyflyrau mater"@cy-gb,
+        "States of matter"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CA3 Cemeg curriculum"@cy-gb ;
+    core:preferredLabel "Cyflyrau mater"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/c46d124f-6906-45bb-9f68-f1ff84c89b9e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/88954f20-2965-4a80-b091-c15d0b1cf9b0#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zhnnb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a4e00f53-3c92-4c28-80d2-9c57a71f0ead#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/01399be0-6414-4342-84b0-04e30ed2447a#id> .
+
+<http://www.bbc.co.uk/things/a9fa1bc7-cc08-469f-a69d-f44b180884f4#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/2a76b889-5d31-426c-aec6-cc469c988b05#id> .
+
+<http://www.bbc.co.uk/things/acf073b7-e79c-4eb8-9d45-a5560e9115a8#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/67d719b1-788d-4f15-8dc1-8450e374225b#id> .
+
+<http://www.bbc.co.uk/things/ade696e6-bb6c-4272-ac5b-0a624ed89cee#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/a1bc2703-3e50-403c-84a2-bceac2cf7999#id> .
+
+<http://www.bbc.co.uk/things/af5c03fd-287c-4128-b0a0-afae78057203#id> a olo:Slot ;
+    olo:index 12 ;
+    olo:item <http://www.bbc.co.uk/things/902d6378-442a-49ac-afe6-f6acce6e890a#id> .
+
+<http://www.bbc.co.uk/things/b4b311b4-91c8-4bfe-b0a5-bb744bfb653b#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/bd2feab4-f9b1-4284-8bd3-7238aa25d1d5#id> .
+
+<http://www.bbc.co.uk/things/b5a04e40-efca-4805-b987-e974e3f559bb#id> a curric:TopicOfStudy ;
+    rdfs:label "Chemical changes and structures"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Chemical changes and structures"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9718b670-6448-43ca-9759-8ee12d5a4f97#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/92f15297-75e5-414a-a37c-748f5dc219f8#id> ;
+    = <http://www.bbc.co.uk/education/topics/z6pnb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b8b42ba2-ca18-40c9-afd4-00e548730cf1#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/21a6800f-a4d0-451c-b1ff-b96c643e2f4d#id> .
+
+<http://www.bbc.co.uk/things/bd2feab4-f9b1-4284-8bd3-7238aa25d1d5#id> a curric:TopicOfStudy ;
+    rdfs:label "Chemical reactions and tests"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Chemistry curriculum"@en-gb ;
+    core:preferredLabel "Chemical reactions and tests"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ab1f2922-1437-44a6-8a72-f4f52debe445#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zypsgk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bf7c2ce2-11ae-4231-b906-85e75a449d23#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/9ba93437-06bc-4b96-b1ed-a1906fd645c6#id> .
+
+<http://www.bbc.co.uk/things/c7deff89-6e6f-49ff-9e06-75a0e6a23710#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/60d02e17-6e37-474c-a950-1b4ca73bf1a6#id> .
+
+<http://www.bbc.co.uk/things/d0b7b6f6-7024-4709-82d8-a7efbb673f25#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/b5a04e40-efca-4805-b987-e974e3f559bb#id> .
+
+<http://www.bbc.co.uk/things/d4718721-2e20-42b3-84bb-dc49789fdde8#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/080e76e5-103b-498e-9f6f-04ea3aacef94#id> .
+
+<http://www.bbc.co.uk/things/db7ab061-be81-4c95-a3e6-38598320c4b9#id> a curric:Topic ;
+    rdfs:label "Quantitative chemistry"@en-gb ;
+    core:preferredLabel "Quantitative chemistry"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zq94jxs#topic> .
+
+<http://www.bbc.co.uk/things/e45dd731-5a04-4ac1-b651-c249aed7d62c#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/30cb36b6-9563-4830-858a-c31411c61ab4#id> .
+
+<http://www.bbc.co.uk/things/e4facd31-f058-4ceb-8b2a-9ed2910cb0f4#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/509f4b4d-ab1e-4f89-a529-0a47297bb1cf#id> .
+
+<http://www.bbc.co.uk/things/eb703331-6318-4c96-8eb6-68b15a9f62df#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/5cb35f08-eb4e-4d72-896f-49b50554de82#id> .
+
+<http://www.bbc.co.uk/things/efaa4ec7-18ce-4c71-82c8-7426b15e8572#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/3301ac0b-25e7-4876-96f9-1c20fff481ac#id> .
+
+<http://www.bbc.co.uk/things/f1f9b4be-739b-4cbb-8dbc-0d18457089f2#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/51103309-3010-4ce3-8a16-bf51dc7d3a55#id> .
+
+<http://www.bbc.co.uk/things/f74b1da8-cf41-4061-8f4b-eedc2789cc48#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/473066c5-5bd6-4e8b-b8b9-a78a585cf96f#id> .
+
+<http://www.bbc.co.uk/things/fd9a9ba6-a890-4a43-8cf8-9218cb39c4fb#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/703bdbb4-742c-4cac-9d9b-b34c1dc84cb3#id> .
+
+<http://www.bbc.co.uk/things/fe81e638-f6b4-4df6-93ec-9f6b2a56446b#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1848320e-ff5f-429e-bbbe-bca71948742a#id>,
+        <http://www.bbc.co.uk/things/19468b77-4344-4178-9ab4-fbd93ba6945d#id>,
+        <http://www.bbc.co.uk/things/1c1d7d02-db52-4dd4-902c-4424161efcce#id>,
+        <http://www.bbc.co.uk/things/22952a9a-0801-4426-ab2a-076b4b660655#id>,
+        <http://www.bbc.co.uk/things/63d202eb-f2c0-461f-80a4-5f1ab0446b38#id>,
+        <http://www.bbc.co.uk/things/a4e00f53-3c92-4c28-80d2-9c57a71f0ead#id>,
+        <http://www.bbc.co.uk/things/a9fa1bc7-cc08-469f-a69d-f44b180884f4#id>,
+        <http://www.bbc.co.uk/things/ade696e6-bb6c-4272-ac5b-0a624ed89cee#id>,
+        <http://www.bbc.co.uk/things/b4b311b4-91c8-4bfe-b0a5-bb744bfb653b#id>,
+        <http://www.bbc.co.uk/things/efaa4ec7-18ce-4c71-82c8-7426b15e8572#id>,
+        <http://www.bbc.co.uk/things/f74b1da8-cf41-4061-8f4b-eedc2789cc48#id> ;
+    = <http://www.bbc.co.uk/education/subjects/znxtyrd#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/2eec00dc-8e7f-431a-b667-d613c27182da#id> a curric:Topic ;
+    rdfs:label "Chemical industry"@en-gb ;
+    core:preferredLabel "Chemical industry"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zkb39j6#topic> .
+
+<http://www.bbc.co.uk/things/33e3ab59-74f6-4367-a6be-ddd0c7c8ca77#id> a curric:Topic ;
+    rdfs:label "Crude oil and fuels"@en-gb ;
+    core:preferredLabel "Crude oil and fuels"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zdrg87h#topic> .
+
+<http://www.bbc.co.uk/things/690511b3-3c22-424a-b582-c8cb69fc5d5e#id> a curric:Topic ;
+    rdfs:label "Energy"@en-gb ;
+    core:preferredLabel "Energy"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/e49daa30-e47e-46e9-8485-6a4853d79b7e#id> ;
+    = <http://www.bbc.co.uk/education/topics/z9t3cdm#topic> .
+
+<http://www.bbc.co.uk/things/75ff3de2-7efd-4f87-948f-211a4a5f719d#id> a curric:Topic ;
+    rdfs:label "Organic chemistry"@en-gb ;
+    core:preferredLabel "Organic chemistry"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zj4cwmn#topic> .
+
+<http://www.bbc.co.uk/things/8fd6c423-88fb-400e-af5a-7b80ae7dedf3#id> a curric:Topic ;
+    rdfs:label "Acids, alkalis and salts"@en-gb ;
+    core:preferredLabel "Acids, alkalis and salts"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zvnfr82#topic> .
+
+<http://www.bbc.co.uk/things/9023002c-4ef0-48e2-8c6a-bace6ca9577f#id> a curric:Topic ;
+    rdfs:label "Earth and the environment"@en-gb ;
+    core:preferredLabel "Earth and the environment"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwcrd2p#topic> .
+
+<http://www.bbc.co.uk/things/ab1f2922-1437-44a6-8a72-f4f52debe445#id> a curric:Topic ;
+    rdfs:label "Chemical reactions and tests"@en-gb ;
+    core:preferredLabel "Chemical reactions and tests"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3sycdm#topic> .
+
+<http://www.bbc.co.uk/things/cf5370bf-1484-4b80-a5b3-3db60145f217#id> a curric:Topic ;
+    rdfs:label "Atomic structure"@en-gb ;
+    core:preferredLabel "Atomic structure"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z93v4wx#topic> .
+
+<http://www.bbc.co.uk/things/90a3db27-29e7-450a-b9e8-627443621590#id> a curric:Topic ;
+    rdfs:label "Nature's chemistry"@en-gb ;
+    core:preferredLabel "Nature's chemistry"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zrwdmp3#topic> .
+
+<http://www.bbc.co.uk/things/9718b670-6448-43ca-9759-8ee12d5a4f97#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/02a80d9a-0802-4805-afda-cd79800bf1b9#id> .
+
+<http://www.bbc.co.uk/things/a8c689d4-7588-40c6-8d62-d6ebedb0fba7#id> a curric:Topic ;
+    rdfs:label "Materials"@en-gb ;
+    core:preferredLabel "Materials"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/ac81a521-8d48-4e35-bb67-727fcf914220#id> ;
+    = <http://www.bbc.co.uk/education/topics/zy8tsbk#topic> .
+
+<http://www.bbc.co.uk/things/c46d124f-6906-45bb-9f68-f1ff84c89b9e#id> a curric:Topic ;
+    rdfs:label "States of matter"@en-gb ;
+    core:preferredLabel "States of matter"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z7k9q6f#topic> .
+
+<http://www.bbc.co.uk/things/f69857d1-b609-4070-b9d1-9a5ee5eb471a#id> a curric:Topic ;
+    rdfs:label "Metals"@en-gb ;
+    core:preferredLabel "Metals"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> ;
+    = <http://www.bbc.co.uk/education/topics/zgd82hv#topic> .
+
+<http://www.bbc.co.uk/things/88954f20-2965-4a80-b091-c15d0b1cf9b0#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/3b928080-fed1-4eb6-a407-ec372d484ebf#id> .
+
+<http://www.bbc.co.uk/things/4e08a477-9245-45f8-acf0-0f551512dd42#id> a curric:Topic ;
+    rdfs:label "Chemical changes and structures"@en-gb ;
+    core:preferredLabel "Chemical changes and structures"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zsgbkqt#topic> .
+
+<http://www.bbc.co.uk/things/0c3cd024-44f9-48ce-9294-6c3bcb5b47f9#id> a curric:Topic ;
+    rdfs:label "Chemistry in society"@en-gb ;
+    core:preferredLabel "Chemistry in society"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3k9q6f#topic> .
+
+<http://www.bbc.co.uk/things/e92b861d-b89d-4be9-9829-b7834d05df7b#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/fe81e638-f6b4-4df6-93ec-9f6b2a56446b#id> .
+
+<http://www.bbc.co.uk/things/932900ab-451c-49ed-91c1-ca5d8bc90745#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/3f2e25fe-5e38-43e6-9692-d9e955dc301a#id> .
+

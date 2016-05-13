@@ -1,453 +1,457 @@
-@prefix olo:   <http://purl.org/ontology/olo/core#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
 @prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix dc:    <http://purl.org/dc/terms/> .
-
-<http://www.bbc.co.uk/things/f526f26a-8731-4e1c-817a-d5eb7200bd48#id>
-        a          olo:Slot ;
-        olo:index  15 ;
-        olo:item   <http://www.bbc.co.uk/things/8c561085-fadc-4bd9-94d8-76c63ab1da6a#id> .
-
-<http://www.bbc.co.uk/things/1b9a53a2-620c-4808-9ff0-779315170d6b#id>
-        a          olo:Slot ;
-        olo:index  11 ;
-        olo:item   <http://www.bbc.co.uk/things/2d8c654d-08c0-4f96-b44a-825d7405cb95#id> .
-
-<http://www.bbc.co.uk/things/41d9e55e-c9ea-4a35-a6d2-625b9da5b563#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/facaa405-07c3-483f-b325-5b6dd35dedf8#id> .
-
-<http://www.bbc.co.uk/things/13baf103-07ed-4984-925f-7280487f923a#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/7ea453db-3ef6-4f99-9256-4cd8fdb435c7#id> , <http://www.bbc.co.uk/things/0bc38610-0312-486e-a014-169f4a8214f2#id> , <http://www.bbc.co.uk/things/70d81415-8539-4a43-a085-b0a2232bd1df#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zb97sbk#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/38334eda-71f5-4709-8156-193e90558e74#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/4b1989fd-2a89-48a1-b6f8-67d3bc5af46d#id> .
-
-<http://www.bbc.co.uk/things/6eb096aa-b601-4e37-a872-64dc8d787440#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/c776d3be-b9dd-40c2-a4f7-51294aed8f4f#id> .
-
-<http://www.bbc.co.uk/things/29f2ac48-b507-4955-a359-bd26cd2f2b7e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "20th and 21st century music"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/37cda8b7-dc11-497f-b1a7-f8ac4c07bc7b#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/15505ac9-53f4-4d61-b8aa-97111781a5b7#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zpv9mp3#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b6dd8c99-009f-4945-8c2e-40400040942f#id>
-        a          olo:Slot ;
-        olo:index  13 ;
-        olo:item   <http://www.bbc.co.uk/things/5e56bc01-6997-47b2-b58b-3f0e36ea219b#id> .
-
-<http://www.bbc.co.uk/things/fc56b992-b77f-4474-80ab-08856b79e837#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Music technology skills"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/50ce0ccb-1050-41dd-8a7b-4aceb2bcf963#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/485acea7-5c71-48e0-9166-9b1bc423cb0a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z9qhgk7#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c155e024-15bf-4b1c-907d-c7072f28c7b8#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/47d6fb27-6b85-4b5a-a0f2-259809f64b49#id> .
-
-<http://www.bbc.co.uk/things/72a33f1c-31f1-4203-9d51-8de945ffc136#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Music technology in context"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/27b0b783-8515-4824-8832-292df1f8cba9#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zycjpv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/fd54df8e-2b27-4c91-9dc9-48db8d1096ee#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/6c6bdf3f-5029-4e5f-b23e-8bbd5cf6fab8#id> .
-
-<http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/b87e1811-4256-4341-a0c3-b9c665e9cc9c#id> .
-
-<http://www.bbc.co.uk/things/0bc38610-0312-486e-a014-169f4a8214f2#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/fc56b992-b77f-4474-80ab-08856b79e837#id> .
-
-<http://www.bbc.co.uk/things/a37f28db-a10f-4547-8cea-2fa23b12c030#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/764dc0ff-812b-4508-9287-5f5266898f3f#id> .
-
-<http://www.bbc.co.uk/things/cb60f135-5db0-4fce-a141-e8730b23fbf6#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/4dfdcb43-abad-46d9-ac4c-d512ceed90e8#id> .
-
-<http://www.bbc.co.uk/things/7875d4a3-d335-4041-ba55-59b128a16708#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Musique concrete"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/c6ff5fb9-e8ab-4a5d-9922-4018665aa382#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zw6ykqt#topic-of-study> .
-
-<http://www.bbc.co.uk/things/3a069e30-f00d-44b1-8f91-70e02930928b#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/75934651-86be-4355-aac8-1d353a3aafe6#id> .
-
-<http://www.bbc.co.uk/things/2fbdc1cf-1680-4806-a97e-5ce5984eaec2#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/99af948f-9daa-435f-9c0c-dc9a67540982#id> .
-
-<http://www.bbc.co.uk/things/1205406c-df3c-4321-aae3-24d248e32161#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/5669ae4e-eb59-4c4f-bf50-45ebdc0acc03#id> .
-
-<http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id>
-        a           curric:Topic ;
-        rdfs:label  "20th and 21st century music"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z4w634j#topic> .
-
-<http://www.bbc.co.uk/things/9b27bd2b-6131-48b6-953a-202e0c5e5e09#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/ce450e58-ec7d-42a7-bccd-b4de8f500873#id> .
-
-<http://www.bbc.co.uk/things/bf14b928-5abc-4151-8848-db3fe9470ea0#id>
-        a                  curric:Topic ;
-        rdfs:label         "Electronica and dance"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zkqhgk7#topic> .
-
-<http://www.bbc.co.uk/things/d7535643-aa89-4cec-b8d0-2b00e590664b#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/e06b601f-e712-4059-83b1-4e0a28ddd774#id> .
-
-<http://www.bbc.co.uk/things/00ff2b4b-a715-49b5-a0e7-658620c30ccf#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/3f476751-8b8e-4960-b3b5-5b0d5a2236e6#id> .
-
-<http://www.bbc.co.uk/things/5b94053e-8467-47eb-b890-78a56b6b8198#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Electronica and dance"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/bf14b928-5abc-4151-8848-db3fe9470ea0#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z4qhgk7#topic-of-study> .
-
-<http://www.bbc.co.uk/things/37cda8b7-dc11-497f-b1a7-f8ac4c07bc7b#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/d5c5c859-36f9-4395-8857-f1159fdadd11#id> .
-
-<http://www.bbc.co.uk/things/169940fe-87d3-4c9d-ba8a-a9e063edf0ee#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/56e12514-bfa9-4f5e-a7dd-428e0755f890#id> .
-
-<http://www.bbc.co.uk/things/70d81415-8539-4a43-a085-b0a2232bd1df#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/df736048-21f6-4d51-9c47-2ab57dfc9af3#id> .
-
-<http://www.bbc.co.uk/things/417f56c1-7b3e-4edf-b74a-3aee603630b6#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/38c23ee0-8d5f-4008-a64e-221644c2ae1c#id> .
-
-<http://www.bbc.co.uk/things/f347f4a9-f188-4a31-b035-3773b9962405#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/f3361129-715d-4a58-b85b-07c9bc013480#id> .
-
-<http://www.bbc.co.uk/things/7eab2fb6-26c9-4b68-86c9-c91934235198#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/920c0609-3658-403e-9a07-239169f60622#id> .
-
-<http://www.bbc.co.uk/things/3b958aef-5550-43db-84a8-fa695dcfed03#id>
-        a          olo:Slot ;
-        olo:index  16 ;
-        olo:item   <http://www.bbc.co.uk/things/9c734caf-074e-40dc-8af0-b687b1a4154c#id> .
-
-<http://www.bbc.co.uk/things/087db7a1-a64c-4887-b120-21d02c2d3db4#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/3b958aef-5550-43db-84a8-fa695dcfed03#id> , <http://www.bbc.co.uk/things/fd54df8e-2b27-4c91-9dc9-48db8d1096ee#id> , <http://www.bbc.co.uk/things/417f56c1-7b3e-4edf-b74a-3aee603630b6#id> , <http://www.bbc.co.uk/things/e4b7b9ae-0f42-4223-a3b6-1cf57e9c11b7#id> , <http://www.bbc.co.uk/things/9b27bd2b-6131-48b6-953a-202e0c5e5e09#id> , <http://www.bbc.co.uk/things/d09a3b06-f97d-47c3-8147-6e609f2680e5#id> , <http://www.bbc.co.uk/things/f526f26a-8731-4e1c-817a-d5eb7200bd48#id> , <http://www.bbc.co.uk/things/7108b24b-3cfc-495d-a14f-8d776311eff1#id> , <http://www.bbc.co.uk/things/d7535643-aa89-4cec-b8d0-2b00e590664b#id> , <http://www.bbc.co.uk/things/297a6d34-a271-4b03-bd12-281e7c126c52#id> , <http://www.bbc.co.uk/things/72baa838-f237-489d-ba62-8d179687c99b#id> , <http://www.bbc.co.uk/things/b6dd8c99-009f-4945-8c2e-40400040942f#id> , <http://www.bbc.co.uk/things/78840027-38ec-4af7-b683-d6ace655f2fc#id> , <http://www.bbc.co.uk/things/fbb3b6b7-66b1-4f60-aedf-014f27790c02#id> , <http://www.bbc.co.uk/things/a7ffbf55-62d3-4986-a1e2-7e20f6aaf8db#id> , <http://www.bbc.co.uk/things/46e58ab7-615f-4dcb-b930-078ca8111a0d#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zk7pr82#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/fbb3b6b7-66b1-4f60-aedf-014f27790c02#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/83e993cc-08d8-46f7-8806-49ab6da80010#id> .
-
-<http://www.bbc.co.uk/things/638e0c58-75cb-40a4-9777-3aa6e105fb06#id>
-        a          olo:Slot ;
-        olo:index  17 ;
-        olo:item   <http://www.bbc.co.uk/things/71b3c3ea-593e-47c4-bf99-978a4b3ed54d#id> .
-
-<http://www.bbc.co.uk/things/9768c072-bd35-4707-9bce-d8101662611f#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/c1bc9dcf-10a8-4908-9ade-1b4128a91596#id> , <http://www.bbc.co.uk/things/638e0c58-75cb-40a4-9777-3aa6e105fb06#id> , <http://www.bbc.co.uk/things/f347f4a9-f188-4a31-b035-3773b9962405#id> , <http://www.bbc.co.uk/things/fe326eeb-1cb8-4dfe-91f1-bbec533362f6#id> , <http://www.bbc.co.uk/things/3005f5d4-c5aa-4d25-9b9d-b155d13ebd07#id> , <http://www.bbc.co.uk/things/e0fe0f98-0be9-43f5-a066-c81663942554#id> , <http://www.bbc.co.uk/things/1205406c-df3c-4321-aae3-24d248e32161#id> , <http://www.bbc.co.uk/things/86fbee71-bef0-4a4c-930e-2e4d6b18509d#id> , <http://www.bbc.co.uk/things/21162f11-3683-49e5-ae01-f390bb2d2aad#id> , <http://www.bbc.co.uk/things/5febbff3-0042-45e9-97ba-334387547f6e#id> , <http://www.bbc.co.uk/things/1b9a53a2-620c-4808-9ff0-779315170d6b#id> , <http://www.bbc.co.uk/things/5f04a2d1-7279-454d-b5b5-7572bf7a65a9#id> , <http://www.bbc.co.uk/things/e9d5c8b2-f67d-4cf9-b7ae-e68b2831c0fd#id> , <http://www.bbc.co.uk/things/b0512651-849a-480e-82b3-3cf7b3509871#id> , <http://www.bbc.co.uk/things/df0fe683-795b-44c9-b135-87af13639115#id> , <http://www.bbc.co.uk/things/6eb096aa-b601-4e37-a872-64dc8d787440#id> , <http://www.bbc.co.uk/things/b0d366fa-8243-4f4e-8d21-cfc91c390b67#id> , <http://www.bbc.co.uk/things/41d9e55e-c9ea-4a35-a6d2-625b9da5b563#id> , <http://www.bbc.co.uk/things/49e27e38-fd71-40c7-8be9-328646124ab8#id> , <http://www.bbc.co.uk/things/93939b2c-ea4a-492c-82c6-76a38cb1ce81#id> , <http://www.bbc.co.uk/things/7eab2fb6-26c9-4b68-86c9-c91934235198#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z3k2fg8#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/c1bc9dcf-10a8-4908-9ade-1b4128a91596#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/6ca5b9dc-fdd3-4d43-823b-32916f35630d#id> .
-
-<http://www.bbc.co.uk/things/21162f11-3683-49e5-ae01-f390bb2d2aad#id>
-        a          olo:Slot ;
-        olo:index  20 ;
-        olo:item   <http://www.bbc.co.uk/things/cb11b283-44ce-4872-bb94-cfaba65c9cd4#id> .
-
-<http://www.bbc.co.uk/things/b87e1811-4256-4341-a0c3-b9c665e9cc9c#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/2fbdc1cf-1680-4806-a97e-5ce5984eaec2#id> , <http://www.bbc.co.uk/things/e473225a-5d1e-4e59-a2bf-9b1946680444#id> , <http://www.bbc.co.uk/things/69f32ac1-f32f-469c-b2f4-0dec7c78133c#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z34qn39#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/3005f5d4-c5aa-4d25-9b9d-b155d13ebd07#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/0fdf05a6-a9ef-424c-8e05-252f000668e9#id> .
-
-<http://www.bbc.co.uk/things/d5c5c859-36f9-4395-8857-f1159fdadd11#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/81f40155-0344-4e82-ab8d-a1d932db35dd#id> , <http://www.bbc.co.uk/things/9c65bf49-36d1-44d4-a527-36c12ebbe0e9#id> , <http://www.bbc.co.uk/things/dbae6def-b74b-4a23-86c6-77aefdad7130#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zgk2fg8#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/e0fe0f98-0be9-43f5-a066-c81663942554#id>
-        a          olo:Slot ;
-        olo:index  14 ;
-        olo:item   <http://www.bbc.co.uk/things/f7a32cb3-5744-4e2f-a05a-0fbe0d48955b#id> .
-
-<http://www.bbc.co.uk/things/c390ead3-deac-43a1-ad84-08443551f023#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Music technology in context"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/27b0b783-8515-4824-8832-292df1f8cba9#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/37cda8b7-dc11-497f-b1a7-f8ac4c07bc7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/ztfc7ty#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b10a0991-de04-4c6c-9426-0d3455738696#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/73ba6e0a-adfe-4f3d-88a8-c9bfb9e64c6a#id> .
-
-<http://www.bbc.co.uk/things/69f32ac1-f32f-469c-b2f4-0dec7c78133c#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/72a33f1c-31f1-4203-9d51-8de945ffc136#id> .
-
-<http://www.bbc.co.uk/things/d09a3b06-f97d-47c3-8147-6e609f2680e5#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/943c9969-846d-4475-ba1d-6ca63b9e7927#id> .
-
-<http://www.bbc.co.uk/things/5febbff3-0042-45e9-97ba-334387547f6e#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/200b2153-bb9f-4d5b-96a4-0e3b6726e2da#id> .
-
-<http://www.bbc.co.uk/things/96c6490f-58a2-4f3c-9cd0-24e229a6d230#id>
-        a          olo:Slot ;
-        olo:index  10 ;
-        olo:item   <http://www.bbc.co.uk/things/20a44f8b-a01d-40e5-a13d-5bde8ef2fa3f#id> .
-
-<http://www.bbc.co.uk/things/27b0b783-8515-4824-8832-292df1f8cba9#id>
-        a           curric:Topic ;
-        rdfs:label  "Music technology in context"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zr8myrd#topic> .
-
-<http://www.bbc.co.uk/things/99af948f-9daa-435f-9c0c-dc9a67540982#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "20th and 21st century music"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/9768c072-bd35-4707-9bce-d8101662611f#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z3k2fg8#topic-of-study> .
-
-<http://www.bbc.co.uk/things/78840027-38ec-4af7-b683-d6ace655f2fc#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/c3b44ee7-8884-4e90-9e28-7fa95b0bc9db#id> .
-
-<http://www.bbc.co.uk/things/df0fe683-795b-44c9-b135-87af13639115#id>
-        a          olo:Slot ;
-        olo:index  13 ;
-        olo:item   <http://www.bbc.co.uk/things/962c446d-278f-45f7-8978-09a1131af10b#id> .
-
-<http://www.bbc.co.uk/things/49e27e38-fd71-40c7-8be9-328646124ab8#id>
-        a          olo:Slot ;
-        olo:index  16 ;
-        olo:item   <http://www.bbc.co.uk/things/dac08955-2e24-47df-a14c-b941231e1c86#id> .
-
-<http://www.bbc.co.uk/things/485acea7-5c71-48e0-9166-9b1bc423cb0a#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/13baf103-07ed-4984-925f-7280487f923a#id> .
-
-<http://www.bbc.co.uk/things/b0d366fa-8243-4f4e-8d21-cfc91c390b67#id>
-        a          olo:Slot ;
-        olo:index  21 ;
-        olo:item   <http://www.bbc.co.uk/things/0c358a80-d5aa-4817-a145-948b316fe609#id> .
-
-<http://www.bbc.co.uk/things/38c23ee0-8d5f-4008-a64e-221644c2ae1c#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Electronica and dance"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/bf14b928-5abc-4151-8848-db3fe9470ea0#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/485acea7-5c71-48e0-9166-9b1bc423cb0a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zqtv87h#topic-of-study> .
-
-<http://www.bbc.co.uk/things/fe326eeb-1cb8-4dfe-91f1-bbec533362f6#id>
-        a          olo:Slot ;
-        olo:index  10 ;
-        olo:item   <http://www.bbc.co.uk/things/7875d4a3-d335-4041-ba55-59b128a16708#id> .
-
-<http://www.bbc.co.uk/things/e9d5c8b2-f67d-4cf9-b7ae-e68b2831c0fd#id>
-        a          olo:Slot ;
-        olo:index  12 ;
-        olo:item   <http://www.bbc.co.uk/things/86eddace-de44-4fe1-8f2b-cf3e65f8e0dd#id> .
-
-<http://www.bbc.co.uk/things/297a6d34-a271-4b03-bd12-281e7c126c52#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/4d730fce-30fb-4ca1-9308-5eedb8b763dc#id> .
-
-<http://www.bbc.co.uk/things/e473225a-5d1e-4e59-a2bf-9b1946680444#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/550b3da9-167e-4c72-a127-b974eb418529#id> .
-
-<http://www.bbc.co.uk/things/c98e0cba-1174-4343-a43c-599c0548ceb8#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Music technology skills"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/50ce0ccb-1050-41dd-8a7b-4aceb2bcf963#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/37cda8b7-dc11-497f-b1a7-f8ac4c07bc7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zhy42hv#topic-of-study> .
-
-<http://www.bbc.co.uk/things/5f04a2d1-7279-454d-b5b5-7572bf7a65a9#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/5b94053e-8467-47eb-b890-78a56b6b8198#id> .
-
-<http://www.bbc.co.uk/things/50ce0ccb-1050-41dd-8a7b-4aceb2bcf963#id>
-        a           curric:Topic ;
-        rdfs:label  "Music technology skills"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zcdxvcw#topic> .
-
-<http://www.bbc.co.uk/things/9c65bf49-36d1-44d4-a527-36c12ebbe0e9#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/c390ead3-deac-43a1-ad84-08443551f023#id> .
-
-<http://www.bbc.co.uk/things/dbae6def-b74b-4a23-86c6-77aefdad7130#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/29f2ac48-b507-4955-a359-bd26cd2f2b7e#id> .
-
-<http://www.bbc.co.uk/things/86fbee71-bef0-4a4c-930e-2e4d6b18509d#id>
-        a          olo:Slot ;
-        olo:index  15 ;
-        olo:item   <http://www.bbc.co.uk/things/e6100e61-a014-4485-8cf6-98594d4a16e4#id> .
-
-<http://www.bbc.co.uk/things/550b3da9-167e-4c72-a127-b974eb418529#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Music technology skills"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/50ce0ccb-1050-41dd-8a7b-4aceb2bcf963#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zv97sbk#topic-of-study> .
-
-<http://www.bbc.co.uk/things/df736048-21f6-4d51-9c47-2ab57dfc9af3#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Music technology in context"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/27b0b783-8515-4824-8832-292df1f8cba9#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/485acea7-5c71-48e0-9166-9b1bc423cb0a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z4jtb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/e4b7b9ae-0f42-4223-a3b6-1cf57e9c11b7#id>
-        a          olo:Slot ;
-        olo:index  10 ;
-        olo:item   <http://www.bbc.co.uk/things/39d479cc-3514-4e8d-bb27-656c29fa0fbb#id> .
-
-<http://www.bbc.co.uk/things/a7ffbf55-62d3-4986-a1e2-7e20f6aaf8db#id>
-        a          olo:Slot ;
-        olo:index  11 ;
-        olo:item   <http://www.bbc.co.uk/things/9dbcac0f-206f-457e-b653-705a5e6dbd69#id> .
-
-<http://www.bbc.co.uk/things/764dc0ff-812b-4508-9287-5f5266898f3f#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Electronica and dance"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/bf14b928-5abc-4151-8848-db3fe9470ea0#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/37cda8b7-dc11-497f-b1a7-f8ac4c07bc7b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfgdtfr#topic-of-study> .
-
-<http://www.bbc.co.uk/things/93939b2c-ea4a-492c-82c6-76a38cb1ce81#id>
-        a          olo:Slot ;
-        olo:index  18 ;
-        olo:item   <http://www.bbc.co.uk/things/ea9bc82c-84d7-4164-ad2f-de1abcdd8a67#id> .
-
-<http://www.bbc.co.uk/things/46e58ab7-615f-4dcb-b930-078ca8111a0d#id>
-        a          olo:Slot ;
-        olo:index  12 ;
-        olo:item   <http://www.bbc.co.uk/things/4f86d167-475c-41ab-bad5-0a36dde09b49#id> .
-
-<http://www.bbc.co.uk/things/81f40155-0344-4e82-ab8d-a1d932db35dd#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/c98e0cba-1174-4343-a43c-599c0548ceb8#id> .
-
-<http://www.bbc.co.uk/things/f30427af-e1d1-422e-8da7-00baf199a2ae#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "20th and 21st century music"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/485acea7-5c71-48e0-9166-9b1bc423cb0a#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/087db7a1-a64c-4887-b120-21d02c2d3db4#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zk7pr82#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c6ff5fb9-e8ab-4a5d-9922-4018665aa382#id>
-        a                  curric:Topic ;
-        rdfs:label         "Musique concrete"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z6frq6f#topic> .
-
-<http://www.bbc.co.uk/things/27d87aaf-651c-4610-9ea1-dafb3665163c#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/a0349f33-7cb3-48ee-b5e7-7dbcef752d7c#id> .
-
-<http://www.bbc.co.uk/things/7ea453db-3ef6-4f99-9256-4cd8fdb435c7#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/f30427af-e1d1-422e-8da7-00baf199a2ae#id> .
-
-<http://www.bbc.co.uk/things/7108b24b-3cfc-495d-a14f-8d776311eff1#id>
-        a          olo:Slot ;
-        olo:index  14 ;
-        olo:item   <http://www.bbc.co.uk/things/6f67835b-c92c-4ff3-9a92-316e3a255428#id> .
-
-<http://www.bbc.co.uk/things/b0512651-849a-480e-82b3-3cf7b3509871#id>
-        a          olo:Slot ;
-        olo:index  19 ;
-        olo:item   <http://www.bbc.co.uk/things/1cd8bdbc-7245-418b-b81a-a0442f93bbb4#id> .
-
-<http://www.bbc.co.uk/things/15505ac9-53f4-4d61-b8aa-97111781a5b7#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/96c6490f-58a2-4f3c-9cd0-24e229a6d230#id> , <http://www.bbc.co.uk/things/169940fe-87d3-4c9d-ba8a-a9e063edf0ee#id> , <http://www.bbc.co.uk/things/a37f28db-a10f-4547-8cea-2fa23b12c030#id> , <http://www.bbc.co.uk/things/38334eda-71f5-4709-8156-193e90558e74#id> , <http://www.bbc.co.uk/things/c155e024-15bf-4b1c-907d-c7072f28c7b8#id> , <http://www.bbc.co.uk/things/cb60f135-5db0-4fce-a141-e8730b23fbf6#id> , <http://www.bbc.co.uk/things/27d87aaf-651c-4610-9ea1-dafb3665163c#id> , <http://www.bbc.co.uk/things/3a069e30-f00d-44b1-8f91-70e02930928b#id> , <http://www.bbc.co.uk/things/00ff2b4b-a715-49b5-a0e7-658620c30ccf#id> , <http://www.bbc.co.uk/things/b10a0991-de04-4c6c-9426-0d3455738696#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zpv9mp3#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/72baa838-f237-489d-ba62-8d179687c99b#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/3dc795d6-b615-4492-8a0d-26a79f07b16e#id> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/b2d4b441-ba2d-45ac-a038-bdb69ffa8a49#id> a provenance:Dataset ;
+    rdfs:label "Topics, Topics of Study and Topic of Study Lists of Music Technology" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version 4 .
+
+<http://www.bbc.co.uk/things/00ff2b4b-a715-49b5-a0e7-658620c30ccf#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/3f476751-8b8e-4960-b3b5-5b0d5a2236e6#id> .
+
+<http://www.bbc.co.uk/things/087db7a1-a64c-4887-b120-21d02c2d3db4#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/297a6d34-a271-4b03-bd12-281e7c126c52#id>,
+        <http://www.bbc.co.uk/things/3b958aef-5550-43db-84a8-fa695dcfed03#id>,
+        <http://www.bbc.co.uk/things/417f56c1-7b3e-4edf-b74a-3aee603630b6#id>,
+        <http://www.bbc.co.uk/things/46e58ab7-615f-4dcb-b930-078ca8111a0d#id>,
+        <http://www.bbc.co.uk/things/7108b24b-3cfc-495d-a14f-8d776311eff1#id>,
+        <http://www.bbc.co.uk/things/72baa838-f237-489d-ba62-8d179687c99b#id>,
+        <http://www.bbc.co.uk/things/78840027-38ec-4af7-b683-d6ace655f2fc#id>,
+        <http://www.bbc.co.uk/things/9b27bd2b-6131-48b6-953a-202e0c5e5e09#id>,
+        <http://www.bbc.co.uk/things/a7ffbf55-62d3-4986-a1e2-7e20f6aaf8db#id>,
+        <http://www.bbc.co.uk/things/b6dd8c99-009f-4945-8c2e-40400040942f#id>,
+        <http://www.bbc.co.uk/things/d09a3b06-f97d-47c3-8147-6e609f2680e5#id>,
+        <http://www.bbc.co.uk/things/d7535643-aa89-4cec-b8d0-2b00e590664b#id>,
+        <http://www.bbc.co.uk/things/e4b7b9ae-0f42-4223-a3b6-1cf57e9c11b7#id>,
+        <http://www.bbc.co.uk/things/f526f26a-8731-4e1c-817a-d5eb7200bd48#id>,
+        <http://www.bbc.co.uk/things/fbb3b6b7-66b1-4f60-aedf-014f27790c02#id>,
+        <http://www.bbc.co.uk/things/fd54df8e-2b27-4c91-9dc9-48db8d1096ee#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zk7pr82#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/0bc38610-0312-486e-a014-169f4a8214f2#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/fc56b992-b77f-4474-80ab-08856b79e837#id> .
+
+<http://www.bbc.co.uk/things/1205406c-df3c-4321-aae3-24d248e32161#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/5669ae4e-eb59-4c4f-bf50-45ebdc0acc03#id> .
+
+<http://www.bbc.co.uk/things/13baf103-07ed-4984-925f-7280487f923a#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0bc38610-0312-486e-a014-169f4a8214f2#id>,
+        <http://www.bbc.co.uk/things/70d81415-8539-4a43-a085-b0a2232bd1df#id>,
+        <http://www.bbc.co.uk/things/7ea453db-3ef6-4f99-9256-4cd8fdb435c7#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zb97sbk#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/15505ac9-53f4-4d61-b8aa-97111781a5b7#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/00ff2b4b-a715-49b5-a0e7-658620c30ccf#id>,
+        <http://www.bbc.co.uk/things/169940fe-87d3-4c9d-ba8a-a9e063edf0ee#id>,
+        <http://www.bbc.co.uk/things/27d87aaf-651c-4610-9ea1-dafb3665163c#id>,
+        <http://www.bbc.co.uk/things/38334eda-71f5-4709-8156-193e90558e74#id>,
+        <http://www.bbc.co.uk/things/3a069e30-f00d-44b1-8f91-70e02930928b#id>,
+        <http://www.bbc.co.uk/things/96c6490f-58a2-4f3c-9cd0-24e229a6d230#id>,
+        <http://www.bbc.co.uk/things/a37f28db-a10f-4547-8cea-2fa23b12c030#id>,
+        <http://www.bbc.co.uk/things/b10a0991-de04-4c6c-9426-0d3455738696#id>,
+        <http://www.bbc.co.uk/things/c155e024-15bf-4b1c-907d-c7072f28c7b8#id>,
+        <http://www.bbc.co.uk/things/cb60f135-5db0-4fce-a141-e8730b23fbf6#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zpv9mp3#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/169940fe-87d3-4c9d-ba8a-a9e063edf0ee#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/56e12514-bfa9-4f5e-a7dd-428e0755f890#id> .
+
+<http://www.bbc.co.uk/things/1b9a53a2-620c-4808-9ff0-779315170d6b#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/2d8c654d-08c0-4f96-b44a-825d7405cb95#id> .
+
+<http://www.bbc.co.uk/things/21162f11-3683-49e5-ae01-f390bb2d2aad#id> a olo:Slot ;
+    olo:index 20 ;
+    olo:item <http://www.bbc.co.uk/things/cb11b283-44ce-4872-bb94-cfaba65c9cd4#id> .
+
+<http://www.bbc.co.uk/things/27d87aaf-651c-4610-9ea1-dafb3665163c#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/a0349f33-7cb3-48ee-b5e7-7dbcef752d7c#id> .
+
+<http://www.bbc.co.uk/things/297a6d34-a271-4b03-bd12-281e7c126c52#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/4d730fce-30fb-4ca1-9308-5eedb8b763dc#id> .
+
+<http://www.bbc.co.uk/things/29f2ac48-b507-4955-a359-bd26cd2f2b7e#id> a curric:TopicOfStudy ;
+    rdfs:label "20th and 21st century music"@en-gb ;
+    core:disambiguationHint "National 4 Music Technology curriculum"@en-gb ;
+    core:preferredLabel "20th and 21st century music"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/37cda8b7-dc11-497f-b1a7-f8ac4c07bc7b#id> ;
+    curric:topics <http://www.bbc.co.uk/things/15505ac9-53f4-4d61-b8aa-97111781a5b7#id> ;
+    = <http://www.bbc.co.uk/education/topics/zpv9mp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2fbdc1cf-1680-4806-a97e-5ce5984eaec2#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/99af948f-9daa-435f-9c0c-dc9a67540982#id> .
+
+<http://www.bbc.co.uk/things/3005f5d4-c5aa-4d25-9b9d-b155d13ebd07#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/0fdf05a6-a9ef-424c-8e05-252f000668e9#id> .
+
+<http://www.bbc.co.uk/things/38334eda-71f5-4709-8156-193e90558e74#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/4b1989fd-2a89-48a1-b6f8-67d3bc5af46d#id> .
+
+<http://www.bbc.co.uk/things/38c23ee0-8d5f-4008-a64e-221644c2ae1c#id> a curric:TopicOfStudy ;
+    rdfs:label "Electronica and dance"@en-gb ;
+    core:disambiguationHint "National 5 Music Technology curriculum"@en-gb ;
+    core:preferredLabel "Electronica and dance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bf14b928-5abc-4151-8848-db3fe9470ea0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/485acea7-5c71-48e0-9166-9b1bc423cb0a#id> ;
+    = <http://www.bbc.co.uk/education/topics/zqtv87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3a069e30-f00d-44b1-8f91-70e02930928b#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/75934651-86be-4355-aac8-1d353a3aafe6#id> .
+
+<http://www.bbc.co.uk/things/3b958aef-5550-43db-84a8-fa695dcfed03#id> a olo:Slot ;
+    olo:index 16 ;
+    olo:item <http://www.bbc.co.uk/things/9c734caf-074e-40dc-8af0-b687b1a4154c#id> .
+
+<http://www.bbc.co.uk/things/417f56c1-7b3e-4edf-b74a-3aee603630b6#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/38c23ee0-8d5f-4008-a64e-221644c2ae1c#id> .
+
+<http://www.bbc.co.uk/things/41d9e55e-c9ea-4a35-a6d2-625b9da5b563#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/facaa405-07c3-483f-b325-5b6dd35dedf8#id> .
+
+<http://www.bbc.co.uk/things/46e58ab7-615f-4dcb-b930-078ca8111a0d#id> a olo:Slot ;
+    olo:index 12 ;
+    olo:item <http://www.bbc.co.uk/things/4f86d167-475c-41ab-bad5-0a36dde09b49#id> .
+
+<http://www.bbc.co.uk/things/49e27e38-fd71-40c7-8be9-328646124ab8#id> a olo:Slot ;
+    olo:index 16 ;
+    olo:item <http://www.bbc.co.uk/things/dac08955-2e24-47df-a14c-b941231e1c86#id> .
+
+<http://www.bbc.co.uk/things/550b3da9-167e-4c72-a127-b974eb418529#id> a curric:TopicOfStudy ;
+    rdfs:label "Music technology skills"@en-gb ;
+    core:disambiguationHint "Higher Music Technology curriculum"@en-gb ;
+    core:preferredLabel "Music technology skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/50ce0ccb-1050-41dd-8a7b-4aceb2bcf963#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id> ;
+    = <http://www.bbc.co.uk/education/topics/zv97sbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5b94053e-8467-47eb-b890-78a56b6b8198#id> a curric:TopicOfStudy ;
+    rdfs:label "Electronica and dance"@en-gb ;
+    core:disambiguationHint "Higher Music Technology curriculum"@en-gb ;
+    core:preferredLabel "Electronica and dance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bf14b928-5abc-4151-8848-db3fe9470ea0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id> ;
+    = <http://www.bbc.co.uk/education/topics/z4qhgk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5f04a2d1-7279-454d-b5b5-7572bf7a65a9#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/5b94053e-8467-47eb-b890-78a56b6b8198#id> .
+
+<http://www.bbc.co.uk/things/5febbff3-0042-45e9-97ba-334387547f6e#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/200b2153-bb9f-4d5b-96a4-0e3b6726e2da#id> .
+
+<http://www.bbc.co.uk/things/638e0c58-75cb-40a4-9777-3aa6e105fb06#id> a olo:Slot ;
+    olo:index 17 ;
+    olo:item <http://www.bbc.co.uk/things/71b3c3ea-593e-47c4-bf99-978a4b3ed54d#id> .
+
+<http://www.bbc.co.uk/things/69f32ac1-f32f-469c-b2f4-0dec7c78133c#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/72a33f1c-31f1-4203-9d51-8de945ffc136#id> .
+
+<http://www.bbc.co.uk/things/6eb096aa-b601-4e37-a872-64dc8d787440#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/c776d3be-b9dd-40c2-a4f7-51294aed8f4f#id> .
+
+<http://www.bbc.co.uk/things/70d81415-8539-4a43-a085-b0a2232bd1df#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/df736048-21f6-4d51-9c47-2ab57dfc9af3#id> .
+
+<http://www.bbc.co.uk/things/7108b24b-3cfc-495d-a14f-8d776311eff1#id> a olo:Slot ;
+    olo:index 14 ;
+    olo:item <http://www.bbc.co.uk/things/6f67835b-c92c-4ff3-9a92-316e3a255428#id> .
+
+<http://www.bbc.co.uk/things/72a33f1c-31f1-4203-9d51-8de945ffc136#id> a curric:TopicOfStudy ;
+    rdfs:label "Music technology in context"@en-gb ;
+    core:disambiguationHint "Higher Music Technology curriculum"@en-gb ;
+    core:preferredLabel "Music technology in context"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/27b0b783-8515-4824-8832-292df1f8cba9#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id> ;
+    = <http://www.bbc.co.uk/education/topics/zycjpv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/72baa838-f237-489d-ba62-8d179687c99b#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/3dc795d6-b615-4492-8a0d-26a79f07b16e#id> .
+
+<http://www.bbc.co.uk/things/764dc0ff-812b-4508-9287-5f5266898f3f#id> a curric:TopicOfStudy ;
+    rdfs:label "Electronica and dance"@en-gb ;
+    core:disambiguationHint "National 4 Music Technology curriculum"@en-gb ;
+    core:preferredLabel "Electronica and dance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bf14b928-5abc-4151-8848-db3fe9470ea0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/37cda8b7-dc11-497f-b1a7-f8ac4c07bc7b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zfgdtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7875d4a3-d335-4041-ba55-59b128a16708#id> a curric:TopicOfStudy ;
+    rdfs:label "Musique concrete"@en-gb ;
+    core:disambiguationHint "Higher Music Technology curriculum"@en-gb ;
+    core:preferredLabel "Musique concrete"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c6ff5fb9-e8ab-4a5d-9922-4018665aa382#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id> ;
+    = <http://www.bbc.co.uk/education/topics/zw6ykqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/78840027-38ec-4af7-b683-d6ace655f2fc#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/c3b44ee7-8884-4e90-9e28-7fa95b0bc9db#id> .
+
+<http://www.bbc.co.uk/things/7ea453db-3ef6-4f99-9256-4cd8fdb435c7#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/f30427af-e1d1-422e-8da7-00baf199a2ae#id> .
+
+<http://www.bbc.co.uk/things/7eab2fb6-26c9-4b68-86c9-c91934235198#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/920c0609-3658-403e-9a07-239169f60622#id> .
+
+<http://www.bbc.co.uk/things/81f40155-0344-4e82-ab8d-a1d932db35dd#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/c98e0cba-1174-4343-a43c-599c0548ceb8#id> .
+
+<http://www.bbc.co.uk/things/86fbee71-bef0-4a4c-930e-2e4d6b18509d#id> a olo:Slot ;
+    olo:index 15 ;
+    olo:item <http://www.bbc.co.uk/things/e6100e61-a014-4485-8cf6-98594d4a16e4#id> .
+
+<http://www.bbc.co.uk/things/93939b2c-ea4a-492c-82c6-76a38cb1ce81#id> a olo:Slot ;
+    olo:index 18 ;
+    olo:item <http://www.bbc.co.uk/things/ea9bc82c-84d7-4164-ad2f-de1abcdd8a67#id> .
+
+<http://www.bbc.co.uk/things/96c6490f-58a2-4f3c-9cd0-24e229a6d230#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/20a44f8b-a01d-40e5-a13d-5bde8ef2fa3f#id> .
+
+<http://www.bbc.co.uk/things/9768c072-bd35-4707-9bce-d8101662611f#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1205406c-df3c-4321-aae3-24d248e32161#id>,
+        <http://www.bbc.co.uk/things/1b9a53a2-620c-4808-9ff0-779315170d6b#id>,
+        <http://www.bbc.co.uk/things/21162f11-3683-49e5-ae01-f390bb2d2aad#id>,
+        <http://www.bbc.co.uk/things/3005f5d4-c5aa-4d25-9b9d-b155d13ebd07#id>,
+        <http://www.bbc.co.uk/things/41d9e55e-c9ea-4a35-a6d2-625b9da5b563#id>,
+        <http://www.bbc.co.uk/things/49e27e38-fd71-40c7-8be9-328646124ab8#id>,
+        <http://www.bbc.co.uk/things/5f04a2d1-7279-454d-b5b5-7572bf7a65a9#id>,
+        <http://www.bbc.co.uk/things/5febbff3-0042-45e9-97ba-334387547f6e#id>,
+        <http://www.bbc.co.uk/things/638e0c58-75cb-40a4-9777-3aa6e105fb06#id>,
+        <http://www.bbc.co.uk/things/6eb096aa-b601-4e37-a872-64dc8d787440#id>,
+        <http://www.bbc.co.uk/things/7eab2fb6-26c9-4b68-86c9-c91934235198#id>,
+        <http://www.bbc.co.uk/things/86fbee71-bef0-4a4c-930e-2e4d6b18509d#id>,
+        <http://www.bbc.co.uk/things/93939b2c-ea4a-492c-82c6-76a38cb1ce81#id>,
+        <http://www.bbc.co.uk/things/b0512651-849a-480e-82b3-3cf7b3509871#id>,
+        <http://www.bbc.co.uk/things/b0d366fa-8243-4f4e-8d21-cfc91c390b67#id>,
+        <http://www.bbc.co.uk/things/c1bc9dcf-10a8-4908-9ade-1b4128a91596#id>,
+        <http://www.bbc.co.uk/things/df0fe683-795b-44c9-b135-87af13639115#id>,
+        <http://www.bbc.co.uk/things/e0fe0f98-0be9-43f5-a066-c81663942554#id>,
+        <http://www.bbc.co.uk/things/e9d5c8b2-f67d-4cf9-b7ae-e68b2831c0fd#id>,
+        <http://www.bbc.co.uk/things/f347f4a9-f188-4a31-b035-3773b9962405#id>,
+        <http://www.bbc.co.uk/things/fe326eeb-1cb8-4dfe-91f1-bbec533362f6#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z3k2fg8#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/99af948f-9daa-435f-9c0c-dc9a67540982#id> a curric:TopicOfStudy ;
+    rdfs:label "20th and 21st century music"@en-gb ;
+    core:disambiguationHint "Higher Music Technology curriculum"@en-gb ;
+    core:preferredLabel "20th and 21st century music"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id> ;
+    curric:topics <http://www.bbc.co.uk/things/9768c072-bd35-4707-9bce-d8101662611f#id> ;
+    = <http://www.bbc.co.uk/education/topics/z3k2fg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9b27bd2b-6131-48b6-953a-202e0c5e5e09#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/ce450e58-ec7d-42a7-bccd-b4de8f500873#id> .
+
+<http://www.bbc.co.uk/things/9c65bf49-36d1-44d4-a527-36c12ebbe0e9#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/c390ead3-deac-43a1-ad84-08443551f023#id> .
+
+<http://www.bbc.co.uk/things/a37f28db-a10f-4547-8cea-2fa23b12c030#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/764dc0ff-812b-4508-9287-5f5266898f3f#id> .
+
+<http://www.bbc.co.uk/things/a7ffbf55-62d3-4986-a1e2-7e20f6aaf8db#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/9dbcac0f-206f-457e-b653-705a5e6dbd69#id> .
+
+<http://www.bbc.co.uk/things/b0512651-849a-480e-82b3-3cf7b3509871#id> a olo:Slot ;
+    olo:index 19 ;
+    olo:item <http://www.bbc.co.uk/things/1cd8bdbc-7245-418b-b81a-a0442f93bbb4#id> .
+
+<http://www.bbc.co.uk/things/b0d366fa-8243-4f4e-8d21-cfc91c390b67#id> a olo:Slot ;
+    olo:index 21 ;
+    olo:item <http://www.bbc.co.uk/things/0c358a80-d5aa-4817-a145-948b316fe609#id> .
+
+<http://www.bbc.co.uk/things/b10a0991-de04-4c6c-9426-0d3455738696#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/73ba6e0a-adfe-4f3d-88a8-c9bfb9e64c6a#id> .
+
+<http://www.bbc.co.uk/things/b6dd8c99-009f-4945-8c2e-40400040942f#id> a olo:Slot ;
+    olo:index 13 ;
+    olo:item <http://www.bbc.co.uk/things/5e56bc01-6997-47b2-b58b-3f0e36ea219b#id> .
+
+<http://www.bbc.co.uk/things/b87e1811-4256-4341-a0c3-b9c665e9cc9c#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/2fbdc1cf-1680-4806-a97e-5ce5984eaec2#id>,
+        <http://www.bbc.co.uk/things/69f32ac1-f32f-469c-b2f4-0dec7c78133c#id>,
+        <http://www.bbc.co.uk/things/e473225a-5d1e-4e59-a2bf-9b1946680444#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z34qn39#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/c155e024-15bf-4b1c-907d-c7072f28c7b8#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/47d6fb27-6b85-4b5a-a0f2-259809f64b49#id> .
+
+<http://www.bbc.co.uk/things/c1bc9dcf-10a8-4908-9ade-1b4128a91596#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/6ca5b9dc-fdd3-4d43-823b-32916f35630d#id> .
+
+<http://www.bbc.co.uk/things/c390ead3-deac-43a1-ad84-08443551f023#id> a curric:TopicOfStudy ;
+    rdfs:label "Music technology in context"@en-gb ;
+    core:disambiguationHint "National 4 Music Technology curriculum"@en-gb ;
+    core:preferredLabel "Music technology in context"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/27b0b783-8515-4824-8832-292df1f8cba9#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/37cda8b7-dc11-497f-b1a7-f8ac4c07bc7b#id> ;
+    = <http://www.bbc.co.uk/education/topics/ztfc7ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c6ff5fb9-e8ab-4a5d-9922-4018665aa382#id> a curric:Topic ;
+    rdfs:label "Musique concrete"@en-gb ;
+    core:preferredLabel "Musique concrete"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id> ;
+    = <http://www.bbc.co.uk/education/topics/z6frq6f#topic> .
+
+<http://www.bbc.co.uk/things/c98e0cba-1174-4343-a43c-599c0548ceb8#id> a curric:TopicOfStudy ;
+    rdfs:label "Music technology skills"@en-gb ;
+    core:disambiguationHint "National 4 Music Technology curriculum"@en-gb ;
+    core:preferredLabel "Music technology skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/50ce0ccb-1050-41dd-8a7b-4aceb2bcf963#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/37cda8b7-dc11-497f-b1a7-f8ac4c07bc7b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zhy42hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cb60f135-5db0-4fce-a141-e8730b23fbf6#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/4dfdcb43-abad-46d9-ac4c-d512ceed90e8#id> .
+
+<http://www.bbc.co.uk/things/d09a3b06-f97d-47c3-8147-6e609f2680e5#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/943c9969-846d-4475-ba1d-6ca63b9e7927#id> .
+
+<http://www.bbc.co.uk/things/d5c5c859-36f9-4395-8857-f1159fdadd11#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/81f40155-0344-4e82-ab8d-a1d932db35dd#id>,
+        <http://www.bbc.co.uk/things/9c65bf49-36d1-44d4-a527-36c12ebbe0e9#id>,
+        <http://www.bbc.co.uk/things/dbae6def-b74b-4a23-86c6-77aefdad7130#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zgk2fg8#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/d7535643-aa89-4cec-b8d0-2b00e590664b#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/e06b601f-e712-4059-83b1-4e0a28ddd774#id> .
+
+<http://www.bbc.co.uk/things/dbae6def-b74b-4a23-86c6-77aefdad7130#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/29f2ac48-b507-4955-a359-bd26cd2f2b7e#id> .
+
+<http://www.bbc.co.uk/things/df0fe683-795b-44c9-b135-87af13639115#id> a olo:Slot ;
+    olo:index 13 ;
+    olo:item <http://www.bbc.co.uk/things/962c446d-278f-45f7-8978-09a1131af10b#id> .
+
+<http://www.bbc.co.uk/things/df736048-21f6-4d51-9c47-2ab57dfc9af3#id> a curric:TopicOfStudy ;
+    rdfs:label "Music technology in context"@en-gb ;
+    core:disambiguationHint "National 5 Music Technology curriculum"@en-gb ;
+    core:preferredLabel "Music technology in context"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/27b0b783-8515-4824-8832-292df1f8cba9#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/485acea7-5c71-48e0-9166-9b1bc423cb0a#id> ;
+    = <http://www.bbc.co.uk/education/topics/z4jtb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e0fe0f98-0be9-43f5-a066-c81663942554#id> a olo:Slot ;
+    olo:index 14 ;
+    olo:item <http://www.bbc.co.uk/things/f7a32cb3-5744-4e2f-a05a-0fbe0d48955b#id> .
+
+<http://www.bbc.co.uk/things/e473225a-5d1e-4e59-a2bf-9b1946680444#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/550b3da9-167e-4c72-a127-b974eb418529#id> .
+
+<http://www.bbc.co.uk/things/e4b7b9ae-0f42-4223-a3b6-1cf57e9c11b7#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/39d479cc-3514-4e8d-bb27-656c29fa0fbb#id> .
+
+<http://www.bbc.co.uk/things/e9d5c8b2-f67d-4cf9-b7ae-e68b2831c0fd#id> a olo:Slot ;
+    olo:index 12 ;
+    olo:item <http://www.bbc.co.uk/things/86eddace-de44-4fe1-8f2b-cf3e65f8e0dd#id> .
+
+<http://www.bbc.co.uk/things/f30427af-e1d1-422e-8da7-00baf199a2ae#id> a curric:TopicOfStudy ;
+    rdfs:label "20th and 21st century music"@en-gb ;
+    core:disambiguationHint "National 5 Music Technology curriculum"@en-gb ;
+    core:preferredLabel "20th and 21st century music"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/485acea7-5c71-48e0-9166-9b1bc423cb0a#id> ;
+    curric:topics <http://www.bbc.co.uk/things/087db7a1-a64c-4887-b120-21d02c2d3db4#id> ;
+    = <http://www.bbc.co.uk/education/topics/zk7pr82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f347f4a9-f188-4a31-b035-3773b9962405#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/f3361129-715d-4a58-b85b-07c9bc013480#id> .
+
+<http://www.bbc.co.uk/things/f526f26a-8731-4e1c-817a-d5eb7200bd48#id> a olo:Slot ;
+    olo:index 15 ;
+    olo:item <http://www.bbc.co.uk/things/8c561085-fadc-4bd9-94d8-76c63ab1da6a#id> .
+
+<http://www.bbc.co.uk/things/fbb3b6b7-66b1-4f60-aedf-014f27790c02#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/83e993cc-08d8-46f7-8806-49ab6da80010#id> .
+
+<http://www.bbc.co.uk/things/fc56b992-b77f-4474-80ab-08856b79e837#id> a curric:TopicOfStudy ;
+    rdfs:label "Music technology skills"@en-gb ;
+    core:disambiguationHint "National 5 Music Technology curriculum"@en-gb ;
+    core:preferredLabel "Music technology skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/50ce0ccb-1050-41dd-8a7b-4aceb2bcf963#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/485acea7-5c71-48e0-9166-9b1bc423cb0a#id> ;
+    = <http://www.bbc.co.uk/education/topics/z9qhgk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fd54df8e-2b27-4c91-9dc9-48db8d1096ee#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/6c6bdf3f-5029-4e5f-b23e-8bbd5cf6fab8#id> .
+
+<http://www.bbc.co.uk/things/fe326eeb-1cb8-4dfe-91f1-bbec533362f6#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/7875d4a3-d335-4041-ba55-59b128a16708#id> .
+
+<http://www.bbc.co.uk/things/27b0b783-8515-4824-8832-292df1f8cba9#id> a curric:Topic ;
+    rdfs:label "Music technology in context"@en-gb ;
+    core:preferredLabel "Music technology in context"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zr8myrd#topic> .
+
+<http://www.bbc.co.uk/things/50ce0ccb-1050-41dd-8a7b-4aceb2bcf963#id> a curric:Topic ;
+    rdfs:label "Music technology skills"@en-gb ;
+    core:preferredLabel "Music technology skills"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zcdxvcw#topic> .
+
+<http://www.bbc.co.uk/things/bf14b928-5abc-4151-8848-db3fe9470ea0#id> a curric:Topic ;
+    rdfs:label "Electronica and dance"@en-gb ;
+    core:preferredLabel "Electronica and dance"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id> ;
+    = <http://www.bbc.co.uk/education/topics/zkqhgk7#topic> .
+
+<http://www.bbc.co.uk/things/37cda8b7-dc11-497f-b1a7-f8ac4c07bc7b#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/d5c5c859-36f9-4395-8857-f1159fdadd11#id> .
+
+<http://www.bbc.co.uk/things/485acea7-5c71-48e0-9166-9b1bc423cb0a#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/13baf103-07ed-4984-925f-7280487f923a#id> .
+
+<http://www.bbc.co.uk/things/c22a2346-64f7-4653-adc1-bdbad0fbabd2#id> a curric:Topic ;
+    rdfs:label "20th and 21st century music"@en-gb ;
+    core:preferredLabel "20th and 21st century music"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z4w634j#topic> .
+
+<http://www.bbc.co.uk/things/fec6aef8-cfa1-4264-9921-aff533691b87#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/b87e1811-4256-4341-a0c3-b9c665e9cc9c#id> .
+

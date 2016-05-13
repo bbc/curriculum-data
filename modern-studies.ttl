@@ -1,818 +1,946 @@
-@prefix olo:   <http://purl.org/ontology/olo/core#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
 @prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix dc:    <http://purl.org/dc/terms/> .
-
-<http://www.bbc.co.uk/things/ec0c38b5-556d-47c2-b764-1acaa8e4fc9c#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Social issues in the United Kingdom"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f8430db8-94db-4f0d-beee-0758e4675feb#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/0969316a-dbca-4a80-948e-324356cb3689#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zqvv4wx#topic-of-study> .
-
-<http://www.bbc.co.uk/things/f46d6f45-10d6-4be0-9745-99e591ed29b7#id>
-        a           curric:Topic ;
-        rdfs:label  "Social issues"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zb9k7ty#topic> .
-
-<http://www.bbc.co.uk/things/0b335ee7-4259-4da7-ae95-ee746b13fcd6#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: European Union"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f05ff8b6-1475-4812-b59f-aa5ec0388265#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zhyv4wx#topic-of-study> .
-
-<http://www.bbc.co.uk/things/691979c7-769f-4f65-8446-4a688949a103#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Poverty"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0c0fb7f9-c866-4d6b-b9c3-b1630a296f88#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z8t6fg8#topic-of-study> .
-
-<http://www.bbc.co.uk/things/e30c138c-8dab-4d10-a119-b1839efd3297#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/141d8ab5-b15b-4f95-96e7-fde09cbe4b98#id> .
-
-<http://www.bbc.co.uk/things/c42b89fd-cf60-4df4-a1ec-496e1b9efc23#id>
-        a                  curric:Topic ;
-        rdfs:label         "Conflict"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zgk82hv#topic> .
-
-<http://www.bbc.co.uk/things/3acb3eb3-68a7-48e6-919f-53db84b37fff#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/f7ed0b23-24d4-4c3b-8b59-710a51705d34#id> .
-
-<http://www.bbc.co.uk/things/2cab9653-224f-4035-8d5c-830354c635a1#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/0fa7e57d-0798-4276-9554-483a33ba3f2b#id> .
-
-<http://www.bbc.co.uk/things/07f05208-95f6-4ce4-94e0-8c6d9dd8ced0#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/25b6b0bd-ebed-4ffa-8476-342a643af939#id> .
-
-<http://www.bbc.co.uk/things/4c314e83-5a4e-441e-aba4-678765d9be21#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: China"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/09b9a31d-1079-4073-b659-7e5c96ed8767#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/ztfycdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/766a2e58-a5ff-4eab-a8e8-0562c37176da#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Democracy in Scotland and the United Kingdom"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/1a49e5f4-9953-43b1-9c8a-b33d51c30108#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/ztb39j6#topic-of-study> .
-
-<http://www.bbc.co.uk/things/9aefc467-9fb3-42f6-b395-c1d51475b20a#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/691979c7-769f-4f65-8446-4a688949a103#id> .
-
-<http://www.bbc.co.uk/things/7244e607-2e00-41cc-a163-c7b300687b9a#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/01262057-3fe5-4d5c-b3c1-b66812727405#id> .
-
-<http://www.bbc.co.uk/things/787791ca-91d2-429e-991c-99415db7bfbe#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/caf9abe2-fcf9-4df0-bbec-abe4e4b12048#id> , <http://www.bbc.co.uk/things/53bbaf4d-d95a-42f5-a767-cd3972431b20#id> , <http://www.bbc.co.uk/things/904128a6-8522-48a7-9eb0-8c12826e1f0d#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zp3v4wx#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/74defed6-6de4-47c9-9435-6085d7f3f309#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/3351e471-b4da-430d-82a3-a480a53ec86c#id> .
-
-<http://www.bbc.co.uk/things/e62f22a5-bb98-465f-90e5-e5a4ea5e59df#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: India"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/2d01d68c-697f-44f1-9a5c-6ba351cfaefd#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zbk82hv#topic-of-study> .
-
-<http://www.bbc.co.uk/things/3d45cfdc-82fc-4eca-98ae-63eb62bd7461#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "International issues"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/0969316a-dbca-4a80-948e-324356cb3689#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7339j6#topic-of-study> .
-
-<http://www.bbc.co.uk/things/32aae15a-b8fa-42f2-9d02-a50bcf357bc6#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/11ce65e9-56fa-4f2b-9600-a51a81d3d580#id> .
-
-<http://www.bbc.co.uk/things/8b63e4e9-bb74-48ef-b1ed-395b563d1388#id>
-        a                  curric:Topic ;
-        rdfs:label         "Migration"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/740468c1-7838-45af-b89b-ff6715ad4933#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zr8dmp3#topic> .
-
-<http://www.bbc.co.uk/things/e5166116-b680-4a40-8ad1-9f3ee128ff92#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/46dfcd72-482c-40d6-9ada-b150d92a87f3#id> .
-
-<http://www.bbc.co.uk/things/a19a6bd4-57f6-4c90-8dd7-f2c263b0ee17#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/c8fa820f-30c3-4181-ae2d-a79df1b6cba2#id> .
-
-<http://www.bbc.co.uk/things/25b6b0bd-ebed-4ffa-8476-342a643af939#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Migration"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8b63e4e9-bb74-48ef-b1ed-395b563d1388#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zyrcwmn#topic-of-study> .
-
-<http://www.bbc.co.uk/things/971811c2-7f0c-4ef8-be87-eb6c21c8ba82#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: China"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/09b9a31d-1079-4073-b659-7e5c96ed8767#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zv49q6f#topic-of-study> .
-
-<http://www.bbc.co.uk/things/686e91f7-2ea5-4f21-9058-1d3554de99e2#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/432885d4-f6ff-413a-964a-522cd349f815#id> .
-
-<http://www.bbc.co.uk/things/a108f3fd-cebc-416e-8980-3a9062352e2d#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/e62f22a5-bb98-465f-90e5-e5a4ea5e59df#id> .
-
-<http://www.bbc.co.uk/things/d29f7937-6b79-44f1-8cda-5d2a6dd39e9e#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/963f1036-d815-4561-bbb4-dcecd7fa4ea9#id> , <http://www.bbc.co.uk/things/2cab9653-224f-4035-8d5c-830354c635a1#id> , <http://www.bbc.co.uk/things/0f1d5465-8a5c-44b4-95ad-fd6aa86b6098#id> , <http://www.bbc.co.uk/things/621d93ce-5f96-4420-bb0e-ca2916b9365a#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/ztsvr82#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/4ea8309d-3ea7-4d82-a918-96d82bce34a8#id>
-        a                  curric:Topic ;
-        rdfs:label         "United Kingdom"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z349q6f#topic> .
-
-<http://www.bbc.co.uk/things/c68746b6-5575-4943-822e-b4e00832844d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Democracy in Scotland"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/740468c1-7838-45af-b89b-ff6715ad4933#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zd2mn39#topic-of-study> .
-
-<http://www.bbc.co.uk/things/432885d4-f6ff-413a-964a-522cd349f815#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Inequality"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7thvcw#topic-of-study> .
-
-<http://www.bbc.co.uk/things/1cc3069f-b5d2-403d-8a85-4f60699acb95#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Crime and law"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/14e45832-70d3-4b73-b3cf-8a8b7463e8f4#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zq6tyrd#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id>
-        a           curric:Topic ;
-        rdfs:label  "Democracy in Scotland and the United Kingdom"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zdt6fg8#topic> .
-
-<http://www.bbc.co.uk/things/d1cffbd4-8d03-4bda-b47b-ac7004d66a04#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/50b9474c-b8ed-4a65-9324-aefec9e74ae5#id> , <http://www.bbc.co.uk/things/7244e607-2e00-41cc-a163-c7b300687b9a#id> , <http://www.bbc.co.uk/things/ccaaf6ce-c285-4736-b3e8-f8beb821f761#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zxsnb9q#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/963f1036-d815-4561-bbb4-dcecd7fa4ea9#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/5fc2c678-244e-42c5-861b-87cb6f41767c#id> .
-
-<http://www.bbc.co.uk/things/7dfdf744-d5f3-456d-b838-6924353be2eb#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World issues: Poverty"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0c0fb7f9-c866-4d6b-b9c3-b1630a296f88#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6sfr82#topic-of-study> .
-
-<http://www.bbc.co.uk/things/506f45c6-70da-4bf4-a6d9-7475ab1416da#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/971811c2-7f0c-4ef8-be87-eb6c21c8ba82#id> .
-
-<http://www.bbc.co.uk/things/e7d36df9-bcbb-4b7a-9dbf-a13eee96767d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: USA"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/6d837108-c53a-499b-976d-e9532fad17ee#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zsbg87h#topic-of-study> .
-
-<http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id>
-        a           curric:Topic ;
-        rdfs:label  "International issues"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zmyfr82#topic> .
-
-<http://www.bbc.co.uk/things/d766cce9-a9c6-4e4a-afe0-2f5e14125360#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Crime, law and the justice system"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/14e45832-70d3-4b73-b3cf-8a8b7463e8f4#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zs4cwmn#topic-of-study> .
-
-<http://www.bbc.co.uk/things/686113b8-1255-469b-bcc2-35ddc0246a99#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: European Union"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f05ff8b6-1475-4812-b59f-aa5ec0388265#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z39k7ty#topic-of-study> .
-
-<http://www.bbc.co.uk/things/f7ed0b23-24d4-4c3b-8b59-710a51705d34#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/61bbf09b-33fe-4f79-881f-a6a67fc7257f#id> , <http://www.bbc.co.uk/things/afa37e58-5ac6-43d5-a3d1-78aafb681941#id> , <http://www.bbc.co.uk/things/8775029d-5362-4a22-b990-619515392ec7#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z9ttyrd#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/7b6d4a66-73d9-41ce-9ac6-141e2f5d3511#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/128cdf02-0ad6-4d88-97a7-c96e0cad4ee5#id> .
-
-<http://www.bbc.co.uk/things/65b08750-eaee-4db4-bd7b-0928609d0fdd#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/f3597df6-9913-462b-9cfd-d0fa6d15bba1#id> .
-
-<http://www.bbc.co.uk/things/f8430db8-94db-4f0d-beee-0758e4675feb#id>
-        a           curric:Topic ;
-        rdfs:label  "Social issues in the United Kingdom"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zqnp34j#topic> .
-
-<http://www.bbc.co.uk/things/145fb334-2caa-434b-b2b2-e6ee13e9b216#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/7dfdf744-d5f3-456d-b838-6924353be2eb#id> .
-
-<http://www.bbc.co.uk/things/914f10df-45a6-4c61-a263-cf9c672ce2e1#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/680bd3c1-0765-47b1-9182-1280ce0827b4#id> .
-
-<http://www.bbc.co.uk/things/0969316a-dbca-4a80-948e-324356cb3689#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/705c7863-9fdb-418d-b1f6-da24833fa307#id> .
-
-<http://www.bbc.co.uk/things/e9018d44-43e8-466b-8783-88c3e1fbf904#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/0b335ee7-4259-4da7-ae95-ee746b13fcd6#id> .
-
-<http://www.bbc.co.uk/things/ccaaf6ce-c285-4736-b3e8-f8beb821f761#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/51412a42-2ce4-4e7b-898d-af9ed0e0ebc1#id> .
-
-<http://www.bbc.co.uk/things/f13590ac-eec2-4681-8312-c2e26d7e3cbe#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/5086f700-87c9-4242-8228-9783148b6d31#id> , <http://www.bbc.co.uk/things/52a5a024-1f9b-4be5-ae50-8169ffa43eb5#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zbjwxnb#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/5f16a7f3-448d-4d0e-8109-ae899608ac21#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/8baef74b-a65b-4a0c-99d7-b3ab0390d737#id> , <http://www.bbc.co.uk/things/cb00879e-097e-42c2-847b-1d987d24a18e#id> , <http://www.bbc.co.uk/things/65b08750-eaee-4db4-bd7b-0928609d0fdd#id> , <http://www.bbc.co.uk/things/9aefc467-9fb3-42f6-b395-c1d51475b20a#id> , <http://www.bbc.co.uk/things/12fb6a59-3b89-41b3-a680-aa03f9e9c622#id> , <http://www.bbc.co.uk/things/c12aaa09-0115-4b00-945b-2e89d05bdaa9#id> , <http://www.bbc.co.uk/things/6dc505ac-e1db-47db-b56d-058fd1f26542#id> , <http://www.bbc.co.uk/things/49b43711-0d37-46d1-8d83-db14900149b9#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zk6xsbk#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/f05ff8b6-1475-4812-b59f-aa5ec0388265#id>
-        a                  curric:Topic ;
-        rdfs:label         "World power: European Union"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z4wj6sg#topic> .
-
-<http://www.bbc.co.uk/things/46dfcd72-482c-40d6-9ada-b150d92a87f3#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World issues: Migration"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8b63e4e9-bb74-48ef-b1ed-395b563d1388#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zxnsgk7#topic-of-study> .
-
-<http://www.bbc.co.uk/things/0fa7e57d-0798-4276-9554-483a33ba3f2b#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Social issues"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f46d6f45-10d6-4be0-9745-99e591ed29b7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/5a7ff0e6-d3b3-47ba-a6e3-de635a99d324#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zjx6fg8#topic-of-study> .
-
-<http://www.bbc.co.uk/things/a1298657-e0d4-4b43-8831-8510725b3597#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: European Union"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f05ff8b6-1475-4812-b59f-aa5ec0388265#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z9q7hyc#topic-of-study> .
-
-<http://www.bbc.co.uk/things/e16ddd02-890a-4ef1-b402-abd2980475a6#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Social issues in the United Kingdom"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f8430db8-94db-4f0d-beee-0758e4675feb#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3acb3eb3-68a7-48e6-919f-53db84b37fff#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zmgg87h#topic-of-study> .
-
-<http://www.bbc.co.uk/things/61bbf09b-33fe-4f79-881f-a6a67fc7257f#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/ca773c71-579b-48b1-9298-3b6b6a2a6fa4#id> .
-
-<http://www.bbc.co.uk/things/50b9474c-b8ed-4a65-9324-aefec9e74ae5#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/91d38770-ad43-4928-a736-249f1d330d17#id> .
-
-<http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/d1cffbd4-8d03-4bda-b47b-ac7004d66a04#id> .
-
-<http://www.bbc.co.uk/things/f83debd9-6c2c-45df-b93b-a43ceb83fba1#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Conflict"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/c42b89fd-cf60-4df4-a1ec-496e1b9efc23#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfgrd2p#topic-of-study> .
-
-<http://www.bbc.co.uk/things/25ef7ed7-f1a1-4579-b03a-a5998780987f#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/79f1f92d-3316-4f80-a830-ea0c8e821afe#id> .
-
-<http://www.bbc.co.uk/things/5086f700-87c9-4242-8228-9783148b6d31#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/197a2e7d-630f-4219-a5de-c786753c2210#id> .
-
-<http://www.bbc.co.uk/things/4e9fe675-888b-4c94-8057-00a3075f03f3#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/3d45cfdc-82fc-4eca-98ae-63eb62bd7461#id> .
-
-<http://www.bbc.co.uk/things/621d93ce-5f96-4420-bb0e-ca2916b9365a#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/c68746b6-5575-4943-822e-b4e00832844d#id> .
-
-<http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id>
-        a                  curric:Topic ;
-        rdfs:label         "Inequality"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/f46d6f45-10d6-4be0-9745-99e591ed29b7#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z2fsgk7#topic> .
-
-<http://www.bbc.co.uk/things/12fb6a59-3b89-41b3-a680-aa03f9e9c622#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/8b8a519b-2f9a-4303-a524-984d1214fa68#id> .
-
-<http://www.bbc.co.uk/things/6dc505ac-e1db-47db-b56d-058fd1f26542#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/f1182da7-9a0e-49e5-9992-37da08fc0cbd#id> .
-
-<http://www.bbc.co.uk/things/52a5a024-1f9b-4be5-ae50-8169ffa43eb5#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/b475cd06-453e-4393-aaee-6ff09e1342f0#id> .
-
-<http://www.bbc.co.uk/things/6489a21e-a6fa-41da-8122-603b35be0dce#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/d766cce9-a9c6-4e4a-afe0-2f5e14125360#id> .
-
-<http://www.bbc.co.uk/things/14e45832-70d3-4b73-b3cf-8a8b7463e8f4#id>
-        a                  curric:Topic ;
-        rdfs:label         "Crime, law and the justice system"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/f46d6f45-10d6-4be0-9745-99e591ed29b7#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z7snb9q#topic> .
-
-<http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/d29f7937-6b79-44f1-8cda-5d2a6dd39e9e#id> .
-
-<http://www.bbc.co.uk/things/b475cd06-453e-4393-aaee-6ff09e1342f0#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Scotland"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/740468c1-7838-45af-b89b-ff6715ad4933#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zr7qtfr#topic-of-study> .
-
-<http://www.bbc.co.uk/things/386d06f3-8af2-4035-b01f-a7e2aabb8119#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/e7d36df9-bcbb-4b7a-9dbf-a13eee96767d#id> .
-
-<http://www.bbc.co.uk/things/91d38770-ad43-4928-a736-249f1d330d17#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Democracy in Scotland and the United Kingdom"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/f13590ac-eec2-4681-8312-c2e26d7e3cbe#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zbjwxnb#topic-of-study> .
-
-<http://www.bbc.co.uk/things/5a7ff0e6-d3b3-47ba-a6e3-de635a99d324#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/686e91f7-2ea5-4f21-9058-1d3554de99e2#id> , <http://www.bbc.co.uk/things/310d0117-345e-46cd-ad53-881a19d2234f#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zjx6fg8#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/1746f605-1ab4-477c-8db8-f19887356db5#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/e2ca9197-ca1f-4491-a560-25354a897f3a#id> .
-
-<http://www.bbc.co.uk/things/1a49e5f4-9953-43b1-9c8a-b33d51c30108#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/a19a6bd4-57f6-4c90-8dd7-f2c263b0ee17#id> , <http://www.bbc.co.uk/things/32aae15a-b8fa-42f2-9d02-a50bcf357bc6#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/ztb39j6#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/3f6b59cb-b119-464a-b0e3-16f87e6b66c6#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/ec0c38b5-556d-47c2-b764-1acaa8e4fc9c#id> .
-
-<http://www.bbc.co.uk/things/f1182da7-9a0e-49e5-9992-37da08fc0cbd#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Conflict"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/c42b89fd-cf60-4df4-a1ec-496e1b9efc23#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zrdwxnb#topic-of-study> .
-
-<http://www.bbc.co.uk/things/141d8ab5-b15b-4f95-96e7-fde09cbe4b98#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Inequality"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z9xmn39#topic-of-study> .
-
-<http://www.bbc.co.uk/things/e696375e-4f58-432c-952a-7f4e81736359#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/e5166116-b680-4a40-8ad1-9f3ee128ff92#id> , <http://www.bbc.co.uk/things/914f10df-45a6-4c61-a263-cf9c672ce2e1#id> , <http://www.bbc.co.uk/things/74defed6-6de4-47c9-9435-6085d7f3f309#id> , <http://www.bbc.co.uk/things/f77877ea-dc72-4f21-bd54-9a447449ff02#id> , <http://www.bbc.co.uk/things/29ad894f-c871-4b2e-87ae-a0f1e570d78f#id> , <http://www.bbc.co.uk/things/e9018d44-43e8-466b-8783-88c3e1fbf904#id> , <http://www.bbc.co.uk/things/386d06f3-8af2-4035-b01f-a7e2aabb8119#id> , <http://www.bbc.co.uk/things/145fb334-2caa-434b-b2b2-e6ee13e9b216#id> , <http://www.bbc.co.uk/things/6805d666-b0ff-4d79-9ed6-2c36db4a1bc0#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z2hp34j#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/f3597df6-9913-462b-9cfd-d0fa6d15bba1#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: China"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/09b9a31d-1079-4073-b659-7e5c96ed8767#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z4jqtfr#topic-of-study> .
-
-<http://www.bbc.co.uk/things/16672ada-4c8c-4dc1-aabd-d4c56009d9dc#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: India"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/2d01d68c-697f-44f1-9a5c-6ba351cfaefd#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zk72pv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/fdca745f-90da-4f35-85bc-147bd4649f12#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/686113b8-1255-469b-bcc2-35ddc0246a99#id> .
-
-<http://www.bbc.co.uk/things/e2ca9197-ca1f-4491-a560-25354a897f3a#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Crime, law and the justice system"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/14e45832-70d3-4b73-b3cf-8a8b7463e8f4#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z4m2pv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/197a2e7d-630f-4219-a5de-c786753c2210#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "United Kingdom"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/2ba03531-30be-457d-b7e8-16443fd1f3e4#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zgqj6sg#topic-of-study> .
-
-<http://www.bbc.co.uk/things/29ad894f-c871-4b2e-87ae-a0f1e570d78f#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/88497051-dae5-44ca-a13a-11adfe0cd300#id> .
-
-<http://www.bbc.co.uk/things/ca773c71-579b-48b1-9298-3b6b6a2a6fa4#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "International issues"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3acb3eb3-68a7-48e6-919f-53db84b37fff#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zxrrd2p#topic-of-study> .
-
-<http://www.bbc.co.uk/things/f77877ea-dc72-4f21-bd54-9a447449ff02#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/4c314e83-5a4e-441e-aba4-678765d9be21#id> .
-
-<http://www.bbc.co.uk/things/51412a42-2ce4-4e7b-898d-af9ed0e0ebc1#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "International issues"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/5f16a7f3-448d-4d0e-8109-ae899608ac21#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zk6xsbk#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c8fa820f-30c3-4181-ae2d-a79df1b6cba2#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Scotland"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/740468c1-7838-45af-b89b-ff6715ad4933#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zprg87h#topic-of-study> .
-
-<http://www.bbc.co.uk/things/caf9abe2-fcf9-4df0-bbec-abe4e4b12048#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/945e99b5-b7b8-4a9b-aee7-93657d73fe81#id> .
-
-<http://www.bbc.co.uk/things/310d0117-345e-46cd-ad53-881a19d2234f#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/1cc3069f-b5d2-403d-8a85-4f60699acb95#id> .
-
-<http://www.bbc.co.uk/things/2ba03531-30be-457d-b7e8-16443fd1f3e4#id>
-        a                  curric:Topic ;
-        rdfs:label         "UK"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zwhtyrd#topic> .
-
-<http://www.bbc.co.uk/things/cef31b44-6c1a-48c0-8788-9d16eeb4de6c#id>
-        a                  curric:Topic ;
-        rdfs:label         "World power: South Africa"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zkq7hyc#topic> .
-
-<http://www.bbc.co.uk/things/740468c1-7838-45af-b89b-ff6715ad4933#id>
-        a                  curric:Topic ;
-        rdfs:label         "Scotland"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/ba4c81c5-e565-4e0f-98fd-40466929658a#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zjphvcw#topic> .
-
-<http://www.bbc.co.uk/things/97c92ccb-b767-43f8-bd78-52be237f4e61#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: USA"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/6d837108-c53a-499b-976d-e9532fad17ee#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zdhtyrd#topic-of-study> .
-
-<http://www.bbc.co.uk/things/afa37e58-5ac6-43d5-a3d1-78aafb681941#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/e16ddd02-890a-4ef1-b402-abd2980475a6#id> .
-
-<http://www.bbc.co.uk/things/3f0e9b79-5682-4b0e-9d1b-e2007cdb577a#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Democracy in the UK"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/4ea8309d-3ea7-4d82-a918-96d82bce34a8#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zwmxsbk#topic-of-study> .
-
-<http://www.bbc.co.uk/things/904128a6-8522-48a7-9eb0-8c12826e1f0d#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/605c9712-de70-414f-9b82-64d3923ce997#id> .
-
-<http://www.bbc.co.uk/things/8775029d-5362-4a22-b990-619515392ec7#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/db75427c-a5de-48de-81bd-9082e9031322#id> .
-
-<http://www.bbc.co.uk/things/6d837108-c53a-499b-976d-e9532fad17ee#id>
-        a                  curric:Topic ;
-        rdfs:label         "World power: USA"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z63v4wx#topic> .
-
-<http://www.bbc.co.uk/things/7657b63a-cd24-437d-866f-0949defd0666#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/e37b5a29-3a46-477f-8934-eea2f9fd31dd#id> .
-
-<http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/787791ca-91d2-429e-991c-99415db7bfbe#id> .
-
-<http://www.bbc.co.uk/things/04378b9b-fd52-464b-a30d-be79c0d34db2#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/7657b63a-cd24-437d-866f-0949defd0666#id> , <http://www.bbc.co.uk/things/6489a21e-a6fa-41da-8122-603b35be0dce#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zncrd2p#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/68bb6d3d-1a46-4b65-8a1e-c92d86c0ef61#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: South Africa"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/cef31b44-6c1a-48c0-8788-9d16eeb4de6c#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zg8dmp3#topic-of-study> .
-
-<http://www.bbc.co.uk/things/2d01d68c-697f-44f1-9a5c-6ba351cfaefd#id>
-        a                  curric:Topic ;
-        rdfs:label         "World power: India"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z9jqtfr#topic> .
-
-<http://www.bbc.co.uk/things/0f1d5465-8a5c-44b4-95ad-fd6aa86b6098#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/3f0e9b79-5682-4b0e-9d1b-e2007cdb577a#id> .
-
-<http://www.bbc.co.uk/things/0c0fb7f9-c866-4d6b-b9c3-b1630a296f88#id>
-        a                  curric:Topic ;
-        rdfs:label         "Poverty"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zxvycdm#topic> .
-
-<http://www.bbc.co.uk/things/8b8a519b-2f9a-4303-a524-984d1214fa68#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Migration"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8b63e4e9-bb74-48ef-b1ed-395b563d1388#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zcwj6sg#topic-of-study> .
-
-<http://www.bbc.co.uk/things/6380560d-188f-4dde-9528-d41368b5ed4b#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/f7c0f2d0-3155-4877-aef3-7d38c4359f00#id> , <http://www.bbc.co.uk/things/a108f3fd-cebc-416e-8980-3a9062352e2d#id> , <http://www.bbc.co.uk/things/25ef7ed7-f1a1-4579-b03a-a5998780987f#id> , <http://www.bbc.co.uk/things/07f05208-95f6-4ce4-94e0-8c6d9dd8ced0#id> , <http://www.bbc.co.uk/things/c957edda-dd81-4687-935d-a7e91340a0cc#id> , <http://www.bbc.co.uk/things/33b6f830-2f96-4bcc-8101-a64a3aab5a3f#id> , <http://www.bbc.co.uk/things/fdca745f-90da-4f35-85bc-147bd4649f12#id> , <http://www.bbc.co.uk/things/506f45c6-70da-4bf4-a6d9-7475ab1416da#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zyk9q6f#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/88497051-dae5-44ca-a13a-11adfe0cd300#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: India"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/2d01d68c-697f-44f1-9a5c-6ba351cfaefd#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zpv39j6#topic-of-study> .
-
-<http://www.bbc.co.uk/things/01262057-3fe5-4d5c-b3c1-b66812727405#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Social issues"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f8430db8-94db-4f0d-beee-0758e4675feb#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/4da2062a-f332-401f-bb89-56f1b7bf0b90#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zc27hyc#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b2700e1d-0c62-438b-826b-5f75b4883f77#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: South Africa"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/cef31b44-6c1a-48c0-8788-9d16eeb4de6c#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z82mn39#topic-of-study> .
-
-<http://www.bbc.co.uk/things/945e99b5-b7b8-4a9b-aee7-93657d73fe81#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Social issues"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f8430db8-94db-4f0d-beee-0758e4675feb#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/04378b9b-fd52-464b-a30d-be79c0d34db2#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zncrd2p#topic-of-study> .
-
-<http://www.bbc.co.uk/things/605c9712-de70-414f-9b82-64d3923ce997#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "International issues"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/6380560d-188f-4dde-9528-d41368b5ed4b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zyk9q6f#topic-of-study> .
-
-<http://www.bbc.co.uk/things/f7c0f2d0-3155-4877-aef3-7d38c4359f00#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/68bb6d3d-1a46-4b65-8a1e-c92d86c0ef61#id> .
-
-<http://www.bbc.co.uk/things/2cc2d83f-47cb-4692-bd37-e57060eff812#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World issues: Conflict"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/c42b89fd-cf60-4df4-a1ec-496e1b9efc23#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zmpnb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/79f1f92d-3316-4f80-a830-ea0c8e821afe#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: USA"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/6d837108-c53a-499b-976d-e9532fad17ee#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z3wdmp3#topic-of-study> .
-
-<http://www.bbc.co.uk/things/3351e471-b4da-430d-82a3-a480a53ec86c#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World issues: Syria"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/373055d4-2dad-4a9f-b1d5-a8eddb10d4ba#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zkrjpv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/cadb3df3-441e-4516-be7c-9b5816e2e667#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Poverty"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0c0fb7f9-c866-4d6b-b9c3-b1630a296f88#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zvd82hv#topic-of-study> .
-
-<http://www.bbc.co.uk/things/8baef74b-a65b-4a0c-99d7-b3ab0390d737#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/a1298657-e0d4-4b43-8831-8510725b3597#id> .
-
-<http://www.bbc.co.uk/things/c12aaa09-0115-4b00-945b-2e89d05bdaa9#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/16672ada-4c8c-4dc1-aabd-d4c56009d9dc#id> .
-
-<http://www.bbc.co.uk/things/e37b5a29-3a46-477f-8934-eea2f9fd31dd#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Inequality"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zf94jxs#topic-of-study> .
-
-<http://www.bbc.co.uk/things/128cdf02-0ad6-4d88-97a7-c96e0cad4ee5#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Democracy in Scotland and the United Kingdom"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/0969316a-dbca-4a80-948e-324356cb3689#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zjyycdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c957edda-dd81-4687-935d-a7e91340a0cc#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/cadb3df3-441e-4516-be7c-9b5816e2e667#id> .
-
-<http://www.bbc.co.uk/things/db75427c-a5de-48de-81bd-9082e9031322#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Democracy in Scotland and the United Kingdom"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3acb3eb3-68a7-48e6-919f-53db84b37fff#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z2bbkqt#topic-of-study> .
-
-<http://www.bbc.co.uk/things/6805d666-b0ff-4d79-9ed6-2c36db4a1bc0#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/2cc2d83f-47cb-4692-bd37-e57060eff812#id> .
-
-<http://www.bbc.co.uk/things/680bd3c1-0765-47b1-9182-1280ce0827b4#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World power: South Africa"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/cef31b44-6c1a-48c0-8788-9d16eeb4de6c#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zn3bkqt#topic-of-study> .
-
-<http://www.bbc.co.uk/things/11ce65e9-56fa-4f2b-9600-a51a81d3d580#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "United Kingdom"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/2ba03531-30be-457d-b7e8-16443fd1f3e4#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zhgbkqt#topic-of-study> .
-
-<http://www.bbc.co.uk/things/cb00879e-097e-42c2-847b-1d987d24a18e#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/97c92ccb-b767-43f8-bd78-52be237f4e61#id> .
-
-<http://www.bbc.co.uk/things/4da2062a-f332-401f-bb89-56f1b7bf0b90#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/e30c138c-8dab-4d10-a119-b1839efd3297#id> , <http://www.bbc.co.uk/things/1746f605-1ab4-477c-8db8-f19887356db5#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zc27hyc#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/5fc2c678-244e-42c5-861b-87cb6f41767c#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "International issues"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/e696375e-4f58-432c-952a-7f4e81736359#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z2hp34j#topic-of-study> .
-
-<http://www.bbc.co.uk/things/373055d4-2dad-4a9f-b1d5-a8eddb10d4ba#id>
-        a           curric:Topic ;
-        rdfs:label  "World issues: Syria"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z9gwhyc#topic> .
-
-<http://www.bbc.co.uk/things/49b43711-0d37-46d1-8d83-db14900149b9#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/b2700e1d-0c62-438b-826b-5f75b4883f77#id> .
-
-<http://www.bbc.co.uk/things/33b6f830-2f96-4bcc-8101-a64a3aab5a3f#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/f83debd9-6c2c-45df-b93b-a43ceb83fba1#id> .
-
-<http://www.bbc.co.uk/things/705c7863-9fdb-418d-b1f6-da24833fa307#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/7b6d4a66-73d9-41ce-9ac6-141e2f5d3511#id> , <http://www.bbc.co.uk/things/4e9fe675-888b-4c94-8057-00a3075f03f3#id> , <http://www.bbc.co.uk/things/3f6b59cb-b119-464a-b0e3-16f87e6b66c6#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zrmmn39#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/53bbaf4d-d95a-42f5-a767-cd3972431b20#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/766a2e58-a5ff-4eab-a8e8-0562c37176da#id> .
-
-<http://www.bbc.co.uk/things/09b9a31d-1079-4073-b659-7e5c96ed8767#id>
-        a                  curric:Topic ;
-        rdfs:label         "World power: China"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zcdwxnb#topic> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/4b9f6095-3ee0-4e30-873e-ab19c833c3f7#id> a provenance:Dataset ;
+    rdfs:label "Topics, Topics of Study and Topic of Study Lists of modern studies" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version 10 .
+
+<http://www.bbc.co.uk/things/01262057-3fe5-4d5c-b3c1-b66812727405#id> a curric:TopicOfStudy ;
+    rdfs:label "Social issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Social issues"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f8430db8-94db-4f0d-beee-0758e4675feb#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/4da2062a-f332-401f-bb89-56f1b7bf0b90#id> ;
+    = <http://www.bbc.co.uk/education/topics/zc27hyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/04378b9b-fd52-464b-a30d-be79c0d34db2#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/6489a21e-a6fa-41da-8122-603b35be0dce#id>,
+        <http://www.bbc.co.uk/things/7657b63a-cd24-437d-866f-0949defd0666#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zncrd2p#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/07f05208-95f6-4ce4-94e0-8c6d9dd8ced0#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/25b6b0bd-ebed-4ffa-8476-342a643af939#id> .
+
+<http://www.bbc.co.uk/things/0b335ee7-4259-4da7-ae95-ee746b13fcd6#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: European Union"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: European Union"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f05ff8b6-1475-4812-b59f-aa5ec0388265#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zhyv4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0f1d5465-8a5c-44b4-95ad-fd6aa86b6098#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/3f0e9b79-5682-4b0e-9d1b-e2007cdb577a#id> .
+
+<http://www.bbc.co.uk/things/0fa7e57d-0798-4276-9554-483a33ba3f2b#id> a curric:TopicOfStudy ;
+    rdfs:label "Social issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Social issues"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f46d6f45-10d6-4be0-9745-99e591ed29b7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/5a7ff0e6-d3b3-47ba-a6e3-de635a99d324#id> ;
+    = <http://www.bbc.co.uk/education/topics/zjx6fg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/11ce65e9-56fa-4f2b-9600-a51a81d3d580#id> a curric:TopicOfStudy ;
+    rdfs:label "United Kingdom"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "United Kingdom"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2ba03531-30be-457d-b7e8-16443fd1f3e4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zhgbkqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/128cdf02-0ad6-4d88-97a7-c96e0cad4ee5#id> a curric:TopicOfStudy ;
+    rdfs:label "Democracy in Scotland and the United Kingdom"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Nàiseanta 4 Nuadh-eòlas curriculum"@gd-gb ;
+    core:preferredLabel "Deamocrasaidh ann an Alba agus san Rìoghachd Aonaichte"@gd-gb ;
+    curric:about <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/0969316a-dbca-4a80-948e-324356cb3689#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zjyycdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/12fb6a59-3b89-41b3-a680-aa03f9e9c622#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/8b8a519b-2f9a-4303-a524-984d1214fa68#id> .
+
+<http://www.bbc.co.uk/things/141d8ab5-b15b-4f95-96e7-fde09cbe4b98#id> a curric:TopicOfStudy ;
+    rdfs:label "Inequality"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Inequality"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9xmn39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/145fb334-2caa-434b-b2b2-e6ee13e9b216#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/7dfdf744-d5f3-456d-b838-6924353be2eb#id> .
+
+<http://www.bbc.co.uk/things/16672ada-4c8c-4dc1-aabd-d4c56009d9dc#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: India"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: India"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2d01d68c-697f-44f1-9a5c-6ba351cfaefd#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zk72pv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1746f605-1ab4-477c-8db8-f19887356db5#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/e2ca9197-ca1f-4491-a560-25354a897f3a#id> .
+
+<http://www.bbc.co.uk/things/197a2e7d-630f-4219-a5de-c786753c2210#id> a curric:TopicOfStudy ;
+    rdfs:label "United Kingdom"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "United Kingdom"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2ba03531-30be-457d-b7e8-16443fd1f3e4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgqj6sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1a49e5f4-9953-43b1-9c8a-b33d51c30108#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/32aae15a-b8fa-42f2-9d02-a50bcf357bc6#id>,
+        <http://www.bbc.co.uk/things/a19a6bd4-57f6-4c90-8dd7-f2c263b0ee17#id> ;
+    = <http://www.bbc.co.uk/education/subjects/ztb39j6#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/1cc3069f-b5d2-403d-8a85-4f60699acb95#id> a curric:TopicOfStudy ;
+    rdfs:label "Crime and law"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Crime and law"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/14e45832-70d3-4b73-b3cf-8a8b7463e8f4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zq6tyrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/25b6b0bd-ebed-4ffa-8476-342a643af939#id> a curric:TopicOfStudy ;
+    rdfs:label "Migration"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Migration"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8b63e4e9-bb74-48ef-b1ed-395b563d1388#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zyrcwmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/25ef7ed7-f1a1-4579-b03a-a5998780987f#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/79f1f92d-3316-4f80-a830-ea0c8e821afe#id> .
+
+<http://www.bbc.co.uk/things/29ad894f-c871-4b2e-87ae-a0f1e570d78f#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/88497051-dae5-44ca-a13a-11adfe0cd300#id> .
+
+<http://www.bbc.co.uk/things/2cab9653-224f-4035-8d5c-830354c635a1#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/0fa7e57d-0798-4276-9554-483a33ba3f2b#id> .
+
+<http://www.bbc.co.uk/things/2cc2d83f-47cb-4692-bd37-e57060eff812#id> a curric:TopicOfStudy ;
+    rdfs:label "World issues: Conflict"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World issues: Conflict"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c42b89fd-cf60-4df4-a1ec-496e1b9efc23#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zmpnb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/310d0117-345e-46cd-ad53-881a19d2234f#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/1cc3069f-b5d2-403d-8a85-4f60699acb95#id> .
+
+<http://www.bbc.co.uk/things/32aae15a-b8fa-42f2-9d02-a50bcf357bc6#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/11ce65e9-56fa-4f2b-9600-a51a81d3d580#id> .
+
+<http://www.bbc.co.uk/things/3351e471-b4da-430d-82a3-a480a53ec86c#id> a curric:TopicOfStudy ;
+    rdfs:label "World issues: Syria"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World issues: Syria"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/373055d4-2dad-4a9f-b1d5-a8eddb10d4ba#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zkrjpv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/33b6f830-2f96-4bcc-8101-a64a3aab5a3f#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/f83debd9-6c2c-45df-b93b-a43ceb83fba1#id> .
+
+<http://www.bbc.co.uk/things/373055d4-2dad-4a9f-b1d5-a8eddb10d4ba#id> a curric:Topic ;
+    rdfs:label "World issues: Syria"@en-gb ;
+    core:preferredLabel "World issues: Syria"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9gwhyc#topic> .
+
+<http://www.bbc.co.uk/things/386d06f3-8af2-4035-b01f-a7e2aabb8119#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/e7d36df9-bcbb-4b7a-9dbf-a13eee96767d#id> .
+
+<http://www.bbc.co.uk/things/3d45cfdc-82fc-4eca-98ae-63eb62bd7461#id> a curric:TopicOfStudy ;
+    rdfs:label "International issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Nàiseanta 4 Nuadh-eòlas curriculum"@gd-gb ;
+    core:preferredLabel "Cùisean Eadar-nàiseanta"@gd-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/0969316a-dbca-4a80-948e-324356cb3689#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z7339j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3f0e9b79-5682-4b0e-9d1b-e2007cdb577a#id> a curric:TopicOfStudy ;
+    rdfs:label "Democracy in the UK"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Democracy in the UK"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4ea8309d-3ea7-4d82-a918-96d82bce34a8#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwmxsbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3f6b59cb-b119-464a-b0e3-16f87e6b66c6#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/ec0c38b5-556d-47c2-b764-1acaa8e4fc9c#id> .
+
+<http://www.bbc.co.uk/things/432885d4-f6ff-413a-964a-522cd349f815#id> a curric:TopicOfStudy ;
+    rdfs:label "Inequality"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Inequality"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z7thvcw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/46dfcd72-482c-40d6-9ada-b150d92a87f3#id> a curric:TopicOfStudy ;
+    rdfs:label "World issues: Migration"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World issues: Migration"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8b63e4e9-bb74-48ef-b1ed-395b563d1388#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxnsgk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/49b43711-0d37-46d1-8d83-db14900149b9#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/b2700e1d-0c62-438b-826b-5f75b4883f77#id> .
+
+<http://www.bbc.co.uk/things/4c314e83-5a4e-441e-aba4-678765d9be21#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: China"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: China"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/09b9a31d-1079-4073-b659-7e5c96ed8767#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztfycdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4da2062a-f332-401f-bb89-56f1b7bf0b90#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1746f605-1ab4-477c-8db8-f19887356db5#id>,
+        <http://www.bbc.co.uk/things/e30c138c-8dab-4d10-a119-b1839efd3297#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zc27hyc#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/4e9fe675-888b-4c94-8057-00a3075f03f3#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/3d45cfdc-82fc-4eca-98ae-63eb62bd7461#id> .
+
+<http://www.bbc.co.uk/things/4ea8309d-3ea7-4d82-a918-96d82bce34a8#id> a curric:Topic ;
+    rdfs:label "United Kingdom"@en-gb ;
+    core:preferredLabel "United Kingdom"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
+    = <http://www.bbc.co.uk/education/topics/z349q6f#topic> .
+
+<http://www.bbc.co.uk/things/506f45c6-70da-4bf4-a6d9-7475ab1416da#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/971811c2-7f0c-4ef8-be87-eb6c21c8ba82#id> .
+
+<http://www.bbc.co.uk/things/5086f700-87c9-4242-8228-9783148b6d31#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/197a2e7d-630f-4219-a5de-c786753c2210#id> .
+
+<http://www.bbc.co.uk/things/50b9474c-b8ed-4a65-9324-aefec9e74ae5#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/91d38770-ad43-4928-a736-249f1d330d17#id> .
+
+<http://www.bbc.co.uk/things/51412a42-2ce4-4e7b-898d-af9ed0e0ebc1#id> a curric:TopicOfStudy ;
+    rdfs:label "International issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "International issues"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/5f16a7f3-448d-4d0e-8109-ae899608ac21#id> ;
+    = <http://www.bbc.co.uk/education/topics/zk6xsbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/52a5a024-1f9b-4be5-ae50-8169ffa43eb5#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/b475cd06-453e-4393-aaee-6ff09e1342f0#id> .
+
+<http://www.bbc.co.uk/things/53bbaf4d-d95a-42f5-a767-cd3972431b20#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/766a2e58-a5ff-4eab-a8e8-0562c37176da#id> .
+
+<http://www.bbc.co.uk/things/5a7ff0e6-d3b3-47ba-a6e3-de635a99d324#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/310d0117-345e-46cd-ad53-881a19d2234f#id>,
+        <http://www.bbc.co.uk/things/686e91f7-2ea5-4f21-9058-1d3554de99e2#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zjx6fg8#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/5f16a7f3-448d-4d0e-8109-ae899608ac21#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/12fb6a59-3b89-41b3-a680-aa03f9e9c622#id>,
+        <http://www.bbc.co.uk/things/49b43711-0d37-46d1-8d83-db14900149b9#id>,
+        <http://www.bbc.co.uk/things/65b08750-eaee-4db4-bd7b-0928609d0fdd#id>,
+        <http://www.bbc.co.uk/things/6dc505ac-e1db-47db-b56d-058fd1f26542#id>,
+        <http://www.bbc.co.uk/things/8baef74b-a65b-4a0c-99d7-b3ab0390d737#id>,
+        <http://www.bbc.co.uk/things/9aefc467-9fb3-42f6-b395-c1d51475b20a#id>,
+        <http://www.bbc.co.uk/things/c12aaa09-0115-4b00-945b-2e89d05bdaa9#id>,
+        <http://www.bbc.co.uk/things/cb00879e-097e-42c2-847b-1d987d24a18e#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zk6xsbk#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/5fc2c678-244e-42c5-861b-87cb6f41767c#id> a curric:TopicOfStudy ;
+    rdfs:label "International issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "International issues"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/e696375e-4f58-432c-952a-7f4e81736359#id> ;
+    = <http://www.bbc.co.uk/education/topics/z2hp34j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/605c9712-de70-414f-9b82-64d3923ce997#id> a curric:TopicOfStudy ;
+    rdfs:label "International issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "International issues"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/6380560d-188f-4dde-9528-d41368b5ed4b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zyk9q6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/61bbf09b-33fe-4f79-881f-a6a67fc7257f#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/ca773c71-579b-48b1-9298-3b6b6a2a6fa4#id> .
+
+<http://www.bbc.co.uk/things/621d93ce-5f96-4420-bb0e-ca2916b9365a#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/c68746b6-5575-4943-822e-b4e00832844d#id> .
+
+<http://www.bbc.co.uk/things/6380560d-188f-4dde-9528-d41368b5ed4b#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/07f05208-95f6-4ce4-94e0-8c6d9dd8ced0#id>,
+        <http://www.bbc.co.uk/things/25ef7ed7-f1a1-4579-b03a-a5998780987f#id>,
+        <http://www.bbc.co.uk/things/33b6f830-2f96-4bcc-8101-a64a3aab5a3f#id>,
+        <http://www.bbc.co.uk/things/506f45c6-70da-4bf4-a6d9-7475ab1416da#id>,
+        <http://www.bbc.co.uk/things/a108f3fd-cebc-416e-8980-3a9062352e2d#id>,
+        <http://www.bbc.co.uk/things/c957edda-dd81-4687-935d-a7e91340a0cc#id>,
+        <http://www.bbc.co.uk/things/f7c0f2d0-3155-4877-aef3-7d38c4359f00#id>,
+        <http://www.bbc.co.uk/things/fdca745f-90da-4f35-85bc-147bd4649f12#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zyk9q6f#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/6489a21e-a6fa-41da-8122-603b35be0dce#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/d766cce9-a9c6-4e4a-afe0-2f5e14125360#id> .
+
+<http://www.bbc.co.uk/things/65b08750-eaee-4db4-bd7b-0928609d0fdd#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/f3597df6-9913-462b-9cfd-d0fa6d15bba1#id> .
+
+<http://www.bbc.co.uk/things/6805d666-b0ff-4d79-9ed6-2c36db4a1bc0#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/2cc2d83f-47cb-4692-bd37-e57060eff812#id> .
+
+<http://www.bbc.co.uk/things/680bd3c1-0765-47b1-9182-1280ce0827b4#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: South Africa"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: South Africa"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cef31b44-6c1a-48c0-8788-9d16eeb4de6c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zn3bkqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/686113b8-1255-469b-bcc2-35ddc0246a99#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: European Union"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: European Union"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f05ff8b6-1475-4812-b59f-aa5ec0388265#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z39k7ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/686e91f7-2ea5-4f21-9058-1d3554de99e2#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/432885d4-f6ff-413a-964a-522cd349f815#id> .
+
+<http://www.bbc.co.uk/things/68bb6d3d-1a46-4b65-8a1e-c92d86c0ef61#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: South Africa"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: South Africa"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cef31b44-6c1a-48c0-8788-9d16eeb4de6c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zg8dmp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/691979c7-769f-4f65-8446-4a688949a103#id> a curric:TopicOfStudy ;
+    rdfs:label "Poverty"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Poverty"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0c0fb7f9-c866-4d6b-b9c3-b1630a296f88#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8t6fg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6dc505ac-e1db-47db-b56d-058fd1f26542#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/f1182da7-9a0e-49e5-9992-37da08fc0cbd#id> .
+
+<http://www.bbc.co.uk/things/705c7863-9fdb-418d-b1f6-da24833fa307#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/3f6b59cb-b119-464a-b0e3-16f87e6b66c6#id>,
+        <http://www.bbc.co.uk/things/4e9fe675-888b-4c94-8057-00a3075f03f3#id>,
+        <http://www.bbc.co.uk/things/7b6d4a66-73d9-41ce-9ac6-141e2f5d3511#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zrmmn39#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/7244e607-2e00-41cc-a163-c7b300687b9a#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/01262057-3fe5-4d5c-b3c1-b66812727405#id> .
+
+<http://www.bbc.co.uk/things/74defed6-6de4-47c9-9435-6085d7f3f309#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/3351e471-b4da-430d-82a3-a480a53ec86c#id> .
+
+<http://www.bbc.co.uk/things/7657b63a-cd24-437d-866f-0949defd0666#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/e37b5a29-3a46-477f-8934-eea2f9fd31dd#id> .
+
+<http://www.bbc.co.uk/things/766a2e58-a5ff-4eab-a8e8-0562c37176da#id> a curric:TopicOfStudy ;
+    rdfs:label "Democracy in Scotland and the United Kingdom"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Democracy in Scotland and the United Kingdom"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/1a49e5f4-9953-43b1-9c8a-b33d51c30108#id> ;
+    = <http://www.bbc.co.uk/education/topics/ztb39j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/787791ca-91d2-429e-991c-99415db7bfbe#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/53bbaf4d-d95a-42f5-a767-cd3972431b20#id>,
+        <http://www.bbc.co.uk/things/904128a6-8522-48a7-9eb0-8c12826e1f0d#id>,
+        <http://www.bbc.co.uk/things/caf9abe2-fcf9-4df0-bbec-abe4e4b12048#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zp3v4wx#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/79f1f92d-3316-4f80-a830-ea0c8e821afe#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: USA"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: USA"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6d837108-c53a-499b-976d-e9532fad17ee#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3wdmp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7b6d4a66-73d9-41ce-9ac6-141e2f5d3511#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/128cdf02-0ad6-4d88-97a7-c96e0cad4ee5#id> .
+
+<http://www.bbc.co.uk/things/7dfdf744-d5f3-456d-b838-6924353be2eb#id> a curric:TopicOfStudy ;
+    rdfs:label "World issues: Poverty"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World issues: Poverty"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0c0fb7f9-c866-4d6b-b9c3-b1630a296f88#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z6sfr82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8775029d-5362-4a22-b990-619515392ec7#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/db75427c-a5de-48de-81bd-9082e9031322#id> .
+
+<http://www.bbc.co.uk/things/88497051-dae5-44ca-a13a-11adfe0cd300#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: India"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: India"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2d01d68c-697f-44f1-9a5c-6ba351cfaefd#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpv39j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8b8a519b-2f9a-4303-a524-984d1214fa68#id> a curric:TopicOfStudy ;
+    rdfs:label "Migration"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Migration"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8b63e4e9-bb74-48ef-b1ed-395b563d1388#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zcwj6sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8baef74b-a65b-4a0c-99d7-b3ab0390d737#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/a1298657-e0d4-4b43-8831-8510725b3597#id> .
+
+<http://www.bbc.co.uk/things/904128a6-8522-48a7-9eb0-8c12826e1f0d#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/605c9712-de70-414f-9b82-64d3923ce997#id> .
+
+<http://www.bbc.co.uk/things/914f10df-45a6-4c61-a263-cf9c672ce2e1#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/680bd3c1-0765-47b1-9182-1280ce0827b4#id> .
+
+<http://www.bbc.co.uk/things/91d38770-ad43-4928-a736-249f1d330d17#id> a curric:TopicOfStudy ;
+    rdfs:label "Democracy in Scotland and the United Kingdom"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Democracy in Scotland and the United Kingdom"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/f13590ac-eec2-4681-8312-c2e26d7e3cbe#id> ;
+    = <http://www.bbc.co.uk/education/topics/zbjwxnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/945e99b5-b7b8-4a9b-aee7-93657d73fe81#id> a curric:TopicOfStudy ;
+    rdfs:label "Social issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Social issues"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f8430db8-94db-4f0d-beee-0758e4675feb#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/04378b9b-fd52-464b-a30d-be79c0d34db2#id> ;
+    = <http://www.bbc.co.uk/education/topics/zncrd2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/963f1036-d815-4561-bbb4-dcecd7fa4ea9#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/5fc2c678-244e-42c5-861b-87cb6f41767c#id> .
+
+<http://www.bbc.co.uk/things/971811c2-7f0c-4ef8-be87-eb6c21c8ba82#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: China"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: China"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/09b9a31d-1079-4073-b659-7e5c96ed8767#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zv49q6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/97c92ccb-b767-43f8-bd78-52be237f4e61#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: USA"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: USA"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6d837108-c53a-499b-976d-e9532fad17ee#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zdhtyrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9aefc467-9fb3-42f6-b395-c1d51475b20a#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/691979c7-769f-4f65-8446-4a688949a103#id> .
+
+<http://www.bbc.co.uk/things/a108f3fd-cebc-416e-8980-3a9062352e2d#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/e62f22a5-bb98-465f-90e5-e5a4ea5e59df#id> .
+
+<http://www.bbc.co.uk/things/a1298657-e0d4-4b43-8831-8510725b3597#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: European Union"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: European Union"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f05ff8b6-1475-4812-b59f-aa5ec0388265#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9q7hyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a19a6bd4-57f6-4c90-8dd7-f2c263b0ee17#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/c8fa820f-30c3-4181-ae2d-a79df1b6cba2#id> .
+
+<http://www.bbc.co.uk/things/afa37e58-5ac6-43d5-a3d1-78aafb681941#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/e16ddd02-890a-4ef1-b402-abd2980475a6#id> .
+
+<http://www.bbc.co.uk/things/b2700e1d-0c62-438b-826b-5f75b4883f77#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: South Africa"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: South Africa"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cef31b44-6c1a-48c0-8788-9d16eeb4de6c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z82mn39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b475cd06-453e-4393-aaee-6ff09e1342f0#id> a curric:TopicOfStudy ;
+    rdfs:label "Scotland"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Scotland"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/740468c1-7838-45af-b89b-ff6715ad4933#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zr7qtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c12aaa09-0115-4b00-945b-2e89d05bdaa9#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/16672ada-4c8c-4dc1-aabd-d4c56009d9dc#id> .
+
+<http://www.bbc.co.uk/things/c68746b6-5575-4943-822e-b4e00832844d#id> a curric:TopicOfStudy ;
+    rdfs:label "Democracy in Scotland"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Democracy in Scotland"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/740468c1-7838-45af-b89b-ff6715ad4933#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zd2mn39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c8fa820f-30c3-4181-ae2d-a79df1b6cba2#id> a curric:TopicOfStudy ;
+    rdfs:label "Scotland"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Scotland"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/740468c1-7838-45af-b89b-ff6715ad4933#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zprg87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c957edda-dd81-4687-935d-a7e91340a0cc#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/cadb3df3-441e-4516-be7c-9b5816e2e667#id> .
+
+<http://www.bbc.co.uk/things/ca773c71-579b-48b1-9298-3b6b6a2a6fa4#id> a curric:TopicOfStudy ;
+    rdfs:label "International issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Nàiseanta 5 Nuadh-eòlas curriculum"@gd-gb ;
+    core:preferredLabel "Cùisean Eadar-nàiseanta"@gd-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3acb3eb3-68a7-48e6-919f-53db84b37fff#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxrrd2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cadb3df3-441e-4516-be7c-9b5816e2e667#id> a curric:TopicOfStudy ;
+    rdfs:label "Poverty"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Poverty"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0c0fb7f9-c866-4d6b-b9c3-b1630a296f88#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zvd82hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/caf9abe2-fcf9-4df0-bbec-abe4e4b12048#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/945e99b5-b7b8-4a9b-aee7-93657d73fe81#id> .
+
+<http://www.bbc.co.uk/things/cb00879e-097e-42c2-847b-1d987d24a18e#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/97c92ccb-b767-43f8-bd78-52be237f4e61#id> .
+
+<http://www.bbc.co.uk/things/ccaaf6ce-c285-4736-b3e8-f8beb821f761#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/51412a42-2ce4-4e7b-898d-af9ed0e0ebc1#id> .
+
+<http://www.bbc.co.uk/things/d1cffbd4-8d03-4bda-b47b-ac7004d66a04#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/50b9474c-b8ed-4a65-9324-aefec9e74ae5#id>,
+        <http://www.bbc.co.uk/things/7244e607-2e00-41cc-a163-c7b300687b9a#id>,
+        <http://www.bbc.co.uk/things/ccaaf6ce-c285-4736-b3e8-f8beb821f761#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zxsnb9q#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/d29f7937-6b79-44f1-8cda-5d2a6dd39e9e#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0f1d5465-8a5c-44b4-95ad-fd6aa86b6098#id>,
+        <http://www.bbc.co.uk/things/2cab9653-224f-4035-8d5c-830354c635a1#id>,
+        <http://www.bbc.co.uk/things/621d93ce-5f96-4420-bb0e-ca2916b9365a#id>,
+        <http://www.bbc.co.uk/things/963f1036-d815-4561-bbb4-dcecd7fa4ea9#id> ;
+    = <http://www.bbc.co.uk/education/subjects/ztsvr82#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/d766cce9-a9c6-4e4a-afe0-2f5e14125360#id> a curric:TopicOfStudy ;
+    rdfs:label "Crime, law and the justice system"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Crime, law and the justice system"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/14e45832-70d3-4b73-b3cf-8a8b7463e8f4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zs4cwmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/db75427c-a5de-48de-81bd-9082e9031322#id> a curric:TopicOfStudy ;
+    rdfs:label "Democracy in Scotland and the United Kingdom"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Nàiseanta 5 Nuadh-eòlas curriculum"@gd-gb ;
+    core:preferredLabel "Deamocrasaidh ann an Alba agus san Rìoghachd Aonaichte"@gd-gb ;
+    curric:about <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3acb3eb3-68a7-48e6-919f-53db84b37fff#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2bbkqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e16ddd02-890a-4ef1-b402-abd2980475a6#id> a curric:TopicOfStudy ;
+    rdfs:label "Social issues in the United Kingdom"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Nàiseanta 5 Nuadh-eòlas curriculum"@gd-gb ;
+    core:preferredLabel "Cùisean Sòisealta san Rìoghachd Aonaichte"@gd-gb ;
+    curric:about <http://www.bbc.co.uk/things/f8430db8-94db-4f0d-beee-0758e4675feb#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3acb3eb3-68a7-48e6-919f-53db84b37fff#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zmgg87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e2ca9197-ca1f-4491-a560-25354a897f3a#id> a curric:TopicOfStudy ;
+    rdfs:label "Crime, law and the justice system"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Crime, law and the justice system"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/14e45832-70d3-4b73-b3cf-8a8b7463e8f4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z4m2pv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e30c138c-8dab-4d10-a119-b1839efd3297#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/141d8ab5-b15b-4f95-96e7-fde09cbe4b98#id> .
+
+<http://www.bbc.co.uk/things/e37b5a29-3a46-477f-8934-eea2f9fd31dd#id> a curric:TopicOfStudy ;
+    rdfs:label "Inequality"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Inequality"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zf94jxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e5166116-b680-4a40-8ad1-9f3ee128ff92#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/46dfcd72-482c-40d6-9ada-b150d92a87f3#id> .
+
+<http://www.bbc.co.uk/things/e62f22a5-bb98-465f-90e5-e5a4ea5e59df#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: India"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: India"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2d01d68c-697f-44f1-9a5c-6ba351cfaefd#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zbk82hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e696375e-4f58-432c-952a-7f4e81736359#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/145fb334-2caa-434b-b2b2-e6ee13e9b216#id>,
+        <http://www.bbc.co.uk/things/29ad894f-c871-4b2e-87ae-a0f1e570d78f#id>,
+        <http://www.bbc.co.uk/things/386d06f3-8af2-4035-b01f-a7e2aabb8119#id>,
+        <http://www.bbc.co.uk/things/6805d666-b0ff-4d79-9ed6-2c36db4a1bc0#id>,
+        <http://www.bbc.co.uk/things/74defed6-6de4-47c9-9435-6085d7f3f309#id>,
+        <http://www.bbc.co.uk/things/914f10df-45a6-4c61-a263-cf9c672ce2e1#id>,
+        <http://www.bbc.co.uk/things/e5166116-b680-4a40-8ad1-9f3ee128ff92#id>,
+        <http://www.bbc.co.uk/things/e9018d44-43e8-466b-8783-88c3e1fbf904#id>,
+        <http://www.bbc.co.uk/things/f77877ea-dc72-4f21-bd54-9a447449ff02#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z2hp34j#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/e7d36df9-bcbb-4b7a-9dbf-a13eee96767d#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: USA"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Higher Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: USA"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6d837108-c53a-499b-976d-e9532fad17ee#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zsbg87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e9018d44-43e8-466b-8783-88c3e1fbf904#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/0b335ee7-4259-4da7-ae95-ee746b13fcd6#id> .
+
+<http://www.bbc.co.uk/things/ec0c38b5-556d-47c2-b764-1acaa8e4fc9c#id> a curric:TopicOfStudy ;
+    rdfs:label "Social issues in the United Kingdom"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Nàiseanta 4 Nuadh-eòlas curriculum"@gd-gb ;
+    core:preferredLabel "Cùisean Sòisealta san Rìoghachd Aonaichte"@gd-gb ;
+    curric:about <http://www.bbc.co.uk/things/f8430db8-94db-4f0d-beee-0758e4675feb#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/0969316a-dbca-4a80-948e-324356cb3689#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqvv4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f1182da7-9a0e-49e5-9992-37da08fc0cbd#id> a curric:TopicOfStudy ;
+    rdfs:label "Conflict"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Conflict"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c42b89fd-cf60-4df4-a1ec-496e1b9efc23#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zrdwxnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f13590ac-eec2-4681-8312-c2e26d7e3cbe#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/5086f700-87c9-4242-8228-9783148b6d31#id>,
+        <http://www.bbc.co.uk/things/52a5a024-1f9b-4be5-ae50-8169ffa43eb5#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zbjwxnb#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/f3597df6-9913-462b-9cfd-d0fa6d15bba1#id> a curric:TopicOfStudy ;
+    rdfs:label "World power: China"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 5 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "World power: China"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/09b9a31d-1079-4073-b659-7e5c96ed8767#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z4jqtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f77877ea-dc72-4f21-bd54-9a447449ff02#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/4c314e83-5a4e-441e-aba4-678765d9be21#id> .
+
+<http://www.bbc.co.uk/things/f7c0f2d0-3155-4877-aef3-7d38c4359f00#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/68bb6d3d-1a46-4b65-8a1e-c92d86c0ef61#id> .
+
+<http://www.bbc.co.uk/things/f7ed0b23-24d4-4c3b-8b59-710a51705d34#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/61bbf09b-33fe-4f79-881f-a6a67fc7257f#id>,
+        <http://www.bbc.co.uk/things/8775029d-5362-4a22-b990-619515392ec7#id>,
+        <http://www.bbc.co.uk/things/afa37e58-5ac6-43d5-a3d1-78aafb681941#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z9ttyrd#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/f83debd9-6c2c-45df-b93b-a43ceb83fba1#id> a curric:TopicOfStudy ;
+    rdfs:label "Conflict"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "National 4 Modern Studies curriculum"@en-gb ;
+    core:preferredLabel "Conflict"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c42b89fd-cf60-4df4-a1ec-496e1b9efc23#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zfgrd2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fdca745f-90da-4f35-85bc-147bd4649f12#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/686113b8-1255-469b-bcc2-35ddc0246a99#id> .
+
+<http://www.bbc.co.uk/things/2ba03531-30be-457d-b7e8-16443fd1f3e4#id> a curric:Topic ;
+    rdfs:label "UK"@en-gb ;
+    core:preferredLabel "UK"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zwhtyrd#topic> .
+
+<http://www.bbc.co.uk/things/0969316a-dbca-4a80-948e-324356cb3689#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/705c7863-9fdb-418d-b1f6-da24833fa307#id> .
+
+<http://www.bbc.co.uk/things/09b9a31d-1079-4073-b659-7e5c96ed8767#id> a curric:Topic ;
+    rdfs:label "World power: China"@en-gb ;
+    core:preferredLabel "World power: China"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    = <http://www.bbc.co.uk/education/topics/zcdwxnb#topic> .
+
+<http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id> a curric:Topic ;
+    rdfs:label "Inequality"@en-gb ;
+    core:preferredLabel "Inequality"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/f46d6f45-10d6-4be0-9745-99e591ed29b7#id> ;
+    = <http://www.bbc.co.uk/education/topics/z2fsgk7#topic> .
+
+<http://www.bbc.co.uk/things/0c0fb7f9-c866-4d6b-b9c3-b1630a296f88#id> a curric:Topic ;
+    rdfs:label "Poverty"@en-gb ;
+    core:preferredLabel "Poverty"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    = <http://www.bbc.co.uk/education/topics/zxvycdm#topic> .
+
+<http://www.bbc.co.uk/things/14e45832-70d3-4b73-b3cf-8a8b7463e8f4#id> a curric:Topic ;
+    rdfs:label "Crime, law and the justice system"@en-gb ;
+    core:preferredLabel "Crime, law and the justice system"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/f46d6f45-10d6-4be0-9745-99e591ed29b7#id> ;
+    = <http://www.bbc.co.uk/education/topics/z7snb9q#topic> .
+
+<http://www.bbc.co.uk/things/2d01d68c-697f-44f1-9a5c-6ba351cfaefd#id> a curric:Topic ;
+    rdfs:label "World power: India"@en-gb ;
+    core:preferredLabel "World power: India"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    = <http://www.bbc.co.uk/education/topics/z9jqtfr#topic> .
+
+<http://www.bbc.co.uk/things/3acb3eb3-68a7-48e6-919f-53db84b37fff#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/f7ed0b23-24d4-4c3b-8b59-710a51705d34#id> .
+
+<http://www.bbc.co.uk/things/6d837108-c53a-499b-976d-e9532fad17ee#id> a curric:Topic ;
+    rdfs:label "World power: USA"@en-gb ;
+    core:preferredLabel "World power: USA"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    = <http://www.bbc.co.uk/education/topics/z63v4wx#topic> .
+
+<http://www.bbc.co.uk/things/8b63e4e9-bb74-48ef-b1ed-395b563d1388#id> a curric:Topic ;
+    rdfs:label "Migration"@en-gb ;
+    core:preferredLabel "Migration"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/740468c1-7838-45af-b89b-ff6715ad4933#id> ;
+    = <http://www.bbc.co.uk/education/topics/zr8dmp3#topic> .
+
+<http://www.bbc.co.uk/things/c42b89fd-cf60-4df4-a1ec-496e1b9efc23#id> a curric:Topic ;
+    rdfs:label "Conflict"@en-gb ;
+    core:preferredLabel "Conflict"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    = <http://www.bbc.co.uk/education/topics/zgk82hv#topic> .
+
+<http://www.bbc.co.uk/things/cef31b44-6c1a-48c0-8788-9d16eeb4de6c#id> a curric:Topic ;
+    rdfs:label "World power: South Africa"@en-gb ;
+    core:preferredLabel "World power: South Africa"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    = <http://www.bbc.co.uk/education/topics/zkq7hyc#topic> .
+
+<http://www.bbc.co.uk/things/f05ff8b6-1475-4812-b59f-aa5ec0388265#id> a curric:Topic ;
+    rdfs:label "World power: European Union"@en-gb ;
+    core:preferredLabel "World power: European Union"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> ;
+    = <http://www.bbc.co.uk/education/topics/z4wj6sg#topic> .
+
+<http://www.bbc.co.uk/things/f46d6f45-10d6-4be0-9745-99e591ed29b7#id> a curric:Topic ;
+    rdfs:label "Social issues"@en-gb ;
+    core:preferredLabel "Social issues"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zb9k7ty#topic> .
+
+<http://www.bbc.co.uk/things/740468c1-7838-45af-b89b-ff6715ad4933#id> a curric:Topic ;
+    rdfs:label "Scotland"@en-gb ;
+    core:preferredLabel "Scotland"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/ba4c81c5-e565-4e0f-98fd-40466929658a#id> ;
+    = <http://www.bbc.co.uk/education/topics/zjphvcw#topic> .
+
+<http://www.bbc.co.uk/things/f8430db8-94db-4f0d-beee-0758e4675feb#id> a curric:Topic ;
+    rdfs:label "Social issues in the United Kingdom"@en-gb ;
+    core:preferredLabel "Social issues in the United Kingdom"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqnp34j#topic> .
+
+<http://www.bbc.co.uk/things/b1fa7c1d-dcbb-456b-8965-d9717d3825e1#id> a curric:Topic ;
+    rdfs:label "Democracy in Scotland and the United Kingdom"@en-gb ;
+    core:preferredLabel "Democracy in Scotland and the United Kingdom"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zdt6fg8#topic> .
+
+<http://www.bbc.co.uk/things/bc5d5f1d-ec94-4732-b72b-40822dc77006#id> a curric:Topic ;
+    rdfs:label "International issues"@en-gb ;
+    core:preferredLabel "International issues"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zmyfr82#topic> .
+
+<http://www.bbc.co.uk/things/3f72e616-acd5-4ff6-86c4-538b1888cbfc#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/d29f7937-6b79-44f1-8cda-5d2a6dd39e9e#id> .
+
+<http://www.bbc.co.uk/things/9bbe4917-4570-4c67-8c41-13ee2f0e811a#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/787791ca-91d2-429e-991c-99415db7bfbe#id> .
+
+<http://www.bbc.co.uk/things/e01853f6-1e2a-4c0e-a359-d558acea04ed#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/d1cffbd4-8d03-4bda-b47b-ac7004d66a04#id> .
+
