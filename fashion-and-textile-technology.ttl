@@ -1,136 +1,140 @@
-@prefix olo:   <http://purl.org/ontology/olo/core#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
 @prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix dc:    <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.bbc.co.uk/things/820377bd-0f4a-4574-9d90-58098055a7ec#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/4f44719d-b950-435b-abd4-6914e23504b7#id> .
+<http://www.bbc.co.uk/contexts/4e600d1c-e752-49d2-89ee-496bad464660#id> a provenance:Dataset ;
+    rdfs:label "Topics, Topics of Study and Topic of Study Lists of Fashion and textile technology" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version 4 .
 
-<http://www.bbc.co.uk/things/34f0b14f-d1b6-4d41-8759-80c0ac81e418#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/d340b44c-f441-4bed-8724-f22a701692a0#id> .
+<http://www.bbc.co.uk/things/2b68aab1-7f09-4237-9009-48ca7653309a#id> a curric:TopicOfStudy ;
+    rdfs:label "Fashion and textile choices"@en-gb ;
+    core:disambiguationHint "Higher Fashion and textile technology curriculum"@en-gb ;
+    core:preferredLabel "Fashion and textile choices"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9ac0a822-8931-415c-98cc-0ac143b6e05f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/820377bd-0f4a-4574-9d90-58098055a7ec#id> ;
+    = <http://www.bbc.co.uk/education/topics/zg4w6sg#topic-of-study> .
 
-<http://www.bbc.co.uk/things/4f44719d-b950-435b-abd4-6914e23504b7#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/ab065644-c050-4e99-9999-d8013d37e183#id> , <http://www.bbc.co.uk/things/88b231a0-976a-4540-a0b7-b5abf24c7e9d#id> , <http://www.bbc.co.uk/things/d9030573-3c15-46ee-8c0f-307c813547d5#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zm2tvcw#topics-of-study-list> .
+<http://www.bbc.co.uk/things/3103748e-edd5-4714-8fc7-f598cd9f39ce#id> a curric:TopicOfStudy ;
+    rdfs:label "Fashion and textile item development"@en-gb ;
+    core:disambiguationHint "National 4 Fashion and textile technology curriculum"@en-gb ;
+    core:preferredLabel "Fashion and textile item development"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/940b3db9-7afe-4be5-9fa7-43a9a6fe01ac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/4f7925b9-35c9-439f-97de-ecca0d3335a1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zvgk2hv#topic-of-study> .
 
-<http://www.bbc.co.uk/things/d0ba2f04-73b4-48f6-9bd6-260c5d6caf0e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Fashion and textile item development"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/940b3db9-7afe-4be5-9fa7-43a9a6fe01ac#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/14223515-9db9-44f4-b316-24180c0e0f63#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zbcdxnb#topic-of-study> .
+<http://www.bbc.co.uk/things/34f0b14f-d1b6-4d41-8759-80c0ac81e418#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/d340b44c-f441-4bed-8724-f22a701692a0#id> .
 
-<http://www.bbc.co.uk/things/9ac0a822-8931-415c-98cc-0ac143b6e05f#id>
-        a           curric:Topic ;
-        rdfs:label  "Fashion and textile choices"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zttsr82#topic> .
+<http://www.bbc.co.uk/things/3c178518-0785-4edf-9689-0af247c4008a#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/db3233e5-9525-490b-83d9-09dac21bfdbd#id> .
 
-<http://www.bbc.co.uk/things/940b3db9-7afe-4be5-9fa7-43a9a6fe01ac#id>
-        a           curric:Topic ;
-        rdfs:label  "Fashion and textile item development"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zhhfcdm#topic> .
+<http://www.bbc.co.uk/things/4f44719d-b950-435b-abd4-6914e23504b7#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/88b231a0-976a-4540-a0b7-b5abf24c7e9d#id>,
+        <http://www.bbc.co.uk/things/ab065644-c050-4e99-9999-d8013d37e183#id>,
+        <http://www.bbc.co.uk/things/d9030573-3c15-46ee-8c0f-307c813547d5#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zm2tvcw#topics-of-study-list> .
 
-<http://www.bbc.co.uk/things/6d9648a9-2e20-4468-b709-30bd51ff6091#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/d0ba2f04-73b4-48f6-9bd6-260c5d6caf0e#id> .
+<http://www.bbc.co.uk/things/6d9648a9-2e20-4468-b709-30bd51ff6091#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/d0ba2f04-73b4-48f6-9bd6-260c5d6caf0e#id> .
 
-<http://www.bbc.co.uk/things/4f7925b9-35c9-439f-97de-ecca0d3335a1#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/e5b95e37-a5ad-4cf6-ad34-0712b7d11ae3#id> .
+<http://www.bbc.co.uk/things/704ddbf8-5ddb-4563-ba3d-43e45aa8b099#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/3103748e-edd5-4714-8fc7-f598cd9f39ce#id> .
 
-<http://www.bbc.co.uk/things/cd8b84cc-7b1d-4a9c-895c-ba9261de0aa4#id>
-        a           curric:Topic ;
-        rdfs:label  "Textile technologies"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zppy4wx#topic> .
+<http://www.bbc.co.uk/things/88b231a0-976a-4540-a0b7-b5abf24c7e9d#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/e2152344-3347-4052-af8c-03fde3cbdf7f#id> .
 
-<http://www.bbc.co.uk/things/704ddbf8-5ddb-4563-ba3d-43e45aa8b099#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/3103748e-edd5-4714-8fc7-f598cd9f39ce#id> .
+<http://www.bbc.co.uk/things/8e55de6b-a58c-4aa4-b79e-2bb74215b593#id> a curric:TopicOfStudy ;
+    rdfs:label "Textile technologies"@en-gb ;
+    core:disambiguationHint "Higher Fashion and textile technology curriculum"@en-gb ;
+    core:preferredLabel "Textile technologies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cd8b84cc-7b1d-4a9c-895c-ba9261de0aa4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/820377bd-0f4a-4574-9d90-58098055a7ec#id> ;
+    = <http://www.bbc.co.uk/education/topics/zckqhyc#topic-of-study> .
 
-<http://www.bbc.co.uk/things/ab065644-c050-4e99-9999-d8013d37e183#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/2b68aab1-7f09-4237-9009-48ca7653309a#id> .
+<http://www.bbc.co.uk/things/ab065644-c050-4e99-9999-d8013d37e183#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/2b68aab1-7f09-4237-9009-48ca7653309a#id> .
 
-<http://www.bbc.co.uk/things/2b68aab1-7f09-4237-9009-48ca7653309a#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Fashion and textile choices"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9ac0a822-8931-415c-98cc-0ac143b6e05f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/820377bd-0f4a-4574-9d90-58098055a7ec#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zg4w6sg#topic-of-study> .
+<http://www.bbc.co.uk/things/cd8b84cc-7b1d-4a9c-895c-ba9261de0aa4#id> a curric:Topic ;
+    rdfs:label "Textile technologies"@en-gb ;
+    core:preferredLabel "Textile technologies"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zppy4wx#topic> .
 
-<http://www.bbc.co.uk/things/8e55de6b-a58c-4aa4-b79e-2bb74215b593#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Textile technologies"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/cd8b84cc-7b1d-4a9c-895c-ba9261de0aa4#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/820377bd-0f4a-4574-9d90-58098055a7ec#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zckqhyc#topic-of-study> .
+<http://www.bbc.co.uk/things/d0ba2f04-73b4-48f6-9bd6-260c5d6caf0e#id> a curric:TopicOfStudy ;
+    rdfs:label "Fashion and textile item development"@en-gb ;
+    core:disambiguationHint "National 5 Fashion and textile technology curriculum"@en-gb ;
+    core:preferredLabel "Fashion and textile item development"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/940b3db9-7afe-4be5-9fa7-43a9a6fe01ac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/14223515-9db9-44f4-b316-24180c0e0f63#id> ;
+    = <http://www.bbc.co.uk/education/topics/zbcdxnb#topic-of-study> .
 
-<http://www.bbc.co.uk/things/e5b95e37-a5ad-4cf6-ad34-0712b7d11ae3#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/704ddbf8-5ddb-4563-ba3d-43e45aa8b099#id> , <http://www.bbc.co.uk/things/3c178518-0785-4edf-9689-0af247c4008a#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zrrk2hv#topics-of-study-list> .
+<http://www.bbc.co.uk/things/d340b44c-f441-4bed-8724-f22a701692a0#id> a curric:TopicOfStudy ;
+    rdfs:label "Fashion and textile choices"@en-gb ;
+    core:disambiguationHint "National 5 Fashion and textile technology curriculum"@en-gb ;
+    core:preferredLabel "Fashion and textile choices"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9ac0a822-8931-415c-98cc-0ac143b6e05f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/14223515-9db9-44f4-b316-24180c0e0f63#id> ;
+    = <http://www.bbc.co.uk/education/topics/z3r8mp3#topic-of-study> .
 
-<http://www.bbc.co.uk/things/3c178518-0785-4edf-9689-0af247c4008a#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/db3233e5-9525-490b-83d9-09dac21bfdbd#id> .
+<http://www.bbc.co.uk/things/d9030573-3c15-46ee-8c0f-307c813547d5#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/8e55de6b-a58c-4aa4-b79e-2bb74215b593#id> .
 
-<http://www.bbc.co.uk/things/d340b44c-f441-4bed-8724-f22a701692a0#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Fashion and textile choices"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9ac0a822-8931-415c-98cc-0ac143b6e05f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/14223515-9db9-44f4-b316-24180c0e0f63#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z3r8mp3#topic-of-study> .
+<http://www.bbc.co.uk/things/db3233e5-9525-490b-83d9-09dac21bfdbd#id> a curric:TopicOfStudy ;
+    rdfs:label "Fashion and textile choices"@en-gb ;
+    core:disambiguationHint "National 4 Fashion and textile technology curriculum"@en-gb ;
+    core:preferredLabel "Fashion and textile choices"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9ac0a822-8931-415c-98cc-0ac143b6e05f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/4f7925b9-35c9-439f-97de-ecca0d3335a1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zy34q6f#topic-of-study> .
 
-<http://www.bbc.co.uk/things/fb7d34c1-0e96-4dbd-a2d0-09a577bb5734#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/6d9648a9-2e20-4468-b709-30bd51ff6091#id> , <http://www.bbc.co.uk/things/34f0b14f-d1b6-4d41-8759-80c0ac81e418#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zsnv9j6#topics-of-study-list> .
+<http://www.bbc.co.uk/things/e2152344-3347-4052-af8c-03fde3cbdf7f#id> a curric:TopicOfStudy ;
+    rdfs:label "Fashion and textile item development"@en-gb ;
+    core:disambiguationHint "Higher Fashion and textile technology curriculum"@en-gb ;
+    core:preferredLabel "Fashion and textile item development"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/940b3db9-7afe-4be5-9fa7-43a9a6fe01ac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/820377bd-0f4a-4574-9d90-58098055a7ec#id> ;
+    = <http://www.bbc.co.uk/education/topics/zr9jtfr#topic-of-study> .
 
-<http://www.bbc.co.uk/things/e2152344-3347-4052-af8c-03fde3cbdf7f#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Fashion and textile item development"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/940b3db9-7afe-4be5-9fa7-43a9a6fe01ac#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/820377bd-0f4a-4574-9d90-58098055a7ec#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zr9jtfr#topic-of-study> .
+<http://www.bbc.co.uk/things/e5b95e37-a5ad-4cf6-ad34-0712b7d11ae3#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/3c178518-0785-4edf-9689-0af247c4008a#id>,
+        <http://www.bbc.co.uk/things/704ddbf8-5ddb-4563-ba3d-43e45aa8b099#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zrrk2hv#topics-of-study-list> .
 
-<http://www.bbc.co.uk/things/14223515-9db9-44f4-b316-24180c0e0f63#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/fb7d34c1-0e96-4dbd-a2d0-09a577bb5734#id> .
+<http://www.bbc.co.uk/things/fb7d34c1-0e96-4dbd-a2d0-09a577bb5734#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/34f0b14f-d1b6-4d41-8759-80c0ac81e418#id>,
+        <http://www.bbc.co.uk/things/6d9648a9-2e20-4468-b709-30bd51ff6091#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zsnv9j6#topics-of-study-list> .
 
-<http://www.bbc.co.uk/things/88b231a0-976a-4540-a0b7-b5abf24c7e9d#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/e2152344-3347-4052-af8c-03fde3cbdf7f#id> .
+<http://www.bbc.co.uk/things/14223515-9db9-44f4-b316-24180c0e0f63#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/fb7d34c1-0e96-4dbd-a2d0-09a577bb5734#id> .
 
-<http://www.bbc.co.uk/things/d9030573-3c15-46ee-8c0f-307c813547d5#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/8e55de6b-a58c-4aa4-b79e-2bb74215b593#id> .
+<http://www.bbc.co.uk/things/4f7925b9-35c9-439f-97de-ecca0d3335a1#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/e5b95e37-a5ad-4cf6-ad34-0712b7d11ae3#id> .
 
-<http://www.bbc.co.uk/things/3103748e-edd5-4714-8fc7-f598cd9f39ce#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Fashion and textile item development"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/940b3db9-7afe-4be5-9fa7-43a9a6fe01ac#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/4f7925b9-35c9-439f-97de-ecca0d3335a1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zvgk2hv#topic-of-study> .
+<http://www.bbc.co.uk/things/820377bd-0f4a-4574-9d90-58098055a7ec#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/4f44719d-b950-435b-abd4-6914e23504b7#id> .
 
-<http://www.bbc.co.uk/things/db3233e5-9525-490b-83d9-09dac21bfdbd#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Fashion and textile choices"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9ac0a822-8931-415c-98cc-0ac143b6e05f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/4f7925b9-35c9-439f-97de-ecca0d3335a1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zy34q6f#topic-of-study> .
+<http://www.bbc.co.uk/things/940b3db9-7afe-4be5-9fa7-43a9a6fe01ac#id> a curric:Topic ;
+    rdfs:label "Fashion and textile item development"@en-gb ;
+    core:preferredLabel "Fashion and textile item development"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zhhfcdm#topic> .
+
+<http://www.bbc.co.uk/things/9ac0a822-8931-415c-98cc-0ac143b6e05f#id> a curric:Topic ;
+    rdfs:label "Fashion and textile choices"@en-gb ;
+    core:preferredLabel "Fashion and textile choices"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zttsr82#topic> .
+

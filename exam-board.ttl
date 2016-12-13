@@ -1,0 +1,72 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/0b1628cf-5731-4d45-a201-a53b60ab37cd#id> a provenance:Dataset ;
+    rdfs:label "Exam Board Data" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "4"^^xsd:int .
+
+<http://www.bbc.co.uk/things/25d85da2-d7b5-49bc-8b06-55e695f7966b#id> a curric:ExamBoard ;
+    rdfs:label "WJEC"@en-gb ;
+    core:preferredLabel "WJEC"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id> ;
+    = <http://www.bbc.co.uk/education/exam-boards/zvw76sg#exam-board> .
+
+<http://www.bbc.co.uk/things/40a335f9-39ff-4d42-91bf-aac2901ccefb#id> a curric:ExamBoard ;
+    rdfs:label "OCR A"@en-gb ;
+    core:preferredLabel "OCR A"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    = <http://www.bbc.co.uk/education/exam-boards/z9m7tyc#exam-board> .
+
+<http://www.bbc.co.uk/things/61ed10fe-4712-4921-8ee2-1e81a0fe076e#id> a curric:ExamBoard ;
+    rdfs:label "Eduqas"@en-gb ;
+    core:preferredLabel "Eduqas"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    = <http://www.bbc.co.uk/education/exam-boards/zwh6sg8#exam-board> .
+
+<http://www.bbc.co.uk/things/ac46086e-0c56-4ee6-aeef-ed2b4f640d66#id> a curric:ExamBoard ;
+    rdfs:label "CCEA"@en-gb ;
+    core:preferredLabel "CCEA"@en-gb ;
+    = <http://www.bbc.co.uk/education/exam-boards/z3j2tfr#exam-board> .
+
+<http://www.bbc.co.uk/things/bc3d7617-7372-4b57-abb9-540d8a25b85f#id> a curric:ExamBoard ;
+    rdfs:label "OCR B"@en-gb ;
+    core:preferredLabel "OCR B"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    = <http://www.bbc.co.uk/education/exam-boards/z86mp39#exam-board> .
+
+<http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> a curric:ExamBoard ;
+    rdfs:label "AQA"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    = <http://www.bbc.co.uk/education/exam-boards/zs9d7ty#exam-board> .
+
+<http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> a curric:ExamBoard ;
+    rdfs:label "OCR"@en-gb ;
+    core:preferredLabel "OCR"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    = <http://www.bbc.co.uk/education/exam-boards/zy8jmp3#exam-board> .
+
+<http://www.bbc.co.uk/things/e5b06cb2-c201-49a0-877a-f584afacf3ee#id> a curric:ExamBoard ;
+    rdfs:label "SQA"@en-gb ;
+    core:preferredLabel "SQA"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
+    = <http://www.bbc.co.uk/education/exam-boards/zbqmhyc#exam-board> .
+
+<http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> a curric:ExamBoard ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    = <http://www.bbc.co.uk/education/exam-boards/zfkw2hv#exam-board> .
+

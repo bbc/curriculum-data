@@ -1,0 +1,566 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/885c7b3c-9a89-4310-a1fc-b61254e90d5a#id> a provenance:Dataset ;
+    rdfs:label "GCSE Maths (post-2015) exam specs" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "2"^^xsd:int .
+
+<http://www.bbc.co.uk/things/014ef28c-18e9-477d-9c02-fc154ba4b449#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/2f7bf28e-7ee4-40bb-9f15-4e0bb94cedbb#id> .
+
+<http://www.bbc.co.uk/things/0160fca8-ab02-41ef-9a58-acb9fefaed24#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/2b7c6fa1-de1f-4c35-88e8-e43383237f9c#id> .
+
+<http://www.bbc.co.uk/things/016c7579-ec2f-4635-a953-9aef84164db9#id> a curric:TopicOfStudy ;
+    rdfs:label "Algebra"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Algebra"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ee550d7c-1e77-4f15-9b7a-57f2e8997788#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/796c28ad-5299-47e4-b991-106163e6c582#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zq4j39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/02148661-6753-4c6c-a867-9e829e14d6d7#id> a curric:TopicOfStudy ;
+    rdfs:label "Probability"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Probability"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/26567c44-6737-429c-9626-ec9aa6027935#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/ded29615-5c8f-4c0d-89f2-3259c94d3f38#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z839nbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0257d2a2-2fe9-44b7-a932-8ad163085f82#id> a curric:TopicOfStudy ;
+    rdfs:label "Probability"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Probability"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/26567c44-6737-429c-9626-ec9aa6027935#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/544bf06f-c73a-43ee-a200-e5fc23ac7945#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpqtk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/03fda104-d079-4994-9d1d-3680db2a5f9e#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/352a7df4-62ae-4b3d-8f56-62591aa48735#id> .
+
+<http://www.bbc.co.uk/things/06ccb283-759a-4b30-9997-b23cc187264a#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/e968c01a-9db0-4070-ad74-741d425843b0#id> .
+
+<http://www.bbc.co.uk/things/0c2e9ab8-3c03-4858-8a25-bca2b56cc8c2#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/a217ed4d-3300-4910-9fd7-8a5b1d268c22#id> .
+
+<http://www.bbc.co.uk/things/107d840d-d091-4bb7-877b-6ad2781fd5cd#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/48d79d41-c807-420c-9b2c-057478a3ac05#id> .
+
+<http://www.bbc.co.uk/things/141419c4-1130-4e16-a53c-bdccc39dafdc#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/0257d2a2-2fe9-44b7-a932-8ad163085f82#id> .
+
+<http://www.bbc.co.uk/things/18127e66-349c-4af3-ba5f-6348d358ee2a#id> a curric:TopicOfStudy ;
+    rdfs:label "Algebra"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Algebra"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ee550d7c-1e77-4f15-9b7a-57f2e8997788#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3bb94e7c-8059-43cd-afde-99121d10bf14#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgp3mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/21a8ec49-6001-4fba-9621-830f08f742e4#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/014ef28c-18e9-477d-9c02-fc154ba4b449#id>,
+        <http://www.bbc.co.uk/things/141419c4-1130-4e16-a53c-bdccc39dafdc#id>,
+        <http://www.bbc.co.uk/things/727d1d17-6dcd-4f02-b6f6-50177bb4824e#id>,
+        <http://www.bbc.co.uk/things/7d467295-9a84-4a68-b342-649dab678d5d#id>,
+        <http://www.bbc.co.uk/things/871b126f-08e3-46df-8dba-526153d4cfc7#id>,
+        <http://www.bbc.co.uk/things/aca2a5ab-c920-46ba-8b3c-6051d24ab61f#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z9p3mnb#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/2309cf6a-481c-4bfb-a635-e7df4638c6e4#id> a curric:TopicOfStudy ;
+    rdfs:label "Geometry and measure"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Geometry and measure"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/92015de2-2695-470f-9c76-5560a2fd11e0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/796c28ad-5299-47e4-b991-106163e6c582#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8bksg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2b7c6fa1-de1f-4c35-88e8-e43383237f9c#id> a curric:TopicOfStudy ;
+    rdfs:label "Algebra"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Algebra"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ee550d7c-1e77-4f15-9b7a-57f2e8997788#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/ded29615-5c8f-4c0d-89f2-3259c94d3f38#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z29qbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2ce2bd39-aea8-485c-871b-4bb40910999d#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/d8836d56-cdb4-455c-879c-c5d82a082077#id> .
+
+<http://www.bbc.co.uk/things/2f7bf28e-7ee4-40bb-9f15-4e0bb94cedbb#id> a curric:TopicOfStudy ;
+    rdfs:label "Geometry and measure"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Geometry and measure"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/92015de2-2695-470f-9c76-5560a2fd11e0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/544bf06f-c73a-43ee-a200-e5fc23ac7945#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zs2pdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/30ed9238-8427-484e-a550-bc3a4f8dc0b0#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/fdb05d4d-39de-472e-afe5-4348c2fb46f0#id> .
+
+<http://www.bbc.co.uk/things/352a7df4-62ae-4b3d-8f56-62591aa48735#id> a curric:TopicOfStudy ;
+    rdfs:label "Probability"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Probability"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/26567c44-6737-429c-9626-ec9aa6027935#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dfb5be68-3892-49b2-8099-37316c91f288#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwbksg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3a34ef73-fdae-416c-a544-8001a087e8e6#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/525c78af-bfea-437c-b055-70da3e4fd4ff#id> .
+
+<http://www.bbc.co.uk/things/3e3f2025-4031-4572-9501-16b1a1370b48#id> a curric:TopicOfStudy ;
+    rdfs:label "Statistics"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Statistics"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aa144592-03bb-4a12-add2-27aa9406ca8e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3bb94e7c-8059-43cd-afde-99121d10bf14#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpj69qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/43159116-e952-4f9c-a3ec-ff254da00171#id> a curric:TopicOfStudy ;
+    rdfs:label "Statistics"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Statistics"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aa144592-03bb-4a12-add2-27aa9406ca8e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/ded29615-5c8f-4c0d-89f2-3259c94d3f38#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9ychv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4745b730-4f9c-4665-b63f-60ad5143364c#id> a curric:TopicOfStudy ;
+    rdfs:label "Probability"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Probability"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/26567c44-6737-429c-9626-ec9aa6027935#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/796c28ad-5299-47e4-b991-106163e6c582#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9v4p39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/48d79d41-c807-420c-9b2c-057478a3ac05#id> a curric:TopicOfStudy ;
+    rdfs:label "Ratio, proportion and rates of change"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Ratio, proportion and rates of change"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/de9ce711-c42a-4aa7-ad5c-11133e544136#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/ded29615-5c8f-4c0d-89f2-3259c94d3f38#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqcwv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/525c78af-bfea-437c-b055-70da3e4fd4ff#id> a curric:TopicOfStudy ;
+    rdfs:label "Ratio, proportion and rates of change"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Ratio, proportion and rates of change"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/de9ce711-c42a-4aa7-ad5c-11133e544136#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dfb5be68-3892-49b2-8099-37316c91f288#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z24j39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/53eca2f7-5bb6-40f0-b1ec-cd23a2197818#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/6388f5fa-dbd8-48d1-9d2b-ee37c68aac3b#id> .
+
+<http://www.bbc.co.uk/things/5bc98b48-886c-4b77-8ca3-954568dd9dee#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/30ed9238-8427-484e-a550-bc3a4f8dc0b0#id>,
+        <http://www.bbc.co.uk/things/5f655e77-e2d7-4ae1-a841-ad4f8b840116#id>,
+        <http://www.bbc.co.uk/things/74f7a450-5b51-41c2-90b7-64be8b10947d#id>,
+        <http://www.bbc.co.uk/things/ab53473b-de99-4153-b249-19a5a6d8a557#id>,
+        <http://www.bbc.co.uk/things/da3a1e36-b442-4310-b86f-2c80bbd98f30#id>,
+        <http://www.bbc.co.uk/things/e53d2aa4-00f5-4cb1-90c7-1bb91ce50113#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zgxsj6f#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/5f237fa1-1637-4360-af1a-a416b026ac38#id> a curric:TopicOfStudy ;
+    rdfs:label "Geometry and measure"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Geometry and measure"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/92015de2-2695-470f-9c76-5560a2fd11e0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dfb5be68-3892-49b2-8099-37316c91f288#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqrdycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5f655e77-e2d7-4ae1-a841-ad4f8b840116#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/d7a7e084-bdc0-4874-9b8b-381ef475b680#id> .
+
+<http://www.bbc.co.uk/things/615156d8-7feb-4a0b-88cb-d1e3c1b97b85#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0160fca8-ab02-41ef-9a58-acb9fefaed24#id>,
+        <http://www.bbc.co.uk/things/107d840d-d091-4bb7-877b-6ad2781fd5cd#id>,
+        <http://www.bbc.co.uk/things/78c572a9-67f2-42fe-ba99-260cc29c9fc4#id>,
+        <http://www.bbc.co.uk/things/c940360c-b3b4-44e6-bec4-a9fbe52c9fe4#id>,
+        <http://www.bbc.co.uk/things/da768345-b0f9-4bee-b22b-851907ae8402#id>,
+        <http://www.bbc.co.uk/things/eea1f25e-2329-4c32-8e27-8d1fbedf3fc1#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zcty7hv#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/6388f5fa-dbd8-48d1-9d2b-ee37c68aac3b#id> a curric:TopicOfStudy ;
+    rdfs:label "Number"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Number"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c995b96d-cb1d-4c19-98d1-d2af73755e63#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dfb5be68-3892-49b2-8099-37316c91f288#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztdmcwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/64d96f49-bbe5-4ed2-95eb-79f3ceffc87f#id> a curric:TopicOfStudy ;
+    rdfs:label "Ratio, proportion and rates of change"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Ratio, proportion and rates of change"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/de9ce711-c42a-4aa7-ad5c-11133e544136#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/544bf06f-c73a-43ee-a200-e5fc23ac7945#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zyxsj6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/727d1d17-6dcd-4f02-b6f6-50177bb4824e#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/c1ba8f6c-ad24-4eab-ae51-b67a00413c15#id> .
+
+<http://www.bbc.co.uk/things/74f7a450-5b51-41c2-90b7-64be8b10947d#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/3e3f2025-4031-4572-9501-16b1a1370b48#id> .
+
+<http://www.bbc.co.uk/things/769b065c-412a-4dd5-a94a-feb4cf360e4d#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/5f237fa1-1637-4360-af1a-a416b026ac38#id> .
+
+<http://www.bbc.co.uk/things/78c572a9-67f2-42fe-ba99-260cc29c9fc4#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/90561c66-d74b-4907-9af9-14cd96daea9b#id> .
+
+<http://www.bbc.co.uk/things/7ab40584-04c5-4ee5-b25e-dd678f95a697#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/03fda104-d079-4994-9d1d-3680db2a5f9e#id>,
+        <http://www.bbc.co.uk/things/2ce2bd39-aea8-485c-871b-4bb40910999d#id>,
+        <http://www.bbc.co.uk/things/3a34ef73-fdae-416c-a544-8001a087e8e6#id>,
+        <http://www.bbc.co.uk/things/53eca2f7-5bb6-40f0-b1ec-cd23a2197818#id>,
+        <http://www.bbc.co.uk/things/769b065c-412a-4dd5-a94a-feb4cf360e4d#id>,
+        <http://www.bbc.co.uk/things/80706f69-fba3-4b71-82d7-2e063d65ad77#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z32pdmn#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/7d467295-9a84-4a68-b342-649dab678d5d#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/ba675aca-4006-4ccf-bd9b-bbff4d635cea#id> .
+
+<http://www.bbc.co.uk/things/80706f69-fba3-4b71-82d7-2e063d65ad77#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/9fd0469b-5832-4d0a-8fc1-891ea4ffa75c#id> .
+
+<http://www.bbc.co.uk/things/871b126f-08e3-46df-8dba-526153d4cfc7#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/64d96f49-bbe5-4ed2-95eb-79f3ceffc87f#id> .
+
+<http://www.bbc.co.uk/things/8e1b81e0-09e4-4d82-944d-6d32278cc3f5#id> a curric:TopicOfStudy ;
+    rdfs:label "Statistics"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Statistics"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aa144592-03bb-4a12-add2-27aa9406ca8e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/796c28ad-5299-47e4-b991-106163e6c582#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zcfrtyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/90561c66-d74b-4907-9af9-14cd96daea9b#id> a curric:TopicOfStudy ;
+    rdfs:label "Number"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Number"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c995b96d-cb1d-4c19-98d1-d2af73755e63#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/ded29615-5c8f-4c0d-89f2-3259c94d3f38#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zx82rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9fd0469b-5832-4d0a-8fc1-891ea4ffa75c#id> a curric:TopicOfStudy ;
+    rdfs:label "Algebra"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Algebra"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ee550d7c-1e77-4f15-9b7a-57f2e8997788#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dfb5be68-3892-49b2-8099-37316c91f288#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxk7g82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a217ed4d-3300-4910-9fd7-8a5b1d268c22#id> a curric:TopicOfStudy ;
+    rdfs:label "Number"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Number"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c995b96d-cb1d-4c19-98d1-d2af73755e63#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/796c28ad-5299-47e4-b991-106163e6c582#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2k7g82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a97ef36e-42be-4e40-8867-64d964fcf878#id> a curric:TopicOfStudy ;
+    rdfs:label "Ratio, proportion and rates of change"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Ratio, proportion and rates of change"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/de9ce711-c42a-4aa7-ad5c-11133e544136#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3bb94e7c-8059-43cd-afde-99121d10bf14#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3ty7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ab53473b-de99-4153-b249-19a5a6d8a557#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/ba0aa8c2-c3d8-4e44-b565-3da2aa3b44fc#id> .
+
+<http://www.bbc.co.uk/things/aca2a5ab-c920-46ba-8b3c-6051d24ab61f#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/f7c04779-cb2d-4c24-ae4d-7014b0851e94#id> .
+
+<http://www.bbc.co.uk/things/b65411c5-14a4-41a8-9a71-d2d1b7f6e0c8#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/8e1b81e0-09e4-4d82-944d-6d32278cc3f5#id> .
+
+<http://www.bbc.co.uk/things/ba0aa8c2-c3d8-4e44-b565-3da2aa3b44fc#id> a curric:TopicOfStudy ;
+    rdfs:label "Number"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Number"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c995b96d-cb1d-4c19-98d1-d2af73755e63#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3bb94e7c-8059-43cd-afde-99121d10bf14#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zcsg6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ba675aca-4006-4ccf-bd9b-bbff4d635cea#id> a curric:TopicOfStudy ;
+    rdfs:label "Statistics"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Statistics"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aa144592-03bb-4a12-add2-27aa9406ca8e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/544bf06f-c73a-43ee-a200-e5fc23ac7945#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztwx4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c1ba8f6c-ad24-4eab-ae51-b67a00413c15#id> a curric:TopicOfStudy ;
+    rdfs:label "Number"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Number"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c995b96d-cb1d-4c19-98d1-d2af73755e63#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/544bf06f-c73a-43ee-a200-e5fc23ac7945#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgnbxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c940360c-b3b4-44e6-bec4-a9fbe52c9fe4#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/02148661-6753-4c6c-a867-9e829e14d6d7#id> .
+
+<http://www.bbc.co.uk/things/d0a2f598-6e00-4602-9ae9-6f4360bb2ff2#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/4745b730-4f9c-4665-b63f-60ad5143364c#id> .
+
+<http://www.bbc.co.uk/things/d63f2a30-8ced-44a0-9f16-36c61f7b69e4#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/2309cf6a-481c-4bfb-a635-e7df4638c6e4#id> .
+
+<http://www.bbc.co.uk/things/d7a7e084-bdc0-4874-9b8b-381ef475b680#id> a curric:TopicOfStudy ;
+    rdfs:label "Geometry and measure"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Geometry and measure"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/92015de2-2695-470f-9c76-5560a2fd11e0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3bb94e7c-8059-43cd-afde-99121d10bf14#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zymnwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d817c767-3d01-4886-8716-82529457d6f7#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/016c7579-ec2f-4635-a953-9aef84164db9#id> .
+
+<http://www.bbc.co.uk/things/d8836d56-cdb4-455c-879c-c5d82a082077#id> a curric:TopicOfStudy ;
+    rdfs:label "Statistics"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Statistics"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aa144592-03bb-4a12-add2-27aa9406ca8e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dfb5be68-3892-49b2-8099-37316c91f288#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8v4p39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/da3a1e36-b442-4310-b86f-2c80bbd98f30#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/18127e66-349c-4af3-ba5f-6348d358ee2a#id> .
+
+<http://www.bbc.co.uk/things/da768345-b0f9-4bee-b22b-851907ae8402#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/43159116-e952-4f9c-a3ec-ff254da00171#id> .
+
+<http://www.bbc.co.uk/things/e53d2aa4-00f5-4cb1-90c7-1bb91ce50113#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/a97ef36e-42be-4e40-8867-64d964fcf878#id> .
+
+<http://www.bbc.co.uk/things/e56d70e0-113b-4723-8021-462ae8e60127#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/06ccb283-759a-4b30-9997-b23cc187264a#id>,
+        <http://www.bbc.co.uk/things/0c2e9ab8-3c03-4858-8a25-bca2b56cc8c2#id>,
+        <http://www.bbc.co.uk/things/b65411c5-14a4-41a8-9a71-d2d1b7f6e0c8#id>,
+        <http://www.bbc.co.uk/things/d0a2f598-6e00-4602-9ae9-6f4360bb2ff2#id>,
+        <http://www.bbc.co.uk/things/d63f2a30-8ced-44a0-9f16-36c61f7b69e4#id>,
+        <http://www.bbc.co.uk/things/d817c767-3d01-4886-8716-82529457d6f7#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z8sg6fr#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/e968c01a-9db0-4070-ad74-741d425843b0#id> a curric:TopicOfStudy ;
+    rdfs:label "Ratio, proportion and rates of change"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Ratio, proportion and rates of change"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/de9ce711-c42a-4aa7-ad5c-11133e544136#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/796c28ad-5299-47e4-b991-106163e6c582#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwrdycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/eea1f25e-2329-4c32-8e27-8d1fbedf3fc1#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/ffbe3e75-3058-4a3e-b4d7-500613b4bc32#id> .
+
+<http://www.bbc.co.uk/things/f7c04779-cb2d-4c24-ae4d-7014b0851e94#id> a curric:TopicOfStudy ;
+    rdfs:label "Algebra"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Algebra"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ee550d7c-1e77-4f15-9b7a-57f2e8997788#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/544bf06f-c73a-43ee-a200-e5fc23ac7945#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3hv2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fdb05d4d-39de-472e-afe5-4348c2fb46f0#id> a curric:TopicOfStudy ;
+    rdfs:label "Probability"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Probability"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/26567c44-6737-429c-9626-ec9aa6027935#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3bb94e7c-8059-43cd-afde-99121d10bf14#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zs7h82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ffbe3e75-3058-4a3e-b4d7-500613b4bc32#id> a curric:TopicOfStudy ;
+    rdfs:label "Geometry and measure"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Geometry and measure"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/92015de2-2695-470f-9c76-5560a2fd11e0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/ded29615-5c8f-4c0d-89f2-3259c94d3f38#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwg8frd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/92015de2-2695-470f-9c76-5560a2fd11e0#id> a curric:Topic ;
+    rdfs:label "Geometry and measure"@en-gb ;
+    core:preferredLabel "Geometry and measure"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztj69qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3bb94e7c-8059-43cd-afde-99121d10bf14#id> a curric:ExamSpecification ;
+    rdfs:label "CCEA"@en-gb ;
+    core:disambiguationHint "CCEA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "CCEA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/ac46086e-0c56-4ee6-aeef-ed2b4f640d66#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:topics <http://www.bbc.co.uk/things/5bc98b48-886c-4b77-8ca3-954568dd9dee#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zgxsj6f#exam-specification> .
+
+<http://www.bbc.co.uk/things/544bf06f-c73a-43ee-a200-e5fc23ac7945#id> a curric:ExamSpecification ;
+    rdfs:label "EDEXCEL"@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "EDEXCEL"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:topics <http://www.bbc.co.uk/things/21a8ec49-6001-4fba-9621-830f08f742e4#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z9p3mnb#exam-specification> .
+
+<http://www.bbc.co.uk/things/796c28ad-5299-47e4-b991-106163e6c582#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:topics <http://www.bbc.co.uk/things/e56d70e0-113b-4723-8021-462ae8e60127#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z8sg6fr#exam-specification> .
+
+<http://www.bbc.co.uk/things/ded29615-5c8f-4c0d-89f2-3259c94d3f38#id> a curric:ExamSpecification ;
+    rdfs:label "OCR"@en-gb ;
+    core:disambiguationHint "OCR GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "OCR"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:topics <http://www.bbc.co.uk/things/615156d8-7feb-4a0b-88cb-d1e3c1b97b85#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zcty7hv#exam-specification> .
+
+<http://www.bbc.co.uk/things/dfb5be68-3892-49b2-8099-37316c91f288#id> a curric:ExamSpecification ;
+    rdfs:label "EDUQAS"@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE Maths (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "EDUQAS"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/61ed10fe-4712-4921-8ee2-1e81a0fe076e#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/882c640b-9d02-4b54-91fd-f8c3a2710a89#id> ;
+    curric:topics <http://www.bbc.co.uk/things/7ab40584-04c5-4ee5-b25e-dd678f95a697#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z32pdmn#exam-specification> .
+

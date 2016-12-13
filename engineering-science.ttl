@@ -1,160 +1,166 @@
-@prefix olo:   <http://purl.org/ontology/olo/core#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
 @prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix dc:    <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.bbc.co.uk/things/39c0caa5-3b57-449b-9569-95a38be79807#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/961c016f-b3e0-4c3e-91a8-c8b31a922ddf#id> .
+<http://www.bbc.co.uk/contexts/8bf9403e-d7f4-4d06-8b1f-e3ee6a65163f#id> a provenance:Dataset ;
+    rdfs:label "Topics, Topics of Study and Topic of Study Lists of Engineering science" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version 4 .
 
-<http://www.bbc.co.uk/things/3e50ccc0-5777-4ad7-941f-70753a2fc65e#id>
-        a           curric:Topic ;
-        rdfs:label  "Mechanisms and structures"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z66ngk7#topic> .
+<http://www.bbc.co.uk/things/07289ab1-4909-4fb7-afd7-921af930a020#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/f3616bd1-1850-40a5-860f-1b10ab8ddf25#id> .
 
-<http://www.bbc.co.uk/things/8ae633fa-296e-4073-b102-93462293fed0#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/29cefae2-0c90-460e-bbc3-a179a1b0ce20#id> .
+<http://www.bbc.co.uk/things/179af31a-42e0-4d15-9392-68845bf49fa6#id> a curric:TopicOfStudy ;
+    rdfs:label "Electronics and control"@en-gb ;
+    core:disambiguationHint "National 4 Engineering science curriculum"@en-gb ;
+    core:preferredLabel "Electronics and control"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f3d43491-805c-442b-bc29-bb72161d0ce0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/529e5454-6125-45b5-8426-3ae402ad6b1f#id> ;
+    = <http://www.bbc.co.uk/education/topics/z2xngk7#topic-of-study> .
 
-<http://www.bbc.co.uk/things/07289ab1-4909-4fb7-afd7-921af930a020#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/f3616bd1-1850-40a5-860f-1b10ab8ddf25#id> .
+<http://www.bbc.co.uk/things/279971b2-3d05-40dd-ab78-4063a0f49741#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/d57bbc0f-adc3-4a5f-9a3a-d48ee505d8bf#id> .
 
-<http://www.bbc.co.uk/things/31018374-f3ed-4257-8100-e93a05c3ec44#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/8ae633fa-296e-4073-b102-93462293fed0#id> , <http://www.bbc.co.uk/things/5892058a-c156-48c2-b7f7-0429c93f4961#id> , <http://www.bbc.co.uk/things/07289ab1-4909-4fb7-afd7-921af930a020#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zbb4q6f#topics-of-study-list> .
+<http://www.bbc.co.uk/things/29cefae2-0c90-460e-bbc3-a179a1b0ce20#id> a curric:TopicOfStudy ;
+    rdfs:label "Mechanisms and structures"@en-gb ;
+    core:disambiguationHint "National 4 Engineering science curriculum"@en-gb ;
+    core:preferredLabel "Mechanisms and structures"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3e50ccc0-5777-4ad7-941f-70753a2fc65e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/529e5454-6125-45b5-8426-3ae402ad6b1f#id> ;
+    = <http://www.bbc.co.uk/education/topics/zm6sr82#topic-of-study> .
 
-<http://www.bbc.co.uk/things/529e5454-6125-45b5-8426-3ae402ad6b1f#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/31018374-f3ed-4257-8100-e93a05c3ec44#id> .
+<http://www.bbc.co.uk/things/31018374-f3ed-4257-8100-e93a05c3ec44#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/07289ab1-4909-4fb7-afd7-921af930a020#id>,
+        <http://www.bbc.co.uk/things/5892058a-c156-48c2-b7f7-0429c93f4961#id>,
+        <http://www.bbc.co.uk/things/8ae633fa-296e-4073-b102-93462293fed0#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zbb4q6f#topics-of-study-list> .
 
-<http://www.bbc.co.uk/things/f8cd4fd3-9eb2-400b-8402-45b1cf4df88e#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/ff1d927e-2d7a-4c09-b2a3-dee19c47c498#id> .
+<http://www.bbc.co.uk/things/39c0caa5-3b57-449b-9569-95a38be79807#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/961c016f-b3e0-4c3e-91a8-c8b31a922ddf#id> .
 
-<http://www.bbc.co.uk/things/ff1d927e-2d7a-4c09-b2a3-dee19c47c498#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Mechanisms and structures"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/3e50ccc0-5777-4ad7-941f-70753a2fc65e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/aff23830-c3b6-415d-a4cd-3e97debc2a63#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zhn3kqt#topic-of-study> .
+<http://www.bbc.co.uk/things/52bef1b9-155b-4e8d-a59a-0a10e821d253#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/70e0bf65-54c7-45bc-beab-a2f4cd085198#id>,
+        <http://www.bbc.co.uk/things/f6f3c6a3-1c52-4ef2-a1d0-ab1a1adf26b7#id>,
+        <http://www.bbc.co.uk/things/f8cd4fd3-9eb2-400b-8402-45b1cf4df88e#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zphfcdm#topics-of-study-list> .
 
-<http://www.bbc.co.uk/things/d9463024-1192-431d-8744-925766acf49c#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/279971b2-3d05-40dd-ab78-4063a0f49741#id> , <http://www.bbc.co.uk/things/39c0caa5-3b57-449b-9569-95a38be79807#id> , <http://www.bbc.co.uk/things/adaac1fc-e263-498e-a842-f7352e6ff4b8#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z7qxfg8#topics-of-study-list> .
+<http://www.bbc.co.uk/things/5892058a-c156-48c2-b7f7-0429c93f4961#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/179af31a-42e0-4d15-9392-68845bf49fa6#id> .
 
-<http://www.bbc.co.uk/things/aff23830-c3b6-415d-a4cd-3e97debc2a63#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/52bef1b9-155b-4e8d-a59a-0a10e821d253#id> .
+<http://www.bbc.co.uk/things/6164f0af-dd00-4082-8356-49d97ac24b7f#id> a curric:TopicOfStudy ;
+    rdfs:label "Contexts and challenges"@en-gb ;
+    core:disambiguationHint "National 5 Engineering science curriculum"@en-gb ;
+    core:preferredLabel "Contexts and challenges"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1ad2a590-9b2c-4056-9662-5ac07bd95167#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/aff23830-c3b6-415d-a4cd-3e97debc2a63#id> ;
+    = <http://www.bbc.co.uk/education/topics/z6hy4wx#topic-of-study> .
 
-<http://www.bbc.co.uk/things/f6f3c6a3-1c52-4ef2-a1d0-ab1a1adf26b7#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/ba512b91-a883-4416-b0e7-3025bc27a417#id> .
+<http://www.bbc.co.uk/things/70e0bf65-54c7-45bc-beab-a2f4cd085198#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/6164f0af-dd00-4082-8356-49d97ac24b7f#id> .
 
-<http://www.bbc.co.uk/things/adaac1fc-e263-498e-a842-f7352e6ff4b8#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/ee3b14e7-da75-4ab0-9119-2c6e4efb930e#id> .
+<http://www.bbc.co.uk/things/8ae633fa-296e-4073-b102-93462293fed0#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/29cefae2-0c90-460e-bbc3-a179a1b0ce20#id> .
 
-<http://www.bbc.co.uk/things/6164f0af-dd00-4082-8356-49d97ac24b7f#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Contexts and challenges"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/1ad2a590-9b2c-4056-9662-5ac07bd95167#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/aff23830-c3b6-415d-a4cd-3e97debc2a63#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6hy4wx#topic-of-study> .
+<http://www.bbc.co.uk/things/961c016f-b3e0-4c3e-91a8-c8b31a922ddf#id> a curric:TopicOfStudy ;
+    rdfs:label "Electronics and control"@en-gb ;
+    core:disambiguationHint "Higher Engineering science curriculum"@en-gb ;
+    core:preferredLabel "Electronics and control"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f3d43491-805c-442b-bc29-bb72161d0ce0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/24b41bcc-0f89-4de5-ae2b-8cdaa3bb401c#id> ;
+    = <http://www.bbc.co.uk/education/topics/zsyrwmn#topic-of-study> .
 
-<http://www.bbc.co.uk/things/f3d43491-805c-442b-bc29-bb72161d0ce0#id>
-        a           curric:Topic ;
-        rdfs:label  "Electronics and control"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zxxpb9q#topic> .
+<http://www.bbc.co.uk/things/adaac1fc-e263-498e-a842-f7352e6ff4b8#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/ee3b14e7-da75-4ab0-9119-2c6e4efb930e#id> .
 
-<http://www.bbc.co.uk/things/5892058a-c156-48c2-b7f7-0429c93f4961#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/179af31a-42e0-4d15-9392-68845bf49fa6#id> .
+<http://www.bbc.co.uk/things/ba512b91-a883-4416-b0e7-3025bc27a417#id> a curric:TopicOfStudy ;
+    rdfs:label "Electronics and control"@en-gb ;
+    core:disambiguationHint "National 5 Engineering science curriculum"@en-gb ;
+    core:preferredLabel "Electronics and control"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f3d43491-805c-442b-bc29-bb72161d0ce0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/aff23830-c3b6-415d-a4cd-3e97debc2a63#id> ;
+    = <http://www.bbc.co.uk/education/topics/ztpv9j6#topic-of-study> .
 
-<http://www.bbc.co.uk/things/52bef1b9-155b-4e8d-a59a-0a10e821d253#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/f6f3c6a3-1c52-4ef2-a1d0-ab1a1adf26b7#id> , <http://www.bbc.co.uk/things/70e0bf65-54c7-45bc-beab-a2f4cd085198#id> , <http://www.bbc.co.uk/things/f8cd4fd3-9eb2-400b-8402-45b1cf4df88e#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zphfcdm#topics-of-study-list> .
+<http://www.bbc.co.uk/things/d57bbc0f-adc3-4a5f-9a3a-d48ee505d8bf#id> a curric:TopicOfStudy ;
+    rdfs:label "Contexts and challenges"@en-gb ;
+    core:disambiguationHint "Higher Engineering science curriculum"@en-gb ;
+    core:preferredLabel "Contexts and challenges"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1ad2a590-9b2c-4056-9662-5ac07bd95167#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/24b41bcc-0f89-4de5-ae2b-8cdaa3bb401c#id> ;
+    = <http://www.bbc.co.uk/education/topics/znfgd2p#topic-of-study> .
 
-<http://www.bbc.co.uk/things/279971b2-3d05-40dd-ab78-4063a0f49741#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/d57bbc0f-adc3-4a5f-9a3a-d48ee505d8bf#id> .
+<http://www.bbc.co.uk/things/d9463024-1192-431d-8744-925766acf49c#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/279971b2-3d05-40dd-ab78-4063a0f49741#id>,
+        <http://www.bbc.co.uk/things/39c0caa5-3b57-449b-9569-95a38be79807#id>,
+        <http://www.bbc.co.uk/things/adaac1fc-e263-498e-a842-f7352e6ff4b8#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z7qxfg8#topics-of-study-list> .
 
-<http://www.bbc.co.uk/things/d57bbc0f-adc3-4a5f-9a3a-d48ee505d8bf#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Contexts and challenges"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/1ad2a590-9b2c-4056-9662-5ac07bd95167#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/24b41bcc-0f89-4de5-ae2b-8cdaa3bb401c#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/znfgd2p#topic-of-study> .
+<http://www.bbc.co.uk/things/ee3b14e7-da75-4ab0-9119-2c6e4efb930e#id> a curric:TopicOfStudy ;
+    rdfs:label "Mechanisms and structures"@en-gb ;
+    core:disambiguationHint "Higher Engineering science curriculum"@en-gb ;
+    core:preferredLabel "Mechanisms and structures"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3e50ccc0-5777-4ad7-941f-70753a2fc65e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/24b41bcc-0f89-4de5-ae2b-8cdaa3bb401c#id> ;
+    = <http://www.bbc.co.uk/education/topics/zfvcjxs#topic-of-study> .
 
-<http://www.bbc.co.uk/things/24b41bcc-0f89-4de5-ae2b-8cdaa3bb401c#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/d9463024-1192-431d-8744-925766acf49c#id> .
+<http://www.bbc.co.uk/things/f3616bd1-1850-40a5-860f-1b10ab8ddf25#id> a curric:TopicOfStudy ;
+    rdfs:label "Contexts and challenges"@en-gb ;
+    core:disambiguationHint "National 4 Engineering science curriculum"@en-gb ;
+    core:preferredLabel "Contexts and challenges"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1ad2a590-9b2c-4056-9662-5ac07bd95167#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/529e5454-6125-45b5-8426-3ae402ad6b1f#id> ;
+    = <http://www.bbc.co.uk/education/topics/z7mpb9q#topic-of-study> .
 
-<http://www.bbc.co.uk/things/179af31a-42e0-4d15-9392-68845bf49fa6#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Electronics and control"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f3d43491-805c-442b-bc29-bb72161d0ce0#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/529e5454-6125-45b5-8426-3ae402ad6b1f#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z2xngk7#topic-of-study> .
+<http://www.bbc.co.uk/things/f6f3c6a3-1c52-4ef2-a1d0-ab1a1adf26b7#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/ba512b91-a883-4416-b0e7-3025bc27a417#id> .
 
-<http://www.bbc.co.uk/things/ba512b91-a883-4416-b0e7-3025bc27a417#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Electronics and control"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f3d43491-805c-442b-bc29-bb72161d0ce0#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/aff23830-c3b6-415d-a4cd-3e97debc2a63#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/ztpv9j6#topic-of-study> .
+<http://www.bbc.co.uk/things/f8cd4fd3-9eb2-400b-8402-45b1cf4df88e#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/ff1d927e-2d7a-4c09-b2a3-dee19c47c498#id> .
 
-<http://www.bbc.co.uk/things/f3616bd1-1850-40a5-860f-1b10ab8ddf25#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Contexts and challenges"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/1ad2a590-9b2c-4056-9662-5ac07bd95167#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/529e5454-6125-45b5-8426-3ae402ad6b1f#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7mpb9q#topic-of-study> .
+<http://www.bbc.co.uk/things/ff1d927e-2d7a-4c09-b2a3-dee19c47c498#id> a curric:TopicOfStudy ;
+    rdfs:label "Mechanisms and structures"@en-gb ;
+    core:disambiguationHint "National 5 Engineering science curriculum"@en-gb ;
+    core:preferredLabel "Mechanisms and structures"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3e50ccc0-5777-4ad7-941f-70753a2fc65e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/aff23830-c3b6-415d-a4cd-3e97debc2a63#id> ;
+    = <http://www.bbc.co.uk/education/topics/zhn3kqt#topic-of-study> .
 
-<http://www.bbc.co.uk/things/ee3b14e7-da75-4ab0-9119-2c6e4efb930e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Mechanisms and structures"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/3e50ccc0-5777-4ad7-941f-70753a2fc65e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/24b41bcc-0f89-4de5-ae2b-8cdaa3bb401c#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfvcjxs#topic-of-study> .
+<http://www.bbc.co.uk/things/1ad2a590-9b2c-4056-9662-5ac07bd95167#id> a curric:Topic ;
+    rdfs:label "Contexts and challenges"@en-gb ;
+    core:preferredLabel "Contexts and challenges"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zmmh34j#topic> .
 
-<http://www.bbc.co.uk/things/961c016f-b3e0-4c3e-91a8-c8b31a922ddf#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Electronics and control"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f3d43491-805c-442b-bc29-bb72161d0ce0#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/24b41bcc-0f89-4de5-ae2b-8cdaa3bb401c#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zsyrwmn#topic-of-study> .
+<http://www.bbc.co.uk/things/24b41bcc-0f89-4de5-ae2b-8cdaa3bb401c#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/d9463024-1192-431d-8744-925766acf49c#id> .
 
-<http://www.bbc.co.uk/things/29cefae2-0c90-460e-bbc3-a179a1b0ce20#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Mechanisms and structures"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/3e50ccc0-5777-4ad7-941f-70753a2fc65e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/529e5454-6125-45b5-8426-3ae402ad6b1f#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zm6sr82#topic-of-study> .
+<http://www.bbc.co.uk/things/3e50ccc0-5777-4ad7-941f-70753a2fc65e#id> a curric:Topic ;
+    rdfs:label "Mechanisms and structures"@en-gb ;
+    core:preferredLabel "Mechanisms and structures"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z66ngk7#topic> .
 
-<http://www.bbc.co.uk/things/1ad2a590-9b2c-4056-9662-5ac07bd95167#id>
-        a           curric:Topic ;
-        rdfs:label  "Contexts and challenges"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zmmh34j#topic> .
+<http://www.bbc.co.uk/things/529e5454-6125-45b5-8426-3ae402ad6b1f#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/31018374-f3ed-4257-8100-e93a05c3ec44#id> .
 
-<http://www.bbc.co.uk/things/70e0bf65-54c7-45bc-beab-a2f4cd085198#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/6164f0af-dd00-4082-8356-49d97ac24b7f#id> .
+<http://www.bbc.co.uk/things/aff23830-c3b6-415d-a4cd-3e97debc2a63#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/52bef1b9-155b-4e8d-a59a-0a10e821d253#id> .
+
+<http://www.bbc.co.uk/things/f3d43491-805c-442b-bc29-bb72161d0ce0#id> a curric:Topic ;
+    rdfs:label "Electronics and control"@en-gb ;
+    core:preferredLabel "Electronics and control"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxxpb9q#topic> .
+

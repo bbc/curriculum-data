@@ -1,0 +1,675 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/5b1ffcbb-fe84-47a3-8a46-34f1a454b957#id> a provenance:Dataset ;
+    rdfs:label "GCSE English Language (post-2015)" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "3"^^xsd:int .
+
+<http://www.bbc.co.uk/things/01662d8f-33d7-415a-b189-fec6612d2dc3#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing non-fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing non-fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/25d7abbc-1146-4c77-bd88-c7588db5bb43#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/453bd468-7998-4c2c-b573-41efcbec902b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztpy7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/01ae4c40-50f5-4a7a-a2c1-3212e82c5958#id> a curric:TopicOfStudy ;
+    rdfs:label "Writing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Writing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/453bd468-7998-4c2c-b573-41efcbec902b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2xpdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/037dc40f-9aa9-4383-b090-3804f38b88aa#id> a curric:TopicOfStudy ;
+    rdfs:label "Writing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Writing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8084996d-35f6-412b-833e-bf28650633e6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zyb4p39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/08fee358-7b50-41e3-aedc-29f12a86a544#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/9804a74a-9e76-43e4-a072-eafb07dcf245#id> .
+
+<http://www.bbc.co.uk/things/0acaf570-6588-4b4a-871c-f1a2de4a68a3#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/96c0ac06-63ea-4726-a1ff-c7942d48e540#id> .
+
+<http://www.bbc.co.uk/things/1251826b-21a5-4798-9a93-bedb8af6c320#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/3866030f-3ff5-477e-a106-e32a3c055121#id> .
+
+<http://www.bbc.co.uk/things/13967d14-2310-44a6-be97-03dc784cf937#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/d5165bcd-cd52-4731-94ab-696119e65a69#id> .
+
+<http://www.bbc.co.uk/things/1bc8f3e4-367b-4e40-b749-7bb75d4e5da5#id> a curric:TopicOfStudy ;
+    rdfs:label "Spelling, punctuation and grammar"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spelling, punctuation and grammar"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ae534352-bc71-459f-9e61-5b804f03f2e4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/453bd468-7998-4c2c-b573-41efcbec902b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zq2tk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1f8e5573-8329-49c3-b8f9-c503a41493af#id> a curric:TopicOfStudy ;
+    rdfs:label "Spoken language"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spoken language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/968ddd98-d71d-4a39-9216-f13cc208a9db#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8084996d-35f6-412b-833e-bf28650633e6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpfbxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/20dc9d9e-8f8a-46fa-9969-9ceb86c39f13#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/d396b62e-6353-49a5-91cd-7c031ae72732#id> .
+
+<http://www.bbc.co.uk/things/23bbf09c-29cb-45a9-b4ce-a7174abe05cc#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/d30b1a3e-0d2c-4ba7-9fc6-6f6292f8b3f8#id> .
+
+<http://www.bbc.co.uk/things/26ace616-a1dc-4645-b980-10d16d11591b#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/5f633319-2e8b-4830-8322-7eddab04bc4c#id> .
+
+<http://www.bbc.co.uk/things/2ce13adf-b283-41c9-a126-f1a50b6efe98#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/f5b0be82-0d20-4ef4-90fb-33bc35ca3e01#id> .
+
+<http://www.bbc.co.uk/things/2fd8f691-1c29-48be-85b1-87fdb10eac10#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0b9eeff7-bc4d-4e57-acfb-4ba5364657da#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a46eedef-7a0c-4749-82f1-fadd0e52c1f8#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxpy7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/306631ff-297a-4c10-bf78-81d8308a3f35#id> a curric:TopicOfStudy ;
+    rdfs:label "Comparing texts"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Comparing texts"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aa7335c9-02ec-47f0-bdb5-9e952a7d346f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/07c96b23-7bb9-41f7-bc68-4e4d0afcc68c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zg4dycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3153f64b-e904-46dc-aab7-0ff9171b7422#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/e8dc287b-84a1-4963-9524-c02b5f777ccf#id> .
+
+<http://www.bbc.co.uk/things/319da26b-5d80-4ee0-9938-acce755e6aa8#id> a curric:TopicOfStudy ;
+    rdfs:label "Comparing texts"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Comparing texts"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aa7335c9-02ec-47f0-bdb5-9e952a7d346f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a2c7d4f9-7e29-41f4-a10d-a3275f760631#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z26nwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/360e8d49-7c07-474a-a820-5a793e975150#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing non-fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing non-fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/25d7abbc-1146-4c77-bd88-c7588db5bb43#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8084996d-35f6-412b-833e-bf28650633e6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zg9wv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/361a472a-ed82-42da-8e9d-6700c02352ca#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/360e8d49-7c07-474a-a820-5a793e975150#id> .
+
+<http://www.bbc.co.uk/things/3866030f-3ff5-477e-a106-e32a3c055121#id> a curric:TopicOfStudy ;
+    rdfs:label "Writing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Writing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/07c96b23-7bb9-41f7-bc68-4e4d0afcc68c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3rksg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/42b410d2-65e7-4070-bb9c-3b4def9cd831#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/b985f80e-0302-4ed6-9866-644f69acc342#id> .
+
+<http://www.bbc.co.uk/things/43618d6a-1f97-4ca2-ae47-ec184c05b752#id> a curric:TopicOfStudy ;
+    rdfs:label "Spelling, punctuation and grammar"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spelling, punctuation and grammar"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ae534352-bc71-459f-9e61-5b804f03f2e4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8084996d-35f6-412b-833e-bf28650633e6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zsvrtyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/47a29d7d-db67-4443-8f4a-60881e80f242#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0b9eeff7-bc4d-4e57-acfb-4ba5364657da#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/07c96b23-7bb9-41f7-bc68-4e4d0afcc68c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9d7g82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4e833cff-7377-4e07-9ac7-f7603f8fb022#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/60e3e15f-0cfb-41e6-aa2d-219e0964ea04#id> .
+
+<http://www.bbc.co.uk/things/51d92ae8-d887-4b28-b41a-87952e6d07ed#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/319da26b-5d80-4ee0-9938-acce755e6aa8#id> .
+
+<http://www.bbc.co.uk/things/5789501d-cc2b-4be0-be9c-03ecf4a1af18#id> a curric:TopicOfStudy ;
+    rdfs:label "Spelling, punctuation and grammar"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spelling, punctuation and grammar"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ae534352-bc71-459f-9e61-5b804f03f2e4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a46eedef-7a0c-4749-82f1-fadd0e52c1f8#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8qx4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/57d3a265-42bd-4bbf-8aa9-af1ffbc766ce#id> a curric:TopicOfStudy ;
+    rdfs:label "Writing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Writing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b20bf520-6493-418a-ad33-24a618aa013e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zs3chv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5f633319-2e8b-4830-8322-7eddab04bc4c#id> a curric:TopicOfStudy ;
+    rdfs:label "Spelling, punctuation and grammar"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spelling, punctuation and grammar"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ae534352-bc71-459f-9e61-5b804f03f2e4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a2c7d4f9-7e29-41f4-a10d-a3275f760631#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zw769qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5fd9200f-711e-4c32-95d1-91f65ccb8a81#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0b9eeff7-bc4d-4e57-acfb-4ba5364657da#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8084996d-35f6-412b-833e-bf28650633e6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zc8qbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/60e3e15f-0cfb-41e6-aa2d-219e0964ea04#id> a curric:TopicOfStudy ;
+    rdfs:label "Spelling, punctuation and grammar"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spelling, punctuation and grammar"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ae534352-bc71-459f-9e61-5b804f03f2e4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b20bf520-6493-418a-ad33-24a618aa013e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpyg6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6b9eeb2a-89ac-4366-a2bc-726136818557#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/037dc40f-9aa9-4383-b090-3804f38b88aa#id> .
+
+<http://www.bbc.co.uk/things/6ead4466-8fb3-4970-9789-92415663ddd6#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/bd83d560-fe07-4668-abcd-c05d13726837#id> .
+
+<http://www.bbc.co.uk/things/6fa0f841-e0e7-4095-8206-fc07b9dfc0f7#id> a curric:TopicOfStudy ;
+    rdfs:label "Spelling, punctuation and grammar"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spelling, punctuation and grammar"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ae534352-bc71-459f-9e61-5b804f03f2e4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/07c96b23-7bb9-41f7-bc68-4e4d0afcc68c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zy3chv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7036b4e6-d491-466b-ac1e-c473f7dbc362#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/7aa24c7f-17a7-4873-8da8-8862ac66f51f#id> .
+
+<http://www.bbc.co.uk/things/759c376e-6c95-4ccc-909a-1dab2a425f8b#id> a curric:TopicOfStudy ;
+    rdfs:label "Writing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Writing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a2c7d4f9-7e29-41f4-a10d-a3275f760631#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqmh82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/78aaf6e6-4a00-498d-ab40-eda0ce0b56a4#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/2fd8f691-1c29-48be-85b1-87fdb10eac10#id> .
+
+<http://www.bbc.co.uk/things/79ac8c43-7c4a-40cd-b462-916d86b8eef7#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/1f8e5573-8329-49c3-b8f9-c503a41493af#id> .
+
+<http://www.bbc.co.uk/things/7aa24c7f-17a7-4873-8da8-8862ac66f51f#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing non-fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing non-fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/25d7abbc-1146-4c77-bd88-c7588db5bb43#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b20bf520-6493-418a-ad33-24a618aa013e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z34dycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7f5df3f0-9678-4963-8d3d-d04239d5ed56#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/23bbf09c-29cb-45a9-b4ce-a7174abe05cc#id>,
+        <http://www.bbc.co.uk/things/4e833cff-7377-4e07-9ac7-f7603f8fb022#id>,
+        <http://www.bbc.co.uk/things/7036b4e6-d491-466b-ac1e-c473f7dbc362#id>,
+        <http://www.bbc.co.uk/things/b3877fc8-6c7e-42d7-af95-87eb83ed42a8#id>,
+        <http://www.bbc.co.uk/things/e5184a48-dc11-45d2-b58c-31c0702ef369#id>,
+        <http://www.bbc.co.uk/things/f3293e45-b0a9-4931-8dc7-053761e18a47#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zcbchv4#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/7f79c626-6349-4317-a62a-bc0fce7a7e6a#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0b9eeff7-bc4d-4e57-acfb-4ba5364657da#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b20bf520-6493-418a-ad33-24a618aa013e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgkj39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/809939eb-42e2-4d4b-a8ca-3455c9a6820d#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/13967d14-2310-44a6-be97-03dc784cf937#id>,
+        <http://www.bbc.co.uk/things/361a472a-ed82-42da-8e9d-6700c02352ca#id>,
+        <http://www.bbc.co.uk/things/6b9eeb2a-89ac-4366-a2bc-726136818557#id>,
+        <http://www.bbc.co.uk/things/79ac8c43-7c4a-40cd-b462-916d86b8eef7#id>,
+        <http://www.bbc.co.uk/things/bbe33096-2628-463c-8a31-1739c349f096#id>,
+        <http://www.bbc.co.uk/things/cf32bf86-eae8-4187-bc52-637135e60785#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z3f3mnb#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/8be064db-0490-40f9-aef9-e9a114460a8f#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0b9eeff7-bc4d-4e57-acfb-4ba5364657da#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a2c7d4f9-7e29-41f4-a10d-a3275f760631#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztnv2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8c85cfc3-3230-45cd-b3b0-178fd36f77b3#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/b02c9def-ef8d-4691-8a6e-e98592b44097#id> .
+
+<http://www.bbc.co.uk/things/8cd032a6-5f57-4263-81f8-376dcd08f5cf#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/d2b26a1d-d091-46ba-80fb-2effaedea555#id> .
+
+<http://www.bbc.co.uk/things/950c2c7c-4c0d-4fc5-9ab3-ed8ec314478f#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/fc4a7afd-91ff-497d-becb-e0026c59ab86#id> .
+
+<http://www.bbc.co.uk/things/96c0ac06-63ea-4726-a1ff-c7942d48e540#id> a curric:TopicOfStudy ;
+    rdfs:label "Spoken language"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spoken language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/968ddd98-d71d-4a39-9216-f13cc208a9db#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/07c96b23-7bb9-41f7-bc68-4e4d0afcc68c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zsyg6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9804a74a-9e76-43e4-a072-eafb07dcf245#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing non-fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing non-fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/25d7abbc-1146-4c77-bd88-c7588db5bb43#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a2c7d4f9-7e29-41f4-a10d-a3275f760631#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxhfqty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ab1f02f2-be7f-4890-8a17-85e9455358ab#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing non-fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing non-fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/25d7abbc-1146-4c77-bd88-c7588db5bb43#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a46eedef-7a0c-4749-82f1-fadd0e52c1f8#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2tsj6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/af5b784a-cffa-4668-a58e-c9d4bbd63c23#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/47a29d7d-db67-4443-8f4a-60881e80f242#id> .
+
+<http://www.bbc.co.uk/things/b02c9def-ef8d-4691-8a6e-e98592b44097#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing non-fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing non-fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/25d7abbc-1146-4c77-bd88-c7588db5bb43#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/07c96b23-7bb9-41f7-bc68-4e4d0afcc68c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zckj39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b25f5bb8-a2d1-44d6-a1c1-5b3a988cedfc#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/ab1f02f2-be7f-4890-8a17-85e9455358ab#id> .
+
+<http://www.bbc.co.uk/things/b27e25fe-4033-4117-8ef2-126eaf33efec#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/6fa0f841-e0e7-4095-8206-fc07b9dfc0f7#id> .
+
+<http://www.bbc.co.uk/things/b3877fc8-6c7e-42d7-af95-87eb83ed42a8#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/f12d0af1-912e-4e98-87eb-6e571412f9f5#id> .
+
+<http://www.bbc.co.uk/things/b985f80e-0302-4ed6-9866-644f69acc342#id> a curric:TopicOfStudy ;
+    rdfs:label "Comparing texts"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Comparing texts"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aa7335c9-02ec-47f0-bdb5-9e952a7d346f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/453bd468-7998-4c2c-b573-41efcbec902b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxtsj6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bbe33096-2628-463c-8a31-1739c349f096#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/43618d6a-1f97-4ca2-ae47-ec184c05b752#id> .
+
+<http://www.bbc.co.uk/things/bd83d560-fe07-4668-abcd-c05d13726837#id> a curric:TopicOfStudy ;
+    rdfs:label "Spoken language"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spoken language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/968ddd98-d71d-4a39-9216-f13cc208a9db#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a2c7d4f9-7e29-41f4-a10d-a3275f760631#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8jmcwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bfbb3942-c7d3-4c87-a662-d0c3fee9d6b1#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/1bc8f3e4-367b-4e40-b749-7bb75d4e5da5#id> .
+
+<http://www.bbc.co.uk/things/c75eeb87-76fe-4b77-b197-fc99dd8ec806#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/08fee358-7b50-41e3-aedc-29f12a86a544#id>,
+        <http://www.bbc.co.uk/things/26ace616-a1dc-4645-b980-10d16d11591b#id>,
+        <http://www.bbc.co.uk/things/51d92ae8-d887-4b28-b41a-87952e6d07ed#id>,
+        <http://www.bbc.co.uk/things/6ead4466-8fb3-4970-9789-92415663ddd6#id>,
+        <http://www.bbc.co.uk/things/cb33815e-df3e-454b-9e4e-fa3aa466b8d8#id>,
+        <http://www.bbc.co.uk/things/fc52ceb7-3061-491d-8ff5-79f3b8f0edad#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zypfqty#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/cb33815e-df3e-454b-9e4e-fa3aa466b8d8#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/8be064db-0490-40f9-aef9-e9a114460a8f#id> .
+
+<http://www.bbc.co.uk/things/cf32bf86-eae8-4187-bc52-637135e60785#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/5fd9200f-711e-4c32-95d1-91f65ccb8a81#id> .
+
+<http://www.bbc.co.uk/things/d1c00bd1-6be0-41eb-a935-e9fe6802f1f6#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/5789501d-cc2b-4be0-be9c-03ecf4a1af18#id> .
+
+<http://www.bbc.co.uk/things/d2b26a1d-d091-46ba-80fb-2effaedea555#id> a curric:TopicOfStudy ;
+    rdfs:label "Spoken language"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spoken language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/968ddd98-d71d-4a39-9216-f13cc208a9db#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a46eedef-7a0c-4749-82f1-fadd0e52c1f8#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9w2rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d30b1a3e-0d2c-4ba7-9fc6-6f6292f8b3f8#id> a curric:TopicOfStudy ;
+    rdfs:label "Comparing texts"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Comparing texts"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aa7335c9-02ec-47f0-bdb5-9e952a7d346f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b20bf520-6493-418a-ad33-24a618aa013e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zyg9nbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d396b62e-6353-49a5-91cd-7c031ae72732#id> a curric:TopicOfStudy ;
+    rdfs:label "Writing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Writing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a46eedef-7a0c-4749-82f1-fadd0e52c1f8#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zw2tk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d3e1c76b-65b6-4f3d-bf3f-e62799ac6de6#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/01ae4c40-50f5-4a7a-a2c1-3212e82c5958#id> .
+
+<http://www.bbc.co.uk/things/d5165bcd-cd52-4731-94ab-696119e65a69#id> a curric:TopicOfStudy ;
+    rdfs:label "Comparing texts"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Comparing texts"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aa7335c9-02ec-47f0-bdb5-9e952a7d346f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8084996d-35f6-412b-833e-bf28650633e6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3c8frd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d5dc72fa-b6ba-40f1-bbf2-39a32f827337#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/306631ff-297a-4c10-bf78-81d8308a3f35#id> .
+
+<http://www.bbc.co.uk/things/db4852b5-8a27-46b4-84f9-42911f147214#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/20dc9d9e-8f8a-46fa-9969-9ceb86c39f13#id>,
+        <http://www.bbc.co.uk/things/3153f64b-e904-46dc-aab7-0ff9171b7422#id>,
+        <http://www.bbc.co.uk/things/78aaf6e6-4a00-498d-ab40-eda0ce0b56a4#id>,
+        <http://www.bbc.co.uk/things/8cd032a6-5f57-4263-81f8-376dcd08f5cf#id>,
+        <http://www.bbc.co.uk/things/b25f5bb8-a2d1-44d6-a1c1-5b3a988cedfc#id>,
+        <http://www.bbc.co.uk/things/d1c00bd1-6be0-41eb-a935-e9fe6802f1f6#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zgvg6fr#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/dcd909bc-c5eb-462d-b4d6-a98ce18a4749#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0acaf570-6588-4b4a-871c-f1a2de4a68a3#id>,
+        <http://www.bbc.co.uk/things/1251826b-21a5-4798-9a93-bedb8af6c320#id>,
+        <http://www.bbc.co.uk/things/8c85cfc3-3230-45cd-b3b0-178fd36f77b3#id>,
+        <http://www.bbc.co.uk/things/af5b784a-cffa-4668-a58e-c9d4bbd63c23#id>,
+        <http://www.bbc.co.uk/things/b27e25fe-4033-4117-8ef2-126eaf33efec#id>,
+        <http://www.bbc.co.uk/things/d5dc72fa-b6ba-40f1-bbf2-39a32f827337#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zstnwxs#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/e2af4d06-03c7-466e-a1c0-4bcf3bb74294#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/2ce13adf-b283-41c9-a126-f1a50b6efe98#id>,
+        <http://www.bbc.co.uk/things/42b410d2-65e7-4070-bb9c-3b4def9cd831#id>,
+        <http://www.bbc.co.uk/things/950c2c7c-4c0d-4fc5-9ab3-ed8ec314478f#id>,
+        <http://www.bbc.co.uk/things/bfbb3942-c7d3-4c87-a662-d0c3fee9d6b1#id>,
+        <http://www.bbc.co.uk/things/d3e1c76b-65b6-4f3d-bf3f-e62799ac6de6#id>,
+        <http://www.bbc.co.uk/things/f24691ae-6698-4eaf-8c68-82ab102cf299#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zpxh82p#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/e5184a48-dc11-45d2-b58c-31c0702ef369#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/57d3a265-42bd-4bbf-8aa9-af1ffbc766ce#id> .
+
+<http://www.bbc.co.uk/things/e8dc287b-84a1-4963-9524-c02b5f777ccf#id> a curric:TopicOfStudy ;
+    rdfs:label "Comparing texts"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Comparing texts"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aa7335c9-02ec-47f0-bdb5-9e952a7d346f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/a46eedef-7a0c-4749-82f1-fadd0e52c1f8#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqxpdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f12d0af1-912e-4e98-87eb-6e571412f9f5#id> a curric:TopicOfStudy ;
+    rdfs:label "Spoken language"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spoken language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/968ddd98-d71d-4a39-9216-f13cc208a9db#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b20bf520-6493-418a-ad33-24a618aa013e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zts3mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f24691ae-6698-4eaf-8c68-82ab102cf299#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/01662d8f-33d7-415a-b189-fec6612d2dc3#id> .
+
+<http://www.bbc.co.uk/things/f3293e45-b0a9-4931-8dc7-053761e18a47#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/7f79c626-6349-4317-a62a-bc0fce7a7e6a#id> .
+
+<http://www.bbc.co.uk/things/f5b0be82-0d20-4ef4-90fb-33bc35ca3e01#id> a curric:TopicOfStudy ;
+    rdfs:label "Spoken language"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Spoken language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/968ddd98-d71d-4a39-9216-f13cc208a9db#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/453bd468-7998-4c2c-b573-41efcbec902b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwqx4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fc4a7afd-91ff-497d-becb-e0026c59ab86#id> a curric:TopicOfStudy ;
+    rdfs:label "Analysing fiction"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Language (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "Analysing fiction"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0b9eeff7-bc4d-4e57-acfb-4ba5364657da#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/453bd468-7998-4c2c-b573-41efcbec902b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zps3mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fc52ceb7-3061-491d-8ff5-79f3b8f0edad#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/759c376e-6c95-4ccc-909a-1dab2a425f8b#id> .
+
+<http://www.bbc.co.uk/things/07c96b23-7bb9-41f7-bc68-4e4d0afcc68c#id> a curric:ExamSpecification ;
+    rdfs:label "WJEC"@en-gb ;
+    core:disambiguationHint "WJEC GCSE English Language (post-2015)"@en-gb ;
+    core:preferredLabel "WJEC"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/25d85da2-d7b5-49bc-8b06-55e695f7966b#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:topics <http://www.bbc.co.uk/things/dcd909bc-c5eb-462d-b4d6-a98ce18a4749#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zstnwxs#exam-specification> .
+
+<http://www.bbc.co.uk/things/453bd468-7998-4c2c-b573-41efcbec902b#id> a curric:ExamSpecification ;
+    rdfs:label "EDUQAS"@en-gb ;
+    core:disambiguationHint "EDUQAS GCSE English Language (post-2015)"@en-gb ;
+    core:preferredLabel "EDUQAS"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/61ed10fe-4712-4921-8ee2-1e81a0fe076e#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:topics <http://www.bbc.co.uk/things/e2af4d06-03c7-466e-a1c0-4bcf3bb74294#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zpxh82p#exam-specification> .
+
+<http://www.bbc.co.uk/things/8084996d-35f6-412b-833e-bf28650633e6#id> a curric:ExamSpecification ;
+    rdfs:label "OCR"@en-gb ;
+    core:disambiguationHint "OCR GCSE English Language (post-2015)"@en-gb ;
+    core:preferredLabel "OCR"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:topics <http://www.bbc.co.uk/things/809939eb-42e2-4d4b-a8ca-3455c9a6820d#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z3f3mnb#exam-specification> .
+
+<http://www.bbc.co.uk/things/a2c7d4f9-7e29-41f4-a10d-a3275f760631#id> a curric:ExamSpecification ;
+    rdfs:label "CCEA"@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Language (post-2015)"@en-gb ;
+    core:preferredLabel "CCEA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/ac46086e-0c56-4ee6-aeef-ed2b4f640d66#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:topics <http://www.bbc.co.uk/things/c75eeb87-76fe-4b77-b197-fc99dd8ec806#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zypfqty#exam-specification> .
+
+<http://www.bbc.co.uk/things/a46eedef-7a0c-4749-82f1-fadd0e52c1f8#id> a curric:ExamSpecification ;
+    rdfs:label "EDEXCEL"@en-gb ;
+    core:disambiguationHint "EDEXCEL GCSE English Language (post-2015)"@en-gb ;
+    core:preferredLabel "EDEXCEL"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:topics <http://www.bbc.co.uk/things/db4852b5-8a27-46b4-84f9-42911f147214#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zgvg6fr#exam-specification> .
+
+<http://www.bbc.co.uk/things/ae534352-bc71-459f-9e61-5b804f03f2e4#id> a curric:Topic ;
+    rdfs:label "Spelling, punctuation and grammar"@en-gb ;
+    core:preferredLabel "Spelling, punctuation and grammar"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z86nwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b20bf520-6493-418a-ad33-24a618aa013e#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE English Language (post-2015)"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/ad20936c-9735-4520-8d11-2dfefb514e74#id> ;
+    curric:topics <http://www.bbc.co.uk/things/7f5df3f0-9678-4963-8d3d-d04239d5ed56#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zcbchv4#exam-specification> .
+

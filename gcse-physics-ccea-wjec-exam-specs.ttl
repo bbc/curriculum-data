@@ -1,0 +1,324 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/8729dc8d-e1ce-41ba-a074-2f696c10480c#id> a provenance:Dataset ;
+    rdfs:label "GCSE Physics CCEA and WJEC" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "3"^^xsd:int .
+
+<http://www.bbc.co.uk/things/046d7631-e380-402e-863c-5edbf20ff1e2#id> a curric:TopicOfStudy ;
+    rdfs:label "Space"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Space"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d98a3b15-f8c8-43f4-9cde-c6dbfe0ffee2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4d823b33-22d5-420e-b443-538790307e8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgfc2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0dda90ee-65ef-46ff-b734-af63170fdeb2#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/8e7cccfc-c8d9-4c54-a76f-bbc6b9c84fc6#id> .
+
+<http://www.bbc.co.uk/things/15440cc8-7a12-4b9c-9f97-3ef3ce6529e7#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/63b86da7-c486-4566-873d-a0b8e065c681#id> .
+
+<http://www.bbc.co.uk/things/15f60edc-669b-4477-aa33-3cd899424bed#id> a curric:TopicOfStudy ;
+    rdfs:label "Solids, liquids and gases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Solids, liquids and gases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/707fe58d-b83e-4a53-9293-dc0bd6812260#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/e72c2f1d-53a2-4175-8d88-23fe40b818a1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zyh3wxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/22c5aea9-a94a-46c7-86c5-95036f2f8487#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/15f60edc-669b-4477-aa33-3cd899424bed#id> .
+
+<http://www.bbc.co.uk/things/2692f829-139e-49ac-a395-467f7a421f89#id> a curric:TopicOfStudy ;
+    rdfs:label "Waves"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Waves"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/15a49478-b49a-48d1-b4da-4848487a10a5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4d823b33-22d5-420e-b443-538790307e8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zw4qsg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/47739e61-2be5-427d-86ef-82cb18710afa#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/cbb286c9-0b1c-4ec3-a649-36f759e08058#id> .
+
+<http://www.bbc.co.uk/things/4f8eac04-a46a-4054-b701-d5c9dcd01f41#id> a curric:TopicOfStudy ;
+    rdfs:label "Space"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Space"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d98a3b15-f8c8-43f4-9cde-c6dbfe0ffee2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/e72c2f1d-53a2-4175-8d88-23fe40b818a1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zs6y82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5442bc1f-8727-4b1b-a47a-d2ce08505720#id> a curric:TopicOfStudy ;
+    rdfs:label "Solids, liquids and gases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Solids, liquids and gases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/707fe58d-b83e-4a53-9293-dc0bd6812260#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4d823b33-22d5-420e-b443-538790307e8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zcv9xsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/56a13fc9-4300-493b-8698-d00cd978e661#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/fb24fb23-dadd-41e6-89b3-0b4ae27e09ec#id> .
+
+<http://www.bbc.co.uk/things/5d9cf0f4-8a99-4f2a-973d-280480f10046#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/7f0d418d-8d95-4de3-9f98-181feeee32db#id> .
+
+<http://www.bbc.co.uk/things/602f32da-ae68-4bfa-83e0-902443d74d72#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/fc15ee21-e2cc-482a-9384-718e04be13a2#id> .
+
+<http://www.bbc.co.uk/things/63b86da7-c486-4566-873d-a0b8e065c681#id> a curric:TopicOfStudy ;
+    rdfs:label "Electromagnetism and magnetism"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Electromagnetism and magnetism"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dccf0750-0f52-41c2-aa3d-1028f7113c52#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/e72c2f1d-53a2-4175-8d88-23fe40b818a1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgy4mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6e977444-30fb-4999-9ce9-72e907155c3d#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/da2bf8e1-ec64-48c6-93d2-0dc199693803#id> .
+
+<http://www.bbc.co.uk/things/7523afe7-9dd7-4876-9705-645e42baf66e#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/d08b9ed2-1b4d-4205-bb4c-893776a9db0b#id> .
+
+<http://www.bbc.co.uk/things/772609de-9904-4c99-8d4d-7d59306c9f21#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/536dba74-12ab-41f5-a2e7-a3cd83576bfc#id> .
+
+<http://www.bbc.co.uk/things/7784d9b0-b0c1-41a9-a7d4-39d5e0e76dd0#id> a curric:TopicOfStudy ;
+    rdfs:label "Energy"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Energy"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/690511b3-3c22-424a-b582-c8cb69fc5d5e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/e72c2f1d-53a2-4175-8d88-23fe40b818a1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3sr7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/793413fe-13ca-4618-a0fc-e0cee3d23093#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/df4be524-b368-4955-9a76-89bcef24c77a#id> .
+
+<http://www.bbc.co.uk/things/7d452806-5a63-4f70-b29c-e9619c004e79#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/4f8eac04-a46a-4054-b701-d5c9dcd01f41#id> .
+
+<http://www.bbc.co.uk/things/7f0d418d-8d95-4de3-9f98-181feeee32db#id> a curric:TopicOfStudy ;
+    rdfs:label "Electricity"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Electricity"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d9e14820-1ce7-44e4-b629-bab5e1197a6b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/e72c2f1d-53a2-4175-8d88-23fe40b818a1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9gdhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7f322919-ed2c-43c7-958d-9f8f5375554a#id> a curric:TopicOfStudy ;
+    rdfs:label "Forces and movement"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Forces and movement"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0a3040bc-24c5-465a-8c9c-2bdb05f1a015#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4d823b33-22d5-420e-b443-538790307e8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2dx39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8e7cccfc-c8d9-4c54-a76f-bbc6b9c84fc6#id> a curric:TopicOfStudy ;
+    rdfs:label "Electromagnetism and magnetism"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Electromagnetism and magnetism"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dccf0750-0f52-41c2-aa3d-1028f7113c52#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4d823b33-22d5-420e-b443-538790307e8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8rwp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/958a113c-55df-4e81-8bac-713afd8256c7#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/15440cc8-7a12-4b9c-9f97-3ef3ce6529e7#id>,
+        <http://www.bbc.co.uk/things/22c5aea9-a94a-46c7-86c5-95036f2f8487#id>,
+        <http://www.bbc.co.uk/things/47739e61-2be5-427d-86ef-82cb18710afa#id>,
+        <http://www.bbc.co.uk/things/56a13fc9-4300-493b-8698-d00cd978e661#id>,
+        <http://www.bbc.co.uk/things/5d9cf0f4-8a99-4f2a-973d-280480f10046#id>,
+        <http://www.bbc.co.uk/things/6e977444-30fb-4999-9ce9-72e907155c3d#id>,
+        <http://www.bbc.co.uk/things/7d452806-5a63-4f70-b29c-e9619c004e79#id>,
+        <http://www.bbc.co.uk/things/cf5fb4d2-93a6-408e-95f7-7d880dc0b6a1#id>,
+        <http://www.bbc.co.uk/things/eccc3828-58a4-4e98-9c2d-edcbb47c14f1#id>,
+        <http://www.bbc.co.uk/things/f3535eb7-79d8-4836-873e-ad5c4015ab34#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zwgdhv4#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/99d8f880-1125-431b-a63a-b08d015f6d4d#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/2692f829-139e-49ac-a395-467f7a421f89#id> .
+
+<http://www.bbc.co.uk/things/c98f69f4-ab5f-4534-bc3e-24b036fb7759#id> a curric:TopicOfStudy ;
+    rdfs:label "Energy"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Energy"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/690511b3-3c22-424a-b582-c8cb69fc5d5e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4d823b33-22d5-420e-b443-538790307e8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9b8tyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cb56c07f-c48e-491d-a50d-17cef4c8683c#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/046d7631-e380-402e-863c-5edbf20ff1e2#id> .
+
+<http://www.bbc.co.uk/things/cbb286c9-0b1c-4ec3-a649-36f759e08058#id> a curric:TopicOfStudy ;
+    rdfs:label "Waves"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Waves"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/15a49478-b49a-48d1-b4da-4848487a10a5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/e72c2f1d-53a2-4175-8d88-23fe40b818a1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zc3k6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cf5fb4d2-93a6-408e-95f7-7d880dc0b6a1#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/5d04e75d-2acd-4694-9f4c-3681d6e2bbd0#id> .
+
+<http://www.bbc.co.uk/things/d08b9ed2-1b4d-4205-bb4c-893776a9db0b#id> a curric:TopicOfStudy ;
+    rdfs:label "Atoms and radiation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Atoms and radiation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5f495c7e-3323-4b6f-bb4a-0af58f72160e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4d823b33-22d5-420e-b443-538790307e8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3ngqty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d3f2cf64-7d90-49d9-80a7-f63a44381f80#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/7f322919-ed2c-43c7-958d-9f8f5375554a#id> .
+
+<http://www.bbc.co.uk/things/da2bf8e1-ec64-48c6-93d2-0dc199693803#id> a curric:TopicOfStudy ;
+    rdfs:label "Atoms and radiation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Atoms and radiation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5f495c7e-3323-4b6f-bb4a-0af58f72160e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/e72c2f1d-53a2-4175-8d88-23fe40b818a1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpms9qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/df4be524-b368-4955-9a76-89bcef24c77a#id> a curric:TopicOfStudy ;
+    rdfs:label "Electricity"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Electricity"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d9e14820-1ce7-44e4-b629-bab5e1197a6b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4d823b33-22d5-420e-b443-538790307e8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqk2ycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e26df8ca-5424-42e7-8e38-4fe1f2635cf0#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/c98f69f4-ab5f-4534-bc3e-24b036fb7759#id> .
+
+<http://www.bbc.co.uk/things/eccc3828-58a4-4e98-9c2d-edcbb47c14f1#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/290f3ace-d2c4-47e5-a069-d7ab148fc993#id> .
+
+<http://www.bbc.co.uk/things/ed2d9e95-3d08-4aeb-a242-b160c0dd8b5e#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0dda90ee-65ef-46ff-b734-af63170fdeb2#id>,
+        <http://www.bbc.co.uk/things/602f32da-ae68-4bfa-83e0-902443d74d72#id>,
+        <http://www.bbc.co.uk/things/7523afe7-9dd7-4876-9705-645e42baf66e#id>,
+        <http://www.bbc.co.uk/things/772609de-9904-4c99-8d4d-7d59306c9f21#id>,
+        <http://www.bbc.co.uk/things/793413fe-13ca-4618-a0fc-e0cee3d23093#id>,
+        <http://www.bbc.co.uk/things/99d8f880-1125-431b-a63a-b08d015f6d4d#id>,
+        <http://www.bbc.co.uk/things/cb56c07f-c48e-491d-a50d-17cef4c8683c#id>,
+        <http://www.bbc.co.uk/things/d3f2cf64-7d90-49d9-80a7-f63a44381f80#id>,
+        <http://www.bbc.co.uk/things/e26df8ca-5424-42e7-8e38-4fe1f2635cf0#id>,
+        <http://www.bbc.co.uk/things/ffa29e1b-0fc0-4513-871b-79334c613415#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z83k6fr#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/f3535eb7-79d8-4836-873e-ad5c4015ab34#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/7784d9b0-b0c1-41a9-a7d4-39d5e0e76dd0#id> .
+
+<http://www.bbc.co.uk/things/fb24fb23-dadd-41e6-89b3-0b4ae27e09ec#id> a curric:TopicOfStudy ;
+    rdfs:label "Forces and movement"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Physics curriculum"@en-gb ;
+    core:preferredLabel "Forces and movement"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0a3040bc-24c5-465a-8c9c-2bdb05f1a015#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/e72c2f1d-53a2-4175-8d88-23fe40b818a1#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8cjnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ffa29e1b-0fc0-4513-871b-79334c613415#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/5442bc1f-8727-4b1b-a47a-d2ce08505720#id> .
+
+<http://www.bbc.co.uk/things/4d823b33-22d5-420e-b443-538790307e8e#id> a curric:ExamSpecification ;
+    rdfs:label "WJEC"@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physics"@en-gb ;
+    core:preferredLabel "WJEC"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/25d85da2-d7b5-49bc-8b06-55e695f7966b#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:topics <http://www.bbc.co.uk/things/ed2d9e95-3d08-4aeb-a242-b160c0dd8b5e#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/z83k6fr#exam-specification> .
+
+<http://www.bbc.co.uk/things/e72c2f1d-53a2-4175-8d88-23fe40b818a1#id> a curric:ExamSpecification ;
+    rdfs:label "CCEA"@en-gb ;
+    core:disambiguationHint "CCEA GCSE Physics"@en-gb ;
+    core:preferredLabel "CCEA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/ac46086e-0c56-4ee6-aeef-ed2b4f640d66#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/dcc1c6bc-7db9-4591-9677-256548e25b92#id> ;
+    curric:topics <http://www.bbc.co.uk/things/958a113c-55df-4e81-8bac-713afd8256c7#id> ;
+    = <http://www.bbc.co.uk/education/examspecs/zwgdhv4#exam-specification> .
+

@@ -1,968 +1,1009 @@
-@prefix olo:   <http://purl.org/ontology/olo/core#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
 @prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix dc:    <http://purl.org/dc/terms/> .
-
-<http://www.bbc.co.uk/things/7e7a1907-4c6d-45a8-b306-e4caf34f41c2#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Local organisations"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8cf6975b-d22e-41a1-822a-36dbacd47ddc#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zps3kqt#topic-of-study> .
-
-<http://www.bbc.co.uk/things/dd5d7dba-04d5-4084-952a-eb8be70e903b#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/d42986cd-8e39-430a-aeca-0e056fb7d1b7#id> .
-
-<http://www.bbc.co.uk/things/80f73a9a-efe0-4e35-b19e-6b7d3f09e067#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Business organisations"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0884d512-78ff-4fcf-bb46-7d455c807a8b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6y9mp3#topic-of-study> .
-
-<http://www.bbc.co.uk/things/05dd61ac-d05a-48c6-8704-3ebd06594b05#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/7a50bcc3-ca14-4b22-ac98-8c20ede8c030#id> .
-
-<http://www.bbc.co.uk/things/97460b19-c212-4ce1-a9bb-0b47b31f1231#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/d7707f16-4607-43f5-8ff1-f7f97418636a#id> .
-
-<http://www.bbc.co.uk/things/300bf385-d0ff-4435-bff4-70acc1e5f459#id>
-        a           curric:Topic ;
-        rdfs:label  "Social issues: Inequality"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z82s4wx#topic> .
-
-<http://www.bbc.co.uk/things/89946b93-608f-4470-8ee7-1b47910bc7a3#id>
-        a           curric:Topic ;
-        rdfs:label  "Political participation"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z7hbwmn#topic> .
-
-<http://www.bbc.co.uk/things/6b4145fe-e25f-45fb-abef-7596db596ac0#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/5830d265-7dba-4b31-8c12-5189e1d12c85#id> .
-
-<http://www.bbc.co.uk/things/8bd578fd-c561-4100-b34b-e9b7afe0458c#id>
-        a           curric:Topic ;
-        rdfs:label  "Global trade"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z9qpr82#topic> .
-
-<http://www.bbc.co.uk/things/816c7113-3942-40f2-befa-bbe76e8eb197#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Shops and services"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/dfbb5c46-6cba-4e8e-aa47-795bed0d3b3c#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6py4wx#topic-of-study> .
-
-<http://www.bbc.co.uk/things/f0e85b5f-198d-4754-b976-5bf69b570895#id>
-        a          olo:Slot ;
-        olo:index  12 ;
-        olo:item   <http://www.bbc.co.uk/things/5188cb65-5687-4233-92e3-5ac6d59fd706#id> .
-
-<http://www.bbc.co.uk/things/b6fdf35b-72e6-4a98-bc0d-9e0ae04ff45d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Information and influence"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/261beb70-4972-4e74-bc27-508a0fbfa7c8#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfrjpv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/d5eabacd-82ce-4f70-875d-bae61933dd21#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Decision making bodies"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8d72d477-ab36-410f-b5bf-5ee5f0d6cf54#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zqhbwmn#topic-of-study> .
-
-<http://www.bbc.co.uk/things/d7707f16-4607-43f5-8ff1-f7f97418636a#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Americas"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/ebfac56a-c43c-4b70-b843-f770eeebcf75#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zdqxfg8#topic-of-study> .
-
-<http://www.bbc.co.uk/things/9591fbc0-b02b-4431-a6b9-60c33b4d8511#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Multiculturalism"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/ca24e1ff-0b6b-4a9a-ac6d-41ac2edfbd13#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zdxykqt#topic-of-study> .
-
-<http://www.bbc.co.uk/things/a415acbe-557a-40d7-bea8-917855bdcaf1#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Money and payment"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0a1410fe-3b9c-49d3-bdf6-2d0c00582dd8#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/znfb87h#topic-of-study> .
-
-<http://www.bbc.co.uk/things/526025c8-62b8-4851-8521-44bd73e47111#id>
-        a           curric:Topic ;
-        rdfs:label  "Social issues: Crime and law"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zdmf9j6#topic> .
-
-<http://www.bbc.co.uk/things/57fea06e-976d-4cb9-8cd6-9287b5a69c81#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/24920459-fe5f-4d61-8b36-a06527aae2f9#id> .
-
-<http://www.bbc.co.uk/things/15c50942-661a-4ab4-b13e-9e3ff323156a#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/9591fbc0-b02b-4431-a6b9-60c33b4d8511#id> .
-
-<http://www.bbc.co.uk/things/95788caa-1d02-4797-8671-ed7fd3d7d926#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Roles in the community"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/74d49d1c-ad10-4dc7-a6d4-9db4332bcc44#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zg4dxnb#topic-of-study> .
-
-<http://www.bbc.co.uk/things/ca92ffef-a8d6-4aca-a58c-3554f525ca22#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Local organisations"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8cf6975b-d22e-41a1-822a-36dbacd47ddc#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z26ngk7#topic-of-study> .
-
-<http://www.bbc.co.uk/things/fa48a24e-9cc3-416d-834d-4f8022d05872#id>
-        a           curric:Topic ;
-        rdfs:label  "Global development"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zrd634j#topic> .
-
-<http://www.bbc.co.uk/things/8e8466fb-80e3-463d-8e8e-16b7f42e7fd1#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/7cb24dca-c416-4709-aadd-e16d02b25815#id> .
-
-<http://www.bbc.co.uk/things/c31779bf-11a4-4676-8b0f-02c000d34a36#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/b0ca2008-5e4c-4e0d-b430-b65b37d09ae2#id> .
-
-<http://www.bbc.co.uk/things/3416c9d4-f0b6-441f-ba63-22248ec185e6#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Social issues: Inequality"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/300bf385-d0ff-4435-bff4-70acc1e5f459#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zk2s4wx#topic-of-study> .
-
-<http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/ea7ff2b7-522e-4bb8-8866-6d23c16d8804#id> .
-
-<http://www.bbc.co.uk/things/dfbb5c46-6cba-4e8e-aa47-795bed0d3b3c#id>
-        a           curric:Topic ;
-        rdfs:label  "Shops and services"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zr4dxnb#topic> .
-
-<http://www.bbc.co.uk/things/c18f72c8-340c-4a02-8538-08bcaaea59fa#id>
-        a          olo:Slot ;
-        olo:index  10 ;
-        olo:item   <http://www.bbc.co.uk/things/5fbc229b-82b6-499e-bb6a-c6821ac193e4#id> .
-
-<http://www.bbc.co.uk/things/b969a0b3-34df-428d-9c39-8eb04c29aa56#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Working practices"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9c174fea-e2dc-4aab-b93e-4b9a2c31f7e8#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/ztvkxnb#topic-of-study> .
-
-<http://www.bbc.co.uk/things/1b5cdca0-7984-494b-b4c9-152e46649d8e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Africa"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8f21089e-de39-4364-9d9c-2bc567106f14#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z2xpb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/72a05975-b5c8-4c70-8d2d-682638627396#id>
-        a                  curric:Topic ;
-        rdfs:label         "Rights and responsibilities"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z8ssgk7#topic> .
-
-<http://www.bbc.co.uk/things/b64d0da4-ccab-4725-8628-874031515c4b#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Rights and responsibilities"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/72a05975-b5c8-4c70-8d2d-682638627396#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zsygd2p#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c244d458-c492-41fc-a93d-8e918118d1d1#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/6b4145fe-e25f-45fb-abef-7596db596ac0#id> , <http://www.bbc.co.uk/things/d218004d-6529-4089-b1f1-50e83b219de2#id> , <http://www.bbc.co.uk/things/4d035f5f-51b7-417e-9b11-dacead42ddde#id> , <http://www.bbc.co.uk/things/8a9197f9-07e1-44d9-bb1b-1c2f36974b44#id> , <http://www.bbc.co.uk/things/5d90bd3a-b517-4b2e-a1a4-39e62055cad2#id> , <http://www.bbc.co.uk/things/d9627edb-52a4-4cd3-8052-65ac77f619b3#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z7mh34j#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/8f21089e-de39-4364-9d9c-2bc567106f14#id>
-        a                  curric:Topic ;
-        rdfs:label         "Africa"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/d7e2cafb-8714-4f19-afc9-08c37225e1fe#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z43bkqt#topic> .
-
-<http://www.bbc.co.uk/things/edd77086-6441-4447-9982-92830b15f186#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/aff1c64e-4c0a-4934-9cfe-753348ff6796#id> .
-
-<http://www.bbc.co.uk/things/94896307-56ae-4512-b820-546dd159844c#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/7e7a1907-4c6d-45a8-b306-e4caf34f41c2#id> .
-
-<http://www.bbc.co.uk/things/3ae84df1-20e3-4657-ab8c-fb1045bd1b6b#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Media in a democracy"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/4c480c59-ac3f-4240-8d95-f3190e167f61#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zw6v87h#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b9647b0a-50da-4ddc-9b37-0d2b87c850ae#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "International crises"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/b93b0e84-bc2a-4c2f-8216-f1731488eb44#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z3kmyrd#topic-of-study> .
-
-<http://www.bbc.co.uk/things/e3324b8a-5a3d-49dc-a20b-484f05364a8b#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/e203b6e4-fd1e-474a-aaf8-12380a6ff94c#id> .
-
-<http://www.bbc.co.uk/things/fabc7e41-ae31-4247-a8e5-69e877e40fa2#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Community"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/ccc7470d-315e-41aa-8b8e-a652da98859a#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zc9w6sg#topic-of-study> .
-
-<http://www.bbc.co.uk/things/be96b907-7615-4bc1-9691-5b07d6427bec#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Rights and responsibilities"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/72a05975-b5c8-4c70-8d2d-682638627396#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z97ncdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/9c174fea-e2dc-4aab-b93e-4b9a2c31f7e8#id>
-        a           curric:Topic ;
-        rdfs:label  "Working practices"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zty9mp3#topic> .
-
-<http://www.bbc.co.uk/things/e75b2fc4-5d6b-4165-b1b2-a5da1119e3c1#id>
-        a                  curric:Topic ;
-        rdfs:label         "Australia and Oceania"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/d7e2cafb-8714-4f19-afc9-08c37225e1fe#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zkgrd2p#topic> .
-
-<http://www.bbc.co.uk/things/5fbc229b-82b6-499e-bb6a-c6821ac193e4#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Shops and services"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/dfbb5c46-6cba-4e8e-aa47-795bed0d3b3c#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfvrwmn#topic-of-study> .
-
-<http://www.bbc.co.uk/things/5312f903-72e7-4058-bb13-1d15d0965377#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Finance"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0790ef6b-dbd7-49b3-af81-d6aeee4198a8#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zh386sg#topic-of-study> .
-
-<http://www.bbc.co.uk/things/6f6c02e5-d9b2-47c5-9bce-c3bf0e65607b#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Enterprise"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/1ac103fb-4714-4a94-8c1a-1c49b8f3d3b4#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zb8xvcw#topic-of-study> .
-
-<http://www.bbc.co.uk/things/5188cb65-5687-4233-92e3-5ac6d59fd706#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Economic factors"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/af215189-5f92-486a-b550-317d7b165e6d#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zxf42hv#topic-of-study> .
-
-<http://www.bbc.co.uk/things/bf09835d-e2aa-47e6-afe0-e6c3f0fc895c#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Life in other countries"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8c4b74a4-a135-4db7-8457-d1468cf99788#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/e6dfbe63-5a0d-473a-b501-0acd9f80c593#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zkw2n39#topic-of-study> .
-
-<http://www.bbc.co.uk/things/a75ec496-d55d-4a36-a099-b0872ea16105#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Internal and external influences on business"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/570ac500-54ba-47ec-87e6-bd84f704a906#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zngwhyc#topic-of-study> .
-
-<http://www.bbc.co.uk/things/8c4b74a4-a135-4db7-8457-d1468cf99788#id>
-        a           curric:Topic ;
-        rdfs:label  "Life in other countries"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zvb4q6f#topic> .
-
-<http://www.bbc.co.uk/things/e358e435-25f3-44cb-a505-ddd259bee491#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/6f6c02e5-d9b2-47c5-9bce-c3bf0e65607b#id> .
-
-<http://www.bbc.co.uk/things/1ac103fb-4714-4a94-8c1a-1c49b8f3d3b4#id>
-        a                  curric:Topic ;
-        rdfs:label         "Enterprise"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/3424ef7f-a8c8-45c4-b351-080f19b26039#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zshnb9q#topic> .
-
-<http://www.bbc.co.uk/things/7567066e-22ee-429e-af50-f32fea19859b#id>
-        a                  curric:Topic ;
-        rdfs:label         "Europe"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/d7e2cafb-8714-4f19-afc9-08c37225e1fe#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zcv39j6#topic> .
-
-<http://www.bbc.co.uk/things/362a7c59-4651-41c3-bb81-fa39c58e45d8#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Ethical issues in business"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/7a325e8e-d50f-4ee2-8dca-5565e710f8e7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zgd634j#topic-of-study> .
-
-<http://www.bbc.co.uk/things/2f034240-f537-4146-8c04-27510f88492c#id>
-        a                  curric:Topic ;
-        rdfs:label         "People who help us"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zpny4wx#topic> .
-
-<http://www.bbc.co.uk/things/f61e063c-aca9-4c2e-bf8a-e9e078873e7e#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/3ae84df1-20e3-4657-ab8c-fb1045bd1b6b#id> .
-
-<http://www.bbc.co.uk/things/efd5d109-8540-4045-9acf-7a75588bacb1#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/d5eabacd-82ce-4f70-875d-bae61933dd21#id> .
-
-<http://www.bbc.co.uk/things/7c71d304-17a9-423e-8e16-9f5ac54ca5e3#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Community"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/d9264004-3367-4abf-8dc8-0bb3b55f706d#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zy3cjxs#topic-of-study> .
-
-<http://www.bbc.co.uk/things/8055ab86-c337-4997-9d7c-e55372336455#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/823e7e10-488e-48a6-981b-bdf2837b3384#id> .
-
-<http://www.bbc.co.uk/things/908056d2-615d-4cd1-bb1b-5516c821753e#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/362a7c59-4651-41c3-bb81-fa39c58e45d8#id> .
-
-<http://www.bbc.co.uk/things/076ddca4-6c7f-4029-9a5a-9accf00e5067#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Asia"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/d4e1fac3-f6a5-4c41-895e-abfa43be304d#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zxtsr82#topic-of-study> .
-
-<http://www.bbc.co.uk/things/1a3f597f-69a8-4a71-86f3-f1054559c014#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/1b925abe-1655-4261-b35c-ea0260b1e945#id> .
-
-<http://www.bbc.co.uk/things/b93b0e84-bc2a-4c2f-8216-f1731488eb44#id>
-        a           curric:Topic ;
-        rdfs:label  "International crises"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zcwtb9q#topic> .
-
-<http://www.bbc.co.uk/things/6420bd81-497f-4c2e-9826-f40faaf034ee#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Europe"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/7567066e-22ee-429e-af50-f32fea19859b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zqmh34j#topic-of-study> .
-
-<http://www.bbc.co.uk/things/5d90bd3a-b517-4b2e-a1a4-39e62055cad2#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/076ddca4-6c7f-4029-9a5a-9accf00e5067#id> .
-
-<http://www.bbc.co.uk/things/a0981308-2417-4206-a7b9-e608c2622eab#id>
-        a          olo:Slot ;
-        olo:index  10 ;
-        olo:item   <http://www.bbc.co.uk/things/632ad2ea-a0cf-4bf5-9fb3-d636b11928b1#id> .
-
-<http://www.bbc.co.uk/things/7a325e8e-d50f-4ee2-8dca-5565e710f8e7#id>
-        a           curric:Topic ;
-        rdfs:label  "Ethical issues in business"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z4jhgk7#topic> .
-
-<http://www.bbc.co.uk/things/ba82f4d5-b8eb-498f-8e4a-085e6713b039#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/1a376a6a-3071-4c31-beff-84872cfc044c#id> .
-
-<http://www.bbc.co.uk/things/d4d76f49-75df-40c8-a11c-a78bff79bd8e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Community groups"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/7c56dcc3-0226-4a29-b1d5-350bd7fccfd8#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zvg97ty#topic-of-study> .
-
-<http://www.bbc.co.uk/things/af215189-5f92-486a-b550-317d7b165e6d#id>
-        a           curric:Topic ;
-        rdfs:label  "Economic factors"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zxsc7ty#topic> .
-
-<http://www.bbc.co.uk/things/ca24e1ff-0b6b-4a9a-ac6d-41ac2edfbd13#id>
-        a           curric:Topic ;
-        rdfs:label  "Multiculturalism"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zwxykqt#topic> .
-
-<http://www.bbc.co.uk/things/a67c30c0-53a0-4d5b-bf20-d7893553c28e#id>
-        a          olo:Slot ;
-        olo:index  16 ;
-        olo:item   <http://www.bbc.co.uk/things/8e84dd40-e90c-4aab-955d-562ce3768fe1#id> .
-
-<http://www.bbc.co.uk/things/823e7e10-488e-48a6-981b-bdf2837b3384#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Enterprise"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/1ac103fb-4714-4a94-8c1a-1c49b8f3d3b4#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zwqxfg8#topic-of-study> .
-
-<http://www.bbc.co.uk/things/861e00f7-e844-4b19-a809-76951e44cf4d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "People who help us"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/2f034240-f537-4146-8c04-27510f88492c#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zkd7pv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/aff1c64e-4c0a-4934-9cfe-753348ff6796#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "People who help us"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/2f034240-f537-4146-8c04-27510f88492c#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zbc8mp3#topic-of-study> .
-
-<http://www.bbc.co.uk/things/afc12ad7-a8ea-4c18-929e-de89c91cf73a#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/a415acbe-557a-40d7-bea8-917855bdcaf1#id> .
-
-<http://www.bbc.co.uk/things/d9627edb-52a4-4cd3-8052-65ac77f619b3#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/1b5cdca0-7984-494b-b4c9-152e46649d8e#id> .
-
-<http://www.bbc.co.uk/things/24920459-fe5f-4d61-8b36-a06527aae2f9#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Money and payment"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0a1410fe-3b9c-49d3-bdf6-2d0c00582dd8#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zmtsr82#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b0ca2008-5e4c-4e0d-b430-b65b37d09ae2#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Africa"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8f21089e-de39-4364-9d9c-2bc567106f14#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z8jmsbk#topic-of-study> .
-
-<http://www.bbc.co.uk/things/9e443ab5-ebf4-4ed0-a6f6-548268da7c48#id>
-        a          olo:Slot ;
-        olo:index  10 ;
-        olo:item   <http://www.bbc.co.uk/things/816c7113-3942-40f2-befa-bbe76e8eb197#id> .
-
-<http://www.bbc.co.uk/things/56777b7c-d97b-4c99-ae4a-b2d61f416016#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/b6fdf35b-72e6-4a98-bc0d-9e0ae04ff45d#id> .
-
-<http://www.bbc.co.uk/things/855b5b0a-95df-42d6-ad67-7f609e1c2405#id>
-        a          olo:Slot ;
-        olo:index  11 ;
-        olo:item   <http://www.bbc.co.uk/things/97e6cbd0-840a-44d4-a874-51a47b6b84d0#id> .
-
-<http://www.bbc.co.uk/things/58384918-ad47-421f-b1c1-26fca4877844#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Asia"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/d4e1fac3-f6a5-4c41-895e-abfa43be304d#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zw76yrd#topic-of-study> .
-
-<http://www.bbc.co.uk/things/1715b069-d56f-41f5-84c0-dfbd6080fddf#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/7c71d304-17a9-423e-8e16-9f5ac54ca5e3#id> .
-
-<http://www.bbc.co.uk/things/7c56dcc3-0226-4a29-b1d5-350bd7fccfd8#id>
-        a                  curric:Topic ;
-        rdfs:label         "Community groups"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zthsr82#topic> .
-
-<http://www.bbc.co.uk/things/96e680b9-5670-4799-8fca-89c35fd62c57#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Enterprise"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/1ac103fb-4714-4a94-8c1a-1c49b8f3d3b4#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zckjtfr#topic-of-study> .
-
-<http://www.bbc.co.uk/things/f23576cf-2d98-4dd0-bf8e-96b06996e868#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/95788caa-1d02-4797-8671-ed7fd3d7d926#id> .
-
-<http://www.bbc.co.uk/things/0a1410fe-3b9c-49d3-bdf6-2d0c00582dd8#id>
-        a           curric:Topic ;
-        rdfs:label  "Money and payment"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zgc8mp3#topic> .
-
-<http://www.bbc.co.uk/things/b064d6bf-4d2b-4dca-9493-518212635fa4#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Life in other countries"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8c4b74a4-a135-4db7-8457-d1468cf99788#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/c244d458-c492-41fc-a93d-8e918118d1d1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7mh34j#topic-of-study> .
-
-<http://www.bbc.co.uk/things/87b33ebc-a464-42dc-a87e-ec9cfa7cccf7#id>
-        a                  curric:Topic ;
-        rdfs:label         "Discrimination and diversity"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zhpfcdm#topic> .
-
-<http://www.bbc.co.uk/things/5d3d28b2-5213-4687-ad15-c15e0cfa8443#id>
-        a          olo:Slot ;
-        olo:index  11 ;
-        olo:item   <http://www.bbc.co.uk/things/d66589e8-92f9-455d-9eb6-eefe30789186#id> .
-
-<http://www.bbc.co.uk/things/e3cbeca5-2171-4afb-ac00-f30ecee7a976#id>
-        a           curric:Topic ;
-        rdfs:label  "Democracy and decisions"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zsf3kqt#topic> .
-
-<http://www.bbc.co.uk/things/b831ceab-bb90-4a9a-9dac-e3f1d3a62da0#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Americas"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/ebfac56a-c43c-4b70-b843-f770eeebcf75#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zm6ngk7#topic-of-study> .
-
-<http://www.bbc.co.uk/things/632ad2ea-a0cf-4bf5-9fb3-d636b11928b1#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Global trade"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8bd578fd-c561-4100-b34b-e9b7afe0458c#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zrwtb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/ebfac56a-c43c-4b70-b843-f770eeebcf75#id>
-        a                  curric:Topic ;
-        rdfs:label         "Americas"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/d7e2cafb-8714-4f19-afc9-08c37225e1fe#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z3g97ty#topic> .
-
-<http://www.bbc.co.uk/things/0884d512-78ff-4fcf-bb46-7d455c807a8b#id>
-        a           curric:Topic ;
-        rdfs:label  "Business organisations"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z6f42hv#topic> .
-
-<http://www.bbc.co.uk/things/db6ee80f-a050-42be-a032-b71664b1631f#id>
-        a           curric:Topic ;
-        rdfs:label  "World ideologies"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zqt3d2p#topic> .
-
-<http://www.bbc.co.uk/things/52ad5c4f-eb9d-4467-ae3c-acf67e2e150e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Australia and Oceania"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/e75b2fc4-5d6b-4165-b1b2-a5da1119e3c1#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6hfcdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/dc55f6c7-5c64-4457-9600-94bce1d88b09#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Inequality"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/znbdtfr#topic-of-study> .
-
-<http://www.bbc.co.uk/things/7a50bcc3-ca14-4b22-ac98-8c20ede8c030#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Democracy and decisions"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/e3cbeca5-2171-4afb-ac00-f30ecee7a976#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zr9w6sg#topic-of-study> .
-
-<http://www.bbc.co.uk/things/261df475-fb8e-4021-a16c-1da858728cc2#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Fair trading"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/575d63fd-f9a8-490a-b216-c8a99c054bf8#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z9d7pv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/8d72d477-ab36-410f-b5bf-5ee5f0d6cf54#id>
-        a           curric:Topic ;
-        rdfs:label  "Decision making bodies"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zg8xvcw#topic> .
-
-<http://www.bbc.co.uk/things/2338f7d3-8522-45bd-99ce-abca5c810fd5#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/6420bd81-497f-4c2e-9826-f40faaf034ee#id> .
-
-<http://www.bbc.co.uk/things/88c5dc3c-37a6-412e-b45c-a6a2741bdc90#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/d4d76f49-75df-40c8-a11c-a78bff79bd8e#id> .
-
-<http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/b600ebf6-365f-43e7-87c6-ecc036c1d523#id> .
-
-<http://www.bbc.co.uk/things/4951c68b-1463-43aa-a797-2c0724054118#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/ca92ffef-a8d6-4aca-a58c-3554f525ca22#id> .
-
-<http://www.bbc.co.uk/things/d9264004-3367-4abf-8dc8-0bb3b55f706d#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/2ac4ac00-9236-4185-b506-4980ac307b5e#id> , <http://www.bbc.co.uk/things/88c5dc3c-37a6-412e-b45c-a6a2741bdc90#id> , <http://www.bbc.co.uk/things/edd77086-6441-4447-9982-92830b15f186#id> , <http://www.bbc.co.uk/things/f23576cf-2d98-4dd0-bf8e-96b06996e868#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zy3cjxs#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/a492f333-0594-44da-a2e8-e248187b65a4#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/f3afe2fc-41a5-42ed-9bd3-9dfbb72d9189#id> .
-
-<http://www.bbc.co.uk/things/8e84dd40-e90c-4aab-955d-562ce3768fe1#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Business structures"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/107a968a-e21c-43e0-a24a-7f84a820f7d5#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zpbdtfr#topic-of-study> .
-
-<http://www.bbc.co.uk/things/575d63fd-f9a8-490a-b216-c8a99c054bf8#id>
-        a           curric:Topic ;
-        rdfs:label  "Fair trading"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zyvgd2p#topic> .
-
-<http://www.bbc.co.uk/things/a44b59ba-d0bc-4531-be5a-3104918da21e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "World ideologies"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/db6ee80f-a050-42be-a032-b71664b1631f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zjt3d2p#topic-of-study> .
-
-<http://www.bbc.co.uk/things/794f12a0-a2d7-4c77-a623-3754d0e173d7#id>
-        a           curric:Topic ;
-        rdfs:label  "Budget and finance"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zk7ncdm#topic> .
-
-<http://www.bbc.co.uk/things/b600ebf6-365f-43e7-87c6-ecc036c1d523#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/c2758430-bb70-4fca-8fe9-1b45560a0644#id> , <http://www.bbc.co.uk/things/248433c3-549d-48db-b926-7139d44a1862#id> , <http://www.bbc.co.uk/things/5d3d28b2-5213-4687-ad15-c15e0cfa8443#id> , <http://www.bbc.co.uk/things/15c50942-661a-4ab4-b13e-9e3ff323156a#id> , <http://www.bbc.co.uk/things/efd5d109-8540-4045-9acf-7a75588bacb1#id> , <http://www.bbc.co.uk/things/a67c30c0-53a0-4d5b-bf20-d7893553c28e#id> , <http://www.bbc.co.uk/things/f61e063c-aca9-4c2e-bf8a-e9e078873e7e#id> , <http://www.bbc.co.uk/things/f2163ba8-b88c-4b35-b59e-75fce2e21fc8#id> , <http://www.bbc.co.uk/things/ba82f4d5-b8eb-498f-8e4a-085e6713b039#id> , <http://www.bbc.co.uk/things/b5dba26e-89ab-4884-8717-0e15afe79207#id> , <http://www.bbc.co.uk/things/944e41c7-2b0a-4bb1-ba98-5a0cc9219f52#id> , <http://www.bbc.co.uk/things/994938df-e833-44a4-b47d-b7bdb2fd5b72#id> , <http://www.bbc.co.uk/things/f0e85b5f-198d-4754-b976-5bf69b570895#id> , <http://www.bbc.co.uk/things/dd5d7dba-04d5-4084-952a-eb8be70e903b#id> , <http://www.bbc.co.uk/things/df81c98f-8a53-4ddc-924f-d2ca3f6dc516#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zq2s4wx#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/1560c0df-299d-4f50-a584-5c2c30004325#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Europe"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/7567066e-22ee-429e-af50-f32fea19859b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/ztpy4wx#topic-of-study> .
-
-<http://www.bbc.co.uk/things/d218004d-6529-4089-b1f1-50e83b219de2#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/1560c0df-299d-4f50-a584-5c2c30004325#id> .
-
-<http://www.bbc.co.uk/things/d4e1fac3-f6a5-4c41-895e-abfa43be304d#id>
-        a                  curric:Topic ;
-        rdfs:label         "Asia"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/d7e2cafb-8714-4f19-afc9-08c37225e1fe#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z9bg87h#topic> .
-
-<http://www.bbc.co.uk/things/248433c3-549d-48db-b926-7139d44a1862#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/a44b59ba-d0bc-4531-be5a-3104918da21e#id> .
-
-<http://www.bbc.co.uk/things/524063c1-c4c2-4d6b-9f0f-8585b616209b#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/e358e435-25f3-44cb-a505-ddd259bee491#id> , <http://www.bbc.co.uk/things/855b5b0a-95df-42d6-ad67-7f609e1c2405#id> , <http://www.bbc.co.uk/things/c1479f31-1505-4bc2-8bac-2fe6fd4fc803#id> , <http://www.bbc.co.uk/things/6358cb42-5530-401b-8633-352e45d8c117#id> , <http://www.bbc.co.uk/things/a0981308-2417-4206-a7b9-e608c2622eab#id> , <http://www.bbc.co.uk/things/1695e1f3-c8e5-439b-a3b8-f4a8af9499cf#id> , <http://www.bbc.co.uk/things/908056d2-615d-4cd1-bb1b-5516c821753e#id> , <http://www.bbc.co.uk/things/19efd70e-8975-4e00-9e91-817663f1fde6#id> , <http://www.bbc.co.uk/things/a492f333-0594-44da-a2e8-e248187b65a4#id> , <http://www.bbc.co.uk/things/56777b7c-d97b-4c99-ae4a-b2d61f416016#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z392fg8#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/570ac500-54ba-47ec-87e6-bd84f704a906#id>
-        a           curric:Topic ;
-        rdfs:label  "Internal and external influences on business"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zhvkxnb#topic> .
-
-<http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id>
-        a           curric:Topic ;
-        rdfs:label  "Community"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zknnb9q#topic> .
-
-<http://www.bbc.co.uk/things/b5dba26e-89ab-4884-8717-0e15afe79207#id>
-        a          olo:Slot ;
-        olo:index  15 ;
-        olo:item   <http://www.bbc.co.uk/things/5312f903-72e7-4058-bb13-1d15d0965377#id> .
-
-<http://www.bbc.co.uk/things/f7050f7d-e3e5-4b42-8dae-34292605c1d9#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/861e00f7-e844-4b19-a809-76951e44cf4d#id> .
-
-<http://www.bbc.co.uk/things/8cf6975b-d22e-41a1-822a-36dbacd47ddc#id>
-        a           curric:Topic ;
-        rdfs:label  "Local organisations"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zbrk2hv#topic> .
-
-<http://www.bbc.co.uk/things/e53e26e2-f79e-473c-8acb-1e096fb1c0c8#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Global development"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/fa48a24e-9cc3-416d-834d-4f8022d05872#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zv92fg8#topic-of-study> .
-
-<http://www.bbc.co.uk/things/686ba2ec-99bb-4acc-b24e-15ae17b453e8#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Discrimination and diversity"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/87b33ebc-a464-42dc-a87e-ec9cfa7cccf7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z3rk2hv#topic-of-study> .
-
-<http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/524063c1-c4c2-4d6b-9f0f-8585b616209b#id> .
-
-<http://www.bbc.co.uk/things/3c8d8387-28bb-4f4b-910a-1745ae57567d#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/58384918-ad47-421f-b1c1-26fca4877844#id> .
-
-<http://www.bbc.co.uk/things/60016ea3-6d29-445c-a82a-33f6937b7143#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/b64d0da4-ccab-4725-8628-874031515c4b#id> .
-
-<http://www.bbc.co.uk/things/f2163ba8-b88c-4b35-b59e-75fce2e21fc8#id>
-        a          olo:Slot ;
-        olo:index  17 ;
-        olo:item   <http://www.bbc.co.uk/things/a75ec496-d55d-4a36-a099-b0872ea16105#id> .
-
-<http://www.bbc.co.uk/things/f3afe2fc-41a5-42ed-9bd3-9dfbb72d9189#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Rights and responsibilities"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/72a05975-b5c8-4c70-8d2d-682638627396#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zsgwhyc#topic-of-study> .
-
-<http://www.bbc.co.uk/things/4d035f5f-51b7-417e-9b11-dacead42ddde#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/b831ceab-bb90-4a9a-9dac-e3f1d3a62da0#id> .
-
-<http://www.bbc.co.uk/things/6ca0f50a-f942-4023-8399-e9d2d20c7a23#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/bf09835d-e2aa-47e6-afe0-e6c3f0fc895c#id> .
-
-<http://www.bbc.co.uk/things/4ed81b24-39e0-4ba9-bcf9-4320d4c22c5e#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/fabc7e41-ae31-4247-a8e5-69e877e40fa2#id> .
-
-<http://www.bbc.co.uk/things/14e0def2-97ae-4dc9-ac19-e556d95d84fe#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/05dd61ac-d05a-48c6-8704-3ebd06594b05#id> , <http://www.bbc.co.uk/things/d8e76251-4a05-469d-a513-4f04506a33e1#id> , <http://www.bbc.co.uk/things/9e443ab5-ebf4-4ed0-a6f6-548268da7c48#id> , <http://www.bbc.co.uk/things/29aff02a-9db2-4743-aaf4-c3e95500bc3b#id> , <http://www.bbc.co.uk/things/6ca0f50a-f942-4023-8399-e9d2d20c7a23#id> , <http://www.bbc.co.uk/things/4951c68b-1463-43aa-a797-2c0724054118#id> , <http://www.bbc.co.uk/things/1715b069-d56f-41f5-84c0-dfbd6080fddf#id> , <http://www.bbc.co.uk/things/5596f6fb-0d29-43ad-93b0-b0122556a0ea#id> , <http://www.bbc.co.uk/things/57fea06e-976d-4cb9-8cd6-9287b5a69c81#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z6tngk7#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/c2758430-bb70-4fca-8fe9-1b45560a0644#id>
-        a          olo:Slot ;
-        olo:index  14 ;
-        olo:item   <http://www.bbc.co.uk/things/b969a0b3-34df-428d-9c39-8eb04c29aa56#id> .
-
-<http://www.bbc.co.uk/things/97e6cbd0-840a-44d4-a874-51a47b6b84d0#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Budget and finance"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/794f12a0-a2d7-4c77-a623-3754d0e173d7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zcjhgk7#topic-of-study> .
-
-<http://www.bbc.co.uk/things/19efd70e-8975-4e00-9e91-817663f1fde6#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/dc55f6c7-5c64-4457-9600-94bce1d88b09#id> .
-
-<http://www.bbc.co.uk/things/1a376a6a-3071-4c31-beff-84872cfc044c#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Political participation"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/89946b93-608f-4470-8ee7-1b47910bc7a3#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7pgjxs#topic-of-study> .
-
-<http://www.bbc.co.uk/things/df81c98f-8a53-4ddc-924f-d2ca3f6dc516#id>
-        a          olo:Slot ;
-        olo:index  13 ;
-        olo:item   <http://www.bbc.co.uk/things/80f73a9a-efe0-4e35-b19e-6b7d3f09e067#id> .
-
-<http://www.bbc.co.uk/things/2ac4ac00-9236-4185-b506-4980ac307b5e#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/686ba2ec-99bb-4acc-b24e-15ae17b453e8#id> .
-
-<http://www.bbc.co.uk/things/007cdb53-0b71-4a71-945b-2c8122d1c010#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Rights and responsibilities"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/72a05975-b5c8-4c70-8d2d-682638627396#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zxhfcdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/4c480c59-ac3f-4240-8d95-f3190e167f61#id>
-        a           curric:Topic ;
-        rdfs:label  "Media in a democracy"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zj6v87h#topic> .
-
-<http://www.bbc.co.uk/things/6bc6c2b2-05cc-4848-9021-382c9420f52b#id>
-        a           curric:Topic ;
-        rdfs:label  "Global development, power and influence"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zmnrq6f#topic> .
-
-<http://www.bbc.co.uk/things/b0b5b73b-96c0-49d7-afce-1828eb2b2c8d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Decision making bodies"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8d72d477-ab36-410f-b5bf-5ee5f0d6cf54#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zycqn39#topic-of-study> .
-
-<http://www.bbc.co.uk/things/74d49d1c-ad10-4dc7-a6d4-9db4332bcc44#id>
-        a                  curric:Topic ;
-        rdfs:label         "Roles in the community"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/znsv9j6#topic> .
-
-<http://www.bbc.co.uk/things/0790ef6b-dbd7-49b3-af81-d6aeee4198a8#id>
-        a           curric:Topic ;
-        rdfs:label  "Finance"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z2j2tfr#topic> .
-
-<http://www.bbc.co.uk/things/c1479f31-1505-4bc2-8bac-2fe6fd4fc803#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/b9647b0a-50da-4ddc-9b37-0d2b87c850ae#id> .
-
-<http://www.bbc.co.uk/things/90421618-f536-45ae-91a8-8d10acf73a5a#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/2675dfbf-c222-4254-b54e-f8a5b53e2346#id> .
-
-<http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/14e0def2-97ae-4dc9-ac19-e556d95d84fe#id> .
-
-<http://www.bbc.co.uk/things/ea7ff2b7-522e-4bb8-8866-6d23c16d8804#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/afc12ad7-a8ea-4c18-929e-de89c91cf73a#id> , <http://www.bbc.co.uk/things/92c3bd12-2377-4f7d-8fc5-81b20dca139f#id> , <http://www.bbc.co.uk/things/94896307-56ae-4512-b820-546dd159844c#id> , <http://www.bbc.co.uk/things/4ed81b24-39e0-4ba9-bcf9-4320d4c22c5e#id> , <http://www.bbc.co.uk/things/60016ea3-6d29-445c-a82a-33f6937b7143#id> , <http://www.bbc.co.uk/things/8055ab86-c337-4997-9d7c-e55372336455#id> , <http://www.bbc.co.uk/things/c18f72c8-340c-4a02-8538-08bcaaea59fa#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zx6pb9q#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/29aff02a-9db2-4743-aaf4-c3e95500bc3b#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/96e680b9-5670-4799-8fca-89c35fd62c57#id> .
-
-<http://www.bbc.co.uk/things/8a9197f9-07e1-44d9-bb1b-1c2f36974b44#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/52ad5c4f-eb9d-4467-ae3c-acf67e2e150e#id> .
-
-<http://www.bbc.co.uk/things/261beb70-4972-4e74-bc27-508a0fbfa7c8#id>
-        a           curric:Topic ;
-        rdfs:label  "Information and influence"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zbkmyrd#topic> .
-
-<http://www.bbc.co.uk/things/5596f6fb-0d29-43ad-93b0-b0122556a0ea#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/261df475-fb8e-4021-a16c-1da858728cc2#id> .
-
-<http://www.bbc.co.uk/things/1695e1f3-c8e5-439b-a3b8-f4a8af9499cf#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/e53e26e2-f79e-473c-8acb-1e096fb1c0c8#id> .
-
-<http://www.bbc.co.uk/things/107a968a-e21c-43e0-a24a-7f84a820f7d5#id>
-        a                  curric:Topic ;
-        rdfs:label         "Business structures"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/0f29deae-c7c3-4114-be4d-7e54697b2dd9#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zpg8mp3#topic> .
-
-<http://www.bbc.co.uk/things/6358cb42-5530-401b-8633-352e45d8c117#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/b0b5b73b-96c0-49d7-afce-1828eb2b2c8d#id> .
-
-<http://www.bbc.co.uk/things/d66589e8-92f9-455d-9eb6-eefe30789186#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Global development, power and influence"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/6bc6c2b2-05cc-4848-9021-382c9420f52b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zmsc7ty#topic-of-study> .
-
-<http://www.bbc.co.uk/things/92c3bd12-2377-4f7d-8fc5-81b20dca139f#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/b064d6bf-4d2b-4dca-9493-518212635fa4#id> .
-
-<http://www.bbc.co.uk/things/994938df-e833-44a4-b47d-b7bdb2fd5b72#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/3416c9d4-f0b6-441f-ba63-22248ec185e6#id> .
-
-<http://www.bbc.co.uk/things/d42986cd-8e39-430a-aeca-0e056fb7d1b7#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Social issues: Crime and law"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/526025c8-62b8-4851-8521-44bd73e47111#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z8mf9j6#topic-of-study> .
-
-<http://www.bbc.co.uk/things/e6dfbe63-5a0d-473a-b501-0acd9f80c593#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/97460b19-c212-4ce1-a9bb-0b47b31f1231#id> , <http://www.bbc.co.uk/things/e3324b8a-5a3d-49dc-a20b-484f05364a8b#id> , <http://www.bbc.co.uk/things/1a3f597f-69a8-4a71-86f3-f1054559c014#id> , <http://www.bbc.co.uk/things/2338f7d3-8522-45bd-99ce-abca5c810fd5#id> , <http://www.bbc.co.uk/things/c31779bf-11a4-4676-8b0f-02c000d34a36#id> , <http://www.bbc.co.uk/things/3c8d8387-28bb-4f4b-910a-1745ae57567d#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zkw2n39#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id>
-        a                  curric:Topic ;
-        rdfs:label         "Inequality"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/f46d6f45-10d6-4be0-9745-99e591ed29b7#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z2fsgk7#topic> .
-
-<http://www.bbc.co.uk/things/d8e76251-4a05-469d-a513-4f04506a33e1#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/007cdb53-0b71-4a71-945b-2c8122d1c010#id> .
-
-<http://www.bbc.co.uk/things/b4884662-96ae-4c33-9941-bbfe6d27d940#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/e2fdd2cd-5bb0-4c93-bd95-aaf9aa088a13#id> .
-
-<http://www.bbc.co.uk/things/ccc7470d-315e-41aa-8b8e-a652da98859a#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/8e8466fb-80e3-463d-8e8e-16b7f42e7fd1#id> , <http://www.bbc.co.uk/things/b4884662-96ae-4c33-9941-bbfe6d27d940#id> , <http://www.bbc.co.uk/things/90421618-f536-45ae-91a8-8d10acf73a5a#id> , <http://www.bbc.co.uk/things/f7050f7d-e3e5-4b42-8dae-34292605c1d9#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zc9w6sg#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/944e41c7-2b0a-4bb1-ba98-5a0cc9219f52#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/be96b907-7615-4bc1-9691-5b07d6427bec#id> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/90d5dddc-48e0-49d3-8b7d-f1fe121120fa#id> a provenance:Dataset ;
+    rdfs:label "Topics, Topics of Study and Topic of Study Lists of People in society, economy and business" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version 5 .
+
+<http://www.bbc.co.uk/things/007cdb53-0b71-4a71-945b-2c8122d1c010#id> a curric:TopicOfStudy ;
+    rdfs:label "Rights and responsibilities"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Rights and responsibilities"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/72a05975-b5c8-4c70-8d2d-682638627396#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zxhfcdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/05dd61ac-d05a-48c6-8704-3ebd06594b05#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/7a50bcc3-ca14-4b22-ac98-8c20ede8c030#id> .
+
+<http://www.bbc.co.uk/things/076ddca4-6c7f-4029-9a5a-9accf00e5067#id> a curric:TopicOfStudy ;
+    rdfs:label "Asia"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Asia"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d4e1fac3-f6a5-4c41-895e-abfa43be304d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    = <http://www.bbc.co.uk/education/topics/zxtsr82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0790ef6b-dbd7-49b3-af81-d6aeee4198a8#id> a curric:Topic ;
+    rdfs:label "Finance"@en-gb ;
+    core:preferredLabel "Finance"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2j2tfr#topic> .
+
+<http://www.bbc.co.uk/things/0884d512-78ff-4fcf-bb46-7d455c807a8b#id> a curric:Topic ;
+    rdfs:label "Business organisations"@en-gb ;
+    core:preferredLabel "Business organisations"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z6f42hv#topic> .
+
+<http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id> a curric:Topic ;
+    rdfs:label "Inequality"@en-gb ;
+    core:preferredLabel "Inequality"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/f46d6f45-10d6-4be0-9745-99e591ed29b7#id> ;
+    = <http://www.bbc.co.uk/education/topics/z2fsgk7#topic> .
+
+<http://www.bbc.co.uk/things/107a968a-e21c-43e0-a24a-7f84a820f7d5#id> a curric:Topic ;
+    rdfs:label "Business structures"@en-gb ;
+    core:preferredLabel "Business structures"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/0f29deae-c7c3-4114-be4d-7e54697b2dd9#id> ;
+    = <http://www.bbc.co.uk/education/topics/zpg8mp3#topic> .
+
+<http://www.bbc.co.uk/things/14e0def2-97ae-4dc9-ac19-e556d95d84fe#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/05dd61ac-d05a-48c6-8704-3ebd06594b05#id>,
+        <http://www.bbc.co.uk/things/1715b069-d56f-41f5-84c0-dfbd6080fddf#id>,
+        <http://www.bbc.co.uk/things/29aff02a-9db2-4743-aaf4-c3e95500bc3b#id>,
+        <http://www.bbc.co.uk/things/4951c68b-1463-43aa-a797-2c0724054118#id>,
+        <http://www.bbc.co.uk/things/5596f6fb-0d29-43ad-93b0-b0122556a0ea#id>,
+        <http://www.bbc.co.uk/things/57fea06e-976d-4cb9-8cd6-9287b5a69c81#id>,
+        <http://www.bbc.co.uk/things/6ca0f50a-f942-4023-8399-e9d2d20c7a23#id>,
+        <http://www.bbc.co.uk/things/9e443ab5-ebf4-4ed0-a6f6-548268da7c48#id>,
+        <http://www.bbc.co.uk/things/d8e76251-4a05-469d-a513-4f04506a33e1#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z6tngk7#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/1560c0df-299d-4f50-a584-5c2c30004325#id> a curric:TopicOfStudy ;
+    rdfs:label "Europe"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Europe"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7567066e-22ee-429e-af50-f32fea19859b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    = <http://www.bbc.co.uk/education/topics/ztpy4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/15c50942-661a-4ab4-b13e-9e3ff323156a#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/9591fbc0-b02b-4431-a6b9-60c33b4d8511#id> .
+
+<http://www.bbc.co.uk/things/1695e1f3-c8e5-439b-a3b8-f4a8af9499cf#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/e53e26e2-f79e-473c-8acb-1e096fb1c0c8#id> .
+
+<http://www.bbc.co.uk/things/1715b069-d56f-41f5-84c0-dfbd6080fddf#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/7c71d304-17a9-423e-8e16-9f5ac54ca5e3#id> .
+
+<http://www.bbc.co.uk/things/19efd70e-8975-4e00-9e91-817663f1fde6#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/dc55f6c7-5c64-4457-9600-94bce1d88b09#id> .
+
+<http://www.bbc.co.uk/things/1a376a6a-3071-4c31-beff-84872cfc044c#id> a curric:TopicOfStudy ;
+    rdfs:label "Political participation"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Political participation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/89946b93-608f-4470-8ee7-1b47910bc7a3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/z7pgjxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1a3f597f-69a8-4a71-86f3-f1054559c014#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/1b925abe-1655-4261-b35c-ea0260b1e945#id> .
+
+<http://www.bbc.co.uk/things/1b5cdca0-7984-494b-b4c9-152e46649d8e#id> a curric:TopicOfStudy ;
+    rdfs:label "Africa"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Africa"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8f21089e-de39-4364-9d9c-2bc567106f14#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    = <http://www.bbc.co.uk/education/topics/z2xpb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2338f7d3-8522-45bd-99ce-abca5c810fd5#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/6420bd81-497f-4c2e-9826-f40faaf034ee#id> .
+
+<http://www.bbc.co.uk/things/248433c3-549d-48db-b926-7139d44a1862#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/a44b59ba-d0bc-4531-be5a-3104918da21e#id> .
+
+<http://www.bbc.co.uk/things/24920459-fe5f-4d61-8b36-a06527aae2f9#id> a curric:TopicOfStudy ;
+    rdfs:label "Money and payment"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Money and payment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0a1410fe-3b9c-49d3-bdf6-2d0c00582dd8#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zmtsr82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/261beb70-4972-4e74-bc27-508a0fbfa7c8#id> a curric:Topic ;
+    rdfs:label "Information and influence"@en-gb ;
+    core:preferredLabel "Information and influence"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zbkmyrd#topic> .
+
+<http://www.bbc.co.uk/things/261df475-fb8e-4021-a16c-1da858728cc2#id> a curric:TopicOfStudy ;
+    rdfs:label "Fair trading"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Fair trading"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/575d63fd-f9a8-490a-b216-c8a99c054bf8#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/z9d7pv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/29aff02a-9db2-4743-aaf4-c3e95500bc3b#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/96e680b9-5670-4799-8fca-89c35fd62c57#id> .
+
+<http://www.bbc.co.uk/things/2ac4ac00-9236-4185-b506-4980ac307b5e#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/686ba2ec-99bb-4acc-b24e-15ae17b453e8#id> .
+
+<http://www.bbc.co.uk/things/300bf385-d0ff-4435-bff4-70acc1e5f459#id> a curric:Topic ;
+    rdfs:label "Social issues: Inequality"@en-gb ;
+    core:preferredLabel "Social issues: Inequality"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z82s4wx#topic> .
+
+<http://www.bbc.co.uk/things/3416c9d4-f0b6-441f-ba63-22248ec185e6#id> a curric:TopicOfStudy ;
+    rdfs:label "Social issues: Inequality"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Social issues: Inequality"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/300bf385-d0ff-4435-bff4-70acc1e5f459#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/zk2s4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/362a7c59-4651-41c3-bb81-fa39c58e45d8#id> a curric:TopicOfStudy ;
+    rdfs:label "Ethical issues in business"@en-gb ;
+    core:disambiguationHint "3rd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Ethical issues in business"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7a325e8e-d50f-4ee2-8dca-5565e710f8e7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
+    = <http://www.bbc.co.uk/education/topics/zgd634j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3ae84df1-20e3-4657-ab8c-fb1045bd1b6b#id> a curric:TopicOfStudy ;
+    rdfs:label "Media in a democracy"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Media in a democracy"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4c480c59-ac3f-4240-8d95-f3190e167f61#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/zw6v87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3c8d8387-28bb-4f4b-910a-1745ae57567d#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/58384918-ad47-421f-b1c1-26fca4877844#id> .
+
+<http://www.bbc.co.uk/things/4951c68b-1463-43aa-a797-2c0724054118#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/ca92ffef-a8d6-4aca-a58c-3554f525ca22#id> .
+
+<http://www.bbc.co.uk/things/4c480c59-ac3f-4240-8d95-f3190e167f61#id> a curric:Topic ;
+    rdfs:label "Media in a democracy"@en-gb ;
+    core:preferredLabel "Media in a democracy"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zj6v87h#topic> .
+
+<http://www.bbc.co.uk/things/4d035f5f-51b7-417e-9b11-dacead42ddde#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/b831ceab-bb90-4a9a-9dac-e3f1d3a62da0#id> .
+
+<http://www.bbc.co.uk/things/4ed81b24-39e0-4ba9-bcf9-4320d4c22c5e#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/fabc7e41-ae31-4247-a8e5-69e877e40fa2#id> .
+
+<http://www.bbc.co.uk/things/5188cb65-5687-4233-92e3-5ac6d59fd706#id> a curric:TopicOfStudy ;
+    rdfs:label "Economic factors"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Economic factors"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/af215189-5f92-486a-b550-317d7b165e6d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/zxf42hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/524063c1-c4c2-4d6b-9f0f-8585b616209b#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1695e1f3-c8e5-439b-a3b8-f4a8af9499cf#id>,
+        <http://www.bbc.co.uk/things/19efd70e-8975-4e00-9e91-817663f1fde6#id>,
+        <http://www.bbc.co.uk/things/56777b7c-d97b-4c99-ae4a-b2d61f416016#id>,
+        <http://www.bbc.co.uk/things/6358cb42-5530-401b-8633-352e45d8c117#id>,
+        <http://www.bbc.co.uk/things/855b5b0a-95df-42d6-ad67-7f609e1c2405#id>,
+        <http://www.bbc.co.uk/things/908056d2-615d-4cd1-bb1b-5516c821753e#id>,
+        <http://www.bbc.co.uk/things/a0981308-2417-4206-a7b9-e608c2622eab#id>,
+        <http://www.bbc.co.uk/things/a492f333-0594-44da-a2e8-e248187b65a4#id>,
+        <http://www.bbc.co.uk/things/c1479f31-1505-4bc2-8bac-2fe6fd4fc803#id>,
+        <http://www.bbc.co.uk/things/e358e435-25f3-44cb-a505-ddd259bee491#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z392fg8#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/526025c8-62b8-4851-8521-44bd73e47111#id> a curric:Topic ;
+    rdfs:label "Social issues: Crime and law"@en-gb ;
+    core:preferredLabel "Social issues: Crime and law"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zdmf9j6#topic> .
+
+<http://www.bbc.co.uk/things/52ad5c4f-eb9d-4467-ae3c-acf67e2e150e#id> a curric:TopicOfStudy ;
+    rdfs:label "Australia and Oceania"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Australia and Oceania"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e75b2fc4-5d6b-4165-b1b2-a5da1119e3c1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    = <http://www.bbc.co.uk/education/topics/z6hfcdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5312f903-72e7-4058-bb13-1d15d0965377#id> a curric:TopicOfStudy ;
+    rdfs:label "Finance"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Finance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0790ef6b-dbd7-49b3-af81-d6aeee4198a8#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/zh386sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5596f6fb-0d29-43ad-93b0-b0122556a0ea#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/261df475-fb8e-4021-a16c-1da858728cc2#id> .
+
+<http://www.bbc.co.uk/things/56777b7c-d97b-4c99-ae4a-b2d61f416016#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/b6fdf35b-72e6-4a98-bc0d-9e0ae04ff45d#id> .
+
+<http://www.bbc.co.uk/things/570ac500-54ba-47ec-87e6-bd84f704a906#id> a curric:Topic ;
+    rdfs:label "Internal and external influences on business"@en-gb ;
+    core:preferredLabel "Internal and external influences on business"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zhvkxnb#topic> .
+
+<http://www.bbc.co.uk/things/575d63fd-f9a8-490a-b216-c8a99c054bf8#id> a curric:Topic ;
+    rdfs:label "Fair trading"@en-gb ;
+    core:preferredLabel "Fair trading"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zyvgd2p#topic> .
+
+<http://www.bbc.co.uk/things/57fea06e-976d-4cb9-8cd6-9287b5a69c81#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/24920459-fe5f-4d61-8b36-a06527aae2f9#id> .
+
+<http://www.bbc.co.uk/things/58384918-ad47-421f-b1c1-26fca4877844#id> a curric:TopicOfStudy ;
+    rdfs:label "Asia"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Asia"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d4e1fac3-f6a5-4c41-895e-abfa43be304d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zw76yrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5d3d28b2-5213-4687-ad15-c15e0cfa8443#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/d66589e8-92f9-455d-9eb6-eefe30789186#id> .
+
+<http://www.bbc.co.uk/things/5d90bd3a-b517-4b2e-a1a4-39e62055cad2#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/076ddca4-6c7f-4029-9a5a-9accf00e5067#id> .
+
+<http://www.bbc.co.uk/things/5fbc229b-82b6-499e-bb6a-c6821ac193e4#id> a curric:TopicOfStudy ;
+    rdfs:label "Shops and services"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Shops and services"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dfbb5c46-6cba-4e8e-aa47-795bed0d3b3c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    = <http://www.bbc.co.uk/education/topics/zfvrwmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/60016ea3-6d29-445c-a82a-33f6937b7143#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/b64d0da4-ccab-4725-8628-874031515c4b#id> .
+
+<http://www.bbc.co.uk/things/632ad2ea-a0cf-4bf5-9fb3-d636b11928b1#id> a curric:TopicOfStudy ;
+    rdfs:label "Global trade"@en-gb ;
+    core:disambiguationHint "3rd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Global trade"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8bd578fd-c561-4100-b34b-e9b7afe0458c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
+    = <http://www.bbc.co.uk/education/topics/zrwtb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6358cb42-5530-401b-8633-352e45d8c117#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/b0b5b73b-96c0-49d7-afce-1828eb2b2c8d#id> .
+
+<http://www.bbc.co.uk/things/6420bd81-497f-4c2e-9826-f40faaf034ee#id> a curric:TopicOfStudy ;
+    rdfs:label "Europe"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Europe"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7567066e-22ee-429e-af50-f32fea19859b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zqmh34j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/686ba2ec-99bb-4acc-b24e-15ae17b453e8#id> a curric:TopicOfStudy ;
+    rdfs:label "Discrimination and diversity"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Discrimination and diversity"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/87b33ebc-a464-42dc-a87e-ec9cfa7cccf7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/z3rk2hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6b4145fe-e25f-45fb-abef-7596db596ac0#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/5830d265-7dba-4b31-8c12-5189e1d12c85#id> .
+
+<http://www.bbc.co.uk/things/6bc6c2b2-05cc-4848-9021-382c9420f52b#id> a curric:Topic ;
+    rdfs:label "Global development, power and influence"@en-gb ;
+    core:preferredLabel "Global development, power and influence"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zmnrq6f#topic> .
+
+<http://www.bbc.co.uk/things/6ca0f50a-f942-4023-8399-e9d2d20c7a23#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/bf09835d-e2aa-47e6-afe0-e6c3f0fc895c#id> .
+
+<http://www.bbc.co.uk/things/6f6c02e5-d9b2-47c5-9bce-c3bf0e65607b#id> a curric:TopicOfStudy ;
+    rdfs:label "Enterprise"@en-gb ;
+    core:disambiguationHint "3rd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Enterprise"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1ac103fb-4714-4a94-8c1a-1c49b8f3d3b4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
+    = <http://www.bbc.co.uk/education/topics/zb8xvcw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/74d49d1c-ad10-4dc7-a6d4-9db4332bcc44#id> a curric:Topic ;
+    rdfs:label "Roles in the community"@en-gb ;
+    core:preferredLabel "Roles in the community"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
+    = <http://www.bbc.co.uk/education/topics/znsv9j6#topic> .
+
+<http://www.bbc.co.uk/things/794f12a0-a2d7-4c77-a623-3754d0e173d7#id> a curric:Topic ;
+    rdfs:label "Budget and finance"@en-gb ;
+    core:preferredLabel "Budget and finance"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zk7ncdm#topic> .
+
+<http://www.bbc.co.uk/things/7a325e8e-d50f-4ee2-8dca-5565e710f8e7#id> a curric:Topic ;
+    rdfs:label "Ethical issues in business"@en-gb ;
+    core:preferredLabel "Ethical issues in business"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z4jhgk7#topic> .
+
+<http://www.bbc.co.uk/things/7a50bcc3-ca14-4b22-ac98-8c20ede8c030#id> a curric:TopicOfStudy ;
+    rdfs:label "Democracy and decisions"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Democracy and decisions"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e3cbeca5-2171-4afb-ac00-f30ecee7a976#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zr9w6sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7c56dcc3-0226-4a29-b1d5-350bd7fccfd8#id> a curric:Topic ;
+    rdfs:label "Community groups"@en-gb ;
+    core:preferredLabel "Community groups"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
+    = <http://www.bbc.co.uk/education/topics/zthsr82#topic> .
+
+<http://www.bbc.co.uk/things/7c71d304-17a9-423e-8e16-9f5ac54ca5e3#id> a curric:TopicOfStudy ;
+    rdfs:label "Community"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Community"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    curric:topics <http://www.bbc.co.uk/things/d9264004-3367-4abf-8dc8-0bb3b55f706d#id> ;
+    = <http://www.bbc.co.uk/education/topics/zy3cjxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7e7a1907-4c6d-45a8-b306-e4caf34f41c2#id> a curric:TopicOfStudy ;
+    rdfs:label "Local organisations"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Local organisations"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8cf6975b-d22e-41a1-822a-36dbacd47ddc#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    = <http://www.bbc.co.uk/education/topics/zps3kqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8055ab86-c337-4997-9d7c-e55372336455#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/823e7e10-488e-48a6-981b-bdf2837b3384#id> .
+
+<http://www.bbc.co.uk/things/80f73a9a-efe0-4e35-b19e-6b7d3f09e067#id> a curric:TopicOfStudy ;
+    rdfs:label "Business organisations"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Business organisations"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0884d512-78ff-4fcf-bb46-7d455c807a8b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/z6y9mp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/816c7113-3942-40f2-befa-bbe76e8eb197#id> a curric:TopicOfStudy ;
+    rdfs:label "Shops and services"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Shops and services"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dfbb5c46-6cba-4e8e-aa47-795bed0d3b3c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/z6py4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/823e7e10-488e-48a6-981b-bdf2837b3384#id> a curric:TopicOfStudy ;
+    rdfs:label "Enterprise"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Enterprise"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1ac103fb-4714-4a94-8c1a-1c49b8f3d3b4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    = <http://www.bbc.co.uk/education/topics/zwqxfg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/855b5b0a-95df-42d6-ad67-7f609e1c2405#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/97e6cbd0-840a-44d4-a874-51a47b6b84d0#id> .
+
+<http://www.bbc.co.uk/things/861e00f7-e844-4b19-a809-76951e44cf4d#id> a curric:TopicOfStudy ;
+    rdfs:label "People who help us"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "People who help us"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2f034240-f537-4146-8c04-27510f88492c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    = <http://www.bbc.co.uk/education/topics/zkd7pv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/87b33ebc-a464-42dc-a87e-ec9cfa7cccf7#id> a curric:Topic ;
+    rdfs:label "Discrimination and diversity"@en-gb ;
+    core:preferredLabel "Discrimination and diversity"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
+    = <http://www.bbc.co.uk/education/topics/zhpfcdm#topic> .
+
+<http://www.bbc.co.uk/things/88c5dc3c-37a6-412e-b45c-a6a2741bdc90#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/d4d76f49-75df-40c8-a11c-a78bff79bd8e#id> .
+
+<http://www.bbc.co.uk/things/89946b93-608f-4470-8ee7-1b47910bc7a3#id> a curric:Topic ;
+    rdfs:label "Political participation"@en-gb ;
+    core:preferredLabel "Political participation"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z7hbwmn#topic> .
+
+<http://www.bbc.co.uk/things/8a9197f9-07e1-44d9-bb1b-1c2f36974b44#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/52ad5c4f-eb9d-4467-ae3c-acf67e2e150e#id> .
+
+<http://www.bbc.co.uk/things/8bd578fd-c561-4100-b34b-e9b7afe0458c#id> a curric:Topic ;
+    rdfs:label "Global trade"@en-gb ;
+    core:preferredLabel "Global trade"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9qpr82#topic> .
+
+<http://www.bbc.co.uk/things/8e8466fb-80e3-463d-8e8e-16b7f42e7fd1#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/7cb24dca-c416-4709-aadd-e16d02b25815#id> .
+
+<http://www.bbc.co.uk/things/8e84dd40-e90c-4aab-955d-562ce3768fe1#id> a curric:TopicOfStudy ;
+    rdfs:label "Business structures"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Business structures"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/107a968a-e21c-43e0-a24a-7f84a820f7d5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/zpbdtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/90421618-f536-45ae-91a8-8d10acf73a5a#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/2675dfbf-c222-4254-b54e-f8a5b53e2346#id> .
+
+<http://www.bbc.co.uk/things/908056d2-615d-4cd1-bb1b-5516c821753e#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/362a7c59-4651-41c3-bb81-fa39c58e45d8#id> .
+
+<http://www.bbc.co.uk/things/92c3bd12-2377-4f7d-8fc5-81b20dca139f#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/b064d6bf-4d2b-4dca-9493-518212635fa4#id> .
+
+<http://www.bbc.co.uk/things/944e41c7-2b0a-4bb1-ba98-5a0cc9219f52#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/be96b907-7615-4bc1-9691-5b07d6427bec#id> .
+
+<http://www.bbc.co.uk/things/94896307-56ae-4512-b820-546dd159844c#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/7e7a1907-4c6d-45a8-b306-e4caf34f41c2#id> .
+
+<http://www.bbc.co.uk/things/95788caa-1d02-4797-8671-ed7fd3d7d926#id> a curric:TopicOfStudy ;
+    rdfs:label "Roles in the community"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Roles in the community"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/74d49d1c-ad10-4dc7-a6d4-9db4332bcc44#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zg4dxnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9591fbc0-b02b-4431-a6b9-60c33b4d8511#id> a curric:TopicOfStudy ;
+    rdfs:label "Multiculturalism"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Multiculturalism"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ca24e1ff-0b6b-4a9a-ac6d-41ac2edfbd13#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/zdxykqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/96e680b9-5670-4799-8fca-89c35fd62c57#id> a curric:TopicOfStudy ;
+    rdfs:label "Enterprise"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Enterprise"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1ac103fb-4714-4a94-8c1a-1c49b8f3d3b4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zckjtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/97460b19-c212-4ce1-a9bb-0b47b31f1231#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/d7707f16-4607-43f5-8ff1-f7f97418636a#id> .
+
+<http://www.bbc.co.uk/things/97e6cbd0-840a-44d4-a874-51a47b6b84d0#id> a curric:TopicOfStudy ;
+    rdfs:label "Budget and finance"@en-gb ;
+    core:disambiguationHint "3rd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Budget and finance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/794f12a0-a2d7-4c77-a623-3754d0e173d7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
+    = <http://www.bbc.co.uk/education/topics/zcjhgk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/994938df-e833-44a4-b47d-b7bdb2fd5b72#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/3416c9d4-f0b6-441f-ba63-22248ec185e6#id> .
+
+<http://www.bbc.co.uk/things/9c174fea-e2dc-4aab-b93e-4b9a2c31f7e8#id> a curric:Topic ;
+    rdfs:label "Working practices"@en-gb ;
+    core:preferredLabel "Working practices"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zty9mp3#topic> .
+
+<http://www.bbc.co.uk/things/9e443ab5-ebf4-4ed0-a6f6-548268da7c48#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/816c7113-3942-40f2-befa-bbe76e8eb197#id> .
+
+<http://www.bbc.co.uk/things/a0981308-2417-4206-a7b9-e608c2622eab#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/632ad2ea-a0cf-4bf5-9fb3-d636b11928b1#id> .
+
+<http://www.bbc.co.uk/things/a415acbe-557a-40d7-bea8-917855bdcaf1#id> a curric:TopicOfStudy ;
+    rdfs:label "Money and payment"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Money and payment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0a1410fe-3b9c-49d3-bdf6-2d0c00582dd8#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    = <http://www.bbc.co.uk/education/topics/znfb87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a44b59ba-d0bc-4531-be5a-3104918da21e#id> a curric:TopicOfStudy ;
+    rdfs:label "World ideologies"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "World ideologies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/db6ee80f-a050-42be-a032-b71664b1631f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/zjt3d2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a492f333-0594-44da-a2e8-e248187b65a4#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/f3afe2fc-41a5-42ed-9bd3-9dfbb72d9189#id> .
+
+<http://www.bbc.co.uk/things/a67c30c0-53a0-4d5b-bf20-d7893553c28e#id> a olo:Slot ;
+    olo:index 16 ;
+    olo:item <http://www.bbc.co.uk/things/8e84dd40-e90c-4aab-955d-562ce3768fe1#id> .
+
+<http://www.bbc.co.uk/things/a75ec496-d55d-4a36-a099-b0872ea16105#id> a curric:TopicOfStudy ;
+    rdfs:label "Internal and external influences on business"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Internal and external influences on business"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/570ac500-54ba-47ec-87e6-bd84f704a906#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/zngwhyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/af215189-5f92-486a-b550-317d7b165e6d#id> a curric:Topic ;
+    rdfs:label "Economic factors"@en-gb ;
+    core:preferredLabel "Economic factors"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxsc7ty#topic> .
+
+<http://www.bbc.co.uk/things/afc12ad7-a8ea-4c18-929e-de89c91cf73a#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/a415acbe-557a-40d7-bea8-917855bdcaf1#id> .
+
+<http://www.bbc.co.uk/things/aff1c64e-4c0a-4934-9cfe-753348ff6796#id> a curric:TopicOfStudy ;
+    rdfs:label "People who help us"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "People who help us"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2f034240-f537-4146-8c04-27510f88492c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zbc8mp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b064d6bf-4d2b-4dca-9493-518212635fa4#id> a curric:TopicOfStudy ;
+    rdfs:label "Life in other countries"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Life in other countries"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8c4b74a4-a135-4db7-8457-d1468cf99788#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    curric:topics <http://www.bbc.co.uk/things/c244d458-c492-41fc-a93d-8e918118d1d1#id> ;
+    = <http://www.bbc.co.uk/education/topics/z7mh34j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b0b5b73b-96c0-49d7-afce-1828eb2b2c8d#id> a curric:TopicOfStudy ;
+    rdfs:label "Decision making bodies"@en-gb ;
+    core:disambiguationHint "3rd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Decision making bodies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8d72d477-ab36-410f-b5bf-5ee5f0d6cf54#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
+    = <http://www.bbc.co.uk/education/topics/zycqn39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b0ca2008-5e4c-4e0d-b430-b65b37d09ae2#id> a curric:TopicOfStudy ;
+    rdfs:label "Africa"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Africa"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8f21089e-de39-4364-9d9c-2bc567106f14#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/z8jmsbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b4884662-96ae-4c33-9941-bbfe6d27d940#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/e2fdd2cd-5bb0-4c93-bd95-aaf9aa088a13#id> .
+
+<http://www.bbc.co.uk/things/b5dba26e-89ab-4884-8717-0e15afe79207#id> a olo:Slot ;
+    olo:index 15 ;
+    olo:item <http://www.bbc.co.uk/things/5312f903-72e7-4058-bb13-1d15d0965377#id> .
+
+<http://www.bbc.co.uk/things/b600ebf6-365f-43e7-87c6-ecc036c1d523#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/15c50942-661a-4ab4-b13e-9e3ff323156a#id>,
+        <http://www.bbc.co.uk/things/248433c3-549d-48db-b926-7139d44a1862#id>,
+        <http://www.bbc.co.uk/things/5d3d28b2-5213-4687-ad15-c15e0cfa8443#id>,
+        <http://www.bbc.co.uk/things/944e41c7-2b0a-4bb1-ba98-5a0cc9219f52#id>,
+        <http://www.bbc.co.uk/things/994938df-e833-44a4-b47d-b7bdb2fd5b72#id>,
+        <http://www.bbc.co.uk/things/a67c30c0-53a0-4d5b-bf20-d7893553c28e#id>,
+        <http://www.bbc.co.uk/things/b5dba26e-89ab-4884-8717-0e15afe79207#id>,
+        <http://www.bbc.co.uk/things/ba82f4d5-b8eb-498f-8e4a-085e6713b039#id>,
+        <http://www.bbc.co.uk/things/c2758430-bb70-4fca-8fe9-1b45560a0644#id>,
+        <http://www.bbc.co.uk/things/dd5d7dba-04d5-4084-952a-eb8be70e903b#id>,
+        <http://www.bbc.co.uk/things/df81c98f-8a53-4ddc-924f-d2ca3f6dc516#id>,
+        <http://www.bbc.co.uk/things/efd5d109-8540-4045-9acf-7a75588bacb1#id>,
+        <http://www.bbc.co.uk/things/f0e85b5f-198d-4754-b976-5bf69b570895#id>,
+        <http://www.bbc.co.uk/things/f2163ba8-b88c-4b35-b59e-75fce2e21fc8#id>,
+        <http://www.bbc.co.uk/things/f61e063c-aca9-4c2e-bf8a-e9e078873e7e#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zq2s4wx#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/b64d0da4-ccab-4725-8628-874031515c4b#id> a curric:TopicOfStudy ;
+    rdfs:label "Rights and responsibilities"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Rights and responsibilities"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/72a05975-b5c8-4c70-8d2d-682638627396#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    = <http://www.bbc.co.uk/education/topics/zsygd2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b6fdf35b-72e6-4a98-bc0d-9e0ae04ff45d#id> a curric:TopicOfStudy ;
+    rdfs:label "Information and influence"@en-gb ;
+    core:disambiguationHint "3rd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Information and influence"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/261beb70-4972-4e74-bc27-508a0fbfa7c8#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
+    = <http://www.bbc.co.uk/education/topics/zfrjpv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b831ceab-bb90-4a9a-9dac-e3f1d3a62da0#id> a curric:TopicOfStudy ;
+    rdfs:label "Americas"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Americas"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ebfac56a-c43c-4b70-b843-f770eeebcf75#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    = <http://www.bbc.co.uk/education/topics/zm6ngk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b93b0e84-bc2a-4c2f-8216-f1731488eb44#id> a curric:Topic ;
+    rdfs:label "International crises"@en-gb ;
+    core:preferredLabel "International crises"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zcwtb9q#topic> .
+
+<http://www.bbc.co.uk/things/b9647b0a-50da-4ddc-9b37-0d2b87c850ae#id> a curric:TopicOfStudy ;
+    rdfs:label "International crises"@en-gb ;
+    core:disambiguationHint "3rd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "International crises"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b93b0e84-bc2a-4c2f-8216-f1731488eb44#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
+    = <http://www.bbc.co.uk/education/topics/z3kmyrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b969a0b3-34df-428d-9c39-8eb04c29aa56#id> a curric:TopicOfStudy ;
+    rdfs:label "Working practices"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Working practices"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9c174fea-e2dc-4aab-b93e-4b9a2c31f7e8#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/ztvkxnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ba82f4d5-b8eb-498f-8e4a-085e6713b039#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/1a376a6a-3071-4c31-beff-84872cfc044c#id> .
+
+<http://www.bbc.co.uk/things/be96b907-7615-4bc1-9691-5b07d6427bec#id> a curric:TopicOfStudy ;
+    rdfs:label "Rights and responsibilities"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Rights and responsibilities"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/72a05975-b5c8-4c70-8d2d-682638627396#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/z97ncdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bf09835d-e2aa-47e6-afe0-e6c3f0fc895c#id> a curric:TopicOfStudy ;
+    rdfs:label "Life in other countries"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Life in other countries"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8c4b74a4-a135-4db7-8457-d1468cf99788#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    curric:topics <http://www.bbc.co.uk/things/e6dfbe63-5a0d-473a-b501-0acd9f80c593#id> ;
+    = <http://www.bbc.co.uk/education/topics/zkw2n39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c1479f31-1505-4bc2-8bac-2fe6fd4fc803#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/b9647b0a-50da-4ddc-9b37-0d2b87c850ae#id> .
+
+<http://www.bbc.co.uk/things/c18f72c8-340c-4a02-8538-08bcaaea59fa#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/5fbc229b-82b6-499e-bb6a-c6821ac193e4#id> .
+
+<http://www.bbc.co.uk/things/c244d458-c492-41fc-a93d-8e918118d1d1#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/4d035f5f-51b7-417e-9b11-dacead42ddde#id>,
+        <http://www.bbc.co.uk/things/5d90bd3a-b517-4b2e-a1a4-39e62055cad2#id>,
+        <http://www.bbc.co.uk/things/6b4145fe-e25f-45fb-abef-7596db596ac0#id>,
+        <http://www.bbc.co.uk/things/8a9197f9-07e1-44d9-bb1b-1c2f36974b44#id>,
+        <http://www.bbc.co.uk/things/d218004d-6529-4089-b1f1-50e83b219de2#id>,
+        <http://www.bbc.co.uk/things/d9627edb-52a4-4cd3-8052-65ac77f619b3#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z7mh34j#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/c2758430-bb70-4fca-8fe9-1b45560a0644#id> a olo:Slot ;
+    olo:index 14 ;
+    olo:item <http://www.bbc.co.uk/things/b969a0b3-34df-428d-9c39-8eb04c29aa56#id> .
+
+<http://www.bbc.co.uk/things/c31779bf-11a4-4676-8b0f-02c000d34a36#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/b0ca2008-5e4c-4e0d-b430-b65b37d09ae2#id> .
+
+<http://www.bbc.co.uk/things/ca24e1ff-0b6b-4a9a-ac6d-41ac2edfbd13#id> a curric:Topic ;
+    rdfs:label "Multiculturalism"@en-gb ;
+    core:preferredLabel "Multiculturalism"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwxykqt#topic> .
+
+<http://www.bbc.co.uk/things/ca92ffef-a8d6-4aca-a58c-3554f525ca22#id> a curric:TopicOfStudy ;
+    rdfs:label "Local organisations"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Local organisations"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8cf6975b-d22e-41a1-822a-36dbacd47ddc#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/z26ngk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ccc7470d-315e-41aa-8b8e-a652da98859a#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/8e8466fb-80e3-463d-8e8e-16b7f42e7fd1#id>,
+        <http://www.bbc.co.uk/things/90421618-f536-45ae-91a8-8d10acf73a5a#id>,
+        <http://www.bbc.co.uk/things/b4884662-96ae-4c33-9941-bbfe6d27d940#id>,
+        <http://www.bbc.co.uk/things/f7050f7d-e3e5-4b42-8dae-34292605c1d9#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zc9w6sg#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/d218004d-6529-4089-b1f1-50e83b219de2#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/1560c0df-299d-4f50-a584-5c2c30004325#id> .
+
+<http://www.bbc.co.uk/things/d42986cd-8e39-430a-aeca-0e056fb7d1b7#id> a curric:TopicOfStudy ;
+    rdfs:label "Social issues: Crime and law"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Social issues: Crime and law"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/526025c8-62b8-4851-8521-44bd73e47111#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/z8mf9j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d4d76f49-75df-40c8-a11c-a78bff79bd8e#id> a curric:TopicOfStudy ;
+    rdfs:label "Community groups"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Community groups"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7c56dcc3-0226-4a29-b1d5-350bd7fccfd8#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zvg97ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d5eabacd-82ce-4f70-875d-bae61933dd21#id> a curric:TopicOfStudy ;
+    rdfs:label "Decision making bodies"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Decision making bodies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8d72d477-ab36-410f-b5bf-5ee5f0d6cf54#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/zqhbwmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d66589e8-92f9-455d-9eb6-eefe30789186#id> a curric:TopicOfStudy ;
+    rdfs:label "Global development, power and influence"@en-gb ;
+    core:disambiguationHint "4th level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Global development, power and influence"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6bc6c2b2-05cc-4848-9021-382c9420f52b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> ;
+    = <http://www.bbc.co.uk/education/topics/zmsc7ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d7707f16-4607-43f5-8ff1-f7f97418636a#id> a curric:TopicOfStudy ;
+    rdfs:label "Americas"@en-gb ;
+    core:disambiguationHint "2nd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Americas"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ebfac56a-c43c-4b70-b843-f770eeebcf75#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> ;
+    = <http://www.bbc.co.uk/education/topics/zdqxfg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d8e76251-4a05-469d-a513-4f04506a33e1#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/007cdb53-0b71-4a71-945b-2c8122d1c010#id> .
+
+<http://www.bbc.co.uk/things/d9264004-3367-4abf-8dc8-0bb3b55f706d#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/2ac4ac00-9236-4185-b506-4980ac307b5e#id>,
+        <http://www.bbc.co.uk/things/88c5dc3c-37a6-412e-b45c-a6a2741bdc90#id>,
+        <http://www.bbc.co.uk/things/edd77086-6441-4447-9982-92830b15f186#id>,
+        <http://www.bbc.co.uk/things/f23576cf-2d98-4dd0-bf8e-96b06996e868#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zy3cjxs#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/d9627edb-52a4-4cd3-8052-65ac77f619b3#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/1b5cdca0-7984-494b-b4c9-152e46649d8e#id> .
+
+<http://www.bbc.co.uk/things/db6ee80f-a050-42be-a032-b71664b1631f#id> a curric:Topic ;
+    rdfs:label "World ideologies"@en-gb ;
+    core:preferredLabel "World ideologies"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqt3d2p#topic> .
+
+<http://www.bbc.co.uk/things/dc55f6c7-5c64-4457-9600-94bce1d88b09#id> a curric:TopicOfStudy ;
+    rdfs:label "Inequality"@en-gb ;
+    core:disambiguationHint "3rd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Inequality"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0b6c0490-d451-4d83-84e3-1141496d965f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
+    = <http://www.bbc.co.uk/education/topics/znbdtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/dd5d7dba-04d5-4084-952a-eb8be70e903b#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/d42986cd-8e39-430a-aeca-0e056fb7d1b7#id> .
+
+<http://www.bbc.co.uk/things/df81c98f-8a53-4ddc-924f-d2ca3f6dc516#id> a olo:Slot ;
+    olo:index 13 ;
+    olo:item <http://www.bbc.co.uk/things/80f73a9a-efe0-4e35-b19e-6b7d3f09e067#id> .
+
+<http://www.bbc.co.uk/things/e3324b8a-5a3d-49dc-a20b-484f05364a8b#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/e203b6e4-fd1e-474a-aaf8-12380a6ff94c#id> .
+
+<http://www.bbc.co.uk/things/e358e435-25f3-44cb-a505-ddd259bee491#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/6f6c02e5-d9b2-47c5-9bce-c3bf0e65607b#id> .
+
+<http://www.bbc.co.uk/things/e3cbeca5-2171-4afb-ac00-f30ecee7a976#id> a curric:Topic ;
+    rdfs:label "Democracy and decisions"@en-gb ;
+    core:preferredLabel "Democracy and decisions"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zsf3kqt#topic> .
+
+<http://www.bbc.co.uk/things/e53e26e2-f79e-473c-8acb-1e096fb1c0c8#id> a curric:TopicOfStudy ;
+    rdfs:label "Global development"@en-gb ;
+    core:disambiguationHint "3rd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Global development"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fa48a24e-9cc3-416d-834d-4f8022d05872#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
+    = <http://www.bbc.co.uk/education/topics/zv92fg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e6dfbe63-5a0d-473a-b501-0acd9f80c593#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1a3f597f-69a8-4a71-86f3-f1054559c014#id>,
+        <http://www.bbc.co.uk/things/2338f7d3-8522-45bd-99ce-abca5c810fd5#id>,
+        <http://www.bbc.co.uk/things/3c8d8387-28bb-4f4b-910a-1745ae57567d#id>,
+        <http://www.bbc.co.uk/things/97460b19-c212-4ce1-a9bb-0b47b31f1231#id>,
+        <http://www.bbc.co.uk/things/c31779bf-11a4-4676-8b0f-02c000d34a36#id>,
+        <http://www.bbc.co.uk/things/e3324b8a-5a3d-49dc-a20b-484f05364a8b#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zkw2n39#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/e75b2fc4-5d6b-4165-b1b2-a5da1119e3c1#id> a curric:Topic ;
+    rdfs:label "Australia and Oceania"@en-gb ;
+    core:preferredLabel "Australia and Oceania"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/d7e2cafb-8714-4f19-afc9-08c37225e1fe#id> ;
+    = <http://www.bbc.co.uk/education/topics/zkgrd2p#topic> .
+
+<http://www.bbc.co.uk/things/ea7ff2b7-522e-4bb8-8866-6d23c16d8804#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/4ed81b24-39e0-4ba9-bcf9-4320d4c22c5e#id>,
+        <http://www.bbc.co.uk/things/60016ea3-6d29-445c-a82a-33f6937b7143#id>,
+        <http://www.bbc.co.uk/things/8055ab86-c337-4997-9d7c-e55372336455#id>,
+        <http://www.bbc.co.uk/things/92c3bd12-2377-4f7d-8fc5-81b20dca139f#id>,
+        <http://www.bbc.co.uk/things/94896307-56ae-4512-b820-546dd159844c#id>,
+        <http://www.bbc.co.uk/things/afc12ad7-a8ea-4c18-929e-de89c91cf73a#id>,
+        <http://www.bbc.co.uk/things/c18f72c8-340c-4a02-8538-08bcaaea59fa#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zx6pb9q#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/edd77086-6441-4447-9982-92830b15f186#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/aff1c64e-4c0a-4934-9cfe-753348ff6796#id> .
+
+<http://www.bbc.co.uk/things/efd5d109-8540-4045-9acf-7a75588bacb1#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/d5eabacd-82ce-4f70-875d-bae61933dd21#id> .
+
+<http://www.bbc.co.uk/things/f0e85b5f-198d-4754-b976-5bf69b570895#id> a olo:Slot ;
+    olo:index 12 ;
+    olo:item <http://www.bbc.co.uk/things/5188cb65-5687-4233-92e3-5ac6d59fd706#id> .
+
+<http://www.bbc.co.uk/things/f2163ba8-b88c-4b35-b59e-75fce2e21fc8#id> a olo:Slot ;
+    olo:index 17 ;
+    olo:item <http://www.bbc.co.uk/things/a75ec496-d55d-4a36-a099-b0872ea16105#id> .
+
+<http://www.bbc.co.uk/things/f23576cf-2d98-4dd0-bf8e-96b06996e868#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/95788caa-1d02-4797-8671-ed7fd3d7d926#id> .
+
+<http://www.bbc.co.uk/things/f3afe2fc-41a5-42ed-9bd3-9dfbb72d9189#id> a curric:TopicOfStudy ;
+    rdfs:label "Rights and responsibilities"@en-gb ;
+    core:disambiguationHint "3rd level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Rights and responsibilities"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/72a05975-b5c8-4c70-8d2d-682638627396#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> ;
+    = <http://www.bbc.co.uk/education/topics/zsgwhyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f61e063c-aca9-4c2e-bf8a-e9e078873e7e#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/3ae84df1-20e3-4657-ab8c-fb1045bd1b6b#id> .
+
+<http://www.bbc.co.uk/things/f7050f7d-e3e5-4b42-8dae-34292605c1d9#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/861e00f7-e844-4b19-a809-76951e44cf4d#id> .
+
+<http://www.bbc.co.uk/things/fa48a24e-9cc3-416d-834d-4f8022d05872#id> a curric:Topic ;
+    rdfs:label "Global development"@en-gb ;
+    core:preferredLabel "Global development"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zrd634j#topic> .
+
+<http://www.bbc.co.uk/things/fabc7e41-ae31-4247-a8e5-69e877e40fa2#id> a curric:TopicOfStudy ;
+    rdfs:label "Community"@en-gb ;
+    core:disambiguationHint "Early and 1st level People in society, economy and business curriculum"@en-gb ;
+    core:preferredLabel "Community"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> ;
+    curric:topics <http://www.bbc.co.uk/things/ccc7470d-315e-41aa-8b8e-a652da98859a#id> ;
+    = <http://www.bbc.co.uk/education/topics/zc9w6sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0a1410fe-3b9c-49d3-bdf6-2d0c00582dd8#id> a curric:Topic ;
+    rdfs:label "Money and payment"@en-gb ;
+    core:preferredLabel "Money and payment"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgc8mp3#topic> .
+
+<http://www.bbc.co.uk/things/2f034240-f537-4146-8c04-27510f88492c#id> a curric:Topic ;
+    rdfs:label "People who help us"@en-gb ;
+    core:preferredLabel "People who help us"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
+    = <http://www.bbc.co.uk/education/topics/zpny4wx#topic> .
+
+<http://www.bbc.co.uk/things/7567066e-22ee-429e-af50-f32fea19859b#id> a curric:Topic ;
+    rdfs:label "Europe"@en-gb ;
+    core:preferredLabel "Europe"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/d7e2cafb-8714-4f19-afc9-08c37225e1fe#id> ;
+    = <http://www.bbc.co.uk/education/topics/zcv39j6#topic> .
+
+<http://www.bbc.co.uk/things/8c4b74a4-a135-4db7-8457-d1468cf99788#id> a curric:Topic ;
+    rdfs:label "Life in other countries"@en-gb ;
+    core:preferredLabel "Life in other countries"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zvb4q6f#topic> .
+
+<http://www.bbc.co.uk/things/8cf6975b-d22e-41a1-822a-36dbacd47ddc#id> a curric:Topic ;
+    rdfs:label "Local organisations"@en-gb ;
+    core:preferredLabel "Local organisations"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zbrk2hv#topic> .
+
+<http://www.bbc.co.uk/things/8d72d477-ab36-410f-b5bf-5ee5f0d6cf54#id> a curric:Topic ;
+    rdfs:label "Decision making bodies"@en-gb ;
+    core:preferredLabel "Decision making bodies"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zg8xvcw#topic> .
+
+<http://www.bbc.co.uk/things/8f21089e-de39-4364-9d9c-2bc567106f14#id> a curric:Topic ;
+    rdfs:label "Africa"@en-gb ;
+    core:preferredLabel "Africa"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/d7e2cafb-8714-4f19-afc9-08c37225e1fe#id> ;
+    = <http://www.bbc.co.uk/education/topics/z43bkqt#topic> .
+
+<http://www.bbc.co.uk/things/d4e1fac3-f6a5-4c41-895e-abfa43be304d#id> a curric:Topic ;
+    rdfs:label "Asia"@en-gb ;
+    core:preferredLabel "Asia"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/d7e2cafb-8714-4f19-afc9-08c37225e1fe#id> ;
+    = <http://www.bbc.co.uk/education/topics/z9bg87h#topic> .
+
+<http://www.bbc.co.uk/things/dfbb5c46-6cba-4e8e-aa47-795bed0d3b3c#id> a curric:Topic ;
+    rdfs:label "Shops and services"@en-gb ;
+    core:preferredLabel "Shops and services"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zr4dxnb#topic> .
+
+<http://www.bbc.co.uk/things/ebfac56a-c43c-4b70-b843-f770eeebcf75#id> a curric:Topic ;
+    rdfs:label "Americas"@en-gb ;
+    core:preferredLabel "Americas"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/d7e2cafb-8714-4f19-afc9-08c37225e1fe#id> ;
+    = <http://www.bbc.co.uk/education/topics/z3g97ty#topic> .
+
+<http://www.bbc.co.uk/things/1ac103fb-4714-4a94-8c1a-1c49b8f3d3b4#id> a curric:Topic ;
+    rdfs:label "Enterprise"@en-gb ;
+    core:preferredLabel "Enterprise"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/3424ef7f-a8c8-45c4-b351-080f19b26039#id> ;
+    = <http://www.bbc.co.uk/education/topics/zshnb9q#topic> .
+
+<http://www.bbc.co.uk/things/72a05975-b5c8-4c70-8d2d-682638627396#id> a curric:Topic ;
+    rdfs:label "Rights and responsibilities"@en-gb ;
+    core:preferredLabel "Rights and responsibilities"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> ;
+    = <http://www.bbc.co.uk/education/topics/z8ssgk7#topic> .
+
+<http://www.bbc.co.uk/things/51ef02c4-e18c-440f-996a-abae7b823494#id> a curric:Topic ;
+    rdfs:label "Community"@en-gb ;
+    core:preferredLabel "Community"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zknnb9q#topic> .
+
+<http://www.bbc.co.uk/things/5acf19f2-30af-4e2c-bb9b-556bd9c3ff22#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/524063c1-c4c2-4d6b-9f0f-8585b616209b#id> .
+
+<http://www.bbc.co.uk/things/47e2e4c9-31bc-47e2-8a18-761963e4ed19#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/ea7ff2b7-522e-4bb8-8866-6d23c16d8804#id> .
+
+<http://www.bbc.co.uk/things/1f26cec9-e86a-4748-a16c-2639ca76b3ce#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/b600ebf6-365f-43e7-87c6-ecc036c1d523#id> .
+
+<http://www.bbc.co.uk/things/22612250-058f-40a4-b095-4c0ab4e66de1#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/14e0def2-97ae-4dc9-ac19-e556d95d84fe#id> .
+

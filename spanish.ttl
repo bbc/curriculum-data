@@ -1,1265 +1,1363 @@
-@prefix olo:   <http://purl.org/ontology/olo/core#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
 @prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix dc:    <http://purl.org/dc/terms/> .
-
-<http://www.bbc.co.uk/things/30336149-3144-4a9d-b8a8-7eed1dbb86a1#id>
-        a          olo:Slot ;
-        olo:index  14 ;
-        olo:item   <http://www.bbc.co.uk/things/36473566-7ef3-4551-8b45-aa615ca1309e#id> .
-
-<http://www.bbc.co.uk/things/6ae29b54-d779-428a-811f-a66c76a6d7a8#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Numbers"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/6a4616ba-781d-42ae-a547-691d7f629684#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zdj7hyc#topic-of-study> .
-
-<http://www.bbc.co.uk/things/673fe8ab-02c6-4cc2-bc70-6f1c1d7a1d28#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/51fcf310-de1d-425e-b0d9-90d95201d5c1#id> .
-
-<http://www.bbc.co.uk/things/b5f1300a-4fc6-4853-94c5-a8736eb0226d#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/79eebcd4-8bd4-450f-ab48-d5b30455ee9a#id> .
-
-<http://www.bbc.co.uk/things/4391d680-282e-40da-b782-6bd5bfdb422a#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Speaking"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0240dbb9-61c4-4a02-b233-f91ebec82b57#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zvrqxnb#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b8cc9522-b50f-4b4a-a3f2-fb9f200e8067#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/4391d680-282e-40da-b782-6bd5bfdb422a#id> .
-
-<http://www.bbc.co.uk/things/4e489894-dead-4f2c-b5e4-2263832753c2#id>
-        a           curric:Topic ;
-        rdfs:label  "Cultures and places"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zmhrkqt#topic> .
-
-<http://www.bbc.co.uk/things/53d978b3-f47a-4713-a52a-59d622e2b6e9#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/87132d05-69d3-48e0-b6e7-b8189e2aad5a#id> .
-
-<http://www.bbc.co.uk/things/16ec121e-f0eb-4b14-977a-3e6d4205f8c2#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Cultures and places"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/4e489894-dead-4f2c-b5e4-2263832753c2#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zjn4d2p#topic-of-study> .
-
-<http://www.bbc.co.uk/things/f55fe2ac-e1cd-41c6-8913-ba508afd72fd#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "At home"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/7bbc149c-34fc-47d3-b849-0c87d3b03728#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zm6hvcw#topic-of-study> .
-
-<http://www.bbc.co.uk/things/33ace650-b798-4ba1-af2b-7d0863e1a041#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/251ee883-55e3-4f30-9588-c69debb0468d#id> .
-
-<http://www.bbc.co.uk/things/bc454a25-2e70-4577-9c3a-44d2ec5363c2#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/ba847ae2-19aa-4831-b527-f8b00d7a3916#id> .
-
-<http://www.bbc.co.uk/things/ad58a34c-dbe6-4347-a6c0-102e6ded634f#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening and talking with others"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/76701dea-8dd0-4d4b-a5ca-c0926fc84a66#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/673fe8ab-02c6-4cc2-bc70-6f1c1d7a1d28#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zk3kxnb#topic-of-study> .
-
-<http://www.bbc.co.uk/things/3d795cbd-8314-4485-912a-f74f7768b32a#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/3e314c0d-1fe3-4648-b290-6ad8edff3f49#id> .
-
-<http://www.bbc.co.uk/things/f5ce1f71-54f0-4471-a7ea-bd21c34c2fc9#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/06d321a6-d4d9-4681-bec9-142b0db7d426#id> .
-
-<http://www.bbc.co.uk/things/f9640055-ff0b-4e17-8634-6a7c23d45b01#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/eb507121-f7b3-4744-81b2-0394fda99d82#id> .
-
-<http://www.bbc.co.uk/things/23a69ca0-1ac6-465e-bcdc-b2c1bfd359f8#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/7fb3e713-3034-4614-a6b4-7a4f26837460#id> .
-
-<http://www.bbc.co.uk/things/73337736-ac66-4629-84e8-2a8825d7e83c#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/c683a8e1-14e4-4625-8bfb-3f0a0de05e5f#id> .
-
-<http://www.bbc.co.uk/things/1b4cadf2-d619-4356-89e6-2eb06e13c76d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Talking"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zrhv87h#topic-of-study> .
-
-<http://www.bbc.co.uk/things/432ce901-6812-415e-966b-de9b751eed03#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Cultures and places"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/4e489894-dead-4f2c-b5e4-2263832753c2#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e5193ddf-38e0-4d95-9935-a875a3ff6582#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zpr76sg#topic-of-study> .
-
-<http://www.bbc.co.uk/things/006ceb3c-0455-4418-9e2e-d988c01d722e#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/7b753e5a-feba-4a89-ae5d-a210267fac5f#id> .
-
-<http://www.bbc.co.uk/things/0776ed12-eddf-4229-a841-8e8591373946#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/c59938f8-b00d-4426-bbc1-1e25c9bc6df8#id> .
-
-<http://www.bbc.co.uk/things/0ad2bc43-9d71-45c7-9585-78f0c62cb8d9#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Birds, bugs and beasts"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/ad8a36b0-4f18-4b19-ae31-bc1bc5f854d0#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z2y8q6f#topic-of-study> .
-
-<http://www.bbc.co.uk/things/0240dbb9-61c4-4a02-b233-f91ebec82b57#id>
-        a           curric:Topic ;
-        rdfs:label  "Speaking"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zqd6n39#topic> .
-
-<http://www.bbc.co.uk/things/5a5e7683-ae29-4c0f-98c7-9fcd9e291e58#id>
-        a           curric:Topic ;
-        rdfs:label  "Our planet"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z2tg9j6#topic> .
-
-<http://www.bbc.co.uk/things/99cfcab1-0000-41a9-b0ea-1732b9d8421e#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/d71c91fd-00a3-40b4-a531-714e00209080#id> .
-
-<http://www.bbc.co.uk/things/aeb227fa-bb62-413c-a68c-82237a72ded8#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "My calendar"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/adeb6e1a-a170-4bca-9dc9-af579c8a8330#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7m6fg8#topic-of-study> .
-
-<http://www.bbc.co.uk/things/2942fb5b-747c-4a65-9fcb-18782f1ffcf3#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/7d880358-8630-4533-aab1-2f6ab4ba2db6#id> .
-
-<http://www.bbc.co.uk/things/c91eb75f-9759-46ff-9ba9-8462073a57fa#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Food and drink"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9c581e1e-dba6-4f96-ace4-c59a84ea34fe#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z4mvr82#topic-of-study> .
-
-<http://www.bbc.co.uk/things/f249df10-34f9-409d-ade4-a1487ab1ec1e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Pronouns"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/1b8620b0-1f95-4a68-a9e7-78986ea9703f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/znykjxs#topic-of-study> .
-
-<http://www.bbc.co.uk/things/07b8fcaf-bea9-4326-9bdf-82bf390af21c#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z3c76sg#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c73d5e51-0bda-4b2a-bbdc-47270d89fada#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Activities and hobbies"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/5ac7db35-bdd7-4bf3-aca7-ff7f27478049#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6hnb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/23ce38fe-06dd-4f01-8a36-3a19758d1dfc#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/8f082326-4acf-4fbc-a2a7-707149f2bd3d#id> , <http://www.bbc.co.uk/things/9e0fde7d-b887-4a4d-84a9-d66072683b0a#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zrtykqt#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/d7aff017-287e-4c55-a005-9d0444520069#id>
-        a                  curric:Topic ;
-        rdfs:label         "Listening for information"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zsqhgk7#topic> .
-
-<http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id>
-        a           curric:Topic ;
-        rdfs:label  "Using language"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z4htyrd#topic> .
-
-<http://www.bbc.co.uk/things/25b4c350-f0cf-49fc-b92d-db88f2d9ae32#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening and talking"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/080c0ca3-20d9-48d4-9b25-a1356083b91d#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/d8d16b7d-df3e-465d-965d-ec5b89bcefce#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zhqhgk7#topic-of-study> .
-
-<http://www.bbc.co.uk/things/de598da4-43be-4827-8f8a-d21d15fc670f#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Date and time"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/d873add7-6c24-42f2-9570-a70a40a23690#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zd7s34j#topic-of-study> .
-
-<http://www.bbc.co.uk/things/435d5300-b67e-444d-a872-571799b52f04#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/6f0f5731-4045-427d-ba56-de02d04ee900#id> .
-
-<http://www.bbc.co.uk/things/ffde50ac-dbd5-42d9-83b9-3c30b6f23623#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/5c4b49fd-fd99-4ddd-9557-83ff627c2100#id> , <http://www.bbc.co.uk/things/99cfcab1-0000-41a9-b0ea-1732b9d8421e#id> , <http://www.bbc.co.uk/things/70e189b0-845a-48e3-96a9-92bd6b4fe4c4#id> , <http://www.bbc.co.uk/things/b4463477-4c4b-440a-aa69-42f26450846d#id> , <http://www.bbc.co.uk/things/05952d00-b129-45c9-8b48-8bd05cf79da2#id> , <http://www.bbc.co.uk/things/d8602850-51ef-4c46-9a0e-63a451d02cc5#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zb6f9j6#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/0e91b7ee-522a-448e-b772-2f57b49ef73a#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Using language"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/9f74466d-d464-48df-9c07-b82059394832#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z4p3d2p#topic-of-study> .
-
-<http://www.bbc.co.uk/things/d71c91fd-00a3-40b4-a531-714e00209080#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Culture"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8bdaddfd-66dd-438e-8dbe-edb5471514aa#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zkfrq6f#topic-of-study> .
-
-<http://www.bbc.co.uk/things/55431e16-4261-40e0-99a6-80c3b9c38d01#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/a3f2434b-78ad-49f3-9667-a249789f31c9#id> .
-
-<http://www.bbc.co.uk/things/e5a47b6d-2193-457a-a0f1-93aa7f958bfc#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/a584aa32-b765-478c-b6d7-a38da2f9e38a#id> .
-
-<http://www.bbc.co.uk/things/9a25e59e-6c02-43ba-82f5-31a8d7a8478b#id>
-        a          olo:Slot ;
-        olo:index  10 ;
-        olo:item   <http://www.bbc.co.uk/things/c59b2977-2e77-406f-962e-5b17d264c697#id> .
-
-<http://www.bbc.co.uk/things/6a4616ba-781d-42ae-a547-691d7f629684#id>
-        a           curric:Topic ;
-        rdfs:label  "Numbers"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zy3c87h#topic> .
-
-<http://www.bbc.co.uk/things/8cf417af-323c-4e61-b306-b1aa3c109e7a#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/5ddaee03-eb68-4979-8833-00810d6b3a7e#id> .
-
-<http://www.bbc.co.uk/things/4ce7fd49-b1f2-461e-844a-c3a4430914ad#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/c5798ee0-e35f-401f-85d9-8b47ad44986c#id> .
-
-<http://www.bbc.co.uk/things/d043a3a1-c859-4904-9909-8fc4a711aadf#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/ff6ade14-21a2-49bc-aa80-be4a9ef24151#id> .
-
-<http://www.bbc.co.uk/things/219b23f6-d82b-412f-99c0-7f9bcc083a3d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Cultures and places"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/4e489894-dead-4f2c-b5e4-2263832753c2#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zpsycdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c1eb7fcf-3b44-4097-8b62-a97fd8bf9a88#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "At school"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/815223ca-dd8c-4a35-b8e3-9c94e0c9fe5d#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zxtp34j#topic-of-study> .
-
-<http://www.bbc.co.uk/things/05952d00-b129-45c9-8b48-8bd05cf79da2#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/39c3a2e1-7753-47ef-8cd5-02e042fd1e50#id> .
-
-<http://www.bbc.co.uk/things/c9282180-7f3f-4b76-852a-c2bf5dc8ec6e#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/dac2db5e-86ad-45e9-b866-2bef9d54160c#id> .
-
-<http://www.bbc.co.uk/things/436e32f5-6547-47af-b493-4af61ed08c04#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/c1eb7fcf-3b44-4097-8b62-a97fd8bf9a88#id> .
-
-<http://www.bbc.co.uk/things/8bdaddfd-66dd-438e-8dbe-edb5471514aa#id>
-        a                  curric:Topic ;
-        rdfs:label         "Culture"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zw4dxnb#topic> .
-
-<http://www.bbc.co.uk/things/70500426-08b1-4604-889b-50ca88362a5e#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/c91eb75f-9759-46ff-9ba9-8462073a57fa#id> .
-
-<http://www.bbc.co.uk/things/0118424e-e802-4e7d-a94f-90f521aa34a8#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Culture"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/8bdaddfd-66dd-438e-8dbe-edb5471514aa#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zj39mp3#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/499f985d-48bb-4622-82f0-e348e1b8871e#id> .
-
-<http://www.bbc.co.uk/things/0a8f6283-b532-4653-8426-199445cd0dd2#id>
-        a          olo:Slot ;
-        olo:index  16 ;
-        olo:item   <http://www.bbc.co.uk/things/cf853745-d6e2-4619-bb4a-39a07b1d8035#id> .
-
-<http://www.bbc.co.uk/things/9a4a32ed-ebe2-4bae-b45d-01808a2abc3e#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/25b4c350-f0cf-49fc-b92d-db88f2d9ae32#id> .
-
-<http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/cf44738f-9944-4d2e-b47a-0e09f726d868#id> .
-
-<http://www.bbc.co.uk/things/763a3c82-fedd-4529-930c-fff580540635#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/318b1550-06d7-425e-a0f3-825989452039#id> .
-
-<http://www.bbc.co.uk/things/eb59a0e0-8d69-4f0e-9810-09e8d4750b24#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening and talking with others"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/76701dea-8dd0-4d4b-a5ca-c0926fc84a66#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/080c0ca3-20d9-48d4-9b25-a1356083b91d#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zp7pr82#topic-of-study> .
-
-<http://www.bbc.co.uk/things/9f74466d-d464-48df-9c07-b82059394832#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/3d795cbd-8314-4485-912a-f74f7768b32a#id> , <http://www.bbc.co.uk/things/35a37094-547e-4e4a-a7c1-063f78b960f7#id> , <http://www.bbc.co.uk/things/f2866892-ea2d-4d53-a073-971f0a37e899#id> , <http://www.bbc.co.uk/things/e694cd06-f01e-455c-a3a2-8002208b1809#id> , <http://www.bbc.co.uk/things/b23ae46e-eaa3-48f9-8a85-8f76e43136df#id> , <http://www.bbc.co.uk/things/a302f726-23e7-4563-b957-739d92eb614c#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z4p3d2p#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/25a0394f-6456-43e6-a3a8-cc68b3effb1d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "At school"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/815223ca-dd8c-4a35-b8e3-9c94e0c9fe5d#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e5193ddf-38e0-4d95-9935-a875a3ff6582#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zxvd7ty#topic-of-study> .
-
-<http://www.bbc.co.uk/things/084df6cc-756b-437c-b35d-f9a872967989#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/435d5300-b67e-444d-a872-571799b52f04#id> , <http://www.bbc.co.uk/things/19d67f84-bc73-4d36-8a66-f29bf08929bf#id> , <http://www.bbc.co.uk/things/2942fb5b-747c-4a65-9fcb-18782f1ffcf3#id> , <http://www.bbc.co.uk/things/e5a47b6d-2193-457a-a0f1-93aa7f958bfc#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z9v9mp3#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/219d729f-6aa6-49a9-928a-566ae8da5c42#id>
-        a          olo:Slot ;
-        olo:index  10 ;
-        olo:item   <http://www.bbc.co.uk/things/c73d5e51-0bda-4b2a-bbdc-47270d89fada#id> .
-
-<http://www.bbc.co.uk/things/cf44738f-9944-4d2e-b47a-0e09f726d868#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/db458918-5561-4c83-bd65-ff3cb80d4eae#id> , <http://www.bbc.co.uk/things/21b775f3-b6ae-4525-82db-efce6ea96031#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zg6f9j6#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/36473566-7ef3-4551-8b45-aa615ca1309e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Stories, poems and songs"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/dd5229f5-4e29-495d-97a1-1ae28adf183c#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zqs9wmn#topic-of-study> .
-
-<http://www.bbc.co.uk/things/ba223441-df04-48bc-914a-4bf83a19a106#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/6126f088-0aa2-4618-8215-1ad51244ebc7#id> .
-
-<http://www.bbc.co.uk/things/afe302c5-d8b4-4d52-acf4-fdd5c18cb359#id>
-        a          olo:Slot ;
-        olo:index  13 ;
-        olo:item   <http://www.bbc.co.uk/things/432ce901-6812-415e-966b-de9b751eed03#id> .
-
-<http://www.bbc.co.uk/things/46c6ae3b-b325-4eff-a741-80a5a845b5f2#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/9a4a32ed-ebe2-4bae-b45d-01808a2abc3e#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zcsrq6f#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/21f5c97a-76f2-4377-8190-d5611a7739e1#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Adjectives"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/202be5ce-91ba-464d-a680-2ebbd469edc9#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/ztnc87h#topic-of-study> .
-
-<http://www.bbc.co.uk/things/f691f9bd-88f1-40c7-bd8a-8ea3ddc0e272#id>
-        a           curric:Topic ;
-        rdfs:label  "Colours"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z4dhfg8#topic> .
-
-<http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/ef211a1b-d6c1-4b35-9bda-0009ac859e9c#id> .
-
-<http://www.bbc.co.uk/things/a991e870-c995-4edf-a748-2043fbf66a3b#id>
-        a           curric:Topic ;
-        rdfs:label  "All about me"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z9wpyrd#topic> .
-
-<http://www.bbc.co.uk/things/51fcf310-de1d-425e-b0d9-90d95201d5c1#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/d8ad7f97-070a-475c-8f21-33d389d6d60b#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z4fc7ty#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/87132d05-69d3-48e0-b6e7-b8189e2aad5a#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Family and friends"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/02bd3555-bf44-42ff-b31a-378686a02ef3#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zr7fb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/499f985d-48bb-4622-82f0-e348e1b8871e#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/70500426-08b1-4604-889b-50ca88362a5e#id> , <http://www.bbc.co.uk/things/53d978b3-f47a-4713-a52a-59d622e2b6e9#id> , <http://www.bbc.co.uk/things/9c93fbc9-db11-4060-b4a5-130359ef6b85#id> , <http://www.bbc.co.uk/things/0f0cb79d-16de-4d67-a828-c147cb480f9f#id> , <http://www.bbc.co.uk/things/202608f4-ed76-480f-b334-20de60952944#id> , <http://www.bbc.co.uk/things/30336149-3144-4a9d-b8a8-7eed1dbb86a1#id> , <http://www.bbc.co.uk/things/33ace650-b798-4ba1-af2b-7d0863e1a041#id> , <http://www.bbc.co.uk/things/4ce7fd49-b1f2-461e-844a-c3a4430914ad#id> , <http://www.bbc.co.uk/things/9a25e59e-6c02-43ba-82f5-31a8d7a8478b#id> , <http://www.bbc.co.uk/things/692ba075-bff5-4454-8773-aed0af26e94c#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zxsvr82#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/fb8edcb9-98d0-4acb-9900-b7fcc5214493#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "All about me"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/a991e870-c995-4edf-a748-2043fbf66a3b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zj7mn39#topic-of-study> .
-
-<http://www.bbc.co.uk/things/953ce8ab-416e-408e-a983-48eb2a887234#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "At school"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/815223ca-dd8c-4a35-b8e3-9c94e0c9fe5d#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zk6b4wx#topic-of-study> .
-
-<http://www.bbc.co.uk/things/65ee9c19-7c3f-4df3-8fce-03f7eef19267#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/f69b1e26-3253-42c5-888f-94fe37ef3b83#id> .
-
-<http://www.bbc.co.uk/things/1ca40bf5-da89-4cd1-ac07-3620a4bcefab#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/25a11faf-a2fd-4d9d-99cf-986919d27cfb#id> .
-
-<http://www.bbc.co.uk/things/9f5d3536-1b8f-464f-b1ff-255627bd4ad2#id>
-        a                  curric:Topic ;
-        rdfs:label         "Nouns and articles"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z2jhfg8#topic> .
-
-<http://www.bbc.co.uk/things/2c76d4c1-99f8-49dd-b5e0-8bf1cc91855a#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/438ff211-f360-43a5-a783-48d0ce41bfd8#id> .
-
-<http://www.bbc.co.uk/things/86dc4c2f-fc09-4853-9c02-221b36d09e6b#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening and talking"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zsy39j6#topic-of-study> .
-
-<http://www.bbc.co.uk/things/d70758ca-ee75-400b-b5c4-4670f2630716#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/25a0394f-6456-43e6-a3a8-cc68b3effb1d#id> .
-
-<http://www.bbc.co.uk/things/a9538e0d-2254-4b52-96ec-b17fd4b30717#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Family and friends"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/02bd3555-bf44-42ff-b31a-378686a02ef3#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zq2xsbk#topic-of-study> .
-
-<http://www.bbc.co.uk/things/2c69a926-54ac-4b17-adb8-cee790b26f07#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/01053475-0c1f-4a69-a261-e24bbdb7a086#id> , <http://www.bbc.co.uk/things/29e3a896-4ce2-4916-bc1e-aaadfd2d6c68#id> , <http://www.bbc.co.uk/things/1195ef05-7b44-49f6-b9a1-addec81652d0#id> , <http://www.bbc.co.uk/things/2b3b5358-1b71-4f0b-867f-a464518414c2#id> , <http://www.bbc.co.uk/things/0776ed12-eddf-4229-a841-8e8591373946#id> , <http://www.bbc.co.uk/things/53b160aa-6cf1-4add-99b1-2f2210133041#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zpdmyrd#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/293f0330-9483-4f83-8a62-a0142ae0f131#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/c3c53006-9f24-43dc-90a1-434d3b0d680a#id> , <http://www.bbc.co.uk/things/efa2776a-6e9d-4448-b272-72c18ce90e1c#id> , <http://www.bbc.co.uk/things/219d729f-6aa6-49a9-928a-566ae8da5c42#id> , <http://www.bbc.co.uk/things/0a8f6283-b532-4653-8426-199445cd0dd2#id> , <http://www.bbc.co.uk/things/436e32f5-6547-47af-b493-4af61ed08c04#id> , <http://www.bbc.co.uk/things/bae6fe44-7d85-4794-8731-112f3b6a8959#id> , <http://www.bbc.co.uk/things/fcada560-d15f-4657-b7e0-f21badadd380#id> , <http://www.bbc.co.uk/things/dfdbd42d-d38f-4dff-a069-88fde878b430#id> , <http://www.bbc.co.uk/things/7c07c5e3-7aad-4f07-b129-534cfe454c83#id> , <http://www.bbc.co.uk/things/820b6218-9dda-41b4-ba36-2020f8863dbe#id> , <http://www.bbc.co.uk/things/6b553673-f222-4d45-807b-8b314810e048#id> , <http://www.bbc.co.uk/things/cda6c23a-2fa0-418e-81eb-75d868b48f46#id> , <http://www.bbc.co.uk/things/0547c33b-5f31-4ed9-99d6-e5da60ab1a49#id> , <http://www.bbc.co.uk/things/23a1cef2-0cae-4bac-a7a4-2ab88c382498#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z72mn39#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/0547c33b-5f31-4ed9-99d6-e5da60ab1a49#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/a9538e0d-2254-4b52-96ec-b17fd4b30717#id> .
-
-<http://www.bbc.co.uk/things/202be5ce-91ba-464d-a680-2ebbd469edc9#id>
-        a                  curric:Topic ;
-        rdfs:label         "Adjectives"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zmqpyrd#topic> .
-
-<http://www.bbc.co.uk/things/91dad560-8e55-4417-a788-db6cb485ef8f#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/42abf6b0-75a8-468c-8f9a-735ab13cbf48#id> , <http://www.bbc.co.uk/things/f9640055-ff0b-4e17-8634-6a7c23d45b01#id> , <http://www.bbc.co.uk/things/76232320-602f-4069-a064-84181b94b737#id> , <http://www.bbc.co.uk/things/c0a9e63a-4cc1-4d85-9a92-23d39268b7be#id> , <http://www.bbc.co.uk/things/0aa29517-a69a-4a35-a66f-b5007d28989b#id> , <http://www.bbc.co.uk/things/7ffbbb51-c1e5-4d93-bad8-f9b4b48385ac#id> , <http://www.bbc.co.uk/things/da5c3028-f376-4a9a-bc9c-3300a7f70707#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zg9mhyc#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/4f820732-17ab-4c1a-b6b7-558d6bf9900a#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/f249df10-34f9-409d-ade4-a1487ab1ec1e#id> .
-
-<http://www.bbc.co.uk/things/5ddaee03-eb68-4979-8833-00810d6b3a7e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Grammar"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/0213eb5f-b72b-45f0-a89b-b4e7b1ae5627#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zxhg9j6#topic-of-study> .
-
-<http://www.bbc.co.uk/things/5788e1ce-8599-408c-979b-a315e70736a9#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/d5a3ec65-5b3a-4c6e-9637-6e1b2ef30e92#id> .
-
-<http://www.bbc.co.uk/things/e4356ed5-224a-4388-afdd-2afbd28e4275#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/b5f1300a-4fc6-4853-94c5-a8736eb0226d#id> , <http://www.bbc.co.uk/things/5f7260b8-27d0-4a7f-974a-1280de469580#id> , <http://www.bbc.co.uk/things/baad4e7b-68d3-4359-a954-cc278bb59e5d#id> , <http://www.bbc.co.uk/things/763a3c82-fedd-4529-930c-fff580540635#id> , <http://www.bbc.co.uk/things/d043a3a1-c859-4904-9909-8fc4a711aadf#id> , <http://www.bbc.co.uk/things/8f947e51-ef6b-4e8b-a2aa-3e5d5ad02b8a#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zm4jpv4#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/540b83b7-5268-4023-a86b-89c3db6ce80a#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening for information"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/d7aff017-287e-4c55-a005-9d0444520069#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/080c0ca3-20d9-48d4-9b25-a1356083b91d#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zn2ncdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c59b2977-2e77-406f-962e-5b17d264c697#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Activities and hobbies"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/5ac7db35-bdd7-4bf3-aca7-ff7f27478049#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z8tg9j6#topic-of-study> .
-
-<http://www.bbc.co.uk/things/76232320-602f-4069-a064-84181b94b737#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/2d115c1c-fb68-4e1e-9d28-a26e0b9574fb#id> .
-
-<http://www.bbc.co.uk/things/a302f726-23e7-4563-b957-739d92eb614c#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/ef1fc055-f643-4b6f-b2ea-fce178e61efa#id> .
-
-<http://www.bbc.co.uk/things/42abf6b0-75a8-468c-8f9a-735ab13cbf48#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/de598da4-43be-4827-8f8a-d21d15fc670f#id> .
-
-<http://www.bbc.co.uk/things/dfdbd42d-d38f-4dff-a069-88fde878b430#id>
-        a          olo:Slot ;
-        olo:index  14 ;
-        olo:item   <http://www.bbc.co.uk/things/64078513-3ebf-4a7d-b3c1-2517d429a0f6#id> .
-
-<http://www.bbc.co.uk/things/db458918-5561-4c83-bd65-ff3cb80d4eae#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/a08b7614-32a5-4b03-b2b1-597715436ae1#id> .
-
-<http://www.bbc.co.uk/things/6952f297-fa21-45fe-b9a4-2b63fd9379f2#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Using language"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/ffde50ac-dbd5-42d9-83b9-3c30b6f23623#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zb6f9j6#topic-of-study> .
-
-<http://www.bbc.co.uk/things/96e4f59b-b1e0-4e22-9821-22a61c5f16ca#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/4a5149e0-2d28-4e47-aac7-7b4bbed4e017#id> , <http://www.bbc.co.uk/things/cc9d81de-7230-48bc-82b5-bbbbbe0e2e3b#id> , <http://www.bbc.co.uk/things/73337736-ac66-4629-84e8-2a8825d7e83c#id> , <http://www.bbc.co.uk/things/1ca40bf5-da89-4cd1-ac07-3620a4bcefab#id> , <http://www.bbc.co.uk/things/d5a38bc0-cb24-4f4a-bd3d-a7e76ba48d26#id> , <http://www.bbc.co.uk/things/50474e37-f8b6-44cd-a448-5abbe7adf65d#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z8yc7ty#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/06d321a6-d4d9-4681-bec9-142b0db7d426#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z263cdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/dd5229f5-4e29-495d-97a1-1ae28adf183c#id>
-        a           curric:Topic ;
-        rdfs:label  "Stories, poems and songs"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zxpc87h#topic> .
-
-<http://www.bbc.co.uk/things/0213eb5f-b72b-45f0-a89b-b4e7b1ae5627#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/a5e10d92-d7f2-46b9-a70d-4bae1fdde85b#id> , <http://www.bbc.co.uk/things/23a69ca0-1ac6-465e-bcdc-b2c1bfd359f8#id> , <http://www.bbc.co.uk/things/3e39c63e-748b-421d-b88f-dd8e9bb580ae#id> , <http://www.bbc.co.uk/things/5788e1ce-8599-408c-979b-a315e70736a9#id> , <http://www.bbc.co.uk/things/4f820732-17ab-4c1a-b6b7-558d6bf9900a#id> , <http://www.bbc.co.uk/things/dfa67388-72b9-4c99-a657-90968497b48c#id> , <http://www.bbc.co.uk/things/fa5fb9d2-7d46-4c6d-b4a5-1677cbf70b52#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zxhg9j6#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/8f082326-4acf-4fbc-a2a7-707149f2bd3d#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/6952f297-fa21-45fe-b9a4-2b63fd9379f2#id> .
-
-<http://www.bbc.co.uk/things/4a5149e0-2d28-4e47-aac7-7b4bbed4e017#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/273a37d5-a5fd-4ecf-a1f9-576f9bed83a1#id> .
-
-<http://www.bbc.co.uk/things/ca3b2f1d-52c6-450e-94be-74a64d3b85f8#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Understanding language"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/96e4f59b-b1e0-4e22-9821-22a61c5f16ca#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z8yc7ty#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c5798ee0-e35f-401f-85d9-8b47ad44986c#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "At home"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/7bbc149c-34fc-47d3-b849-0c87d3b03728#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z9x3cdm#topic-of-study> .
-
-<http://www.bbc.co.uk/things/d8602850-51ef-4c46-9a0e-63a451d02cc5#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/5febea34-d8d9-42cc-ae2a-418189b52aa9#id> .
-
-<http://www.bbc.co.uk/things/50474e37-f8b6-44cd-a448-5abbe7adf65d#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/494650c6-3191-45e7-bd0d-de5a2cef24f4#id> .
-
-<http://www.bbc.co.uk/things/268b7dae-67c5-4bf4-9f78-350847a3810f#id>
-        a          olo:Slot ;
-        olo:index  14 ;
-        olo:item   <http://www.bbc.co.uk/things/9769568a-8e88-48cf-94eb-9453c202b077#id> .
-
-<http://www.bbc.co.uk/things/bae6fe44-7d85-4794-8731-112f3b6a8959#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/fb8edcb9-98d0-4acb-9900-b7fcc5214493#id> .
-
-<http://www.bbc.co.uk/things/1195ef05-7b44-49f6-b9a1-addec81652d0#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/c890d120-4f97-4c82-ab09-2905c831b45b#id> .
-
-<http://www.bbc.co.uk/things/e694cd06-f01e-455c-a3a2-8002208b1809#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/a4c40a5a-e907-46d9-9cec-e36744ca44ec#id> .
-
-<http://www.bbc.co.uk/things/21b775f3-b6ae-4525-82db-efce6ea96031#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/0e91b7ee-522a-448e-b772-2f57b49ef73a#id> .
-
-<http://www.bbc.co.uk/things/53ed81f0-d816-4fef-abe1-e6dd6d52c4b7#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Numbers"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/6a4616ba-781d-42ae-a547-691d7f629684#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z3wpyrd#topic-of-study> .
-
-<http://www.bbc.co.uk/things/9e0fde7d-b887-4a4d-84a9-d66072683b0a#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/ca3b2f1d-52c6-450e-94be-74a64d3b85f8#id> .
-
-<http://www.bbc.co.uk/things/01053475-0c1f-4a69-a261-e24bbdb7a086#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/9db24957-372a-4dc3-be74-b0dc8582abff#id> .
-
-<http://www.bbc.co.uk/things/3e39c63e-748b-421d-b88f-dd8e9bb580ae#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/8c72765c-5c00-4c26-bab7-1a3ba6522d6a#id> .
-
-<http://www.bbc.co.uk/things/668c5239-b5b6-4513-bc98-42c7b1901415#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Our planet"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/5a5e7683-ae29-4c0f-98c7-9fcd9e291e58#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zhnfr82#topic-of-study> .
-
-<http://www.bbc.co.uk/things/51dc9820-8674-4adb-83ec-2740b8e24a5e#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/5037e6bc-9676-42ce-8b9d-7622132aaf2c#id> .
-
-<http://www.bbc.co.uk/things/d8ad7f97-070a-475c-8f21-33d389d6d60b#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/6f04403e-c7ce-4871-a8e7-5d812eb0e93e#id> .
-
-<http://www.bbc.co.uk/things/9a933629-fe76-4859-a811-b606475732ff#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Colours"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/f691f9bd-88f1-40c7-bd8a-8ea3ddc0e272#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zwq2pv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/2b3b5358-1b71-4f0b-867f-a464518414c2#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/5a373150-59ff-4c2f-a4e9-4cfa3ca03c84#id> .
-
-<http://www.bbc.co.uk/things/45e429d1-b9ea-49cb-b895-fd07be7edc53#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Talking"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zksgjxs#topic-of-study> .
-
-<http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/293f0330-9483-4f83-8a62-a0142ae0f131#id> .
-
-<http://www.bbc.co.uk/things/061ae0a5-6831-4dd9-aa58-ebdd3241be5b#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Food and drink"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9c581e1e-dba6-4f96-ace4-c59a84ea34fe#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z2xtyrd#topic-of-study> .
-
-<http://www.bbc.co.uk/things/cae1a588-485f-48f1-b141-397fe56b3673#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/eb59a0e0-8d69-4f0e-9810-09e8d4750b24#id> .
-
-<http://www.bbc.co.uk/things/753ff259-501a-47c2-8295-ad40cb474e77#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/8d324df7-f023-4dc4-91ab-192797d1257d#id> .
-
-<http://www.bbc.co.uk/things/815223ca-dd8c-4a35-b8e3-9c94e0c9fe5d#id>
-        a           curric:Topic ;
-        rdfs:label  "At school"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zjmvr82#topic> .
-
-<http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id>
-        a                  curric:Topic ;
-        rdfs:label         "Talking"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zknp34j#topic> .
-
-<http://www.bbc.co.uk/things/0f0cb79d-16de-4d67-a828-c147cb480f9f#id>
-        a          olo:Slot ;
-        olo:index  16 ;
-        olo:item   <http://www.bbc.co.uk/things/0ad2bc43-9d71-45c7-9585-78f0c62cb8d9#id> .
-
-<http://www.bbc.co.uk/things/e5193ddf-38e0-4d95-9935-a875a3ff6582#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/d055698c-5141-43b4-8908-c5bf7831674c#id> .
-
-<http://www.bbc.co.uk/things/cd02ace8-ed6f-429f-b65c-7edec2112644#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Nouns and articles"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9f5d3536-1b8f-464f-b1ff-255627bd4ad2#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zrkxpv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/94e85974-c2c8-46fc-951e-2c5009e98b28#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zy2pr82#topic-of-study> .
-
-<http://www.bbc.co.uk/things/fcada560-d15f-4657-b7e0-f21badadd380#id>
-        a          olo:Slot ;
-        olo:index  13 ;
-        olo:item   <http://www.bbc.co.uk/things/219b23f6-d82b-412f-99c0-7f9bcc083a3d#id> .
-
-<http://www.bbc.co.uk/things/16828ce1-a603-46a5-af9b-90741d927c84#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/006ceb3c-0455-4418-9e2e-d988c01d722e#id> , <http://www.bbc.co.uk/things/b8cc9522-b50f-4b4a-a3f2-fb9f200e8067#id> , <http://www.bbc.co.uk/things/12108727-4c92-42fc-96ee-0b47ec4a9e26#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zfckjxs#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id>
-        a           curric:Topic ;
-        rdfs:label  "Understanding language"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zct6fg8#topic> .
-
-<http://www.bbc.co.uk/things/dfa67388-72b9-4c99-a657-90968497b48c#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/21f5c97a-76f2-4377-8190-d5611a7739e1#id> .
-
-<http://www.bbc.co.uk/things/c683a8e1-14e4-4625-8bfb-3f0a0de05e5f#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zw39mp3#topic-of-study> .
-
-<http://www.bbc.co.uk/things/23a1cef2-0cae-4bac-a7a4-2ab88c382498#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/9a933629-fe76-4859-a811-b606475732ff#id> .
-
-<http://www.bbc.co.uk/things/12108727-4c92-42fc-96ee-0b47ec4a9e26#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/07b8fcaf-bea9-4326-9bdf-82bf390af21c#id> .
-
-<http://www.bbc.co.uk/things/c3c53006-9f24-43dc-90a1-434d3b0d680a#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/aeb227fa-bb62-413c-a68c-82237a72ded8#id> .
-
-<http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id>
-        a                  curric:Topic ;
-        rdfs:label         "Listening"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z7wtsbk#topic> .
-
-<http://www.bbc.co.uk/things/b4463477-4c4b-440a-aa69-42f26450846d#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/1b4cadf2-d619-4356-89e6-2eb06e13c76d#id> .
-
-<http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/23ce38fe-06dd-4f01-8a36-3a19758d1dfc#id> .
-
-<http://www.bbc.co.uk/things/97fb4964-2886-4ecd-8043-3567ece7d74e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Pronouns"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/1b8620b0-1f95-4a68-a9e7-78986ea9703f#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zkjpyrd#topic-of-study> .
-
-<http://www.bbc.co.uk/things/64078513-3ebf-4a7d-b3c1-2517d429a0f6#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Stories, poems and songs"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/dd5229f5-4e29-495d-97a1-1ae28adf183c#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/znfv4wx#topic-of-study> .
-
-<http://www.bbc.co.uk/things/efa2776a-6e9d-4448-b272-72c18ce90e1c#id>
-        a          olo:Slot ;
-        olo:index  8 ;
-        olo:item   <http://www.bbc.co.uk/things/f55fe2ac-e1cd-41c6-8913-ba508afd72fd#id> .
-
-<http://www.bbc.co.uk/things/7bbc149c-34fc-47d3-b849-0c87d3b03728#id>
-        a           curric:Topic ;
-        rdfs:label  "At home"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zw2ygk7#topic> .
-
-<http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id>
-        a           curric:Topic ;
-        rdfs:label  "Grammar and spelling"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zv2s34j#topic> .
-
-<http://www.bbc.co.uk/things/7b753e5a-feba-4a89-ae5d-a210267fac5f#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Grammar"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/91dad560-8e55-4417-a788-db6cb485ef8f#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zg9mhyc#topic-of-study> .
-
-<http://www.bbc.co.uk/things/8d324df7-f023-4dc4-91ab-192797d1257d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Speaking"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/0240dbb9-61c4-4a02-b233-f91ebec82b57#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z7xvr82#topic-of-study> .
-
-<http://www.bbc.co.uk/things/adeb6e1a-a170-4bca-9dc9-af579c8a8330#id>
-        a           curric:Topic ;
-        rdfs:label  "My calendar"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z8qs34j#topic> .
-
-<http://www.bbc.co.uk/things/a5e10d92-d7f2-46b9-a70d-4bae1fdde85b#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/7d0bb783-23a7-46ca-bb9e-cc72ec5a9d02#id> .
-
-<http://www.bbc.co.uk/things/7c07c5e3-7aad-4f07-b129-534cfe454c83#id>
-        a          olo:Slot ;
-        olo:index  15 ;
-        olo:item   <http://www.bbc.co.uk/things/86dc4c2f-fc09-4853-9c02-221b36d09e6b#id> .
-
-<http://www.bbc.co.uk/things/d873add7-6c24-42f2-9570-a70a40a23690#id>
-        a                  curric:Topic ;
-        rdfs:label         "Date and time"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zp6vr82#topic> .
-
-<http://www.bbc.co.uk/things/cc9d81de-7230-48bc-82b5-bbbbbe0e2e3b#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/ae5271bf-8405-4821-ac9a-88b851fb8073#id> .
-
-<http://www.bbc.co.uk/things/a4c40a5a-e907-46d9-9cec-e36744ca44ec#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Society"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z8frq6f#topic-of-study> .
-
-<http://www.bbc.co.uk/things/438ff211-f360-43a5-a783-48d0ce41bfd8#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Understanding language"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/1c320958-13dd-4d90-93db-22854f2b8fdc#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zsqtb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/251ee883-55e3-4f30-9588-c69debb0468d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "My calendar"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/adeb6e1a-a170-4bca-9dc9-af579c8a8330#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zc2ygk7#topic-of-study> .
-
-<http://www.bbc.co.uk/things/c6e56a4c-dd3e-4864-bd9e-9d414ddb3935#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zsj634j#topic-of-study> .
-
-<http://www.bbc.co.uk/things/d5a38bc0-cb24-4f4a-bd3d-a7e76ba48d26#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/6fdbb151-dee6-449f-828a-98a4b90476eb#id> .
-
-<http://www.bbc.co.uk/things/b23ae46e-eaa3-48f9-8a85-8f76e43136df#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/436c30e6-a601-463f-9ebd-5e28dc25cd1a#id> .
-
-<http://www.bbc.co.uk/things/9c93fbc9-db11-4060-b4a5-130359ef6b85#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/53ed81f0-d816-4fef-abe1-e6dd6d52c4b7#id> .
-
-<http://www.bbc.co.uk/things/4a583c1d-b9e4-4389-b677-cded524719a1#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/8a665534-4c58-463b-a94d-fc75b89cba5e#id> .
-
-<http://www.bbc.co.uk/things/318b1550-06d7-425e-a0f3-825989452039#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Society"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zt82fg8#topic-of-study> .
-
-<http://www.bbc.co.uk/things/19d67f84-bc73-4d36-8a66-f29bf08929bf#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/ad58a34c-dbe6-4347-a6c0-102e6ded634f#id> .
-
-<http://www.bbc.co.uk/things/1c320958-13dd-4d90-93db-22854f2b8fdc#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/bc454a25-2e70-4577-9c3a-44d2ec5363c2#id> , <http://www.bbc.co.uk/things/ba223441-df04-48bc-914a-4bf83a19a106#id> , <http://www.bbc.co.uk/things/51dc9820-8674-4adb-83ec-2740b8e24a5e#id> , <http://www.bbc.co.uk/things/43606d10-69c1-4994-96e9-5c77e5a10bcf#id> , <http://www.bbc.co.uk/things/e0cbd4f3-0e48-418d-a571-4a2f1a43c49d#id> , <http://www.bbc.co.uk/things/33d8cd63-4de2-4ece-bc9b-a03924880bbb#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zsqtb9q#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/da5c3028-f376-4a9a-bc9c-3300a7f70707#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/97fb4964-2886-4ecd-8043-3567ece7d74e#id> .
-
-<http://www.bbc.co.uk/things/35a37094-547e-4e4a-a7c1-063f78b960f7#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/45e429d1-b9ea-49cb-b895-fd07be7edc53#id> .
-
-<http://www.bbc.co.uk/things/53b160aa-6cf1-4add-99b1-2f2210133041#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/daef7ec7-071b-4eb6-9380-5362bd865380#id> .
-
-<http://www.bbc.co.uk/things/29e3a896-4ce2-4916-bc1e-aaadfd2d6c68#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/c6e56a4c-dd3e-4864-bd9e-9d414ddb3935#id> .
-
-<http://www.bbc.co.uk/things/6fdbb151-dee6-449f-828a-98a4b90476eb#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Society"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zjbkxnb#topic-of-study> .
-
-<http://www.bbc.co.uk/things/8f947e51-ef6b-4e8b-a2aa-3e5d5ad02b8a#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/d1290496-b95a-4999-a356-54a0366d2db1#id> .
-
-<http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id>
-        a                  curric:Topic ;
-        rdfs:label         "Society"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/z8rk2hv#topic> .
-
-<http://www.bbc.co.uk/things/9c581e1e-dba6-4f96-ace4-c59a84ea34fe#id>
-        a                  curric:Topic ;
-        rdfs:label         "Food and drink"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/d80290db-c73d-4815-9380-f19321182853#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zd7fb9q#topic> .
-
-<http://www.bbc.co.uk/things/8a665534-4c58-463b-a94d-fc75b89cba5e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Numbers"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/6a4616ba-781d-42ae-a547-691d7f629684#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e5193ddf-38e0-4d95-9935-a875a3ff6582#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zdtg9j6#topic-of-study> .
-
-<http://www.bbc.co.uk/things/cf853745-d6e2-4619-bb4a-39a07b1d8035#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Reading"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfvbkqt#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/0bed9255-c855-4a18-90ab-396c68101e3e#id> .
-
-<http://www.bbc.co.uk/things/02bd3555-bf44-42ff-b31a-378686a02ef3#id>
-        a           curric:Topic ;
-        rdfs:label  "Family and friends"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zkjnvcw#topic> .
-
-<http://www.bbc.co.uk/things/c0a9e63a-4cc1-4d85-9a92-23d39268b7be#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/cd02ace8-ed6f-429f-b65c-7edec2112644#id> .
-
-<http://www.bbc.co.uk/things/c890d120-4f97-4c82-ab09-2905c831b45b#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Society"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfqtb9q#topic-of-study> .
-
-<http://www.bbc.co.uk/things/e0cbd4f3-0e48-418d-a571-4a2f1a43c49d#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/94e85974-c2c8-46fc-951e-2c5009e98b28#id> .
-
-<http://www.bbc.co.uk/things/080c0ca3-20d9-48d4-9b25-a1356083b91d#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/46c6ae3b-b325-4eff-a741-80a5a845b5f2#id> .
-
-<http://www.bbc.co.uk/things/43606d10-69c1-4994-96e9-5c77e5a10bcf#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/92143a9f-883f-44ea-8524-67b5e45c6d4b#id> .
-
-<http://www.bbc.co.uk/things/0669a8bf-bf3a-4ab3-97a7-afa932f059ce#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/540b83b7-5268-4023-a86b-89c3db6ce80a#id> .
-
-<http://www.bbc.co.uk/things/0bed9255-c855-4a18-90ab-396c68101e3e#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/2c76d4c1-99f8-49dd-b5e0-8bf1cc91855a#id> , <http://www.bbc.co.uk/things/c9282180-7f3f-4b76-852a-c2bf5dc8ec6e#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zchv87h#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/d1290496-b95a-4999-a356-54a0366d2db1#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Talking"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z6k7sbk#topic-of-study> .
-
-<http://www.bbc.co.uk/things/70e189b0-845a-48e3-96a9-92bd6b4fe4c4#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/c7f4b4d4-49de-4a06-8dba-fd6db4d9fc89#id> .
-
-<http://www.bbc.co.uk/things/7d880358-8630-4533-aab1-2f6ab4ba2db6#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening for information"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/d7aff017-287e-4c55-a005-9d0444520069#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/673fe8ab-02c6-4cc2-bc70-6f1c1d7a1d28#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z8b86sg#topic-of-study> .
-
-<http://www.bbc.co.uk/things/5f7260b8-27d0-4a7f-974a-1280de469580#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/5d70cbf5-607d-48f2-855d-87020405560e#id> .
-
-<http://www.bbc.co.uk/things/1b8620b0-1f95-4a68-a9e7-78986ea9703f#id>
-        a                  curric:Topic ;
-        rdfs:label         "Pronouns"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/ztmfb9q#topic> .
-
-<http://www.bbc.co.uk/things/d8d16b7d-df3e-465d-965d-ec5b89bcefce#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/65ee9c19-7c3f-4df3-8fce-03f7eef19267#id> , <http://www.bbc.co.uk/things/0669a8bf-bf3a-4ab3-97a7-afa932f059ce#id> , <http://www.bbc.co.uk/things/cae1a588-485f-48f1-b141-397fe56b3673#id> , <http://www.bbc.co.uk/things/55431e16-4261-40e0-99a6-80c3b9c38d01#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zhqhgk7#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/16828ce1-a603-46a5-af9b-90741d927c84#id> .
-
-<http://www.bbc.co.uk/things/baad4e7b-68d3-4359-a954-cc278bb59e5d#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/4d1cd43b-ecaf-479f-8287-a4c3f3d5ca41#id> .
-
-<http://www.bbc.co.uk/things/a08b7614-32a5-4b03-b2b1-597715436ae1#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Understanding language"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/2c69a926-54ac-4b17-adb8-cee790b26f07#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zpdmyrd#topic-of-study> .
-
-<http://www.bbc.co.uk/things/5c4b49fd-fd99-4ddd-9557-83ff627c2100#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/8884daeb-a24e-412f-b15a-b2d665114062#id> .
-
-<http://www.bbc.co.uk/things/5ac7db35-bdd7-4bf3-aca7-ff7f27478049#id>
-        a           curric:Topic ;
-        rdfs:label  "Activities and hobbies"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zqx3cdm#topic> .
-
-<http://www.bbc.co.uk/things/f2866892-ea2d-4d53-a073-971f0a37e899#id>
-        a          olo:Slot ;
-        olo:index  6 ;
-        olo:item   <http://www.bbc.co.uk/things/0118424e-e802-4e7d-a94f-90f521aa34a8#id> .
-
-<http://www.bbc.co.uk/things/33d8cd63-4de2-4ece-bc9b-a03924880bbb#id>
-        a          olo:Slot ;
-        olo:index  5 ;
-        olo:item   <http://www.bbc.co.uk/things/9133f711-e183-4e5a-8367-8d58eac08c6b#id> .
-
-<http://www.bbc.co.uk/things/ef211a1b-d6c1-4b35-9bda-0009ac859e9c#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/753ff259-501a-47c2-8295-ad40cb474e77#id> , <http://www.bbc.co.uk/things/f5ce1f71-54f0-4471-a7ea-bd21c34c2fc9#id> , <http://www.bbc.co.uk/things/8cf417af-323c-4e61-b306-b1aa3c109e7a#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z4dqxnb#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/7ffbbb51-c1e5-4d93-bad8-f9b4b48385ac#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/e9355558-f98e-4f4a-b625-bef895b8af5e#id> .
-
-<http://www.bbc.co.uk/things/692ba075-bff5-4454-8773-aed0af26e94c#id>
-        a          olo:Slot ;
-        olo:index  9 ;
-        olo:item   <http://www.bbc.co.uk/things/953ce8ab-416e-408e-a983-48eb2a887234#id> .
-
-<http://www.bbc.co.uk/things/76701dea-8dd0-4d4b-a5ca-c0926fc84a66#id>
-        a                  curric:Topic ;
-        rdfs:label         "Listening and talking with others"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/znjtb9q#topic> .
-
-<http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id>
-        a           curric:Topic ;
-        rdfs:label  "Listening and talking"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zx6tyrd#topic> .
-
-<http://www.bbc.co.uk/things/820b6218-9dda-41b4-ba36-2020f8863dbe#id>
-        a          olo:Slot ;
-        olo:index  7 ;
-        olo:item   <http://www.bbc.co.uk/things/061ae0a5-6831-4dd9-aa58-ebdd3241be5b#id> .
-
-<http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id>
-        a                  curric:Topic ;
-        rdfs:label         "Reading"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zswtsbk#topic> .
-
-<http://www.bbc.co.uk/things/5febea34-d8d9-42cc-ae2a-418189b52aa9#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Society"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zcp3d2p#topic-of-study> .
-
-<http://www.bbc.co.uk/things/6f04403e-c7ce-4871-a8e7-5d812eb0e93e#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Listening and talking"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/673fe8ab-02c6-4cc2-bc70-6f1c1d7a1d28#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/084df6cc-756b-437c-b35d-f9a872967989#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z9v9mp3#topic-of-study> .
-
-<http://www.bbc.co.uk/things/9769568a-8e88-48cf-94eb-9453c202b077#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Stories, poems and songs"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/dd5229f5-4e29-495d-97a1-1ae28adf183c#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/e5193ddf-38e0-4d95-9935-a875a3ff6582#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/znc2tfr#topic-of-study> .
-
-<http://www.bbc.co.uk/things/ad8a36b0-4f18-4b19-ae31-bc1bc5f854d0#id>
-        a           curric:Topic ;
-        rdfs:label  "Birds, bugs and beasts"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/z6n4d2p#topic> .
-
-<http://www.bbc.co.uk/things/0aa29517-a69a-4a35-a66f-b5007d28989b#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/0a2efa3e-e8bd-4062-a0cd-09993aea8431#id> .
-
-<http://www.bbc.co.uk/things/dac2db5e-86ad-45e9-b866-2bef9d54160c#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Using language"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id> ;
-        curric:topics          <http://www.bbc.co.uk/things/e4356ed5-224a-4388-afdd-2afbd28e4275#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zm4jpv4#topic-of-study> .
-
-<http://www.bbc.co.uk/things/6b553673-f222-4d45-807b-8b314810e048#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/6ae29b54-d779-428a-811f-a66c76a6d7a8#id> .
-
-<http://www.bbc.co.uk/things/d055698c-5141-43b4-8908-c5bf7831674c#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/4a583c1d-b9e4-4389-b677-cded524719a1#id> , <http://www.bbc.co.uk/things/268b7dae-67c5-4bf4-9f78-350847a3810f#id> , <http://www.bbc.co.uk/things/afe302c5-d8b4-4d52-acf4-fdd5c18cb359#id> , <http://www.bbc.co.uk/things/d70758ca-ee75-400b-b5c4-4670f2630716#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zhyb4wx#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/202608f4-ed76-480f-b334-20de60952944#id>
-        a          olo:Slot ;
-        olo:index  13 ;
-        olo:item   <http://www.bbc.co.uk/things/16ec121e-f0eb-4b14-977a-3e6d4205f8c2#id> .
-
-<http://www.bbc.co.uk/things/fa5fb9d2-7d46-4c6d-b4a5-1677cbf70b52#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/a190b43a-7009-4b85-affe-d63e7bb858be#id> .
-
-<http://www.bbc.co.uk/things/cda6c23a-2fa0-418e-81eb-75d868b48f46#id>
-        a          olo:Slot ;
-        olo:index  12 ;
-        olo:item   <http://www.bbc.co.uk/things/668c5239-b5b6-4513-bc98-42c7b1901415#id> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/6384ddda-c692-4647-a529-8fa2eb63b5b5#id> a provenance:Dataset ;
+    rdfs:label "Topics, Topics of Study and Topic of Study Lists of spanish" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version 11 .
+
+<http://www.bbc.co.uk/things/006ceb3c-0455-4418-9e2e-d988c01d722e#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/7b753e5a-feba-4a89-ae5d-a210267fac5f#id> .
+
+<http://www.bbc.co.uk/things/01053475-0c1f-4a69-a261-e24bbdb7a086#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/9db24957-372a-4dc3-be74-b0dc8582abff#id> .
+
+<http://www.bbc.co.uk/things/0118424e-e802-4e7d-a94f-90f521aa34a8#id> a curric:TopicOfStudy ;
+    rdfs:label "Culture"@en-gb ;
+    core:disambiguationHint "National 4 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Culture"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8bdaddfd-66dd-438e-8dbe-edb5471514aa#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
+    = <http://www.bbc.co.uk/education/topics/zj39mp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0213eb5f-b72b-45f0-a89b-b4e7b1ae5627#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/23a69ca0-1ac6-465e-bcdc-b2c1bfd359f8#id>,
+        <http://www.bbc.co.uk/things/3e39c63e-748b-421d-b88f-dd8e9bb580ae#id>,
+        <http://www.bbc.co.uk/things/4f820732-17ab-4c1a-b6b7-558d6bf9900a#id>,
+        <http://www.bbc.co.uk/things/5788e1ce-8599-408c-979b-a315e70736a9#id>,
+        <http://www.bbc.co.uk/things/a5e10d92-d7f2-46b9-a70d-4bae1fdde85b#id>,
+        <http://www.bbc.co.uk/things/dfa67388-72b9-4c99-a657-90968497b48c#id>,
+        <http://www.bbc.co.uk/things/fa5fb9d2-7d46-4c6d-b4a5-1677cbf70b52#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zxhg9j6#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/0547c33b-5f31-4ed9-99d6-e5da60ab1a49#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/a9538e0d-2254-4b52-96ec-b17fd4b30717#id> .
+
+<http://www.bbc.co.uk/things/05952d00-b129-45c9-8b48-8bd05cf79da2#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/39c3a2e1-7753-47ef-8cd5-02e042fd1e50#id> .
+
+<http://www.bbc.co.uk/things/061ae0a5-6831-4dd9-aa58-ebdd3241be5b#id> a curric:TopicOfStudy ;
+    rdfs:label "Food and drink"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Food and drink"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9c581e1e-dba6-4f96-ace4-c59a84ea34fe#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2xtyrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0669a8bf-bf3a-4ab3-97a7-afa932f059ce#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/540b83b7-5268-4023-a86b-89c3db6ce80a#id> .
+
+<http://www.bbc.co.uk/things/06d321a6-d4d9-4681-bec9-142b0db7d426#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z263cdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0776ed12-eddf-4229-a841-8e8591373946#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/c59938f8-b00d-4426-bbc1-1e25c9bc6df8#id> .
+
+<http://www.bbc.co.uk/things/07b8fcaf-bea9-4326-9bdf-82bf390af21c#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3c76sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/084df6cc-756b-437c-b35d-f9a872967989#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/19d67f84-bc73-4d36-8a66-f29bf08929bf#id>,
+        <http://www.bbc.co.uk/things/2942fb5b-747c-4a65-9fcb-18782f1ffcf3#id>,
+        <http://www.bbc.co.uk/things/435d5300-b67e-444d-a872-571799b52f04#id>,
+        <http://www.bbc.co.uk/things/e5a47b6d-2193-457a-a0f1-93aa7f958bfc#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z9v9mp3#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/0a8f6283-b532-4653-8426-199445cd0dd2#id> a olo:Slot ;
+    olo:index 16 ;
+    olo:item <http://www.bbc.co.uk/things/cf853745-d6e2-4619-bb4a-39a07b1d8035#id> .
+
+<http://www.bbc.co.uk/things/0aa29517-a69a-4a35-a66f-b5007d28989b#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/0a2efa3e-e8bd-4062-a0cd-09993aea8431#id> .
+
+<http://www.bbc.co.uk/things/0ad2bc43-9d71-45c7-9585-78f0c62cb8d9#id> a curric:TopicOfStudy ;
+    rdfs:label "Birds, bugs and beasts"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS2 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Birds, bugs and beasts"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ad8a36b0-4f18-4b19-ae31-bc1bc5f854d0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2y8q6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0bed9255-c855-4a18-90ab-396c68101e3e#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/2c76d4c1-99f8-49dd-b5e0-8bf1cc91855a#id>,
+        <http://www.bbc.co.uk/things/c9282180-7f3f-4b76-852a-c2bf5dc8ec6e#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zchv87h#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/0e91b7ee-522a-448e-b772-2f57b49ef73a#id> a curric:TopicOfStudy ;
+    rdfs:label "Using language"@en-gb ;
+    core:disambiguationHint "National 4 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Using language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
+    curric:topics <http://www.bbc.co.uk/things/9f74466d-d464-48df-9c07-b82059394832#id> ;
+    = <http://www.bbc.co.uk/education/topics/z4p3d2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0f0cb79d-16de-4d67-a828-c147cb480f9f#id> a olo:Slot ;
+    olo:index 16 ;
+    olo:item <http://www.bbc.co.uk/things/0ad2bc43-9d71-45c7-9585-78f0c62cb8d9#id> .
+
+<http://www.bbc.co.uk/things/1195ef05-7b44-49f6-b9a1-addec81652d0#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/c890d120-4f97-4c82-ab09-2905c831b45b#id> .
+
+<http://www.bbc.co.uk/things/12108727-4c92-42fc-96ee-0b47ec4a9e26#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/07b8fcaf-bea9-4326-9bdf-82bf390af21c#id> .
+
+<http://www.bbc.co.uk/things/16828ce1-a603-46a5-af9b-90741d927c84#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/006ceb3c-0455-4418-9e2e-d988c01d722e#id>,
+        <http://www.bbc.co.uk/things/12108727-4c92-42fc-96ee-0b47ec4a9e26#id>,
+        <http://www.bbc.co.uk/things/b8cc9522-b50f-4b4a-a3f2-fb9f200e8067#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zfckjxs#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/16ec121e-f0eb-4b14-977a-3e6d4205f8c2#id> a curric:TopicOfStudy ;
+    rdfs:label "Cultures and places"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS2 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Cultures and places"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4e489894-dead-4f2c-b5e4-2263832753c2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zjn4d2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/19d67f84-bc73-4d36-8a66-f29bf08929bf#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/ad58a34c-dbe6-4347-a6c0-102e6ded634f#id> .
+
+<http://www.bbc.co.uk/things/1b4cadf2-d619-4356-89e6-2eb06e13c76d#id> a curric:TopicOfStudy ;
+    rdfs:label "Talking"@en-gb ;
+    core:disambiguationHint "National 5 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Talking"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zrhv87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1c320958-13dd-4d90-93db-22854f2b8fdc#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/33d8cd63-4de2-4ece-bc9b-a03924880bbb#id>,
+        <http://www.bbc.co.uk/things/43606d10-69c1-4994-96e9-5c77e5a10bcf#id>,
+        <http://www.bbc.co.uk/things/51dc9820-8674-4adb-83ec-2740b8e24a5e#id>,
+        <http://www.bbc.co.uk/things/ba223441-df04-48bc-914a-4bf83a19a106#id>,
+        <http://www.bbc.co.uk/things/bc454a25-2e70-4577-9c3a-44d2ec5363c2#id>,
+        <http://www.bbc.co.uk/things/e0cbd4f3-0e48-418d-a571-4a2f1a43c49d#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zsqtb9q#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/1ca40bf5-da89-4cd1-ac07-3620a4bcefab#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/25a11faf-a2fd-4d9d-99cf-986919d27cfb#id> .
+
+<http://www.bbc.co.uk/things/202608f4-ed76-480f-b334-20de60952944#id> a olo:Slot ;
+    olo:index 13 ;
+    olo:item <http://www.bbc.co.uk/things/16ec121e-f0eb-4b14-977a-3e6d4205f8c2#id> .
+
+<http://www.bbc.co.uk/things/202be5ce-91ba-464d-a680-2ebbd469edc9#id> a curric:Topic ;
+    rdfs:label "Adjectives"@en-gb ;
+    core:preferredLabel "Adjectives"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
+    = <http://www.bbc.co.uk/education/topics/zmqpyrd#topic> .
+
+<http://www.bbc.co.uk/things/219b23f6-d82b-412f-99c0-7f9bcc083a3d#id> a curric:TopicOfStudy ;
+    rdfs:label "Cultures and places"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Cultures and places"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4e489894-dead-4f2c-b5e4-2263832753c2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpsycdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/219d729f-6aa6-49a9-928a-566ae8da5c42#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/c73d5e51-0bda-4b2a-bbdc-47270d89fada#id> .
+
+<http://www.bbc.co.uk/things/21b775f3-b6ae-4525-82db-efce6ea96031#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/0e91b7ee-522a-448e-b772-2f57b49ef73a#id> .
+
+<http://www.bbc.co.uk/things/21f5c97a-76f2-4377-8190-d5611a7739e1#id> a curric:TopicOfStudy ;
+    rdfs:label "Adjectives"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Spanish curriculum"@en-gb ;
+    core:preferredLabel "Adjectives"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/202be5ce-91ba-464d-a680-2ebbd469edc9#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztnc87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/23a1cef2-0cae-4bac-a7a4-2ab88c382498#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/9a933629-fe76-4859-a811-b606475732ff#id> .
+
+<http://www.bbc.co.uk/things/23a69ca0-1ac6-465e-bcdc-b2c1bfd359f8#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/7fb3e713-3034-4614-a6b4-7a4f26837460#id> .
+
+<http://www.bbc.co.uk/things/23ce38fe-06dd-4f01-8a36-3a19758d1dfc#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/8f082326-4acf-4fbc-a2a7-707149f2bd3d#id>,
+        <http://www.bbc.co.uk/things/9e0fde7d-b887-4a4d-84a9-d66072683b0a#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zrtykqt#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/251ee883-55e3-4f30-9588-c69debb0468d#id> a curric:TopicOfStudy ;
+    rdfs:label "My calendar"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS2 Spanish curriculum"@en-gb ;
+    core:preferredLabel "My calendar"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/adeb6e1a-a170-4bca-9dc9-af579c8a8330#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zc2ygk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/25a0394f-6456-43e6-a3a8-cc68b3effb1d#id> a curric:TopicOfStudy ;
+    rdfs:label "At school"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS1 Spanish curriculum"@en-gb ;
+    core:preferredLabel "At school"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/815223ca-dd8c-4a35-b8e3-9c94e0c9fe5d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e5193ddf-38e0-4d95-9935-a875a3ff6582#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxvd7ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/25b4c350-f0cf-49fc-b92d-db88f2d9ae32#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening and talking"@en-gb ;
+    core:disambiguationHint "4th level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening and talking"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/080c0ca3-20d9-48d4-9b25-a1356083b91d#id> ;
+    curric:topics <http://www.bbc.co.uk/things/d8d16b7d-df3e-465d-965d-ec5b89bcefce#id> ;
+    = <http://www.bbc.co.uk/education/topics/zhqhgk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/268b7dae-67c5-4bf4-9f78-350847a3810f#id> a olo:Slot ;
+    olo:index 14 ;
+    olo:item <http://www.bbc.co.uk/things/9769568a-8e88-48cf-94eb-9453c202b077#id> .
+
+<http://www.bbc.co.uk/things/293f0330-9483-4f83-8a62-a0142ae0f131#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0547c33b-5f31-4ed9-99d6-e5da60ab1a49#id>,
+        <http://www.bbc.co.uk/things/0a8f6283-b532-4653-8426-199445cd0dd2#id>,
+        <http://www.bbc.co.uk/things/219d729f-6aa6-49a9-928a-566ae8da5c42#id>,
+        <http://www.bbc.co.uk/things/23a1cef2-0cae-4bac-a7a4-2ab88c382498#id>,
+        <http://www.bbc.co.uk/things/436e32f5-6547-47af-b493-4af61ed08c04#id>,
+        <http://www.bbc.co.uk/things/6b553673-f222-4d45-807b-8b314810e048#id>,
+        <http://www.bbc.co.uk/things/7c07c5e3-7aad-4f07-b129-534cfe454c83#id>,
+        <http://www.bbc.co.uk/things/820b6218-9dda-41b4-ba36-2020f8863dbe#id>,
+        <http://www.bbc.co.uk/things/bae6fe44-7d85-4794-8731-112f3b6a8959#id>,
+        <http://www.bbc.co.uk/things/c3c53006-9f24-43dc-90a1-434d3b0d680a#id>,
+        <http://www.bbc.co.uk/things/cda6c23a-2fa0-418e-81eb-75d868b48f46#id>,
+        <http://www.bbc.co.uk/things/dfdbd42d-d38f-4dff-a069-88fde878b430#id>,
+        <http://www.bbc.co.uk/things/efa2776a-6e9d-4448-b272-72c18ce90e1c#id>,
+        <http://www.bbc.co.uk/things/fcada560-d15f-4657-b7e0-f21badadd380#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z72mn39#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/2942fb5b-747c-4a65-9fcb-18782f1ffcf3#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/7d880358-8630-4533-aab1-2f6ab4ba2db6#id> .
+
+<http://www.bbc.co.uk/things/29e3a896-4ce2-4916-bc1e-aaadfd2d6c68#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/c6e56a4c-dd3e-4864-bd9e-9d414ddb3935#id> .
+
+<http://www.bbc.co.uk/things/2b3b5358-1b71-4f0b-867f-a464518414c2#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/5a373150-59ff-4c2f-a4e9-4cfa3ca03c84#id> .
+
+<http://www.bbc.co.uk/things/2c69a926-54ac-4b17-adb8-cee790b26f07#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/01053475-0c1f-4a69-a261-e24bbdb7a086#id>,
+        <http://www.bbc.co.uk/things/0776ed12-eddf-4229-a841-8e8591373946#id>,
+        <http://www.bbc.co.uk/things/1195ef05-7b44-49f6-b9a1-addec81652d0#id>,
+        <http://www.bbc.co.uk/things/29e3a896-4ce2-4916-bc1e-aaadfd2d6c68#id>,
+        <http://www.bbc.co.uk/things/2b3b5358-1b71-4f0b-867f-a464518414c2#id>,
+        <http://www.bbc.co.uk/things/53b160aa-6cf1-4add-99b1-2f2210133041#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zpdmyrd#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/2c76d4c1-99f8-49dd-b5e0-8bf1cc91855a#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/438ff211-f360-43a5-a783-48d0ce41bfd8#id> .
+
+<http://www.bbc.co.uk/things/30336149-3144-4a9d-b8a8-7eed1dbb86a1#id> a olo:Slot ;
+    olo:index 14 ;
+    olo:item <http://www.bbc.co.uk/things/36473566-7ef3-4551-8b45-aa615ca1309e#id> .
+
+<http://www.bbc.co.uk/things/318b1550-06d7-425e-a0f3-825989452039#id> a curric:TopicOfStudy ;
+    rdfs:label "Society"@en-gb ;
+    core:disambiguationHint "Higher Spanish curriculum"@en-gb ;
+    core:preferredLabel "Society"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id> ;
+    = <http://www.bbc.co.uk/education/topics/zt82fg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/33ace650-b798-4ba1-af2b-7d0863e1a041#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/251ee883-55e3-4f30-9588-c69debb0468d#id> .
+
+<http://www.bbc.co.uk/things/33d8cd63-4de2-4ece-bc9b-a03924880bbb#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/9133f711-e183-4e5a-8367-8d58eac08c6b#id> .
+
+<http://www.bbc.co.uk/things/35a37094-547e-4e4a-a7c1-063f78b960f7#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/45e429d1-b9ea-49cb-b895-fd07be7edc53#id> .
+
+<http://www.bbc.co.uk/things/36473566-7ef3-4551-8b45-aa615ca1309e#id> a curric:TopicOfStudy ;
+    rdfs:label "Stories, poems and songs"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS2 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Stories, poems and songs"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dd5229f5-4e29-495d-97a1-1ae28adf183c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqs9wmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3d795cbd-8314-4485-912a-f74f7768b32a#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/3e314c0d-1fe3-4648-b290-6ad8edff3f49#id> .
+
+<http://www.bbc.co.uk/things/3e39c63e-748b-421d-b88f-dd8e9bb580ae#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/8c72765c-5c00-4c26-bab7-1a3ba6522d6a#id> .
+
+<http://www.bbc.co.uk/things/42abf6b0-75a8-468c-8f9a-735ab13cbf48#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/de598da4-43be-4827-8f8a-d21d15fc670f#id> .
+
+<http://www.bbc.co.uk/things/432ce901-6812-415e-966b-de9b751eed03#id> a curric:TopicOfStudy ;
+    rdfs:label "Cultures and places"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS1 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Cultures and places"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4e489894-dead-4f2c-b5e4-2263832753c2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e5193ddf-38e0-4d95-9935-a875a3ff6582#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpr76sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/435d5300-b67e-444d-a872-571799b52f04#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/6f0f5731-4045-427d-ba56-de02d04ee900#id> .
+
+<http://www.bbc.co.uk/things/43606d10-69c1-4994-96e9-5c77e5a10bcf#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/92143a9f-883f-44ea-8524-67b5e45c6d4b#id> .
+
+<http://www.bbc.co.uk/things/436e32f5-6547-47af-b493-4af61ed08c04#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/c1eb7fcf-3b44-4097-8b62-a97fd8bf9a88#id> .
+
+<http://www.bbc.co.uk/things/438ff211-f360-43a5-a783-48d0ce41bfd8#id> a curric:TopicOfStudy ;
+    rdfs:label "Understanding language"@en-gb ;
+    core:disambiguationHint "Higher Spanish curriculum"@en-gb ;
+    core:preferredLabel "Understanding language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id> ;
+    curric:topics <http://www.bbc.co.uk/things/1c320958-13dd-4d90-93db-22854f2b8fdc#id> ;
+    = <http://www.bbc.co.uk/education/topics/zsqtb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4391d680-282e-40da-b782-6bd5bfdb422a#id> a curric:TopicOfStudy ;
+    rdfs:label "Speaking"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Speaking"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0240dbb9-61c4-4a02-b233-f91ebec82b57#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zvrqxnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/45e429d1-b9ea-49cb-b895-fd07be7edc53#id> a curric:TopicOfStudy ;
+    rdfs:label "Talking"@en-gb ;
+    core:disambiguationHint "National 4 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Talking"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
+    = <http://www.bbc.co.uk/education/topics/zksgjxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/46c6ae3b-b325-4eff-a741-80a5a845b5f2#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/9a4a32ed-ebe2-4bae-b45d-01808a2abc3e#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zcsrq6f#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/499f985d-48bb-4622-82f0-e348e1b8871e#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0f0cb79d-16de-4d67-a828-c147cb480f9f#id>,
+        <http://www.bbc.co.uk/things/202608f4-ed76-480f-b334-20de60952944#id>,
+        <http://www.bbc.co.uk/things/30336149-3144-4a9d-b8a8-7eed1dbb86a1#id>,
+        <http://www.bbc.co.uk/things/33ace650-b798-4ba1-af2b-7d0863e1a041#id>,
+        <http://www.bbc.co.uk/things/4ce7fd49-b1f2-461e-844a-c3a4430914ad#id>,
+        <http://www.bbc.co.uk/things/53d978b3-f47a-4713-a52a-59d622e2b6e9#id>,
+        <http://www.bbc.co.uk/things/692ba075-bff5-4454-8773-aed0af26e94c#id>,
+        <http://www.bbc.co.uk/things/70500426-08b1-4604-889b-50ca88362a5e#id>,
+        <http://www.bbc.co.uk/things/9a25e59e-6c02-43ba-82f5-31a8d7a8478b#id>,
+        <http://www.bbc.co.uk/things/9c93fbc9-db11-4060-b4a5-130359ef6b85#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zxsvr82#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/4a5149e0-2d28-4e47-aac7-7b4bbed4e017#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/273a37d5-a5fd-4ecf-a1f9-576f9bed83a1#id> .
+
+<http://www.bbc.co.uk/things/4a583c1d-b9e4-4389-b677-cded524719a1#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/8a665534-4c58-463b-a94d-fc75b89cba5e#id> .
+
+<http://www.bbc.co.uk/things/4ce7fd49-b1f2-461e-844a-c3a4430914ad#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/c5798ee0-e35f-401f-85d9-8b47ad44986c#id> .
+
+<http://www.bbc.co.uk/things/4f820732-17ab-4c1a-b6b7-558d6bf9900a#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/f249df10-34f9-409d-ade4-a1487ab1ec1e#id> .
+
+<http://www.bbc.co.uk/things/50474e37-f8b6-44cd-a448-5abbe7adf65d#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/494650c6-3191-45e7-bd0d-de5a2cef24f4#id> .
+
+<http://www.bbc.co.uk/things/51dc9820-8674-4adb-83ec-2740b8e24a5e#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/5037e6bc-9676-42ce-8b9d-7622132aaf2c#id> .
+
+<http://www.bbc.co.uk/things/51fcf310-de1d-425e-b0d9-90d95201d5c1#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/d8ad7f97-070a-475c-8f21-33d389d6d60b#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z4fc7ty#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/53b160aa-6cf1-4add-99b1-2f2210133041#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/daef7ec7-071b-4eb6-9380-5362bd865380#id> .
+
+<http://www.bbc.co.uk/things/53d978b3-f47a-4713-a52a-59d622e2b6e9#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/87132d05-69d3-48e0-b6e7-b8189e2aad5a#id> .
+
+<http://www.bbc.co.uk/things/53ed81f0-d816-4fef-abe1-e6dd6d52c4b7#id> a curric:TopicOfStudy ;
+    rdfs:label "Numbers"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS2 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Numbers"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6a4616ba-781d-42ae-a547-691d7f629684#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3wpyrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/540b83b7-5268-4023-a86b-89c3db6ce80a#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening for information"@en-gb ;
+    core:disambiguationHint "4th level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening for information"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d7aff017-287e-4c55-a005-9d0444520069#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/080c0ca3-20d9-48d4-9b25-a1356083b91d#id> ;
+    = <http://www.bbc.co.uk/education/topics/zn2ncdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/55431e16-4261-40e0-99a6-80c3b9c38d01#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/a3f2434b-78ad-49f3-9667-a249789f31c9#id> .
+
+<http://www.bbc.co.uk/things/5788e1ce-8599-408c-979b-a315e70736a9#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/d5a3ec65-5b3a-4c6e-9637-6e1b2ef30e92#id> .
+
+<http://www.bbc.co.uk/things/5a5e7683-ae29-4c0f-98c7-9fcd9e291e58#id> a curric:Topic ;
+    rdfs:label "Our planet"@en-gb ;
+    core:preferredLabel "Our planet"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2tg9j6#topic> .
+
+<http://www.bbc.co.uk/things/5c4b49fd-fd99-4ddd-9557-83ff627c2100#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/8884daeb-a24e-412f-b15a-b2d665114062#id> .
+
+<http://www.bbc.co.uk/things/5ddaee03-eb68-4979-8833-00810d6b3a7e#id> a curric:TopicOfStudy ;
+    rdfs:label "Grammar"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Spanish curriculum"@en-gb ;
+    core:preferredLabel "Grammar"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/0213eb5f-b72b-45f0-a89b-b4e7b1ae5627#id> ;
+    = <http://www.bbc.co.uk/education/topics/zxhg9j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5f7260b8-27d0-4a7f-974a-1280de469580#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/5d70cbf5-607d-48f2-855d-87020405560e#id> .
+
+<http://www.bbc.co.uk/things/5febea34-d8d9-42cc-ae2a-418189b52aa9#id> a curric:TopicOfStudy ;
+    rdfs:label "Society"@en-gb ;
+    core:disambiguationHint "National 5 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Society"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zcp3d2p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/64078513-3ebf-4a7d-b3c1-2517d429a0f6#id> a curric:TopicOfStudy ;
+    rdfs:label "Stories, poems and songs"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Stories, poems and songs"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dd5229f5-4e29-495d-97a1-1ae28adf183c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/znfv4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/65ee9c19-7c3f-4df3-8fce-03f7eef19267#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/f69b1e26-3253-42c5-888f-94fe37ef3b83#id> .
+
+<http://www.bbc.co.uk/things/668c5239-b5b6-4513-bc98-42c7b1901415#id> a curric:TopicOfStudy ;
+    rdfs:label "Our planet"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Our planet"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5a5e7683-ae29-4c0f-98c7-9fcd9e291e58#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zhnfr82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/692ba075-bff5-4454-8773-aed0af26e94c#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/953ce8ab-416e-408e-a983-48eb2a887234#id> .
+
+<http://www.bbc.co.uk/things/6952f297-fa21-45fe-b9a4-2b63fd9379f2#id> a curric:TopicOfStudy ;
+    rdfs:label "Using language"@en-gb ;
+    core:disambiguationHint "National 5 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Using language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
+    curric:topics <http://www.bbc.co.uk/things/ffde50ac-dbd5-42d9-83b9-3c30b6f23623#id> ;
+    = <http://www.bbc.co.uk/education/topics/zb6f9j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6ae29b54-d779-428a-811f-a66c76a6d7a8#id> a curric:TopicOfStudy ;
+    rdfs:label "Numbers"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Numbers"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6a4616ba-781d-42ae-a547-691d7f629684#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zdj7hyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6b553673-f222-4d45-807b-8b314810e048#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/6ae29b54-d779-428a-811f-a66c76a6d7a8#id> .
+
+<http://www.bbc.co.uk/things/6f04403e-c7ce-4871-a8e7-5d812eb0e93e#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening and talking"@en-gb ;
+    core:disambiguationHint "3rd level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening and talking"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/673fe8ab-02c6-4cc2-bc70-6f1c1d7a1d28#id> ;
+    curric:topics <http://www.bbc.co.uk/things/084df6cc-756b-437c-b35d-f9a872967989#id> ;
+    = <http://www.bbc.co.uk/education/topics/z9v9mp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6fdbb151-dee6-449f-828a-98a4b90476eb#id> a curric:TopicOfStudy ;
+    rdfs:label "Society"@en-gb ;
+    core:disambiguationHint "National 5 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Society"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zjbkxnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/70500426-08b1-4604-889b-50ca88362a5e#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/c91eb75f-9759-46ff-9ba9-8462073a57fa#id> .
+
+<http://www.bbc.co.uk/things/70e189b0-845a-48e3-96a9-92bd6b4fe4c4#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/c7f4b4d4-49de-4a06-8dba-fd6db4d9fc89#id> .
+
+<http://www.bbc.co.uk/things/73337736-ac66-4629-84e8-2a8825d7e83c#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/c683a8e1-14e4-4625-8bfb-3f0a0de05e5f#id> .
+
+<http://www.bbc.co.uk/things/753ff259-501a-47c2-8295-ad40cb474e77#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/8d324df7-f023-4dc4-91ab-192797d1257d#id> .
+
+<http://www.bbc.co.uk/things/76232320-602f-4069-a064-84181b94b737#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/2d115c1c-fb68-4e1e-9d28-a26e0b9574fb#id> .
+
+<http://www.bbc.co.uk/things/763a3c82-fedd-4529-930c-fff580540635#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/318b1550-06d7-425e-a0f3-825989452039#id> .
+
+<http://www.bbc.co.uk/things/7b753e5a-feba-4a89-ae5d-a210267fac5f#id> a curric:TopicOfStudy ;
+    rdfs:label "Grammar"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Grammar"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/91dad560-8e55-4417-a788-db6cb485ef8f#id> ;
+    = <http://www.bbc.co.uk/education/topics/zg9mhyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id> a curric:Topic ;
+    rdfs:label "Reading"@en-gb ;
+    core:preferredLabel "Reading"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
+    = <http://www.bbc.co.uk/education/topics/zswtsbk#topic> .
+
+<http://www.bbc.co.uk/things/7c07c5e3-7aad-4f07-b129-534cfe454c83#id> a olo:Slot ;
+    olo:index 15 ;
+    olo:item <http://www.bbc.co.uk/things/86dc4c2f-fc09-4853-9c02-221b36d09e6b#id> .
+
+<http://www.bbc.co.uk/things/7d880358-8630-4533-aab1-2f6ab4ba2db6#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening for information"@en-gb ;
+    core:disambiguationHint "3rd level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening for information"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d7aff017-287e-4c55-a005-9d0444520069#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/673fe8ab-02c6-4cc2-bc70-6f1c1d7a1d28#id> ;
+    = <http://www.bbc.co.uk/education/topics/z8b86sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7ffbbb51-c1e5-4d93-bad8-f9b4b48385ac#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/e9355558-f98e-4f4a-b625-bef895b8af5e#id> .
+
+<http://www.bbc.co.uk/things/820b6218-9dda-41b4-ba36-2020f8863dbe#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/061ae0a5-6831-4dd9-aa58-ebdd3241be5b#id> .
+
+<http://www.bbc.co.uk/things/86dc4c2f-fc09-4853-9c02-221b36d09e6b#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening and talking"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening and talking"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zsy39j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/87132d05-69d3-48e0-b6e7-b8189e2aad5a#id> a curric:TopicOfStudy ;
+    rdfs:label "Family and friends"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS2 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Family and friends"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/02bd3555-bf44-42ff-b31a-378686a02ef3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zr7fb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8a665534-4c58-463b-a94d-fc75b89cba5e#id> a curric:TopicOfStudy ;
+    rdfs:label "Numbers"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS1 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Numbers"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6a4616ba-781d-42ae-a547-691d7f629684#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e5193ddf-38e0-4d95-9935-a875a3ff6582#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zdtg9j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8cf417af-323c-4e61-b306-b1aa3c109e7a#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/5ddaee03-eb68-4979-8833-00810d6b3a7e#id> .
+
+<http://www.bbc.co.uk/things/8d324df7-f023-4dc4-91ab-192797d1257d#id> a curric:TopicOfStudy ;
+    rdfs:label "Speaking"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Spanish curriculum"@en-gb ;
+    core:preferredLabel "Speaking"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0240dbb9-61c4-4a02-b233-f91ebec82b57#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z7xvr82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8f082326-4acf-4fbc-a2a7-707149f2bd3d#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/6952f297-fa21-45fe-b9a4-2b63fd9379f2#id> .
+
+<http://www.bbc.co.uk/things/8f947e51-ef6b-4e8b-a2aa-3e5d5ad02b8a#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/d1290496-b95a-4999-a356-54a0366d2db1#id> .
+
+<http://www.bbc.co.uk/things/91dad560-8e55-4417-a788-db6cb485ef8f#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0aa29517-a69a-4a35-a66f-b5007d28989b#id>,
+        <http://www.bbc.co.uk/things/42abf6b0-75a8-468c-8f9a-735ab13cbf48#id>,
+        <http://www.bbc.co.uk/things/76232320-602f-4069-a064-84181b94b737#id>,
+        <http://www.bbc.co.uk/things/7ffbbb51-c1e5-4d93-bad8-f9b4b48385ac#id>,
+        <http://www.bbc.co.uk/things/c0a9e63a-4cc1-4d85-9a92-23d39268b7be#id>,
+        <http://www.bbc.co.uk/things/da5c3028-f376-4a9a-bc9c-3300a7f70707#id>,
+        <http://www.bbc.co.uk/things/f9640055-ff0b-4e17-8634-6a7c23d45b01#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zg9mhyc#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/94e85974-c2c8-46fc-951e-2c5009e98b28#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening"@en-gb ;
+    core:disambiguationHint "Higher Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id> ;
+    = <http://www.bbc.co.uk/education/topics/zy2pr82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/953ce8ab-416e-408e-a983-48eb2a887234#id> a curric:TopicOfStudy ;
+    rdfs:label "At school"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS2 Spanish curriculum"@en-gb ;
+    core:preferredLabel "At school"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/815223ca-dd8c-4a35-b8e3-9c94e0c9fe5d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zk6b4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/96e4f59b-b1e0-4e22-9821-22a61c5f16ca#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1ca40bf5-da89-4cd1-ac07-3620a4bcefab#id>,
+        <http://www.bbc.co.uk/things/4a5149e0-2d28-4e47-aac7-7b4bbed4e017#id>,
+        <http://www.bbc.co.uk/things/50474e37-f8b6-44cd-a448-5abbe7adf65d#id>,
+        <http://www.bbc.co.uk/things/73337736-ac66-4629-84e8-2a8825d7e83c#id>,
+        <http://www.bbc.co.uk/things/cc9d81de-7230-48bc-82b5-bbbbbe0e2e3b#id>,
+        <http://www.bbc.co.uk/things/d5a38bc0-cb24-4f4a-bd3d-a7e76ba48d26#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z8yc7ty#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/9769568a-8e88-48cf-94eb-9453c202b077#id> a curric:TopicOfStudy ;
+    rdfs:label "Stories, poems and songs"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS1 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Stories, poems and songs"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dd5229f5-4e29-495d-97a1-1ae28adf183c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/e5193ddf-38e0-4d95-9935-a875a3ff6582#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/znc2tfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/97fb4964-2886-4ecd-8043-3567ece7d74e#id> a curric:TopicOfStudy ;
+    rdfs:label "Pronouns"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Pronouns"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1b8620b0-1f95-4a68-a9e7-78986ea9703f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zkjpyrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/99cfcab1-0000-41a9-b0ea-1732b9d8421e#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/d71c91fd-00a3-40b4-a531-714e00209080#id> .
+
+<http://www.bbc.co.uk/things/9a25e59e-6c02-43ba-82f5-31a8d7a8478b#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/c59b2977-2e77-406f-962e-5b17d264c697#id> .
+
+<http://www.bbc.co.uk/things/9a4a32ed-ebe2-4bae-b45d-01808a2abc3e#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/25b4c350-f0cf-49fc-b92d-db88f2d9ae32#id> .
+
+<http://www.bbc.co.uk/things/9a933629-fe76-4859-a811-b606475732ff#id> a curric:TopicOfStudy ;
+    rdfs:label "Colours"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Colours"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f691f9bd-88f1-40c7-bd8a-8ea3ddc0e272#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwq2pv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9c93fbc9-db11-4060-b4a5-130359ef6b85#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/53ed81f0-d816-4fef-abe1-e6dd6d52c4b7#id> .
+
+<http://www.bbc.co.uk/things/9e0fde7d-b887-4a4d-84a9-d66072683b0a#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/ca3b2f1d-52c6-450e-94be-74a64d3b85f8#id> .
+
+<http://www.bbc.co.uk/things/9f5d3536-1b8f-464f-b1ff-255627bd4ad2#id> a curric:Topic ;
+    rdfs:label "Nouns and articles"@en-gb ;
+    core:preferredLabel "Nouns and articles"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
+    = <http://www.bbc.co.uk/education/topics/z2jhfg8#topic> .
+
+<http://www.bbc.co.uk/things/9f74466d-d464-48df-9c07-b82059394832#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/35a37094-547e-4e4a-a7c1-063f78b960f7#id>,
+        <http://www.bbc.co.uk/things/3d795cbd-8314-4485-912a-f74f7768b32a#id>,
+        <http://www.bbc.co.uk/things/a302f726-23e7-4563-b957-739d92eb614c#id>,
+        <http://www.bbc.co.uk/things/b23ae46e-eaa3-48f9-8a85-8f76e43136df#id>,
+        <http://www.bbc.co.uk/things/e694cd06-f01e-455c-a3a2-8002208b1809#id>,
+        <http://www.bbc.co.uk/things/f2866892-ea2d-4d53-a073-971f0a37e899#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z4p3d2p#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/a08b7614-32a5-4b03-b2b1-597715436ae1#id> a curric:TopicOfStudy ;
+    rdfs:label "Understanding language"@en-gb ;
+    core:disambiguationHint "National 4 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Understanding language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
+    curric:topics <http://www.bbc.co.uk/things/2c69a926-54ac-4b17-adb8-cee790b26f07#id> ;
+    = <http://www.bbc.co.uk/education/topics/zpdmyrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a302f726-23e7-4563-b957-739d92eb614c#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/ef1fc055-f643-4b6f-b2ea-fce178e61efa#id> .
+
+<http://www.bbc.co.uk/things/a4c40a5a-e907-46d9-9cec-e36744ca44ec#id> a curric:TopicOfStudy ;
+    rdfs:label "Society"@en-gb ;
+    core:disambiguationHint "National 4 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Society"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
+    = <http://www.bbc.co.uk/education/topics/z8frq6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a5e10d92-d7f2-46b9-a70d-4bae1fdde85b#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/7d0bb783-23a7-46ca-bb9e-cc72ec5a9d02#id> .
+
+<http://www.bbc.co.uk/things/a9538e0d-2254-4b52-96ec-b17fd4b30717#id> a curric:TopicOfStudy ;
+    rdfs:label "Family and friends"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Family and friends"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/02bd3555-bf44-42ff-b31a-378686a02ef3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zq2xsbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a991e870-c995-4edf-a748-2043fbf66a3b#id> a curric:Topic ;
+    rdfs:label "All about me"@en-gb ;
+    core:preferredLabel "All about me"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9wpyrd#topic> .
+
+<http://www.bbc.co.uk/things/ad58a34c-dbe6-4347-a6c0-102e6ded634f#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening and talking with others"@en-gb ;
+    core:disambiguationHint "3rd level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening and talking with others"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/76701dea-8dd0-4d4b-a5ca-c0926fc84a66#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/673fe8ab-02c6-4cc2-bc70-6f1c1d7a1d28#id> ;
+    = <http://www.bbc.co.uk/education/topics/zk3kxnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ad8a36b0-4f18-4b19-ae31-bc1bc5f854d0#id> a curric:Topic ;
+    rdfs:label "Birds, bugs and beasts"@en-gb ;
+    core:preferredLabel "Birds, bugs and beasts"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z6n4d2p#topic> .
+
+<http://www.bbc.co.uk/things/aeb227fa-bb62-413c-a68c-82237a72ded8#id> a curric:TopicOfStudy ;
+    rdfs:label "My calendar"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "My calendar"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/adeb6e1a-a170-4bca-9dc9-af579c8a8330#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z7m6fg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/afe302c5-d8b4-4d52-acf4-fdd5c18cb359#id> a olo:Slot ;
+    olo:index 13 ;
+    olo:item <http://www.bbc.co.uk/things/432ce901-6812-415e-966b-de9b751eed03#id> .
+
+<http://www.bbc.co.uk/things/b23ae46e-eaa3-48f9-8a85-8f76e43136df#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/436c30e6-a601-463f-9ebd-5e28dc25cd1a#id> .
+
+<http://www.bbc.co.uk/things/b4463477-4c4b-440a-aa69-42f26450846d#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/1b4cadf2-d619-4356-89e6-2eb06e13c76d#id> .
+
+<http://www.bbc.co.uk/things/b5f1300a-4fc6-4853-94c5-a8736eb0226d#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/79eebcd4-8bd4-450f-ab48-d5b30455ee9a#id> .
+
+<http://www.bbc.co.uk/things/b8cc9522-b50f-4b4a-a3f2-fb9f200e8067#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/4391d680-282e-40da-b782-6bd5bfdb422a#id> .
+
+<http://www.bbc.co.uk/things/ba223441-df04-48bc-914a-4bf83a19a106#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/6126f088-0aa2-4618-8215-1ad51244ebc7#id> .
+
+<http://www.bbc.co.uk/things/baad4e7b-68d3-4359-a954-cc278bb59e5d#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/4d1cd43b-ecaf-479f-8287-a4c3f3d5ca41#id> .
+
+<http://www.bbc.co.uk/things/bae6fe44-7d85-4794-8731-112f3b6a8959#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/fb8edcb9-98d0-4acb-9900-b7fcc5214493#id> .
+
+<http://www.bbc.co.uk/things/bc454a25-2e70-4577-9c3a-44d2ec5363c2#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/ba847ae2-19aa-4831-b527-f8b00d7a3916#id> .
+
+<http://www.bbc.co.uk/things/c0a9e63a-4cc1-4d85-9a92-23d39268b7be#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/cd02ace8-ed6f-429f-b65c-7edec2112644#id> .
+
+<http://www.bbc.co.uk/things/c1eb7fcf-3b44-4097-8b62-a97fd8bf9a88#id> a curric:TopicOfStudy ;
+    rdfs:label "At school"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "At school"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/815223ca-dd8c-4a35-b8e3-9c94e0c9fe5d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxtp34j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c3c53006-9f24-43dc-90a1-434d3b0d680a#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/aeb227fa-bb62-413c-a68c-82237a72ded8#id> .
+
+<http://www.bbc.co.uk/things/c5798ee0-e35f-401f-85d9-8b47ad44986c#id> a curric:TopicOfStudy ;
+    rdfs:label "At home"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS2 Spanish curriculum"@en-gb ;
+    core:preferredLabel "At home"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7bbc149c-34fc-47d3-b849-0c87d3b03728#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9x3cdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c59b2977-2e77-406f-962e-5b17d264c697#id> a curric:TopicOfStudy ;
+    rdfs:label "Activities and hobbies"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS2 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Activities and hobbies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5ac7db35-bdd7-4bf3-aca7-ff7f27478049#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8tg9j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c683a8e1-14e4-4625-8bfb-3f0a0de05e5f#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening"@en-gb ;
+    core:disambiguationHint "National 5 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zw39mp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c6e56a4c-dd3e-4864-bd9e-9d414ddb3935#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening"@en-gb ;
+    core:disambiguationHint "National 4 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
+    = <http://www.bbc.co.uk/education/topics/zsj634j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c73d5e51-0bda-4b2a-bbdc-47270d89fada#id> a curric:TopicOfStudy ;
+    rdfs:label "Activities and hobbies"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Activities and hobbies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5ac7db35-bdd7-4bf3-aca7-ff7f27478049#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z6hnb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c890d120-4f97-4c82-ab09-2905c831b45b#id> a curric:TopicOfStudy ;
+    rdfs:label "Society"@en-gb ;
+    core:disambiguationHint "National 4 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Society"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> ;
+    = <http://www.bbc.co.uk/education/topics/zfqtb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c91eb75f-9759-46ff-9ba9-8462073a57fa#id> a curric:TopicOfStudy ;
+    rdfs:label "Food and drink"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS2 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Food and drink"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9c581e1e-dba6-4f96-ace4-c59a84ea34fe#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z4mvr82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c9282180-7f3f-4b76-852a-c2bf5dc8ec6e#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/dac2db5e-86ad-45e9-b866-2bef9d54160c#id> .
+
+<http://www.bbc.co.uk/things/ca3b2f1d-52c6-450e-94be-74a64d3b85f8#id> a curric:TopicOfStudy ;
+    rdfs:label "Understanding language"@en-gb ;
+    core:disambiguationHint "National 5 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Understanding language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
+    curric:topics <http://www.bbc.co.uk/things/96e4f59b-b1e0-4e22-9821-22a61c5f16ca#id> ;
+    = <http://www.bbc.co.uk/education/topics/z8yc7ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cae1a588-485f-48f1-b141-397fe56b3673#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/eb59a0e0-8d69-4f0e-9810-09e8d4750b24#id> .
+
+<http://www.bbc.co.uk/things/cc9d81de-7230-48bc-82b5-bbbbbe0e2e3b#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/ae5271bf-8405-4821-ac9a-88b851fb8073#id> .
+
+<http://www.bbc.co.uk/things/cd02ace8-ed6f-429f-b65c-7edec2112644#id> a curric:TopicOfStudy ;
+    rdfs:label "Nouns and articles"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Nouns and articles"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9f5d3536-1b8f-464f-b1ff-255627bd4ad2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zrkxpv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cda6c23a-2fa0-418e-81eb-75d868b48f46#id> a olo:Slot ;
+    olo:index 12 ;
+    olo:item <http://www.bbc.co.uk/things/668c5239-b5b6-4513-bc98-42c7b1901415#id> .
+
+<http://www.bbc.co.uk/things/cf44738f-9944-4d2e-b47a-0e09f726d868#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/21b775f3-b6ae-4525-82db-efce6ea96031#id>,
+        <http://www.bbc.co.uk/things/db458918-5561-4c83-bd65-ff3cb80d4eae#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zg6f9j6#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/cf853745-d6e2-4619-bb4a-39a07b1d8035#id> a curric:TopicOfStudy ;
+    rdfs:label "Reading"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Reading"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zfvbkqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d043a3a1-c859-4904-9909-8fc4a711aadf#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/ff6ade14-21a2-49bc-aa80-be4a9ef24151#id> .
+
+<http://www.bbc.co.uk/things/d055698c-5141-43b4-8908-c5bf7831674c#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/268b7dae-67c5-4bf4-9f78-350847a3810f#id>,
+        <http://www.bbc.co.uk/things/4a583c1d-b9e4-4389-b677-cded524719a1#id>,
+        <http://www.bbc.co.uk/things/afe302c5-d8b4-4d52-acf4-fdd5c18cb359#id>,
+        <http://www.bbc.co.uk/things/d70758ca-ee75-400b-b5c4-4670f2630716#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zhyb4wx#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/d1290496-b95a-4999-a356-54a0366d2db1#id> a curric:TopicOfStudy ;
+    rdfs:label "Talking"@en-gb ;
+    core:disambiguationHint "Higher Spanish curriculum"@en-gb ;
+    core:preferredLabel "Talking"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id> ;
+    = <http://www.bbc.co.uk/education/topics/z6k7sbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d5a38bc0-cb24-4f4a-bd3d-a7e76ba48d26#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/6fdbb151-dee6-449f-828a-98a4b90476eb#id> .
+
+<http://www.bbc.co.uk/things/d70758ca-ee75-400b-b5c4-4670f2630716#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/25a0394f-6456-43e6-a3a8-cc68b3effb1d#id> .
+
+<http://www.bbc.co.uk/things/d71c91fd-00a3-40b4-a531-714e00209080#id> a curric:TopicOfStudy ;
+    rdfs:label "Culture"@en-gb ;
+    core:disambiguationHint "National 5 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Culture"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8bdaddfd-66dd-438e-8dbe-edb5471514aa#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zkfrq6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d8602850-51ef-4c46-9a0e-63a451d02cc5#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/5febea34-d8d9-42cc-ae2a-418189b52aa9#id> .
+
+<http://www.bbc.co.uk/things/d873add7-6c24-42f2-9570-a70a40a23690#id> a curric:Topic ;
+    rdfs:label "Date and time"@en-gb ;
+    core:preferredLabel "Date and time"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
+    = <http://www.bbc.co.uk/education/topics/zp6vr82#topic> .
+
+<http://www.bbc.co.uk/things/d8ad7f97-070a-475c-8f21-33d389d6d60b#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/6f04403e-c7ce-4871-a8e7-5d812eb0e93e#id> .
+
+<http://www.bbc.co.uk/things/d8d16b7d-df3e-465d-965d-ec5b89bcefce#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0669a8bf-bf3a-4ab3-97a7-afa932f059ce#id>,
+        <http://www.bbc.co.uk/things/55431e16-4261-40e0-99a6-80c3b9c38d01#id>,
+        <http://www.bbc.co.uk/things/65ee9c19-7c3f-4df3-8fce-03f7eef19267#id>,
+        <http://www.bbc.co.uk/things/cae1a588-485f-48f1-b141-397fe56b3673#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zhqhgk7#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/da5c3028-f376-4a9a-bc9c-3300a7f70707#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/97fb4964-2886-4ecd-8043-3567ece7d74e#id> .
+
+<http://www.bbc.co.uk/things/dac2db5e-86ad-45e9-b866-2bef9d54160c#id> a curric:TopicOfStudy ;
+    rdfs:label "Using language"@en-gb ;
+    core:disambiguationHint "Higher Spanish curriculum"@en-gb ;
+    core:preferredLabel "Using language"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id> ;
+    curric:topics <http://www.bbc.co.uk/things/e4356ed5-224a-4388-afdd-2afbd28e4275#id> ;
+    = <http://www.bbc.co.uk/education/topics/zm4jpv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/db458918-5561-4c83-bd65-ff3cb80d4eae#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/a08b7614-32a5-4b03-b2b1-597715436ae1#id> .
+
+<http://www.bbc.co.uk/things/de598da4-43be-4827-8f8a-d21d15fc670f#id> a curric:TopicOfStudy ;
+    rdfs:label "Date and time"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "KS3 Spanish curriculum"@en-gb ;
+    core:preferredLabel "Date and time"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d873add7-6c24-42f2-9570-a70a40a23690#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zd7s34j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/dfa67388-72b9-4c99-a657-90968497b48c#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/21f5c97a-76f2-4377-8190-d5611a7739e1#id> .
+
+<http://www.bbc.co.uk/things/dfdbd42d-d38f-4dff-a069-88fde878b430#id> a olo:Slot ;
+    olo:index 14 ;
+    olo:item <http://www.bbc.co.uk/things/64078513-3ebf-4a7d-b3c1-2517d429a0f6#id> .
+
+<http://www.bbc.co.uk/things/e0cbd4f3-0e48-418d-a571-4a2f1a43c49d#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/94e85974-c2c8-46fc-951e-2c5009e98b28#id> .
+
+<http://www.bbc.co.uk/things/e4356ed5-224a-4388-afdd-2afbd28e4275#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/5f7260b8-27d0-4a7f-974a-1280de469580#id>,
+        <http://www.bbc.co.uk/things/763a3c82-fedd-4529-930c-fff580540635#id>,
+        <http://www.bbc.co.uk/things/8f947e51-ef6b-4e8b-a2aa-3e5d5ad02b8a#id>,
+        <http://www.bbc.co.uk/things/b5f1300a-4fc6-4853-94c5-a8736eb0226d#id>,
+        <http://www.bbc.co.uk/things/baad4e7b-68d3-4359-a954-cc278bb59e5d#id>,
+        <http://www.bbc.co.uk/things/d043a3a1-c859-4904-9909-8fc4a711aadf#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zm4jpv4#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/e5a47b6d-2193-457a-a0f1-93aa7f958bfc#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/a584aa32-b765-478c-b6d7-a38da2f9e38a#id> .
+
+<http://www.bbc.co.uk/things/e694cd06-f01e-455c-a3a2-8002208b1809#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/a4c40a5a-e907-46d9-9cec-e36744ca44ec#id> .
+
+<http://www.bbc.co.uk/things/eb59a0e0-8d69-4f0e-9810-09e8d4750b24#id> a curric:TopicOfStudy ;
+    rdfs:label "Listening and talking with others"@en-gb ;
+    core:disambiguationHint "4th level Spanish curriculum"@en-gb ;
+    core:preferredLabel "Listening and talking with others"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/76701dea-8dd0-4d4b-a5ca-c0926fc84a66#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/080c0ca3-20d9-48d4-9b25-a1356083b91d#id> ;
+    = <http://www.bbc.co.uk/education/topics/zp7pr82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ef211a1b-d6c1-4b35-9bda-0009ac859e9c#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/753ff259-501a-47c2-8295-ad40cb474e77#id>,
+        <http://www.bbc.co.uk/things/8cf417af-323c-4e61-b306-b1aa3c109e7a#id>,
+        <http://www.bbc.co.uk/things/f5ce1f71-54f0-4471-a7ea-bd21c34c2fc9#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z4dqxnb#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/efa2776a-6e9d-4448-b272-72c18ce90e1c#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/f55fe2ac-e1cd-41c6-8913-ba508afd72fd#id> .
+
+<http://www.bbc.co.uk/things/f249df10-34f9-409d-ade4-a1487ab1ec1e#id> a curric:TopicOfStudy ;
+    rdfs:label "Pronouns"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE Spanish curriculum"@en-gb ;
+    core:preferredLabel "Pronouns"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1b8620b0-1f95-4a68-a9e7-78986ea9703f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/znykjxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f2866892-ea2d-4d53-a073-971f0a37e899#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/0118424e-e802-4e7d-a94f-90f521aa34a8#id> .
+
+<http://www.bbc.co.uk/things/f55fe2ac-e1cd-41c6-8913-ba508afd72fd#id> a curric:TopicOfStudy ;
+    rdfs:label "At home"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "At home"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7bbc149c-34fc-47d3-b849-0c87d3b03728#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zm6hvcw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f5ce1f71-54f0-4471-a7ea-bd21c34c2fc9#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/06d321a6-d4d9-4681-bec9-142b0db7d426#id> .
+
+<http://www.bbc.co.uk/things/f691f9bd-88f1-40c7-bd8a-8ea3ddc0e272#id> a curric:Topic ;
+    rdfs:label "Colours"@en-gb ;
+    core:preferredLabel "Colours"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z4dhfg8#topic> .
+
+<http://www.bbc.co.uk/things/f9640055-ff0b-4e17-8634-6a7c23d45b01#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/eb507121-f7b3-4744-81b2-0394fda99d82#id> .
+
+<http://www.bbc.co.uk/things/fa5fb9d2-7d46-4c6d-b4a5-1677cbf70b52#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/a190b43a-7009-4b85-affe-d63e7bb858be#id> .
+
+<http://www.bbc.co.uk/things/fb8edcb9-98d0-4acb-9900-b7fcc5214493#id> a curric:TopicOfStudy ;
+    rdfs:label "All about me"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "2nd Level Spanish curriculum"@en-gb ;
+    core:preferredLabel "All about me"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/a991e870-c995-4edf-a748-2043fbf66a3b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zj7mn39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fcada560-d15f-4657-b7e0-f21badadd380#id> a olo:Slot ;
+    olo:index 13 ;
+    olo:item <http://www.bbc.co.uk/things/219b23f6-d82b-412f-99c0-7f9bcc083a3d#id> .
+
+<http://www.bbc.co.uk/things/ffde50ac-dbd5-42d9-83b9-3c30b6f23623#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/05952d00-b129-45c9-8b48-8bd05cf79da2#id>,
+        <http://www.bbc.co.uk/things/5c4b49fd-fd99-4ddd-9557-83ff627c2100#id>,
+        <http://www.bbc.co.uk/things/70e189b0-845a-48e3-96a9-92bd6b4fe4c4#id>,
+        <http://www.bbc.co.uk/things/99cfcab1-0000-41a9-b0ea-1732b9d8421e#id>,
+        <http://www.bbc.co.uk/things/b4463477-4c4b-440a-aa69-42f26450846d#id>,
+        <http://www.bbc.co.uk/things/d8602850-51ef-4c46-9a0e-63a451d02cc5#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zb6f9j6#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/0240dbb9-61c4-4a02-b233-f91ebec82b57#id> a curric:Topic ;
+    rdfs:label "Speaking"@en-gb ;
+    core:preferredLabel "Speaking"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqd6n39#topic> .
+
+<http://www.bbc.co.uk/things/02bd3555-bf44-42ff-b31a-378686a02ef3#id> a curric:Topic ;
+    rdfs:label "Family and friends"@en-gb ;
+    core:preferredLabel "Family and friends"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zkjnvcw#topic> .
+
+<http://www.bbc.co.uk/things/1b8620b0-1f95-4a68-a9e7-78986ea9703f#id> a curric:Topic ;
+    rdfs:label "Pronouns"@en-gb ;
+    core:preferredLabel "Pronouns"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
+    = <http://www.bbc.co.uk/education/topics/ztmfb9q#topic> .
+
+<http://www.bbc.co.uk/things/5ac7db35-bdd7-4bf3-aca7-ff7f27478049#id> a curric:Topic ;
+    rdfs:label "Activities and hobbies"@en-gb ;
+    core:preferredLabel "Activities and hobbies"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqx3cdm#topic> .
+
+<http://www.bbc.co.uk/things/76701dea-8dd0-4d4b-a5ca-c0926fc84a66#id> a curric:Topic ;
+    rdfs:label "Listening and talking with others"@en-gb ;
+    core:preferredLabel "Listening and talking with others"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id> ;
+    = <http://www.bbc.co.uk/education/topics/znjtb9q#topic> .
+
+<http://www.bbc.co.uk/things/7bbc149c-34fc-47d3-b849-0c87d3b03728#id> a curric:Topic ;
+    rdfs:label "At home"@en-gb ;
+    core:preferredLabel "At home"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zw2ygk7#topic> .
+
+<http://www.bbc.co.uk/things/8bdaddfd-66dd-438e-8dbe-edb5471514aa#id> a curric:Topic ;
+    rdfs:label "Culture"@en-gb ;
+    core:preferredLabel "Culture"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
+    = <http://www.bbc.co.uk/education/topics/zw4dxnb#topic> .
+
+<http://www.bbc.co.uk/things/9c581e1e-dba6-4f96-ace4-c59a84ea34fe#id> a curric:Topic ;
+    rdfs:label "Food and drink"@en-gb ;
+    core:preferredLabel "Food and drink"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/d80290db-c73d-4815-9380-f19321182853#id> ;
+    = <http://www.bbc.co.uk/education/topics/zd7fb9q#topic> .
+
+<http://www.bbc.co.uk/things/adeb6e1a-a170-4bca-9dc9-af579c8a8330#id> a curric:Topic ;
+    rdfs:label "My calendar"@en-gb ;
+    core:preferredLabel "My calendar"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8qs34j#topic> .
+
+<http://www.bbc.co.uk/things/d7aff017-287e-4c55-a005-9d0444520069#id> a curric:Topic ;
+    rdfs:label "Listening for information"@en-gb ;
+    core:preferredLabel "Listening for information"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zsqhgk7#topic> .
+
+<http://www.bbc.co.uk/things/080c0ca3-20d9-48d4-9b25-a1356083b91d#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/46c6ae3b-b325-4eff-a741-80a5a845b5f2#id> .
+
+<http://www.bbc.co.uk/things/4e489894-dead-4f2c-b5e4-2263832753c2#id> a curric:Topic ;
+    rdfs:label "Cultures and places"@en-gb ;
+    core:preferredLabel "Cultures and places"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zmhrkqt#topic> .
+
+<http://www.bbc.co.uk/things/673fe8ab-02c6-4cc2-bc70-6f1c1d7a1d28#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/51fcf310-de1d-425e-b0d9-90d95201d5c1#id> .
+
+<http://www.bbc.co.uk/things/6a4616ba-781d-42ae-a547-691d7f629684#id> a curric:Topic ;
+    rdfs:label "Numbers"@en-gb ;
+    core:preferredLabel "Numbers"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zy3c87h#topic> .
+
+<http://www.bbc.co.uk/things/815223ca-dd8c-4a35-b8e3-9c94e0c9fe5d#id> a curric:Topic ;
+    rdfs:label "At school"@en-gb ;
+    core:preferredLabel "At school"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zjmvr82#topic> .
+
+<http://www.bbc.co.uk/things/da4bb651-b9ed-4e74-a16f-bacf1d7c44be#id> a curric:Topic ;
+    rdfs:label "Talking"@en-gb ;
+    core:preferredLabel "Talking"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> ;
+    = <http://www.bbc.co.uk/education/topics/zknp34j#topic> .
+
+<http://www.bbc.co.uk/things/dd5229f5-4e29-495d-97a1-1ae28adf183c#id> a curric:Topic ;
+    rdfs:label "Stories, poems and songs"@en-gb ;
+    core:preferredLabel "Stories, poems and songs"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxpc87h#topic> .
+
+<http://www.bbc.co.uk/things/5b25d76f-cab6-4a2c-961e-5d3eae3abe64#id> a curric:Topic ;
+    rdfs:label "Using language"@en-gb ;
+    core:preferredLabel "Using language"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/z4htyrd#topic> .
+
+<http://www.bbc.co.uk/things/e5193ddf-38e0-4d95-9935-a875a3ff6582#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/d055698c-5141-43b4-8908-c5bf7831674c#id> .
+
+<http://www.bbc.co.uk/things/053d9613-dda4-4c9d-bc37-c62796cb4f86#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/ef211a1b-d6c1-4b35-9bda-0009ac859e9c#id> .
+
+<http://www.bbc.co.uk/things/77df0568-c028-4214-8f90-82f45fb0a21b#id> a curric:Topic ;
+    rdfs:label "Listening and talking"@en-gb ;
+    core:preferredLabel "Listening and talking"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zx6tyrd#topic> .
+
+<http://www.bbc.co.uk/things/793a8b2e-908e-4ab5-9da3-038c38641f8b#id> a curric:Topic ;
+    rdfs:label "Society"@en-gb ;
+    core:preferredLabel "Society"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
+    = <http://www.bbc.co.uk/education/topics/z8rk2hv#topic> .
+
+<http://www.bbc.co.uk/things/9191d585-7e5e-4aa1-b406-04c1627567cc#id> a curric:Topic ;
+    rdfs:label "Listening"@en-gb ;
+    core:preferredLabel "Listening"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> ;
+    = <http://www.bbc.co.uk/education/topics/z7wtsbk#topic> .
+
+<http://www.bbc.co.uk/things/b2ea18f4-e453-4e91-90f4-fef8df146e48#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/0bed9255-c855-4a18-90ab-396c68101e3e#id> .
+
+<http://www.bbc.co.uk/things/81321a36-230a-4565-9739-1be58d833d0b#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/16828ce1-a603-46a5-af9b-90741d927c84#id> .
+
+<http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> a curric:Topic ;
+    rdfs:label "Grammar and spelling"@en-gb ;
+    core:preferredLabel "Grammar and spelling"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zv2s34j#topic> .
+
+<http://www.bbc.co.uk/things/76e9af0e-ea53-4fdb-a62b-922f724ee044#id> a curric:Topic ;
+    rdfs:label "Understanding language"@en-gb ;
+    core:preferredLabel "Understanding language"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zct6fg8#topic> .
+
+<http://www.bbc.co.uk/things/9192e614-8466-4959-b9d9-5f323ef8a32b#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/23ce38fe-06dd-4f01-8a36-3a19758d1dfc#id> .
+
+<http://www.bbc.co.uk/things/aa757f17-4205-47d3-b3b5-f2d750e2cc4f#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/cf44738f-9944-4d2e-b47a-0e09f726d868#id> .
+
+<http://www.bbc.co.uk/things/c3c8ef84-7b39-4c4e-94ab-3c1601861507#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/499f985d-48bb-4622-82f0-e348e1b8871e#id> .
+
+<http://www.bbc.co.uk/things/645bff62-044c-4d7c-b764-df1ac428f45e#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/293f0330-9483-4f83-8a62-a0142ae0f131#id> .
+

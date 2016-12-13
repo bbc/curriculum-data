@@ -1,204 +1,298 @@
-@prefix olo:   <http://purl.org/ontology/olo/core#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
 @prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix dc:    <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.bbc.co.uk/things/0738c36a-732d-4665-9a86-41c7b507896a#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "Nàiseanta 5"@gd-gb , "Nàiseanta 5"@en-gb ;
-        dc:description           "'S e teisteanas do sgoilearan ann an Alba, a tha sa bhitheantas air a ghabhail aig ceann shuas na h-àrd-sgoile, a th' ann an Ìre Nàiseanta 5."@gd-gb , "'S e teisteanas do sgoilearan ann an Alba, a tha sa bhitheantas air a ghabhail aig ceann shuas na h-àrd-sgoile, a th' ann an Ìre Nàiseanta 5."@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  14 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
-        curric:upperAgeBoundary  17 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/zdpp34j#level> .
+<http://www.bbc.co.uk/contexts/30afa8e5-e6bd-461e-8e70-5361e8576473#id> a provenance:Dataset ;
+    rdfs:label "Educational Levels" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "46"^^xsd:int .
 
-<http://www.bbc.co.uk/things/dca5a133-822b-48bf-b826-588c8dfea9c0#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "KS1"@en-gb ;
-        dc:description           "Key Stage 1 is a phase of primary education for pupils aged 5 to 7 in England, or 6 to 8 in Northern Ireland."@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p0166qyl" ;
-        curric:lowerAgeBoundary  5 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/675a7ea0-5a75-41db-b0cb-f3124b80afa3#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id> , <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> , <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id> ;
-        curric:upperAgeBoundary  7 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/z3g4d2p#level> .
+<http://www.bbc.co.uk/things/0738c36a-732d-4665-9a86-41c7b507896a#id> a curric:KeyStage ;
+    rdfs:label "Nàiseanta 5"@en-gb,
+        "Nàiseanta 5"@gd-gb ;
+    dc:description "'S e teisteanas do sgoilearan ann an Alba, a tha sa bhitheantas air a ghabhail aig ceann shuas na h-àrd-sgoile, a th' ann an Ìre Nàiseanta 5."@en-gb,
+        "'S e teisteanas do sgoilearan ann an Alba, a tha sa bhitheantas air a ghabhail aig ceann shuas na h-àrd-sgoile, a th' ann an Ìre Nàiseanta 5."@gd-gb ;
+    core:preferredLabel "Nàiseanta 5"@gd-gb ;
+    curric:lowerAgeBoundary 14 ;
+    curric:preferredDescription "'S e teisteanas do sgoilearan ann an Alba, a tha sa bhitheantas air a ghabhail aig ceann shuas na h-àrd-sgoile, a th' ann an Ìre Nàiseanta 5."@gd-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
+    curric:upperAgeBoundary 17 ;
+    = <http://www.bbc.co.uk/education/levels/zdpp34j#level> .
 
-<http://www.bbc.co.uk/things/549b274e-1529-487f-8485-0eb50b916d47#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "CA3"@en-gb , "CA3"@cy-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  11 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id> ;
-        curric:upperAgeBoundary  14 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/zh6vr82#level> .
+<http://www.bbc.co.uk/things/07a766a1-f579-438c-a63d-5d96ab2f6e32#id> a curric:KeyStage ;
+    rdfs:label "National 4"@en-gb,
+        "National 4"@gd-gb ;
+    dc:description "National 4 is a qualification taken by students in Scotland, generally during their secondary senior phase of education. "@en-gb ;
+    core:preferredLabel "National 4"@en-gb ;
+    curric:lowerAgeBoundary 14 ;
+    curric:preferredDescription "National 4 is a qualification taken by students in Scotland, generally during their secondary senior phase of education."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
+    curric:upperAgeBoundary 17 ;
+    = <http://www.bbc.co.uk/education/levels/zp3d7ty#level> .
 
-<http://www.bbc.co.uk/things/458f336d-6c5c-4a97-bd28-89fbd30575df#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "TGAU"@cy-gb , "TGAU"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  14 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id> ;
-        curric:upperAgeBoundary  16 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/z8w76sg#level> .
+<http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id> a curric:KeyStage ;
+    rdfs:label "KS3"@en-gb ;
+    dc:description "Key Stage 3 is the first three years of secondary school education in England, Wales and Northern Ireland, for pupils aged 11 to 14."@en-gb ;
+    core:preferredLabel "KS3"@en-gb ;
+    curric:lowerAgeBoundary 11 ;
+    curric:preferredDescription "Key Stage 3 is the first three years of secondary school education in England, Wales and Northern Ireland, for pupils aged 11 to 14."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:upperAgeBoundary 14 ;
+    = <http://www.bbc.co.uk/education/levels/z4kw2hv#level> .
 
-<http://www.bbc.co.uk/things/64b46dff-9c22-412a-a7aa-1d29446c4845#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "National 5"@gd-gb , "National 5"@en-gb ;
-        dc:description           "National 5 is a qualification taken by students in Scotland, generally during their secondary senior phase of education. "@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  14 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
-        curric:upperAgeBoundary  17 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/z6gw2hv#level> .
+<http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id> a curric:Year ;
+    rdfs:label "Year 12"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "Year 12"@en-gb ;
+    curric:lowerAgeBoundary 15 ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id> ;
+    curric:upperAgeBoundary 16 ;
+    = <http://www.bbc.co.uk/education/levels/z9fsbk7#level> .
 
-<http://www.bbc.co.uk/things/84d529e4-3045-4bd2-af9e-ee70c231bb39#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "4th level"@en-gb ;
-        dc:description           "Fourth Level is a phase of education in Scotland, generally for pupils aged 11 to 15, in their first three years of secondary school."@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  11 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
-        curric:upperAgeBoundary  15 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/zvk2fg8#level> .
+<http://www.bbc.co.uk/things/549b274e-1529-487f-8485-0eb50b916d47#id> a curric:KeyStage ;
+    rdfs:label "CA3"@cy-gb,
+        "CA3"@en-gb ;
+    dc:description "Mae Cyfnod Allweddol 3 yn cynrychioli’r tair blynedd cyntaf yn addysg ysgolion uwchradd Cymru, ar gyfer disgyblion 11-14 blwydd oed."@cy-gb,
+        " "@en-gb ;
+    core:preferredLabel "CA3"@cy-gb ;
+    curric:lowerAgeBoundary 11 ;
+    curric:preferredDescription "Mae Cyfnod Allweddol 3 yn cynrychioli’r tair blynedd cyntaf yn addysg ysgolion uwchradd Cymru, ar gyfer disgyblion 11-14 blwydd oed."@cy-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id> ;
+    curric:upperAgeBoundary 14 ;
+    = <http://www.bbc.co.uk/education/levels/zh6vr82#level> .
 
-<http://www.bbc.co.uk/things/d19e064d-ef25-45f2-beb7-c26bea320261#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "KS2"@en-gb ;
-        dc:description           "Key Stage 2 is a phase of primary education for pupils aged 7 to 11 in England and Wales, or 8 to 11 in Northern Ireland."@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p0166qyl" ;
-        curric:lowerAgeBoundary  7 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/675a7ea0-5a75-41db-b0cb-f3124b80afa3#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> , <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id> , <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id> ;
-        curric:upperAgeBoundary  11 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/zbr9wmn#level> .
+<http://www.bbc.co.uk/things/576f735f-f8fb-4729-b07b-a795540fe6a1#id> a curric:KeyStage ;
+    rdfs:label "Àrd Ìre"@en-gb,
+        "Àrd Ìre"@gd-gb ;
+    dc:description "'S e deuchainnean do sgoilearan ann an Alba a tha aig aois an sgoil fhàgail agus teisteanas inntrigidh oilthigh a th’ anns an Àrd Ìre."@en-gb,
+        "'S e deuchainnean do sgoilearan ann an Alba a tha aig aois an sgoil fhàgail agus teisteanas inntrigidh oilthigh a th’ anns an Àrd Ìre."@gd-gb ;
+    core:preferredLabel "Àrd Ìre"@gd-gb ;
+    curric:lowerAgeBoundary 15 ;
+    curric:preferredDescription "'S e deuchainnean do sgoilearan ann an Alba a tha aig aois an sgoil fhàgail agus teisteanas inntrigidh oilthigh a th’ anns an Àrd Ìre."@gd-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
+    curric:upperAgeBoundary 18 ;
+    = <http://www.bbc.co.uk/education/levels/zqq4wxs#level> .
 
-<http://www.bbc.co.uk/things/5d1d34b6-253b-444a-9d4a-f6fc2153c37e#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "Nàiseanta 4"@gd-gb , "Nàiseanta 4"@en-gb ;
-        dc:description           "'S e teisteanas do sgoilearan ann an Alba, a tha sa bhitheantas air a ghabhail aig ceann shuas na h-àrd-sgoile, a th' ann an Ìre Nàiseanta 4."@gd-gb , "'S e teisteanas do sgoilearan ann an Alba, a tha sa bhitheantas air a ghabhail aig ceann shuas na h-àrd-sgoile, a th' ann an Ìre Nàiseanta 4."@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  14 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
-        curric:upperAgeBoundary  17 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/z8hhvcw#level> .
+<http://www.bbc.co.uk/things/5d1d34b6-253b-444a-9d4a-f6fc2153c37e#id> a curric:KeyStage ;
+    rdfs:label "Nàiseanta 4"@en-gb,
+        "Nàiseanta 4"@gd-gb ;
+    dc:description "'S e teisteanas do sgoilearan ann an Alba, a tha sa bhitheantas air a ghabhail aig ceann shuas na h-àrd-sgoile, a th' ann an Ìre Nàiseanta 4."@en-gb,
+        "'S e teisteanas do sgoilearan ann an Alba, a tha sa bhitheantas air a ghabhail aig ceann shuas na h-àrd-sgoile, a th' ann an Ìre Nàiseanta 4."@gd-gb ;
+    core:preferredLabel "Nàiseanta 4"@gd-gb ;
+    curric:lowerAgeBoundary 14 ;
+    curric:preferredDescription "'S e teisteanas do sgoilearan ann an Alba, a tha sa bhitheantas air a ghabhail aig ceann shuas na h-àrd-sgoile, a th' ann an Ìre Nàiseanta 4."@gd-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
+    curric:upperAgeBoundary 17 ;
+    = <http://www.bbc.co.uk/education/levels/z8hhvcw#level> .
 
-<http://www.bbc.co.uk/things/78e58f87-5b86-477f-8a8a-61da370f9a13#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "Higher"@en-gb ;
-        dc:description           "Highers are national school-leaving certificate exams and university entrance qualifications taken by  16 to 18 year olds in Scotland."@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  15 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
-        curric:upperAgeBoundary  18 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/zkdqxnb#level> .
+<http://www.bbc.co.uk/things/64b46dff-9c22-412a-a7aa-1d29446c4845#id> a curric:KeyStage ;
+    rdfs:label "National 5"@en-gb,
+        "National 5"@gd-gb ;
+    dc:description "National 5 is a qualification taken by students in Scotland, generally during their secondary senior phase of education. "@en-gb ;
+    core:preferredLabel "National 5"@en-gb ;
+    curric:lowerAgeBoundary 14 ;
+    curric:preferredDescription "National 5 is a qualification taken by students in Scotland, generally during their secondary senior phase of education."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
+    curric:upperAgeBoundary 17 ;
+    = <http://www.bbc.co.uk/education/levels/z6gw2hv#level> .
 
-<http://www.bbc.co.uk/things/07a766a1-f579-438c-a63d-5d96ab2f6e32#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "National 4"@gd-gb , "National 4"@en-gb ;
-        dc:description           "National 4 is a qualification taken by students in Scotland, generally during their secondary senior phase of education. "@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  14 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
-        curric:upperAgeBoundary  17 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/zp3d7ty#level> .
+<http://www.bbc.co.uk/things/6b604c1a-7cc7-4ed5-97f8-8e307d98b4cd#id> a curric:KeyStage ;
+    rdfs:label "3rd level"@en-gb ;
+    dc:description "Third Level is a phase of education in Scotland, generally for pupils aged 11 to 15, in their first three years of secondary school."@en-gb ;
+    core:preferredLabel "3rd level"@en-gb ;
+    curric:lowerAgeBoundary 11 ;
+    curric:preferredDescription "Third Level is a phase of education in Scotland, generally for pupils aged 11 to 15, in their first three years of secondary school."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
+    curric:upperAgeBoundary 15 ;
+    = <http://www.bbc.co.uk/education/levels/zy4qn39#level> .
 
-<http://www.bbc.co.uk/things/a2dfa1af-1746-4ef4-b1e2-ded5d10b4eef#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "Early and 1st level"@en-gb ;
-        dc:description           "Early level is a phase of pre-school and primary education in Scotland, generally for pupils aged 3 to 6.  First level is a phase of primary education in Scotland, generally for pupils aged 6 to 9."@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p0166qyl" ;
-        curric:lowerAgeBoundary  6 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/675a7ea0-5a75-41db-b0cb-f3124b80afa3#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
-        curric:upperAgeBoundary  9 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/zgckjxs#level> .
+<http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id> a curric:Year ;
+    rdfs:label "Year 11"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "Year 11"@en-gb ;
+    curric:lowerAgeBoundary 15 ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:upperAgeBoundary 16 ;
+    = <http://www.bbc.co.uk/education/levels/z37jxsg#level> .
 
-<http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "GCSE"@en-gb ;
-        dc:description           "GCSE is the qualification taken by 15 and 16 year olds to mark their graduation from the Key Stage 4 phase of secondary education in England, Northern Ireland and Wales."@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  14 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id> , <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> , <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id> ;
-        curric:upperAgeBoundary  16 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/z98jmp3#level> .
+<http://www.bbc.co.uk/things/78e58f87-5b86-477f-8a8a-61da370f9a13#id> a curric:KeyStage ;
+    rdfs:label "Higher"@en-gb ;
+    dc:description "Highers are national school-leaving certificate exams and university entrance qualifications taken by  16 to 18 year olds in Scotland."@en-gb ;
+    core:preferredLabel "Higher"@en-gb ;
+    curric:lowerAgeBoundary 15 ;
+    curric:preferredDescription "Highers are national school-leaving certificate exams and university entrance qualifications taken by  16 to 18 year olds in Scotland."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
+    curric:upperAgeBoundary 18 ;
+    = <http://www.bbc.co.uk/education/levels/zkdqxnb#level> .
 
-<http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id>
-        a                        curric:Phase ;
-        rdfs:label               "Secondary"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  11 ;
-        curric:upperAgeBoundary  18 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/zc9d7ty#level> .
+<http://www.bbc.co.uk/things/84d529e4-3045-4bd2-af9e-ee70c231bb39#id> a curric:KeyStage ;
+    rdfs:label "4th level"@en-gb ;
+    dc:description "Fourth Level is a phase of education in Scotland, generally for pupils aged 11 to 15, in their first three years of secondary school."@en-gb ;
+    core:preferredLabel "4th level"@en-gb ;
+    curric:lowerAgeBoundary 11 ;
+    curric:preferredDescription "Fourth Level is a phase of education in Scotland, generally for pupils aged 11 to 15, in their first three years of secondary school."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
+    curric:upperAgeBoundary 15 ;
+    = <http://www.bbc.co.uk/education/levels/zvk2fg8#level> .
 
-<http://www.bbc.co.uk/things/99dcaf53-c5f6-48ae-918b-255a1a698681#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "2nd level"@en-gb ;
-        dc:description           "Second Level is a phase of primary education in Scotland, generally for pupils aged 9 to 12."@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p0166qyl" ;
-        curric:lowerAgeBoundary  9 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/675a7ea0-5a75-41db-b0cb-f3124b80afa3#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
-        curric:upperAgeBoundary  12 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/zr48q6f#level> .
+<http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id> a curric:Year ;
+    rdfs:label "Year 11"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "Year 11"@en-gb ;
+    curric:lowerAgeBoundary 14 ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id> ;
+    curric:upperAgeBoundary 15 ;
+    = <http://www.bbc.co.uk/education/levels/z8vyrdm#level> .
 
-<http://www.bbc.co.uk/things/675a7ea0-5a75-41db-b0cb-f3124b80afa3#id>
-        a                        curric:Phase ;
-        rdfs:label               "Primary"@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p0166qyl" ;
-        curric:lowerAgeBoundary  5 ;
-        curric:upperAgeBoundary  11 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/zvbc87h#level> .
+<http://www.bbc.co.uk/things/99dcaf53-c5f6-48ae-918b-255a1a698681#id> a curric:KeyStage ;
+    rdfs:label "2nd level"@en-gb ;
+    dc:description "Second Level is a phase of primary education in Scotland, generally for pupils aged 9 to 12."@en-gb ;
+    core:preferredLabel "2nd level"@en-gb ;
+    curric:lowerAgeBoundary 9 ;
+    curric:preferredDescription "Second Level is a phase of primary education in Scotland, generally for pupils aged 9 to 12."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/675a7ea0-5a75-41db-b0cb-f3124b80afa3#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
+    curric:upperAgeBoundary 12 ;
+    = <http://www.bbc.co.uk/education/levels/zr48q6f#level> .
 
-<http://www.bbc.co.uk/things/6b604c1a-7cc7-4ed5-97f8-8e307d98b4cd#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "3rd level"@en-gb ;
-        dc:description           "Third Level is a phase of education in Scotland, generally for pupils aged 11 to 15, in their first three years of secondary school."@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  11 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
-        curric:upperAgeBoundary  15 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/zy4qn39#level> .
+<http://www.bbc.co.uk/things/a2dfa1af-1746-4ef4-b1e2-ded5d10b4eef#id> a curric:KeyStage ;
+    rdfs:label "Early and 1st level"@en-gb ;
+    dc:description "Early level is a phase of pre-school and primary education in Scotland, generally for pupils aged 3 to 6.  First level is a phase of primary education in Scotland, generally for pupils aged 6 to 9."@en-gb ;
+    core:preferredLabel "Early and 1st level"@en-gb ;
+    curric:lowerAgeBoundary 6 ;
+    curric:preferredDescription "Early level is a phase of pre-school and primary education in Scotland, generally for pupils aged 3 to 6.  First level is a phase of primary education in Scotland, generally for pupils aged 6 to 9."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/675a7ea0-5a75-41db-b0cb-f3124b80afa3#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id> ;
+    curric:upperAgeBoundary 9 ;
+    = <http://www.bbc.co.uk/education/levels/zgckjxs#level> .
 
-<http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id>
-        a                        curric:KeyStage ;
-        rdfs:label               "KS3"@en-gb ;
-        dc:description           "Key Stage 3 is the first three years of secondary school education in England, Wales and Northern Ireland, for pupils aged 11 to 14."@en-gb ;
-        <http://www.bbc.co.uk/ontologies/applicationlogic-kl/depictionPID>
-                "p01695h0" ;
-        curric:lowerAgeBoundary  11 ;
-        curric:subLevelOf        <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
-        curric:taughtInNation    <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> , <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id> , <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id> ;
-        curric:upperAgeBoundary  14 ;
-        owl:sameAs               <http://www.bbc.co.uk/education/levels/z4kw2hv#level> .
+<http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id> a curric:Year ;
+    rdfs:label "Year 11"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "Year 11"@en-gb ;
+    curric:lowerAgeBoundary 15 ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id>,
+        <http://www.bbc.co.uk/things/458f336d-6c5c-4a97-bd28-89fbd30575df#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id> ;
+    curric:upperAgeBoundary 16 ;
+    = <http://www.bbc.co.uk/education/levels/zcnpv4j#level> .
+
+<http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id> a curric:Year ;
+    rdfs:label "Year 10"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "Year 10"@en-gb ;
+    curric:lowerAgeBoundary 14 ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id>,
+        <http://www.bbc.co.uk/things/458f336d-6c5c-4a97-bd28-89fbd30575df#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id> ;
+    curric:upperAgeBoundary 15 ;
+    = <http://www.bbc.co.uk/education/levels/zghtfrd#level> .
+
+<http://www.bbc.co.uk/things/d19e064d-ef25-45f2-beb7-c26bea320261#id> a curric:KeyStage ;
+    rdfs:label "KS2"@en-gb ;
+    dc:description "Key Stage 2 is a phase of primary education for pupils aged 7 to 11 in England and Wales, or 8 to 11 in Northern Ireland."@en-gb ;
+    core:preferredLabel "KS2"@en-gb ;
+    curric:lowerAgeBoundary 7 ;
+    curric:preferredDescription "Key Stage 2 is a phase of primary education for pupils aged 7 to 11 in England and Wales, or 8 to 11 in Northern Ireland."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/675a7ea0-5a75-41db-b0cb-f3124b80afa3#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:upperAgeBoundary 11 ;
+    = <http://www.bbc.co.uk/education/levels/zbr9wmn#level> .
+
+<http://www.bbc.co.uk/things/dca5a133-822b-48bf-b826-588c8dfea9c0#id> a curric:KeyStage ;
+    rdfs:label "KS1"@en-gb ;
+    dc:description "Key Stage 1 is a phase of primary education for pupils aged 5 to 7 in England, or 6 to 8 in Northern Ireland."@en-gb ;
+    core:preferredLabel "KS1"@en-gb ;
+    curric:lowerAgeBoundary 5 ;
+    curric:preferredDescription "Key Stage 1 is a phase of primary education for pupils aged 5 to 7 in England, or 6 to 8 in Northern Ireland."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/675a7ea0-5a75-41db-b0cb-f3124b80afa3#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:upperAgeBoundary 7 ;
+    = <http://www.bbc.co.uk/education/levels/z3g4d2p#level> .
+
+<http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> a curric:Year ;
+    rdfs:label "Year 10"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "Year 10"@en-gb ;
+    curric:lowerAgeBoundary 14 ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:upperAgeBoundary 15 ;
+    = <http://www.bbc.co.uk/education/levels/zyw87hv#level> .
+
+<http://www.bbc.co.uk/things/458f336d-6c5c-4a97-bd28-89fbd30575df#id> a curric:KeyStage ;
+    rdfs:label "TGAU"@cy-gb,
+        "TGAU"@en-gb ;
+    dc:description "Cymhwyster ar gyfer disgyblion 15 -16 blwydd oed yw TGAU. Mae’r cymhwyster yn dangos bod disgyblion wedi llwyddo i gwblhau Cyfnod Allweddol 4 yn ystod eu haddysg uwchradd yng Nghymru."@cy-gb,
+        " "@en-gb ;
+    core:preferredLabel "TGAU"@cy-gb ;
+    curric:lowerAgeBoundary 14 ;
+    curric:preferredDescription "Cymhwyster ar gyfer disgyblion 15 -16 blwydd oed yw TGAU. Mae’r cymhwyster yn dangos bod disgyblion wedi llwyddo i gwblhau Cyfnod Allweddol 4 yn ystod eu haddysg uwchradd yng Nghymru."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id> ;
+    curric:upperAgeBoundary 16 ;
+    = <http://www.bbc.co.uk/education/levels/z8w76sg#level> .
+
+<http://www.bbc.co.uk/things/675a7ea0-5a75-41db-b0cb-f3124b80afa3#id> a curric:Phase ;
+    rdfs:label "Primary"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "Primary"@en-gb ;
+    curric:lowerAgeBoundary 5 ;
+    curric:preferredDescription " "@en-gb ;
+    curric:upperAgeBoundary 11 ;
+    = <http://www.bbc.co.uk/education/levels/zvbc87h#level> .
+
+<http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> a curric:KeyStage ;
+    rdfs:label "GCSE"@en-gb ;
+    dc:description "GCSE is the qualification taken by 15 and 16 year olds to mark their graduation from the Key Stage 4 phase of secondary education in England, Northern Ireland and Wales."@en-gb ;
+    core:preferredLabel "GCSE"@en-gb ;
+    curric:lowerAgeBoundary 14 ;
+    curric:preferredDescription "GCSE is the qualification taken by 15 and 16 year olds to mark their graduation from the Key Stage 4 phase of secondary education in England, Northern Ireland and Wales."@en-gb ;
+    curric:subLevelOf <http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> ;
+    curric:taughtInNation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:upperAgeBoundary 16 ;
+    = <http://www.bbc.co.uk/education/levels/z98jmp3#level> .
+
+<http://www.bbc.co.uk/things/bbc739e2-2a3c-4490-a7f1-219d5e819315#id> a curric:Phase ;
+    rdfs:label "Secondary"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "Secondary"@en-gb ;
+    curric:lowerAgeBoundary 11 ;
+    curric:preferredDescription " "@en-gb ;
+    curric:upperAgeBoundary 18 ;
+    = <http://www.bbc.co.uk/education/levels/zc9d7ty#level> .
+

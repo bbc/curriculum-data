@@ -1,123 +1,443 @@
-@prefix olo:   <http://purl.org/ontology/olo/core#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
 @prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
-@prefix onto:  <http://www.ontotext.com/> .
-@prefix dc:    <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.bbc.co.uk/things/e855e573-61b1-45d8-962a-0bebe8c6ba94#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/9b66095a-f759-4fcd-97af-e07d6fc29d86#id> .
+<http://www.bbc.co.uk/contexts/3e0e0f0e-117a-4404-b18e-239d2fbada51#id> a provenance:Dataset ;
+    rdfs:label "Topics, Topics of Study and Topic of Study Lists of Welsh" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version 8 .
 
-<http://www.bbc.co.uk/things/11cd34d2-9231-4eea-af65-a92f45642a3d#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/a542110b-99ed-408f-8811-dfdb871316ce#id> .
+<http://www.bbc.co.uk/things/0471c546-ab57-41c0-893b-e125d18e2407#id> a curric:TopicOfStudy ;
+    rdfs:label "Defnyddio iaith – treigladau"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Defnyddio iaith – treigladau"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/75911906-45c4-4bec-89bd-a5c9ec57eaed#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3jbmnb#topic-of-study> .
 
-<http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id>
-        a           curric:Topic ;
-        rdfs:label  "Grammar and spelling"@en-gb ;
-        owl:sameAs  <http://www.bbc.co.uk/education/topics/zv2s34j#topic> .
+<http://www.bbc.co.uk/things/07d4c8dd-45e7-4f7b-8481-786861977902#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/3387e716-d894-4bf7-81fc-d9fde98b4295#id> .
 
-<http://www.bbc.co.uk/things/7c4fc3a3-e2d3-44e3-b24e-0c8fa5e5d1fb#id>
-        a          olo:Slot ;
-        olo:index  1 ;
-        olo:item   <http://www.bbc.co.uk/things/f1a8694c-4b59-4634-87f8-f9fe7f2c6f76#id> .
+<http://www.bbc.co.uk/things/0d03a83b-eade-4ca0-99ec-0e1833779268#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/8b09703f-f43f-4e16-b9a4-10f09e1baebc#id> .
 
-<http://www.bbc.co.uk/things/a1c43aec-fe1c-4688-acfc-68e20457b66d#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Siarad a gwrando"@cy-gb , "Speaking and listening"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/43007999-ee51-4951-a76e-2791c06f90a2#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5009189f-8e62-4c1d-8ac0-fe7a14db2c19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zspg9j6#topic-of-study> .
+<http://www.bbc.co.uk/things/0f3e4c76-ee86-4c53-bf56-12f77eb91cdd#id> a curric:TopicOfStudy ;
+    rdfs:label "Gramadeg a sillafu"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg curriculum"@cy-gb ;
+    core:preferredLabel "Gramadeg a sillafu"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5009189f-8e62-4c1d-8ac0-fe7a14db2c19#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zysc87h#topic-of-study> .
 
-<http://www.bbc.co.uk/things/43007999-ee51-4951-a76e-2791c06f90a2#id>
-        a                  curric:Topic ;
-        rdfs:label         "Speaking and listening"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/73909228-c16c-4ca7-b94b-a13bcad470a6#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zfjhfg8#topic> .
+<http://www.bbc.co.uk/things/11cd34d2-9231-4eea-af65-a92f45642a3d#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/a542110b-99ed-408f-8811-dfdb871316ce#id> .
 
-<http://www.bbc.co.uk/things/9b66095a-f759-4fcd-97af-e07d6fc29d86#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Writing"@en-gb , "Ysgrifennu"@cy-gb ;
-        curric:about           <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5009189f-8e62-4c1d-8ac0-fe7a14db2c19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zfnrkqt#topic-of-study> .
+<http://www.bbc.co.uk/things/12b76eb7-8eb1-4739-a17a-ca74963e7bbd#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/9a2d2a17-310a-42b4-b2ff-3d424c76cf57#id> .
 
-<http://www.bbc.co.uk/things/a542110b-99ed-408f-8811-dfdb871316ce#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Siarad a gwrando"@cy-gb , "Speaking and listening"@en-gb ;
-        curric:about           <http://www.bbc.co.uk/things/43007999-ee51-4951-a76e-2791c06f90a2#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/265df775-f85b-4d1e-ae24-88b546a67085#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/z3vkjxs#topic-of-study> .
+<http://www.bbc.co.uk/things/1a0e0e41-1c65-4aa6-b603-9d37c00feb42#id> a curric:TopicOfStudy ;
+    rdfs:label "Ysgrifennu"@cy-gb,
+        "Writing"@en-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "CA3 Cymraeg curriculum"@cy-gb ;
+    core:preferredLabel "Ysgrifennu"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/265df775-f85b-4d1e-ae24-88b546a67085#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zb38q6f#topic-of-study> .
 
-<http://www.bbc.co.uk/things/6da387b7-25a9-4c64-b578-74f1d8b38c02#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/81bc14bd-75a0-4cf3-b4ad-8358ddd91e88#id> , <http://www.bbc.co.uk/things/11cd34d2-9231-4eea-af65-a92f45642a3d#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/zpt3cdm#topics-of-study-list> .
+<http://www.bbc.co.uk/things/207e54b0-de7f-46bb-bc42-cbc8fd2470ef#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/614672ad-9b80-4af9-810d-5377264fa7cc#id> .
 
-<http://www.bbc.co.uk/things/d7ac8b6a-94bc-4a8c-95fd-ee8be82d5206#id>
-        a           curric:TopicOfStudyList ;
-        olo:slot    <http://www.bbc.co.uk/things/e855e573-61b1-45d8-962a-0bebe8c6ba94#id> , <http://www.bbc.co.uk/things/7c4fc3a3-e2d3-44e3-b24e-0c8fa5e5d1fb#id> , <http://www.bbc.co.uk/things/d75d613b-43bc-4096-ae42-180112f4be84#id> , <http://www.bbc.co.uk/things/e6248d60-9f3b-4e47-935d-83d83fb33553#id> ;
-        owl:sameAs  <http://www.bbc.co.uk/education/subjects/z8xhfg8#topics-of-study-list> .
+<http://www.bbc.co.uk/things/20c665c9-8ed1-4fe6-95b9-ff18f97c8a18#id> a curric:Topic ;
+    rdfs:label "Cyflwyno gwybodaeth unigol"@cy-gb ;
+    core:preferredLabel "Cyflwyno gwybodaeth unigol"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/z9hdfrd#topic-of-study> .
 
-<http://www.bbc.co.uk/things/81bc14bd-75a0-4cf3-b4ad-8358ddd91e88#id>
-        a          olo:Slot ;
-        olo:index  3 ;
-        olo:item   <http://www.bbc.co.uk/things/1a0e0e41-1c65-4aa6-b603-9d37c00feb42#id> .
+<http://www.bbc.co.uk/things/20e65537-fc1a-4e0c-bd76-35d4bbc10f35#id> a curric:TopicOfStudy ;
+    rdfs:label "Disgrifio"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Disgrifio"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/5d508652-4625-465b-a0c6-d11a234c8258#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zs8yqty#topic-of-study> .
 
-<http://www.bbc.co.uk/things/265df775-f85b-4d1e-ae24-88b546a67085#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/6da387b7-25a9-4c64-b578-74f1d8b38c02#id> .
+<http://www.bbc.co.uk/things/283bf0bb-6611-41f4-acd2-50366de0f1f4#id> a curric:Topic ;
+    rdfs:label "Defnyddio iaith – cenedl enwau ac idiomau"@cy-gb ;
+    core:preferredLabel "Defnyddio iaith – cenedl enwau ac idiomau"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zx3xcwx#topic-of-study> .
 
-<http://www.bbc.co.uk/things/e6248d60-9f3b-4e47-935d-83d83fb33553#id>
-        a          olo:Slot ;
-        olo:index  2 ;
-        olo:item   <http://www.bbc.co.uk/things/a1c43aec-fe1c-4688-acfc-68e20457b66d#id> .
+<http://www.bbc.co.uk/things/2ef3b348-a749-4307-87e6-0884c44e3992#id> a curric:Topic ;
+    rdfs:label "Trafod"@cy-gb ;
+    core:preferredLabel "Trafod"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/z2vmrdm#topic-of-study> .
 
-<http://www.bbc.co.uk/things/5009189f-8e62-4c1d-8ac0-fe7a14db2c19#id>
-        a              curric:ProgrammeOfStudy ;
-        curric:topics  <http://www.bbc.co.uk/things/d7ac8b6a-94bc-4a8c-95fd-ee8be82d5206#id> .
+<http://www.bbc.co.uk/things/3387e716-d894-4bf7-81fc-d9fde98b4295#id> a curric:TopicOfStudy ;
+    rdfs:label "Ysgrifennu"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Ysgrifennu"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/5ca6dc1c-8acb-42a2-b961-3ed457ecf2aa#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    curric:topics <http://www.bbc.co.uk/things/951293dd-1928-448d-90a4-82bce2a5a8e6#id> ;
+    = <http://www.bbc.co.uk/education/topics/z37r6fr#topic-of-study> .
 
-<http://www.bbc.co.uk/things/1a0e0e41-1c65-4aa6-b603-9d37c00feb42#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Writing"@en-gb , "Ysgrifennu"@cy-gb ;
-        curric:about           <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/265df775-f85b-4d1e-ae24-88b546a67085#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zb38q6f#topic-of-study> .
+<http://www.bbc.co.uk/things/3a5bc070-176f-4690-b1d2-04ebd2ce610a#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/20e65537-fc1a-4e0c-bd76-35d4bbc10f35#id> .
 
-<http://www.bbc.co.uk/things/f1a8694c-4b59-4634-87f8-f9fe7f2c6f76#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Darllen"@cy-gb ;
-        curric:about           <http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5009189f-8e62-4c1d-8ac0-fe7a14db2c19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/znhb4wx#topic-of-study> .
+<http://www.bbc.co.uk/things/4889ab73-3490-418d-9256-9d7d4365b4b8#id> a curric:TopicOfStudy ;
+    rdfs:label "Defnyddio iaith – berfau ac arddodiaid"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Defnyddio iaith – berfau ac arddodiaid"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/ced63fbe-557c-4cea-82b0-d3cac7547050#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zs9swxs#topic-of-study> .
 
-<http://www.bbc.co.uk/things/d75d613b-43bc-4096-ae42-180112f4be84#id>
-        a          olo:Slot ;
-        olo:index  4 ;
-        olo:item   <http://www.bbc.co.uk/things/0f3e4c76-ee86-4c53-bf56-12f77eb91cdd#id> .
+<http://www.bbc.co.uk/things/5065e84e-d644-4d55-92d2-d67e3d4f608c#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/9cf60bc9-9aac-4e17-b813-be272080511e#id> .
 
-<http://www.bbc.co.uk/things/0f3e4c76-ee86-4c53-bf56-12f77eb91cdd#id>
-        a                      curric:TopicOfStudy ;
-        rdfs:label             "Gramadeg a sillafu"@cy-gb ;
-        curric:about           <http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> ;
-        curric:appropriateFor  <http://www.bbc.co.uk/things/5009189f-8e62-4c1d-8ac0-fe7a14db2c19#id> ;
-        owl:sameAs             <http://www.bbc.co.uk/education/topics/zysc87h#topic-of-study> .
+<http://www.bbc.co.uk/things/5a5d6ea8-7c1b-4eac-8f3a-92c1ead24998#id> a curric:Topic ;
+    rdfs:label "Perswâd"@cy-gb ;
+    core:preferredLabel "Perswâd"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwnjv4j#topic-of-study> .
 
-<http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id>
-        a                  curric:Topic ;
-        rdfs:label         "Reading"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/fe5c8574-3a78-47d7-bd22-546aaa6e7b9b#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zswtsbk#topic> .
+<http://www.bbc.co.uk/things/5bc9f7e0-e4d2-41fb-a1cf-2763d7070033#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/4889ab73-3490-418d-9256-9d7d4365b4b8#id> .
 
-<http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id>
-        a                  curric:Topic ;
-        rdfs:label         "Writing"@en-gb ;
-        curric:subTopicOf  <http://www.bbc.co.uk/things/73909228-c16c-4ca7-b94b-a13bcad470a6#id> ;
-        owl:sameAs         <http://www.bbc.co.uk/education/topics/zyqpyrd#topic> .
+<http://www.bbc.co.uk/things/5ca6dc1c-8acb-42a2-b961-3ed457ecf2aa#id> a curric:Topic ;
+    rdfs:label "Ysgrifennu"@cy-gb ;
+    core:preferredLabel "Ysgrifennu"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zyw32p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5d508652-4625-465b-a0c6-d11a234c8258#id> a curric:Topic ;
+    rdfs:label "Disgrifio"@cy-gb ;
+    core:preferredLabel "Disgrifio"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zp9swxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5db656d2-0214-4faa-8b54-b3c38361bafe#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/9484b866-203c-49ab-b374-5e9dea50a647#id> .
+
+<http://www.bbc.co.uk/things/614672ad-9b80-4af9-810d-5377264fa7cc#id> a curric:TopicOfStudy ;
+    rdfs:label "Llafar"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Llafar"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/e2926c61-fceb-4962-ac31-d3dc61378546#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    curric:topics <http://www.bbc.co.uk/things/aa723437-a44b-4f3d-a520-1a66aa416862#id> ;
+    = <http://www.bbc.co.uk/education/topics/zqvmrdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/623b2f49-01db-4b92-9c54-805887184fcd#id> a curric:TopicOfStudy ;
+    rdfs:label "Perswâd"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Perswâd"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/5a5d6ea8-7c1b-4eac-8f3a-92c1ead24998#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqf7bk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6a7be1e2-1430-4472-aff5-6d9e9828a1dd#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/0471c546-ab57-41c0-893b-e125d18e2407#id> .
+
+<http://www.bbc.co.uk/things/6da387b7-25a9-4c64-b578-74f1d8b38c02#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/11cd34d2-9231-4eea-af65-a92f45642a3d#id>,
+        <http://www.bbc.co.uk/things/81bc14bd-75a0-4cf3-b4ad-8358ddd91e88#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zpt3cdm#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/75911906-45c4-4bec-89bd-a5c9ec57eaed#id> a curric:Topic ;
+    rdfs:label "Defnyddio iaith – treigladau"@cy-gb ;
+    core:preferredLabel "Defnyddio iaith – treigladau"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zy8yqty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/78f4e1b3-2c02-4dec-8442-9f9421811556#id> a curric:TopicOfStudy ;
+    rdfs:label "Naratif"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Naratif"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/93cc4f59-5a03-4762-a6f4-83d8c980da12#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zxgt9qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id> a curric:Topic ;
+    rdfs:label "Reading"@en-gb ;
+    core:preferredLabel "Reading"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/fe5c8574-3a78-47d7-bd22-546aaa6e7b9b#id> ;
+    = <http://www.bbc.co.uk/education/topics/zswtsbk#topic> .
+
+<http://www.bbc.co.uk/things/7c4fc3a3-e2d3-44e3-b24e-0c8fa5e5d1fb#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/f1a8694c-4b59-4634-87f8-f9fe7f2c6f76#id> .
+
+<http://www.bbc.co.uk/things/81bc14bd-75a0-4cf3-b4ad-8358ddd91e88#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/1a0e0e41-1c65-4aa6-b603-9d37c00feb42#id> .
+
+<http://www.bbc.co.uk/things/86b1d427-6a63-4233-ab50-4a1ba1b23757#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/5065e84e-d644-4d55-92d2-d67e3d4f608c#id>,
+        <http://www.bbc.co.uk/things/5bc9f7e0-e4d2-41fb-a1cf-2763d7070033#id>,
+        <http://www.bbc.co.uk/things/6a7be1e2-1430-4472-aff5-6d9e9828a1dd#id> ;
+    = <http://www.bbc.co.uk/education/topics/zcm4hv4#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/8b09703f-f43f-4e16-b9a4-10f09e1baebc#id> a curric:TopicOfStudy ;
+    rdfs:label "Ymateb a rhyngweithio mewn grŵp"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Ymateb a rhyngweithio mewn grŵp"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/b69870ee-5fb5-4858-8aea-3f0adbe4f0cc#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zc6knbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/93cc4f59-5a03-4762-a6f4-83d8c980da12#id> a curric:Topic ;
+    rdfs:label "Naratif"@cy-gb ;
+    core:preferredLabel "Naratif"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/z23xcwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9484b866-203c-49ab-b374-5e9dea50a647#id> a curric:TopicOfStudy ;
+    rdfs:label "Esbonio"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Esbonio"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/c8445582-979e-4346-a4f1-6ac3789a6335#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zqy2g82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/951293dd-1928-448d-90a4-82bce2a5a8e6#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/12b76eb7-8eb1-4739-a17a-ca74963e7bbd#id>,
+        <http://www.bbc.co.uk/things/3a5bc070-176f-4690-b1d2-04ebd2ce610a#id>,
+        <http://www.bbc.co.uk/things/5db656d2-0214-4faa-8b54-b3c38361bafe#id>,
+        <http://www.bbc.co.uk/things/9c513055-d150-4b36-af30-5830823de0c7#id>,
+        <http://www.bbc.co.uk/things/c0e99de3-90d2-4fbf-a909-ee3deea06462#id>,
+        <http://www.bbc.co.uk/things/dca79461-c4b2-4234-8798-9d75e1d9d501#id> ;
+    = <http://www.bbc.co.uk/education/topics/z37r6fr#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/9a2d2a17-310a-42b4-b2ff-3d424c76cf57#id> a curric:TopicOfStudy ;
+    rdfs:label "Trafod"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Trafod"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/2ef3b348-a749-4307-87e6-0884c44e3992#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8pwycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9b66095a-f759-4fcd-97af-e07d6fc29d86#id> a curric:TopicOfStudy ;
+    rdfs:label "Ysgrifennu"@cy-gb,
+        "Writing"@en-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg curriculum"@cy-gb ;
+    core:preferredLabel "Ysgrifennu"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5009189f-8e62-4c1d-8ac0-fe7a14db2c19#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zfnrkqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9c513055-d150-4b36-af30-5830823de0c7#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/a0d1d2c8-76a1-4954-bfca-e74f17c52ade#id> .
+
+<http://www.bbc.co.uk/things/9cf60bc9-9aac-4e17-b813-be272080511e#id> a curric:TopicOfStudy ;
+    rdfs:label "Defnyddio iaith – cenedl enwau ac idiomau"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Defnyddio iaith – cenedl enwau ac idiomau"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/283bf0bb-6611-41f4-acd2-50366de0f1f4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/ztgt9qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a0d1d2c8-76a1-4954-bfca-e74f17c52ade#id> a curric:TopicOfStudy ;
+    rdfs:label "Cyfarwyddiadol"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Cyfarwyddiadol"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/d5cdaf07-d9cc-4dc4-86cf-5f3b97e6c2f5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8hdfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a1c43aec-fe1c-4688-acfc-68e20457b66d#id> a curric:TopicOfStudy ;
+    rdfs:label "Siarad a gwrando"@cy-gb,
+        "Speaking and listening"@en-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg curriculum"@cy-gb ;
+    core:preferredLabel "Siarad a gwrando"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/43007999-ee51-4951-a76e-2791c06f90a2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5009189f-8e62-4c1d-8ac0-fe7a14db2c19#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zspg9j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a4569258-6740-4f31-adb2-f8ee22569242#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/edb40680-d6fd-461e-a524-8e8eabb9bb33#id> .
+
+<http://www.bbc.co.uk/things/a542110b-99ed-408f-8811-dfdb871316ce#id> a curric:TopicOfStudy ;
+    rdfs:label "Siarad a gwrando"@cy-gb,
+        "Speaking and listening"@en-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "CA3 Cymraeg curriculum"@cy-gb ;
+    core:preferredLabel "Siarad a gwrando"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/43007999-ee51-4951-a76e-2791c06f90a2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/265df775-f85b-4d1e-ae24-88b546a67085#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/z3vkjxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/aa723437-a44b-4f3d-a520-1a66aa416862#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0d03a83b-eade-4ca0-99ec-0e1833779268#id>,
+        <http://www.bbc.co.uk/things/a4569258-6740-4f31-adb2-f8ee22569242#id> ;
+    = <http://www.bbc.co.uk/education/topics/zqvmrdm#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/b69870ee-5fb5-4858-8aea-3f0adbe4f0cc#id> a curric:Topic ;
+    rdfs:label "Ymateb a rhyngweithio mewn grŵp"@cy-gb ;
+    core:preferredLabel "Ymateb a rhyngweithio mewn grŵp"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zgm4hv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c03d7af1-34dd-49d6-9f99-24f2962c8e44#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/07d4c8dd-45e7-4f7b-8481-786861977902#id>,
+        <http://www.bbc.co.uk/things/207e54b0-de7f-46bb-bc42-cbc8fd2470ef#id>,
+        <http://www.bbc.co.uk/things/e1e6cc26-bc30-46ff-9e03-d6c3705fe4c7#id> ;
+    = <http://www.bbc.co.uk/education/subjects/zsrhk7h#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/c0e99de3-90d2-4fbf-a909-ee3deea06462#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/623b2f49-01db-4b92-9c54-805887184fcd#id> .
+
+<http://www.bbc.co.uk/things/c8445582-979e-4346-a4f1-6ac3789a6335#id> a curric:Topic ;
+    rdfs:label "Esbonio"@cy-gb ;
+    core:preferredLabel "Esbonio"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwsq39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ced63fbe-557c-4cea-82b0-d3cac7547050#id> a curric:Topic ;
+    rdfs:label "Defnyddio iaith – berfau ac arddodiaid"@cy-gb ;
+    core:preferredLabel "Defnyddio iaith – berfau ac arddodiaid"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zpcp82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cf12a5fd-073f-438c-a246-a6d235256b51#id> a curric:TopicOfStudy ;
+    rdfs:label "Gramadeg"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Gramadeg"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/dffbe06c-3629-481b-8fa4-fee2cac46f9b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    curric:topics <http://www.bbc.co.uk/things/86b1d427-6a63-4233-ab50-4a1ba1b23757#id> ;
+    = <http://www.bbc.co.uk/education/topics/zcm4hv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d5cdaf07-d9cc-4dc4-86cf-5f3b97e6c2f5#id> a curric:Topic ;
+    rdfs:label "Cyfarwyddiadol"@cy-gb ;
+    core:preferredLabel "Cyfarwyddiadol"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/z96knbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d75d613b-43bc-4096-ae42-180112f4be84#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/0f3e4c76-ee86-4c53-bf56-12f77eb91cdd#id> .
+
+<http://www.bbc.co.uk/things/d7ac8b6a-94bc-4a8c-95fd-ee8be82d5206#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/7c4fc3a3-e2d3-44e3-b24e-0c8fa5e5d1fb#id>,
+        <http://www.bbc.co.uk/things/d75d613b-43bc-4096-ae42-180112f4be84#id>,
+        <http://www.bbc.co.uk/things/e6248d60-9f3b-4e47-935d-83d83fb33553#id>,
+        <http://www.bbc.co.uk/things/e855e573-61b1-45d8-962a-0bebe8c6ba94#id> ;
+    = <http://www.bbc.co.uk/education/subjects/z8xhfg8#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/dca79461-c4b2-4234-8798-9d75e1d9d501#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/78f4e1b3-2c02-4dec-8442-9f9421811556#id> .
+
+<http://www.bbc.co.uk/things/dffbe06c-3629-481b-8fa4-fee2cac46f9b#id> a curric:Topic ;
+    rdfs:label "Gramadeg"@cy-gb ;
+    core:preferredLabel "Gramadeg"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zg7r6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e1e6cc26-bc30-46ff-9e03-d6c3705fe4c7#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/cf12a5fd-073f-438c-a246-a6d235256b51#id> .
+
+<http://www.bbc.co.uk/things/e2926c61-fceb-4962-ac31-d3dc61378546#id> a curric:Topic ;
+    rdfs:label "Llafar"@cy-gb ;
+    core:preferredLabel "Llafar"@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/zwf7bk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e4fc46e4-e719-43b7-9efd-e6d71e67559e#id> a curric:Topic ;
+    rdfs:label "Grammar and spelling"@en-gb ;
+    core:preferredLabel "Grammar and spelling"@en-gb ;
+    = <http://www.bbc.co.uk/education/topics/zv2s34j#topic> .
+
+<http://www.bbc.co.uk/things/e6248d60-9f3b-4e47-935d-83d83fb33553#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/a1c43aec-fe1c-4688-acfc-68e20457b66d#id> .
+
+<http://www.bbc.co.uk/things/e855e573-61b1-45d8-962a-0bebe8c6ba94#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/9b66095a-f759-4fcd-97af-e07d6fc29d86#id> .
+
+<http://www.bbc.co.uk/things/edb40680-d6fd-461e-a524-8e8eabb9bb33#id> a curric:TopicOfStudy ;
+    rdfs:label "Cyflwyno gwybodaeth unigol"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg (2015 ymlaen) curriculum"@cy-gb ;
+    core:preferredLabel "Cyflwyno gwybodaeth unigol"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/20c665c9-8ed1-4fe6-95b9-ff18f97c8a18#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/z8njv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f1a8694c-4b59-4634-87f8-f9fe7f2c6f76#id> a curric:TopicOfStudy ;
+    rdfs:label "Darllen"@cy-gb ;
+    dc:description " "@cy-gb ;
+    core:disambiguationHint "TGAU Cymraeg curriculum"@cy-gb ;
+    core:preferredLabel "Darllen"@cy-gb ;
+    curric:about <http://www.bbc.co.uk/things/7bce165c-190a-4fe6-b629-54a456711fe7#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/5009189f-8e62-4c1d-8ac0-fe7a14db2c19#id> ;
+    curric:preferredDescription " "@cy-gb ;
+    = <http://www.bbc.co.uk/education/topics/znhb4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/265df775-f85b-4d1e-ae24-88b546a67085#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/6da387b7-25a9-4c64-b578-74f1d8b38c02#id> .
+
+<http://www.bbc.co.uk/things/43007999-ee51-4951-a76e-2791c06f90a2#id> a curric:Topic ;
+    rdfs:label "Speaking and listening"@en-gb ;
+    core:preferredLabel "Speaking and listening"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/73909228-c16c-4ca7-b94b-a13bcad470a6#id> ;
+    = <http://www.bbc.co.uk/education/topics/zfjhfg8#topic> .
+
+<http://www.bbc.co.uk/things/5e9ab081-0e39-41e0-b0bb-cb88367dfe2a#id> a curric:Topic ;
+    rdfs:label "Writing"@en-gb ;
+    core:preferredLabel "Writing"@en-gb ;
+    curric:subTopicOf <http://www.bbc.co.uk/things/73909228-c16c-4ca7-b94b-a13bcad470a6#id> ;
+    = <http://www.bbc.co.uk/education/topics/zyqpyrd#topic> .
+
+<http://www.bbc.co.uk/things/5009189f-8e62-4c1d-8ac0-fe7a14db2c19#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/d7ac8b6a-94bc-4a8c-95fd-ee8be82d5206#id> .
+
+<http://www.bbc.co.uk/things/762d25b7-30f4-4708-8fbe-f8bd7fb38c39#id> a curric:ProgrammeOfStudy ;
+    curric:topics <http://www.bbc.co.uk/things/c03d7af1-34dd-49d6-9f99-24f2962c8e44#id> .
+
