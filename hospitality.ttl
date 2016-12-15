@@ -20,7 +20,7 @@
     core:preferredLabel "Cookery skills, techniques and processes"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/c4066e92-bdcb-4206-9f3c-fee3353a2055#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/4f5fe7a9-8158-4e66-9c80-523708be6b4d#id> ;
-    = <http://www.bbc.co.uk/education/topics/zpfgd2p#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpfgd2p#topic-of-study> .
 
 <http://www.bbc.co.uk/things/0f1a469e-03ba-4520-a790-25db7fbb2038#id> a olo:Slot ;
     olo:index 5 ;
@@ -29,7 +29,7 @@
 <http://www.bbc.co.uk/things/14089b99-9a66-42d9-be72-0d62c5edd847#id> a curric:Topic ;
     rdfs:label "Cake baking"@en-gb ;
     core:preferredLabel "Cake baking"@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/zrc8mp3#topic> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zrc8mp3#topic> .
 
 <http://www.bbc.co.uk/things/50b0b1f0-92f7-4ddc-b853-28a3212f1270#id> a curric:TopicOfStudy ;
     rdfs:label "Cookery skills, techniques and processes"@en-gb ;
@@ -37,7 +37,7 @@
     core:preferredLabel "Cookery skills, techniques and processes"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/c4066e92-bdcb-4206-9f3c-fee3353a2055#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
-    = <http://www.bbc.co.uk/education/topics/zf34q6f#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zf34q6f#topic-of-study> .
 
 <http://www.bbc.co.uk/things/6e3a0a2e-713e-444c-bc7a-630e6c305f65#id> a olo:Slot ;
     olo:index 2 ;
@@ -50,12 +50,12 @@
 <http://www.bbc.co.uk/things/74f9a65f-64e8-4bad-b233-d97855b3ef50#id> a curric:Topic ;
     rdfs:label "Cake finishing"@en-gb ;
     core:preferredLabel "Cake finishing"@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/zc4dxnb#topic> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zc4dxnb#topic> .
 
 <http://www.bbc.co.uk/things/76b64973-2c92-49c1-9ee7-1a2c598b30b3#id> a curric:TopicOfStudyList ;
     olo:slot <http://www.bbc.co.uk/things/9f199669-a492-448b-956e-72ee92f11b4f#id>,
         <http://www.bbc.co.uk/things/9f4a127c-283e-4af7-80b0-fac93892bf34#id> ;
-    = <http://www.bbc.co.uk/education/subjects/z33cjxs#topics-of-study-list> .
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z33cjxs#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/9f199669-a492-448b-956e-72ee92f11b4f#id> a olo:Slot ;
     olo:index 1 ;
@@ -71,7 +71,7 @@
     core:preferredLabel "Cake finishing"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/74f9a65f-64e8-4bad-b233-d97855b3ef50#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
-    = <http://www.bbc.co.uk/education/topics/zb4w6sg#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zb4w6sg#topic-of-study> .
 
 <http://www.bbc.co.uk/things/abd07aa8-54a9-472b-8753-117068a11a9b#id> a curric:TopicOfStudy ;
     rdfs:label "Understanding and using ingredients"@en-gb ;
@@ -79,14 +79,14 @@
     core:preferredLabel "Understanding and using ingredients"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/b398546f-afa6-47bd-9a83-ed0965cc8e71#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
-    = <http://www.bbc.co.uk/education/topics/zyb97ty#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyb97ty#topic-of-study> .
 
 <http://www.bbc.co.uk/things/bfec338c-a1b6-4d27-91ce-15e7d037f072#id> a curric:TopicOfStudyList ;
     olo:slot <http://www.bbc.co.uk/things/0f1a469e-03ba-4520-a790-25db7fbb2038#id>,
         <http://www.bbc.co.uk/things/6e3a0a2e-713e-444c-bc7a-630e6c305f65#id>,
         <http://www.bbc.co.uk/things/73c8c10f-f7cb-4f23-88da-9108bf658264#id>,
         <http://www.bbc.co.uk/things/fa0f837f-5698-44ea-a825-f882ff8c1655#id> ;
-    = <http://www.bbc.co.uk/education/subjects/zhtsr82#topics-of-study-list> .
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zhtsr82#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/d95b5a66-a359-4b2a-b17a-b97e24b91f16#id> a curric:TopicOfStudy ;
     rdfs:label "Understanding and using ingredients"@en-gb ;
@@ -94,7 +94,7 @@
     core:preferredLabel "Understanding and using ingredients"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/b398546f-afa6-47bd-9a83-ed0965cc8e71#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/4f5fe7a9-8158-4e66-9c80-523708be6b4d#id> ;
-    = <http://www.bbc.co.uk/education/topics/znyrwmn#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/znyrwmn#topic-of-study> .
 
 <http://www.bbc.co.uk/things/fa0f837f-5698-44ea-a825-f882ff8c1655#id> a olo:Slot ;
     olo:index 4 ;
@@ -106,7 +106,7 @@
     core:preferredLabel "Cake baking"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/14089b99-9a66-42d9-be72-0d62c5edd847#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> ;
-    = <http://www.bbc.co.uk/education/topics/z3cdxnb#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3cdxnb#topic-of-study> .
 
 <http://www.bbc.co.uk/things/4f5fe7a9-8158-4e66-9c80-523708be6b4d#id> a curric:ProgrammeOfStudy ;
     curric:topics <http://www.bbc.co.uk/things/76b64973-2c92-49c1-9ee7-1a2c598b30b3#id> .
@@ -114,12 +114,12 @@
 <http://www.bbc.co.uk/things/b398546f-afa6-47bd-9a83-ed0965cc8e71#id> a curric:Topic ;
     rdfs:label "Understanding and using ingredients"@en-gb ;
     core:preferredLabel "Understanding and using ingredients"@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/zbg97ty#topic> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zbg97ty#topic> .
 
 <http://www.bbc.co.uk/things/c4066e92-bdcb-4206-9f3c-fee3353a2055#id> a curric:Topic ;
     rdfs:label "Cookery skills, techniques and processes"@en-gb ;
     core:preferredLabel "Cookery skills, techniques and processes"@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/z3b4q6f#topic> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3b4q6f#topic> .
 
 <http://www.bbc.co.uk/things/3d0ae02a-eaba-4300-8219-a56322776ea7#id> a curric:ProgrammeOfStudy ;
     curric:topics <http://www.bbc.co.uk/things/bfec338c-a1b6-4d27-91ce-15e7d037f072#id> .

@@ -1,0 +1,612 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/e92c7e5e-9f0a-4cfe-8ab0-93b5ab1ff450#id> a provenance:Dataset ;
+    rdfs:label "GCSE Business 2016 Exam Specifications, Topics of Study and Topics" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "3"^^xsd:int .
+
+<http://www.bbc.co.uk/things/0041e203-ad80-408c-843b-29d71ec5369d#id> a curric:TopicOfStudy ;
+    rdfs:label "Business environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Business environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e640a949-04df-4ff0-b32e-581e76a39cc6#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/61315cb6-d5fe-4141-9630-e8be75c2d17e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztbm2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/015009f2-6435-47ec-985f-2fffa7201aab#id> a curric:TopicOfStudy ;
+    rdfs:label "Production"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Production"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b843137d-a7a1-4f77-9545-61c5ad4f4eac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/783967b6-798b-4383-9752-36cd54c291ee#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq64cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/055f808c-b38a-4224-9d46-42e00fdf15fc#id> a curric:TopicOfStudy ;
+    rdfs:label "Aims and organisation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Aims and organisation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f86d138a-a6de-4f5e-8e9d-0175303cb357#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/61315cb6-d5fe-4141-9630-e8be75c2d17e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgq3v4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0658a0ea-dd70-47e0-9c3e-0cc3b9d81451#id> a curric:TopicOfStudy ;
+    rdfs:label "Aims and organisation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Aims and organisation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f86d138a-a6de-4f5e-8e9d-0175303cb357#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/cb07b8be-d4fe-406c-9a76-64c3b33b838d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z864cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0aa3213a-c7de-4d73-8065-af6f4a209858#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1f6fe605-ddcc-4ac8-add1-978ccfe007c3#id>,
+        <http://www.bbc.co.uk/things/24f486a0-dd5c-45e2-b478-c302c6b7d7aa#id>,
+        <http://www.bbc.co.uk/things/47fff96e-3483-455d-aed8-e609872468f4#id>,
+        <http://www.bbc.co.uk/things/947df268-5609-40bd-9de1-9d45375bfd31#id>,
+        <http://www.bbc.co.uk/things/a4fe6b98-5b37-429b-93b9-7ef50c1cfe1c#id>,
+        <http://www.bbc.co.uk/things/d98cf73d-9563-4ff8-b288-e27a04b57cfa#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z98snbk#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/0bfaa972-0840-4380-8d70-e2065ea43990#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/5937b4a2-0285-4d26-8a80-eb965f87eec9#id> .
+
+<http://www.bbc.co.uk/things/10dd0ebc-8e4a-497f-9e2f-b5dbcf7ec939#id> a curric:TopicOfStudy ;
+    rdfs:label "Production"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Production"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b843137d-a7a1-4f77-9545-61c5ad4f4eac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/76534555-7114-461c-9740-c3099d3a50bf#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3q3v4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/12eac6e5-3f4f-45d9-a61f-4c42c13a007a#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/1bd6772e-1c4f-421d-b466-83c6b81cd878#id> .
+
+<http://www.bbc.co.uk/things/1bd6772e-1c4f-421d-b466-83c6b81cd878#id> a curric:TopicOfStudy ;
+    rdfs:label "Business environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Business environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e640a949-04df-4ff0-b32e-581e76a39cc6#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/76534555-7114-461c-9740-c3099d3a50bf#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zydfsg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1e547bf8-12cc-4963-9276-1f81dcf3b7bd#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/055f808c-b38a-4224-9d46-42e00fdf15fc#id> .
+
+<http://www.bbc.co.uk/things/1f6fe605-ddcc-4ac8-add1-978ccfe007c3#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/0658a0ea-dd70-47e0-9c3e-0cc3b9d81451#id> .
+
+<http://www.bbc.co.uk/things/23460abd-604c-471e-b748-d4a4881e0060#id> a curric:TopicOfStudy ;
+    rdfs:label "Marketing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Marketing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fe461948-5257-4704-aa30-63763d25cb0f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/61315cb6-d5fe-4141-9630-e8be75c2d17e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3wyfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/24f486a0-dd5c-45e2-b478-c302c6b7d7aa#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/abf7e2e6-127c-4c6e-9920-a87f8f643151#id> .
+
+<http://www.bbc.co.uk/things/2844c090-6dbb-4cbe-9ff0-05a6e853a7fd#id> a curric:TopicOfStudy ;
+    rdfs:label "Finance"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Finance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/78cc941f-df0e-4908-bd25-11d790e12fa1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/783967b6-798b-4383-9752-36cd54c291ee#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpv7qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2e1044d7-9c35-4a80-9947-18d7f27e3703#id> a curric:TopicOfStudy ;
+    rdfs:label "Aims and organisation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Aims and organisation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f86d138a-a6de-4f5e-8e9d-0175303cb357#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/17c4c594-1bdf-441f-b0d6-a9703d7e1314#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxbm2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/30f65c9e-8329-444a-950a-9718143f996c#id> a curric:TopicOfStudy ;
+    rdfs:label "Marketing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Marketing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fe461948-5257-4704-aa30-63763d25cb0f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/783967b6-798b-4383-9752-36cd54c291ee#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyr6xsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/311c2378-4456-41f8-9366-d8152d4cb7a4#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/5b914f78-d29a-462f-989d-9b86dc7dd629#id>,
+        <http://www.bbc.co.uk/things/6f583dd7-7937-4b5c-8f22-02c3f450a689#id>,
+        <http://www.bbc.co.uk/things/716c0aee-4cf3-4fda-95bd-899392a18b0e#id>,
+        <http://www.bbc.co.uk/things/a7121147-8409-4237-86a9-c1b8db5e0adc#id>,
+        <http://www.bbc.co.uk/things/bdcad7a8-8df6-41e1-9d4b-f01611fd2b59#id>,
+        <http://www.bbc.co.uk/things/caa3a883-e927-4071-9c75-87d109929c42#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zwq3v4j#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/314aff4c-9ff8-43bd-b508-f6b258261dc4#id> a curric:TopicOfStudy ;
+    rdfs:label "Marketing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Marketing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fe461948-5257-4704-aa30-63763d25cb0f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/76534555-7114-461c-9740-c3099d3a50bf#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9t94j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3e59cdc5-d76e-439c-9149-5a42c4da7da0#id> a curric:TopicOfStudy ;
+    rdfs:label "People in business"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "People in business"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fea24e0b-6d8b-40e5-b9c6-16149d130541#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/17c4c594-1bdf-441f-b0d6-a9703d7e1314#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwnd82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/416bf292-f386-4b5d-b0ae-b36d8825786b#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/f5b65841-a27f-40b6-9844-ce9e66a11ef8#id> .
+
+<http://www.bbc.co.uk/things/42d1ea34-c521-4e71-b579-8581a5473a4a#id> a curric:TopicOfStudy ;
+    rdfs:label "Marketing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Marketing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fe461948-5257-4704-aa30-63763d25cb0f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/17c4c594-1bdf-441f-b0d6-a9703d7e1314#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2v7qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/447b56b9-bf66-4310-bf4a-161460fec219#id> a curric:TopicOfStudy ;
+    rdfs:label "People in business"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "People in business"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fea24e0b-6d8b-40e5-b9c6-16149d130541#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/783967b6-798b-4383-9752-36cd54c291ee#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxnd82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4560202a-98c7-4b0d-afef-c1494743df1b#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/de7c7a34-4e45-4a5f-b2f2-b35f31ba934b#id> .
+
+<http://www.bbc.co.uk/things/4719e6b0-2fe7-4875-a423-3c4e959a4666#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/42d1ea34-c521-4e71-b579-8581a5473a4a#id> .
+
+<http://www.bbc.co.uk/things/47fff96e-3483-455d-aed8-e609872468f4#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/a1d46e00-15bf-47b5-b418-852b6596ef10#id> .
+
+<http://www.bbc.co.uk/things/49e2303c-94dc-468b-93be-90b0ed82dee5#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/5defa83b-4e7c-4da3-9aca-af0dba87c7ef#id> .
+
+<http://www.bbc.co.uk/things/5937b4a2-0285-4d26-8a80-eb965f87eec9#id> a curric:TopicOfStudy ;
+    rdfs:label "Business environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Business environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e640a949-04df-4ff0-b32e-581e76a39cc6#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/17c4c594-1bdf-441f-b0d6-a9703d7e1314#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z964cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5b914f78-d29a-462f-989d-9b86dc7dd629#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/99b90ba8-cd75-4552-a4ea-e8f20051f497#id> .
+
+<http://www.bbc.co.uk/things/5defa83b-4e7c-4da3-9aca-af0dba87c7ef#id> a curric:TopicOfStudy ;
+    rdfs:label "Production"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Production"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b843137d-a7a1-4f77-9545-61c5ad4f4eac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/61315cb6-d5fe-4141-9630-e8be75c2d17e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpr6xsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/630c3ecb-0b3b-4e08-a092-28e31ab598ce#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/6cf3d0e8-13bd-4c7c-8efe-d599aacbb51b#id> .
+
+<http://www.bbc.co.uk/things/6abad8d8-8f8a-4a9a-b874-4e7fe46a48d3#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/efdc4496-afc0-423b-88e8-5f7077041414#id> .
+
+<http://www.bbc.co.uk/things/6cf3d0e8-13bd-4c7c-8efe-d599aacbb51b#id> a curric:TopicOfStudy ;
+    rdfs:label "Finance"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Finance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/78cc941f-df0e-4908-bd25-11d790e12fa1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/76534555-7114-461c-9740-c3099d3a50bf#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcxcrdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6f583dd7-7937-4b5c-8f22-02c3f450a689#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/b2230232-bdb3-41ff-b2cd-b0c0fcd3cbba#id> .
+
+<http://www.bbc.co.uk/things/70697f63-e12b-47ec-a4ae-4490bf8416fc#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/a9139770-11fe-4809-a704-d742037541b7#id> .
+
+<http://www.bbc.co.uk/things/716c0aee-4cf3-4fda-95bd-899392a18b0e#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/015009f2-6435-47ec-985f-2fffa7201aab#id> .
+
+<http://www.bbc.co.uk/things/7e8509dc-a3ec-4f7f-aece-a02e18f203b5#id> a curric:TopicOfStudy ;
+    rdfs:label "Production"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Production"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b843137d-a7a1-4f77-9545-61c5ad4f4eac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/cb07b8be-d4fe-406c-9a76-64c3b33b838d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3dfsg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/82d825c8-0877-4f16-a23d-62c301c73160#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1e547bf8-12cc-4963-9276-1f81dcf3b7bd#id>,
+        <http://www.bbc.co.uk/things/49e2303c-94dc-468b-93be-90b0ed82dee5#id>,
+        <http://www.bbc.co.uk/things/6abad8d8-8f8a-4a9a-b874-4e7fe46a48d3#id>,
+        <http://www.bbc.co.uk/things/70697f63-e12b-47ec-a4ae-4490bf8416fc#id>,
+        <http://www.bbc.co.uk/things/87a78f76-5a29-4bdb-b5c1-e69d7d750cef#id>,
+        <http://www.bbc.co.uk/things/fd276fdf-06c9-44bf-b11d-3638888b8b6a#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z8wyfrd#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/87a78f76-5a29-4bdb-b5c1-e69d7d750cef#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/0041e203-ad80-408c-843b-29d71ec5369d#id> .
+
+<http://www.bbc.co.uk/things/883472ff-ead3-4a05-be14-e03dc9279255#id> a curric:TopicOfStudy ;
+    rdfs:label "People in business"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "People in business"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fea24e0b-6d8b-40e5-b9c6-16149d130541#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/76534555-7114-461c-9740-c3099d3a50bf#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zg2gbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8ad4b2e9-94e2-4dc1-982c-7f29adb54f74#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/883472ff-ead3-4a05-be14-e03dc9279255#id> .
+
+<http://www.bbc.co.uk/things/947df268-5609-40bd-9de1-9d45375bfd31#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/d1534198-beae-4c89-ad95-fbf43c8fa503#id> .
+
+<http://www.bbc.co.uk/things/99b90ba8-cd75-4552-a4ea-e8f20051f497#id> a curric:TopicOfStudy ;
+    rdfs:label "Aims and organisation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Aims and organisation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f86d138a-a6de-4f5e-8e9d-0175303cb357#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/783967b6-798b-4383-9752-36cd54c291ee#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zg8snbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a1d46e00-15bf-47b5-b418-852b6596ef10#id> a curric:TopicOfStudy ;
+    rdfs:label "Marketing"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Marketing"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fe461948-5257-4704-aa30-63763d25cb0f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/cb07b8be-d4fe-406c-9a76-64c3b33b838d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9mrg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a4fe6b98-5b37-429b-93b9-7ef50c1cfe1c#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/d4deda83-e4d8-4068-86a4-a1b755ccbcdf#id> .
+
+<http://www.bbc.co.uk/things/a7121147-8409-4237-86a9-c1b8db5e0adc#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/2844c090-6dbb-4cbe-9ff0-05a6e853a7fd#id> .
+
+<http://www.bbc.co.uk/things/a9139770-11fe-4809-a704-d742037541b7#id> a curric:TopicOfStudy ;
+    rdfs:label "People in business"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "People in business"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fea24e0b-6d8b-40e5-b9c6-16149d130541#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/61315cb6-d5fe-4141-9630-e8be75c2d17e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs4htyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ab5f6d7f-3826-4ebb-9733-d6f7400693a2#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/2e1044d7-9c35-4a80-9947-18d7f27e3703#id> .
+
+<http://www.bbc.co.uk/things/abf7e2e6-127c-4c6e-9920-a87f8f643151#id> a curric:TopicOfStudy ;
+    rdfs:label "Business environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Business environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e640a949-04df-4ff0-b32e-581e76a39cc6#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/cb07b8be-d4fe-406c-9a76-64c3b33b838d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zy9phv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b2230232-bdb3-41ff-b2cd-b0c0fcd3cbba#id> a curric:TopicOfStudy ;
+    rdfs:label "Business environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Business environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e640a949-04df-4ff0-b32e-581e76a39cc6#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/783967b6-798b-4383-9752-36cd54c291ee#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z87b39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b780e8d3-42b7-4f85-89b4-6214b803daf3#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0bfaa972-0840-4380-8d70-e2065ea43990#id>,
+        <http://www.bbc.co.uk/things/416bf292-f386-4b5d-b0ae-b36d8825786b#id>,
+        <http://www.bbc.co.uk/things/4719e6b0-2fe7-4875-a423-3c4e959a4666#id>,
+        <http://www.bbc.co.uk/things/ab5f6d7f-3826-4ebb-9733-d6f7400693a2#id>,
+        <http://www.bbc.co.uk/things/bd3a7aba-cadb-4b05-86df-e5a2dcadbd67#id>,
+        <http://www.bbc.co.uk/things/eaa7cdeb-d3f2-4793-a60b-fe9354ee1add#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z3gxmnb#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/bd3a7aba-cadb-4b05-86df-e5a2dcadbd67#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/fb492b40-56a5-4559-b4dc-09f962ee1f02#id> .
+
+<http://www.bbc.co.uk/things/bdcad7a8-8df6-41e1-9d4b-f01611fd2b59#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/447b56b9-bf66-4310-bf4a-161460fec219#id> .
+
+<http://www.bbc.co.uk/things/caa3a883-e927-4071-9c75-87d109929c42#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/30f65c9e-8329-444a-950a-9718143f996c#id> .
+
+<http://www.bbc.co.uk/things/d1534198-beae-4c89-ad95-fbf43c8fa503#id> a curric:TopicOfStudy ;
+    rdfs:label "Finance"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Finance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/78cc941f-df0e-4908-bd25-11d790e12fa1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/cb07b8be-d4fe-406c-9a76-64c3b33b838d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zc7b39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d4deda83-e4d8-4068-86a4-a1b755ccbcdf#id> a curric:TopicOfStudy ;
+    rdfs:label "People in business"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "People in business"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fea24e0b-6d8b-40e5-b9c6-16149d130541#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/cb07b8be-d4fe-406c-9a76-64c3b33b838d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgjvycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d98cf73d-9563-4ff8-b288-e27a04b57cfa#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/7e8509dc-a3ec-4f7f-aece-a02e18f203b5#id> .
+
+<http://www.bbc.co.uk/things/de7c7a34-4e45-4a5f-b2f2-b35f31ba934b#id> a curric:TopicOfStudy ;
+    rdfs:label "Aims and organisation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Aims and organisation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f86d138a-a6de-4f5e-8e9d-0175303cb357#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/76534555-7114-461c-9740-c3099d3a50bf#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8p8k7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/eaa7cdeb-d3f2-4793-a60b-fe9354ee1add#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/3e59cdc5-d76e-439c-9149-5a42c4da7da0#id> .
+
+<http://www.bbc.co.uk/things/ee208b95-7eb4-4fd6-94fe-01c1e2d1aebb#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/12eac6e5-3f4f-45d9-a61f-4c42c13a007a#id>,
+        <http://www.bbc.co.uk/things/4560202a-98c7-4b0d-afef-c1494743df1b#id>,
+        <http://www.bbc.co.uk/things/630c3ecb-0b3b-4e08-a092-28e31ab598ce#id>,
+        <http://www.bbc.co.uk/things/8ad4b2e9-94e2-4dc1-982c-7f29adb54f74#id>,
+        <http://www.bbc.co.uk/things/ef42fd15-d9e8-43dd-8f1a-39c514431230#id>,
+        <http://www.bbc.co.uk/things/f1d186f2-b708-4508-9711-aac94c0e9b73#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zc9phv4#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/ef42fd15-d9e8-43dd-8f1a-39c514431230#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/10dd0ebc-8e4a-497f-9e2f-b5dbcf7ec939#id> .
+
+<http://www.bbc.co.uk/things/efdc4496-afc0-423b-88e8-5f7077041414#id> a curric:TopicOfStudy ;
+    rdfs:label "Finance"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Finance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/78cc941f-df0e-4908-bd25-11d790e12fa1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/61315cb6-d5fe-4141-9630-e8be75c2d17e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyknp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f1d186f2-b708-4508-9711-aac94c0e9b73#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/314aff4c-9ff8-43bd-b508-f6b258261dc4#id> .
+
+<http://www.bbc.co.uk/things/f5b65841-a27f-40b6-9844-ce9e66a11ef8#id> a curric:TopicOfStudy ;
+    rdfs:label "Finance"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Finance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/78cc941f-df0e-4908-bd25-11d790e12fa1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/17c4c594-1bdf-441f-b0d6-a9703d7e1314#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqfjwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fb492b40-56a5-4559-b4dc-09f962ee1f02#id> a curric:TopicOfStudy ;
+    rdfs:label "Production"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Business curriculum"@en-gb ;
+    core:preferredLabel "Production"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b843137d-a7a1-4f77-9545-61c5ad4f4eac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/17c4c594-1bdf-441f-b0d6-a9703d7e1314#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8hk9qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fd276fdf-06c9-44bf-b11d-3638888b8b6a#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/23460abd-604c-471e-b748-d4a4881e0060#id> .
+
+<http://www.bbc.co.uk/things/78cc941f-df0e-4908-bd25-11d790e12fa1#id> a curric:Topic ;
+    rdfs:label "Finance"@en-gb ;
+    core:preferredLabel "Finance"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztfjwxs#topic> .
+
+<http://www.bbc.co.uk/things/b843137d-a7a1-4f77-9545-61c5ad4f4eac#id> a curric:Topic ;
+    rdfs:label "Production"@en-gb ;
+    core:preferredLabel "Production"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwmrg82#topic> .
+
+<http://www.bbc.co.uk/things/e640a949-04df-4ff0-b32e-581e76a39cc6#id> a curric:Topic ;
+    rdfs:label "Business environment"@en-gb ;
+    core:preferredLabel "Business environment"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9jvycw#topic> .
+
+<http://www.bbc.co.uk/things/f86d138a-a6de-4f5e-8e9d-0175303cb357#id> a curric:Topic ;
+    rdfs:label "Aims and organisation"@en-gb ;
+    core:preferredLabel "Aims and organisation"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z39phv4#topic> .
+
+<http://www.bbc.co.uk/things/fe461948-5257-4704-aa30-63763d25cb0f#id> a curric:Topic ;
+    rdfs:label "Marketing"@en-gb ;
+    core:preferredLabel "Marketing"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsbm2p3#topic> .
+
+<http://www.bbc.co.uk/things/fea24e0b-6d8b-40e5-b9c6-16149d130541#id> a curric:Topic ;
+    rdfs:label "People in business"@en-gb ;
+    core:preferredLabel "People in business"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2hk9qt#topic> .
+
+<http://www.bbc.co.uk/things/17c4c594-1bdf-441f-b0d6-a9703d7e1314#id> a curric:ExamSpecification ;
+    rdfs:label "WJEC"@en-gb ;
+    core:disambiguationHint "WJEC GCSE Business"@en-gb ;
+    core:preferredLabel "WJEC"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/25d85da2-d7b5-49bc-8b06-55e695f7966b#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:topics <http://www.bbc.co.uk/things/b780e8d3-42b7-4f85-89b4-6214b803daf3#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z3gxmnb#exam-specification> .
+
+<http://www.bbc.co.uk/things/61315cb6-d5fe-4141-9630-e8be75c2d17e#id> a curric:ExamSpecification ;
+    rdfs:label "OCR"@en-gb ;
+    core:disambiguationHint "OCR GCSE Business"@en-gb ;
+    core:preferredLabel "OCR"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:topics <http://www.bbc.co.uk/things/82d825c8-0877-4f16-a23d-62c301c73160#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z8wyfrd#exam-specification> .
+
+<http://www.bbc.co.uk/things/76534555-7114-461c-9740-c3099d3a50bf#id> a curric:ExamSpecification ;
+    rdfs:label "CCEA"@en-gb ;
+    core:disambiguationHint "CCEA GCSE Business"@en-gb ;
+    core:preferredLabel "CCEA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/ac46086e-0c56-4ee6-aeef-ed2b4f640d66#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:topics <http://www.bbc.co.uk/things/ee208b95-7eb4-4fd6-94fe-01c1e2d1aebb#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zc9phv4#exam-specification> .
+
+<http://www.bbc.co.uk/things/783967b6-798b-4383-9752-36cd54c291ee#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Business"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:topics <http://www.bbc.co.uk/things/311c2378-4456-41f8-9366-d8152d4cb7a4#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zwq3v4j#exam-specification> .
+
+<http://www.bbc.co.uk/things/cb07b8be-d4fe-406c-9a76-64c3b33b838d#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Business"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/19a163e4-52d2-41c4-b0a0-cb25640cc76b#id> ;
+    curric:topics <http://www.bbc.co.uk/things/0aa3213a-c7de-4d73-8065-af6f4a209858#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z98snbk#exam-specification> .
+

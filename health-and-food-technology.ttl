@@ -20,7 +20,7 @@
     core:preferredLabel "Food product development"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/5fbb394c-4739-4896-9532-0dfe9609d2f5#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/1bbe35e1-1fd1-4a36-b9a3-35b7d1ca4ca2#id> ;
-    = <http://www.bbc.co.uk/education/topics/zhsb87h#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zhsb87h#topic-of-study> .
 
 <http://www.bbc.co.uk/things/18626c88-d89a-4c44-9188-6e90d3c4c288#id> a olo:Slot ;
     olo:index 1 ;
@@ -30,7 +30,7 @@
     olo:slot <http://www.bbc.co.uk/things/18626c88-d89a-4c44-9188-6e90d3c4c288#id>,
         <http://www.bbc.co.uk/things/80ce1fba-ff87-45df-a8ca-510692819f25#id>,
         <http://www.bbc.co.uk/things/d692721a-9787-4ec2-bb8f-ebf57c89e53a#id> ;
-    = <http://www.bbc.co.uk/education/subjects/zvvrwmn#topics-of-study-list> .
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zvvrwmn#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/30f65eec-93e5-45f1-9a60-57a2532e764d#id> a curric:TopicOfStudy ;
     rdfs:label "Contemporary food issues"@en-gb ;
@@ -38,7 +38,7 @@
     core:preferredLabel "Contemporary food issues"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/2e4ac853-5385-456b-99cb-020c3384d9ed#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/69473129-681c-49f5-ac8f-de9df62c3ff1#id> ;
-    = <http://www.bbc.co.uk/education/topics/z26sr82#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z26sr82#topic-of-study> .
 
 <http://www.bbc.co.uk/things/34b366af-0da4-44d2-856d-82c79475bc08#id> a olo:Slot ;
     olo:index 3 ;
@@ -50,13 +50,13 @@
     core:preferredLabel "Food product development"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/5fbb394c-4739-4896-9532-0dfe9609d2f5#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/8ac213b5-df29-4a8c-88d8-8a83c58ea01d#id> ;
-    = <http://www.bbc.co.uk/education/topics/z7xngk7#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z7xngk7#topic-of-study> .
 
 <http://www.bbc.co.uk/things/3e7805da-788f-413c-91dd-d40e555b0974#id> a curric:TopicOfStudyList ;
     olo:slot <http://www.bbc.co.uk/things/90ed9ba5-0c69-4d9a-82c2-e601888cb49e#id>,
         <http://www.bbc.co.uk/things/a88e11e6-56b9-4216-803c-85fcb75da897#id>,
         <http://www.bbc.co.uk/things/fe664e90-99e5-46a0-adcb-740d00f05aa7#id> ;
-    = <http://www.bbc.co.uk/education/subjects/zjw2n39#topics-of-study-list> .
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zjw2n39#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/4efe2da6-dede-4251-905c-62219d61cdbe#id> a curric:TopicOfStudy ;
     rdfs:label "Contemporary food issues"@en-gb ;
@@ -64,7 +64,7 @@
     core:preferredLabel "Contemporary food issues"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/2e4ac853-5385-456b-99cb-020c3384d9ed#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/1bbe35e1-1fd1-4a36-b9a3-35b7d1ca4ca2#id> ;
-    = <http://www.bbc.co.uk/education/topics/z6pv9j6#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z6pv9j6#topic-of-study> .
 
 <http://www.bbc.co.uk/things/4ffe9397-1d6f-487d-9f6a-acddda4ecd58#id> a curric:TopicOfStudy ;
     rdfs:label "Food product development"@en-gb ;
@@ -72,7 +72,7 @@
     core:preferredLabel "Food product development"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/5fbb394c-4739-4896-9532-0dfe9609d2f5#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/69473129-681c-49f5-ac8f-de9df62c3ff1#id> ;
-    = <http://www.bbc.co.uk/education/topics/zxhy4wx#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxhy4wx#topic-of-study> .
 
 <http://www.bbc.co.uk/things/5d1b1210-b0d9-404e-a258-5424df5fa492#id> a curric:TopicOfStudy ;
     rdfs:label "Contemporary food issues"@en-gb ;
@@ -80,7 +80,7 @@
     core:preferredLabel "Contemporary food issues"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/2e4ac853-5385-456b-99cb-020c3384d9ed#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/8ac213b5-df29-4a8c-88d8-8a83c58ea01d#id> ;
-    = <http://www.bbc.co.uk/education/topics/zj2h34j#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zj2h34j#topic-of-study> .
 
 <http://www.bbc.co.uk/things/80ce1fba-ff87-45df-a8ca-510692819f25#id> a olo:Slot ;
     olo:index 2 ;
@@ -96,7 +96,7 @@
     core:preferredLabel "Food for health"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/fe9dda69-4a59-48cb-8693-f0242bac9660#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/1bbe35e1-1fd1-4a36-b9a3-35b7d1ca4ca2#id> ;
-    = <http://www.bbc.co.uk/education/topics/ztn3kqt#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztn3kqt#topic-of-study> .
 
 <http://www.bbc.co.uk/things/a88e11e6-56b9-4216-803c-85fcb75da897#id> a olo:Slot ;
     olo:index 2 ;
@@ -120,7 +120,7 @@
     core:preferredLabel "Food for health"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/fe9dda69-4a59-48cb-8693-f0242bac9660#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/8ac213b5-df29-4a8c-88d8-8a83c58ea01d#id> ;
-    = <http://www.bbc.co.uk/education/topics/zqmpb9q#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqmpb9q#topic-of-study> .
 
 <http://www.bbc.co.uk/things/ebbff524-9d11-4bdd-95f7-a8eabc8a3de0#id> a curric:TopicOfStudy ;
     rdfs:label "Food for health"@en-gb ;
@@ -128,13 +128,13 @@
     core:preferredLabel "Food for health"@en-gb ;
     curric:about <http://www.bbc.co.uk/things/fe9dda69-4a59-48cb-8693-f0242bac9660#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/69473129-681c-49f5-ac8f-de9df62c3ff1#id> ;
-    = <http://www.bbc.co.uk/education/topics/zmtfcdm#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zmtfcdm#topic-of-study> .
 
 <http://www.bbc.co.uk/things/f4d777f1-8b58-4586-a838-e88814d07af7#id> a curric:TopicOfStudyList ;
     olo:slot <http://www.bbc.co.uk/things/34b366af-0da4-44d2-856d-82c79475bc08#id>,
         <http://www.bbc.co.uk/things/a8f9f8fa-8577-47cc-8668-3abab2df6b52#id>,
         <http://www.bbc.co.uk/things/b3914723-8e29-4f39-bdc7-4de6b6270c29#id> ;
-    = <http://www.bbc.co.uk/education/subjects/zt6ngk7#topics-of-study-list> .
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zt6ngk7#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/fe664e90-99e5-46a0-adcb-740d00f05aa7#id> a olo:Slot ;
     olo:index 3 ;
@@ -146,12 +146,12 @@
 <http://www.bbc.co.uk/things/2e4ac853-5385-456b-99cb-020c3384d9ed#id> a curric:Topic ;
     rdfs:label "Contemporary food issues"@en-gb ;
     core:preferredLabel "Contemporary food issues"@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/zffb87h#topic> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zffb87h#topic> .
 
 <http://www.bbc.co.uk/things/5fbb394c-4739-4896-9532-0dfe9609d2f5#id> a curric:Topic ;
     rdfs:label "Food product development"@en-gb ;
     core:preferredLabel "Food product development"@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/zv3cjxs#topic> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zv3cjxs#topic> .
 
 <http://www.bbc.co.uk/things/69473129-681c-49f5-ac8f-de9df62c3ff1#id> a curric:ProgrammeOfStudy ;
     curric:topics <http://www.bbc.co.uk/things/f4d777f1-8b58-4586-a838-e88814d07af7#id> .
@@ -162,5 +162,5 @@
 <http://www.bbc.co.uk/things/fe9dda69-4a59-48cb-8693-f0242bac9660#id> a curric:Topic ;
     rdfs:label "Food for health"@en-gb ;
     core:preferredLabel "Food for health"@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/zyygd2p#topic> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyygd2p#topic> .
 

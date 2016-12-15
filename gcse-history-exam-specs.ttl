@@ -10,119 +10,1409 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://www.bbc.co.uk/contexts/9f41f2aa-6557-4506-86e5-13518693ad9a#id> a provenance:Dataset ;
-    rdfs:label "GCSE History Exam Specs" ;
+    rdfs:label "GCSE History (2016 onwards) Exam Specificationss" ;
     dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
-    provenance:version "3"^^xsd:int .
+    provenance:version "5"^^xsd:int .
 
-<http://www.bbc.co.uk/things/1efb381e-f00d-4839-8f6d-924f9ae5561f#id> a curric:ExamSpecification ;
-    curric:topics <http://www.bbc.co.uk/things/67e8bfb3-5509-4d31-90f6-ed83f9b88c55#id> .
-
-<http://www.bbc.co.uk/things/7f61b7ee-0af6-4e60-98fd-482d64ae18c9#id> a curric:ExamSpecification ;
-    curric:topics <http://www.bbc.co.uk/things/6b56b97f-b8bf-4be9-9802-4b281ff93ae5#id> .
-
-<http://www.bbc.co.uk/things/934a00ab-7f65-4ba2-bc30-4d604d3a2d08#id> a curric:ExamSpecification ;
-    curric:topics <http://www.bbc.co.uk/things/f8d4726a-c722-4c92-8c78-b666fbbe2d19#id> .
-
-<http://www.bbc.co.uk/things/b85e83dc-568d-4aec-a447-77ad97f75e63#id> a curric:ExamSpecification ;
-    curric:topics <http://www.bbc.co.uk/things/666f7055-cfe1-45ad-8cbc-907d5147b4ce#id> .
-
-<http://www.bbc.co.uk/things/e0e3e49c-06b5-4115-a59d-2884bf8486b2#id> a curric:ExamSpecification ;
-    curric:topics <http://www.bbc.co.uk/things/671d756c-b771-45a7-bc51-987f16c3486e#id> .
-
-<http://www.bbc.co.uk/things/f54d47e2-be42-4d84-97bc-7eb2ae8ba235#id> a curric:ExamSpecification ;
-    curric:topics <http://www.bbc.co.uk/things/3f3601e0-ec0d-4653-a95a-41ee85f99e79#id> .
-
-<http://www.bbc.co.uk/things/3f3601e0-ec0d-4653-a95a-41ee85f99e79#id> a curric:TopicOfStudyList ;
-    olo:slot <http://www.bbc.co.uk/things/ba8d8314-edae-44f1-8e66-4ad9ded7e742#id>,
-        <http://www.bbc.co.uk/things/fe780159-aaa4-481a-8570-922a2de46606#id> ;
-    = <http://www.bbc.co.uk/education/subjects/z8sr2hv#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/51f55067-3539-41b6-ad34-e36860799211#id> a curric:TopicOfStudy ;
-    rdfs:label "Weimar and Nazi Germany"@en-gb ;
-    dc:description " "@en-gb ;
-    core:disambiguationHint "GCSE History curriculum"@en-gb ;
-    core:preferredLabel "Weimar and Nazi Germany"@en-gb ;
-    curric:about <http://www.bbc.co.uk/things/6c56bc00-6905-4201-87d9-bf7f11c0f272#id> ;
-    curric:appropriateFor <http://www.bbc.co.uk/things/5ecac66d-6239-4924-a856-1a6ae49ca58b#id> ;
-    curric:preferredDescription " "@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/zqrb9qt#topic-of-study> .
-
-<http://www.bbc.co.uk/things/666f7055-cfe1-45ad-8cbc-907d5147b4ce#id> a curric:TopicOfStudyList ;
-    olo:slot <http://www.bbc.co.uk/things/d3b7c4dc-53ca-4d93-9a21-43fe6b697c09#id>,
-        <http://www.bbc.co.uk/things/fe780159-aaa4-481a-8570-922a2de46606#id> ;
-    = <http://www.bbc.co.uk/education/subjects/zq3ktfr#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/671d756c-b771-45a7-bc51-987f16c3486e#id> a curric:TopicOfStudyList ;
-    olo:slot <http://www.bbc.co.uk/things/5c56e6d8-99e8-495c-a182-52065019972e#id>,
-        <http://www.bbc.co.uk/things/fe780159-aaa4-481a-8570-922a2de46606#id> ;
-    = <http://www.bbc.co.uk/education/subjects/zwy4xnb#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/67e8bfb3-5509-4d31-90f6-ed83f9b88c55#id> a curric:TopicOfStudyList ;
-    olo:slot <http://www.bbc.co.uk/things/5c56e6d8-99e8-495c-a182-52065019972e#id>,
-        <http://www.bbc.co.uk/things/a0ac70ea-00e2-4d33-b844-0a9671d39ec0#id>,
-        <http://www.bbc.co.uk/things/d3b7c4dc-53ca-4d93-9a21-43fe6b697c09#id>,
-        <http://www.bbc.co.uk/things/fe780159-aaa4-481a-8570-922a2de46606#id> ;
-    = <http://www.bbc.co.uk/education/subjects/zjv96sg#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/6b56b97f-b8bf-4be9-9802-4b281ff93ae5#id> a curric:TopicOfStudyList ;
-    olo:slot <http://www.bbc.co.uk/things/d3b7c4dc-53ca-4d93-9a21-43fe6b697c09#id> ;
-    = <http://www.bbc.co.uk/education/subjects/zdfcmp3#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/a39393c5-c452-4954-9c7a-8d26ab8dffce#id> a curric:TopicOfStudy ;
-    rdfs:label "Migration"@en-gb ;
-    dc:description " "@en-gb ;
-    core:disambiguationHint "GCSE History curriculum"@en-gb ;
-    core:preferredLabel "Migration"@en-gb ;
-    curric:about <http://www.bbc.co.uk/things/6c56bc00-6905-4201-87d9-bf7f11c0f272#id> ;
-    curric:appropriateFor <http://www.bbc.co.uk/things/5ecac66d-6239-4924-a856-1a6ae49ca58b#id> ;
-    curric:preferredDescription " "@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/z24r82p#topic-of-study> .
-
-<http://www.bbc.co.uk/things/b9833f11-b744-4b23-a865-faf1a59331f2#id> a curric:TopicOfStudy ;
-    rdfs:label "Elizabethans"@en-gb ;
-    dc:description " "@en-gb ;
-    core:disambiguationHint "GCSE History curriculum"@en-gb ;
-    core:preferredLabel "Elizabethans"@en-gb ;
-    curric:about <http://www.bbc.co.uk/things/6c56bc00-6905-4201-87d9-bf7f11c0f272#id> ;
-    curric:appropriateFor <http://www.bbc.co.uk/things/5ecac66d-6239-4924-a856-1a6ae49ca58b#id> ;
-    curric:preferredDescription " "@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/z8vfg82#topic-of-study> .
-
-<http://www.bbc.co.uk/things/de9399a4-eff4-4ecd-8676-0ec8a2a6d71d#id> a curric:TopicOfStudy ;
-    rdfs:label "Cold War"@en-gb ;
-    dc:description " "@en-gb ;
-    core:disambiguationHint "GCSE History curriculum"@en-gb ;
-    core:preferredLabel "Cold War"@en-gb ;
-    curric:about <http://www.bbc.co.uk/things/6c56bc00-6905-4201-87d9-bf7f11c0f272#id> ;
-    curric:appropriateFor <http://www.bbc.co.uk/things/5ecac66d-6239-4924-a856-1a6ae49ca58b#id> ;
-    curric:preferredDescription " "@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/zwbvcwx#topic-of-study> .
-
-<http://www.bbc.co.uk/things/f8d4726a-c722-4c92-8c78-b666fbbe2d19#id> a curric:TopicOfStudyList ;
-    olo:slot <http://www.bbc.co.uk/things/5c56e6d8-99e8-495c-a182-52065019972e#id>,
-        <http://www.bbc.co.uk/things/a0ac70ea-00e2-4d33-b844-0a9671d39ec0#id>,
-        <http://www.bbc.co.uk/things/ba8d8314-edae-44f1-8e66-4ad9ded7e742#id>,
-        <http://www.bbc.co.uk/things/d3b7c4dc-53ca-4d93-9a21-43fe6b697c09#id>,
-        <http://www.bbc.co.uk/things/fe780159-aaa4-481a-8570-922a2de46606#id> ;
-    = <http://www.bbc.co.uk/education/subjects/zkng7ty#topics-of-study-list> .
-
-<http://www.bbc.co.uk/things/a0ac70ea-00e2-4d33-b844-0a9671d39ec0#id> a olo:Slot ;
-    olo:index 3 ;
-    olo:item <http://www.bbc.co.uk/things/de9399a4-eff4-4ecd-8676-0ec8a2a6d71d#id> .
-
-<http://www.bbc.co.uk/things/ba8d8314-edae-44f1-8e66-4ad9ded7e742#id> a olo:Slot ;
-    olo:index 5 ;
-    olo:item <http://www.bbc.co.uk/things/a39393c5-c452-4954-9c7a-8d26ab8dffce#id> .
-
-<http://www.bbc.co.uk/things/5c56e6d8-99e8-495c-a182-52065019972e#id> a olo:Slot ;
-    olo:index 1 ;
-    olo:item <http://www.bbc.co.uk/things/c238af98-5d59-444b-8599-0b85230ffec3#id> .
-
-<http://www.bbc.co.uk/things/d3b7c4dc-53ca-4d93-9a21-43fe6b697c09#id> a olo:Slot ;
-    olo:index 2 ;
-    olo:item <http://www.bbc.co.uk/things/b9833f11-b744-4b23-a865-faf1a59331f2#id> .
-
-<http://www.bbc.co.uk/things/fe780159-aaa4-481a-8570-922a2de46606#id> a olo:Slot ;
+<http://www.bbc.co.uk/things/01565a2d-1868-489e-8bfa-ae8ada1bd853#id> a olo:Slot ;
     olo:index 4 ;
-    olo:item <http://www.bbc.co.uk/things/51f55067-3539-41b6-ad34-e36860799211#id> .
+    olo:item <http://www.bbc.co.uk/things/83e1ebd2-6fc0-4f68-bc0d-02a0198cb175#id> .
+
+<http://www.bbc.co.uk/things/01e57e25-c5c8-4946-a82e-b642f3b051b3#id> a curric:Topic ;
+    rdfs:label "Henry VIII"@en-gb ;
+    core:preferredLabel "Henry VIII"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx84rdm#topic> .
+
+<http://www.bbc.co.uk/things/03481877-c69f-4e47-ba2b-a8e1db22410a#id> a curric:TopicOfStudy ;
+    rdfs:label "Early civilisations and empires (pre 12th century)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Early civilisations and empires (pre 12th century)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/26c51847-03ec-407e-b656-bd3e8c41d342#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/ad9bde39-7ee5-4aa2-9258-495938cdd6f3#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zswk4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/03d55855-ad7a-4802-881f-d09788ba9753#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/5ce07054-4545-48e7-baed-6aa665408f5e#id> .
+
+<http://www.bbc.co.uk/things/0625813e-dc91-436b-b89c-a3431b6d2daf#id> a curric:Topic ;
+    rdfs:label "Migrants to Britain c1250 to present"@en-gb ;
+    core:preferredLabel "Migrants to Britain c1250 to present"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx4g39q#topic> .
+
+<http://www.bbc.co.uk/things/07b624f9-97d1-45e9-9cdb-1e10a919427f#id> a curric:TopicOfStudy ;
+    rdfs:label "Early civilisations and empires (pre 12th century)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Early civilisations and empires (pre 12th century)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/26c51847-03ec-407e-b656-bd3e8c41d342#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/976ae0b8-00d4-4170-920a-6c194ee34fd8#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8m7j6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/08d0a460-75e3-4516-a6e4-f530b6945306#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/f68396fa-2a6f-4bad-931b-cbb5126bbceb#id> .
+
+<http://www.bbc.co.uk/things/09cdd4af-4c8c-4910-b36e-299dd1ca3aed#id> a curric:TopicOfStudy ;
+    rdfs:label "World War One"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "World War One"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d456ae94-c674-40ac-a6d7-11f84fa84376#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxkcg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/10e8c9de-707d-463c-95bd-6baa4837ad04#id> a curric:Topic ;
+    rdfs:label "Vikings"@en-gb ;
+    core:preferredLabel "Vikings"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxcbv4j#topic> .
+
+<http://www.bbc.co.uk/things/1154fa85-fa86-4f72-a620-ed0b64a6fd85#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/5e409c11-41a3-4b52-88a0-aa9e863270d4#id> .
+
+<http://www.bbc.co.uk/things/160156fb-4115-48c0-88a6-04a8a6981c46#id> a curric:TopicOfStudy ;
+    rdfs:label "China"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "China"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e39b531e-4b8d-466c-8d98-bb7f53d1d2fd#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3tm7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1634e87a-deae-4383-b64a-f291ebb03fff#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/799d2f67-b34a-4112-8dea-f6426e0c8b0b#id> .
+
+<http://www.bbc.co.uk/things/173e051a-1563-453b-8b97-13b07d7db20f#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/bd11c995-0d69-401a-854d-1d001b0a211d#id> .
+
+<http://www.bbc.co.uk/things/177aa988-65aa-4ce1-90a1-1909c147c693#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/64b16601-4289-4e53-9ad6-735cbe5ca550#id>,
+        <http://www.bbc.co.uk/things/bdc63cc6-ce2e-4dcf-9b7e-5ea36f8a2dcc#id>,
+        <http://www.bbc.co.uk/things/d54b5dab-0cbe-4b18-8797-2183ec4b357c#id>,
+        <http://www.bbc.co.uk/things/f6e2b0f0-a83f-47da-880f-8528a581d239#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zqkrbk7#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/18da2d35-8dc7-4027-92de-7d3d63d301db#id> a curric:TopicOfStudy ;
+    rdfs:label "International Perspectives 1918-1939"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "International Perspectives 1918-1939"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/471b6731-df5e-4e45-969d-61e07d39c265#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z86m7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/19d30735-d4a8-46d3-aabc-10aedf68f2ee#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/5feed4ef-ae12-4dbf-ad18-bd78f5672e1d#id> .
+
+<http://www.bbc.co.uk/things/1b506cbd-2e18-4481-a3b9-cadf2d52aee7#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/ab6474f0-56fe-46c1-b0c4-4f5fd233ed5e#id> .
+
+<http://www.bbc.co.uk/things/1e7fbea5-5d07-4708-8f52-4ddeb0c108cd#id> a curric:TopicOfStudy ;
+    rdfs:label "Germany"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Germany"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3c5b3a93-2c5f-4e42-a86e-cf4ff4f89103#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxvfnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1eec7201-20f8-4d45-acb7-d8500265adbd#id> a curric:TopicOfStudy ;
+    rdfs:label "Modern World history (20th century)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR A GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Modern World history (20th century)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f33a509b-662d-41a9-bb19-675e58718772#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/e747f09d-d166-4bda-94c0-a735ffd89119#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgx7j6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1f01a54f-78cb-4e20-bddf-c7718b4733de#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/762877cf-c0b9-4d55-b660-610fc9978640#id> .
+
+<http://www.bbc.co.uk/things/230434f7-40de-4f83-ab96-7c8fcbc9d7ad#id> a curric:TopicOfStudy ;
+    rdfs:label "Elizabeth I"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Elizabeth I"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/55cea41f-a493-4f14-bcaf-d36d52273fc4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwynhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/230c7f89-fe9a-48f8-b947-4e6634b373fa#id> a curric:TopicOfStudy ;
+    rdfs:label "USA"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "USA"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fc59d787-0d34-4dd3-8c63-49ab5948d15e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2vsp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/246489b5-7f47-46d5-aee6-07891f9d2111#id> a curric:TopicOfStudy ;
+    rdfs:label "Change and conflict in Britain 1500 - 1760"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Change and conflict in Britain 1500 - 1760"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/18d02dad-d1b8-4b1c-9f3a-a73649285ea2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcx7j6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2540ab0e-8f43-4c4e-a0bf-ba8183c43972#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/fd4c2389-cb48-4cd2-b61e-edf82ecddb88#id> .
+
+<http://www.bbc.co.uk/things/25c4a1cd-d868-4daf-95ec-272a2892d261#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/42ff7910-4d9c-45b7-8805-31630e15a551#id>,
+        <http://www.bbc.co.uk/things/a8fd3530-f644-4dc4-8a4a-e6c8bcbeae28#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z8rvfrd#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/25ff1260-0e37-4162-a3f2-073ef5bdd75f#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/5b563060-b437-49dd-a6e1-7ca6d4fa64aa#id>,
+        <http://www.bbc.co.uk/things/63cd1d02-43cb-4f30-a4d1-00378a5435ac#id>,
+        <http://www.bbc.co.uk/things/6ab99afa-a711-462c-a138-4a86fba426e8#id>,
+        <http://www.bbc.co.uk/things/7ef5d09f-e3c1-45a8-8e22-4edf5757e177#id>,
+        <http://www.bbc.co.uk/things/9c05fc1f-5a54-41f3-ad69-de7fcdba772a#id>,
+        <http://www.bbc.co.uk/things/9e542c73-8d33-4d60-bbef-750c5946eab7#id>,
+        <http://www.bbc.co.uk/things/d91f9ace-e731-4700-8060-b1912eb5d79a#id>,
+        <http://www.bbc.co.uk/things/f795a7c6-b10b-4d85-813a-23076ff4d215#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3qdk7h#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/270c300d-43f6-4146-a6ca-1750aad0bde5#id> a curric:TopicOfStudy ;
+    rdfs:label "Modern World history (20th century)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Modern World history (20th century)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f33a509b-662d-41a9-bb19-675e58718772#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/25ff1260-0e37-4162-a3f2-073ef5bdd75f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3qdk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2df0690f-4ea0-4373-9894-495793850bac#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/01565a2d-1868-489e-8bfa-ae8ada1bd853#id>,
+        <http://www.bbc.co.uk/things/173e051a-1563-453b-8b97-13b07d7db20f#id>,
+        <http://www.bbc.co.uk/things/2540ab0e-8f43-4c4e-a0bf-ba8183c43972#id>,
+        <http://www.bbc.co.uk/things/6afb05f7-d98f-4b1f-afbe-d13ba2ca0ca2#id>,
+        <http://www.bbc.co.uk/things/6d76b9b7-6018-46bc-8293-ce3cde021532#id>,
+        <http://www.bbc.co.uk/things/73099c4b-8c83-46c8-8301-053eb5b11575#id>,
+        <http://www.bbc.co.uk/things/743e6184-3af3-46b5-93de-c74f89301b9e#id>,
+        <http://www.bbc.co.uk/things/91884281-9778-42d6-971f-d7ea2390f5e9#id>,
+        <http://www.bbc.co.uk/things/deb00a1a-c83b-4d81-b505-9c97eeba1af6#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgp6mnb#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/2e531283-f08d-4885-b8e6-82a074e3bc47#id> a curric:TopicOfStudy ;
+    rdfs:label "Germany"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR A GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Germany"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3c5b3a93-2c5f-4e42-a86e-cf4ff4f89103#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsd9cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3038a391-9ba3-4c1b-a029-aa25bd53cfce#id> a curric:TopicOfStudy ;
+    rdfs:label "The Cold War and Vietnam"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "The Cold War and Vietnam"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6a5fab20-3bc8-4b70-a9ab-671b60a3e996#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwbysg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/35dff6e8-9609-4638-9e20-0c0bf9b1027c#id> a curric:TopicOfStudy ;
+    rdfs:label "Migrants to Britain c1250 to present"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Migrants to Britain c1250 to present"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0625813e-dc91-436b-b89c-a3431b6d2daf#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyqdk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/373542c1-4632-4bee-9edc-6085aa4d72d9#id> a curric:TopicOfStudy ;
+    rdfs:label "World War Two"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "World War Two"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0e400fc3-1e97-4c4e-8c82-2394c8d0a29f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqr3ycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/39693a2a-87bf-4877-96a1-3c081b4fce94#id> a curric:TopicOfStudy ;
+    rdfs:label "Mary Queen of Scots and the Reformation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Mary Queen of Scots and the Reformation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b4036a46-2365-42f0-9860-ff6b45ce3a5f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyk4rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3bd9a2ac-b1c6-4928-8765-cca84feaaf34#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/b15fde63-d07b-468d-8574-f7392e6a33ed#id> .
+
+<http://www.bbc.co.uk/things/40a1737f-bb37-41ca-b7df-af491e6dcf91#id> a curric:TopicOfStudy ;
+    rdfs:label "Tudors and Stuarts (15th to 17th century)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Tudors and Stuarts (15th to 17th century)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8d677347-ba4d-4747-b9a6-18d284381dfe#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/d24267de-8fb9-446b-ae2a-1a25d2a77d2e#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgqw82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/40bd0305-7dc9-446a-a591-9fcb9961ef41#id> a curric:Topic ;
+    rdfs:label "Anglo-Saxons"@en-gb ;
+    core:preferredLabel "Anglo-Saxons"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcjdk7h#topic> .
+
+<http://www.bbc.co.uk/things/4106eff8-47f2-40a7-867f-36b948349a36#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/66999fa7-69c1-4656-8647-b239cddff376#id> .
+
+<http://www.bbc.co.uk/things/42423701-c347-4b0b-8ecf-c474c9e365d4#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/ac25bc36-02b1-48bb-b49d-44ac592ffacf#id> .
+
+<http://www.bbc.co.uk/things/42ff7910-4d9c-45b7-8805-31630e15a551#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/40a1737f-bb37-41ca-b7df-af491e6dcf91#id> .
+
+<http://www.bbc.co.uk/things/440e52ef-9b4e-43ea-b32d-e5560c3a16a1#id> a curric:TopicOfStudy ;
+    rdfs:label "Britain: migration, empires and the people c790 to the present day"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Britain: migration, empires and the people c790 to the present day"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5fcc3912-5bb1-424e-804b-4ea3ac152e09#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx3fnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/458e8b9f-f09c-4cc0-ba60-bbebb732df5b#id> a curric:TopicOfStudy ;
+    rdfs:label "Change and conflict in Britain 1500 - 1760"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Change and conflict in Britain 1500 - 1760"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/18d02dad-d1b8-4b1c-9f3a-a73649285ea2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcsh6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/48f0f500-7c3f-4ba1-8a3d-d79a5b2913a5#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/7616e1a9-f196-4465-a1b3-34d1502fe825#id>,
+        <http://www.bbc.co.uk/things/8c8d6415-4e94-45e8-9077-7795f44f794f#id>,
+        <http://www.bbc.co.uk/things/8e257260-a0b2-4cd0-ab81-876d92b808a4#id>,
+        <http://www.bbc.co.uk/things/f372a3f8-ed5b-4a22-ae79-b5a470803d1a#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zxjk4j6#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/4a4c82cf-5d0d-4622-88dc-3b3071c79839#id> a curric:TopicOfStudy ;
+    rdfs:label "USSR and Russia"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "USSR and Russia"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/483a82d4-a0f1-4a9f-b0f7-86fb3cb109ac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztd9cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/50394cde-e473-4403-b551-eafe7e0a6c4d#id> a curric:TopicOfStudy ;
+    rdfs:label "World War One"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR A GCSE History curriculum"@en-gb ;
+    core:preferredLabel "World War One"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d456ae94-c674-40ac-a6d7-11f84fa84376#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2bysg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/504791e6-475f-4e6f-bf06-f4cdbc141372#id> a curric:TopicOfStudy ;
+    rdfs:label "Elizabeth I"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Elizabeth I"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/55cea41f-a493-4f14-bcaf-d36d52273fc4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxgvfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5778d124-faf8-4775-b474-fa31d2376794#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/2e531283-f08d-4885-b8e6-82a074e3bc47#id> .
+
+<http://www.bbc.co.uk/things/58180609-7ac0-4ae2-a091-e796b3aa27c2#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/680023c0-7493-477f-98b9-58a35076103f#id>,
+        <http://www.bbc.co.uk/things/82200e42-0dd6-4172-bf47-39cab59b48ca#id>,
+        <http://www.bbc.co.uk/things/909bef29-b696-4e14-b06a-bdc87656bbb3#id>,
+        <http://www.bbc.co.uk/things/976afc03-a50f-42cb-a704-b8e242d89215#id>,
+        <http://www.bbc.co.uk/things/b55cd0e7-e2ad-484e-8f46-298c07cf3cf4#id>,
+        <http://www.bbc.co.uk/things/c3fe769d-3ea5-4f7c-9323-ccae171d1713#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3k4rdm#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/596b90c0-8e74-4ca1-8e65-eddd652b3ba3#id> a curric:TopicOfStudy ;
+    rdfs:label "The Cold War and Vietnam"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "The Cold War and Vietnam"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6a5fab20-3bc8-4b70-a9ab-671b60a3e996#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpcbv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5b563060-b437-49dd-a6e1-7ca6d4fa64aa#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/9eedea59-d7f6-46ef-8196-cbe5f064b473#id> .
+
+<http://www.bbc.co.uk/things/5ce07054-4545-48e7-baed-6aa665408f5e#id> a curric:TopicOfStudy ;
+    rdfs:label "Everyday life in Tudor and Stuart times"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Everyday life in Tudor and Stuart times"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cfb61178-62f2-45c2-8ea6-092fabdb70f5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs4rbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5dbe1ad8-eb90-4e06-a6a4-58992d9010ce#id> a curric:TopicOfStudy ;
+    rdfs:label "USSR and Russia"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "USSR and Russia"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/483a82d4-a0f1-4a9f-b0f7-86fb3cb109ac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqnh6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5e409c11-41a3-4b52-88a0-aa9e863270d4#id> a curric:TopicOfStudy ;
+    rdfs:label "USA"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "USA"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fc59d787-0d34-4dd3-8c63-49ab5948d15e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2fnhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5ed11824-39e1-4014-bad6-e0d582b3e1eb#id> a curric:TopicOfStudy ;
+    rdfs:label "Tudors and Stuarts (15th to 17th century)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Tudors and Stuarts (15th to 17th century)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8d677347-ba4d-4747-b9a6-18d284381dfe#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/58180609-7ac0-4ae2-a091-e796b3aa27c2#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3k4rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5eef1c71-b021-4716-870a-49e881f2f123#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/807c0c98-9d16-4866-b7af-02219dfdab34#id>,
+        <http://www.bbc.co.uk/things/8453f125-6d59-48a4-aa11-e1279c2c151b#id>,
+        <http://www.bbc.co.uk/things/973254d3-22ba-4671-8f32-8a2da8614ced#id>,
+        <http://www.bbc.co.uk/things/ffdfcf8e-a19b-44b0-adf3-079607b15354#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq3fnbk#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/5f8626ec-a30b-4ea4-b014-2f879522677b#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/50394cde-e473-4403-b551-eafe7e0a6c4d#id> .
+
+<http://www.bbc.co.uk/things/5fcc3912-5bb1-424e-804b-4ea3ac152e09#id> a curric:Topic ;
+    rdfs:label "Britain: migration, empires and the people c790 to the present day"@en-gb ;
+    core:preferredLabel "Britain: migration, empires and the people c790 to the present day"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2ynhv4#topic> .
+
+<http://www.bbc.co.uk/things/5feed4ef-ae12-4dbf-ad18-bd78f5672e1d#id> a curric:TopicOfStudy ;
+    rdfs:label "Normans"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Normans"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/20a7fed1-7db9-48f7-99f4-286fb7eb4f91#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2gvfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/611ea0e7-09bf-4cc0-9ce8-5abf900b4961#id> a curric:TopicOfStudy ;
+    rdfs:label "Germany"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Germany"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3c5b3a93-2c5f-4e42-a86e-cf4ff4f89103#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zchx2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/63107e55-1fd0-4ff6-8999-7438376016d6#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/d79243f5-ce67-428c-a248-8ca5ddc1dfee#id> .
+
+<http://www.bbc.co.uk/things/63cd1d02-43cb-4f30-a4d1-00378a5435ac#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/991e4d0a-81f4-4e83-afe7-e89664cd5466#id> .
+
+<http://www.bbc.co.uk/things/6485aad2-b5f9-4493-a4a2-591017f6de99#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/a59db570-3f46-47f5-a888-434fa7e1f104#id> .
+
+<http://www.bbc.co.uk/things/64b16601-4289-4e53-9ad6-735cbe5ca550#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/b438c7bb-f33a-4538-a8e3-4569051c3d6a#id> .
+
+<http://www.bbc.co.uk/things/64c2e337-2bd8-41c1-953e-d05ef9c86e68#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/a90eac46-171b-42aa-9563-6f75028714a5#id> .
+
+<http://www.bbc.co.uk/things/66999fa7-69c1-4656-8647-b239cddff376#id> a curric:TopicOfStudy ;
+    rdfs:label "World War One"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "World War One"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d456ae94-c674-40ac-a6d7-11f84fa84376#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zg62qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/67a70bd5-4b51-4706-9a7a-8e06c203ace3#id> a curric:TopicOfStudy ;
+    rdfs:label "Normans"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Normans"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/20a7fed1-7db9-48f7-99f4-286fb7eb4f91#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zywk4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/680023c0-7493-477f-98b9-58a35076103f#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/96d114b6-977e-437c-ae0b-39dc0e70e012#id> .
+
+<http://www.bbc.co.uk/things/6935e278-2a4f-42d2-a7cb-032238246bad#id> a curric:TopicOfStudy ;
+    rdfs:label "Migration to Britain c1000 to c2010"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR A GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Migration to Britain c1000 to c2010"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aef15961-3a38-4636-a8e0-078f6c2f0d2e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9hx2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6ab99afa-a711-462c-a138-4a86fba426e8#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/975a1215-b73e-4806-b2e7-37000c923945#id> .
+
+<http://www.bbc.co.uk/things/6afb05f7-d98f-4b1f-afbe-d13ba2ca0ca2#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/373542c1-4632-4bee-9edc-6085aa4d72d9#id> .
+
+<http://www.bbc.co.uk/things/6b8fbb73-8790-44b3-88c0-f28f5925116e#id> a curric:TopicOfStudy ;
+    rdfs:label "USSR and Russia"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR A GCSE History curriculum"@en-gb ;
+    core:preferredLabel "USSR and Russia"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/483a82d4-a0f1-4a9f-b0f7-86fb3cb109ac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxr3ycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6d76b9b7-6018-46bc-8293-ce3cde021532#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/4a4c82cf-5d0d-4622-88dc-3b3071c79839#id> .
+
+<http://www.bbc.co.uk/things/708a8f8a-4d16-4f76-8b44-47b3210dd3dd#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/18da2d35-8dc7-4027-92de-7d3d63d301db#id> .
+
+<http://www.bbc.co.uk/things/73099c4b-8c83-46c8-8301-053eb5b11575#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/160156fb-4115-48c0-88a6-04a8a6981c46#id> .
+
+<http://www.bbc.co.uk/things/743e6184-3af3-46b5-93de-c74f89301b9e#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/09cdd4af-4c8c-4910-b36e-299dd1ca3aed#id> .
+
+<http://www.bbc.co.uk/things/74716911-124d-4f0f-a95a-7f866976d409#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/1eec7201-20f8-4d45-acb7-d8500265adbd#id> .
+
+<http://www.bbc.co.uk/things/7616e1a9-f196-4465-a1b3-34d1502fe825#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/a442e39c-6afc-47f4-b07a-067b863d63a7#id> .
+
+<http://www.bbc.co.uk/things/762877cf-c0b9-4d55-b660-610fc9978640#id> a curric:TopicOfStudy ;
+    rdfs:label "The Cold War and Vietnam"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR A GCSE History curriculum"@en-gb ;
+    core:preferredLabel "The Cold War and Vietnam"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6a5fab20-3bc8-4b70-a9ab-671b60a3e996#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8ntxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/799d2f67-b34a-4112-8dea-f6426e0c8b0b#id> a curric:TopicOfStudy ;
+    rdfs:label "The Cold War and Vietnam"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "The Cold War and Vietnam"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6a5fab20-3bc8-4b70-a9ab-671b60a3e996#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zc7jdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7b5958a8-3986-4a09-8e70-31cc4f9390c0#id> a curric:TopicOfStudy ;
+    rdfs:label "Everyday life in Tudor and Stuart times"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Everyday life in Tudor and Stuart times"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cfb61178-62f2-45c2-8ea6-092fabdb70f5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9p6mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7ceb88d8-2a79-48ea-911e-d6f2275f2fb3#id> a curric:TopicOfStudy ;
+    rdfs:label "Mary Queen of Scots and the Reformation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Mary Queen of Scots and the Reformation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b4036a46-2365-42f0-9860-ff6b45ce3a5f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqcbv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7e1ec550-fa2c-4e10-b38e-033808c24448#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/6935e278-2a4f-42d2-a7cb-032238246bad#id> .
+
+<http://www.bbc.co.uk/things/7ef5d09f-e3c1-45a8-8e22-4edf5757e177#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/e8e44e58-9a01-44dc-90a7-d948f49011f3#id> .
+
+<http://www.bbc.co.uk/things/7f96fd7c-0d75-4a86-b30e-e06bf78792ad#id> a curric:TopicOfStudy ;
+    rdfs:label "Elizabeth I"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Elizabeth I"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/55cea41f-a493-4f14-bcaf-d36d52273fc4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3w89qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/807c0c98-9d16-4866-b7af-02219dfdab34#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/e4bc6cb6-14c5-4a47-8d7b-ca78fb2431dc#id> .
+
+<http://www.bbc.co.uk/things/81bb6c29-bfc1-4877-a060-00abe3454cec#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/f074c6d3-0b17-49de-9933-ba6457f7a145#id> .
+
+<http://www.bbc.co.uk/things/82200e42-0dd6-4172-bf47-39cab59b48ca#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/a7f2326b-1455-4945-b076-6e5ee5be8119#id> .
+
+<http://www.bbc.co.uk/things/83e1ebd2-6fc0-4f68-bc0d-02a0198cb175#id> a curric:TopicOfStudy ;
+    rdfs:label "USA"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "USA"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fc59d787-0d34-4dd3-8c63-49ab5948d15e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpj89qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8453f125-6d59-48a4-aa11-e1279c2c151b#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/230434f7-40de-4f83-ab96-7c8fcbc9d7ad#id> .
+
+<http://www.bbc.co.uk/things/887d99f0-bfec-4e3e-9345-dd2147077434#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/611ea0e7-09bf-4cc0-9ce8-5abf900b4961#id> .
+
+<http://www.bbc.co.uk/things/89dbf534-4568-4fd6-aaa7-5eabfc751593#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/a9f5232e-61c5-4f84-bd19-d27bee2f565e#id> .
+
+<http://www.bbc.co.uk/things/8c8d6415-4e94-45e8-9077-7795f44f794f#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/440e52ef-9b4e-43ea-b32d-e5560c3a16a1#id> .
+
+<http://www.bbc.co.uk/things/8e257260-a0b2-4cd0-ab81-876d92b808a4#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/67a70bd5-4b51-4706-9a7a-8e06c203ace3#id> .
+
+<http://www.bbc.co.uk/things/909bef29-b696-4e14-b06a-bdc87656bbb3#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/7ceb88d8-2a79-48ea-911e-d6f2275f2fb3#id> .
+
+<http://www.bbc.co.uk/things/91884281-9778-42d6-971f-d7ea2390f5e9#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/3038a391-9ba3-4c1b-a029-aa25bd53cfce#id> .
+
+<http://www.bbc.co.uk/things/923b186c-9b40-4312-b927-0cb202c50c1e#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/e7c4563c-bb59-4e97-ba79-a2f9935ba24c#id> .
+
+<http://www.bbc.co.uk/things/9654adf6-3bfc-4129-b24d-c384cb585336#id> a curric:TopicOfStudy ;
+    rdfs:label "Modern World history (20th century)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Modern World history (20th century)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f33a509b-662d-41a9-bb19-675e58718772#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/b2a1e7c2-4413-428c-a58b-043c7b09be81#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztbvfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/96d114b6-977e-437c-ae0b-39dc0e70e012#id> a curric:TopicOfStudy ;
+    rdfs:label "Elizabeth I"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Elizabeth I"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/55cea41f-a493-4f14-bcaf-d36d52273fc4#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z29rbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/973254d3-22ba-4671-8f32-8a2da8614ced#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/deb4e234-5aec-4319-a905-4aed06e52394#id> .
+
+<http://www.bbc.co.uk/things/975a1215-b73e-4806-b2e7-37000c923945#id> a curric:TopicOfStudy ;
+    rdfs:label "World War One"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "World War One"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d456ae94-c674-40ac-a6d7-11f84fa84376#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z962qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/976ae0b8-00d4-4170-920a-6c194ee34fd8#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/923b186c-9b40-4312-b927-0cb202c50c1e#id>,
+        <http://www.bbc.co.uk/things/b9ad8e68-9131-48c7-9085-5a1108e607c8#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8m7j6f#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/976afc03-a50f-42cb-a704-b8e242d89215#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/458e8b9f-f09c-4cc0-ba60-bbebb732df5b#id> .
+
+<http://www.bbc.co.uk/things/98f54800-8c2f-4906-874d-c2a009b98777#id> a curric:TopicOfStudy ;
+    rdfs:label "World War Two"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "World War Two"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0e400fc3-1e97-4c4e-8c82-2394c8d0a29f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3mqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/991e4d0a-81f4-4e83-afe7-e89664cd5466#id> a curric:TopicOfStudy ;
+    rdfs:label "World War Two"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "World War Two"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0e400fc3-1e97-4c4e-8c82-2394c8d0a29f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zy84rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/993844f5-804f-4b3d-bf99-1ca6b6445972#id> a curric:TopicOfStudy ;
+    rdfs:label "Oliver Cromwell"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Oliver Cromwell"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b5294e82-02d1-479e-90fc-63fb7c3d8416#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwgvfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9ac50cbf-97e5-4081-a855-5d71e2382dbe#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/aeaf7b11-456e-45a8-839a-665e50f643a2#id> .
+
+<http://www.bbc.co.uk/things/9c05fc1f-5a54-41f3-ad69-de7fcdba772a#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/ede97762-2894-46c9-ad3b-f4fec022f01a#id> .
+
+<http://www.bbc.co.uk/things/9e542c73-8d33-4d60-bbef-750c5946eab7#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/e530c400-95e6-4010-9d6a-af8bcd029e63#id> .
+
+<http://www.bbc.co.uk/things/9eedea59-d7f6-46ef-8196-cbe5f064b473#id> a curric:TopicOfStudy ;
+    rdfs:label "USSR and Russia"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "USSR and Russia"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/483a82d4-a0f1-4a9f-b0f7-86fb3cb109ac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwntxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9fb3f36a-a00b-4828-a428-76fd84e1bd09#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/504791e6-475f-4e6f-bf06-f4cdbc141372#id> .
+
+<http://www.bbc.co.uk/things/9fc73678-f20e-47a7-b3eb-e94c2ae37f81#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/07b624f9-97d1-45e9-9cdb-1e10a919427f#id> .
+
+<http://www.bbc.co.uk/things/9fcac460-8261-42ec-87f0-ce26a1c37028#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/39693a2a-87bf-4877-96a1-3c081b4fce94#id> .
+
+<http://www.bbc.co.uk/things/a442e39c-6afc-47f4-b07a-067b863d63a7#id> a curric:TopicOfStudy ;
+    rdfs:label "Tudors and Stuarts (15th to 17th century)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Tudors and Stuarts (15th to 17th century)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8d677347-ba4d-4747-b9a6-18d284381dfe#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/ab70cca9-9da6-4379-ba6f-d484fdc48ec8#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp9rbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a59db570-3f46-47f5-a888-434fa7e1f104#id> a curric:TopicOfStudy ;
+    rdfs:label "The Middle East"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR A GCSE History curriculum"@en-gb ;
+    core:preferredLabel "The Middle East"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9ba92424-3a9b-4118-a46a-48d810a9720e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpkcg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a71231c1-b9b4-4390-b21b-4d8c8e37be79#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/4106eff8-47f2-40a7-867f-36b948349a36#id>,
+        <http://www.bbc.co.uk/things/887d99f0-bfec-4e3e-9345-dd2147077434#id>,
+        <http://www.bbc.co.uk/things/a8be2ba7-994b-4352-bf3f-58a8f5a9a92c#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9ntxsg#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/a7f2326b-1455-4945-b076-6e5ee5be8119#id> a curric:TopicOfStudy ;
+    rdfs:label "Everyday life in Tudor and Stuart times"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Everyday life in Tudor and Stuart times"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cfb61178-62f2-45c2-8ea6-092fabdb70f5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9ynhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a8be2ba7-994b-4352-bf3f-58a8f5a9a92c#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/98f54800-8c2f-4906-874d-c2a009b98777#id> .
+
+<http://www.bbc.co.uk/things/a8fd3530-f644-4dc4-8a4a-e6c8bcbeae28#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/9654adf6-3bfc-4129-b24d-c384cb585336#id> .
+
+<http://www.bbc.co.uk/things/a90eac46-171b-42aa-9563-6f75028714a5#id> a curric:TopicOfStudy ;
+    rdfs:label "Modern World history (20th century)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Modern World history (20th century)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f33a509b-662d-41a9-bb19-675e58718772#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/2df0690f-4ea0-4373-9894-495793850bac#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgp6mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a919c666-e064-43c8-abb5-0ad153b93a2a#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/6b8fbb73-8790-44b3-88c0-f28f5925116e#id> .
+
+<http://www.bbc.co.uk/things/a9f5232e-61c5-4f84-bd19-d27bee2f565e#id> a curric:TopicOfStudy ;
+    rdfs:label "World War Two"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR A GCSE History curriculum"@en-gb ;
+    core:preferredLabel "World War Two"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0e400fc3-1e97-4c4e-8c82-2394c8d0a29f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwfptyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ab6474f0-56fe-46c1-b0c4-4f5fd233ed5e#id> a curric:TopicOfStudy ;
+    rdfs:label "World War Two"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "World War Two"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0e400fc3-1e97-4c4e-8c82-2394c8d0a29f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9m7j6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ab70cca9-9da6-4379-ba6f-d484fdc48ec8#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/63107e55-1fd0-4ff6-8999-7438376016d6#id>,
+        <http://www.bbc.co.uk/things/9ac50cbf-97e5-4081-a855-5d71e2382dbe#id>,
+        <http://www.bbc.co.uk/things/9fb3f36a-a00b-4828-a428-76fd84e1bd09#id>,
+        <http://www.bbc.co.uk/things/adab78f3-9ae8-49fd-813c-26d66500e7e8#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp9rbk7#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/ac25bc36-02b1-48bb-b49d-44ac592ffacf#id> a curric:TopicOfStudy ;
+    rdfs:label "World War One"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "World War One"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d456ae94-c674-40ac-a6d7-11f84fa84376#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwh6mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ad9bde39-7ee5-4aa2-9258-495938cdd6f3#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/19d30735-d4a8-46d3-aabc-10aedf68f2ee#id>,
+        <http://www.bbc.co.uk/things/d29f358d-9426-46fb-b807-562017922f4a#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zswk4j6#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/adab78f3-9ae8-49fd-813c-26d66500e7e8#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/246489b5-7f47-46d5-aee6-07891f9d2111#id> .
+
+<http://www.bbc.co.uk/things/aeaf7b11-456e-45a8-839a-665e50f643a2#id> a curric:TopicOfStudy ;
+    rdfs:label "Mary Queen of Scots and the Reformation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Mary Queen of Scots and the Reformation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b4036a46-2365-42f0-9860-ff6b45ce3a5f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqynhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/aef15961-3a38-4636-a8e0-078f6c2f0d2e#id> a curric:Topic ;
+    rdfs:label "Migration to Britain c1000 to c2010"@en-gb ;
+    core:preferredLabel "Migration to Britain c1000 to c2010"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zc62qty#topic> .
+
+<http://www.bbc.co.uk/things/b011096a-1629-4f11-92b2-c3b8f84bba34#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/7f96fd7c-0d75-4a86-b30e-e06bf78792ad#id> .
+
+<http://www.bbc.co.uk/things/b15fde63-d07b-468d-8574-f7392e6a33ed#id> a curric:TopicOfStudy ;
+    rdfs:label "Change and conflict in Britain 1500 - 1760"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Change and conflict in Britain 1500 - 1760"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/18d02dad-d1b8-4b1c-9f3a-a73649285ea2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zprbv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b2a1e7c2-4413-428c-a58b-043c7b09be81#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1154fa85-fa86-4f72-a620-ed0b64a6fd85#id>,
+        <http://www.bbc.co.uk/things/1634e87a-deae-4383-b64a-f291ebb03fff#id>,
+        <http://www.bbc.co.uk/things/1b506cbd-2e18-4481-a3b9-cadf2d52aee7#id>,
+        <http://www.bbc.co.uk/things/42423701-c347-4b0b-8ecf-c474c9e365d4#id>,
+        <http://www.bbc.co.uk/things/708a8f8a-4d16-4f76-8b44-47b3210dd3dd#id>,
+        <http://www.bbc.co.uk/things/c3c1c10c-3a78-4a8c-a972-78b4707bf555#id>,
+        <http://www.bbc.co.uk/things/d745fe4d-0dcb-4900-bdbd-4e9be01bb388#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztbvfrd#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/b438c7bb-f33a-4538-a8e3-4569051c3d6a#id> a curric:TopicOfStudy ;
+    rdfs:label "Modern World history (20th century)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Modern World history (20th century)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f33a509b-662d-41a9-bb19-675e58718772#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/a71231c1-b9b4-4390-b21b-4d8c8e37be79#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9ntxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b5294e82-02d1-479e-90fc-63fb7c3d8416#id> a curric:Topic ;
+    rdfs:label "Oliver Cromwell"@en-gb ;
+    core:preferredLabel "Oliver Cromwell"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z83fnbk#topic> .
+
+<http://www.bbc.co.uk/things/b55cd0e7-e2ad-484e-8f46-298c07cf3cf4#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/993844f5-804f-4b3d-bf99-1ca6b6445972#id> .
+
+<http://www.bbc.co.uk/things/b6e3406c-e7b4-448e-83fa-c3ec7e9caf19#id> a curric:TopicOfStudy ;
+    rdfs:label "Vikings"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Vikings"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/10e8c9de-707d-463c-95bd-6baa4837ad04#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zt9rbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b7c60f47-cf36-4ab5-9294-90255e72e29d#id> a curric:TopicOfStudy ;
+    rdfs:label "The Middle East"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "The Middle East"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9ba92424-3a9b-4118-a46a-48d810a9720e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs7w82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b9ad8e68-9131-48c7-9085-5a1108e607c8#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/d7b75a7c-4eaf-44c8-b7a8-8faa44ebec1c#id> .
+
+<http://www.bbc.co.uk/things/bd11c995-0d69-401a-854d-1d001b0a211d#id> a curric:TopicOfStudy ;
+    rdfs:label "Germany"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Germany"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3c5b3a93-2c5f-4e42-a86e-cf4ff4f89103#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zymqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bdc63cc6-ce2e-4dcf-9b7e-5ea36f8a2dcc#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/d05cb043-8c83-4965-b0d5-288819b66158#id> .
+
+<http://www.bbc.co.uk/things/be98559c-0e4d-4252-bad9-d3f8330c895a#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/74716911-124d-4f0f-a95a-7f866976d409#id>,
+        <http://www.bbc.co.uk/things/7e1ec550-fa2c-4e10-b38e-033808c24448#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z2d4rdm#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/bff45704-1cbb-44b3-af5e-e7accc96b175#id> a curric:TopicOfStudy ;
+    rdfs:label "China"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR A GCSE History curriculum"@en-gb ;
+    core:preferredLabel "China"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e39b531e-4b8d-466c-8d98-bb7f53d1d2fd#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z32jdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c3c1c10c-3a78-4a8c-a972-78b4707bf555#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/5dbe1ad8-eb90-4e06-a6a4-58992d9010ce#id> .
+
+<http://www.bbc.co.uk/things/c3fe769d-3ea5-4f7c-9323-ccae171d1713#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/d7966a87-9f1c-448c-a130-742b673abc85#id> .
+
+<http://www.bbc.co.uk/things/d05cb043-8c83-4965-b0d5-288819b66158#id> a curric:TopicOfStudy ;
+    rdfs:label "Tudors and Stuarts (15th to 17th century)"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Tudors and Stuarts (15th to 17th century)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8d677347-ba4d-4747-b9a6-18d284381dfe#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/5eef1c71-b021-4716-870a-49e881f2f123#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq3fnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d24267de-8fb9-446b-ae2a-1a25d2a77d2e#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/03d55855-ad7a-4802-881f-d09788ba9753#id>,
+        <http://www.bbc.co.uk/things/3bd9a2ac-b1c6-4928-8765-cca84feaaf34#id>,
+        <http://www.bbc.co.uk/things/9fcac460-8261-42ec-87f0-ce26a1c37028#id>,
+        <http://www.bbc.co.uk/things/b011096a-1629-4f11-92b2-c3b8f84bba34#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgqw82p#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/d29f358d-9426-46fb-b807-562017922f4a#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/b6e3406c-e7b4-448e-83fa-c3ec7e9caf19#id> .
+
+<http://www.bbc.co.uk/things/d54b5dab-0cbe-4b18-8797-2183ec4b357c#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/03481877-c69f-4e47-ba2b-a8e1db22410a#id> .
+
+<http://www.bbc.co.uk/things/d6785126-ae4e-46eb-98d0-e551177b9b06#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/bff45704-1cbb-44b3-af5e-e7accc96b175#id> .
+
+<http://www.bbc.co.uk/things/d745fe4d-0dcb-4900-bdbd-4e9be01bb388#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/1e7fbea5-5d07-4708-8f52-4ddeb0c108cd#id> .
+
+<http://www.bbc.co.uk/things/d79243f5-ce67-428c-a248-8ca5ddc1dfee#id> a curric:TopicOfStudy ;
+    rdfs:label "Everyday life in Tudor and Stuart times"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Everyday life in Tudor and Stuart times"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cfb61178-62f2-45c2-8ea6-092fabdb70f5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8p6mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d7966a87-9f1c-448c-a130-742b673abc85#id> a curric:TopicOfStudy ;
+    rdfs:label "Henry VIII"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Henry VIII"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/01e57e25-c5c8-4946-a82e-b642f3b051b3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztwk4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d7b75a7c-4eaf-44c8-b7a8-8faa44ebec1c#id> a curric:TopicOfStudy ;
+    rdfs:label "Normans"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Normans"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/20a7fed1-7db9-48f7-99f4-286fb7eb4f91#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgdk4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d91f9ace-e731-4700-8060-b1912eb5d79a#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/230c7f89-fe9a-48f8-b947-4e6634b373fa#id> .
+
+<http://www.bbc.co.uk/things/deb00a1a-c83b-4d81-b505-9c97eeba1af6#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/b7c60f47-cf36-4ab5-9294-90255e72e29d#id> .
+
+<http://www.bbc.co.uk/things/deb4e234-5aec-4319-a905-4aed06e52394#id> a curric:TopicOfStudy ;
+    rdfs:label "Change and conflict in Britain 1500 - 1760"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Change and conflict in Britain 1500 - 1760"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/18d02dad-d1b8-4b1c-9f3a-a73649285ea2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zctm7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e4bc6cb6-14c5-4a47-8d7b-ca78fb2431dc#id> a curric:TopicOfStudy ;
+    rdfs:label "Mary Queen of Scots and the Reformation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR B GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Mary Queen of Scots and the Reformation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b4036a46-2365-42f0-9860-ff6b45ce3a5f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8sh6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e530c400-95e6-4010-9d6a-af8bcd029e63#id> a curric:TopicOfStudy ;
+    rdfs:label "The Middle East"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "The Middle East"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9ba92424-3a9b-4118-a46a-48d810a9720e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztr3ycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e73b7ee6-258b-4337-8858-ae84b8f612de#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/64c2e337-2bd8-41c1-953e-d05ef9c86e68#id>,
+        <http://www.bbc.co.uk/things/9fc73678-f20e-47a7-b3eb-e94c2ae37f81#id>,
+        <http://www.bbc.co.uk/things/ec8338f1-f8fa-4478-a071-150a55076bd4#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zw4bv4j#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/e747f09d-d166-4bda-94c0-a735ffd89119#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/08d0a460-75e3-4516-a6e4-f530b6945306#id>,
+        <http://www.bbc.co.uk/things/1f01a54f-78cb-4e20-bddf-c7718b4733de#id>,
+        <http://www.bbc.co.uk/things/5778d124-faf8-4775-b474-fa31d2376794#id>,
+        <http://www.bbc.co.uk/things/5f8626ec-a30b-4ea4-b014-2f879522677b#id>,
+        <http://www.bbc.co.uk/things/6485aad2-b5f9-4493-a4a2-591017f6de99#id>,
+        <http://www.bbc.co.uk/things/81bb6c29-bfc1-4877-a060-00abe3454cec#id>,
+        <http://www.bbc.co.uk/things/89dbf534-4568-4fd6-aaa7-5eabfc751593#id>,
+        <http://www.bbc.co.uk/things/a919c666-e064-43c8-abb5-0ad153b93a2a#id>,
+        <http://www.bbc.co.uk/things/d6785126-ae4e-46eb-98d0-e551177b9b06#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgx7j6f#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/e7c4563c-bb59-4e97-ba79-a2f9935ba24c#id> a curric:TopicOfStudy ;
+    rdfs:label "Anglo-Saxons"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Anglo-Saxons"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/40bd0305-7dc9-446a-a591-9fcb9961ef41#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z97jdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e8e44e58-9a01-44dc-90a7-d948f49011f3#id> a curric:TopicOfStudy ;
+    rdfs:label "Germany"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "Germany"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3c5b3a93-2c5f-4e42-a86e-cf4ff4f89103#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zskcg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ec8338f1-f8fa-4478-a071-150a55076bd4#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/5ed11824-39e1-4014-bad6-e0d582b3e1eb#id> .
+
+<http://www.bbc.co.uk/things/ede97762-2894-46c9-ad3b-f4fec022f01a#id> a curric:TopicOfStudy ;
+    rdfs:label "International Perspectives 1918-1939"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE History curriculum"@en-gb ;
+    core:preferredLabel "International Perspectives 1918-1939"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/471b6731-df5e-4e45-969d-61e07d39c265#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zg7w82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f074c6d3-0b17-49de-9933-ba6457f7a145#id> a curric:TopicOfStudy ;
+    rdfs:label "USA"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR A GCSE History curriculum"@en-gb ;
+    core:preferredLabel "USA"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fc59d787-0d34-4dd3-8c63-49ab5948d15e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zt4g39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f372a3f8-ed5b-4a22-ae79-b5a470803d1a#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/270c300d-43f6-4146-a6ca-1750aad0bde5#id> .
+
+<http://www.bbc.co.uk/things/f68396fa-2a6f-4bad-931b-cbb5126bbceb#id> a curric:TopicOfStudy ;
+    rdfs:label "International Perspectives 1918-1939"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR A GCSE History curriculum"@en-gb ;
+    core:preferredLabel "International Perspectives 1918-1939"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/471b6731-df5e-4e45-969d-61e07d39c265#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqvsp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f6e2b0f0-a83f-47da-880f-8528a581d239#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/35dff6e8-9609-4638-9e20-0c0bf9b1027c#id> .
+
+<http://www.bbc.co.uk/things/f795a7c6-b10b-4d85-813a-23076ff4d215#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/596b90c0-8e74-4ca1-8e65-eddd652b3ba3#id> .
+
+<http://www.bbc.co.uk/things/fd4c2389-cb48-4cd2-b61e-edf82ecddb88#id> a curric:TopicOfStudy ;
+    rdfs:label "International Perspectives 1918-1939"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History curriculum"@en-gb ;
+    core:preferredLabel "International Perspectives 1918-1939"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/471b6731-df5e-4e45-969d-61e07d39c265#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z24g39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ffdfcf8e-a19b-44b0-adf3-079607b15354#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/7b5958a8-3986-4a09-8e70-31cc4f9390c0#id> .
+
+<http://www.bbc.co.uk/things/26c51847-03ec-407e-b656-bd3e8c41d342#id> a curric:Topic ;
+    rdfs:label "Early civilisations and empires (pre 12th century)"@en-gb ;
+    core:preferredLabel "Early civilisations and empires (pre 12th century)"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp84rdm#topic> .
+
+<http://www.bbc.co.uk/things/e39b531e-4b8d-466c-8d98-bb7f53d1d2fd#id> a curric:Topic ;
+    rdfs:label "China"@en-gb ;
+    core:preferredLabel "China"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyj89qt#topic> .
+
+<http://www.bbc.co.uk/things/20a7fed1-7db9-48f7-99f4-286fb7eb4f91#id> a curric:Topic ;
+    rdfs:label "Normans"@en-gb ;
+    core:preferredLabel "Normans"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs84rdm#topic> .
+
+<http://www.bbc.co.uk/things/9ba92424-3a9b-4118-a46a-48d810a9720e#id> a curric:Topic ;
+    rdfs:label "The Middle East"@en-gb ;
+    core:preferredLabel "The Middle East"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxbysg8#topic> .
+
+<http://www.bbc.co.uk/things/18d02dad-d1b8-4b1c-9f3a-a73649285ea2#id> a curric:Topic ;
+    rdfs:label "Change and conflict in Britain 1500 - 1760"@en-gb ;
+    core:preferredLabel "Change and conflict in Britain 1500 - 1760"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zg2jdmn#topic> .
+
+<http://www.bbc.co.uk/things/471b6731-df5e-4e45-969d-61e07d39c265#id> a curric:Topic ;
+    rdfs:label "International Perspectives 1918-1939"@en-gb ;
+    core:preferredLabel "International Perspectives 1918-1939"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3j89qt#topic> .
+
+<http://www.bbc.co.uk/things/483a82d4-a0f1-4a9f-b0f7-86fb3cb109ac#id> a curric:Topic ;
+    rdfs:label "USSR and Russia"@en-gb ;
+    core:preferredLabel "USSR and Russia"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8hx2p3#topic> .
+
+<http://www.bbc.co.uk/things/55cea41f-a493-4f14-bcaf-d36d52273fc4#id> a curric:Topic ;
+    rdfs:label "Elizabeth I"@en-gb ;
+    core:preferredLabel "Elizabeth I"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z23fnbk#topic> .
+
+<http://www.bbc.co.uk/things/6a5fab20-3bc8-4b70-a9ab-671b60a3e996#id> a curric:Topic ;
+    rdfs:label "The Cold War and Vietnam"@en-gb ;
+    core:preferredLabel "The Cold War and Vietnam"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztgvfrd#topic> .
+
+<http://www.bbc.co.uk/things/8d677347-ba4d-4747-b9a6-18d284381dfe#id> a curric:Topic ;
+    rdfs:label "Tudors and Stuarts (15th to 17th century)"@en-gb ;
+    core:preferredLabel "Tudors and Stuarts (15th to 17th century)"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztcbv4j#topic> .
+
+<http://www.bbc.co.uk/things/b4036a46-2365-42f0-9860-ff6b45ce3a5f#id> a curric:Topic ;
+    rdfs:label "Mary Queen of Scots and the Reformation"@en-gb ;
+    core:preferredLabel "Mary Queen of Scots and the Reformation"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwsh6fr#topic> .
+
+<http://www.bbc.co.uk/things/cfb61178-62f2-45c2-8ea6-092fabdb70f5#id> a curric:Topic ;
+    rdfs:label "Everyday life in Tudor and Stuart times"@en-gb ;
+    core:preferredLabel "Everyday life in Tudor and Stuart times"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9tm7hv#topic> .
+
+<http://www.bbc.co.uk/things/fc59d787-0d34-4dd3-8c63-49ab5948d15e#id> a curric:Topic ;
+    rdfs:label "USA"@en-gb ;
+    core:preferredLabel "USA"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqfptyc#topic> .
+
+<http://www.bbc.co.uk/things/0e400fc3-1e97-4c4e-8c82-2394c8d0a29f#id> a curric:Topic ;
+    rdfs:label "World War Two"@en-gb ;
+    core:preferredLabel "World War Two"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs9rbk7#topic> .
+
+<http://www.bbc.co.uk/things/3c5b3a93-2c5f-4e42-a86e-cf4ff4f89103#id> a curric:Topic ;
+    rdfs:label "Germany"@en-gb ;
+    core:preferredLabel "Germany"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp4g39q#topic> .
+
+<http://www.bbc.co.uk/things/d456ae94-c674-40ac-a6d7-11f84fa84376#id> a curric:Topic ;
+    rdfs:label "World War One"@en-gb ;
+    core:preferredLabel "World War One"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcmqwxs#topic> .
+
+<http://www.bbc.co.uk/things/f33a509b-662d-41a9-bb19-675e58718772#id> a curric:Topic ;
+    rdfs:label "Modern World history (20th century)"@en-gb ;
+    core:preferredLabel "Modern World history (20th century)"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyd9cwx#topic> .
+
+<http://www.bbc.co.uk/things/1a7ee8fc-0866-485e-8f20-dce50770b417#id> a curric:ExamSpecification ;
+    rdfs:label "OCR A"@en-gb ;
+    core:disambiguationHint "OCR A GCSE History"@en-gb ;
+    core:preferredLabel "OCR A"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:topics <http://www.bbc.co.uk/things/be98559c-0e4d-4252-bad9-d3f8330c895a#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z2d4rdm#exam-specification> .
+
+<http://www.bbc.co.uk/things/14a0ac4b-c06f-4388-82d5-84d83a011a34#id> a curric:ExamSpecification ;
+    rdfs:label "OCR B"@en-gb ;
+    core:disambiguationHint "OCR B GCSE History"@en-gb ;
+    core:preferredLabel "OCR B"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:topics <http://www.bbc.co.uk/things/177aa988-65aa-4ce1-90a1-1909c147c693#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zqkrbk7#exam-specification> .
+
+<http://www.bbc.co.uk/things/d5e377ef-ecad-4187-a7dc-b91fc17b7b8e#id> a curric:ExamSpecification ;
+    rdfs:label "Eduqas"@en-gb ;
+    core:disambiguationHint "Eduqas GCSE History"@en-gb ;
+    core:preferredLabel "Eduqas"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/61ed10fe-4712-4921-8ee2-1e81a0fe076e#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:topics <http://www.bbc.co.uk/things/25c4a1cd-d868-4daf-95ec-272a2892d261#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z8rvfrd#exam-specification> .
+
+<http://www.bbc.co.uk/things/b51b0b27-1894-4fcb-a61c-71210f1399a6#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE History"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:topics <http://www.bbc.co.uk/things/48f0f500-7c3f-4ba1-8a3d-d79a5b2913a5#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zxjk4j6#exam-specification> .
+
+<http://www.bbc.co.uk/things/af21c18a-5c21-4dae-a57a-47c66b6d8e0c#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE History"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/f437625c-444f-4de5-8888-90f60646045c#id> ;
+    curric:topics <http://www.bbc.co.uk/things/e73b7ee6-258b-4337-8858-ae84b8f612de#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zw4bv4j#exam-specification> .
 

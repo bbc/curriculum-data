@@ -1,0 +1,2490 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/daebfbfd-d83e-47aa-bd97-ea78bab27124#id> a provenance:Dataset ;
+    rdfs:label "GCSE Physical Education Exam Specifications (2016 onwards)" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "2"^^xsd:int .
+
+<http://www.bbc.co.uk/things/017e7fbf-1f06-4002-aa8a-a7a9bfbd36f0#id> a olo:Slot ;
+    olo:index 14 ;
+    olo:item <http://www.bbc.co.uk/things/395559c1-7c22-4133-9b03-159320b1c37a#id> .
+
+<http://www.bbc.co.uk/things/01f34e01-cabf-4e73-83c0-35fabf7950ce#id> a curric:TopicOfStudy ;
+    rdfs:label "Rock climbing "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Rock climbing "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/78672f6c-e2f7-4312-a24d-10e77ed5fa60#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3th6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0267b7a8-8519-48bf-8545-4fa2ab9561aa#id> a curric:TopicOfStudy ;
+    rdfs:label "Applied anatomy and physiology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Applied anatomy and physiology"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/df632f4b-6de2-4573-8722-05be186f5beb#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxq7j6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/02e76aa8-af04-4184-894b-66f601598a56#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/59a964fd-b2df-4e7f-8ab3-0a04099a157e#id> .
+
+<http://www.bbc.co.uk/things/03ae016f-7e2c-4c13-8dc5-0c2d0242c8b7#id> a olo:Slot ;
+    olo:index 16 ;
+    olo:item <http://www.bbc.co.uk/things/f4e91bfc-d8a2-44dc-b1c2-00df9c063d53#id> .
+
+<http://www.bbc.co.uk/things/040cfcc7-107e-4a44-811d-9a862fca3ccf#id> a curric:TopicOfStudy ;
+    rdfs:label "Athletics "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Athletics "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ca2c88b5-b18a-4e02-95e3-7dc6003e8259#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx8dk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/052e0566-d051-4986-b6da-8bc3229aabbb#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/07068aa9-e7a5-4d3c-8ac5-c9de4da1ae99#id> .
+
+<http://www.bbc.co.uk/things/054741e2-78ac-4053-8f63-779e53aa06e1#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/293a4c78-1310-47af-99eb-094b9c1e637e#id> .
+
+<http://www.bbc.co.uk/things/058aeffa-30d9-408f-ab30-3b6a212f3ca0#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/432a991e-e502-48b6-8166-149305e11f71#id> .
+
+<http://www.bbc.co.uk/things/07068aa9-e7a5-4d3c-8ac5-c9de4da1ae99#id> a curric:TopicOfStudy ;
+    rdfs:label "Association football "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Association football "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4dcbd4d2-ff5c-42e6-b4de-a4762263a9d2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqtptyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/076afb54-f61e-4be6-b2be-3fa75aaa6ae4#id> a curric:TopicOfStudy ;
+    rdfs:label "Wheelchair basketball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Wheelchair basketball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7b682d4f-3edc-442d-b2a4-9554b0ca9d1d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpmx2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/076ea77d-31a8-41f8-88d8-fedf5f883384#id> a olo:Slot ;
+    olo:index 17 ;
+    olo:item <http://www.bbc.co.uk/things/d3c3536d-f35b-4bb2-be98-479a4accb478#id> .
+
+<http://www.bbc.co.uk/things/07893304-28f7-4be1-a9cc-703e9e956ee4#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/bc2c4a73-c99f-4809-9edf-60c618cc74d7#id> .
+
+<http://www.bbc.co.uk/things/085033f8-a4a8-421c-8246-030ff9fc37d0#id> a olo:Slot ;
+    olo:index 19 ;
+    olo:item <http://www.bbc.co.uk/things/8876c080-86f7-4dd2-a2e8-10017dbeca4d#id> .
+
+<http://www.bbc.co.uk/things/09418c3e-1999-4b0e-9f5c-908059b33db9#id> a curric:TopicOfStudy ;
+    rdfs:label "Table Tennis "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Table Tennis "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/eb5404fe-e660-4281-b4ee-27977afee1c1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcgrbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0aa21d39-1090-4140-9b68-62b8d9458f5d#id> a curric:TopicOfStudy ;
+    rdfs:label "Physical training"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Physical training"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0671b7ac-f901-412d-b1e1-81ce4f3b4a67#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpbrbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0aa650d0-4131-49a9-8697-8c0115336061#id> a olo:Slot ;
+    olo:index 18 ;
+    olo:item <http://www.bbc.co.uk/things/d4199ff4-17d5-492b-a718-46a375109a56#id> .
+
+<http://www.bbc.co.uk/things/0d9f5116-0c0a-4c93-bf5e-d4e33ffc2e27#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/e5869af8-68b9-4c64-ba96-49728deaa4bf#id> .
+
+<http://www.bbc.co.uk/things/0f1b6df3-75bc-47e5-9b89-ef81c5767934#id> a olo:Slot ;
+    olo:index 12 ;
+    olo:item <http://www.bbc.co.uk/things/4deced12-07ea-4678-833d-57d816997303#id> .
+
+<http://www.bbc.co.uk/things/0f4f671e-e0dc-463c-a364-48f23721c1cc#id> a curric:TopicOfStudy ;
+    rdfs:label "Badminton "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Badminton "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/202c6f26-f8c7-436a-aaca-11e50273000a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpth6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0f5bd1c1-f3f4-4050-b898-f08de5368198#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/a478fb49-48cf-4971-9862-41b14c81477a#id> .
+
+<http://www.bbc.co.uk/things/0fef118e-3279-4696-ab50-6f2e8ba218cb#id> a olo:Slot ;
+    olo:index 13 ;
+    olo:item <http://www.bbc.co.uk/things/71b8869e-b878-4051-ba2f-14c94ec0d54b#id> .
+
+<http://www.bbc.co.uk/things/11f26618-d55a-4f13-8641-ad08251f1eef#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/076afb54-f61e-4be6-b2be-3fa75aaa6ae4#id> .
+
+<http://www.bbc.co.uk/things/124f8ea7-5fb0-47fc-9bb8-e529d2a97eaa#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/597c9aa1-9615-4f69-bf47-a0f54cbe2913#id> .
+
+<http://www.bbc.co.uk/things/12b234af-53a5-4223-b7b3-53d9a47b7a77#id> a curric:TopicOfStudy ;
+    rdfs:label "Exam skills"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Exam skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2fe885c0-e8b8-4005-9109-55a91160ef7f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgbg39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/13d58a09-f7f7-4f26-8de0-ec60be8db7a7#id> a curric:TopicOfStudy ;
+    rdfs:label "Trampolining "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Trampolining "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1cc2020c-f912-4312-a8ab-a95428cd9b9f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxjqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/142f65a5-ca39-4867-b29b-9eeb9c9171af#id> a curric:TopicOfStudy ;
+    rdfs:label "Sport psychology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Sport psychology"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/31accc95-b42d-4297-a80c-2d2319254208#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxtptyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/17f51aa1-2ec6-4754-8125-efee0e0066ad#id> a curric:TopicOfStudy ;
+    rdfs:label "Exam skills"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Exam skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2fe885c0-e8b8-4005-9109-55a91160ef7f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgnsp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/18384caa-7055-452c-9cb9-717877d87598#id> a curric:TopicOfStudy ;
+    rdfs:label "Practical performance"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Practical performance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4bce79f6-bb3a-4da5-ac0b-1321de2b3719#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/c19bf1ec-f5f6-4df3-8944-987b0d7fa426#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8m6mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/199f9d76-c37e-437a-b220-fea1e3094d0d#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/9ece0de7-adfc-4edb-8353-d875c0b0566b#id> .
+
+<http://www.bbc.co.uk/things/1ada7caa-32b2-4a21-8af2-3ea807a9f97e#id> a curric:TopicOfStudy ;
+    rdfs:label "Boccia "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Boccia "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3690f00b-9735-45ac-9f23-d484f124fadf#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpwjdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1bffd1f8-f76d-43b3-b7e4-ea5f7df6166b#id> a curric:TopicOfStudy ;
+    rdfs:label "Dance "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Dance "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/61d491be-3b18-4feb-9682-b7b3f1fc8dfd#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqdw82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1cecc657-1f76-40fd-8594-9b4bba8a5751#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/582c30e3-8111-4950-9753-566a34c4f350#id> .
+
+<http://www.bbc.co.uk/things/1e251b69-b727-4355-bb33-1ffa6b5bc09b#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/02e76aa8-af04-4184-894b-66f601598a56#id>,
+        <http://www.bbc.co.uk/things/03ae016f-7e2c-4c13-8dc5-0c2d0242c8b7#id>,
+        <http://www.bbc.co.uk/things/076ea77d-31a8-41f8-88d8-fedf5f883384#id>,
+        <http://www.bbc.co.uk/things/11f26618-d55a-4f13-8641-ad08251f1eef#id>,
+        <http://www.bbc.co.uk/things/2826b7ab-3d8f-4ad7-b3b1-1cabe19610d9#id>,
+        <http://www.bbc.co.uk/things/2fb5eb7c-4938-49a6-87c6-c7a12eb9e35a#id>,
+        <http://www.bbc.co.uk/things/3b201141-8950-4c3f-9394-4375413bd4a8#id>,
+        <http://www.bbc.co.uk/things/4214ae2e-6dcd-4611-a137-cf7de96e602e#id>,
+        <http://www.bbc.co.uk/things/445d6c50-4a6b-43de-b433-c240dd75b6f8#id>,
+        <http://www.bbc.co.uk/things/45691fdc-bbfa-4cd0-8640-dd1dae337690#id>,
+        <http://www.bbc.co.uk/things/83a28719-a05c-4b05-82b0-c35f63292775#id>,
+        <http://www.bbc.co.uk/things/865590aa-077e-4414-a9c9-1d3f20db9d5f#id>,
+        <http://www.bbc.co.uk/things/95284ceb-e71f-434e-8699-af96496ffa0f#id>,
+        <http://www.bbc.co.uk/things/95e71a91-aed1-43df-b565-1c177a756b03#id>,
+        <http://www.bbc.co.uk/things/96e3dbdc-4752-4484-b15e-ed28c6dfd481#id>,
+        <http://www.bbc.co.uk/things/9d0d59a2-06a9-4462-b737-616a9233a013#id>,
+        <http://www.bbc.co.uk/things/a10441de-49c6-406c-a791-093b4b444b9d#id>,
+        <http://www.bbc.co.uk/things/cb1b728a-7c9d-47ca-8441-d580d34a54fb#id>,
+        <http://www.bbc.co.uk/things/e07b037d-217f-4a98-bb2a-a8c67a64352d#id>,
+        <http://www.bbc.co.uk/things/f93f4095-0783-4d11-bc6f-45acf0b84494#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgyvfrd#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/1e756316-b81c-477b-b533-7a284c90d49c#id> a curric:TopicOfStudy ;
+    rdfs:label "Volleyball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Volleyball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/a3c743fb-8d81-4095-a3a3-4ef4f40feb60#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx6txsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1fe1778d-aaf2-4755-a52c-845bb4520c01#id> a olo:Slot ;
+    olo:index 20 ;
+    olo:item <http://www.bbc.co.uk/things/c661deb8-6928-46ee-8267-26cf0c696bd7#id> .
+
+<http://www.bbc.co.uk/things/20575c37-2bed-49a7-a048-bde7768d5d42#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/0f4f671e-e0dc-463c-a364-48f23721c1cc#id> .
+
+<http://www.bbc.co.uk/things/2322d089-6de6-406e-8b95-0f0ba85e7baa#id> a curric:TopicOfStudy ;
+    rdfs:label "Health, fitness and well-being"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Health, fitness and well-being"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/22b8e019-d28e-450b-9cbc-9423a422c58e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9v3ycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2329b25f-819f-43bb-8f87-8a2b53c82146#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/c6e622bc-e128-48f0-a879-f29b4e2c57c0#id> .
+
+<http://www.bbc.co.uk/things/24bd7b0e-f94d-48f3-9d41-587f58840550#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0d9f5116-0c0a-4c93-bf5e-d4e33ffc2e27#id>,
+        <http://www.bbc.co.uk/things/124f8ea7-5fb0-47fc-9bb8-e529d2a97eaa#id>,
+        <http://www.bbc.co.uk/things/297828c0-4a76-43a1-a158-fe2a7e1a96fd#id>,
+        <http://www.bbc.co.uk/things/97440634-0934-44cb-8082-a3e53add4558#id>,
+        <http://www.bbc.co.uk/things/b78d3c4b-66ed-4656-9f25-7bf0efeb5d51#id>,
+        <http://www.bbc.co.uk/things/c5c3ab9b-0191-4687-ac2b-a366856b1d15#id>,
+        <http://www.bbc.co.uk/things/ed1c0f82-37ec-4332-b3d4-7b952339310d#id>,
+        <http://www.bbc.co.uk/things/fbc6f0d0-d896-46ef-a4a1-e6311207ceef#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zqfysg8#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/2513052f-1b8d-46ea-a10e-2d617197c9ef#id> a olo:Slot ;
+    olo:index 17 ;
+    olo:item <http://www.bbc.co.uk/things/62473af8-f416-4624-b0d5-1e6d6af13c90#id> .
+
+<http://www.bbc.co.uk/things/25e95c8f-46aa-4903-9678-bb28deaae535#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/cbb4fe51-5ca7-4fa6-b0bb-45602082b52f#id> .
+
+<http://www.bbc.co.uk/things/265898a3-9a1b-4f4d-91d1-b22a1bdabef5#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/a332af39-ef1d-4548-aa79-16932f7154b9#id> .
+
+<http://www.bbc.co.uk/things/26861ae3-0d71-4d58-9339-a01c7717e6de#id> a curric:TopicOfStudy ;
+    rdfs:label "Rock climbing "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Rock climbing "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/78672f6c-e2f7-4312-a24d-10e77ed5fa60#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2q7j6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/26ba3dec-dcf8-4739-ad21-0acd10ebdc3b#id> a olo:Slot ;
+    olo:index 17 ;
+    olo:item <http://www.bbc.co.uk/things/41c41b6c-c822-4c37-a614-f1b5fb65d9a2#id> .
+
+<http://www.bbc.co.uk/things/278c8c84-401c-483f-8bd1-b1996669ca32#id> a curric:TopicOfStudy ;
+    rdfs:label "Wheelchair basketball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Wheelchair basketball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7b682d4f-3edc-442d-b2a4-9554b0ca9d1d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcsfnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2826b7ab-3d8f-4ad7-b3b1-1cabe19610d9#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/edd5f906-a5b9-4857-bd03-e34aa85fa3db#id> .
+
+<http://www.bbc.co.uk/things/290e0023-4e4a-4ec6-b7a1-d497e38c598d#id> a curric:TopicOfStudy ;
+    rdfs:label "Goal ball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Goal ball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/404be8df-6193-4ad0-84db-4a69804b479a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpvbv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/293a4c78-1310-47af-99eb-094b9c1e637e#id> a curric:TopicOfStudy ;
+    rdfs:label "Trampolining "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Trampolining "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1cc2020c-f912-4312-a8ab-a95428cd9b9f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsgcg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/297828c0-4a76-43a1-a158-fe2a7e1a96fd#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/b66f6f40-af30-4608-a383-87aa7e648f35#id> .
+
+<http://www.bbc.co.uk/things/29e2f6b7-82ec-41e9-9ef9-874d6eca16f1#id> a curric:TopicOfStudy ;
+    rdfs:label "Polybat "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Polybat "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2aff6f1e-1638-4f40-9cdc-bb02be146787#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9c4rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2a0533da-6ac2-4ac6-9d68-8b38c2311ca0#id> a olo:Slot ;
+    olo:index 18 ;
+    olo:item <http://www.bbc.co.uk/things/e788b455-5c87-4897-a470-e45346815ebf#id> .
+
+<http://www.bbc.co.uk/things/2a4baa88-d116-4993-b5ca-043d38893a1a#id> a curric:TopicOfStudy ;
+    rdfs:label "Association football "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Association football "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4dcbd4d2-ff5c-42e6-b4de-a4762263a9d2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zg3bv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2accf24f-a767-4500-93ab-049c797d321c#id> a curric:TopicOfStudy ;
+    rdfs:label "Athletics "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Athletics "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ca2c88b5-b18a-4e02-95e3-7dc6003e8259#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zspnhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2b790d91-3076-44ce-ac66-14e7dac86c39#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/34549d9d-11b0-4a7c-aaae-c07e5805efe8#id> .
+
+<http://www.bbc.co.uk/things/2d7b5689-006b-4e4e-b160-f011da351a56#id> a curric:TopicOfStudy ;
+    rdfs:label "Boccia "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Boccia "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3690f00b-9735-45ac-9f23-d484f124fadf#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgfysg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2d983c56-c759-4698-a56b-15c24579dede#id> a olo:Slot ;
+    olo:index 16 ;
+    olo:item <http://www.bbc.co.uk/things/3e074684-1727-4fa5-8764-55556e4cbfa2#id> .
+
+<http://www.bbc.co.uk/things/2fb5eb7c-4938-49a6-87c6-c7a12eb9e35a#id> a olo:Slot ;
+    olo:index 13 ;
+    olo:item <http://www.bbc.co.uk/things/2d7b5689-006b-4e4e-b160-f011da351a56#id> .
+
+<http://www.bbc.co.uk/things/31d18ed3-d46d-452c-a884-ecd24ef1b33b#id> a olo:Slot ;
+    olo:index 13 ;
+    olo:item <http://www.bbc.co.uk/things/1ada7caa-32b2-4a21-8af2-3ea807a9f97e#id> .
+
+<http://www.bbc.co.uk/things/3208b153-066e-4ff8-a506-19b931095aaf#id> a curric:TopicOfStudy ;
+    rdfs:label "Sport psychology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Sport psychology"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/31accc95-b42d-4297-a80c-2d2319254208#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2k89qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3236da3c-e96a-4055-bf38-1f6f7709cfe9#id> a curric:TopicOfStudy ;
+    rdfs:label "Athletics "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Athletics "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ca2c88b5-b18a-4e02-95e3-7dc6003e8259#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z97m7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/33704fba-3676-46ba-b259-8fbce14c70a3#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/fdf7e281-fca7-4321-89be-db74b4fe2085#id> .
+
+<http://www.bbc.co.uk/things/34549d9d-11b0-4a7c-aaae-c07e5805efe8#id> a curric:TopicOfStudy ;
+    rdfs:label "Trampolining "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Trampolining "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1cc2020c-f912-4312-a8ab-a95428cd9b9f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs72qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3498cf46-5bd1-491d-b9e1-8e8c0bd2d26e#id> a olo:Slot ;
+    olo:index 17 ;
+    olo:item <http://www.bbc.co.uk/things/6075e20b-d9c5-4a9c-8bb9-a2d54b5caaa9#id> .
+
+<http://www.bbc.co.uk/things/35af9785-2e5d-4c8c-b792-f114c0933b53#id> a curric:TopicOfStudy ;
+    rdfs:label "Cricket "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Cricket "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aeafcf20-748b-4ef4-84d9-eda64263e040#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx9k4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/38ddac2f-3659-457f-96ea-c8f1fed2905e#id> a olo:Slot ;
+    olo:index 15 ;
+    olo:item <http://www.bbc.co.uk/things/4e2d960f-6848-455d-84f3-9f7a4911b0bd#id> .
+
+<http://www.bbc.co.uk/things/395559c1-7c22-4133-9b03-159320b1c37a#id> a curric:TopicOfStudy ;
+    rdfs:label "Cricket "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Cricket "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aeafcf20-748b-4ef4-84d9-eda64263e040#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zshptyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/39996a26-9f41-45aa-b200-37f442dbbc44#id> a curric:TopicOfStudy ;
+    rdfs:label "Table Tennis "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Table Tennis "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/eb5404fe-e660-4281-b4ee-27977afee1c1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9fysg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3ac39069-c039-405a-87d5-aa450f0dd1dc#id> a curric:TopicOfStudy ;
+    rdfs:label "Hockey "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Hockey "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0ee33c1c-5c10-453e-a421-c9114043ac2b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqgrbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3acb1d12-22a0-499c-ad4f-c97cde2e5d95#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/eb303c64-c390-4c61-9e0e-0c9b8df54d42#id> .
+
+<http://www.bbc.co.uk/things/3acfedb0-202f-4909-9792-90db07be0e8b#id> a curric:TopicOfStudy ;
+    rdfs:label "Tennis"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Tennis"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc59816b-962a-4004-b7c6-ab20e356749d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs6txsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3b201141-8950-4c3f-9394-4375413bd4a8#id> a olo:Slot ;
+    olo:index 19 ;
+    olo:item <http://www.bbc.co.uk/things/55d18505-f285-4de1-919a-26e57266d672#id> .
+
+<http://www.bbc.co.uk/things/3b5f45ac-b185-4811-a9de-c7a750f23f9b#id> a curric:TopicOfStudy ;
+    rdfs:label "Physical training"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Physical training"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0671b7ac-f901-412d-b1e1-81ce4f3b4a67#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwdw82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3bd4a78a-13df-46ad-9c7f-16a63b57b7e3#id> a curric:TopicOfStudy ;
+    rdfs:label "Wheelchair basketball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Wheelchair basketball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7b682d4f-3edc-442d-b2a4-9554b0ca9d1d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx2m7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3c276cda-3215-4b98-8192-e13ddd4c493f#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/85d6d5cf-b511-4944-951d-28b0f18a074d#id> .
+
+<http://www.bbc.co.uk/things/3e074684-1727-4fa5-8764-55556e4cbfa2#id> a curric:TopicOfStudy ;
+    rdfs:label "Netball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Netball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/971ad56f-2d06-4c75-9bcb-2d2d4fa43db2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztmx2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3ee084c1-8bb0-482f-95af-099e1825c315#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/92759841-5249-4dcd-a7fb-d951a072229e#id> .
+
+<http://www.bbc.co.uk/things/3f48bf4e-bfe2-42af-b245-18b4b13a7200#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/7acb17bc-ec37-42b8-94f8-cc218d4c12fe#id> .
+
+<http://www.bbc.co.uk/things/3fd1f6f2-844d-4d3e-a75c-1edac7f2d206#id> a curric:TopicOfStudy ;
+    rdfs:label "Goal ball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Goal ball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/404be8df-6193-4ad0-84db-4a69804b479a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z28dk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/407f61a7-dab7-44a7-bbec-8a4333b6c302#id> a olo:Slot ;
+    olo:index 19 ;
+    olo:item <http://www.bbc.co.uk/things/6300ecdc-5746-454b-bd8c-4fc67f80971c#id> .
+
+<http://www.bbc.co.uk/things/40d085d0-1f46-4079-8984-d8630785f01b#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/2accf24f-a767-4500-93ab-049c797d321c#id> .
+
+<http://www.bbc.co.uk/things/417e5025-43a6-41ce-a6df-38bb82a68fee#id> a curric:TopicOfStudy ;
+    rdfs:label "Boccia "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Boccia "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3690f00b-9735-45ac-9f23-d484f124fadf#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z82x2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/41c41b6c-c822-4c37-a614-f1b5fb65d9a2#id> a curric:TopicOfStudy ;
+    rdfs:label "Rugby "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Rugby "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fbbed5d1-7e9b-49bd-9780-9ac413263717#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcpnhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4214ae2e-6dcd-4611-a137-cf7de96e602e#id> a olo:Slot ;
+    olo:index 20 ;
+    olo:item <http://www.bbc.co.uk/things/3fd1f6f2-844d-4d3e-a75c-1edac7f2d206#id> .
+
+<http://www.bbc.co.uk/things/423575ee-8694-4067-90f9-351a3b03179f#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/142f65a5-ca39-4867-b29b-9eeb9c9171af#id> .
+
+<http://www.bbc.co.uk/things/432a991e-e502-48b6-8166-149305e11f71#id> a curric:TopicOfStudy ;
+    rdfs:label "Association football "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Association football "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4dcbd4d2-ff5c-42e6-b4de-a4762263a9d2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwjqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/445d6c50-4a6b-43de-b433-c240dd75b6f8#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/5f642224-c731-4521-a929-ab00d8394a16#id> .
+
+<http://www.bbc.co.uk/things/455b9c11-ea54-4f04-ac59-f46b021e740a#id> a curric:TopicOfStudy ;
+    rdfs:label "Cricket "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Cricket "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aeafcf20-748b-4ef4-84d9-eda64263e040#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9q2qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/45691fdc-bbfa-4cd0-8640-dd1dae337690#id> a olo:Slot ;
+    olo:index 14 ;
+    olo:item <http://www.bbc.co.uk/things/beed8134-584c-4ca5-a42b-970c8bf99cf2#id> .
+
+<http://www.bbc.co.uk/things/47e57c9b-d1d6-46c4-bef9-69530f6dc6ab#id> a curric:TopicOfStudy ;
+    rdfs:label "Socio-cultural influences"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Socio-cultural influences"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9dca77d0-c828-43e3-991f-97e8c1d07959#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zw9k4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/491ab3a6-d453-44c4-b0e4-903512b46aab#id> a curric:TopicOfStudy ;
+    rdfs:label "Socio-cultural influences"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Socio-cultural influences"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9dca77d0-c828-43e3-991f-97e8c1d07959#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwrcg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4a6845bb-ebed-4961-9239-047ac3b668e4#id> a curric:TopicOfStudy ;
+    rdfs:label "Basketball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Basketball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dc00612f-2961-4f90-918d-70c093098f03#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3yvfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4c070611-d598-4842-bbd1-e754ab42f766#id> a curric:TopicOfStudy ;
+    rdfs:label "Dance "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Dance "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/61d491be-3b18-4feb-9682-b7b3f1fc8dfd#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsjqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4da0fef4-5abc-4dc5-a88b-e768d8fa8d36#id> a olo:Slot ;
+    olo:index 15 ;
+    olo:item <http://www.bbc.co.uk/things/d2a5d68a-831e-4a90-90c9-c2c70a738290#id> .
+
+<http://www.bbc.co.uk/things/4dd63525-0960-4ee3-a2c8-7c5ddb5018ba#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/a68a1b73-a938-497e-8dc6-24e2a417aee4#id> .
+
+<http://www.bbc.co.uk/things/4deced12-07ea-4678-833d-57d816997303#id> a curric:TopicOfStudy ;
+    rdfs:label "Basketball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Basketball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dc00612f-2961-4f90-918d-70c093098f03#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zy2m7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4e2d960f-6848-455d-84f3-9f7a4911b0bd#id> a curric:TopicOfStudy ;
+    rdfs:label "Hockey "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Hockey "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0ee33c1c-5c10-453e-a421-c9114043ac2b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcwqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4f147344-6e6d-42fd-adc4-859312ee32c1#id> a curric:TopicOfStudy ;
+    rdfs:label "Swimming "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Swimming "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/adb69aab-628f-41ea-adb3-cd927428525f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztq7j6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4fb450d1-6b03-48df-ad66-3a6a50665e7a#id> a curric:TopicOfStudy ;
+    rdfs:label "Applied anatomy and physiology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Applied anatomy and physiology"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/df632f4b-6de2-4573-8722-05be186f5beb#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpsysg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5320616c-1fe0-4b17-8431-4404cc8aa668#id> a curric:TopicOfStudy ;
+    rdfs:label "Performance analysis"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Performance analysis"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5394fce5-a0f8-4dd1-9d59-6cab0d564ab1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3v3ycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5571fbb3-c651-4bee-9d82-6f9d86d9b097#id> a curric:TopicOfStudy ;
+    rdfs:label "Socio-cultural influences"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Socio-cultural influences"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9dca77d0-c828-43e3-991f-97e8c1d07959#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxfvfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/55d18505-f285-4de1-919a-26e57266d672#id> a curric:TopicOfStudy ;
+    rdfs:label "Dance "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Dance "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/61d491be-3b18-4feb-9682-b7b3f1fc8dfd#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxwjdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/561d35ab-bd38-40be-a6b3-a2747a44a105#id> a curric:TopicOfStudy ;
+    rdfs:label "Polybat "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Polybat "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2aff6f1e-1638-4f40-9cdc-bb02be146787#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zw49cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/56558b4b-8ee2-4dfd-b91c-c21980103e31#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/e5970ff6-2ab3-4fdf-9fa1-687ac295ffa4#id> .
+
+<http://www.bbc.co.uk/things/57c642c2-31b4-40ff-9756-148aa7906cef#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/fd5514f9-6f2e-40ee-af66-f30b11d37c9c#id> .
+
+<http://www.bbc.co.uk/things/582c30e3-8111-4950-9753-566a34c4f350#id> a curric:TopicOfStudy ;
+    rdfs:label "Health, fitness and well-being"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Health, fitness and well-being"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/22b8e019-d28e-450b-9cbc-9423a422c58e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq2x2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/587aadf7-3739-4c0b-b14a-823084fbf3c0#id> a olo:Slot ;
+    olo:index 18 ;
+    olo:item <http://www.bbc.co.uk/things/9cc406b8-2cce-434e-a64b-60fd34564c22#id> .
+
+<http://www.bbc.co.uk/things/5886c329-bd52-4835-a285-a02acb1ee0ba#id> a curric:TopicOfStudy ;
+    rdfs:label "Netball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Netball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/971ad56f-2d06-4c75-9bcb-2d2d4fa43db2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8yvfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/597c9aa1-9615-4f69-bf47-a0f54cbe2913#id> a curric:TopicOfStudy ;
+    rdfs:label "Exam skills"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Exam skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2fe885c0-e8b8-4005-9109-55a91160ef7f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqhnhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/59821861-0f35-4060-94d3-447a7b1a21d8#id> a curric:TopicOfStudy ;
+    rdfs:label "Basketball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Basketball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dc00612f-2961-4f90-918d-70c093098f03#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcv3ycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/59a964fd-b2df-4e7f-8ab3-0a04099a157e#id> a curric:TopicOfStudy ;
+    rdfs:label "Volleyball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Volleyball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/a3c743fb-8d81-4095-a3a3-4ef4f40feb60#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqk89qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5be4cfe0-5b61-4b39-a9e7-c9a2fd42ca6d#id> a curric:TopicOfStudy ;
+    rdfs:label "Volleyball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Volleyball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/a3c743fb-8d81-4095-a3a3-4ef4f40feb60#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zty3ycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5db0122c-49e3-40ae-8839-e3ec476c81d3#id> a curric:TopicOfStudy ;
+    rdfs:label "Basketball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Basketball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dc00612f-2961-4f90-918d-70c093098f03#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwxtxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5ebbf2fb-6244-47b2-822e-386eee8d9c68#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/5be4cfe0-5b61-4b39-a9e7-c9a2fd42ca6d#id> .
+
+<http://www.bbc.co.uk/things/5f642224-c731-4521-a929-ab00d8394a16#id> a curric:TopicOfStudy ;
+    rdfs:label "Table Tennis "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Table Tennis "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/eb5404fe-e660-4281-b4ee-27977afee1c1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8rcg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6075e20b-d9c5-4a9c-8bb9-a2d54b5caaa9#id> a curric:TopicOfStudy ;
+    rdfs:label "Rugby "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Rugby "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fbbed5d1-7e9b-49bd-9780-9ac413263717#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyyvfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/60c89272-260c-4cf5-ab0c-03302cf23fd6#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/9c464692-484a-4c8f-aac6-2d2bd0782367#id> .
+
+<http://www.bbc.co.uk/things/62473af8-f416-4624-b0d5-1e6d6af13c90#id> a curric:TopicOfStudy ;
+    rdfs:label "Rugby "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Rugby "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fbbed5d1-7e9b-49bd-9780-9ac413263717#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx72qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6300ecdc-5746-454b-bd8c-4fc67f80971c#id> a curric:TopicOfStudy ;
+    rdfs:label "Dance "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Dance "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/61d491be-3b18-4feb-9682-b7b3f1fc8dfd#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsbrbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/63bd31b8-2847-424d-ba52-e047104dbc18#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/4fb450d1-6b03-48df-ad66-3a6a50665e7a#id> .
+
+<http://www.bbc.co.uk/things/649973db-7ec8-4bc5-a089-22deeba6f305#id> a olo:Slot ;
+    olo:index 19 ;
+    olo:item <http://www.bbc.co.uk/things/1bffd1f8-f76d-43b3-b7e4-ea5f7df6166b#id> .
+
+<http://www.bbc.co.uk/things/656cd6f0-fe84-4758-b003-4942cace181e#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/09418c3e-1999-4b0e-9f5c-908059b33db9#id> .
+
+<http://www.bbc.co.uk/things/67058616-8a8f-4be7-866f-14af59e82d63#id> a curric:TopicOfStudy ;
+    rdfs:label "Hockey "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Hockey "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0ee33c1c-5c10-453e-a421-c9114043ac2b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp6txsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/676cc00f-2d50-49d4-8ce8-7e3369a73fbd#id> a curric:TopicOfStudy ;
+    rdfs:label "Handball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Handball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/52261b3b-91cf-4661-8532-02bc0a409de0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zw8dk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/696bf573-2f16-47ca-ae89-2083833ecd5d#id> a curric:TopicOfStudy ;
+    rdfs:label "Sport psychology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Sport psychology"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/31accc95-b42d-4297-a80c-2d2319254208#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8k89qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6ab11edb-4156-4432-ac64-5c209eb1a5aa#id> a curric:TopicOfStudy ;
+    rdfs:label "Rugby "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Rugby "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fbbed5d1-7e9b-49bd-9780-9ac413263717#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3989qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6b404079-44c3-42e5-ab7e-df05e7f2644a#id> a curric:TopicOfStudy ;
+    rdfs:label "Tennis"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Tennis"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc59816b-962a-4004-b7c6-ab20e356749d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgdjdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6b6c0443-e293-4859-9d7f-84564adf8567#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/17f51aa1-2ec6-4754-8125-efee0e0066ad#id> .
+
+<http://www.bbc.co.uk/things/6bcf0ddf-03c5-4334-9955-09dd74ed0901#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/3b5f45ac-b185-4811-a9de-c7a750f23f9b#id> .
+
+<http://www.bbc.co.uk/things/6de981e5-cfbe-49f3-8899-34e607f0c70d#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/99fd5bcd-d009-4455-a96b-019980f9a2ba#id> .
+
+<http://www.bbc.co.uk/things/6e65cb38-8257-457a-ba5f-2e827d321a76#id> a olo:Slot ;
+    olo:index 16 ;
+    olo:item <http://www.bbc.co.uk/things/5886c329-bd52-4835-a285-a02acb1ee0ba#id> .
+
+<http://www.bbc.co.uk/things/71111f1c-3acf-41c0-a55b-09ff42966387#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/eb3bd77c-c188-466b-8cd7-30c6d4ae84fe#id> .
+
+<http://www.bbc.co.uk/things/71b8869e-b878-4051-ba2f-14c94ec0d54b#id> a curric:TopicOfStudy ;
+    rdfs:label "Boccia "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Boccia "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3690f00b-9735-45ac-9f23-d484f124fadf#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9k89qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/730b731c-dfd4-4836-a7dc-9ab8ae691db7#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/7da3fa93-6884-4e00-a403-11b5e3c36fbb#id> .
+
+<http://www.bbc.co.uk/things/73ca4fce-35f1-47e7-89b1-8247d29a1a6c#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/fa56e745-e4b5-4127-baa3-452d4251f72b#id> .
+
+<http://www.bbc.co.uk/things/75c21a9c-cc39-4c01-9303-387786871d5b#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/ab5635bb-c23a-48aa-89c0-c275e5176e13#id> .
+
+<http://www.bbc.co.uk/things/76c9c641-722b-45d1-b3e3-8da5cff7c02f#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/0267b7a8-8519-48bf-8545-4fa2ab9561aa#id> .
+
+<http://www.bbc.co.uk/things/777a292f-464a-4b90-a35f-47c5c1da224e#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/bfc42406-5568-474f-b998-08662d29a8d2#id> .
+
+<http://www.bbc.co.uk/things/781fa34b-321d-4df5-a1b9-59782f3be476#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/12b234af-53a5-4223-b7b3-53d9a47b7a77#id> .
+
+<http://www.bbc.co.uk/things/78e42ede-57f7-4518-b857-2072568ae75a#id> a olo:Slot ;
+    olo:index 15 ;
+    olo:item <http://www.bbc.co.uk/things/3ac39069-c039-405a-87d5-aa450f0dd1dc#id> .
+
+<http://www.bbc.co.uk/things/794f63ed-ea8c-4d35-b6cc-7898727677e0#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/dc50c52c-c4ff-4704-8fd7-a98831e2fc96#id> .
+
+<http://www.bbc.co.uk/things/7a0ec906-4b03-48ba-be70-ffe5c87393a5#id> a olo:Slot ;
+    olo:index 14 ;
+    olo:item <http://www.bbc.co.uk/things/35af9785-2e5d-4c8c-b792-f114c0933b53#id> .
+
+<http://www.bbc.co.uk/things/7acb17bc-ec37-42b8-94f8-cc218d4c12fe#id> a curric:TopicOfStudy ;
+    rdfs:label "Volleyball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Volleyball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/a3c743fb-8d81-4095-a3a3-4ef4f40feb60#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z89k4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7d05836c-8e3f-4db8-a980-a00270087840#id> a curric:TopicOfStudy ;
+    rdfs:label "Applied anatomy and physiology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Applied anatomy and physiology"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/df632f4b-6de2-4573-8722-05be186f5beb#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqjqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7d35ff22-1c95-47b4-93ea-96fa4b9eaa19#id> a curric:TopicOfStudy ;
+    rdfs:label "Physical training"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Physical training"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0671b7ac-f901-412d-b1e1-81ce4f3b4a67#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2wjdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7da3fa93-6884-4e00-a403-11b5e3c36fbb#id> a curric:TopicOfStudy ;
+    rdfs:label "Rock climbing "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Rock climbing "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/78672f6c-e2f7-4312-a24d-10e77ed5fa60#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyc9cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7ee51f54-7c34-4e77-abbd-27b82051c595#id> a curric:TopicOfStudy ;
+    rdfs:label "Athletics "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Athletics "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ca2c88b5-b18a-4e02-95e3-7dc6003e8259#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zc989qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/808486af-7c24-4419-bbef-228cda745c05#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/278c8c84-401c-483f-8bd1-b1996669ca32#id> .
+
+<http://www.bbc.co.uk/things/809cadd3-292a-4713-b109-afd71c447c7b#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/5320616c-1fe0-4b17-8431-4404cc8aa668#id> .
+
+<http://www.bbc.co.uk/things/80b7d623-0cd5-4768-a02c-88a3b846ab75#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/491ab3a6-d453-44c4-b0e4-903512b46aab#id> .
+
+<http://www.bbc.co.uk/things/83a28719-a05c-4b05-82b0-c35f63292775#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/561d35ab-bd38-40be-a6b3-a2747a44a105#id> .
+
+<http://www.bbc.co.uk/things/8430b6bf-e606-4cf8-8223-4202332622fd#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/df1a9355-68c0-4445-85a5-4de6a749cfec#id> .
+
+<http://www.bbc.co.uk/things/85417c9e-645a-4d0b-827d-0f0e2db3f34c#id> a curric:TopicOfStudy ;
+    rdfs:label "Hockey "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Hockey "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0ee33c1c-5c10-453e-a421-c9114043ac2b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyth6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/85b36188-f70c-4167-8552-02ea9c10808e#id> a curric:TopicOfStudy ;
+    rdfs:label "Performance analysis"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Performance analysis"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5394fce5-a0f8-4dd1-9d59-6cab0d564ab1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyx6mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/85d6d5cf-b511-4944-951d-28b0f18a074d#id> a curric:TopicOfStudy ;
+    rdfs:label "Health, fitness and well-being"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Health, fitness and well-being"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/22b8e019-d28e-450b-9cbc-9423a422c58e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcrcg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/865590aa-077e-4414-a9c9-1d3f20db9d5f#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/eef1e9b2-b506-4f43-b758-402ded3848c7#id> .
+
+<http://www.bbc.co.uk/things/865bede0-d5c3-498c-bfca-4b170be18f69#id> a curric:TopicOfStudy ;
+    rdfs:label "Socio-cultural influences"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Socio-cultural influences"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9dca77d0-c828-43e3-991f-97e8c1d07959#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z949cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/870c1c85-cef6-4fc0-8557-db7d49ee8961#id> a olo:Slot ;
+    olo:index 13 ;
+    olo:item <http://www.bbc.co.uk/things/a083b7cd-6757-4e02-b0ea-7c4f54edbd89#id> .
+
+<http://www.bbc.co.uk/things/883c4dbc-9e7e-4d68-a0a9-fe4d397e82ec#id> a curric:TopicOfStudy ;
+    rdfs:label "Netball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Netball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/971ad56f-2d06-4c75-9bcb-2d2d4fa43db2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3bg39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8876c080-86f7-4dd2-a2e8-10017dbeca4d#id> a curric:TopicOfStudy ;
+    rdfs:label "Dance "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Dance "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/61d491be-3b18-4feb-9682-b7b3f1fc8dfd#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zppnhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8d088499-523b-4aa9-9fb4-1ffe2aecbf69#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/bded77f9-c0dd-4953-a41c-7a342f054b5e#id> .
+
+<http://www.bbc.co.uk/things/8d6f8f21-3172-4bbe-9022-6e83cb98ac0f#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/696bf573-2f16-47ca-ae89-2083833ecd5d#id> .
+
+<http://www.bbc.co.uk/things/8ff16e47-af5a-4852-8b2b-a3cad983d0a0#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/a1c2c112-5bac-4872-9fde-df0f55a2de4d#id> .
+
+<http://www.bbc.co.uk/things/90087568-59b4-4a8b-9b39-a4df252afc6b#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/2a4baa88-d116-4993-b5ca-043d38893a1a#id> .
+
+<http://www.bbc.co.uk/things/904b251e-3ce7-447e-8ebc-4756cd1dc227#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/3bd4a78a-13df-46ad-9c7f-16a63b57b7e3#id> .
+
+<http://www.bbc.co.uk/things/90791107-42b6-44ec-bb7d-a52b84577987#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/6b404079-44c3-42e5-ab7e-df05e7f2644a#id> .
+
+<http://www.bbc.co.uk/things/90c436a8-1bdf-410d-be1b-a3fe6616f823#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/bd64051a-9bbd-45a8-a2c1-5740569ae9c7#id> .
+
+<http://www.bbc.co.uk/things/9102a8aa-33a6-4b2d-9c2a-4a9fc2891a34#id> a olo:Slot ;
+    olo:index 15 ;
+    olo:item <http://www.bbc.co.uk/things/67058616-8a8f-4be7-866f-14af59e82d63#id> .
+
+<http://www.bbc.co.uk/things/91be3033-5a71-4db2-8c72-75d5d7df576d#id> a curric:TopicOfStudy ;
+    rdfs:label "Sport psychology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Sport psychology"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/31accc95-b42d-4297-a80c-2d2319254208#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztvbv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/92759841-5249-4dcd-a7fb-d951a072229e#id> a curric:TopicOfStudy ;
+    rdfs:label "Tennis"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Tennis"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc59816b-962a-4004-b7c6-ab20e356749d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3gcg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9360a541-7f55-4a77-8fd7-1e287cf4e9c3#id> a curric:TopicOfStudy ;
+    rdfs:label "Swimming "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Swimming "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/adb69aab-628f-41ea-adb3-cd927428525f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyr4rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/94811cf2-0efb-4aa2-b4d5-59dd5edc0853#id> a olo:Slot ;
+    olo:index 18 ;
+    olo:item <http://www.bbc.co.uk/things/9360a541-7f55-4a77-8fd7-1e287cf4e9c3#id> .
+
+<http://www.bbc.co.uk/things/95284ceb-e71f-434e-8699-af96496ffa0f#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/c79045ab-238e-4f3f-9926-f242d744ec72#id> .
+
+<http://www.bbc.co.uk/things/95e71a91-aed1-43df-b565-1c177a756b03#id> a olo:Slot ;
+    olo:index 15 ;
+    olo:item <http://www.bbc.co.uk/things/85417c9e-645a-4d0b-827d-0f0e2db3f34c#id> .
+
+<http://www.bbc.co.uk/things/96e3dbdc-4752-4484-b15e-ed28c6dfd481#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/3acfedb0-202f-4909-9792-90db07be0e8b#id> .
+
+<http://www.bbc.co.uk/things/97440634-0934-44cb-8082-a3e53add4558#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/18384caa-7055-452c-9cb9-717877d87598#id> .
+
+<http://www.bbc.co.uk/things/981987e8-e740-4fa5-afbb-17c5eca419b3#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/3208b153-066e-4ff8-a506-19b931095aaf#id> .
+
+<http://www.bbc.co.uk/things/983c7a87-49c1-4f1b-a112-12e3f6354969#id> a olo:Slot ;
+    olo:index 16 ;
+    olo:item <http://www.bbc.co.uk/things/883c4dbc-9e7e-4d68-a0a9-fe4d397e82ec#id> .
+
+<http://www.bbc.co.uk/things/983d85ae-8726-4299-aa97-c2864593b0a2#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/a8a2804c-214f-496c-80ab-27df724c1ead#id> .
+
+<http://www.bbc.co.uk/things/99fd5bcd-d009-4455-a96b-019980f9a2ba#id> a curric:TopicOfStudy ;
+    rdfs:label "Polybat "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Polybat "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2aff6f1e-1638-4f40-9cdc-bb02be146787#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxsysg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9a819b49-261f-4d9d-a643-e907a78c75f0#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/c6366721-012d-45ab-948a-aa46b231d4f0#id> .
+
+<http://www.bbc.co.uk/things/9b1e55b8-57cf-42f1-8198-b3d70ad533b5#id> a curric:TopicOfStudy ;
+    rdfs:label "Basketball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Basketball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dc00612f-2961-4f90-918d-70c093098f03#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8dw82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9bde2c86-050f-453b-9e91-e8b8c5ff40f3#id> a curric:TopicOfStudy ;
+    rdfs:label "Badminton "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Badminton "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/202c6f26-f8c7-436a-aaca-11e50273000a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgc9cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9c464692-484a-4c8f-aac6-2d2bd0782367#id> a curric:TopicOfStudy ;
+    rdfs:label "Sport psychology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Sport psychology"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/31accc95-b42d-4297-a80c-2d2319254208#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq8dk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9cc406b8-2cce-434e-a64b-60fd34564c22#id> a curric:TopicOfStudy ;
+    rdfs:label "Swimming "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Swimming "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/adb69aab-628f-41ea-adb3-cd927428525f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3x6mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9ce55cdc-448e-40f7-bd7e-93d43c444567#id> a olo:Slot ;
+    olo:index 10 ;
+    olo:item <http://www.bbc.co.uk/things/39996a26-9f41-45aa-b200-37f442dbbc44#id> .
+
+<http://www.bbc.co.uk/things/9d0d59a2-06a9-4462-b737-616a9233a013#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/13d58a09-f7f7-4f26-8de0-ec60be8db7a7#id> .
+
+<http://www.bbc.co.uk/things/9d1d344d-f240-4d5a-95b4-c4f72472ef70#id> a curric:TopicOfStudy ;
+    rdfs:label "Cricket "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Cricket "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aeafcf20-748b-4ef4-84d9-eda64263e040#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zc49cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9d930578-5e5c-4d1b-9e0c-c4fb2212dcf1#id> a olo:Slot ;
+    olo:index 12 ;
+    olo:item <http://www.bbc.co.uk/things/5db0122c-49e3-40ae-8839-e3ec476c81d3#id> .
+
+<http://www.bbc.co.uk/things/9ece0de7-adfc-4edb-8353-d875c0b0566b#id> a curric:TopicOfStudy ;
+    rdfs:label "Table Tennis "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Table Tennis "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/eb5404fe-e660-4281-b4ee-27977afee1c1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2psp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a083b7cd-6757-4e02-b0ea-7c4f54edbd89#id> a curric:TopicOfStudy ;
+    rdfs:label "Boccia "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Boccia "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3690f00b-9735-45ac-9f23-d484f124fadf#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zynsp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a10441de-49c6-406c-a791-093b4b444b9d#id> a olo:Slot ;
+    olo:index 18 ;
+    olo:item <http://www.bbc.co.uk/things/4f147344-6e6d-42fd-adc4-859312ee32c1#id> .
+
+<http://www.bbc.co.uk/things/a1c2c112-5bac-4872-9fde-df0f55a2de4d#id> a curric:TopicOfStudy ;
+    rdfs:label "Wheelchair basketball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Wheelchair basketball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7b682d4f-3edc-442d-b2a4-9554b0ca9d1d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyv3ycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a292e94c-0cf2-40df-b997-6cc0b0724900#id> a olo:Slot ;
+    olo:index 13 ;
+    olo:item <http://www.bbc.co.uk/things/417e5025-43a6-41ce-a6df-38bb82a68fee#id> .
+
+<http://www.bbc.co.uk/things/a332af39-ef1d-4548-aa79-16932f7154b9#id> a curric:TopicOfStudy ;
+    rdfs:label "Performance analysis"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Performance analysis"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5394fce5-a0f8-4dd1-9d59-6cab0d564ab1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zc3bv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a3acdc3a-a346-434e-b972-830733994f5f#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1cecc657-1f76-40fd-8594-9b4bba8a5751#id>,
+        <http://www.bbc.co.uk/things/2329b25f-819f-43bb-8f87-8a2b53c82146#id>,
+        <http://www.bbc.co.uk/things/33704fba-3676-46ba-b259-8fbce14c70a3#id>,
+        <http://www.bbc.co.uk/things/423575ee-8694-4067-90f9-351a3b03179f#id>,
+        <http://www.bbc.co.uk/things/63bd31b8-2847-424d-ba52-e047104dbc18#id>,
+        <http://www.bbc.co.uk/things/8430b6bf-e606-4cf8-8223-4202332622fd#id>,
+        <http://www.bbc.co.uk/things/90c436a8-1bdf-410d-be1b-a3fe6616f823#id>,
+        <http://www.bbc.co.uk/things/9a819b49-261f-4d9d-a643-e907a78c75f0#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z2v3ycw#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/a478fb49-48cf-4971-9862-41b14c81477a#id> a curric:TopicOfStudy ;
+    rdfs:label "Badminton "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Badminton "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/202c6f26-f8c7-436a-aaca-11e50273000a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqc4rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a480f054-5be4-4174-bd15-93890b043790#id> a olo:Slot ;
+    olo:index 19 ;
+    olo:item <http://www.bbc.co.uk/things/4c070611-d598-4842-bbd1-e754ab42f766#id> .
+
+<http://www.bbc.co.uk/things/a6024021-ddf4-4172-87c6-c127af493e63#id> a olo:Slot ;
+    olo:index 16 ;
+    olo:item <http://www.bbc.co.uk/things/f5d2a928-7aa0-4435-b9ce-86836f8fdddb#id> .
+
+<http://www.bbc.co.uk/things/a677f4cd-54be-4150-b15f-959f8f7c33a2#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/b954555a-09d1-4444-94a7-9518af5ffab1#id> .
+
+<http://www.bbc.co.uk/things/a68a1b73-a938-497e-8dc6-24e2a417aee4#id> a curric:TopicOfStudy ;
+    rdfs:label "Wheelchair basketball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Wheelchair basketball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7b682d4f-3edc-442d-b2a4-9554b0ca9d1d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3kdk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a8a2804c-214f-496c-80ab-27df724c1ead#id> a curric:TopicOfStudy ;
+    rdfs:label "Handball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Handball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/52261b3b-91cf-4661-8532-02bc0a409de0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp3g39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ab5635bb-c23a-48aa-89c0-c275e5176e13#id> a curric:TopicOfStudy ;
+    rdfs:label "Handball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Handball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/52261b3b-91cf-4661-8532-02bc0a409de0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztdw82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ad998507-7fc0-4cf3-8feb-9618a43e1daa#id> a curric:TopicOfStudy ;
+    rdfs:label "Health, fitness and well-being"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Health, fitness and well-being"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/22b8e019-d28e-450b-9cbc-9423a422c58e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2nfnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ae2fae22-be99-420e-8b7f-a2494abf0f5f#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/058aeffa-30d9-408f-ab30-3b6a212f3ca0#id>,
+        <http://www.bbc.co.uk/things/085033f8-a4a8-421c-8246-030ff9fc37d0#id>,
+        <http://www.bbc.co.uk/things/0fef118e-3279-4696-ab50-6f2e8ba218cb#id>,
+        <http://www.bbc.co.uk/things/2a0533da-6ac2-4ac6-9d68-8b38c2311ca0#id>,
+        <http://www.bbc.co.uk/things/3498cf46-5bd1-491d-b9e1-8e8c0bd2d26e#id>,
+        <http://www.bbc.co.uk/things/3acb1d12-22a0-499c-ad4f-c97cde2e5d95#id>,
+        <http://www.bbc.co.uk/things/3ee084c1-8bb0-482f-95af-099e1825c315#id>,
+        <http://www.bbc.co.uk/things/4da0fef4-5abc-4dc5-a88b-e768d8fa8d36#id>,
+        <http://www.bbc.co.uk/things/57c642c2-31b4-40ff-9756-148aa7906cef#id>,
+        <http://www.bbc.co.uk/things/71111f1c-3acf-41c0-a55b-09ff42966387#id>,
+        <http://www.bbc.co.uk/things/8ff16e47-af5a-4852-8b2b-a3cad983d0a0#id>,
+        <http://www.bbc.co.uk/things/983c7a87-49c1-4f1b-a112-12e3f6354969#id>,
+        <http://www.bbc.co.uk/things/b3ee240e-12ec-4c59-9685-88edaf01369e#id>,
+        <http://www.bbc.co.uk/things/b9a475b6-d126-4437-9806-394557724b02#id>,
+        <http://www.bbc.co.uk/things/be95a9e0-be8c-4022-b86f-b7315a348bd8#id>,
+        <http://www.bbc.co.uk/things/e1e280b8-163d-4400-b44b-b76a9b326814#id>,
+        <http://www.bbc.co.uk/things/e62dc6fb-2e60-4023-bcb2-25950b5cf932#id>,
+        <http://www.bbc.co.uk/things/f46cfb57-b84c-41d7-9115-6ad4b8b475b5#id>,
+        <http://www.bbc.co.uk/things/fdef54e1-6881-42fc-918a-6f01bddf4671#id>,
+        <http://www.bbc.co.uk/things/ffee583a-4369-4ce0-ab0a-7f3f718387da#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z98w82p#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/b0229834-31bb-4696-bc62-0884f0f6f3d3#id> a curric:TopicOfStudy ;
+    rdfs:label "Trampolining "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Trampolining "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1cc2020c-f912-4312-a8ab-a95428cd9b9f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqwjdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b209b43a-8edf-4823-9830-57fed9116d29#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/7d05836c-8e3f-4db8-a980-a00270087840#id> .
+
+<http://www.bbc.co.uk/things/b37500fa-4b6b-45e7-83f3-9d6144e782ec#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/07893304-28f7-4be1-a9cc-703e9e956ee4#id>,
+        <http://www.bbc.co.uk/things/25e95c8f-46aa-4903-9678-bb28deaae535#id>,
+        <http://www.bbc.co.uk/things/6b6c0443-e293-4859-9d7f-84564adf8567#id>,
+        <http://www.bbc.co.uk/things/794f63ed-ea8c-4d35-b6cc-7898727677e0#id>,
+        <http://www.bbc.co.uk/things/80b7d623-0cd5-4768-a02c-88a3b846ab75#id>,
+        <http://www.bbc.co.uk/things/981987e8-e740-4fa5-afbb-17c5eca419b3#id>,
+        <http://www.bbc.co.uk/things/b37e84ae-844f-4ed8-a3d8-819399257a53#id>,
+        <http://www.bbc.co.uk/things/ca198f9e-02f6-4c97-a2b2-690ca8ab8e0e#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zp49cwx#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/b37e84ae-844f-4ed8-a3d8-819399257a53#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/2322d089-6de6-406e-8b95-0f0ba85e7baa#id> .
+
+<http://www.bbc.co.uk/things/b38fa33a-af5f-4d71-b24a-ad5e8789ac3e#id> a curric:TopicOfStudy ;
+    rdfs:label "Goal ball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Goal ball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/404be8df-6193-4ad0-84db-4a69804b479a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztk89qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b3ee240e-12ec-4c59-9685-88edaf01369e#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/e6cbefd8-dcfc-4977-b54f-8c46f75579e0#id> .
+
+<http://www.bbc.co.uk/things/b429293d-577a-4850-b20a-e7d435f5b882#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/265898a3-9a1b-4f4d-91d1-b22a1bdabef5#id>,
+        <http://www.bbc.co.uk/things/60c89272-260c-4cf5-ab0c-03302cf23fd6#id>,
+        <http://www.bbc.co.uk/things/73ca4fce-35f1-47e7-89b1-8247d29a1a6c#id>,
+        <http://www.bbc.co.uk/things/76c9c641-722b-45d1-b3e3-8da5cff7c02f#id>,
+        <http://www.bbc.co.uk/things/8d088499-523b-4aa9-9fb4-1ffe2aecbf69#id>,
+        <http://www.bbc.co.uk/things/c0d2305e-1c7a-4927-b303-c928a704dd96#id>,
+        <http://www.bbc.co.uk/things/cd16743c-eb51-4002-9cbc-c021fdf8ebc7#id>,
+        <http://www.bbc.co.uk/things/e489000f-efa2-4cc0-8c5d-240affa58a39#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zxbg39q#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/b53b2965-1069-462d-b8e7-712e91d2db8c#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/29e2f6b7-82ec-41e9-9ef9-874d6eca16f1#id> .
+
+<http://www.bbc.co.uk/things/b66f6f40-af30-4608-a383-87aa7e648f35#id> a curric:TopicOfStudy ;
+    rdfs:label "Applied anatomy and physiology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Applied anatomy and physiology"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/df632f4b-6de2-4573-8722-05be186f5beb#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsr4rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b6cdce78-67c7-4014-b3dd-ed3aa0ddaeed#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/c4d06834-76ec-4487-ad64-bdbca27743eb#id> .
+
+<http://www.bbc.co.uk/things/b78d3c4b-66ed-4656-9f25-7bf0efeb5d51#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/91be3033-5a71-4db2-8c72-75d5d7df576d#id> .
+
+<http://www.bbc.co.uk/things/b7ce6ee5-e9ed-4c59-81c8-1881caa422b0#id> a curric:TopicOfStudy ;
+    rdfs:label "Goal ball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Goal ball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/404be8df-6193-4ad0-84db-4a69804b479a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztth6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b8864f20-dc09-48a6-9f4a-c4fcf7818a59#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0f1b6df3-75bc-47e5-9b89-ef81c5767934#id>,
+        <http://www.bbc.co.uk/things/0f5bd1c1-f3f4-4050-b898-f08de5368198#id>,
+        <http://www.bbc.co.uk/things/26ba3dec-dcf8-4739-ad21-0acd10ebdc3b#id>,
+        <http://www.bbc.co.uk/things/2b790d91-3076-44ce-ac66-14e7dac86c39#id>,
+        <http://www.bbc.co.uk/things/31d18ed3-d46d-452c-a884-ecd24ef1b33b#id>,
+        <http://www.bbc.co.uk/things/587aadf7-3739-4c0b-b14a-823084fbf3c0#id>,
+        <http://www.bbc.co.uk/things/6e65cb38-8257-457a-ba5f-2e827d321a76#id>,
+        <http://www.bbc.co.uk/things/75c21a9c-cc39-4c01-9303-387786871d5b#id>,
+        <http://www.bbc.co.uk/things/777a292f-464a-4b90-a35f-47c5c1da224e#id>,
+        <http://www.bbc.co.uk/things/78e42ede-57f7-4518-b857-2072568ae75a#id>,
+        <http://www.bbc.co.uk/things/7a0ec906-4b03-48ba-be70-ffe5c87393a5#id>,
+        <http://www.bbc.co.uk/things/808486af-7c24-4419-bbef-228cda745c05#id>,
+        <http://www.bbc.co.uk/things/9ce55cdc-448e-40f7-bd7e-93d43c444567#id>,
+        <http://www.bbc.co.uk/things/a480f054-5be4-4174-bd15-93890b043790#id>,
+        <http://www.bbc.co.uk/things/a677f4cd-54be-4150-b15f-959f8f7c33a2#id>,
+        <http://www.bbc.co.uk/things/c1b34f6b-a5e1-4948-a116-fb2829d4a3c6#id>,
+        <http://www.bbc.co.uk/things/e1e066fe-6cac-44e5-a7f3-93bdc143c722#id>,
+        <http://www.bbc.co.uk/things/ebb962d8-eafd-4054-8816-7730d5043c83#id>,
+        <http://www.bbc.co.uk/things/fd80f203-23e2-4698-ba9f-38e68a36ccf7#id>,
+        <http://www.bbc.co.uk/things/fe17ed86-3de0-40ba-b6fd-9f760c122210#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpq7j6f#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/b954555a-09d1-4444-94a7-9518af5ffab1#id> a curric:TopicOfStudy ;
+    rdfs:label "Polybat "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Polybat "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2aff6f1e-1638-4f40-9cdc-bb02be146787#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwbg39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b9a475b6-d126-4437-9806-394557724b02#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/1e756316-b81c-477b-b533-7a284c90d49c#id> .
+
+<http://www.bbc.co.uk/things/b9ad774e-50f8-4435-8520-0479ed1c0277#id> a curric:TopicOfStudy ;
+    rdfs:label "Athletics "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Athletics "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ca2c88b5-b18a-4e02-95e3-7dc6003e8259#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3sfnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bbc8e6df-4f87-4abd-ac07-ff61a7b002ee#id> a curric:TopicOfStudy ;
+    rdfs:label "Association football "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Association football "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4dcbd4d2-ff5c-42e6-b4de-a4762263a9d2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zghptyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bc2c4a73-c99f-4809-9edf-60c618cc74d7#id> a curric:TopicOfStudy ;
+    rdfs:label "Practical performance"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Practical performance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4bce79f6-bb3a-4da5-ac0b-1321de2b3719#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/b8864f20-dc09-48a6-9f4a-c4fcf7818a59#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpq7j6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bc2d0f63-5041-4874-9d2b-43b80451305a#id> a olo:Slot ;
+    olo:index 12 ;
+    olo:item <http://www.bbc.co.uk/things/4a6845bb-ebed-4961-9239-047ac3b668e4#id> .
+
+<http://www.bbc.co.uk/things/bd64051a-9bbd-45a8-a2c1-5740569ae9c7#id> a curric:TopicOfStudy ;
+    rdfs:label "Physical training"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Physical training"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0671b7ac-f901-412d-b1e1-81ce4f3b4a67#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztpsp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bde53392-710c-4fa7-a869-7a331103a489#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/017e7fbf-1f06-4002-aa8a-a7a9bfbd36f0#id>,
+        <http://www.bbc.co.uk/things/0aa650d0-4131-49a9-8697-8c0115336061#id>,
+        <http://www.bbc.co.uk/things/1fe1778d-aaf2-4755-a52c-845bb4520c01#id>,
+        <http://www.bbc.co.uk/things/20575c37-2bed-49a7-a048-bde7768d5d42#id>,
+        <http://www.bbc.co.uk/things/2513052f-1b8d-46ea-a10e-2d617197c9ef#id>,
+        <http://www.bbc.co.uk/things/2d983c56-c759-4698-a56b-15c24579dede#id>,
+        <http://www.bbc.co.uk/things/3f48bf4e-bfe2-42af-b245-18b4b13a7200#id>,
+        <http://www.bbc.co.uk/things/40d085d0-1f46-4079-8984-d8630785f01b#id>,
+        <http://www.bbc.co.uk/things/649973db-7ec8-4bc5-a089-22deeba6f305#id>,
+        <http://www.bbc.co.uk/things/656cd6f0-fe84-4758-b003-4942cace181e#id>,
+        <http://www.bbc.co.uk/things/870c1c85-cef6-4fc0-8557-db7d49ee8961#id>,
+        <http://www.bbc.co.uk/things/90087568-59b4-4a8b-9b39-a4df252afc6b#id>,
+        <http://www.bbc.co.uk/things/904b251e-3ce7-447e-8ebc-4756cd1dc227#id>,
+        <http://www.bbc.co.uk/things/9102a8aa-33a6-4b2d-9c2a-4a9fc2891a34#id>,
+        <http://www.bbc.co.uk/things/b53b2965-1069-462d-b8e7-712e91d2db8c#id>,
+        <http://www.bbc.co.uk/things/b6cdce78-67c7-4014-b3dd-ed3aa0ddaeed#id>,
+        <http://www.bbc.co.uk/things/bc2d0f63-5041-4874-9d2b-43b80451305a#id>,
+        <http://www.bbc.co.uk/things/dc45cc00-8767-418b-adf7-9ace5fdbf7a5#id>,
+        <http://www.bbc.co.uk/things/e60477b9-d635-4dca-8f3d-8032e018ca8b#id>,
+        <http://www.bbc.co.uk/things/f22d3ed3-df76-4ad7-acc2-ae32065de8bf#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zysfnbk#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/bded77f9-c0dd-4953-a41c-7a342f054b5e#id> a curric:TopicOfStudy ;
+    rdfs:label "Exam skills"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Exam skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2fe885c0-e8b8-4005-9109-55a91160ef7f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9grbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/be95a9e0-be8c-4022-b86f-b7315a348bd8#id> a olo:Slot ;
+    olo:index 20 ;
+    olo:item <http://www.bbc.co.uk/things/b7ce6ee5-e9ed-4c59-81c8-1881caa422b0#id> .
+
+<http://www.bbc.co.uk/things/beed8134-584c-4ca5-a42b-970c8bf99cf2#id> a curric:TopicOfStudy ;
+    rdfs:label "Cricket "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Cricket "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aeafcf20-748b-4ef4-84d9-eda64263e040#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3nsp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bfc42406-5568-474f-b998-08662d29a8d2#id> a curric:TopicOfStudy ;
+    rdfs:label "Volleyball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Volleyball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/a3c743fb-8d81-4095-a3a3-4ef4f40feb60#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z249cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c0d2305e-1c7a-4927-b303-c928a704dd96#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/7d35ff22-1c95-47b4-93ea-96fa4b9eaa19#id> .
+
+<http://www.bbc.co.uk/things/c19bf1ec-f5f6-4df3-8944-987b0d7fa426#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/052e0566-d051-4986-b6da-8bc3229aabbb#id>,
+        <http://www.bbc.co.uk/things/054741e2-78ac-4053-8f63-779e53aa06e1#id>,
+        <http://www.bbc.co.uk/things/199f9d76-c37e-437a-b220-fea1e3094d0d#id>,
+        <http://www.bbc.co.uk/things/38ddac2f-3659-457f-96ea-c8f1fed2905e#id>,
+        <http://www.bbc.co.uk/things/407f61a7-dab7-44a7-bbec-8a4333b6c302#id>,
+        <http://www.bbc.co.uk/things/4dd63525-0960-4ee3-a2c8-7c5ddb5018ba#id>,
+        <http://www.bbc.co.uk/things/5ebbf2fb-6244-47b2-822e-386eee8d9c68#id>,
+        <http://www.bbc.co.uk/things/6de981e5-cfbe-49f3-8899-34e607f0c70d#id>,
+        <http://www.bbc.co.uk/things/730b731c-dfd4-4836-a7dc-9ab8ae691db7#id>,
+        <http://www.bbc.co.uk/things/90791107-42b6-44ec-bb7d-a52b84577987#id>,
+        <http://www.bbc.co.uk/things/94811cf2-0efb-4aa2-b4d5-59dd5edc0853#id>,
+        <http://www.bbc.co.uk/things/983d85ae-8726-4299-aa97-c2864593b0a2#id>,
+        <http://www.bbc.co.uk/things/9d930578-5e5c-4d1b-9e0c-c4fb2212dcf1#id>,
+        <http://www.bbc.co.uk/things/a292e94c-0cf2-40df-b997-6cc0b0724900#id>,
+        <http://www.bbc.co.uk/things/a6024021-ddf4-4172-87c6-c127af493e63#id>,
+        <http://www.bbc.co.uk/things/cd356bfc-674a-4788-9035-78ef58db7582#id>,
+        <http://www.bbc.co.uk/things/d34f3f28-d0c5-40f5-940d-6aec93680359#id>,
+        <http://www.bbc.co.uk/things/d4767a6c-b6d2-4310-a872-5b92682ede3d#id>,
+        <http://www.bbc.co.uk/things/f2128b7b-e8c0-4375-ba32-0aa6fdd1b1b8#id>,
+        <http://www.bbc.co.uk/things/f8f12283-dad5-4d7a-b711-384e68ec2df1#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8m6mnb#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/c1b34f6b-a5e1-4948-a116-fb2829d4a3c6#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/01f34e01-cabf-4e73-83c0-35fabf7950ce#id> .
+
+<http://www.bbc.co.uk/things/c4d06834-76ec-4487-ad64-bdbca27743eb#id> a curric:TopicOfStudy ;
+    rdfs:label "Tennis"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Tennis"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc59816b-962a-4004-b7c6-ab20e356749d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztx6mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c5c3ab9b-0191-4687-ac2b-a366856b1d15#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/0aa21d39-1090-4140-9b68-62b8d9458f5d#id> .
+
+<http://www.bbc.co.uk/things/c6366721-012d-45ab-948a-aa46b231d4f0#id> a curric:TopicOfStudy ;
+    rdfs:label "Performance analysis"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Performance analysis"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5394fce5-a0f8-4dd1-9d59-6cab0d564ab1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8wqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c661deb8-6928-46ee-8267-26cf0c696bd7#id> a curric:TopicOfStudy ;
+    rdfs:label "Goal ball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Goal ball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/404be8df-6193-4ad0-84db-4a69804b479a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwk89qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c6e622bc-e128-48f0-a879-f29b4e2c57c0#id> a curric:TopicOfStudy ;
+    rdfs:label "Socio-cultural influences"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Socio-cultural influences"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9dca77d0-c828-43e3-991f-97e8c1d07959#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2xtxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c79045ab-238e-4f3f-9926-f242d744ec72#id> a curric:TopicOfStudy ;
+    rdfs:label "Badminton "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Badminton "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/202c6f26-f8c7-436a-aaca-11e50273000a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyhptyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ca198f9e-02f6-4c97-a2b2-690ca8ab8e0e#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/85b36188-f70c-4167-8552-02ea9c10808e#id> .
+
+<http://www.bbc.co.uk/things/cb1b728a-7c9d-47ca-8441-d580d34a54fb#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/eb001868-fe59-4b9a-9789-b410bb230211#id> .
+
+<http://www.bbc.co.uk/things/cbb4fe51-5ca7-4fa6-b0bb-45602082b52f#id> a curric:TopicOfStudy ;
+    rdfs:label "Applied anatomy and physiology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Applied anatomy and physiology"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/df632f4b-6de2-4573-8722-05be186f5beb#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsmx2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cbfca0d2-179d-4342-b486-14bc6362bcd5#id> a curric:TopicOfStudy ;
+    rdfs:label "Tennis"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Tennis"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc59816b-962a-4004-b7c6-ab20e356749d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z83bv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ccf8b1d4-6724-42cb-b82d-99ffead5302e#id> a curric:TopicOfStudy ;
+    rdfs:label "Practical performance"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Practical performance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4bce79f6-bb3a-4da5-ac0b-1321de2b3719#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/1e251b69-b727-4355-bb33-1ffa6b5bc09b#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgyvfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cd16743c-eb51-4002-9cbc-c021fdf8ebc7#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/47e57c9b-d1d6-46c4-bef9-69530f6dc6ab#id> .
+
+<http://www.bbc.co.uk/things/cd356bfc-674a-4788-9035-78ef58db7582#id> a olo:Slot ;
+    olo:index 20 ;
+    olo:item <http://www.bbc.co.uk/things/290e0023-4e4a-4ec6-b7a1-d497e38c598d#id> .
+
+<http://www.bbc.co.uk/things/cd6b7be0-42fb-4206-aab9-a8d45fe4c6ce#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/865bede0-d5c3-498c-bfca-4b170be18f69#id> .
+
+<http://www.bbc.co.uk/things/d0c953ec-ff98-40f0-8c23-7ea6a311dca2#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/3c276cda-3215-4b98-8192-e13ddd4c493f#id>,
+        <http://www.bbc.co.uk/things/56558b4b-8ee2-4dfd-b91c-c21980103e31#id>,
+        <http://www.bbc.co.uk/things/6bcf0ddf-03c5-4334-9955-09dd74ed0901#id>,
+        <http://www.bbc.co.uk/things/781fa34b-321d-4df5-a1b9-59782f3be476#id>,
+        <http://www.bbc.co.uk/things/809cadd3-292a-4713-b109-afd71c447c7b#id>,
+        <http://www.bbc.co.uk/things/8d6f8f21-3172-4bbe-9022-6e83cb98ac0f#id>,
+        <http://www.bbc.co.uk/things/b209b43a-8edf-4823-9830-57fed9116d29#id>,
+        <http://www.bbc.co.uk/things/cd6b7be0-42fb-4206-aab9-a8d45fe4c6ce#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/ztrcg82#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/d2a5d68a-831e-4a90-90c9-c2c70a738290#id> a curric:TopicOfStudy ;
+    rdfs:label "Hockey "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Hockey "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0ee33c1c-5c10-453e-a421-c9114043ac2b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgrcg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d2bf75df-bacc-432f-bd0e-e74c023285e4#id> a curric:TopicOfStudy ;
+    rdfs:label "Rock climbing "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Rock climbing "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/78672f6c-e2f7-4312-a24d-10e77ed5fa60#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsfysg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d34f3f28-d0c5-40f5-940d-6aec93680359#id> a olo:Slot ;
+    olo:index 17 ;
+    olo:item <http://www.bbc.co.uk/things/6ab11edb-4156-4432-ac64-5c209eb1a5aa#id> .
+
+<http://www.bbc.co.uk/things/d3c3536d-f35b-4bb2-be98-479a4accb478#id> a curric:TopicOfStudy ;
+    rdfs:label "Rugby "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Rugby "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/fbbed5d1-7e9b-49bd-9780-9ac413263717#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp2m7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d4199ff4-17d5-492b-a718-46a375109a56#id> a curric:TopicOfStudy ;
+    rdfs:label "Swimming "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Swimming "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/adb69aab-628f-41ea-adb3-cd927428525f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2jqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d4767a6c-b6d2-4310-a872-5b92682ede3d#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/3236da3c-e96a-4055-bf38-1f6f7709cfe9#id> .
+
+<http://www.bbc.co.uk/things/d53f3558-c031-481f-9d89-ec48ba4cfb62#id> a curric:TopicOfStudy ;
+    rdfs:label "Badminton "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Badminton "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/202c6f26-f8c7-436a-aaca-11e50273000a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcj7j6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/dc45cc00-8767-418b-adf7-9ace5fdbf7a5#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/676cc00f-2d50-49d4-8ce8-7e3369a73fbd#id> .
+
+<http://www.bbc.co.uk/things/dc50c52c-c4ff-4704-8fd7-a98831e2fc96#id> a curric:TopicOfStudy ;
+    rdfs:label "Physical training"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Physical training"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0671b7ac-f901-412d-b1e1-81ce4f3b4a67#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztjqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/df1a9355-68c0-4445-85a5-4de6a749cfec#id> a curric:TopicOfStudy ;
+    rdfs:label "Practical performance"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Practical performance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4bce79f6-bb3a-4da5-ac0b-1321de2b3719#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/ae2fae22-be99-420e-8b7f-a2494abf0f5f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z98w82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e07b037d-217f-4a98-bb2a-a8c67a64352d#id> a olo:Slot ;
+    olo:index 12 ;
+    olo:item <http://www.bbc.co.uk/things/59821861-0f35-4060-94d3-447a7b1a21d8#id> .
+
+<http://www.bbc.co.uk/things/e1e066fe-6cac-44e5-a7f3-93bdc143c722#id> a olo:Slot ;
+    olo:index 11 ;
+    olo:item <http://www.bbc.co.uk/things/bbc8e6df-4f87-4abd-ac07-ff61a7b002ee#id> .
+
+<http://www.bbc.co.uk/things/e1e280b8-163d-4400-b44b-b76a9b326814#id> a olo:Slot ;
+    olo:index 12 ;
+    olo:item <http://www.bbc.co.uk/things/9b1e55b8-57cf-42f1-8198-b3d70ad533b5#id> .
+
+<http://www.bbc.co.uk/things/e489000f-efa2-4cc0-8c5d-240affa58a39#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/ccf8b1d4-6724-42cb-b82d-99ffead5302e#id> .
+
+<http://www.bbc.co.uk/things/e5869af8-68b9-4c64-ba96-49728deaa4bf#id> a curric:TopicOfStudy ;
+    rdfs:label "Performance analysis"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Performance analysis"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5394fce5-a0f8-4dd1-9d59-6cab0d564ab1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zw6h6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e5970ff6-2ab3-4fdf-9fa1-687ac295ffa4#id> a curric:TopicOfStudy ;
+    rdfs:label "Practical performance"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Practical performance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4bce79f6-bb3a-4da5-ac0b-1321de2b3719#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/bde53392-710c-4fa7-a869-7a331103a489#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zysfnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e60477b9-d635-4dca-8f3d-8032e018ca8b#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/26861ae3-0d71-4d58-9339-a01c7717e6de#id> .
+
+<http://www.bbc.co.uk/things/e62dc6fb-2e60-4023-bcb2-25950b5cf932#id> a olo:Slot ;
+    olo:index 14 ;
+    olo:item <http://www.bbc.co.uk/things/9d1d344d-f240-4d5a-95b4-c4f72472ef70#id> .
+
+<http://www.bbc.co.uk/things/e6cbefd8-dcfc-4977-b54f-8c46f75579e0#id> a curric:TopicOfStudy ;
+    rdfs:label "Polybat "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Polybat "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2aff6f1e-1638-4f40-9cdc-bb02be146787#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2mx2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e788b455-5c87-4897-a470-e45346815ebf#id> a curric:TopicOfStudy ;
+    rdfs:label "Swimming "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Swimming "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/adb69aab-628f-41ea-adb3-cd927428525f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zssfnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/eb001868-fe59-4b9a-9789-b410bb230211#id> a curric:TopicOfStudy ;
+    rdfs:label "Handball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Handball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/52261b3b-91cf-4661-8532-02bc0a409de0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2dw82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/eb303c64-c390-4c61-9e0e-0c9b8df54d42#id> a curric:TopicOfStudy ;
+    rdfs:label "Table Tennis "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Table Tennis "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/eb5404fe-e660-4281-b4ee-27977afee1c1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq72qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/eb3bd77c-c188-466b-8cd7-30c6d4ae84fe#id> a curric:TopicOfStudy ;
+    rdfs:label "Handball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Handball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/52261b3b-91cf-4661-8532-02bc0a409de0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zthptyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ebb962d8-eafd-4054-8816-7730d5043c83#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/040cfcc7-107e-4a44-811d-9a862fca3ccf#id> .
+
+<http://www.bbc.co.uk/things/ed1c0f82-37ec-4332-b3d4-7b952339310d#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/ad998507-7fc0-4cf3-8feb-9618a43e1daa#id> .
+
+<http://www.bbc.co.uk/things/edd5f906-a5b9-4857-bd03-e34aa85fa3db#id> a curric:TopicOfStudy ;
+    rdfs:label "Association football "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Association football "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/4dcbd4d2-ff5c-42e6-b4de-a4762263a9d2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9bg39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/eef1e9b2-b506-4f43-b758-402ded3848c7#id> a curric:TopicOfStudy ;
+    rdfs:label "Rock climbing "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Rock climbing "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/78672f6c-e2f7-4312-a24d-10e77ed5fa60#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zt72qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f2128b7b-e8c0-4375-ba32-0aa6fdd1b1b8#id> a olo:Slot ;
+    olo:index 14 ;
+    olo:item <http://www.bbc.co.uk/things/455b9c11-ea54-4f04-ac59-f46b021e740a#id> .
+
+<http://www.bbc.co.uk/things/f22d3ed3-df76-4ad7-acc2-ae32065de8bf#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/b0229834-31bb-4696-bc62-0884f0f6f3d3#id> .
+
+<http://www.bbc.co.uk/things/f46cfb57-b84c-41d7-9115-6ad4b8b475b5#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/9bde2c86-050f-453b-9e91-e8b8c5ff40f3#id> .
+
+<http://www.bbc.co.uk/things/f4e91bfc-d8a2-44dc-b1c2-00df9c063d53#id> a curric:TopicOfStudy ;
+    rdfs:label "Netball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Netball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/971ad56f-2d06-4c75-9bcb-2d2d4fa43db2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsx6mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f5d2a928-7aa0-4435-b9ce-86836f8fdddb#id> a curric:TopicOfStudy ;
+    rdfs:label "Netball "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Netball "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/971ad56f-2d06-4c75-9bcb-2d2d4fa43db2#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zg8w82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f8f12283-dad5-4d7a-b711-384e68ec2df1#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/d53f3558-c031-481f-9d89-ec48ba4cfb62#id> .
+
+<http://www.bbc.co.uk/things/f93f4095-0783-4d11-bc6f-45acf0b84494#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/b9ad774e-50f8-4435-8520-0479ed1c0277#id> .
+
+<http://www.bbc.co.uk/things/fa56e745-e4b5-4127-baa3-452d4251f72b#id> a curric:TopicOfStudy ;
+    rdfs:label "Health, fitness and well-being"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Health, fitness and well-being"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/22b8e019-d28e-450b-9cbc-9423a422c58e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8c4rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fbc6f0d0-d896-46ef-a4a1-e6311207ceef#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/5571fbb3-c651-4bee-9d82-6f9d86d9b097#id> .
+
+<http://www.bbc.co.uk/things/fd5514f9-6f2e-40ee-af66-f30b11d37c9c#id> a curric:TopicOfStudy ;
+    rdfs:label "Trampolining "@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Trampolining "@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1cc2020c-f912-4312-a8ab-a95428cd9b9f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpnsp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fd80f203-23e2-4698-ba9f-38e68a36ccf7#id> a olo:Slot ;
+    olo:index 20 ;
+    olo:item <http://www.bbc.co.uk/things/b38fa33a-af5f-4d71-b24a-ad5e8789ac3e#id> .
+
+<http://www.bbc.co.uk/things/fdef54e1-6881-42fc-918a-6f01bddf4671#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/7ee51f54-7c34-4e77-abbd-27b82051c595#id> .
+
+<http://www.bbc.co.uk/things/fdf7e281-fca7-4321-89be-db74b4fe2085#id> a curric:TopicOfStudy ;
+    rdfs:label "Exam skills"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education curriculum"@en-gb ;
+    core:preferredLabel "Exam skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2fe885c0-e8b8-4005-9109-55a91160ef7f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwq2qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fe17ed86-3de0-40ba-b6fd-9f760c122210#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/cbfca0d2-179d-4342-b486-14bc6362bcd5#id> .
+
+<http://www.bbc.co.uk/things/ffee583a-4369-4ce0-ab0a-7f3f718387da#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/d2bf75df-bacc-432f-bd0e-e74c023285e4#id> .
+
+<http://www.bbc.co.uk/things/0671b7ac-f901-412d-b1e1-81ce4f3b4a67#id> a curric:Topic ;
+    rdfs:label "Physical training"@en-gb ;
+    core:preferredLabel "Physical training"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxdw82p#topic> .
+
+<http://www.bbc.co.uk/things/0ee33c1c-5c10-453e-a421-c9114043ac2b#id> a curric:Topic ;
+    rdfs:label "Hockey "@en-gb ;
+    core:preferredLabel "Hockey "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zw3bv4j#topic> .
+
+<http://www.bbc.co.uk/things/1cc2020c-f912-4312-a8ab-a95428cd9b9f#id> a curric:Topic ;
+    rdfs:label "Trampolining "@en-gb ;
+    core:preferredLabel "Trampolining "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpjqwxs#topic> .
+
+<http://www.bbc.co.uk/things/202c6f26-f8c7-436a-aaca-11e50273000a#id> a curric:Topic ;
+    rdfs:label "Badminton "@en-gb ;
+    core:preferredLabel "Badminton "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwgrbk7#topic> .
+
+<http://www.bbc.co.uk/things/22b8e019-d28e-450b-9cbc-9423a422c58e#id> a curric:Topic ;
+    rdfs:label "Health, fitness and well-being"@en-gb ;
+    core:preferredLabel "Health, fitness and well-being"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcfysg8#topic> .
+
+<http://www.bbc.co.uk/things/2aff6f1e-1638-4f40-9cdc-bb02be146787#id> a curric:Topic ;
+    rdfs:label "Polybat "@en-gb ;
+    core:preferredLabel "Polybat "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8v3ycw#topic> .
+
+<http://www.bbc.co.uk/things/2fe885c0-e8b8-4005-9109-55a91160ef7f#id> a curric:Topic ;
+    rdfs:label "Exam skills"@en-gb ;
+    core:preferredLabel "Exam skills"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3hptyc#topic> .
+
+<http://www.bbc.co.uk/things/31accc95-b42d-4297-a80c-2d2319254208#id> a curric:Topic ;
+    rdfs:label "Sport psychology"@en-gb ;
+    core:preferredLabel "Sport psychology"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq49cwx#topic> .
+
+<http://www.bbc.co.uk/things/3690f00b-9735-45ac-9f23-d484f124fadf#id> a curric:Topic ;
+    rdfs:label "Boccia "@en-gb ;
+    core:preferredLabel "Boccia "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zt8dk7h#topic> .
+
+<http://www.bbc.co.uk/things/404be8df-6193-4ad0-84db-4a69804b479a#id> a curric:Topic ;
+    rdfs:label "Goal ball "@en-gb ;
+    core:preferredLabel "Goal ball "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx49cwx#topic> .
+
+<http://www.bbc.co.uk/things/4bce79f6-bb3a-4da5-ac0b-1321de2b3719#id> a curric:Topic ;
+    rdfs:label "Practical performance"@en-gb ;
+    core:preferredLabel "Practical performance"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztwjdmn#topic> .
+
+<http://www.bbc.co.uk/things/4dcbd4d2-ff5c-42e6-b4de-a4762263a9d2#id> a curric:Topic ;
+    rdfs:label "Association football "@en-gb ;
+    core:preferredLabel "Association football "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z36txsg#topic> .
+
+<http://www.bbc.co.uk/things/52261b3b-91cf-4661-8532-02bc0a409de0#id> a curric:Topic ;
+    rdfs:label "Handball "@en-gb ;
+    core:preferredLabel "Handball "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxk89qt#topic> .
+
+<http://www.bbc.co.uk/things/5394fce5-a0f8-4dd1-9d59-6cab0d564ab1#id> a curric:Topic ;
+    rdfs:label "Performance analysis"@en-gb ;
+    core:preferredLabel "Performance analysis"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs2m7hv#topic> .
+
+<http://www.bbc.co.uk/things/61d491be-3b18-4feb-9682-b7b3f1fc8dfd#id> a curric:Topic ;
+    rdfs:label "Dance "@en-gb ;
+    core:preferredLabel "Dance "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpdw82p#topic> .
+
+<http://www.bbc.co.uk/things/78672f6c-e2f7-4312-a24d-10e77ed5fa60#id> a curric:Topic ;
+    rdfs:label "Rock climbing "@en-gb ;
+    core:preferredLabel "Rock climbing "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zymx2p3#topic> .
+
+<http://www.bbc.co.uk/things/7b682d4f-3edc-442d-b2a4-9554b0ca9d1d#id> a curric:Topic ;
+    rdfs:label "Wheelchair basketball "@en-gb ;
+    core:preferredLabel "Wheelchair basketball "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgpnhv4#topic> .
+
+<http://www.bbc.co.uk/things/971ad56f-2d06-4c75-9bcb-2d2d4fa43db2#id> a curric:Topic ;
+    rdfs:label "Netball "@en-gb ;
+    core:preferredLabel "Netball "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9sfnbk#topic> .
+
+<http://www.bbc.co.uk/things/9dca77d0-c828-43e3-991f-97e8c1d07959#id> a curric:Topic ;
+    rdfs:label "Socio-cultural influences"@en-gb ;
+    core:preferredLabel "Socio-cultural influences"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8bg39q#topic> .
+
+<http://www.bbc.co.uk/things/a3c743fb-8d81-4095-a3a3-4ef4f40feb60#id> a curric:Topic ;
+    rdfs:label "Volleyball "@en-gb ;
+    core:preferredLabel "Volleyball "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqrcg82#topic> .
+
+<http://www.bbc.co.uk/things/adb69aab-628f-41ea-adb3-cd927428525f#id> a curric:Topic ;
+    rdfs:label "Swimming "@en-gb ;
+    core:preferredLabel "Swimming "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zy72qty#topic> .
+
+<http://www.bbc.co.uk/things/aeafcf20-748b-4ef4-84d9-eda64263e040#id> a curric:Topic ;
+    rdfs:label "Cricket "@en-gb ;
+    core:preferredLabel "Cricket "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2c4rdm#topic> .
+
+<http://www.bbc.co.uk/things/bc59816b-962a-4004-b7c6-ab20e356749d#id> a curric:Topic ;
+    rdfs:label "Tennis"@en-gb ;
+    core:preferredLabel "Tennis"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9yvfrd#topic> .
+
+<http://www.bbc.co.uk/things/ca2c88b5-b18a-4e02-95e3-7dc6003e8259#id> a curric:Topic ;
+    rdfs:label "Athletics "@en-gb ;
+    core:preferredLabel "Athletics "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z29k4j6#topic> .
+
+<http://www.bbc.co.uk/things/dc00612f-2961-4f90-918d-70c093098f03#id> a curric:Topic ;
+    rdfs:label "Basketball "@en-gb ;
+    core:preferredLabel "Basketball "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsq7j6f#topic> .
+
+<http://www.bbc.co.uk/things/df632f4b-6de2-4573-8722-05be186f5beb#id> a curric:Topic ;
+    rdfs:label "Applied anatomy and physiology"@en-gb ;
+    core:preferredLabel "Applied anatomy and physiology"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp72qty#topic> .
+
+<http://www.bbc.co.uk/things/eb5404fe-e660-4281-b4ee-27977afee1c1#id> a curric:Topic ;
+    rdfs:label "Table Tennis "@en-gb ;
+    core:preferredLabel "Table Tennis "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcnsp39#topic> .
+
+<http://www.bbc.co.uk/things/fbbed5d1-7e9b-49bd-9780-9ac413263717#id> a curric:Topic ;
+    rdfs:label "Rugby "@en-gb ;
+    core:preferredLabel "Rugby "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgth6fr#topic> .
+
+<http://www.bbc.co.uk/things/387acf02-5bf9-4964-8207-0131ebcb5884#id> a curric:ExamSpecification ;
+    rdfs:label "OCR"@en-gb ;
+    core:disambiguationHint "OCR GCSE Physical Education 2016 onwards"@en-gb ;
+    core:preferredLabel "OCR"@en-gb ;
+    curric:curriculumYear 2016 ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:topics <http://www.bbc.co.uk/things/d0c953ec-ff98-40f0-8c23-7ea6a311dca2#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/ztrcg82#exam-specification> .
+
+<http://www.bbc.co.uk/things/4dc6fa2c-c0f9-48a1-b66f-12d291e45f94#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Physical Education 2016 onwards"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:curriculumYear 2016 ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:topics <http://www.bbc.co.uk/things/b429293d-577a-4850-b20a-e7d435f5b882#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zxbg39q#exam-specification> .
+
+<http://www.bbc.co.uk/things/baefaa9d-500b-408b-8178-5981b72e0c3a#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Physical Education 2016 onwards"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:curriculumYear 2016 ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:topics <http://www.bbc.co.uk/things/b37500fa-4b6b-45e7-83f3-9d6144e782ec#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zp49cwx#exam-specification> .
+
+<http://www.bbc.co.uk/things/d00ca92e-9010-4c52-93c8-bee905f8fb40#id> a curric:ExamSpecification ;
+    rdfs:label "Eduqas"@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Physical Education 2016 onwards"@en-gb ;
+    core:preferredLabel "Eduqas"@en-gb ;
+    curric:curriculumYear 2016 ;
+    curric:examBoard <http://www.bbc.co.uk/things/61ed10fe-4712-4921-8ee2-1e81a0fe076e#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:topics <http://www.bbc.co.uk/things/a3acdc3a-a346-434e-b972-830733994f5f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z2v3ycw#exam-specification> .
+
+<http://www.bbc.co.uk/things/dbc651a5-b3c2-46aa-a4e2-6f2894307b6d#id> a curric:ExamSpecification ;
+    rdfs:label "WJEC"@en-gb ;
+    core:disambiguationHint "WJEC GCSE Physical Education 2016 onwards"@en-gb ;
+    core:preferredLabel "WJEC"@en-gb ;
+    curric:curriculumYear 2016 ;
+    curric:examBoard <http://www.bbc.co.uk/things/25d85da2-d7b5-49bc-8b06-55e695f7966b#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/93354216-316f-4a86-b257-730ef017ed74#id> ;
+    curric:topics <http://www.bbc.co.uk/things/24bd7b0e-f94d-48f3-9d41-587f58840550#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zqfysg8#exam-specification> .
+

@@ -1,0 +1,851 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/ac4742cd-2fd9-4d65-9199-31bad354d5c6#id> a provenance:Dataset ;
+    rdfs:label "GCSE ICT Exam Specifications, Topics of Study and Topics" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "3"^^xsd:int .
+
+<http://www.bbc.co.uk/things/0009b904-5f91-44a1-91cf-3de35bfdf879#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/866fcf01-f59e-4513-a76c-356de231434b#id> .
+
+<http://www.bbc.co.uk/things/01f33b81-2a63-403e-9b88-0af005fa9174#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/f711bdc0-db29-4294-94b7-5e5430b80e81#id> .
+
+<http://www.bbc.co.uk/things/0375da32-18e6-436e-b84b-7ad7ee5704ec#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/4e8499fa-f5b5-438e-909f-4a35065359b5#id> .
+
+<http://www.bbc.co.uk/things/099b54eb-a0f3-4b09-8d94-6ad4a43221e5#id> a curric:TopicOfStudy ;
+    rdfs:label "Legal framework"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Legal framework"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6f7e88e9-c201-4634-90f5-3b044d0b17df#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/0986a18c-889e-4b3c-b001-a8eb929e4b49#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zymsnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0bdbe8dd-2bf4-467a-8215-bb466fa7d7cd#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/3040eb0c-4ba9-4a2d-aa8c-4a51ce9db9c8#id> .
+
+<http://www.bbc.co.uk/things/14197a9d-6300-43ec-a0ee-ed247bca3786#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/dc992421-2ffb-4f06-a2f3-38d5ccefa763#id> .
+
+<http://www.bbc.co.uk/things/17d5bc65-6bb5-465d-addc-8a5ff99cbba7#id> a curric:TopicOfStudy ;
+    rdfs:label "Modelling and simulation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Modelling and simulation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f72f93e4-674b-42d2-878d-b6e487c7b547#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/0986a18c-889e-4b3c-b001-a8eb929e4b49#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3tvycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/190d038e-c16c-4909-a153-12c31d53a297#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/8cb1a527-cd37-48db-b840-3b827865ea45#id> .
+
+<http://www.bbc.co.uk/things/1e0da155-89c6-41a3-804d-a64f3af100d4#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/eabd2ec8-1696-41a2-814b-876f8d9eed2b#id> .
+
+<http://www.bbc.co.uk/things/1e83c60b-957c-4d61-8512-d76cb8f2540f#id> a curric:TopicOfStudy ;
+    rdfs:label "Measurement and control"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Measurement and control"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0744111d-a5fd-43f4-88c1-e097826e7782#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/0986a18c-889e-4b3c-b001-a8eb929e4b49#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgpb39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1fc10eda-56e6-4abd-a238-f3ddd746c668#id> a curric:TopicOfStudy ;
+    rdfs:label "Data and databases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Data and databases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/094ebbcb-93de-44b0-9403-f2d4521a5475#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/7703c636-029b-4702-8675-abb5de258647#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z36yfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/209e3c4a-519d-492f-b3bb-1ef48c7e7c9b#id> a curric:TopicOfStudy ;
+    rdfs:label "Networks and communications"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Networks and communications"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bbb25536-5fa2-40dc-bdf4-a95b3f91457d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/7703c636-029b-4702-8675-abb5de258647#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zy2np39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/211d30a3-a7fb-4006-94b4-6dbb14ae90d7#id> a curric:TopicOfStudy ;
+    rdfs:label "Legal framework"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Legal framework"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6f7e88e9-c201-4634-90f5-3b044d0b17df#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/811cebd5-b9f9-4641-a212-03e6a0775d69#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyxfsg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/212bdfc9-d8e0-4602-a317-e3bacafb21a9#id> a curric:TopicOfStudy ;
+    rdfs:label "Measurement and control"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Measurement and control"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0744111d-a5fd-43f4-88c1-e097826e7782#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/811cebd5-b9f9-4641-a212-03e6a0775d69#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgngbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/22217764-1bc1-4c8c-a95b-4c7f74dcc53c#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/a5cafb7e-a011-4417-be11-2b44afd5b03e#id> .
+
+<http://www.bbc.co.uk/things/2420735c-6f5c-45d6-a728-80cf6dce3246#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/209e3c4a-519d-492f-b3bb-1ef48c7e7c9b#id> .
+
+<http://www.bbc.co.uk/things/2df5d64e-8e80-445b-8c97-b4d182775dc2#id> a curric:TopicOfStudy ;
+    rdfs:label "Modelling and simulation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Modelling and simulation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f72f93e4-674b-42d2-878d-b6e487c7b547#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/811cebd5-b9f9-4641-a212-03e6a0775d69#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3h3v4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2f71981b-e8e5-4022-9ea3-26f0c5860af7#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/3392184d-f7f9-42a5-87a5-746dda362f0e#id>,
+        <http://www.bbc.co.uk/things/4061ce0a-9e1d-41c0-8ff8-3e8a529aca94#id>,
+        <http://www.bbc.co.uk/things/42caeccb-a817-4a97-83dc-f64bae8519f1#id>,
+        <http://www.bbc.co.uk/things/8d03ee9e-6f4b-489d-a38a-4edd0d992fef#id>,
+        <http://www.bbc.co.uk/things/8f83329e-538b-4e7b-b081-7168080b6a8d#id>,
+        <http://www.bbc.co.uk/things/9ad6866f-404a-40ae-8449-0adc69792ec5#id>,
+        <http://www.bbc.co.uk/things/ac6650ea-a66b-45ce-924c-68494f16795f#id>,
+        <http://www.bbc.co.uk/things/bd862771-7d1a-415d-8219-d70b6f9ffba7#id>,
+        <http://www.bbc.co.uk/things/ecf142fd-c2fe-40a7-bc09-a38f520b26bf#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zs4qj6f#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/3040eb0c-4ba9-4a2d-aa8c-4a51ce9db9c8#id> a curric:TopicOfStudy ;
+    rdfs:label "ICT systems"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "ICT systems"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6df8d446-63a3-4d50-9747-92374bb03cef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/0986a18c-889e-4b3c-b001-a8eb929e4b49#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqcjwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/311f830c-b606-4aef-9461-4d95a5d2dd50#id> a curric:TopicOfStudy ;
+    rdfs:label "Legal framework"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Legal framework"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6f7e88e9-c201-4634-90f5-3b044d0b17df#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/7703c636-029b-4702-8675-abb5de258647#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zt8m2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3392184d-f7f9-42a5-87a5-746dda362f0e#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/e04f7b79-5865-4859-931d-bab53eff84ef#id> .
+
+<http://www.bbc.co.uk/things/35f8f3b3-045f-419f-8b44-741e37ea800b#id> a curric:TopicOfStudy ;
+    rdfs:label "Hardware"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Hardware"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/50bcfb20-ea16-420c-ae38-b475cf27d51b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8eff2869-9ec4-46d0-8f7c-799181de5162#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxcjwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/38f03266-de54-498d-9897-0fcef385f31d#id> a curric:TopicOfStudy ;
+    rdfs:label "Measurement and control"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Measurement and control"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0744111d-a5fd-43f4-88c1-e097826e7782#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/7703c636-029b-4702-8675-abb5de258647#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsqhtyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3ad53824-0e11-4f19-bc0b-d09be3ffc7d4#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/c8955a5b-10e2-4f2e-a99c-fc4780e5dfba#id> .
+
+<http://www.bbc.co.uk/things/3b0baa1c-a48c-430b-982a-fa7e3e5a4732#id> a curric:TopicOfStudy ;
+    rdfs:label "Networks and communications"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Networks and communications"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bbb25536-5fa2-40dc-bdf4-a95b3f91457d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d333afe8-3eff-4418-b33e-8e037b3df6ae#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqb8k7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3d62bb16-c732-4ce6-bb2f-7d0c9e43bd0e#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/38f03266-de54-498d-9897-0fcef385f31d#id> .
+
+<http://www.bbc.co.uk/things/3f7e0550-2016-4c67-ac93-7fee7839274f#id> a curric:TopicOfStudy ;
+    rdfs:label "Risks and implications of ICT"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Risks and implications of ICT"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/79379d16-1834-49a4-8558-be8854ecbaba#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8eff2869-9ec4-46d0-8f7c-799181de5162#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2b8k7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3f9e8c61-3f3b-4cf3-b4bc-1005659d3727#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0375da32-18e6-436e-b84b-7ad7ee5704ec#id>,
+        <http://www.bbc.co.uk/things/14197a9d-6300-43ec-a0ee-ed247bca3786#id>,
+        <http://www.bbc.co.uk/things/3ad53824-0e11-4f19-bc0b-d09be3ffc7d4#id>,
+        <http://www.bbc.co.uk/things/56a20c58-6955-4ed3-8cfa-2bffd47c7303#id>,
+        <http://www.bbc.co.uk/things/5b7cbe9e-a0fe-4132-9a05-efbbf975d216#id>,
+        <http://www.bbc.co.uk/things/674b6025-9366-4019-924c-3dd8a0abe673#id>,
+        <http://www.bbc.co.uk/things/a2a47da0-d4fc-47f0-b8d3-3f09bd3b7053#id>,
+        <http://www.bbc.co.uk/things/e0eee4bd-cab6-48e6-a8f6-ddd7e917b2e6#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zyk27hv#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/4061ce0a-9e1d-41c0-8ff8-3e8a529aca94#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/c8c20c91-8f07-45b9-a8fa-ca7d9f9d39b0#id> .
+
+<http://www.bbc.co.uk/things/42caeccb-a817-4a97-83dc-f64bae8519f1#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/6587876f-9a90-46bf-ad54-ef04d2a0a0f9#id> .
+
+<http://www.bbc.co.uk/things/4648060c-3419-45eb-81df-8feb49f35f25#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/7ed19c44-b5a4-44b1-83bd-652a11a08cde#id> .
+
+<http://www.bbc.co.uk/things/49290986-9cd8-4f20-b945-d7e5fbb9ff84#id> a curric:TopicOfStudy ;
+    rdfs:label "Hardware"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Hardware"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/50bcfb20-ea16-420c-ae38-b475cf27d51b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/0986a18c-889e-4b3c-b001-a8eb929e4b49#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwgd82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/49772121-d5e1-491b-b1e1-8f8bb2d48b84#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/17d5bc65-6bb5-465d-addc-8a5ff99cbba7#id> .
+
+<http://www.bbc.co.uk/things/4af50e11-0cda-4dd3-b644-a422fe813cc1#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/311f830c-b606-4aef-9461-4d95a5d2dd50#id> .
+
+<http://www.bbc.co.uk/things/4e8499fa-f5b5-438e-909f-4a35065359b5#id> a curric:TopicOfStudy ;
+    rdfs:label "Data and databases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Data and databases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/094ebbcb-93de-44b0-9403-f2d4521a5475#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d333afe8-3eff-4418-b33e-8e037b3df6ae#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2rwdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5399b784-3d92-4735-a019-477bfe107848#id> a curric:TopicOfStudy ;
+    rdfs:label "Risks and implications of ICT"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Risks and implications of ICT"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/79379d16-1834-49a4-8558-be8854ecbaba#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/7703c636-029b-4702-8675-abb5de258647#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx97qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/55fda0e4-4b5d-4233-a778-180479351e9e#id> a curric:TopicOfStudy ;
+    rdfs:label "Risks and implications of ICT"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Risks and implications of ICT"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/79379d16-1834-49a4-8558-be8854ecbaba#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d333afe8-3eff-4418-b33e-8e037b3df6ae#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zch3v4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/56a20c58-6955-4ed3-8cfa-2bffd47c7303#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/7d82b07b-2385-44ee-be53-83a4af72a129#id> .
+
+<http://www.bbc.co.uk/things/5b7cbe9e-a0fe-4132-9a05-efbbf975d216#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/89cfd502-489b-46fd-a3ed-da272521ec08#id> .
+
+<http://www.bbc.co.uk/things/5e3b8bd4-945a-42b3-b93a-65091c8d8755#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0009b904-5f91-44a1-91cf-3de35bfdf879#id>,
+        <http://www.bbc.co.uk/things/01f33b81-2a63-403e-9b88-0af005fa9174#id>,
+        <http://www.bbc.co.uk/things/4648060c-3419-45eb-81df-8feb49f35f25#id>,
+        <http://www.bbc.co.uk/things/72a65dfd-2d3e-47b8-83be-96dc3cf95d16#id>,
+        <http://www.bbc.co.uk/things/d614acd4-3dd9-42e8-8221-af164ee03fad#id>,
+        <http://www.bbc.co.uk/things/d80d276f-4b0c-44e1-a77d-2c7e491bbb12#id>,
+        <http://www.bbc.co.uk/things/ddba58ca-c9f6-4439-b17f-2d98e2429457#id>,
+        <http://www.bbc.co.uk/things/dfaa4d33-9ab7-4c50-94b8-96b98bd44b23#id>,
+        <http://www.bbc.co.uk/things/f3ed4af7-e12f-41fb-8ca4-9fc26b7ec62f#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zgqhtyc#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/5f5ae1b9-223e-4616-bcc5-0340de56750b#id> a curric:TopicOfStudy ;
+    rdfs:label "ICT systems"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "ICT systems"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6df8d446-63a3-4d50-9747-92374bb03cef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/811cebd5-b9f9-4641-a212-03e6a0775d69#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq4qj6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6587876f-9a90-46bf-ad54-ef04d2a0a0f9#id> a curric:TopicOfStudy ;
+    rdfs:label "Software"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Software"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cb59fe2d-bb2a-41de-831b-f30844828cef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/811cebd5-b9f9-4641-a212-03e6a0775d69#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8b8k7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/674b6025-9366-4019-924c-3dd8a0abe673#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/55fda0e4-4b5d-4233-a778-180479351e9e#id> .
+
+<http://www.bbc.co.uk/things/71172494-6cc8-436e-8394-d5e0ffee0723#id> a curric:TopicOfStudy ;
+    rdfs:label "Risks and implications of ICT"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Risks and implications of ICT"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/79379d16-1834-49a4-8558-be8854ecbaba#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/0986a18c-889e-4b3c-b001-a8eb929e4b49#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs7phv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/72a65dfd-2d3e-47b8-83be-96dc3cf95d16#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/90f5422b-b0ca-4821-b343-9c98dccb6cb1#id> .
+
+<http://www.bbc.co.uk/things/765c1302-7c79-48af-a1fe-2a48c5005488#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0bdbe8dd-2bf4-467a-8215-bb466fa7d7cd#id>,
+        <http://www.bbc.co.uk/things/190d038e-c16c-4909-a153-12c31d53a297#id>,
+        <http://www.bbc.co.uk/things/1e0da155-89c6-41a3-804d-a64f3af100d4#id>,
+        <http://www.bbc.co.uk/things/49772121-d5e1-491b-b1e1-8f8bb2d48b84#id>,
+        <http://www.bbc.co.uk/things/7f1017d9-70c4-4577-8fe7-0d581e78caee#id>,
+        <http://www.bbc.co.uk/things/a43b5384-e097-47bf-80b8-53d7ccf8d536#id>,
+        <http://www.bbc.co.uk/things/b6b0547a-9c0c-495e-aecf-244a5b71b081#id>,
+        <http://www.bbc.co.uk/things/fb60c7cc-9ca7-47e1-ba36-46b67ffc803b#id>,
+        <http://www.bbc.co.uk/things/fb68213c-a0b4-4593-be25-33653e062a69#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zprwdmn#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/78122d28-713f-4639-807b-c8be5cbac85f#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/5399b784-3d92-4735-a019-477bfe107848#id> .
+
+<http://www.bbc.co.uk/things/78752410-cc97-4701-83e4-a5936b67b157#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/22217764-1bc1-4c8c-a95b-4c7f74dcc53c#id>,
+        <http://www.bbc.co.uk/things/2420735c-6f5c-45d6-a728-80cf6dce3246#id>,
+        <http://www.bbc.co.uk/things/3d62bb16-c732-4ce6-bb2f-7d0c9e43bd0e#id>,
+        <http://www.bbc.co.uk/things/4af50e11-0cda-4dd3-b644-a422fe813cc1#id>,
+        <http://www.bbc.co.uk/things/78122d28-713f-4639-807b-c8be5cbac85f#id>,
+        <http://www.bbc.co.uk/things/7a5dca14-50bc-49f7-9140-2486117b4d6a#id>,
+        <http://www.bbc.co.uk/things/8ad8dd53-cc27-4abf-9917-767c046d73ee#id>,
+        <http://www.bbc.co.uk/things/9ca8b3df-7d8e-493b-a0d2-52e8038aeb34#id>,
+        <http://www.bbc.co.uk/things/a42339d4-3e1f-424c-9bd9-ab4535d9217b#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z3w6xsg#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/7a5dca14-50bc-49f7-9140-2486117b4d6a#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/aa2eb0ef-5eec-4205-a26f-93e2f837af8f#id> .
+
+<http://www.bbc.co.uk/things/7d82b07b-2385-44ee-be53-83a4af72a129#id> a curric:TopicOfStudy ;
+    rdfs:label "Modelling and simulation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Modelling and simulation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f72f93e4-674b-42d2-878d-b6e487c7b547#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d333afe8-3eff-4418-b33e-8e037b3df6ae#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8fcrdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7ed19c44-b5a4-44b1-83bd-652a11a08cde#id> a curric:TopicOfStudy ;
+    rdfs:label "ICT systems"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "ICT systems"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6df8d446-63a3-4d50-9747-92374bb03cef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8eff2869-9ec4-46d0-8f7c-799181de5162#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp8m2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7f1017d9-70c4-4577-8fe7-0d581e78caee#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/1e83c60b-957c-4d61-8512-d76cb8f2540f#id> .
+
+<http://www.bbc.co.uk/things/866fcf01-f59e-4513-a76c-356de231434b#id> a curric:TopicOfStudy ;
+    rdfs:label "Modelling and simulation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Modelling and simulation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f72f93e4-674b-42d2-878d-b6e487c7b547#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8eff2869-9ec4-46d0-8f7c-799181de5162#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsdxmnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/89cfd502-489b-46fd-a3ed-da272521ec08#id> a curric:TopicOfStudy ;
+    rdfs:label "Measurement and control"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Measurement and control"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0744111d-a5fd-43f4-88c1-e097826e7782#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d333afe8-3eff-4418-b33e-8e037b3df6ae#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwv94j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8ad8dd53-cc27-4abf-9917-767c046d73ee#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/1fc10eda-56e6-4abd-a238-f3ddd746c668#id> .
+
+<http://www.bbc.co.uk/things/8cb1a527-cd37-48db-b840-3b827865ea45#id> a curric:TopicOfStudy ;
+    rdfs:label "Networks and communications"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Networks and communications"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bbb25536-5fa2-40dc-bdf4-a95b3f91457d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/0986a18c-889e-4b3c-b001-a8eb929e4b49#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcsrg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8d03ee9e-6f4b-489d-a38a-4edd0d992fef#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/a237fc20-830f-44a4-b40c-4fa4f0ebb8e9#id> .
+
+<http://www.bbc.co.uk/things/8f83329e-538b-4e7b-b081-7168080b6a8d#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/211d30a3-a7fb-4006-94b4-6dbb14ae90d7#id> .
+
+<http://www.bbc.co.uk/things/90f5422b-b0ca-4821-b343-9c98dccb6cb1#id> a curric:TopicOfStudy ;
+    rdfs:label "Legal framework"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Legal framework"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6f7e88e9-c201-4634-90f5-3b044d0b17df#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8eff2869-9ec4-46d0-8f7c-799181de5162#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zt4qj6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/986680e8-fc73-4726-8476-1538774d7f12#id> a curric:TopicOfStudy ;
+    rdfs:label "Networks and communications"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Networks and communications"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bbb25536-5fa2-40dc-bdf4-a95b3f91457d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/811cebd5-b9f9-4641-a212-03e6a0775d69#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcfcrdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9ad6866f-404a-40ae-8449-0adc69792ec5#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/986680e8-fc73-4726-8476-1538774d7f12#id> .
+
+<http://www.bbc.co.uk/things/9ca8b3df-7d8e-493b-a0d2-52e8038aeb34#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/bb9e54ab-91e7-49eb-91c8-274cfda1760d#id> .
+
+<http://www.bbc.co.uk/things/a237fc20-830f-44a4-b40c-4fa4f0ebb8e9#id> a curric:TopicOfStudy ;
+    rdfs:label "Risks and implications of ICT"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Risks and implications of ICT"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/79379d16-1834-49a4-8558-be8854ecbaba#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/811cebd5-b9f9-4641-a212-03e6a0775d69#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs2np39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a2a47da0-d4fc-47f0-b8d3-3f09bd3b7053#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/3b0baa1c-a48c-430b-982a-fa7e3e5a4732#id> .
+
+<http://www.bbc.co.uk/things/a42339d4-3e1f-424c-9bd9-ab4535d9217b#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/f8a2a1d4-adbc-4350-bf36-bb9ae6c85f69#id> .
+
+<http://www.bbc.co.uk/things/a43b5384-e097-47bf-80b8-53d7ccf8d536#id> a olo:Slot ;
+    olo:index 8 ;
+    olo:item <http://www.bbc.co.uk/things/099b54eb-a0f3-4b09-8d94-6ad4a43221e5#id> .
+
+<http://www.bbc.co.uk/things/a5cafb7e-a011-4417-be11-2b44afd5b03e#id> a curric:TopicOfStudy ;
+    rdfs:label "Software"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Software"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cb59fe2d-bb2a-41de-831b-f30844828cef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/7703c636-029b-4702-8675-abb5de258647#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgh3v4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/aa2eb0ef-5eec-4205-a26f-93e2f837af8f#id> a curric:TopicOfStudy ;
+    rdfs:label "ICT systems"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "ICT systems"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6df8d446-63a3-4d50-9747-92374bb03cef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/7703c636-029b-4702-8675-abb5de258647#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9fcrdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ac6650ea-a66b-45ce-924c-68494f16795f#id> a olo:Slot ;
+    olo:index 7 ;
+    olo:item <http://www.bbc.co.uk/things/2df5d64e-8e80-445b-8c97-b4d182775dc2#id> .
+
+<http://www.bbc.co.uk/things/b69fbd0b-848b-4da3-a785-921eb355a47e#id> a curric:TopicOfStudy ;
+    rdfs:label "Measurement and control"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Measurement and control"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0744111d-a5fd-43f4-88c1-e097826e7782#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8eff2869-9ec4-46d0-8f7c-799181de5162#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z32np39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b6b0547a-9c0c-495e-aecf-244a5b71b081#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/49290986-9cd8-4f20-b945-d7e5fbb9ff84#id> .
+
+<http://www.bbc.co.uk/things/b97a0662-588c-4dbd-a5ea-75cef1367895#id> a curric:TopicOfStudy ;
+    rdfs:label "ICT systems"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "ICT systems"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6df8d446-63a3-4d50-9747-92374bb03cef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d333afe8-3eff-4418-b33e-8e037b3df6ae#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztk27hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bb9e54ab-91e7-49eb-91c8-274cfda1760d#id> a curric:TopicOfStudy ;
+    rdfs:label "Modelling and simulation"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Modelling and simulation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f72f93e4-674b-42d2-878d-b6e487c7b547#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/7703c636-029b-4702-8675-abb5de258647#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpw6xsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bd862771-7d1a-415d-8219-d70b6f9ffba7#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/5f5ae1b9-223e-4616-bcc5-0340de56750b#id> .
+
+<http://www.bbc.co.uk/things/c8955a5b-10e2-4f2e-a99c-fc4780e5dfba#id> a curric:TopicOfStudy ;
+    rdfs:label "Legal framework"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Legal framework"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6f7e88e9-c201-4634-90f5-3b044d0b17df#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d333afe8-3eff-4418-b33e-8e037b3df6ae#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9ngbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c8c20c91-8f07-45b9-a8fa-ca7d9f9d39b0#id> a curric:TopicOfStudy ;
+    rdfs:label "Data and databases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Data and databases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/094ebbcb-93de-44b0-9403-f2d4521a5475#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/811cebd5-b9f9-4641-a212-03e6a0775d69#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9v94j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c957b429-29c3-4ef5-aecb-4869cba2c534#id> a curric:TopicOfStudy ;
+    rdfs:label "Data and databases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Data and databases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/094ebbcb-93de-44b0-9403-f2d4521a5475#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/0986a18c-889e-4b3c-b001-a8eb929e4b49#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9y4cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d614acd4-3dd9-42e8-8221-af164ee03fad#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/35f8f3b3-045f-419f-8b44-741e37ea800b#id> .
+
+<http://www.bbc.co.uk/things/d80d276f-4b0c-44e1-a77d-2c7e491bbb12#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/b69fbd0b-848b-4da3-a785-921eb355a47e#id> .
+
+<http://www.bbc.co.uk/things/dc992421-2ffb-4f06-a2f3-38d5ccefa763#id> a curric:TopicOfStudy ;
+    rdfs:label "Software"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Software"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cb59fe2d-bb2a-41de-831b-f30844828cef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/d333afe8-3eff-4418-b33e-8e037b3df6ae#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx4qj6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ddba58ca-c9f6-4439-b17f-2d98e2429457#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/f65f9ba7-2ebb-4eb9-9607-c12e15712572#id> .
+
+<http://www.bbc.co.uk/things/dec4be08-ae6e-417c-8b78-2f59da2bc900#id> a curric:TopicOfStudy ;
+    rdfs:label "Networks and communications"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Networks and communications"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bbb25536-5fa2-40dc-bdf4-a95b3f91457d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8eff2869-9ec4-46d0-8f7c-799181de5162#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zctvycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/dfaa4d33-9ab7-4c50-94b8-96b98bd44b23#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/dec4be08-ae6e-417c-8b78-2f59da2bc900#id> .
+
+<http://www.bbc.co.uk/things/e04f7b79-5865-4859-931d-bab53eff84ef#id> a curric:TopicOfStudy ;
+    rdfs:label "Hardware"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Hardware"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/50bcfb20-ea16-420c-ae38-b475cf27d51b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/811cebd5-b9f9-4641-a212-03e6a0775d69#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwrwdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e0eee4bd-cab6-48e6-a8f6-ddd7e917b2e6#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/b97a0662-588c-4dbd-a5ea-75cef1367895#id> .
+
+<http://www.bbc.co.uk/things/eabd2ec8-1696-41a2-814b-876f8d9eed2b#id> a curric:TopicOfStudy ;
+    rdfs:label "Software"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Software"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cb59fe2d-bb2a-41de-831b-f30844828cef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/0986a18c-889e-4b3c-b001-a8eb929e4b49#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z83k9qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ecf142fd-c2fe-40a7-bc09-a38f520b26bf#id> a olo:Slot ;
+    olo:index 6 ;
+    olo:item <http://www.bbc.co.uk/things/212bdfc9-d8e0-4602-a317-e3bacafb21a9#id> .
+
+<http://www.bbc.co.uk/things/f3ed4af7-e12f-41fb-8ca4-9fc26b7ec62f#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/3f7e0550-2016-4c67-ac93-7fee7839274f#id> .
+
+<http://www.bbc.co.uk/things/f65f9ba7-2ebb-4eb9-9607-c12e15712572#id> a curric:TopicOfStudy ;
+    rdfs:label "Software"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Software"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cb59fe2d-bb2a-41de-831b-f30844828cef#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8eff2869-9ec4-46d0-8f7c-799181de5162#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq3k9qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f711bdc0-db29-4294-94b7-5e5430b80e81#id> a curric:TopicOfStudy ;
+    rdfs:label "Data and databases"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Data and databases"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/094ebbcb-93de-44b0-9403-f2d4521a5475#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/8eff2869-9ec4-46d0-8f7c-799181de5162#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8srg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f8a2a1d4-adbc-4350-bf36-bb9ae6c85f69#id> a curric:TopicOfStudy ;
+    rdfs:label "Hardware"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE ICT curriculum"@en-gb ;
+    core:preferredLabel "Hardware"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/50bcfb20-ea16-420c-ae38-b475cf27d51b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/7703c636-029b-4702-8675-abb5de258647#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcngbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fb60c7cc-9ca7-47e1-ba36-46b67ffc803b#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/c957b429-29c3-4ef5-aecb-4869cba2c534#id> .
+
+<http://www.bbc.co.uk/things/fb68213c-a0b4-4593-be25-33653e062a69#id> a olo:Slot ;
+    olo:index 9 ;
+    olo:item <http://www.bbc.co.uk/things/71172494-6cc8-436e-8394-d5e0ffee0723#id> .
+
+<http://www.bbc.co.uk/things/50bcfb20-ea16-420c-ae38-b475cf27d51b#id> a curric:Topic ;
+    rdfs:label "Hardware"@en-gb ;
+    core:preferredLabel "Hardware"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2gd82p#topic> .
+
+<http://www.bbc.co.uk/things/0744111d-a5fd-43f4-88c1-e097826e7782#id> a curric:Topic ;
+    rdfs:label "Measurement and control"@en-gb ;
+    core:preferredLabel "Measurement and control"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyjt6fr#topic> .
+
+<http://www.bbc.co.uk/things/094ebbcb-93de-44b0-9403-f2d4521a5475#id> a curric:Topic ;
+    rdfs:label "Data and databases"@en-gb ;
+    core:preferredLabel "Data and databases"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9pb39q#topic> .
+
+<http://www.bbc.co.uk/things/6df8d446-63a3-4d50-9747-92374bb03cef#id> a curric:Topic ;
+    rdfs:label "ICT systems"@en-gb ;
+    core:preferredLabel "ICT systems"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zt97qty#topic> .
+
+<http://www.bbc.co.uk/things/6f7e88e9-c201-4634-90f5-3b044d0b17df#id> a curric:Topic ;
+    rdfs:label "Legal framework"@en-gb ;
+    core:preferredLabel "Legal framework"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxrwdmn#topic> .
+
+<http://www.bbc.co.uk/things/79379d16-1834-49a4-8558-be8854ecbaba#id> a curric:Topic ;
+    rdfs:label "Risks and implications of ICT"@en-gb ;
+    core:preferredLabel "Risks and implications of ICT"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqv94j6#topic> .
+
+<http://www.bbc.co.uk/things/bbb25536-5fa2-40dc-bdf4-a95b3f91457d#id> a curric:Topic ;
+    rdfs:label "Networks and communications"@en-gb ;
+    core:preferredLabel "Networks and communications"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgxfsg8#topic> .
+
+<http://www.bbc.co.uk/things/cb59fe2d-bb2a-41de-831b-f30844828cef#id> a curric:Topic ;
+    rdfs:label "Software"@en-gb ;
+    core:preferredLabel "Software"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwy4cwx#topic> .
+
+<http://www.bbc.co.uk/things/f72f93e4-674b-42d2-878d-b6e487c7b547#id> a curric:Topic ;
+    rdfs:label "Modelling and simulation"@en-gb ;
+    core:preferredLabel "Modelling and simulation"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpk27hv#topic> .
+
+<http://www.bbc.co.uk/things/d333afe8-3eff-4418-b33e-8e037b3df6ae#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE ICT"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:topics <http://www.bbc.co.uk/things/3f9e8c61-3f3b-4cf3-b4bc-1005659d3727#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zyk27hv#exam-specification> .
+
+<http://www.bbc.co.uk/things/0986a18c-889e-4b3c-b001-a8eb929e4b49#id> a curric:ExamSpecification ;
+    rdfs:label "WJEC"@en-gb ;
+    core:disambiguationHint "WJEC GCSE ICT"@en-gb ;
+    core:preferredLabel "WJEC"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/25d85da2-d7b5-49bc-8b06-55e695f7966b#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:topics <http://www.bbc.co.uk/things/765c1302-7c79-48af-a1fe-2a48c5005488#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zprwdmn#exam-specification> .
+
+<http://www.bbc.co.uk/things/7703c636-029b-4702-8675-abb5de258647#id> a curric:ExamSpecification ;
+    rdfs:label "OCR"@en-gb ;
+    core:disambiguationHint "OCR GCSE ICT"@en-gb ;
+    core:preferredLabel "OCR"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:topics <http://www.bbc.co.uk/things/78752410-cc97-4701-83e4-a5936b67b157#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/z3w6xsg#exam-specification> .
+
+<http://www.bbc.co.uk/things/811cebd5-b9f9-4641-a212-03e6a0775d69#id> a curric:ExamSpecification ;
+    rdfs:label "CCEA"@en-gb ;
+    core:disambiguationHint "CCEA GCSE ICT"@en-gb ;
+    core:preferredLabel "CCEA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/ac46086e-0c56-4ee6-aeef-ed2b4f640d66#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:topics <http://www.bbc.co.uk/things/2f71981b-e8e5-4022-9ea3-26f0c5860af7#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zs4qj6f#exam-specification> .
+
+<http://www.bbc.co.uk/things/8eff2869-9ec4-46d0-8f7c-799181de5162#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE ICT"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/4c8b71b4-8ba6-4940-91db-804a2ff23ff1#id>,
+        <http://www.bbc.co.uk/things/76501fbd-f1df-4115-abea-63f26bd1d43c#id>,
+        <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/a6c5cf85-a9ca-475e-84fd-1ef79c18821b#id>,
+        <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/2d92bbf0-a1e3-43e1-b383-3fcec6afbef6#id> ;
+    curric:topics <http://www.bbc.co.uk/things/5e3b8bd4-945a-42b3-b93a-65091c8d8755#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zgqhtyc#exam-specification> .
+

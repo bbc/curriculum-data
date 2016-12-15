@@ -1,0 +1,385 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/b0ed4fbf-4dec-4a3c-9686-9b0222241a22#id> a provenance:Dataset ;
+    rdfs:label "Deprecated data" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:deprecated true ;
+    provenance:version "37"^^xsd:int .
+
+<http://www.bbc.co.uk/things/07992f35-91aa-483e-bf3c-954adfd9e79b#id> a curric:TopicOfStudy ;
+    rdfs:label "Melody, harmony and tonality"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Melody, harmony and tonality"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7937a771-94b8-48bd-a3fd-86b6162f7052#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zjtngk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0b784530-c799-49cd-9175-3550de663250#id> a curric:TopicOfStudy ;
+    rdfs:label "Writing and analysing poetry"@en-gb ;
+    dc:description " "@cy-gb,
+        " "@en-gb ;
+    core:disambiguationHint "GCSE English Literature curriculum"@en-gb ;
+    core:preferredLabel "Writing and analysing poetry"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d7dc53e3-6ae2-4c53-b1f6-b06d88eab954#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:preferredDescription " "@en-gb ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zccxp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/11bf9663-c526-4350-869e-475971316455#id> a curric:TopicOfStudy ;
+    rdfs:label "Western classical music"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Western classical music"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/aef2663a-dcb0-4385-9b31-4a89220595ff#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zfr97ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/17cb73ed-28c2-47de-86ab-3168e1327631#id> a curric:TopicOfStudy ;
+    rdfs:label "Texture"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Texture"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f469edd3-8103-4df8-929e-950d9f4bbb61#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2ny4wx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1c1d3cd4-660a-4384-832e-45132ac198cd#id> a curric:TopicOfStudy ;
+    rdfs:label "Jazz"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Jazz"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ea972663-5fbb-4dba-8893-b13cbcc9be48#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsg4q6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/26f88f3c-9dd8-4a6b-b853-270556b49d90#id> a curric:TopicOfStudy ;
+    rdfs:label "England"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "England"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/c4e2200d-be06-4ba8-9bb2-eafab47ed70f#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z6yb87h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/29b0e5b7-a43c-4da7-97f2-ce3b403d5f97#id> a curric:TopicOfStudy ;
+    rdfs:label "Asia"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Asia"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d4e1fac3-f6a5-4c41-895e-abfa43be304d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zfck2hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/319534a1-1e01-4c4b-a167-85ceb3b4078e#id> a curric:TopicOfStudy ;
+    rdfs:label "Rock"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Rock"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/500bd504-ac66-44e9-a8d3-b42b5ed6f2a9#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp3rwmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/38ec3c20-b8c0-45b9-99a6-348465a1b3a6#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Additional Biology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "GCSE Additional Biology"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/c679c641-b825-4c7e-bad5-a36d213685a9#id> ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/f5c8ac51-ec18-4f1c-861c-3d5c3e66aaf4#id> ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z374j6f#programme-of-study> .
+
+<http://www.bbc.co.uk/things/44877821-7f54-4a05-b159-b6e0705f476f#id> a curric:TopicOfStudy ;
+    rdfs:label "R&B and hip-hop"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "R&B and hip-hop"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b213a835-fa39-4d53-8114-cb8f20cdbf74#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyck2hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4f921b60-bf3b-4e79-b173-b88038261dc7#id> a curric:TopicOfStudy ;
+    rdfs:label "N - Z (by poet's surname)"@en-gb ;
+    dc:description " "@cy-gb,
+        "Including poems from Grace Nichols, Wilfred Owen, Alfred Tennyson, William Wordsworth and Benjamin Zephaniah."@en-gb ;
+    core:disambiguationHint "GCSE English Literature curriculum"@en-gb ;
+    core:preferredLabel "N - Z (by poet's surname)"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/82a5c03c-b0c8-44e5-9958-c2b238d0b8d8#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:preferredDescription "Including poems from Grace Nichols, Wilfred Owen, Alfred Tennyson, William Wordsworth and Benjamin Zephaniah."@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/a74ae56b-01fe-4ace-bad5-61ad018fd635#id> ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgg2tyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5bea04ce-fa65-4af7-b7d6-d9dee15f940c#id> a curric:TopicOfStudy ;
+    rdfs:label "Caribbean"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Caribbean"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b2215f3f-0d93-407b-ba8d-2ee9102389ba#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zy48mp3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/62c3be06-7e38-416f-8d20-b10542ddc79d#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Core Physics"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "GCSE Core Physics"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/061aec70-6c3a-47df-9435-f9075bf0b2b3#id> ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/bd77cc9d-edcd-45b9-bff0-1ec065657b5c#id> ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z9n7hv4#programme-of-study> .
+
+<http://www.bbc.co.uk/things/73480f09-a1d4-408f-8b1c-5147b254bf37#id> a curric:TopicOfStudy ;
+    rdfs:label "19th-century prose"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "CCEA GCSE English Literature  (post-2015) curriculum"@en-gb ;
+    core:preferredLabel "19th-century prose"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/16ccb9bf-fa54-48b2-8cb1-eb4d0596726d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/3fb87ca1-6dec-40df-b6d0-23237971e4ac#id> ;
+    curric:preferredDescription " "@en-gb ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs32frd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/743e9221-255c-4c48-9781-ca2f9d311a75#id> a curric:TopicOfStudy ;
+    rdfs:label "Africa"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Africa"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8f21089e-de39-4364-9d9c-2bc567106f14#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsr97ty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/74b0271d-d79a-4c06-949c-e48eaebab741#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Additional Physics"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "GCSE Additional Physics"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/c679c641-b825-4c7e-bad5-a36d213685a9#id> ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/bd77cc9d-edcd-45b9-bff0-1ec065657b5c#id> ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zt839qt#programme-of-study> .
+
+<http://www.bbc.co.uk/things/774a430d-cd02-4af7-a68a-efad9b2fb127#id> a curric:TopicOfStudy ;
+    rdfs:label "Comparing unseen poems - Wales only"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "GCSE English Literature curriculum"@en-gb ;
+    core:preferredLabel "Comparing unseen poems - Wales only"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/1a29f2d0-924f-4752-906f-b8a4751bf21a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/96243a44-9fc2-42ed-bb4c-592e8c49c643#id> ;
+    curric:preferredDescription " "@en-gb ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgc8frd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/77e7776c-92b9-43f2-bd1f-81a31aeadd09#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Core Biology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "GCSE Core Biology"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/061aec70-6c3a-47df-9435-f9075bf0b2b3#id> ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/f5c8ac51-ec18-4f1c-861c-3d5c3e66aaf4#id> ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z8n7hv4#programme-of-study> .
+
+<http://www.bbc.co.uk/things/7f339b0f-9957-4e4b-aaf3-333a4cc46346#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Core Chemistry"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "GCSE Core Chemistry"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/061aec70-6c3a-47df-9435-f9075bf0b2b3#id> ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/e2783186-f828-448a-914b-8ec700f3ed3b#id> ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zgx82p3#programme-of-study> .
+
+<http://www.bbc.co.uk/things/819fa5eb-68c9-42e2-9e86-e093db031904#id> a curric:TopicOfStudy ;
+    rdfs:label "Music for SEN"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Music for SEN"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/7870886f-532e-42e7-b3c4-53f4d402f6dc#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zrj2n39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8611696b-7333-4d02-8b87-28d5abdb7660#id> a curric:TopicOfStudy ;
+    rdfs:label "China"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "China"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/06af36c7-6b93-4218-ad91-b05b250c167d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zvkw6sg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/92a86372-a3ed-4036-b486-2aa9639fe2b0#id> a curric:TopicOfStudy ;
+    rdfs:label "Rhythm and metre"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Rhythm and metre"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/557f6cc7-95ed-4618-9718-76bc383440e9#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z7pfcdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/965c14ce-12c1-4de4-a6d9-6dd4677d446a#id> a curric:TopicOfStudy ;
+    rdfs:label "Evaluating music"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Evaluating music"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f90597ee-59ed-44bc-8d8b-52a7e014a92d#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z6f3kqt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/9a75fc62-2820-47a7-93db-00c9829c2e8f#id> a curric:TopicOfStudy ;
+    rdfs:label "Music for dance"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Music for dance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3ee04934-9832-4bfe-a054-83185aa151fe#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z4qmsbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a2ff0e5c-31d6-498d-8f00-51b68629a0d8#id> a curric:TopicOfStudy ;
+    rdfs:label "Ska and reggae"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Ska and reggae"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/ae6fabf2-9943-4d04-97e7-ce8620cc6c3b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgdqhyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ac5f6441-0d9b-4eec-9e4d-b464650198b0#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Triple Biology"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "GCSE Triple Biology"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/05c368f3-1a8d-4edb-9f2f-e4e0d837f79d#id> ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/f5c8ac51-ec18-4f1c-861c-3d5c3e66aaf4#id> ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zyjrdmn#programme-of-study> .
+
+<http://www.bbc.co.uk/things/b3474b8b-3153-4d59-8ca1-fb209d4d6aad#id> a curric:TopicOfStudy ;
+    rdfs:label "Notation"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Notation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8af2be5f-a35f-4122-beb3-aed6389ae080#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqhsr82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c411e9cf-8efb-4a80-878d-5a8ee2b87c15#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Triple Chemistry"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "GCSE Triple Chemistry"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/05c368f3-1a8d-4edb-9f2f-e4e0d837f79d#id> ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/e2783186-f828-448a-914b-8ec700f3ed3b#id> ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z3mk7hv#programme-of-study> .
+
+<http://www.bbc.co.uk/things/c82bbbbf-8eaa-4cae-a11b-9076adbc2a83#id> a curric:TopicOfStudy ;
+    rdfs:label "Latin America"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Latin America"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3f4803ff-2a96-44d8-9cf9-356abd238c89#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zbdqhyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c870ec4b-34d8-42b1-b825-caf432d6b2da#id> a curric:TopicOfStudy ;
+    rdfs:label "Expressionism"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Expressionism"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8dedf40d-bcda-4dd2-a284-d323894d1161#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8mtvcw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/cab10e96-e216-41b7-a37f-7b9afb307b0b#id> a curric:ProgrammeOfStudy ;
+    rdfs:label "GCSE Additional Chemistry"@en-gb ;
+    dc:description " "@en-gb ;
+    core:preferredLabel "GCSE Additional Chemistry"@en-gb ;
+    curric:nation <http://www.bbc.co.uk/things/00eb010f-568a-4b89-bbfe-799d5b812bed#id>,
+        <http://www.bbc.co.uk/things/06dbdeed-0f5e-41f7-b2ef-0f3e3039a72f#id>,
+        <http://www.bbc.co.uk/things/21628be8-a6f7-42d7-88f4-c3d85b148e09#id>,
+        <http://www.bbc.co.uk/things/9ba4d1e5-7cc7-48c0-9793-ad198403c54c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:subProgrammeOf <http://www.bbc.co.uk/things/c679c641-b825-4c7e-bad5-a36d213685a9#id> ;
+    curric:taughtAtLevel <http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id> ;
+    curric:taughtInField <http://www.bbc.co.uk/things/e2783186-f828-448a-914b-8ec700f3ed3b#id> ;
+    provenance:deprecated true ;
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/zq3tycw#programme-of-study> .
+
+<http://www.bbc.co.uk/things/ce731cba-3b38-42de-803f-7abd537a3066#id> a curric:TopicOfStudy ;
+    rdfs:label "Blues"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Blues"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/49879fef-a016-4596-a2ba-84b6a9a22963#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/znbcjxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/dfc1808b-8239-44a3-9800-b93a07b84f32#id> a curric:TopicOfStudy ;
+    rdfs:label "Musical theatre"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Musical theatre"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/be5f5ef6-4a73-435c-9f2a-12187945c4c0#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zb8jtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ec020bbb-56c0-4b68-b219-968062c80cf3#id> a curric:TopicOfStudy ;
+    rdfs:label "India"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "India"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5b5e4614-3cff-43ba-9a2f-c6d8a89fd2c9#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z38jtfr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ee8ce1e3-049c-4b8a-bb1c-ccf0d1357666#id> a curric:TopicOfStudy ;
+    rdfs:label "The Middle East"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "The Middle East"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0d8870cc-f319-43c9-8a3d-964e37afee49#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgw7pv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f23d772e-478c-4f09-9243-b7adb25b264e#id> a curric:TopicOfStudy ;
+    rdfs:label "Instrumentation"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Instrumentation"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/9e3d6a0f-f46c-405a-aa1a-a27e019b29c3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zw6pb9q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f52c1871-4263-4d0a-9435-85be2d374b2a#id> a curric:TopicOfStudy ;
+    rdfs:label "Ireland"@en-gb ;
+    core:disambiguationHint "GCSE Music curriculum"@en-gb ;
+    core:preferredLabel "Ireland"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/75d845f6-b0f0-4535-a7f1-c2b01fc741ad#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/22c2aa85-3040-48d4-b3cc-10dd1782893d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztvgd2p#topic-of-study> .
+

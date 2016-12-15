@@ -24,11 +24,11 @@
 <http://www.bbc.co.uk/things/cd404258-9ba3-42b2-a179-e460667f5fe3#id> a curric:Topic ;
     rdfs:label "Exam and revision skills"@en-gb ;
     core:preferredLabel "Exam and revision skills"@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/z3r739q#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3r739q#topic-of-study> .
 
 <http://www.bbc.co.uk/things/d519d092-29d7-4f65-84d8-41f0cd68e49e#id> a curric:TopicOfStudyList ;
     olo:slot <http://www.bbc.co.uk/things/33bcc3a7-aa42-4efc-a346-f0784284b81c#id> ;
-    = <http://www.bbc.co.uk/education/subjects/z9s4tyc#topics-of-study-list> .
+    owl:sameAs <http://www.bbc.co.uk/education/subjects/z9s4tyc#topics-of-study-list> .
 
 <http://www.bbc.co.uk/things/ed9dd1b7-1f34-4cf6-b5dc-6e0955d2cc98#id> a curric:TopicOfStudy ;
     rdfs:label "Exam and revision skills"@en-gb ;
@@ -38,5 +38,5 @@
     curric:about <http://www.bbc.co.uk/things/cd404258-9ba3-42b2-a179-e460667f5fe3#id> ;
     curric:appropriateFor <http://www.bbc.co.uk/things/4cf90db6-db87-4b61-84ad-067c7f145785#id> ;
     curric:preferredDescription " "@en-gb ;
-    = <http://www.bbc.co.uk/education/topics/zg4mg82#topic-of-study> .
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zg4mg82#topic-of-study> .
 

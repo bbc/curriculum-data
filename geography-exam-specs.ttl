@@ -1,0 +1,1179 @@
+@prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.bbc.co.uk/contexts/d837aca0-18f4-4c2d-a517-013fd4649260#id> a provenance:Dataset ;
+    rdfs:label "GCSE Geography (2016 onwards) Specifications" ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/#id> ;
+    provenance:version "2"^^xsd:int .
+
+<http://www.bbc.co.uk/things/00c7e6a5-19b1-41f6-a5c8-a4a046302a83#id> a curric:TopicOfStudy ;
+    rdfs:label "Weather, climate and ecosystems"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Weather, climate and ecosystems"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cb417146-2ce5-4f4f-8326-ffa2f98b9f2c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs6jdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/020203ad-0475-4626-a917-8b6ed230644a#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/ad4fbec7-ecba-409a-9333-3b974bf94b79#id> .
+
+<http://www.bbc.co.uk/things/030bd061-a2a0-4573-afe3-a92f7ba714e5#id> a curric:TopicOfStudy ;
+    rdfs:label "Changing environments"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Changing environments"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e6de093c-a48e-44d3-ac7c-b9f45ad846ac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3sx2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/0930968b-8cad-4e27-9e4a-ca937385068b#id> a curric:Topic ;
+    rdfs:label "Resource reliance"@en-gb ;
+    core:preferredLabel "Resource reliance"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsj4rdm#topic> .
+
+<http://www.bbc.co.uk/things/09f83312-a47e-4d31-888b-bec9284f2740#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/7bc23687-e462-4de8-9bb1-875b1fce3526#id> .
+
+<http://www.bbc.co.uk/things/0a52a755-5096-4a5a-b852-832ae6e8d139#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/00c7e6a5-19b1-41f6-a5c8-a4a046302a83#id> .
+
+<http://www.bbc.co.uk/things/0d36efb2-86ea-4321-b168-68fc925f6f7e#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/17a67aa0-9a70-402c-a967-5654858537d4#id> .
+
+<http://www.bbc.co.uk/things/138eddf6-a421-4549-972b-21f8afbb8dc1#id> a curric:Topic ;
+    rdfs:label "Global hazards"@en-gb ;
+    core:preferredLabel "Global hazards"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zt93ycw#topic> .
+
+<http://www.bbc.co.uk/things/14255752-a887-46ff-8c33-3900c18374db#id> a curric:TopicOfStudy ;
+    rdfs:label "Geographical skills"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Geographical skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b32f1705-4501-4c1d-86d5-554b990b8e57#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b423ba4c-376d-4635-ba02-3c8bd7e1b562#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z26jdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/17a67aa0-9a70-402c-a967-5654858537d4#id> a curric:TopicOfStudy ;
+    rdfs:label "Rural - urban links"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Rural - urban links"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/26ddbf83-1353-4f8a-a9ff-089bcb0dec83#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs7k4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/19896a36-de1c-43db-9cdc-5e1174cb01cf#id> a curric:TopicOfStudy ;
+    rdfs:label "Environmental and development issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Environmental and development issues"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6c068ca9-5d5c-440f-8b04-3d9b501ee07b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/4220b7cc-a6c9-4f9f-ac7a-97e2c7852117#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpmdk7h#topic-of-study> .
+
+<http://www.bbc.co.uk/things/1a62c7a7-348c-4b14-a086-4b8732bca165#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/88676029-d961-4ea9-a9e0-7169bd716845#id> .
+
+<http://www.bbc.co.uk/things/1caa7879-6f1b-40b2-acab-4c9e782ce2f0#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/020203ad-0475-4626-a917-8b6ed230644a#id>,
+        <http://www.bbc.co.uk/things/61146e7e-b006-4bda-8cdf-85ec2f794262#id>,
+        <http://www.bbc.co.uk/things/bb59a929-3922-45e5-88c1-f574ea6d8e8d#id>,
+        <http://www.bbc.co.uk/things/ee7450d0-1235-4e17-88c1-189e9183199c#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwnm7hv#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/1ec29cd5-7ad9-468a-b68b-0fdb1037efdf#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/511a49fb-ddab-4efe-813b-d9312b854991#id> .
+
+<http://www.bbc.co.uk/things/2141bede-8ce9-45a3-aa6c-731e194b9e21#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/2425fbb1-2c2a-406f-8146-187fbb33010c#id> .
+
+<http://www.bbc.co.uk/things/2425fbb1-2c2a-406f-8146-187fbb33010c#id> a curric:TopicOfStudy ;
+    rdfs:label "Distinctive landscapes"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Distinctive landscapes"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/498a1126-a670-46c3-b2a7-7ff2fc902302#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq3ptyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/26602727-c465-4c85-a504-251e84daf22b#id> a curric:TopicOfStudy ;
+    rdfs:label "Geographical skills"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Geographical skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b32f1705-4501-4c1d-86d5-554b990b8e57#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpdrbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/277b0032-2c7b-4032-aae8-aa5cc4d80b9f#id> a curric:TopicOfStudy ;
+    rdfs:label "Economic development issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Economic development issues"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc998fb4-1598-4beb-a7ce-753671aaa406#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwrfnbk#topic-of-study> .
+
+<http://www.bbc.co.uk/things/27a88eef-76d4-4bd0-9038-c853a842b046#id> a curric:TopicOfStudy ;
+    rdfs:label "Weather hazards and climate change"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Weather hazards and climate change"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/284c32ce-fa27-44a7-a78b-fcd86472efa5#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b423ba4c-376d-4635-ba02-3c8bd7e1b562#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3q9cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/27c60aa0-b040-4958-a072-c24284804a10#id> a curric:TopicOfStudy ;
+    rdfs:label "Changing UK landscapes"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Changing UK landscapes"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/53de4c47-5d24-44c7-9b3f-ab1dfeeeca9a#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b423ba4c-376d-4635-ba02-3c8bd7e1b562#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zskbv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/284c32ce-fa27-44a7-a78b-fcd86472efa5#id> a curric:Topic ;
+    rdfs:label "Weather hazards and climate change"@en-gb ;
+    core:preferredLabel "Weather hazards and climate change"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zydrbk7#topic> .
+
+<http://www.bbc.co.uk/things/28d7ab76-2abd-4330-b8d6-af06120838a7#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/6a5411f6-d03b-490d-9f7d-32c741ec0bc6#id> .
+
+<http://www.bbc.co.uk/things/29c72d8a-3b71-43af-a9b4-6bdcff6ea4f9#id> a curric:TopicOfStudy ;
+    rdfs:label "Hazardous landscapes"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Hazardous landscapes"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0c6a6003-1994-42d3-9647-c7698d5c186e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpq9cwx#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2b106404-8149-4df6-b9d9-5bc183d5950a#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/842201ae-e102-4d02-9e4d-f21ff0062570#id> .
+
+<http://www.bbc.co.uk/things/2be0e954-cb49-4d5d-96df-b7c640665be5#id> a curric:TopicOfStudy ;
+    rdfs:label "Changing climate"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Changing climate"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2bf797f4-5bed-4aff-ae3c-1ea49306e258#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxcysg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2bf797f4-5bed-4aff-ae3c-1ea49306e258#id> a curric:Topic ;
+    rdfs:label "Changing climate"@en-gb ;
+    core:preferredLabel "Changing climate"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2gsp39#topic> .
+
+<http://www.bbc.co.uk/things/2c98fa00-da19-4061-bbb7-2756de4a8c59#id> a curric:TopicOfStudy ;
+    rdfs:label "Glacial landscapes in the UK"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Glacial landscapes in the UK"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/5b6ac9ad-14ec-4e6f-a31c-3f1a8e2e32b3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztsx2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/2dbd4fb9-dc92-498c-82e2-676573c7827c#id> a curric:Topic ;
+    rdfs:label "Places and people in the UK"@en-gb ;
+    core:preferredLabel "Places and people in the UK"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpcysg8#topic> .
+
+<http://www.bbc.co.uk/things/2e461d23-7795-4d30-b623-4ea2240ad472#id> a curric:Topic ;
+    rdfs:label "Physical landscapes in the UK"@en-gb ;
+    core:preferredLabel "Physical landscapes in the UK"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zygsp39#topic> .
+
+<http://www.bbc.co.uk/things/301495fc-3511-4f1a-afc1-591baa971ba8#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/a45b3b98-fe18-4668-b207-25ac53edcc8b#id> .
+
+<http://www.bbc.co.uk/things/31090b04-12a5-41d8-a13b-c2bf86f6fdce#id> a curric:Topic ;
+    rdfs:label "Global development"@en-gb ;
+    core:preferredLabel "Global development"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zy8g39q#topic> .
+
+<http://www.bbc.co.uk/things/37d3f5c9-e420-46b1-8828-c6e4a1e17ee0#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/27c60aa0-b040-4958-a072-c24284804a10#id> .
+
+<http://www.bbc.co.uk/things/383c85d1-b5e5-40bb-a231-fbe680ae1801#id> a curric:TopicOfStudy ;
+    rdfs:label "Physical landscapes in the UK"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Physical landscapes in the UK"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2e461d23-7795-4d30-b623-4ea2240ad472#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z34vfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3a019eab-a579-4602-9a31-d63399b1ab07#id> a curric:TopicOfStudy ;
+    rdfs:label "Urban futures"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Urban futures"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/f94fed1b-5867-4405-8a70-14859de331b8#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgxw82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3b84d881-6a0f-4bf7-96ac-c29e45d8887d#id> a curric:TopicOfStudy ;
+    rdfs:label "The challenge of natural hazards"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "The challenge of natural hazards"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8d0df458-3ea2-43fe-9234-6b4e65088561#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcdrbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/3ec8af7f-dc5b-49dd-8cfa-059ec2f5c601#id> a curric:Topic ;
+    rdfs:label "Challenges in the human environment"@en-gb ;
+    core:preferredLabel "Challenges in the human environment"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8q9cwx#topic> .
+
+<http://www.bbc.co.uk/things/4220b7cc-a6c9-4f9f-ac7a-97e2c7852117#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/74de3094-1de1-4518-95bc-0b3e26e87e0d#id>,
+        <http://www.bbc.co.uk/things/b2de516b-f6e7-47ed-ba1e-047926bfa92a#id>,
+        <http://www.bbc.co.uk/things/e1b908d6-1081-4715-b9d3-8f4568740868#id>,
+        <http://www.bbc.co.uk/things/fee1ea5e-b40c-4569-9e0e-588ab1727b5c#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpmdk7h#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/4351c471-bb94-4cc9-a3aa-2db0bdd0cdc9#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/57d1a73e-0e8b-4b9e-a1ed-0906f8ea522e#id> .
+
+<http://www.bbc.co.uk/things/43bc5669-7301-4d21-a307-95cbd56e1a71#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/aa3a37fe-6579-412c-88c1-5341f185443b#id> .
+
+<http://www.bbc.co.uk/things/45dc12ff-ae22-4261-a64f-a3b25624b0ac#id> a curric:Topic ;
+    rdfs:label "Changing cities"@en-gb ;
+    core:preferredLabel "Changing cities"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcmdk7h#topic> .
+
+<http://www.bbc.co.uk/things/48e094c1-ce0a-441a-adba-aaab9d8cd1e1#id> a curric:TopicOfStudy ;
+    rdfs:label "Tourism"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Tourism"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/766daaae-db61-44d2-835c-d74d21c98ba3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9vh6fr#topic-of-study> .
+
+<http://www.bbc.co.uk/things/498a1126-a670-46c3-b2a7-7ff2fc902302#id> a curric:Topic ;
+    rdfs:label "Distinctive landscapes"@en-gb ;
+    core:preferredLabel "Distinctive landscapes"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwytxsg#topic> .
+
+<http://www.bbc.co.uk/things/4be342fb-890d-4829-b7b9-9f09eef73039#id> a curric:TopicOfStudy ;
+    rdfs:label "Changing cities"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Changing cities"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/45dc12ff-ae22-4261-a64f-a3b25624b0ac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b423ba4c-376d-4635-ba02-3c8bd7e1b562#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z96jdmn#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4da22dd8-ca35-4a52-a397-8f92fc06958d#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/0d36efb2-86ea-4321-b168-68fc925f6f7e#id>,
+        <http://www.bbc.co.uk/things/7f4ff967-cf9c-4a55-8ba5-4aea58eee33a#id>,
+        <http://www.bbc.co.uk/things/98c6d584-00dd-410e-9213-5fc9c65cb412#id>,
+        <http://www.bbc.co.uk/things/c948f64c-198e-4dcd-9149-578a196d2569#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcsx2p3#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/4ea6c889-af27-43af-b866-87d2cd994dc4#id> a curric:TopicOfStudy ;
+    rdfs:label "Global development"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Global development"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/31090b04-12a5-41d8-a13b-c2bf86f6fdce#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b423ba4c-376d-4635-ba02-3c8bd7e1b562#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3j4rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/4f0a5924-6742-4a9b-aebc-a2d568a4c550#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/76df5814-37d2-4be6-857e-1179854635cb#id>,
+        <http://www.bbc.co.uk/things/a0cc27f2-969e-4a5f-a62f-23ac2422c95f#id>,
+        <http://www.bbc.co.uk/things/ec596265-7466-4831-8d19-283ad1910dae#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zw289qt#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/511a49fb-ddab-4efe-813b-d9312b854991#id> a curric:TopicOfStudy ;
+    rdfs:label "Living with the physical environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Living with the physical environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/a9cb7c37-b31b-4e4b-b0e9-0d5c17879559#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/5d007fe8-2eab-452a-92b5-29aed158b16b#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z87k4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/529ffb61-9eeb-4ead-a893-42353f7dd0b9#id> a curric:TopicOfStudy ;
+    rdfs:label "Resource reliance"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Resource reliance"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0930968b-8cad-4e27-9e4a-ca937385068b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zy7k4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/53de4c47-5d24-44c7-9b3f-ab1dfeeeca9a#id> a curric:Topic ;
+    rdfs:label "Changing UK landscapes"@en-gb ;
+    core:preferredLabel "Changing UK landscapes"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztrfnbk#topic> .
+
+<http://www.bbc.co.uk/things/57954b40-c99f-43ed-92ec-370ba21a5600#id> a curric:TopicOfStudy ;
+    rdfs:label "Economic development issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Economic development issues"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/bc998fb4-1598-4beb-a7ce-753671aaa406#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2drbk7#topic-of-study> .
+
+<http://www.bbc.co.uk/things/57d1a73e-0e8b-4b9e-a1ed-0906f8ea522e#id> a curric:TopicOfStudy ;
+    rdfs:label "The human environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "The human environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3c875c83-c4c9-4ffd-8929-3964a4c9ebc3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/774f34ce-c3cd-406f-b29c-80956f746af4#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zctqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5b6ac9ad-14ec-4e6f-a31c-3f1a8e2e32b3#id> a curric:Topic ;
+    rdfs:label "Glacial landscapes in the UK"@en-gb ;
+    core:preferredLabel "Glacial landscapes in the UK"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxp2qty#topic> .
+
+<http://www.bbc.co.uk/things/5bf139e7-7dc5-42aa-8250-20cb9b59ac68#id> a curric:TopicOfStudy ;
+    rdfs:label "Places and people in the UK"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Places and people in the UK"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/2dbd4fb9-dc92-498c-82e2-676573c7827c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b423ba4c-376d-4635-ba02-3c8bd7e1b562#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs93ycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/5d007fe8-2eab-452a-92b5-29aed158b16b#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/78d1bece-942d-4b0a-8336-15c8504f6e74#id>,
+        <http://www.bbc.co.uk/things/883294e9-2416-426e-9778-9a6e3edbafa9#id>,
+        <http://www.bbc.co.uk/things/a52e5690-e22a-4dc3-8926-3febe2b5604f#id>,
+        <http://www.bbc.co.uk/things/c5f39cf7-5a89-4705-a0a1-3a912f7f9a79#id>,
+        <http://www.bbc.co.uk/things/cecb915c-9840-462b-bc48-70b3b951dff1#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z87k4j6#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/5f9b5145-6d97-4513-91b7-b8ae114ef204#id> a curric:TopicOfStudy ;
+    rdfs:label "The human environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "The human environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3c875c83-c4c9-4ffd-8929-3964a4c9ebc3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b423ba4c-376d-4635-ba02-3c8bd7e1b562#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/1caa7879-6f1b-40b2-acab-4c9e782ce2f0#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwnm7hv#topic-of-study> .
+
+<http://www.bbc.co.uk/things/61146e7e-b006-4bda-8cdf-85ec2f794262#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/5bf139e7-7dc5-42aa-8250-20cb9b59ac68#id> .
+
+<http://www.bbc.co.uk/things/63bfab6b-ccbc-42bc-94bc-8166a8bf1c56#id> a curric:TopicOfStudy ;
+    rdfs:label "The living world"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "The living world"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/a0b5af91-c1a7-4744-ae47-00e818ac2603#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2tqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/63e6ba2d-b3ef-4ac3-9e2c-7f9a9d8cf8ea#id> a curric:TopicOfStudy ;
+    rdfs:label "Coastal landscapes in the UK"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Coastal landscapes in the UK"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6d123e46-f925-46a1-a1d1-4a90a16b4687#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs3ptyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/64eed53e-080e-4f10-ad59-8ded5e49248a#id> a curric:TopicOfStudy ;
+    rdfs:label "Changing places - changing economies"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Changing places - changing economies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d802387a-f66a-436e-a302-4ef0b97d6c14#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3tqwxs#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6a5411f6-d03b-490d-9f7d-32c741ec0bc6#id> a curric:TopicOfStudy ;
+    rdfs:label "Changing physical and human landscapes"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Changing physical and human landscapes"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/294ff884-53a7-4d88-8f4c-44030c8aca41#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/7526a035-10d2-49f2-93ad-9d949e2428cf#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyxw82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6b9803b0-29b5-4f67-8a78-8dc458a5d24d#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/09f83312-a47e-4d31-888b-bec9284f2740#id>,
+        <http://www.bbc.co.uk/things/0a52a755-5096-4a5a-b852-832ae6e8d139#id>,
+        <http://www.bbc.co.uk/things/afa91452-554a-4099-ab90-05c35e3c9855#id>,
+        <http://www.bbc.co.uk/things/fd4994d1-d58b-4f82-8f19-f8ef9b78d237#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zc3ptyc#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/6d123e46-f925-46a1-a1d1-4a90a16b4687#id> a curric:Topic ;
+    rdfs:label "Coastal landscapes in the UK"@en-gb ;
+    core:preferredLabel "Coastal landscapes in the UK"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpytxsg#topic> .
+
+<http://www.bbc.co.uk/things/6d1ee902-54b5-4281-b86e-c7702ef040b1#id> a curric:TopicOfStudy ;
+    rdfs:label "Geographical skills"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Geographical skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b32f1705-4501-4c1d-86d5-554b990b8e57#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zw4vfrd#topic-of-study> .
+
+<http://www.bbc.co.uk/things/6e4b09bd-e678-41eb-b01e-a82421aa2142#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/2be0e954-cb49-4d5d-96df-b7c640665be5#id> .
+
+<http://www.bbc.co.uk/things/733f55f2-2e74-492c-a303-a1f411a18d47#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/f142ec14-4816-4bbc-9653-bb755b0a89ae#id> .
+
+<http://www.bbc.co.uk/things/74de3094-1de1-4518-95bc-0b3e26e87e0d#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/aaf122c1-12f0-426d-b3a3-aa73cb06a822#id> .
+
+<http://www.bbc.co.uk/things/7526a035-10d2-49f2-93ad-9d949e2428cf#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/733f55f2-2e74-492c-a303-a1f411a18d47#id>,
+        <http://www.bbc.co.uk/things/76b176af-dace-4514-b81a-bc7db0a6385f#id>,
+        <http://www.bbc.co.uk/things/8747bfba-c60e-40d4-8add-6d1ffb95c7f0#id>,
+        <http://www.bbc.co.uk/things/fb5a4fe0-423f-45a6-894b-89cef18c2fd8#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyxw82p#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/76b176af-dace-4514-b81a-bc7db0a6385f#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/871dc93a-3112-4422-b27f-37864c1ad4b1#id> .
+
+<http://www.bbc.co.uk/things/76df5814-37d2-4be6-857e-1179854635cb#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/a0424ad0-2b59-48bf-bcea-460af074cdbc#id> .
+
+<http://www.bbc.co.uk/things/774f34ce-c3cd-406f-b29c-80956f746af4#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/7a0bee37-e7cc-4e61-be0d-b6ff659f484c#id>,
+        <http://www.bbc.co.uk/things/835015b8-0b73-4d51-9951-143d1e74afe3#id>,
+        <http://www.bbc.co.uk/things/c9fb5809-ea5b-478e-9909-a93fc64abbf1#id>,
+        <http://www.bbc.co.uk/things/f1b30730-9c69-4bf2-9718-9202b78dd25b#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zctqwxs#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/7800c8e0-1450-4c00-a8ec-798759739a3f#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/e1b19c13-f394-4c02-880f-a3b3138ebf9a#id> .
+
+<http://www.bbc.co.uk/things/78d1bece-942d-4b0a-8336-15c8504f6e74#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/383c85d1-b5e5-40bb-a231-fbe680ae1801#id> .
+
+<http://www.bbc.co.uk/things/794af87d-6b53-490b-9e42-5a5647010035#id> a curric:TopicOfStudy ;
+    rdfs:label "Rural - urban links"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Rural - urban links"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/26ddbf83-1353-4f8a-a9ff-089bcb0dec83#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxj4rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7a0bee37-e7cc-4e61-be0d-b6ff659f484c#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/c905a0d9-666c-4193-9e08-e7162adf09c1#id> .
+
+<http://www.bbc.co.uk/things/7aabedad-fbe0-4c93-ba5b-90d5976b43c0#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/6d1ee902-54b5-4281-b86e-c7702ef040b1#id> .
+
+<http://www.bbc.co.uk/things/7bc23687-e462-4de8-9bb1-875b1fce3526#id> a curric:TopicOfStudy ;
+    rdfs:label "Hazardous landscapes"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Hazardous landscapes"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/0c6a6003-1994-42d3-9647-c7698d5c186e#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgytxsg#topic-of-study> .
+
+<http://www.bbc.co.uk/things/7f4ff967-cf9c-4a55-8ba5-4aea58eee33a#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/277b0032-2c7b-4032-aae8-aa5cc4d80b9f#id> .
+
+<http://www.bbc.co.uk/things/801bec90-44da-4e8b-a1be-cc937349c225#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/37d3f5c9-e420-46b1-8828-c6e4a1e17ee0#id>,
+        <http://www.bbc.co.uk/things/9b9f6790-e624-45f0-9a09-e2a2d88a7090#id>,
+        <http://www.bbc.co.uk/things/ec667e0e-e48e-4edb-b8ae-ccbf9e9f1fce#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcxw82p#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/835015b8-0b73-4d51-9951-143d1e74afe3#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/e41368bb-90fb-4a1f-9840-5ec85d3ccf28#id> .
+
+<http://www.bbc.co.uk/things/84054031-384c-426b-8f1e-a3f368c3ee0c#id> a curric:TopicOfStudy ;
+    rdfs:label "Urban issues and challenges"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Urban issues and challenges"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/dc6c055a-935d-4116-bedf-74b151517dcb#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9wcg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/842201ae-e102-4d02-9e4d-f21ff0062570#id> a curric:TopicOfStudy ;
+    rdfs:label "Environmental and development issues"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Environmental and development issues"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/6c068ca9-5d5c-440f-8b04-3d9b501ee07b#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/4da22dd8-ca35-4a52-a397-8f92fc06958d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcsx2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/871dc93a-3112-4422-b27f-37864c1ad4b1#id> a curric:TopicOfStudy ;
+    rdfs:label "Weather, climate and ecosystems"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Weather, climate and ecosystems"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/cb417146-2ce5-4f4f-8326-ffa2f98b9f2c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z83ptyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8747bfba-c60e-40d4-8add-6d1ffb95c7f0#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/ae572c05-2d82-4b0a-8a11-4e35f9b0dd37#id> .
+
+<http://www.bbc.co.uk/things/883294e9-2416-426e-9778-9a6e3edbafa9#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/3b84d881-6a0f-4bf7-96ac-c29e45d8887d#id> .
+
+<http://www.bbc.co.uk/things/88676029-d961-4ea9-a9e0-7169bd716845#id> a curric:TopicOfStudy ;
+    rdfs:label "The physical environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "The physical environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8e92ac2c-8941-4b03-9f63-21be08925276#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b423ba4c-376d-4635-ba02-3c8bd7e1b562#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/801bec90-44da-4e8b-a1be-cc937349c225#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcxw82p#topic-of-study> .
+
+<http://www.bbc.co.uk/things/8a8a80b4-5300-41df-82f4-1914dd790665#id> a curric:Topic ;
+    rdfs:label "Resource management"@en-gb ;
+    core:preferredLabel "Resource management"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxh7j6f#topic> .
+
+<http://www.bbc.co.uk/things/8b5c3fcd-f7e5-4f64-9186-89189378be73#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/28d7ab76-2abd-4330-b8d6-af06120838a7#id>,
+        <http://www.bbc.co.uk/things/2b106404-8149-4df6-b9d9-5bc183d5950a#id>,
+        <http://www.bbc.co.uk/things/d94feb77-692b-4de8-af18-657b159de633#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/ztp2qty#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/8d0df458-3ea2-43fe-9234-6b4e65088561#id> a curric:Topic ;
+    rdfs:label "The challenge of natural hazards"@en-gb ;
+    core:preferredLabel "The challenge of natural hazards"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgkbv4j#topic> .
+
+<http://www.bbc.co.uk/things/8d7cad23-b308-430e-a4f5-31981af355f8#id> a curric:Topic ;
+    rdfs:label "The challenge of resource management"@en-gb ;
+    core:preferredLabel "The challenge of resource management"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsvh6fr#topic> .
+
+<http://www.bbc.co.uk/things/90b9e4ec-76d4-4a44-888d-41c8eaa209a6#id> a curric:Topic ;
+    rdfs:label "Sustaining environments"@en-gb ;
+    core:preferredLabel "Sustaining environments"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9p2qty#topic> .
+
+<http://www.bbc.co.uk/things/91f0a893-191b-49fc-a2d3-453ca507e254#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/19896a36-de1c-43db-9cdc-5e1174cb01cf#id> .
+
+<http://www.bbc.co.uk/things/97369056-7154-4427-9b6e-a50e2e5e8a40#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/7800c8e0-1450-4c00-a8ec-798759739a3f#id>,
+        <http://www.bbc.co.uk/things/7aabedad-fbe0-4c93-ba5b-90d5976b43c0#id>,
+        <http://www.bbc.co.uk/things/91f0a893-191b-49fc-a2d3-453ca507e254#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zxtqwxs#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/97e17fab-ecbd-49d8-a480-0bbc4b64f20c#id> a curric:Topic ;
+    rdfs:label "Dynamic development"@en-gb ;
+    core:preferredLabel "Dynamic development"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zsdrbk7#topic> .
+
+<http://www.bbc.co.uk/things/98c6d584-00dd-410e-9213-5fc9c65cb412#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/64eed53e-080e-4f10-ad59-8ded5e49248a#id> .
+
+<http://www.bbc.co.uk/things/9b9f6790-e624-45f0-9a09-e2a2d88a7090#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/dcb30138-299e-4c7c-8a27-3a383d034989#id> .
+
+<http://www.bbc.co.uk/things/a0424ad0-2b59-48bf-bcea-460af074cdbc#id> a curric:TopicOfStudy ;
+    rdfs:label "The changing economic world"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "The changing economic world"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b6a282a9-e84c-456d-a600-a6dcec3ad20c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zg93ycw#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a0b5af91-c1a7-4744-ae47-00e818ac2603#id> a curric:Topic ;
+    rdfs:label "The living world"@en-gb ;
+    core:preferredLabel "The living world"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqxw82p#topic> .
+
+<http://www.bbc.co.uk/things/a0cc27f2-969e-4a5f-a62f-23ac2422c95f#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/84054031-384c-426b-8f1e-a3f368c3ee0c#id> .
+
+<http://www.bbc.co.uk/things/a2f5063f-bb32-4701-b010-fb896be7fecf#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/d2e7d762-4988-40ba-929e-db46c992d3bb#id> .
+
+<http://www.bbc.co.uk/things/a45b3b98-fe18-4668-b207-25ac53edcc8b#id> a curric:TopicOfStudy ;
+    rdfs:label "Challenges in the human environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Challenges in the human environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/3ec8af7f-dc5b-49dd-8cfa-059ec2f5c601#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/4f0a5924-6742-4a9b-aebc-a2d568a4c550#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zw289qt#topic-of-study> .
+
+<http://www.bbc.co.uk/things/a52e5690-e22a-4dc3-8926-3febe2b5604f#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/63e6ba2d-b3ef-4ac3-9e2c-7f9a9d8cf8ea#id> .
+
+<http://www.bbc.co.uk/things/a9cb7c37-b31b-4e4b-b0e9-0d5c17879559#id> a curric:Topic ;
+    rdfs:label "Living with the physical environment"@en-gb ;
+    core:preferredLabel "Living with the physical environment"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9j4rdm#topic> .
+
+<http://www.bbc.co.uk/things/aa2a8d9d-a712-402f-bd97-21255dcd4382#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1a62c7a7-348c-4b14-a086-4b8732bca165#id>,
+        <http://www.bbc.co.uk/things/ad902209-3ff3-4bbd-9144-40e6b981c4b4#id>,
+        <http://www.bbc.co.uk/things/adc8b5ff-cdbc-4b59-a1bb-8f71420acc2b#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zsytxsg#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/aa3a37fe-6579-412c-88c1-5341f185443b#id> a curric:TopicOfStudy ;
+    rdfs:label "Sustaining environments"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Sustaining environments"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/90b9e4ec-76d4-4a44-888d-41c8eaa209a6#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8sx2p3#topic-of-study> .
+
+<http://www.bbc.co.uk/things/aaf122c1-12f0-426d-b3a3-aa73cb06a822#id> a curric:TopicOfStudy ;
+    rdfs:label "Tourism"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Tourism"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/766daaae-db61-44d2-835c-d74d21c98ba3#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqkbv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ab78e1f5-2712-48b1-8110-0f98ce0bdba7#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/26602727-c465-4c85-a504-251e84daf22b#id> .
+
+<http://www.bbc.co.uk/things/ad4fbec7-ecba-409a-9333-3b974bf94b79#id> a curric:TopicOfStudy ;
+    rdfs:label "Resource management"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Resource management"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8a8a80b4-5300-41df-82f4-1914dd790665#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b423ba4c-376d-4635-ba02-3c8bd7e1b562#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztgsp39#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ad902209-3ff3-4bbd-9144-40e6b981c4b4#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/5f9b5145-6d97-4513-91b7-b8ae114ef204#id> .
+
+<http://www.bbc.co.uk/things/adc8b5ff-cdbc-4b59-a1bb-8f71420acc2b#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/14255752-a887-46ff-8c33-3900c18374db#id> .
+
+<http://www.bbc.co.uk/things/ae572c05-2d82-4b0a-8a11-4e35f9b0dd37#id> a curric:TopicOfStudy ;
+    rdfs:label "Changing environments"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Changing environments"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e6de093c-a48e-44d3-ac7c-b9f45ad846ac#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zx8g39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/afa91452-554a-4099-ab90-05c35e3c9855#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/030bd061-a2a0-4573-afe3-a92f7ba714e5#id> .
+
+<http://www.bbc.co.uk/things/b2de516b-f6e7-47ed-ba1e-047926bfa92a#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/794af87d-6b53-490b-9e42-5a5647010035#id> .
+
+<http://www.bbc.co.uk/things/b4781732-f10a-4e68-b08f-389566169c20#id> a curric:Topic ;
+    rdfs:label "UK in the 21st century"@en-gb ;
+    core:preferredLabel "UK in the 21st century"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3xw82p#topic> .
+
+<http://www.bbc.co.uk/things/b673c3f3-5dfc-4fc8-adcf-d1754e4e0e87#id> a curric:TopicOfStudy ;
+    rdfs:label "Geographical skills"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Geographical skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b32f1705-4501-4c1d-86d5-554b990b8e57#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3p2qty#topic-of-study> .
+
+<http://www.bbc.co.uk/things/b6a282a9-e84c-456d-a600-a6dcec3ad20c#id> a curric:Topic ;
+    rdfs:label "The changing economic world"@en-gb ;
+    core:preferredLabel "The changing economic world"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3cysg8#topic> .
+
+<http://www.bbc.co.uk/things/b83eaea8-fb4a-4504-ab68-ade7683b0c9b#id> a curric:TopicOfStudy ;
+    rdfs:label "The challenge of resource management"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "The challenge of resource management"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8d7cad23-b308-430e-a4f5-31981af355f8#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zybnhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/bb59a929-3922-45e5-88c1-f574ea6d8e8d#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/4be342fb-890d-4829-b7b9-9f09eef73039#id> .
+
+<http://www.bbc.co.uk/things/bf1c7e6b-c657-4adf-a5ab-d457265bd76c#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/d2858a07-d89a-43fd-ab1e-931d0dac8a61#id> .
+
+<http://www.bbc.co.uk/things/c5f39cf7-5a89-4705-a0a1-3a912f7f9a79#id> a olo:Slot ;
+    olo:index 5 ;
+    olo:item <http://www.bbc.co.uk/things/63bfab6b-ccbc-42bc-94bc-8166a8bf1c56#id> .
+
+<http://www.bbc.co.uk/things/c905a0d9-666c-4193-9e08-e7162adf09c1#id> a curric:TopicOfStudy ;
+    rdfs:label "UK in the 21st century"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "UK in the 21st century"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b4781732-f10a-4e68-b08f-389566169c20#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpkbv4j#topic-of-study> .
+
+<http://www.bbc.co.uk/things/c948f64c-198e-4dcd-9149-578a196d2569#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/48e094c1-ce0a-441a-adba-aaab9d8cd1e1#id> .
+
+<http://www.bbc.co.uk/things/c9fb5809-ea5b-478e-9909-a93fc64abbf1#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/529ffb61-9eeb-4ead-a893-42353f7dd0b9#id> .
+
+<http://www.bbc.co.uk/things/cecb915c-9840-462b-bc48-70b3b951dff1#id> a olo:Slot ;
+    olo:index 4 ;
+    olo:item <http://www.bbc.co.uk/things/2c98fa00-da19-4061-bbb7-2756de4a8c59#id> .
+
+<http://www.bbc.co.uk/things/d127c4d4-9a5f-4234-9fc2-d14700b945d4#id> a curric:TopicOfStudy ;
+    rdfs:label "Landscape and physical processes"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Landscape and physical processes"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b19048a7-35b0-4f35-8977-a5b19673baf1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyh7j6f#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d2858a07-d89a-43fd-ab1e-931d0dac8a61#id> a curric:TopicOfStudy ;
+    rdfs:label "Geographical skills"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Geographical skills"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b32f1705-4501-4c1d-86d5-554b990b8e57#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zpf6mnb#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d2e7d762-4988-40ba-929e-db46c992d3bb#id> a curric:TopicOfStudy ;
+    rdfs:label "Global hazards"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Global hazards"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/138eddf6-a421-4549-972b-21f8afbb8dc1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zp8g39q#topic-of-study> .
+
+<http://www.bbc.co.uk/things/d94feb77-692b-4de8-af18-657b159de633#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/b673c3f3-5dfc-4fc8-adcf-d1754e4e0e87#id> .
+
+<http://www.bbc.co.uk/things/dc6c055a-935d-4116-bedf-74b151517dcb#id> a curric:Topic ;
+    rdfs:label "Urban issues and challenges"@en-gb ;
+    core:preferredLabel "Urban issues and challenges"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zc8g39q#topic> .
+
+<http://www.bbc.co.uk/things/dcb30138-299e-4c7c-8a27-3a383d034989#id> a curric:TopicOfStudy ;
+    rdfs:label "Ecosystems, biodiversity and management"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Ecosystems, biodiversity and management"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/e53071c7-1cb9-423c-94e6-1a0d61458645#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b423ba4c-376d-4635-ba02-3c8bd7e1b562#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zxbnhv4#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ddd3f0fb-0a49-4409-a0dd-c351d047506d#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/4351c471-bb94-4cc9-a3aa-2db0bdd0cdc9#id>,
+        <http://www.bbc.co.uk/things/ab78e1f5-2712-48b1-8110-0f98ce0bdba7#id>,
+        <http://www.bbc.co.uk/things/fbf7acf5-5e94-4a74-a515-7b8f9033cd11#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zpsx2p3#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/e1b19c13-f394-4c02-880f-a3b3138ebf9a#id> a curric:TopicOfStudy ;
+    rdfs:label "Changing physical and human landscapes"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Changing physical and human landscapes"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/294ff884-53a7-4d88-8f4c-44030c8aca41#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/6b9803b0-29b5-4f67-8a78-8dc458a5d24d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zc3ptyc#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e1b908d6-1081-4715-b9d3-8f4568740868#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/eb03b413-96cb-4b3b-8da3-619df7123dbf#id> .
+
+<http://www.bbc.co.uk/things/e41368bb-90fb-4a1f-9840-5ec85d3ccf28#id> a curric:TopicOfStudy ;
+    rdfs:label "Dynamic development"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Dynamic development"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/97e17fab-ecbd-49d8-a480-0bbc4b64f20c#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zyj4rdm#topic-of-study> .
+
+<http://www.bbc.co.uk/things/e53071c7-1cb9-423c-94e6-1a0d61458645#id> a curric:Topic ;
+    rdfs:label "Ecosystems, biodiversity and management"@en-gb ;
+    core:preferredLabel "Ecosystems, biodiversity and management"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z2vh6fr#topic> .
+
+<http://www.bbc.co.uk/things/eb03b413-96cb-4b3b-8da3-619df7123dbf#id> a curric:TopicOfStudy ;
+    rdfs:label "Changing places - changing economies"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Changing places - changing economies"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/d802387a-f66a-436e-a302-4ef0b97d6c14#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zt7k4j6#topic-of-study> .
+
+<http://www.bbc.co.uk/things/ec596265-7466-4831-8d19-283ad1910dae#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/b83eaea8-fb4a-4504-ab68-ade7683b0c9b#id> .
+
+<http://www.bbc.co.uk/things/ec667e0e-e48e-4edb-b8ae-ccbf9e9f1fce#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/27a88eef-76d4-4bd0-9038-c853a842b046#id> .
+
+<http://www.bbc.co.uk/things/ee7450d0-1235-4e17-88c1-189e9183199c#id> a olo:Slot ;
+    olo:index 2 ;
+    olo:item <http://www.bbc.co.uk/things/4ea6c889-af27-43af-b866-87d2cd994dc4#id> .
+
+<http://www.bbc.co.uk/things/f142ec14-4816-4bbc-9653-bb755b0a89ae#id> a curric:TopicOfStudy ;
+    rdfs:label "Landscape and physical processes"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "Landscape and physical processes"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/b19048a7-35b0-4f35-8977-a5b19673baf1#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> ;
+    curric:preferredDescription " "@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zqcysg8#topic-of-study> .
+
+<http://www.bbc.co.uk/things/f1b30730-9c69-4bf2-9718-9202b78dd25b#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/3a019eab-a579-4602-9a31-d63399b1ab07#id> .
+
+<http://www.bbc.co.uk/things/f4f7bf88-f4cb-4dfd-911d-1a58c590ca43#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/2141bede-8ce9-45a3-aa6c-731e194b9e21#id>,
+        <http://www.bbc.co.uk/things/43bc5669-7301-4d21-a307-95cbd56e1a71#id>,
+        <http://www.bbc.co.uk/things/6e4b09bd-e678-41eb-b01e-a82421aa2142#id>,
+        <http://www.bbc.co.uk/things/a2f5063f-bb32-4701-b010-fb896be7fecf#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zswcg82#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/f94fed1b-5867-4405-8a70-14859de331b8#id> a curric:Topic ;
+    rdfs:label "Urban futures"@en-gb ;
+    core:preferredLabel "Urban futures"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z3289qt#topic> .
+
+<http://www.bbc.co.uk/things/fa45ad1b-89f3-4c7d-a037-b31c961d478c#id> a curric:TopicOfStudyList ;
+    olo:slot <http://www.bbc.co.uk/things/1ec29cd5-7ad9-468a-b68b-0fdb1037efdf#id>,
+        <http://www.bbc.co.uk/things/301495fc-3511-4f1a-afc1-591baa971ba8#id>,
+        <http://www.bbc.co.uk/things/bf1c7e6b-c657-4adf-a5ab-d457265bd76c#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zy3ptyc#topics-of-study-list> .
+
+<http://www.bbc.co.uk/things/fb5a4fe0-423f-45a6-894b-89cef18c2fd8#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/29c72d8a-3b71-43af-a9b4-6bdcff6ea4f9#id> .
+
+<http://www.bbc.co.uk/things/fbf7acf5-5e94-4a74-a515-7b8f9033cd11#id> a olo:Slot ;
+    olo:index 1 ;
+    olo:item <http://www.bbc.co.uk/things/fd5e6032-046b-43f9-9947-ab6f857c4e49#id> .
+
+<http://www.bbc.co.uk/things/fd4994d1-d58b-4f82-8f19-f8ef9b78d237#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/d127c4d4-9a5f-4234-9fc2-d14700b945d4#id> .
+
+<http://www.bbc.co.uk/things/fd5e6032-046b-43f9-9947-ab6f857c4e49#id> a curric:TopicOfStudy ;
+    rdfs:label "The physical environment"@en-gb ;
+    dc:description " "@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography curriculum"@en-gb ;
+    core:preferredLabel "The physical environment"@en-gb ;
+    curric:about <http://www.bbc.co.uk/things/8e92ac2c-8941-4b03-9f63-21be08925276#id> ;
+    curric:appropriateFor <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:examSpecification <http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> ;
+    curric:preferredDescription " "@en-gb ;
+    curric:topics <http://www.bbc.co.uk/things/f4f7bf88-f4cb-4dfd-911d-1a58c590ca43#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zswcg82#topic-of-study> .
+
+<http://www.bbc.co.uk/things/fee1ea5e-b40c-4569-9e0e-588ab1727b5c#id> a olo:Slot ;
+    olo:index 3 ;
+    olo:item <http://www.bbc.co.uk/things/57954b40-c99f-43ed-92ec-370ba21a5600#id> .
+
+<http://www.bbc.co.uk/things/0c6a6003-1994-42d3-9647-c7698d5c186e#id> a curric:Topic ;
+    rdfs:label "Hazardous landscapes"@en-gb ;
+    core:preferredLabel "Hazardous landscapes"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztwcg82#topic> .
+
+<http://www.bbc.co.uk/things/26ddbf83-1353-4f8a-a9ff-089bcb0dec83#id> a curric:Topic ;
+    rdfs:label "Rural - urban links"@en-gb ;
+    core:preferredLabel "Rural - urban links"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zq4vfrd#topic> .
+
+<http://www.bbc.co.uk/things/294ff884-53a7-4d88-8f4c-44030c8aca41#id> a curric:Topic ;
+    rdfs:label "Changing physical and human landscapes"@en-gb ;
+    core:preferredLabel "Changing physical and human landscapes"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zs289qt#topic> .
+
+<http://www.bbc.co.uk/things/3c875c83-c4c9-4ffd-8929-3964a4c9ebc3#id> a curric:Topic ;
+    rdfs:label "The human environment"@en-gb ;
+    core:preferredLabel "The human environment"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8h7j6f#topic> .
+
+<http://www.bbc.co.uk/things/6c068ca9-5d5c-440f-8b04-3d9b501ee07b#id> a curric:Topic ;
+    rdfs:label "Environmental and development issues"@en-gb ;
+    core:preferredLabel "Environmental and development issues"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zgp2qty#topic> .
+
+<http://www.bbc.co.uk/things/766daaae-db61-44d2-835c-d74d21c98ba3#id> a curric:Topic ;
+    rdfs:label "Tourism"@en-gb ;
+    core:preferredLabel "Tourism"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zcf6mnb#topic> .
+
+<http://www.bbc.co.uk/things/8e92ac2c-8941-4b03-9f63-21be08925276#id> a curric:Topic ;
+    rdfs:label "The physical environment"@en-gb ;
+    core:preferredLabel "The physical environment"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zg289qt#topic> .
+
+<http://www.bbc.co.uk/things/b19048a7-35b0-4f35-8977-a5b19673baf1#id> a curric:Topic ;
+    rdfs:label "Landscape and physical processes"@en-gb ;
+    core:preferredLabel "Landscape and physical processes"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zwgsp39#topic> .
+
+<http://www.bbc.co.uk/things/bc998fb4-1598-4beb-a7ce-753671aaa406#id> a curric:Topic ;
+    rdfs:label "Economic development issues"@en-gb ;
+    core:preferredLabel "Economic development issues"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z8bnhv4#topic> .
+
+<http://www.bbc.co.uk/things/cb417146-2ce5-4f4f-8326-ffa2f98b9f2c#id> a curric:Topic ;
+    rdfs:label "Weather, climate and ecosystems"@en-gb ;
+    core:preferredLabel "Weather, climate and ecosystems"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z9ytxsg#topic> .
+
+<http://www.bbc.co.uk/things/d802387a-f66a-436e-a302-4ef0b97d6c14#id> a curric:Topic ;
+    rdfs:label "Changing places - changing economies"@en-gb ;
+    core:preferredLabel "Changing places - changing economies"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/zymdk7h#topic> .
+
+<http://www.bbc.co.uk/things/e6de093c-a48e-44d3-ac7c-b9f45ad846ac#id> a curric:Topic ;
+    rdfs:label "Changing environments"@en-gb ;
+    core:preferredLabel "Changing environments"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/z293ycw#topic> .
+
+<http://www.bbc.co.uk/things/b32f1705-4501-4c1d-86d5-554b990b8e57#id> a curric:Topic ;
+    rdfs:label "Geographical skills"@en-gb ;
+    core:preferredLabel "Geographical skills"@en-gb ;
+    owl:sameAs <http://www.bbc.co.uk/education/topics/ztnm7hv#topic> .
+
+<http://www.bbc.co.uk/things/b423ba4c-376d-4635-ba02-3c8bd7e1b562#id> a curric:ExamSpecification ;
+    rdfs:label "Edexcel"@en-gb ;
+    core:disambiguationHint "Edexcel GCSE Geography (2016 onwards)"@en-gb ;
+    core:preferredLabel "Edexcel"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/fdae1cd6-d622-4403-b616-91a229792d91#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:topics <http://www.bbc.co.uk/things/aa2a8d9d-a712-402f-bd97-21255dcd4382#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zsytxsg#exam-specification> .
+
+<http://www.bbc.co.uk/things/2591eddc-f6ce-4104-bbe1-f6fdf5a46b72#id> a curric:ExamSpecification ;
+    rdfs:label "OCR"@en-gb ;
+    core:disambiguationHint "OCR GCSE Geography (2016 onwards)"@en-gb ;
+    core:preferredLabel "OCR"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/da240cfb-e8fb-4202-ab50-61e17073fd97#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:topics <http://www.bbc.co.uk/things/ddd3f0fb-0a49-4409-a0dd-c351d047506d#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zpsx2p3#exam-specification> .
+
+<http://www.bbc.co.uk/things/73c07ff3-f1a8-4f0a-aa01-498eb4e4e31e#id> a curric:ExamSpecification ;
+    rdfs:label "AQA"@en-gb ;
+    core:disambiguationHint "AQA GCSE Geography (2016 onwards)"@en-gb ;
+    core:preferredLabel "AQA"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/d36691b5-501b-4fc3-9ad5-67f86baf22a6#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:topics <http://www.bbc.co.uk/things/fa45ad1b-89f3-4c7d-a037-b31c961d478c#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zy3ptyc#exam-specification> .
+
+<http://www.bbc.co.uk/things/750a90cb-6a53-4d67-a983-f62ada85472c#id> a curric:ExamSpecification ;
+    rdfs:label "WJEC"@en-gb ;
+    core:disambiguationHint "WJEC GCSE Geography (2016 onwards)"@en-gb ;
+    core:preferredLabel "WJEC"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/25d85da2-d7b5-49bc-8b06-55e695f7966b#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/ae1a7005-c2f0-49f8-aaa6-6978931ff621#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:topics <http://www.bbc.co.uk/things/97369056-7154-4427-9b6e-a50e2e5e8a40#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/zxtqwxs#exam-specification> .
+
+<http://www.bbc.co.uk/things/b0c776cf-1d44-4fb2-abb8-7e2456369f37#id> a curric:ExamSpecification ;
+    rdfs:label "Eduqas"@en-gb ;
+    core:disambiguationHint "Eduqas GCSE Geography (2016 onwards)"@en-gb ;
+    core:preferredLabel "Eduqas"@en-gb ;
+    curric:examBoard <http://www.bbc.co.uk/things/61ed10fe-4712-4921-8ee2-1e81a0fe076e#id> ;
+    curric:followedAtLevel <http://www.bbc.co.uk/things/9961409c-4c72-4644-a09f-9dbf69f58b46#id>,
+        <http://www.bbc.co.uk/things/efce7c4b-fcd1-4ee9-829c-d848f1cbb4c2#id> ;
+    curric:programmeOfStudy <http://www.bbc.co.uk/things/63d69124-0dca-4294-b3aa-439dfdece37e#id> ;
+    curric:topics <http://www.bbc.co.uk/things/8b5c3fcd-f7e5-4f64-9186-89189378be73#id> ;
+    owl:sameAs <http://www.bbc.co.uk/education/examspecs/ztp2qty#exam-specification> .
+
