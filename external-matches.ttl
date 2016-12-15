@@ -1,0 +1,819 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/things/1208b2e7-c808-430a-8802-7b39c0212cfb#id>
+	rdfs:label "England"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/England> ;
+	owl:sameAs <http://dbpedialite.org/things/9316#id> .
+
+<http://www.bbc.co.uk/things/49cc4006-5554-43a8-bc44-cebf0656d2c5#id>
+	rdfs:label "Wales"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Wales> ;
+	owl:sameAs <http://dbpedialite.org/things/69894#id> .
+
+<http://www.bbc.co.uk/things/c4fcdcc4-d88f-4d4b-a6a3-1669f7c2329b#id>
+	rdfs:label "Scotland"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Scotland> ;
+	owl:sameAs <http://dbpedialite.org/things/26994#id> .
+
+<http://www.bbc.co.uk/things/281444ed-b895-4217-8152-c4456ccbfdcc#id>
+	rdfs:label "Northern Ireland"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Northern_Ireland> ;
+	owl:sameAs <http://dbpedialite.org/things/21265#id> .
+
+<http://www.bbc.co.uk/things/0c035f05-4827-45f0-a2c7-7d714e2e4cb3#id>
+	rdfs:label "GCSE"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/151712#id> ;
+	skos:broader <http://dbpedialite.org/things/151712#id> .
+
+<http://www.bbc.co.uk/things/78e58f87-5b86-477f-8a8a-61da370f9a13#id>
+	rdfs:label "Higher"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Higher_(Scottish)> ;
+	owl:sameAs <http://dbpedialite.org/things/497117#id> .
+
+<http://www.bbc.co.uk/things/0cca789e-52de-486b-ae72-375017cff15f#id>
+	rdfs:label "KS3"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Key_Stage_3> ;
+	owl:sameAs <http://dbpedialite.org/things/2338193#id> .
+
+<http://www.bbc.co.uk/things/458f336d-6c5c-4a97-bd28-89fbd30575df#id>
+	rdfs:label "TGAU"@en-gb .
+
+<http://www.bbc.co.uk/things/64b46dff-9c22-412a-a7aa-1d29446c4845#id>
+	rdfs:label "National 5"@en-gb .
+
+<http://www.bbc.co.uk/things/549b274e-1529-487f-8485-0eb50b916d47#id>
+	rdfs:label "CA3"@en-gb .
+
+<http://www.bbc.co.uk/things/07a766a1-f579-438c-a63d-5d96ab2f6e32#id>
+	rdfs:label "National 4"@en-gb .
+
+<http://www.bbc.co.uk/things/0fbda866-63f8-4c11-9fa9-46c6c39ea4d0#id>
+	rdfs:label "Maths"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mathematics> ;
+	owl:sameAs <http://dbpedialite.org/things/18831#id> .
+
+<http://www.bbc.co.uk/things/8b0a3567-94a2-48ee-8d71-571600aa322b#id>
+	rdfs:label "Art and Design"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Art> ;
+	owl:sameAs <http://dbpedialite.org/things/752#id> .
+
+<http://www.bbc.co.uk/things/d61fd39e-a4d6-4494-9b01-606c7fcd6b71#id>
+	rdfs:label "Geography"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Geography> ;
+	owl:sameAs <http://dbpedialite.org/things/18963910#id> .
+
+<http://www.bbc.co.uk/things/3cbb82bf-4808-44d2-9ef3-949172585378#id>
+	rdfs:label "Religious Studies"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Religious_Studies> ;
+	owl:sameAs <http://dbpedialite.org/things/354220#id> .
+
+<http://www.bbc.co.uk/things/7ca3983d-b114-49b3-a1e8-1252a5e1316d#id>
+	rdfs:label "Architecture"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/21296224#id> ;
+	skos:broader <http://dbpedialite.org/things/21296224#id> .
+
+<http://www.bbc.co.uk/things/add89d72-af77-4490-b479-25fd45bb5e72#id>
+	rdfs:label "Design and Technology"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Design_and_Technology> ;
+	owl:sameAs <http://dbpedialite.org/things/2035838#id> .
+
+<http://www.bbc.co.uk/things/5ec974ed-97fb-4f67-9c77-71435fbab025#id>
+	rdfs:label "Business"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Business_studies> ;
+	owl:sameAs <http://dbpedialite.org/things/5786158#id> .
+
+<http://www.bbc.co.uk/things/bb440724-49e2-414e-954c-109532bc8ff6#id>
+	rdfs:label "English"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/English_language> ;
+	owl:sameAs <http://dbpedialite.org/things/8569916#id> .
+
+<http://www.bbc.co.uk/things/facda79e-4b63-4a6f-b40a-0d4a6aabf154#id>
+	rdfs:label "English Literature"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/English_Literature> ;
+	owl:sameAs <http://dbpedialite.org/things/18973384#id> .
+
+<http://www.bbc.co.uk/things/dd44f60c-0612-4dac-b883-9858170ed4e2#id>
+	rdfs:label "Welsh  (for 1st language)"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Welsh_Language> ;
+	owl:sameAs <http://dbpedialite.org/things/33545#id> .
+
+<http://www.bbc.co.uk/things/0064471a-b505-4a7c-accc-b358848da1c2#id>
+	rdfs:label "Modern Foreign Languages"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Modern_language> ;
+	owl:sameAs <http://dbpedialite.org/things/2672429#id> .
+
+<http://www.bbc.co.uk/things/1690867e-da26-463b-9c53-a651092efe38#id>
+	rdfs:label "French"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/French_language> ;
+	owl:sameAs <http://dbpedialite.org/things/10597#id> .
+
+<http://www.bbc.co.uk/things/e060d466-292b-4cd6-8952-4cc632f7ca21#id>
+	rdfs:label "German"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/German_language> ;
+	owl:sameAs <http://dbpedialite.org/things/11884#id> .
+
+<http://www.bbc.co.uk/things/62fb91b7-2811-4cde-a3a9-5400f28b7fb6#id>
+	rdfs:label "Spanish"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Spanish_Language> ;
+	owl:sameAs <http://dbpedialite.org/things/26825#id> .
+
+<http://www.bbc.co.uk/things/bcf9f62f-d887-4e21-93e3-c27791da91ce#id>
+	rdfs:label "Chinese"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chinese_Language> ;
+	owl:sameAs <http://dbpedialite.org/things/5751#id> .
+
+<http://www.bbc.co.uk/things/812dc56a-fdbf-408e-b07b-789ffead892f#id>
+	rdfs:label "ICT"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Information_and_communication_technologies_in_education> ;
+	owl:sameAs <http://dbpedialite.org/things/4823836#id> .
+
+<http://www.bbc.co.uk/things/4c3bd8f5-e577-4eb6-abe7-e86d0f77f1c1#id>
+	rdfs:label "Electronics"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Electronics> ;
+	owl:sameAs <http://dbpedialite.org/things/9663#id> .
+
+<http://www.bbc.co.uk/things/07ad6cb5-6433-43ed-b17c-ac56ec1391bb#id>
+	rdfs:label "Food Technology"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Food_Technology> ;
+	owl:sameAs <http://dbpedialite.org/things/1636646#id> .
+
+<http://www.bbc.co.uk/things/81d9e475-f5a3-4336-93c2-0cd45e1bdfa5#id>
+	rdfs:label "Graphics"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Graphics> ;
+	owl:sameAs <http://dbpedialite.org/things/382466#id> .
+
+<http://www.bbc.co.uk/things/95d4a5df-ce7a-444f-addd-b58d3c3c919e#id>
+	rdfs:label "Resistant Materials"@en-gb .
+
+<http://www.bbc.co.uk/things/e44ddf42-fff6-42e3-ba3d-c22c64b4691e#id>
+	rdfs:label "Systems and Control"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Systems_and_Control> ;
+	owl:sameAs <http://dbpedialite.org/things/26018452#id> .
+
+<http://www.bbc.co.uk/things/52bd6267-e7a5-4d36-b87d-ab2bad7652d7#id>
+	rdfs:label "Textiles"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Textile> ;
+	owl:sameAs <http://dbpedialite.org/things/51892#id> .
+
+<http://www.bbc.co.uk/things/c3d83052-8e61-4d2a-a2c9-bab53df03862#id>
+	rdfs:label "Product Design"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Product_Design> ;
+	owl:sameAs <http://dbpedialite.org/things/999536#id> .
+
+<http://www.bbc.co.uk/things/f020d55b-c5a4-49e0-8b22-ebb59d423c9d#id>
+	rdfs:label "Physical Education"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Physical_Education> ;
+	owl:sameAs <http://dbpedialite.org/things/217324#id> .
+
+<http://www.bbc.co.uk/things/030b092b-355c-461c-bef5-faf351aadede#id>
+	rdfs:label "Media Studies"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Media_Studies> ;
+	owl:sameAs <http://dbpedialite.org/things/19552#id> .
+
+<http://www.bbc.co.uk/things/32cdc6ef-9854-443a-ab84-d749fa667da5#id>
+	rdfs:label "Engineering"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Engineering> ;
+	owl:sameAs <http://dbpedialite.org/things/9251#id> .
+
+<http://www.bbc.co.uk/things/ee550d7c-1e77-4f15-9b7a-57f2e8997788#id>
+	rdfs:label "Algebra"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Algebra> ;
+	owl:sameAs <http://dbpedialite.org/things/18716923#id> .
+
+<http://www.bbc.co.uk/things/bca8038a-81c4-4270-b110-ceaf96fa23e8#id>
+	rdfs:label "Equations"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Equation> ;
+	owl:sameAs <http://dbpedialite.org/things/9284#id> .
+
+<http://www.bbc.co.uk/things/02911c5c-24a5-4b24-918c-5bac770903c9#id>
+	rdfs:label "Patterns and sequences"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pattern> ;
+	owl:sameAs <http://dbpedialite.org/things/68351#id> .
+
+<http://www.bbc.co.uk/things/14579f7a-898f-46c0-bc7d-4d203f9b0ead#id>
+	rdfs:label "Functional maths"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/1374948#id> ;
+	skos:broader <http://dbpedialite.org/things/1374948#id> .
+
+<http://www.bbc.co.uk/things/09001759-57a0-4f6e-b372-135a684c7d72#id>
+	rdfs:label "Measurement"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/19022#id> ;
+	skos:broader <http://dbpedialite.org/things/19022#id> .
+
+<http://www.bbc.co.uk/things/6e5a1863-682d-45a6-87e1-d746ebb56936#id>
+	rdfs:label "Shapes"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Shape> ;
+	owl:sameAs <http://dbpedialite.org/things/169191#id> .
+
+<http://www.bbc.co.uk/things/0121890a-bc83-455c-9d0e-a9ce0c8f6cd7#id>
+	rdfs:label "Time"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Time> ;
+	owl:sameAs <http://dbpedialite.org/things/30012#id> .
+
+<http://www.bbc.co.uk/things/b82a58ef-d56c-473c-9981-98f6d71b30b9#id>
+	rdfs:label "Locus"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Locus> ;
+	owl:sameAs <http://dbpedialite.org/things/20646154#id> .
+
+<http://www.bbc.co.uk/things/fae8dff1-6875-479c-8eb5-4e785f8df1b7#id>
+	rdfs:label "Angles"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Angle> ;
+	owl:sameAs <http://dbpedialite.org/things/1196#id> .
+
+<http://www.bbc.co.uk/things/9dd8f9d7-5bfe-4384-9833-e78041b572a4#id>
+	rdfs:label "Distance, speed and time"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/39378#id> ;
+	skos:broader <http://dbpedialite.org/things/28748#id> ;
+	skos:broader <http://dbpedialite.org/things/30012#id> .
+
+<http://www.bbc.co.uk/things/2eee906d-9cb7-4fdf-b9b4-d68c96e3eef0#id>
+	rdfs:label "Ratio and proportion"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/87837#id> ;
+	skos:broader <http://dbpedialite.org/things/81863#id> .
+
+<http://www.bbc.co.uk/things/3d780983-a358-4053-af02-961622ce53ed#id>
+	rdfs:label "Powers and roots"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/99491#id> ;
+	skos:broader <http://dbpedialite.org/things/235029#id> .
+
+<http://www.bbc.co.uk/things/0633dbaa-53fb-4c7f-80f7-ba93c4b0b0ac#id>
+	rdfs:label "Operations (calculations/sums)"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Operation_(mathematics)> ;
+	owl:sameAs <http://dbpedialite.org/things/4140245#id> .
+
+<http://www.bbc.co.uk/things/3eca6930-da31-4f68-8a72-7fc2928b72e4#id>
+	rdfs:label "Fractions"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Fraction_(mathematics)> ;
+	owl:sameAs <http://dbpedialite.org/things/1704824#id> .
+
+<http://www.bbc.co.uk/things/b9847e1b-b0b9-450c-8179-18704f3bdbdd#id>
+	rdfs:label "Percentages"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Percentage> ;
+	owl:sameAs <http://dbpedialite.org/things/64493#id> .
+
+<http://www.bbc.co.uk/things/41743f9c-01ed-4b7f-9a90-a106ab3faa6b#id>
+	rdfs:label "Collecting, recording and representing data"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/18985040#id> .
+
+<http://www.bbc.co.uk/things/ab306cdb-05d6-4c7c-859b-c0668f0430b3#id>
+	rdfs:label "Averages"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Average> ;
+	owl:sameAs <http://dbpedialite.org/things/60167#id> .
+
+<http://www.bbc.co.uk/things/26567c44-6737-429c-9626-ec9aa6027935#id>
+	rdfs:label "Probability"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Probability> ;
+	owl:sameAs <http://dbpedialite.org/things/22934#id> .
+
+<http://www.bbc.co.uk/things/fb344dc2-5323-462e-8cca-b2b3a93f3e47#id>
+	rdfs:label "History and culture of maths"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/History_of_mathematics> ;
+	owl:sameAs <http://dbpedialite.org/things/14220#id> .
+
+<http://www.bbc.co.uk/things/bee458a8-c230-470f-9876-9236a6412d2d#id>
+	rdfs:label "Geometry and measures"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Geometry> ;
+	owl:sameAs <http://dbpedialite.org/things/18973446#id> .
+
+<http://www.bbc.co.uk/things/df23aae4-9ac1-49c7-954e-f91435aa647d#id>
+	rdfs:label "Transformations"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Transform_theory> ;
+	owl:sameAs <http://dbpedialite.org/things/16704202#id> .
+
+<http://www.bbc.co.uk/things/228f5523-1dd5-4ec2-a812-8aec2c1285b4#id>
+	rdfs:label "Symmetry"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Symmetry> ;
+	owl:sameAs <http://dbpedialite.org/things/53741#id> .
+
+<http://www.bbc.co.uk/things/52c20e00-ac2b-4474-842d-b33d916c7ac1#id>
+	rdfs:label "Coordinates"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Coordinates> ;
+	owl:sameAs <http://dbpedialite.org/things/81931#id> .
+
+<http://www.bbc.co.uk/things/cf425173-6f82-4bd0-b2da-1f9cc1c1a6eb#id>
+	rdfs:label "Trigonometry"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Trigonometry> ;
+	owl:sameAs <http://dbpedialite.org/things/18717261#id> .
+
+<http://www.bbc.co.uk/things/66d27bfa-afe9-457c-92a2-64db288c1eb5#id>
+	rdfs:label "Pythagoras"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pythagoras%27_theorem> ;
+	owl:sameAs <http://dbpedialite.org/things/26513034#id> .
+
+<http://www.bbc.co.uk/things/f482abaf-280b-4fb0-8662-bd7c3bad36cb#id>
+	rdfs:label "Rounding and estimating"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/169945#id> ;
+	skos:broader <http://dbpedialite.org/things/36687154#id> .
+
+<http://www.bbc.co.uk/things/a9313c14-41da-4f4d-a9d5-8a5be880e8e5#id>
+	rdfs:label "Factors, multiples and primes"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/82341#id> ;
+	skos:broader <http://dbpedialite.org/things/23666#id> .
+
+<http://www.bbc.co.uk/things/7a3ac318-f080-41d8-a9fc-48f001446f7d#id>
+	rdfs:label "Decimals"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Decimal> ;
+	owl:sameAs <http://dbpedialite.org/things/8214#id> .
+
+<http://www.bbc.co.uk/things/a9349a4f-8886-4eae-9ff2-2302365461a9#id>
+	rdfs:label "Positive and negative numbers"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sign (mathematics)> ;
+	owl:sameAs <http://dbpedialite.org/things/7951270#id> .
+
+<http://www.bbc.co.uk/things/16365387-b465-4610-aeb4-7d1d3b42b08a#id>
+	rdfs:label "Statistics and probability"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/26685#id> ;
+	skos:broader <http://dbpedialite.org/things/22934#id> .
+
+<http://www.bbc.co.uk/things/84fbcffd-ad97-4709-9eb0-a2f0978010b6#id>
+	rdfs:label "Calculus"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Calculus> ;
+	owl:sameAs <http://dbpedialite.org/things/5176#id> .
+
+<http://www.bbc.co.uk/things/3fec60d2-5f39-4638-9176-e8c3a6cae638#id>
+	rdfs:label "Differentiation"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Differential_calculus> ;
+	owl:sameAs <http://dbpedialite.org/things/50416#id> .
+
+<http://www.bbc.co.uk/things/ade21053-4675-4f3d-b632-258c0c4b5d15#id>
+	rdfs:label "Perimeter"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Perimeter> ;
+	owl:sameAs <http://dbpedialite.org/things/23636#id> .
+
+<http://www.bbc.co.uk/things/860655c3-3d69-49ca-b823-71239263c3a2#id>
+	rdfs:label "Area"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Area> ;
+	owl:sameAs <http://dbpedialite.org/things/1209#id> .
+
+<http://www.bbc.co.uk/things/1c20333d-a1bb-4637-9ae2-73a49debb72b#id>
+	rdfs:label "Volume"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Volume> ;
+	owl:sameAs <http://dbpedialite.org/things/32498#id> .
+
+<http://www.bbc.co.uk/things/e9cca918-c289-4d1a-bb90-1cf866b8be53#id>
+	rdfs:label "Relationships and calculus"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/14677757#id> ;
+	skos:broader <http://dbpedialite.org/things/5176#id> .
+
+<http://www.bbc.co.uk/things/9e2e661c-ad18-477f-8e00-b18248e79601#id>
+	rdfs:label "Expressions and formulae"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/609125#id> ;
+	skos:broader <http://dbpedialite.org/things/164040#id> .
+
+<http://www.bbc.co.uk/things/5e58119f-4cd7-4d50-92e6-bc8821b08a63#id>
+	rdfs:label "Applications"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Applications_of_mathematics> ;
+	owl:sameAs <http://dbpedialite.org/things/24295969#id> .
+
+<http://www.bbc.co.uk/things/43a3877c-55e9-4f45-8804-60d745b9b488#id>
+	rdfs:label "Numerical Skills"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Numeracy> ;
+	owl:sameAs <http://dbpedialite.org/things/397245#id> .
+
+<http://www.bbc.co.uk/things/4b2db981-cd8e-49c4-8e54-a7b97a14e4c3#id>
+	rdfs:label "Elements and principles of art"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Principles_of_art> ;
+	owl:sameAs <http://dbpedialite.org/things/4243259#id> .
+
+<http://www.bbc.co.uk/things/3bd9975a-418f-4440-8de1-c94a73c51ac8#id>
+	rdfs:label "The creative process"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Creative_process> ;
+	owl:sameAs <http://dbpedialite.org/things/142910#id> .
+
+<http://www.bbc.co.uk/things/a2fd0596-24be-4bec-a6c4-0d2bdc0218e1#id>
+	rdfs:label "Art and design skills"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Art> ;
+	owl:sameAs <http://dbpedialite.org/things/752#id> .
+
+<http://www.bbc.co.uk/things/81d34769-56c0-4faa-a818-b649d5d08ba4#id>
+	rdfs:label "Fine art"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Fine_art> ;
+	owl:sameAs <http://dbpedialite.org/things/90317#id> .
+
+<http://www.bbc.co.uk/things/b9ae74bd-025e-42ba-911f-2aeb629ffa75#id>
+	rdfs:label "Drawing"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Drawing> ;
+	owl:sameAs <http://dbpedialite.org/things/8544#id> .
+
+<http://www.bbc.co.uk/things/47f20631-ec61-475a-a64c-dd321cfa58a4#id>
+	rdfs:label "Painting"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Painting> ;
+	owl:sameAs <http://dbpedialite.org/things/18622193#id> .
+
+<http://www.bbc.co.uk/things/734e971b-0c78-429a-af36-5748dceefcbf#id>
+	rdfs:label "Sculpture"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sculpture> ;
+	owl:sameAs <http://dbpedialite.org/things/23604#id> .
+
+<http://www.bbc.co.uk/things/271d83d5-95b7-4a31-9f12-eacb168b2d28#id>
+	rdfs:label "Photography"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Photography> ;
+	owl:sameAs <http://dbpedialite.org/things/26714#id> .
+
+<http://www.bbc.co.uk/things/5b079ce9-93da-4e54-9406-672fe6001c8f#id>
+	rdfs:label "Mixed media"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mixed_media> ;
+	owl:sameAs <http://dbpedialite.org/things/353267#id> .
+
+<http://www.bbc.co.uk/things/62701163-328b-43a9-b2b4-89b75d1ab2d2#id>
+	rdfs:label "Printmaking"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Printmaking> ;
+	owl:sameAs <http://dbpedialite.org/things/42532#id> .
+
+<http://www.bbc.co.uk/things/47421f19-4696-4da1-a44f-2c0a6565cb4a#id>
+	rdfs:label "Installation"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Installation_art> ;
+	owl:sameAs <http://dbpedialite.org/things/148099#id> .
+
+<http://www.bbc.co.uk/things/132ead0c-48eb-4f0c-bbea-0454c8186e49#id>
+	rdfs:label "Craft"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Craft> ;
+	owl:sameAs <http://dbpedialite.org/things/261177#id> .
+
+<http://www.bbc.co.uk/things/fef761b7-c632-4b2d-ad69-5554ce524ef8#id>
+	rdfs:label "Ceramics"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ceramics_(art)> ;
+	owl:sameAs <http://dbpedialite.org/things/3792637#id> .
+
+<http://www.bbc.co.uk/things/bcf7ee57-ae3c-4c67-9334-6c6ab2fadf3e#id>
+	rdfs:label "Textiles"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Textiles> ;
+	owl:sameAs <http://dbpedialite.org/things/51892#id> .
+
+<http://www.bbc.co.uk/things/57deae32-58c2-46fd-877e-12bbeaac7afa#id>
+	rdfs:label "Jewellery"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jewellery> ;
+	owl:sameAs <http://dbpedialite.org/things/15739#id> .
+
+<http://www.bbc.co.uk/things/67c9c826-297c-446f-a136-db0e01eece08#id>
+	rdfs:label "Glasswork"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Glass_art> ;
+	owl:sameAs <http://dbpedialite.org/things/26608557#id> .
+
+<http://www.bbc.co.uk/things/440ad647-7346-48cb-bdec-ef3bc63c7fd4#id>
+	rdfs:label "Metalwork"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Metalworking> ;
+	owl:sameAs <http://dbpedialite.org/things/266443#id> .
+
+<http://www.bbc.co.uk/things/0dca2778-8447-42d6-8045-75c625a448be#id>
+	rdfs:label "Woodwork"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Woodworking> ;
+	owl:sameAs <http://dbpedialite.org/things/33118#id> .
+
+<http://www.bbc.co.uk/things/902b24f7-3adc-487c-b824-b5dcf01dc2d8#id>
+	rdfs:label "Design"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/33118#id> .
+
+<http://www.bbc.co.uk/things/3ffb40a3-f1df-4eb6-8d19-08a77d5c1d93#id>
+	rdfs:label "2D design"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/8560#id> .
+
+<http://www.bbc.co.uk/things/05791322-bc81-4e1d-b9ee-a0656183148f#id>
+	rdfs:label "3D design"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/8560#id> .
+
+<http://www.bbc.co.uk/things/d70615a8-52f5-4e24-8a04-4d0046434b02#id>
+	rdfs:label "Graphic communication"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Graphic_communication> ;
+	owl:sameAs <http://dbpedialite.org/things/13156564#id> .
+
+<http://www.bbc.co.uk/things/4dce179a-0ba0-41ed-8a65-601d51723f26#id>
+	rdfs:label "Fashion design"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Fashion_design> ;
+	owl:sameAs <http://dbpedialite.org/things/10799117#id> .
+
+<http://www.bbc.co.uk/things/642fd70b-07e8-4cc9-ac7f-83bd70bfd797#id>
+	rdfs:label "Art in the real world"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/2583747#id> .
+
+<http://www.bbc.co.uk/things/7f5b7f56-afc9-42d8-8c82-d242a0882c7a#id>
+	rdfs:label "Working in the creative industries"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Creative_industries> ;
+	owl:sameAs <http://dbpedialite.org/things/674483#id> .
+
+<http://www.bbc.co.uk/things/3b789b05-afd2-4d33-aa31-de31827b918a#id>
+	rdfs:label "Student artwork"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/2583747#id> .
+
+<http://www.bbc.co.uk/things/3236f08d-1fa1-4948-a606-c98d07a547f3#id>
+	rdfs:label "Art from different cultures"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/752#id> .
+
+<http://www.bbc.co.uk/things/f6835dd4-e8aa-4746-b933-31f1e9dd8a6a#id>
+	rdfs:label "Physical geography"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/23263#id> ;
+	skos:broader <http://dbpedialite.org/things/23263#id> .
+
+<http://www.bbc.co.uk/things/711b5ad1-8ddc-43bf-b667-de4f9de463f8#id>
+	rdfs:label "Weather and climate"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Weather_and_climate> ;
+	owl:sameAs <http://dbpedialite.org/things/20609863#id> .
+
+<http://www.bbc.co.uk/things/81d073c6-0199-40f4-ac34-fef00ee53e1a#id>
+	rdfs:label "Coastal landscapes"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Coastal> ;
+	owl:sameAs <http://dbpedialite.org/things/5236#id> .
+
+<http://www.bbc.co.uk/things/91ef94fe-9966-4cf0-9b62-4ae6a7543bad#id>
+	rdfs:label "Ecosystems"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ecosystem> ;
+	owl:sameAs <http://dbpedialite.org/things/9632#id> .
+
+<http://www.bbc.co.uk/things/e6649a39-a6e7-4a00-812d-1937791589a5#id>
+	rdfs:label "Rock landscapes"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Rock_formation> ;
+	owl:sameAs <http://dbpedialite.org/things/1000167#id> .
+
+<http://www.bbc.co.uk/things/3be86f4e-406c-4a75-ad5e-34edca0e06e0#id>
+	rdfs:label "Glacial landscapes"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Glacial_landform> ;
+	owl:sameAs <http://dbpedialite.org/things/1494235#id> .
+
+<http://www.bbc.co.uk/things/47bdcab9-7cbd-4c0e-902e-895f8b46a546#id>
+	rdfs:label "Natural hazards"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Natural_hazard> ;
+	owl:sameAs <http://dbpedialite.org/things/13745047#id> .
+
+<http://www.bbc.co.uk/things/6fdc926b-45e0-4dad-9136-844e15d074f5#id>
+	rdfs:label "Rivers and water"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/18842395#id> ;
+	skos:broader <http://dbpedialite.org/things/33306#id> .
+
+<http://www.bbc.co.uk/things/779e51b0-bb4a-4032-aa19-299308114863#id>
+	rdfs:label "Development"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Development_geography> ;
+	owl:sameAs <http://dbpedialite.org/things/2149045#id> .
+
+<http://www.bbc.co.uk/things/4e43bd16-c9e1-4d71-813f-9f1ddb95d342#id>
+	rdfs:label "Globalisation and trade"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/46313#id> ;
+	skos:broader <http://dbpedialite.org/things/29678#id> .
+
+<http://www.bbc.co.uk/things/e762faed-4cab-49f1-a12e-b25a20485a15#id>
+	rdfs:label "Indigenous tribes"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Indigenous_peoples> ;
+	owl:sameAs <http://dbpedialite.org/things/45281#id> .
+
+<http://www.bbc.co.uk/things/f1d5c71f-2d41-41ff-9a3c-6bac1d86da5f#id>
+	rdfs:label "Population and migration"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/22949#id> ;
+	skos:broader <http://dbpedialite.org/things/221773#id> .
+
+<http://www.bbc.co.uk/things/72b2eb1b-6629-4cea-a4ba-5ec969446208#id>
+	rdfs:label "Rural enviornments"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Rural_area> ;
+	owl:sameAs <http://dbpedialite.org/things/212614#id> .
+
+<http://www.bbc.co.uk/things/7229ad00-2917-424b-8bb3-32bc0f1496e#id>
+	rdfs:label "Tourism"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tourism> ;
+	owl:sameAs <http://dbpedialite.org/things/29789#id> .
+
+<http://www.bbc.co.uk/things/c98f69a8-7e40-46a4-9c09-63b85fd88d24#id>
+	rdfs:label "Urban enviornments"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Urban_environment> ;
+	owl:sameAs <http://dbpedialite.org/things/764593#id> .
+
+<http://www.bbc.co.uk/things/cd5f79fb-ddfc-45f4-abe6-b907f72f017d#id>
+	rdfs:label "Economic change"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Economics> ;
+	owl:sameAs <http://dbpedialite.org/things/9223#id> .
+
+<http://www.bbc.co.uk/things/e013f157-2186-4eb2-bd80-976620805150#id>
+	rdfs:label "Energy and resources"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/9649#id> ;
+	skos:broader <http://dbpedialite.org/things/21675#id> .
+
+<http://www.bbc.co.uk/things/4f73829f-499c-4554-8078-bed0ffcba301#id>
+	rdfs:label "Waste and Pollution"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/20646971#id> ;
+	skos:broader <http://dbpedialite.org/things/24872#id> .
+
+<http://www.bbc.co.uk/things/e49daa30-e47e-46e9-8485-6a4853d79b7e#id>
+	rdfs:label "Sustainability"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sustainability> ;
+	owl:sameAs <http://dbpedialite.org/things/18413531#id> .
+
+<http://www.bbc.co.uk/things/90bc445b-7442-434e-943f-6d6759a5081f#id>
+	rdfs:label "Environment"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Enviromental_science> ;
+	owl:sameAs <http://dbpedialite.org/things/64919#id> .
+
+<http://www.bbc.co.uk/things/f58f054f-3e02-41bb-a124-13df164d34ad#id>
+	rdfs:label "Atmosphere"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Atmosphere_of_Earth> ;
+	owl:sameAs <http://dbpedialite.org/things/202898#id> .
+
+<http://www.bbc.co.uk/things/498566d6-16c3-46dc-b57f-72ef020b65dd#id>
+	rdfs:label "Hydrosphere"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Hydrosphere> ;
+	owl:sameAs <http://dbpedialite.org/things/145753#id> .
+
+<http://www.bbc.co.uk/things/45f67fd1-b45a-4bec-b4f2-5dcd67028c9c#id>
+	rdfs:label "Lithosphere"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lithosphere> ;
+	owl:sameAs <http://dbpedialite.org/things/145716#id> .
+
+<http://www.bbc.co.uk/things/c2ec820e-2ea2-4ec6-9dd4-cc4f9cfa3c5f#id>
+	rdfs:label "Human geography"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Human_geography> ;
+	owl:sameAs <http://dbpedialite.org/things/13372#id> .
+
+<http://www.bbc.co.uk/things/6b4e5f75-c73b-4065-9240-61688e857d68#id>
+	rdfs:label "Population"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Population> ;
+	owl:sameAs <http://dbpedialite.org/things/22949#id> .
+
+<http://www.bbc.co.uk/things/258c39be-dd21-4b4d-a476-e082e45f6616#id>
+	rdfs:label "Rural"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Rural_area> ;
+	owl:sameAs <http://dbpedialite.org/things/212614#id> .
+
+<http://www.bbc.co.uk/things/2b0ed3db-e9dc-4e86-aa8a-0b80a20f8da2#id>
+	rdfs:label "Urban"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Urban_environment> ;
+	owl:sameAs <http://dbpedialite.org/things/764593#id> .
+
+<http://www.bbc.co.uk/things/7e16e2d2-7c28-49d5-8f66-51a001e0b646#id>
+	rdfs:label "Global issues"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Globalisation> ;
+	owl:sameAs <http://dbpedialite.org/things/46313#id> .
+
+<http://www.bbc.co.uk/things/5611251f-3491-47e8-a55b-90b20ee42dfc#id>
+	rdfs:label "River basin management"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/River_basin> ;
+	owl:sameAs <http://dbpedialite.org/things/191162#id> .
+
+<http://www.bbc.co.uk/things/38f1bb88-080e-41b0-a6cd-f626e94037cc#id>
+	rdfs:label "Development and health"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/2149045#id> ;
+	skos:broader <http://dbpedialite.org/things/80381#id> .
+
+<http://www.bbc.co.uk/things/20fda5e8-88ad-4e10-8cf8-186194a0b8a1#id>
+	rdfs:label "Global climate change"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Climate_change> ;
+	owl:sameAs <http://dbpedialite.org/things/47512#id> .
+
+<http://www.bbc.co.uk/things/6736e3dc-a4b3-41c8-8dc2-29d529efdeb0#id>
+	rdfs:label "Trade, aid and geopolitics"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/29678#id> ;
+	skos:broader <http://dbpedialite.org/things/1908551#id> ;
+	skos:broader <http://dbpedialite.org/things/163225#id> .
+
+<http://www.bbc.co.uk/things/690511b3-3c22-424a-b582-c8cb69fc5d5e#id>
+	rdfs:label "Energy"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Energy> ;
+	owl:sameAs <http://dbpedialite.org/things/9649#id> .
+
+<http://www.bbc.co.uk/things/9cd8da94-cd31-4c74-b2cb-83f640136e5b#id>
+	rdfs:label "Weather"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Weather> ;
+	owl:sameAs <http://dbpedialite.org/things/33978#id> .
+
+<http://www.bbc.co.uk/things/880da1a3-80e6-4c9b-bad0-816c58ab8a8d#id>
+	rdfs:label "Glaciated uplands"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Glacial_landform> ;
+	owl:sameAs <http://dbpedialite.org/things/1494235#id> .
+
+<http://www.bbc.co.uk/things/be10d472-8927-44f2-844c-28dd2f7aacc9#id>
+	rdfs:label "Rivers"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Rivers> ;
+	owl:sameAs <http://dbpedialite.org/things/18842395#id> .
+
+<http://www.bbc.co.uk/things/8abf17cf-058c-440d-9c19-cbf86832f345#id>
+	rdfs:label "Impact of human activity"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Human_impact_on_the_environment> ;
+	owl:sameAs <http://dbpedialite.org/things/1728672#id> .
+
+<http://www.bbc.co.uk/things/b0537575-90d8-4427-8957-db50ed84f946#id>
+	rdfs:label "Globalisation"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Globalisation> ;
+	owl:sameAs <http://dbpedialite.org/things/46313#id> .
+
+<http://www.bbc.co.uk/things/fbfc7477-3925-4e67-a328-192d47cbbc6b#id>
+	rdfs:label "Buddhism"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Buddhism> ;
+	owl:sameAs <http://dbpedialite.org/things/3267529#id> .
+
+<http://www.bbc.co.uk/things/c20cac1b-8032-4459-a357-77d4184817dc#id>
+	rdfs:label "Beliefs"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Belief> ;
+	owl:sameAs <http://dbpedialite.org/things/102883#id> .
+
+<http://www.bbc.co.uk/things/32241d67-11a2-4d12-9804-61db71e910cf#id>
+	rdfs:label "Global Issues"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/25414#id> ;
+	skos:broader <http://dbpedialite.org/things/13303099#id> ;
+	skos:broader <http://dbpedialite.org/things/25414#id> .
+
+<http://www.bbc.co.uk/things/94f515eb-971c-4af2-a398-a78ce617b632#id>
+	rdfs:label "Christianity"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/5211#id> .
+
+<http://www.bbc.co.uk/things/219c3e66-2fc2-4a7a-b697-c98b7ad629b2#id>
+	rdfs:label "Ethics"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ethics> ;
+	owl:sameAs <http://dbpedialite.org/things/9258#id> .
+
+<http://www.bbc.co.uk/things/c605c5a5-e60b-4397-915b-2890ed07cee2#id>
+	rdfs:label "Media"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Religion> ;
+	owl:sameAs <http://dbpedialite.org/things/25414#id> .
+
+<http://www.bbc.co.uk/things/08ea513c-312e-4df3-a614-b8bd56026348#id>
+	rdfs:label "Practices"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/25414#id> .
+
+<http://www.bbc.co.uk/things/b1e211bf-e824-4488-b83c-eea8b4080d12#id>
+	rdfs:label "Sources"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/25414#id> .
+
+<http://www.bbc.co.uk/things/4bf1b51e-9d2b-46f1-8825-19740361aa97#id>
+	rdfs:label "Hinduism"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Hinduism> ;
+	owl:sameAs <http://dbpedialite.org/things/13543#id> .
+
+<http://www.bbc.co.uk/things/43c39c79-c43a-4bd1-a6b3-8a07e8b7bf0b#id>
+	rdfs:label "Islam"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Islam> ;
+	owl:sameAs <http://dbpedialite.org/things/6037917#id> .
+
+<http://www.bbc.co.uk/things/2b1a15a9-6bbb-4ff1-af40-e6b50938c795#id>
+	rdfs:label "Judaism"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Judaism> ;
+	owl:sameAs <http://dbpedialite.org/things/15624#id> .
+
+<http://www.bbc.co.uk/things/8cc353c6-1bb0-4793-9095-643a69d1b12a#id>
+	rdfs:label "Roman Catholicism"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Roman_Catholicism> ;
+	owl:sameAs <http://dbpedialite.org/things/606848#id> .
+
+<http://www.bbc.co.uk/things/635079a5-b932-4829-8052-88aba2bb9b50#id>
+	rdfs:label "Sikhism"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sikhism> ;
+	owl:sameAs <http://dbpedialite.org/things/27964#id> .
+
+<http://www.bbc.co.uk/things/51f67483-5b61-4612-8967-3c3e148d89df#id>
+	rdfs:label "Atheism"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Atheism> ;
+	owl:sameAs <http://dbpedialite.org/things/15247542#id> .
+
+<http://www.bbc.co.uk/things/34abd207-1c9e-4614-97a6-70b56f5b1f94#id>
+	rdfs:label "Practices and belonging"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/25414#id> .
+
+<http://www.bbc.co.uk/things/e42c67e4-65d8-4599-bd0b-d918806ee480#id>
+	rdfs:label "Design considerations"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/21296224#id> .
+
+<http://www.bbc.co.uk/things/c74d2cbc-3c67-493e-912a-6af54eb8fe6c#id>
+	rdfs:label "CAD, CAM and new technologies"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/37315#id> ;
+	skos:broader <http://dbpedialite.org/things/162289#id> ;
+	skos:broader <http://dbpedialite.org/things/13315514#id> .
+
+<http://www.bbc.co.uk/things/bb2cebb2-c350-4a47-b147-fe1c4d4d21d8#id>
+	rdfs:label "Aims and organisation"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/227101#id> ;
+	skos:broader <http://dbpedialite.org/things/39206#id> .
+
+<http://www.bbc.co.uk/things/d9ddfd9c-4262-4502-896c-dcdb0a2834d2#id>
+	rdfs:label "Enterprise and entrepreneurship"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Entrepreneurship> ;
+	owl:sameAs <http://dbpedialite.org/things/18950003#id> .
+
+<http://www.bbc.co.uk/things/b0497c40-5131-4e9d-a826-dd38bd4ba724#id>
+	rdfs:label "Marketing"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Marketing> ;
+	owl:sameAs <http://dbpedialite.org/things/59252#id> .
+
+<http://www.bbc.co.uk/things/0790ef6b-dbd7-49b3-af81-d6aeee4198a8#id>
+	rdfs:label "Finance"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Finance> ;
+	owl:sameAs <http://dbpedialite.org/things/11162#id> .
+
+<http://www.bbc.co.uk/things/28bb2c0f-8344-431d-b2a5-b27aa67fcee3#id>
+	rdfs:label "People in business"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Business_people> ;
+	owl:sameAs <http://dbpedialite.org/things/147292#id> .
+
+<http://www.bbc.co.uk/things/0daf530f-d73a-4677-83ad-2ec0fd3eac2f#id>
+	rdfs:label "Production"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Production_(economics)> ;
+	owl:sameAs <http://dbpedialite.org/things/13228814#id> .
+
+<http://www.bbc.co.uk/things/c00faa6c-c268-43cf-8080-2928bea27116#id>
+	rdfs:label "Business environment"@en-gb ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Economic_environment> ;
+	owl:sameAs <http://dbpedialite.org/things/9223#id> .
+
+<http://www.bbc.co.uk/things/a7bbc0ef-7c0b-4ae4-9712-240d40cccd1e#id>
+	rdfs:label "External factors"@en-gb ;
+	skos:broader <http://dbpedialite.org/things/8613151#id> .
+
